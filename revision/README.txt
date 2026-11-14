@@ -111,7 +111,11 @@ dist内は生成結果なので、問題文の修正はdata内へ反映してか
 Git
   第3章フォルダがローカルリポジトリです。
   元75問のコミットと改訂版のコミットを分け、差分を記録しています。
-  外部サービスへのpush・公開はしていません。
+  作問データは https://github.com/ken1999udon/hitotsuzutsu-cards へpushして公開します。
+  revision/data内を編集してcommit・git pushすると、GitHub Actionsがサイト用JSONを生成します。
+  学習サイトがそのJSONを自動で読むため、問題だけの更新にAPKG生成やサイト再デプロイは不要です。
+  このファイルの「再生成と確認」は、Anki用APKG・CSV等の配布物も作り直す場合の手順です。
+  詳細は第3章フォルダ直下のREADME.mdとAGENTS.mdを参照してください。
 
 関連する学習・作問の参考
   https://www.supermemo.com/en/blog/twenty-rules-of-formulating-knowledge
