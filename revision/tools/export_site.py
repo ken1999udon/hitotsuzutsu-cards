@@ -38,6 +38,8 @@ def build(output):
         cards.append({'id':c['id'],'question':t(c['question']),'answer':answer,'html':True,
                       'section':facts[0]['section'],'section_title':sections[facts[0]['section']],
                       'sources':links,'kind':c['kind'],'knowledge_ids':c['knowledge_ids']})
+    if not cards:
+        raise ValueError('公開するカードがありません。以前の公開データを維持します。')
     assert len({c['id'] for c in cards})==len(cards)
     # Content hash changes on any source edit, including a correction within one day.
     digest=sha256(b'\0'.join((SNAPSHOT/name).read_bytes() for name in FILES)).hexdigest()
