@@ -1,0 +1,45 @@
+name: Publish study cards
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'revision/data/**'
+      - 'revision/tools/export_site.py'
+      - '.github/workflows/publish-cards.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-cards
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Generate the browser deck
+        run: python3 revision/tools/export_site.py --output "$RUNNER_TEMP/deck.json"
+      - name: Publish the generated JSON
+        shell: bash
+        run: |
+          source_sha=$(git rev-parse HEAD)
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git ls-remote --exit-code --heads origin published; then
+            git fetch origin published
+            git switch -c published FETCH_HEAD
+          else
+            git switch --orphan published
+          fi
+          cp "$RUNNER_TEMP/deck.json" deck.json
+          git add deck.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish cards from $source_sha"
+            git push origin HEAD:published
+          fi
