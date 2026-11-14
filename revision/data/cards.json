@@ -1,3114 +1,776 @@
 [
   {
     "id": "K03-001-B",
-    "knowledge_ids": [
-      "K03-001"
-    ],
-    "kind": "知識",
     "question": "Ethernetを規定するIEEE 802系列の規格番号は？",
     "answer": "IEEE 802.3。",
-    "required": [
-      "IEEE 802.3"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q01"
-    ],
-    "scenario": null
+    "section_title": "Ethernetの基本",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet.html"
+    ]
   },
   {
     "id": "K03-002-B",
-    "knowledge_ids": [
-      "K03-002"
-    ],
-    "kind": "知識",
     "question": "Ethernetは、OSI参照モデルの主にどの2層に対応する？",
     "answer": "物理層とデータリンク層。",
-    "required": [
-      "物理層とデータリンク層の両方（第1層・第2層でもよい）"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q02"
-    ],
-    "scenario": null
+    "section_title": "Ethernetの基本",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet.html"
+    ]
   },
   {
     "id": "K03-003-B",
-    "knowledge_ids": [
-      "K03-003"
-    ],
-    "kind": "知識",
-    "question": "通信速度を表すbpsは、1秒当たりの何の数を表す？",
-    "answer": "ビット数。",
-    "required": [
-      "ビット数"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q03"
-    ],
-    "scenario": null
+    "question": "通信速度の単位bpsは、何を表す？",
+    "answer": "1秒当たりに伝送するビット数。",
+    "section_title": "Ethernetの基本",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet.html"
+    ]
   },
   {
     "id": "K03-004-B",
-    "knowledge_ids": [
-      "K03-004"
-    ],
-    "kind": "数値",
     "question": "1Gbpsは何Mbpsか。",
     "answer": "1,000Mbps。",
-    "required": [
-      "1,000Mbps"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q04"
-    ],
-    "scenario": null
+    "section_title": "Ethernetの基本",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet.html"
+    ]
   },
   {
     "id": "K03-005-B",
-    "knowledge_ids": [
-      "K03-005"
-    ],
-    "kind": "数値",
-    "question": "1バイト＝8ビットとして、100Mbpsは理論上何MB/sか。Mは10進接頭辞とし、オーバーヘッドを無視する。",
+    "question": "100Mbpsをバイト毎秒に換算すると、理論上何MB/sか。",
     "answer": "12.5MB/s。",
-    "required": [
-      "12.5MB/s（Mは10の6乗）"
-    ],
-    "explanation": "100÷8＝12.5。アプリケーションの実測速度を保証する問題ではない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q05"
-    ],
-    "scenario": null
+    "section_title": "Ethernetの基本",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet.html"
+    ]
   },
   {
     "id": "K03-006-B",
-    "knowledge_ids": [
-      "K03-006"
-    ],
-    "kind": "数値",
     "question": "Fast Ethernetの通信速度は？",
     "answer": "100Mbps。",
-    "required": [
-      "100Mbps"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q06"
-    ],
-    "scenario": null
+    "section_title": "Ethernetの規格と速度",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet1.html"
+    ]
   },
   {
     "id": "K03-007-B",
-    "knowledge_ids": [
-      "K03-007"
-    ],
-    "kind": "数値",
     "question": "Gigabit Ethernetの通信速度は？",
     "answer": "1Gbps。",
-    "required": [
-      "1Gbps"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q07"
-    ],
-    "scenario": null
+    "section_title": "Ethernetの規格と速度",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet1.html"
+    ]
   },
   {
     "id": "K03-008-B",
-    "knowledge_ids": [
-      "K03-008"
-    ],
-    "kind": "数値",
     "question": "10 Gigabit Ethernetの通信速度は？",
     "answer": "10Gbps。",
-    "required": [
-      "10Gbps"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q08"
-    ],
-    "scenario": null
+    "section_title": "Ethernetの規格と速度",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet1.html"
+    ]
   },
   {
     "id": "K03-009-B",
-    "knowledge_ids": [
-      "K03-009"
-    ],
-    "kind": "数値",
     "question": "1000BASE-Tの規格上の最大伝送距離は？",
     "answer": "100m。",
-    "required": [
-      "100m"
-    ],
-    "explanation": "規格に適合する配線を使用する。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q09"
-    ],
-    "scenario": null
+    "section_title": "Ethernetの規格と速度",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet1.html"
+    ]
   },
   {
     "id": "K03-010-B",
-    "knowledge_ids": [
-      "K03-010"
-    ],
-    "kind": "知識",
     "question": "100BASE-TXなどの名称に含まれるBASEは、どの伝送方式を示す？",
     "answer": "ベースバンド方式。",
-    "required": [
-      "ベースバンド方式"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q10"
-    ],
-    "scenario": null
+    "section_title": "Ethernetの規格と速度",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet1.html"
+    ]
   },
   {
     "id": "K03-011a-B",
-    "knowledge_ids": [
-      "K03-011a"
-    ],
-    "kind": "数値",
-    "question": "2.5GBASE-Tの伝送速度は？",
-    "answer": "2.5Gbps。",
-    "required": [
-      "2.5Gbps"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q11"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-011b-B",
-    "knowledge_ids": [
-      "K03-011b"
-    ],
-    "kind": "数値",
-    "question": "5GBASE-Tの伝送速度は？",
-    "answer": "5Gbps。",
-    "required": [
-      "5Gbps"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q11"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-012-B",
-    "knowledge_ids": [
-      "K03-012"
-    ],
-    "kind": "知識",
-    "question": "2.5GBASE-Tと5GBASE-Tを標準化した規格番号は？",
-    "answer": "IEEE 802.3bz。",
-    "required": [
-      "IEEE 802.3bz"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q12"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-013-B",
-    "knowledge_ids": [
-      "K03-013"
-    ],
-    "kind": "知識",
-    "question": "2.5GBASE-Tで再利用できる、広く普及したLANケーブルのカテゴリは？",
-    "answer": "カテゴリ5e（Cat5e）。",
-    "required": [
-      "カテゴリ5e（Cat5e）"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q13"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-014-B",
-    "knowledge_ids": [
-      "K03-014"
-    ],
-    "kind": "動作",
-    "question": "高速な無線APに1Gbpsの有線接続を使うと、どの区間がボトルネックになり得る？",
-    "answer": "APとスイッチ間の有線区間。",
-    "required": [
-      "APとスイッチの間の有線リンク"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q14"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-015-B",
-    "knowledge_ids": [
-      "K03-015"
-    ],
-    "kind": "数値",
-    "question": "2.5GBASE-T／5GBASE-Tの標準で想定する最大伝送距離は？",
-    "answer": "100m。",
-    "required": [
-      "100m"
-    ],
-    "explanation": "使用する配線は規格の要件を満たす必要がある。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q15"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-016-B",
-    "knowledge_ids": [
-      "K03-016"
-    ],
-    "kind": "知識",
-    "question": "UTPとシールド付きツイストペアケーブルを比べたとき、UTPにないものは？",
-    "answer": "シールド。",
-    "required": [
-      "シールド"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q16"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-017-B",
-    "knowledge_ids": [
-      "K03-017"
-    ],
-    "kind": "数値",
-    "question": "一般的な4対のLAN用ツイストペアケーブルは、合計何本の芯線を持つ？",
-    "answer": "8本。",
-    "required": [
-      "8本（4対×2本）"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q17"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-018-B",
-    "knowledge_ids": [
-      "K03-018"
-    ],
-    "kind": "知識",
-    "question": "外来ノイズの影響を抑えるため、シールドを備えたツイストペアケーブルを何という？",
-    "answer": "STPケーブル（Shielded Twisted Pair）。",
-    "required": [
-      "STPケーブル（Shielded Twisted Pair）"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q18"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-019-B",
-    "knowledge_ids": [
-      "K03-019"
-    ],
-    "kind": "知識",
-    "question": "光ファイバーで、光が主に伝わる中心部分を何という？",
-    "answer": "コア。",
-    "required": [
-      "コア"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q19"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-020-B",
-    "knowledge_ids": [
-      "K03-020"
-    ],
-    "kind": "知識",
-    "question": "一般に、長距離伝送向けに用いられるのはSMFとMMFのどちらか。",
-    "answer": "SMF（シングルモードファイバー）。",
-    "required": [
-      "SMF（シングルモードファイバー）"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q20"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-021-B",
-    "knowledge_ids": [
-      "K03-021"
-    ],
-    "kind": "知識",
-    "question": "両端を同じピン配列で結線したLANケーブルを何という？",
-    "answer": "ストレートケーブル。",
-    "required": [
-      "ストレートケーブル"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q21"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-022-B",
-    "knowledge_ids": [
-      "K03-022"
-    ],
-    "kind": "知識",
-    "question": "100BASE-TXでAuto MDI/MDI-Xを使わず、MDIとMDI-Xを接続するケーブルは？",
-    "answer": "ストレートケーブル。",
-    "required": [
-      "ストレートケーブル"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q22"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-023-B",
-    "knowledge_ids": [
-      "K03-023"
-    ],
-    "kind": "知識",
-    "question": "100BASE-TXでAuto MDI/MDI-Xを使わず、MDI同士を接続するケーブルは？",
-    "answer": "クロスケーブル。",
-    "required": [
-      "クロスケーブル"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q23"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-024-B",
-    "knowledge_ids": [
-      "K03-024"
-    ],
-    "kind": "知識",
-    "question": "接続先に応じ、送受信の配線の対応を自動調整する機能は？",
-    "answer": "Auto MDI/MDI-X。",
-    "required": [
-      "Auto MDI/MDI-X"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q24"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-025-B",
-    "knowledge_ids": [
-      "K03-025"
-    ],
-    "kind": "数値",
-    "question": "100BASE-TXのMDIポートで、送信に使用するピン番号は？",
-    "answer": "1番と2番。",
-    "required": [
-      "1番と2番"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q25"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-026-B",
-    "knowledge_ids": [
-      "K03-026"
-    ],
-    "kind": "数値",
-    "question": "Ethernetで一般的に使うMACアドレスの長さは何ビットか。",
-    "answer": "48ビット（6バイト）。",
-    "required": [
-      "48ビット、または6バイト"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [
-      "6バイト"
-    ],
-    "legacy_ids": [
-      "Q26"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-027-B",
-    "knowledge_ids": [
-      "K03-027"
-    ],
-    "kind": "動作",
-    "question": "Ethernet IIのTypeフィールドは、何を識別する？",
-    "answer": "データ部に格納された上位層のプロトコル。",
-    "required": [
-      "データ部の上位層プロトコルの識別"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q27"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-028-B",
-    "knowledge_ids": [
-      "K03-028"
-    ],
-    "kind": "数値",
-    "question": "Ethernet IIでIPv4を示すType値は？",
-    "answer": "0x0800。",
-    "required": [
-      "0x0800"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q28"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-029-B",
-    "knowledge_ids": [
-      "K03-029"
-    ],
-    "kind": "動作",
-    "question": "EthernetフレームのFCSが検出するものは？",
-    "answer": "伝送中のビット誤り。",
-    "required": [
-      "伝送中のビット誤りの検出"
-    ],
-    "explanation": "CRCを使って検査する。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q29"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-030a-B",
-    "knowledge_ids": [
-      "K03-030a"
-    ],
-    "kind": "数値",
-    "question": "VLANタグなしの通常のEthernetフレームは、宛先MACからFCSまでで最小何バイトか。",
-    "answer": "64バイト。",
-    "required": [
-      "64バイト"
-    ],
-    "explanation": "プリアンブル・SFD・IFGを含めない。ジャンボフレームは対象外。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q30"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-030b-B",
-    "knowledge_ids": [
-      "K03-030b"
-    ],
-    "kind": "数値",
-    "question": "VLANタグなしの通常のEthernetフレームは、宛先MACからFCSまでで最大何バイトか。",
-    "answer": "1,518バイト。",
-    "required": [
-      "1,518バイト"
-    ],
-    "explanation": "プリアンブル・SFD・IFGを含めない。ジャンボフレームは対象外。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q30"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-031-B",
-    "knowledge_ids": [
-      "K03-031"
-    ],
-    "kind": "知識",
-    "question": "短いEthernetフレームを最小長まで埋める処理を何という？",
-    "answer": "パディング。",
-    "required": [
-      "パディング"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q31"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-032-B",
-    "knowledge_ids": [
-      "K03-032"
-    ],
-    "kind": "知識",
-    "question": "Ethernetのブロードキャスト宛先MACアドレスは？",
-    "answer": "FF:FF:FF:FF:FF:FF（48ビットすべて1）。",
-    "required": [
-      "FF:FF:FF:FF:FF:FFなど、48ビットすべてが1の表記"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [
-      "FFFF.FFFF.FFFF",
-      "FF-FF-FF-FF-FF-FF"
-    ],
-    "legacy_ids": [
-      "Q32"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-033-B",
-    "knowledge_ids": [
-      "K03-033"
-    ],
-    "kind": "動作",
-    "question": "CSMA/CDのCarrier Senseでは、送信前に何を確認する？",
-    "answer": "伝送媒体がほかの通信に使用されていないか。",
-    "required": [
-      "共有媒体がほかの通信で使用中かどうかを確認する"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q33"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-034-B",
-    "knowledge_ids": [
-      "K03-034"
-    ],
-    "kind": "動作",
-    "question": "CSMA/CDのMultiple Accessは、どのような媒体利用を意味する？",
-    "answer": "複数の端末で同じ伝送媒体を共有すること。",
-    "required": [
-      "複数端末による同じ伝送媒体の共有"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q34"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-035-B",
-    "knowledge_ids": [
-      "K03-035"
-    ],
-    "kind": "知識",
-    "question": "CSMA/CDのCollision Detectionは、何を検出する？",
-    "answer": "同時送信による信号の衝突。",
-    "required": [
-      "同時送信による信号の衝突"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q35"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-036-B",
-    "knowledge_ids": [
-      "K03-036"
-    ],
-    "kind": "理由",
-    "question": "衝突後、再送までの待機時間をランダムにするのはなぜか。",
-    "answer": "再送時刻をずらし、再衝突を避けるため。",
-    "required": [
-      "端末同士の再送タイミングをずらす",
-      "再衝突を避ける目的"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q36"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-037-B",
-    "knowledge_ids": [
-      "K03-037"
-    ],
-    "kind": "知識",
-    "question": "CSMA/CDが使われるのは、半二重と全二重のどちらか。",
-    "answer": "半二重。",
-    "required": [
-      "半二重"
-    ],
-    "explanation": "全二重Ethernetでは使用しない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q37"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-038-B",
-    "knowledge_ids": [
-      "K03-038"
-    ],
-    "kind": "知識",
-    "question": "リピータハブが動作するOSI参照モデルの層は？",
-    "answer": "物理層（第1層）。",
-    "required": [
-      "物理層（第1層）"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q38"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-039-B",
-    "knowledge_ids": [
-      "K03-039"
-    ],
-    "kind": "知識",
-    "question": "L2スイッチが主に転送判断を行う層は？",
-    "answer": "データリンク層（第2層）。",
-    "required": [
-      "データリンク層（第2層）"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q39"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-040-B",
-    "knowledge_ids": [
-      "K03-040"
-    ],
-    "kind": "知識",
-    "question": "ルータが主に経路選択を行う層は？",
-    "answer": "ネットワーク層（第3層）。",
-    "required": [
-      "ネットワーク層（第3層）"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q40"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-041-B",
-    "knowledge_ids": [
-      "K03-041"
-    ],
-    "kind": "動作",
-    "question": "リピータハブは、ポートごとにコリジョンドメインを分割できるか。",
-    "answer": "分割できない。",
-    "required": [
-      "分割できない"
-    ],
-    "explanation": "同じハブ配下の端末は衝突の影響範囲を共有する。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q41"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-042-B",
-    "knowledge_ids": [
-      "K03-042"
-    ],
-    "kind": "動作",
-    "question": "ルータは、通常のL2ブロードキャストドメインをインターフェース間で分割できるか。",
-    "answer": "分割できる。",
-    "required": [
-      "分割できる"
-    ],
-    "explanation": "通常のL2ブロードキャストを別のセグメントへそのまま転送しない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q42"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-043-B",
-    "knowledge_ids": [
-      "K03-043"
-    ],
-    "kind": "知識",
-    "question": "L2スイッチがMACアドレスを学習するとき、受信フレームの送信元・宛先のどちらを使う？",
-    "answer": "送信元MACアドレス。",
-    "required": [
-      "送信元MACアドレス"
-    ],
-    "explanation": "受信ポートやVLANと対応付ける。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q43"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-044-B",
-    "knowledge_ids": [
-      "K03-044"
-    ],
-    "kind": "動作",
-    "question": "宛先MACが未学習のユニキャストフレームを、通常のL2スイッチはどこへ転送する？",
-    "answer": "同じVLANの転送可能なポートのうち、受信ポートを除いたポート。",
-    "required": [
-      "同じVLAN",
-      "受信ポートを除く",
-      "転送可能なポートに送る"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q44"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-045-B",
-    "knowledge_ids": [
-      "K03-045"
-    ],
-    "kind": "知識",
-    "question": "動的に学習したMACエントリを、一定時間更新がなければ削除する動作は？",
-    "answer": "エージング。",
-    "required": [
-      "エージング"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q45"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-046-B",
-    "knowledge_ids": [
-      "K03-046"
-    ],
-    "kind": "知識",
-    "question": "フレーム全体を受信し、FCSを検査してから転送する方式は？",
-    "answer": "ストアアンドフォワード。",
-    "required": [
-      "ストアアンドフォワード"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q46"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-047-B",
-    "knowledge_ids": [
-      "K03-047"
-    ],
-    "kind": "知識",
-    "question": "フレーム全体の受信完了前に転送を始める方式は？",
-    "answer": "カットスルー。",
-    "required": [
-      "カットスルー"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q47"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-048-B",
-    "knowledge_ids": [
-      "K03-048"
-    ],
-    "kind": "数値",
-    "question": "フラグメントフリー方式は、先頭何バイトの受信を待って転送する？",
-    "answer": "64バイト。",
-    "required": [
-      "64バイト"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q48"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-049-B",
-    "knowledge_ids": [
-      "K03-049"
-    ],
-    "kind": "知識",
-    "question": "送信と受信を同時に行える通信方式は？",
-    "answer": "全二重通信。",
-    "required": [
-      "全二重通信"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q49"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-050-B",
-    "knowledge_ids": [
-      "K03-050"
-    ],
-    "kind": "知識",
-    "question": "送信と受信を同時に行わず、交互に行う通信方式は？",
-    "answer": "半二重通信。",
-    "required": [
-      "半二重通信"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q50"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-051-B",
-    "knowledge_ids": [
-      "K03-051"
-    ],
-    "kind": "数値",
-    "question": "1Gbps・全二重のリンクで、一方向当たりの最大伝送速度は？",
-    "answer": "1Gbps。",
-    "required": [
-      "一方向は1Gbps"
-    ],
-    "explanation": "送受信を合わせた値と、一方向の速度を区別する。実効転送速度はヘッダなどの影響も受ける。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q51"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-052-B",
-    "knowledge_ids": [
-      "K03-052"
-    ],
-    "kind": "知識",
-    "question": "Ethernetのオートネゴシエーションが自動調整する、速度以外の主な項目は？",
-    "answer": "全二重・半二重の通信モード。",
-    "required": [
-      "全二重・半二重の通信モード"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q52"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-053-B",
-    "knowledge_ids": [
-      "K03-053"
-    ],
-    "kind": "知識",
-    "question": "両端が100BASE-TX全二重と10BASE-T全二重を広告し、オートネゴシエーションで接続する。どちらが選ばれる？",
-    "answer": "100BASE-TX全二重。",
-    "required": [
-      "100BASE-TX全二重"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q53"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-054-B",
-    "knowledge_ids": [
-      "K03-054"
-    ],
-    "kind": "知識",
-    "question": "LLDPは、基本的にどの機器間で情報を交換する？",
-    "answer": "直接隣接する機器間。",
-    "required": [
-      "直接隣接する機器間"
-    ],
-    "explanation": "IEEE標準のため、対応している異なるベンダー間でも情報交換できる。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q54"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-055-B",
-    "knowledge_ids": [
-      "K03-055"
-    ],
-    "kind": "知識",
-    "question": "LLDPが動作するOSI参照モデルの層は？",
-    "answer": "データリンク層（第2層）。",
-    "required": [
-      "データリンク層（第2層）"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q55"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-056-B",
-    "knowledge_ids": [
-      "K03-056"
-    ],
-    "kind": "知識",
-    "question": "LLDPの標準規格番号は？",
-    "answer": "IEEE 802.1AB。",
-    "required": [
-      "IEEE 802.1AB"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q56"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-057-B",
-    "knowledge_ids": [
-      "K03-057"
-    ],
-    "kind": "知識",
-    "question": "LLDPの情報表現に使う、Type・Length・Valueの組を何という？",
-    "answer": "TLV。",
-    "required": [
-      "TLV"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q57"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-058-B",
-    "knowledge_ids": [
-      "K03-058"
-    ],
-    "kind": "動作",
-    "question": "LLDPのTime To Liveは、受信側での何の期限を表す？",
-    "answer": "隣接機器の情報を有効として保持する期限。",
-    "required": [
-      "受信した隣接機器情報の有効保持期限"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q58"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-059-B",
-    "knowledge_ids": [
-      "K03-059"
-    ],
-    "kind": "知識",
-    "question": "別サブネットのホストへ、デフォルトルートで送信する。最初のEthernetフレームの宛先MACは誰のMACか。",
-    "answer": "同一LAN上のデフォルトゲートウェイのMACアドレス。",
-    "required": [
-      "送信元ホストと同じLAN上のデフォルトゲートウェイのMACアドレス"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q59"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-060-B",
-    "knowledge_ids": [
-      "K03-060"
-    ],
-    "kind": "動作",
-    "question": "NATなどがない通常のルーティングで、宛先IPはルータごとに書き換わるか。",
-    "answer": "書き換わらず、最終宛先ホストのIPアドレスを保持する。",
-    "required": [
-      "宛先IPは書き換わらない"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q60"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-061-B",
-    "knowledge_ids": [
-      "K03-061"
-    ],
-    "kind": "知識",
-    "question": "ルータが次のEthernet区間へ送るとき、送信元MACは誰のMACになる？",
-    "answer": "そのルータの送出インターフェースのMACアドレス。",
-    "required": [
-      "ルータの送出インターフェースのMACアドレス"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q61"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-062-B",
-    "knowledge_ids": [
-      "K03-062"
-    ],
-    "kind": "知識",
-    "question": "IPv4の次ホップのMACが不明なとき、Ethernet上で解決に使うプロトコルは？",
-    "answer": "ARP。",
-    "required": [
-      "ARP"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q62"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-063-B",
-    "knowledge_ids": [
-      "K03-063"
-    ],
-    "kind": "知識",
-    "question": "ルータがパケットの次ホップや送出インターフェースを決めるときに参照する表は？",
-    "answer": "ルーティングテーブル。",
-    "required": [
-      "ルーティングテーブル"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q63"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-064-B",
-    "knowledge_ids": [
-      "K03-064"
-    ],
-    "kind": "知識",
-    "question": "PLCがデータ伝送に使用する配線は？",
-    "answer": "電力線。",
-    "required": [
-      "電力線"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q64"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-065-B",
-    "knowledge_ids": [
-      "K03-065"
-    ],
-    "kind": "知識",
-    "question": "PLCの英語名称は？",
-    "answer": "Power Line Communication。",
-    "required": [
-      "Power Line Communication"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q65"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-066-B",
-    "knowledge_ids": [
-      "K03-066"
-    ],
-    "kind": "知識",
-    "question": "LAN機器を電力線での通信に接続する装置を何という？",
-    "answer": "PLCモデム、またはPLCアダプター。",
-    "required": [
-      "PLCモデム、またはPLCアダプター"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q66"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-067-B",
-    "knowledge_ids": [
-      "K03-067"
-    ],
-    "kind": "動作",
-    "question": "LANケーブルの新設が難しい場所でPLCを使うと、既設のどの配線を通信に利用できる？",
-    "answer": "既存の電力配線。",
-    "required": [
-      "既存の電力配線を通信に利用する"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q67"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-068-B",
-    "knowledge_ids": [
-      "K03-068"
-    ],
-    "kind": "動作",
-    "question": "PLCの通信速度が理論値より低くなる原因となる、電力線上の要因の例は？",
-    "answer": "電気機器などが発生するノイズ。",
-    "required": [
-      "電気機器などから電力線に入るノイズ"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q68"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-069-B",
-    "knowledge_ids": [
-      "K03-069"
-    ],
-    "kind": "知識",
-    "question": "EthernetのLANケーブルで、通信と併せて電力も供給する技術は？",
-    "answer": "PoE（Power over Ethernet）。",
-    "required": [
-      "PoE、またはPower over Ethernet"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q69"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-070-B",
-    "knowledge_ids": [
-      "K03-070"
-    ],
-    "kind": "知識",
-    "question": "PoEの給電機器を表す略称は？",
-    "answer": "PSE（Power Sourcing Equipment）。",
-    "required": [
-      "PSE"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [
-      "Power Sourcing Equipment"
-    ],
-    "legacy_ids": [
-      "Q70"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-071-B",
-    "knowledge_ids": [
-      "K03-071"
-    ],
-    "kind": "知識",
-    "question": "PoEの受電機器を表す略称は？",
-    "answer": "PD（Powered Device）。",
-    "required": [
-      "PD"
-    ],
-    "explanation": "PDはPowered Device。参考ページのPower Deviceという表記は採用しない。",
-    "accepted": [
-      "Powered Device"
-    ],
-    "legacy_ids": [
-      "Q71"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-072-B",
-    "knowledge_ids": [
-      "K03-072"
-    ],
-    "kind": "数値",
-    "question": "IEEE 802.3afの、PSE側の1ポート当たりの最大給電電力は？",
-    "answer": "15.4W。",
-    "required": [
-      "15.4W"
-    ],
-    "explanation": "ケーブルで損失が生じるため、PSEの給電電力とPDが利用できる電力は同じ値ではない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q72"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-073-B",
-    "knowledge_ids": [
-      "K03-073"
-    ],
-    "kind": "数値",
-    "question": "IEEE 802.3atのPoE+で、PSE側の1ポート当たりの最大給電電力は？",
-    "answer": "30W。",
-    "required": [
-      "30W"
-    ],
-    "explanation": "ケーブルで損失が生じるため、PSEの給電電力とPDが利用できる電力は同じ値ではない。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q73"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-074-B",
-    "knowledge_ids": [
-      "K03-074"
-    ],
-    "kind": "知識",
-    "question": "IEEE 802.3btによる高出力のPoEは、一般に何と呼ばれる？",
-    "answer": "PoE++。",
-    "required": [
-      "PoE++"
-    ],
-    "explanation": "通称の使い方はベンダーによって差がある。仕様選定ではIEEE 802.3btのType・ClassとPSE/PDの電力を確認する。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q74"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-075-B",
-    "knowledge_ids": [
-      "K03-075"
-    ],
-    "kind": "動作",
-    "question": "規格準拠のPoEスイッチは、PoE非対応のPCにも通常給電を開始するか。",
-    "answer": "開始しない。",
-    "required": [
-      "通常給電を開始しない"
-    ],
-    "explanation": "規格に準拠するPSEは受電機器を検出してから通常給電する。検出せず常時給電するパッシブPoEは別扱い。",
-    "accepted": [],
-    "legacy_ids": [
-      "Q75"
-    ],
-    "scenario": null
-  },
-  {
-    "id": "K03-076-B",
-    "knowledge_ids": [
-      "K03-076"
-    ],
-    "kind": "知識",
-    "question": "リンク速度が1Gbpsなら、アプリケーションのデータも常に1Gbpsで転送できるか。",
-    "answer": "できない。",
-    "required": [
-      "実効速度がリンク速度と常に一致するわけではない"
-    ],
-    "explanation": "ヘッダ、フレーム間隔、他の通信、処理性能なども実効速度に影響する。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-077-B",
-    "knowledge_ids": [
-      "K03-077"
-    ],
-    "kind": "知識",
-    "question": "周波数の幅としての帯域幅は、bpsとHzのどちらで表す？",
-    "answer": "Hz。",
-    "required": [
-      "Hz"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-078-B",
-    "knowledge_ids": [
-      "K03-078"
-    ],
-    "kind": "知識",
-    "question": "MAC副層とLLC副層のうち、媒体アクセスやMACアドレスによるフレームの扱いを担うのは？",
-    "answer": "MAC副層。",
-    "required": [
-      "MAC副層"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-079-B",
-    "knowledge_ids": [
-      "K03-079"
-    ],
-    "kind": "知識",
-    "question": "1000BASE-Tの先頭の1000は、何を示す数値か。",
-    "answer": "伝送速度1,000Mbps。",
-    "required": [
-      "伝送速度",
-      "1,000Mbps（1Gbps）"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-080-B",
-    "knowledge_ids": [
-      "K03-080"
-    ],
-    "kind": "知識",
-    "question": "1000BASE-Tの伝送媒体は、ツイストペアケーブルと光ファイバーのどちらか。",
-    "answer": "ツイストペアケーブル。",
-    "required": [
-      "ツイストペアケーブル"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-081-B",
-    "knowledge_ids": [
-      "K03-081"
-    ],
-    "kind": "知識",
-    "question": "1000BASE-SXで使う光ファイバーは、SMFとMMFのどちらか。",
-    "answer": "MMF。",
-    "required": [
-      "MMF"
-    ],
-    "explanation": "伝送距離はファイバーの種類や光モジュールの仕様に依存する。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-082-B",
-    "knowledge_ids": [
-      "K03-082"
-    ],
-    "kind": "知識",
-    "question": "10GBASE-LRで使う光ファイバーは、SMFとMMFのどちらか。",
-    "answer": "SMF。",
-    "required": [
-      "SMF"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-083-B",
-    "knowledge_ids": [
-      "K03-083"
-    ],
-    "kind": "知識",
-    "question": "旧来の10BASE5／10BASE2が使う伝送媒体は？",
-    "answer": "同軸ケーブル。",
-    "required": [
-      "同軸ケーブル"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-084-B",
-    "knowledge_ids": [
-      "K03-084"
-    ],
-    "kind": "知識",
-    "question": "一般的なツイストペアEthernetのLANケーブルで使う8極のコネクタは、通称何という？",
-    "answer": "RJ-45。",
-    "required": [
-      "RJ-45"
-    ],
-    "explanation": "コネクタの通称を確認する問題。電話用RJ-11とは区別する。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-085-B",
-    "knowledge_ids": [
-      "K03-085"
-    ],
-    "kind": "知識",
-    "question": "光ファイバーで、コアの外側を囲む部分は？",
-    "answer": "クラッド。",
-    "required": [
-      "クラッド"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-086-B",
-    "knowledge_ids": [
-      "K03-086"
-    ],
-    "kind": "知識",
-    "question": "10GBASE-Tを100mで使いたい。Cat5eとCat6Aのうち、規格に適合するチャネルとして選ぶべきものは？",
-    "answer": "Cat6A。",
-    "required": [
-      "Cat6A"
-    ],
-    "explanation": "ケーブル単体の表示だけでなく、コネクタなどを含むチャネル全体の適合が必要。短距離でのCat6の可否を問う問題ではない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-087-B",
-    "knowledge_ids": [
-      "K03-087"
-    ],
-    "kind": "知識",
-    "question": "100BASE-TXのMDIポートで、受信に使うピン番号は？",
-    "answer": "3番・6番。",
-    "required": [
-      "3番・6番"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-088-B",
-    "knowledge_ids": [
-      "K03-088"
-    ],
-    "kind": "知識",
-    "question": "100BASE-TXのMDI-Xポートで、送信に使うピン番号は？",
-    "answer": "3番・6番。",
-    "required": [
-      "3番・6番"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-089-B",
-    "knowledge_ids": [
-      "K03-089"
-    ],
-    "kind": "知識",
-    "question": "Ethernetのプリアンブルは、受信時の何を合わせるために使う？",
-    "answer": "送受信の同期。",
-    "required": [
-      "送受信の同期"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-090-B",
-    "knowledge_ids": [
-      "K03-090"
-    ],
-    "kind": "知識",
-    "question": "Ethernet IIでARPを示すType値は？",
-    "answer": "0x0806。",
-    "required": [
-      "0x0806"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-091-B",
-    "knowledge_ids": [
-      "K03-091"
-    ],
-    "kind": "知識",
-    "question": "Ethernet IIでIPv6を示すType値は？",
-    "answer": "0x86DD。",
-    "required": [
-      "0x86DD"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-092-B",
-    "knowledge_ids": [
-      "K03-092"
-    ],
-    "kind": "数値",
-    "question": "VLANタグなし・ジャンボフレームなしのEthernet IIで、データ部の最大長は？",
-    "answer": "1,500バイト。",
-    "required": [
-      "1,500バイト"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-093-B",
-    "knowledge_ids": [
-      "K03-093"
-    ],
-    "kind": "数値",
-    "question": "通常のタグなしEthernet IIで、パディングを含むデータ部の最小長は？",
-    "answer": "46バイト。",
-    "required": [
-      "46バイト"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-094-B",
-    "knowledge_ids": [
-      "K03-094"
-    ],
-    "kind": "数値",
-    "question": "EthernetのFCSの長さは何バイトか。",
-    "answer": "4バイト。",
-    "required": [
-      "4バイト"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-095-B",
-    "knowledge_ids": [
-      "K03-095"
-    ],
-    "kind": "知識",
-    "question": "EthernetのFCSが不一致だった。FCSのCRCだけで誤ったビットを訂正できるか。",
-    "answer": "できない。",
-    "required": [
-      "FCSのCRCだけでは誤り訂正できない"
-    ],
-    "explanation": "再送が必要な場合でも、EthernetのFCS自体が誤りを直すわけではない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-096-B",
-    "knowledge_ids": [
-      "K03-096"
-    ],
-    "kind": "数値",
-    "question": "OUIを先頭に使う通常のEUI-48形式で、OUIの長さは何ビットか。",
-    "answer": "24ビット。",
-    "required": [
-      "24ビット"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-097-B",
-    "knowledge_ids": [
-      "K03-097"
-    ],
-    "kind": "知識",
-    "question": "宛先MACアドレスのI/Gビットが1の場合、個別宛てとグループ宛てのどちらか。",
-    "answer": "グループ宛て。",
-    "required": [
-      "グループ宛て"
-    ],
-    "explanation": "マルチキャストまたはブロードキャスト。通常表記の先頭オクテットの最下位ビット。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-098-B",
-    "knowledge_ids": [
-      "K03-098"
-    ],
-    "kind": "知識",
-    "question": "MACアドレスのU/Lビットが1の場合、ユニバーサル管理とローカル管理のどちらか。",
-    "answer": "ローカル管理。",
-    "required": [
-      "ローカル管理"
-    ],
-    "explanation": "先頭オクテットの下位から2番目のビット。ローカルMACをメーカーOUIと決め付けない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-099-B",
-    "knowledge_ids": [
-      "K03-099"
-    ],
-    "kind": "知識",
-    "question": "MACアドレスは、ローカル管理の設定や誤設定も含めて、必ず世界中で一意と考えてよいか。理由も簡潔に答えよ。",
-    "answer": "よくない。ローカル管理や誤設定で重複があり得る。",
-    "required": [
-      "ローカル管理や誤設定で重複があり得る"
-    ],
-    "explanation": "IEEEの割当てによる一意性の意図と、実際のネットワークでの重複可能性を区別する。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-100-B",
-    "knowledge_ids": [
-      "K03-100"
-    ],
-    "kind": "知識",
-    "question": "半二重の共有Ethernetで、複数端末が同時に送信して信号が衝突することを何という？",
-    "answer": "コリジョン。",
-    "required": [
-      "コリジョン"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-101-B",
-    "knowledge_ids": [
-      "K03-101"
-    ],
-    "kind": "知識",
-    "question": "ブリッジがフレームの転送先を判断するとき、参照する主な宛先アドレスは？",
-    "answer": "宛先MACアドレス。",
-    "required": [
-      "宛先MACアドレス"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-102-B",
-    "knowledge_ids": [
-      "K03-102"
-    ],
-    "kind": "知識",
-    "question": "半二重リンクを収容するL2スイッチは、コリジョンドメインをポートごとに分割できるか。",
-    "answer": "できる。",
-    "required": [
-      "できる"
-    ],
-    "explanation": "全二重リンクではコリジョンを前提にしない。リピータハブの共有媒体との比較として覚える。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-103-B",
-    "knowledge_ids": [
-      "K03-103"
-    ],
-    "kind": "知識",
-    "question": "L2スイッチで、通常のL2ブロードキャストの届く範囲を論理的に分ける機能は？",
-    "answer": "VLAN。",
-    "required": [
-      "VLAN"
-    ],
-    "explanation": "単にポート数を増やすことと、VLANを分けることは別。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-104-B",
-    "knowledge_ids": [
-      "K03-104"
-    ],
-    "kind": "知識",
-    "question": "L3スイッチがL2スイッチの機能に加えて持つ、異なるIPサブネット間を転送する機能は？",
-    "answer": "IPルーティング。",
-    "required": [
-      "IPルーティング"
-    ],
-    "explanation": "製品によってWAN・暗号化などの実装も異なるため、機能の有無を名称だけで一般化しない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-105-B",
-    "knowledge_ids": [
-      "K03-105"
-    ],
-    "kind": "知識",
-    "question": "通常のL2スイッチで、宛先ユニキャストMACが別の転送可能なポートに学習済みなら、どこへ転送する？",
-    "answer": "そのMACを学習したポート。",
-    "required": [
-      "そのMACを学習したポート"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-106-B",
-    "knowledge_ids": [
-      "K03-106"
-    ],
-    "kind": "知識",
-    "question": "通常のブリッジで、ユニキャスト宛先MACが受信ポートと同じポートに学習済み。別ポートへ中継するか。",
-    "answer": "中継しない。",
-    "required": [
-      "中継しない"
-    ],
-    "explanation": "宛先が受信側のセグメントにいるため、ほかのセグメントへ流さない。通常のブリッジ動作を前提とし、特殊なヘアピン設定は除く。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-107-B",
-    "knowledge_ids": [
-      "K03-107"
-    ],
-    "kind": "知識",
-    "question": "通常のL2スイッチで、ブロードキャストフレームはどの範囲へ転送される？",
-    "answer": "同じVLANの転送可能なポートのうち、受信ポートを除いたポート。",
-    "required": [
-      "同じVLAN",
-      "受信ポートを除く",
-      "転送可能なポート"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-108-B",
-    "knowledge_ids": [
-      "K03-108"
-    ],
-    "kind": "知識",
-    "question": "通常の動的MAC学習で、同じVLANの同じ送信元MACを別のポートで受信した。対応ポートを保持するか、受信した新しいポートへ更新するか。",
-    "answer": "受信した新しいポートへ更新する。",
-    "required": [
-      "新しく受信したポートへ更新する"
-    ],
-    "explanation": "ポートセキュリティや固定MAC設定などがない通常の動的学習を前提とする。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-109-B",
-    "knowledge_ids": [
-      "K03-109"
-    ],
-    "kind": "知識",
-    "question": "カットスルーで転送を始めたフレームにFCSエラーがあった。誤りを知る前に一部を送る可能性はあるか。転送開始のタイミングに着目して答えよ。",
-    "answer": "ある。FCSの確認前に転送を始めるため。",
-    "required": [
-      "全体のFCS確認前に転送を開始するため、誤りを含むフレームを送り始める可能性がある"
-    ],
-    "explanation": "転送開始を早めることと、全体の誤り検査を済ませることの違いを確認する。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-110-B",
-    "knowledge_ids": [
-      "K03-110"
-    ],
-    "kind": "知識",
-    "question": "複数ベンダーの機器間で隣接情報を交換したい。IEEE標準のLLDPとCisco独自のCDPのどちらを選ぶ？",
-    "answer": "LLDP。",
-    "required": [
-      "LLDP"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-111-B",
-    "knowledge_ids": [
-      "K03-111"
-    ],
-    "kind": "知識",
-    "question": "LLDPのChassis IDは、機器とポートのどちらを識別する情報か。",
-    "answer": "機器。",
-    "required": [
-      "機器"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-112-B",
-    "knowledge_ids": [
-      "K03-112"
-    ],
-    "kind": "知識",
-    "question": "LLDPのPort IDは、機器とポートのどちらを識別する情報か。",
-    "answer": "ポート。",
-    "required": [
-      "ポート"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-113-B",
-    "knowledge_ids": [
-      "K03-113"
-    ],
-    "kind": "知識",
-    "question": "LLDPで集めた隣接機器名とポートの組を、設計上の構成図と照合すると何を確認できる？",
-    "answer": "機器同士の接続構成が設計どおりか。",
-    "required": [
-      "実際の機器・ポート間の接続",
-      "構成図との一致"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-114-B",
-    "knowledge_ids": [
-      "K03-114"
-    ],
-    "kind": "知識",
-    "question": "音声VLANやPoEなどの情報をIP電話等へ通知するLLDPの拡張は？",
-    "answer": "LLDP-MED。",
-    "required": [
-      "LLDP-MED"
-    ],
-    "explanation": "各機器が必要なTLVをサポートすることを確認する。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-115-B",
-    "knowledge_ids": [
-      "K03-115"
-    ],
-    "kind": "知識",
-    "question": "Cisco IOS系の設定例で、LLDPを装置全体で有効にするコマンドは？",
-    "answer": "lldp run。",
-    "required": [
-      "lldp run"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-116-B",
-    "knowledge_ids": [
-      "K03-116"
-    ],
-    "kind": "知識",
-    "question": "Cisco IOS系で、LLDPによる隣接機器一覧を表示する代表的なコマンドは？",
-    "answer": "show lldp neighbors。",
-    "required": [
-      "show lldp neighbors"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-117-B",
-    "knowledge_ids": [
-      "K03-117"
-    ],
-    "kind": "知識",
-    "question": "同じEthernet LAN・同じIPv4サブネットのホストへ直接送る。ARP解決済みなら、フレームの宛先MACは誰のMACか。",
-    "answer": "最終宛先ホストのMACアドレス。",
-    "required": [
-      "最終宛先ホストのMACアドレス"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-118-B",
-    "knowledge_ids": [
-      "K03-118"
-    ],
-    "kind": "知識",
-    "question": "ルータがEthernetへパケットを送出する。宛先フレームのMACには、通常誰のMACを設定する？",
-    "answer": "そのEthernet区間の次ホップのMACアドレス。",
-    "required": [
-      "そのEthernet区間の次ホップのMACアドレス"
-    ],
-    "explanation": "宛先ホストが直結ならそのホスト、別のルータを経由するなら次のルータ。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-119-B",
-    "knowledge_ids": [
-      "K03-119"
-    ],
-    "kind": "知識",
-    "question": "IPv4の次ホップMACを調べる通常のARP要求では、Ethernetの宛先MACはユニキャストかブロードキャストか。",
-    "answer": "ブロードキャスト。",
-    "required": [
-      "ブロードキャスト"
-    ],
-    "explanation": "ARP要求はルータを越えてそのまま広がるものではない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-120-B",
-    "knowledge_ids": [
-      "K03-120"
-    ],
-    "kind": "知識",
-    "question": "LANの2地点を既存の電力線でつなぐ。PLCアダプターは片側だけに置けばよいか。",
-    "answer": "両側に必要。",
-    "required": [
-      "両側に必要"
-    ],
-    "explanation": "それぞれの地点でLAN側と電力線側の信号を接続する。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-121-B",
-    "knowledge_ids": [
-      "K03-121"
-    ],
-    "kind": "知識",
-    "question": "天井の無線APがPoE受電に対応し、PSEの能力も十分。設置場所の電源工事を減らせる理由は？",
-    "answer": "LANケーブルから給電できるため。",
-    "required": [
-      "APへの給電をLANケーブルで行える"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-122-B",
-    "knowledge_ids": [
-      "K03-122"
-    ],
-    "kind": "知識",
-    "question": "PoE非対応スイッチからのLAN配線に電力を重畳して受電機器へ送る装置は？",
-    "answer": "PoEインジェクター。",
-    "required": [
-      "PoEインジェクター"
-    ],
-    "explanation": "インジェクターは給電側でありPSE。対応するPoE規格・電力・配線条件を確認する。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-123-B",
-    "knowledge_ids": [
-      "K03-123"
-    ],
-    "kind": "数値",
-    "question": "IEEE 802.3afで、ケーブル損失を考慮したPD側の最大利用電力は？",
-    "answer": "12.95W。",
-    "required": [
-      "12.95W"
-    ],
-    "explanation": "PSE側15.4Wと区別する。12.95Wは約13Wと表記されることもある。",
-    "accepted": [
-      "約13W（丸めた表記）"
-    ],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-124-B",
-    "knowledge_ids": [
-      "K03-124"
-    ],
-    "kind": "理由",
-    "question": "PoEで、PSEの最大給電電力をそのままPDが使えるとは限らないのはなぜか。",
-    "answer": "ケーブルで電力損失が生じるため。",
-    "required": [
-      "ケーブルでの電力損失"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-125-B",
-    "knowledge_ids": [
-      "K03-125"
-    ],
-    "kind": "知識",
-    "question": "PoEスイッチで、各ポートの必要電力が上限以内でも、全端末へ同時に給電できないことがある。ほかにどの上限を確認する？",
-    "answer": "装置全体の給電予算。",
-    "required": [
-      "全端末への給電に使える合計電力の上限"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-126-B",
-    "knowledge_ids": [
-      "K03-126"
-    ],
-    "kind": "数値",
-    "question": "IEEE 802.3bt Type 3で、PSE側の最大給電電力は？",
-    "answer": "60W。",
-    "required": [
-      "60W"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-127-B",
-    "knowledge_ids": [
-      "K03-127"
-    ],
-    "kind": "数値",
-    "question": "IEEE 802.3bt Type 4で、PSE側の最大給電電力は？",
-    "answer": "90W。",
-    "required": [
-      "90W"
-    ],
-    "explanation": "必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-128-B",
-    "knowledge_ids": [
-      "K03-128"
-    ],
-    "kind": "知識",
-    "question": "CiscoのPoEポリシングは、割当て電力を超えて消費する受電機器に対して、何を保護するための機能か。",
-    "answer": "給電側のスイッチ。",
-    "required": [
-      "給電側のスイッチ"
-    ],
-    "explanation": "停止・再起動などの動作やしきい値は、対象機種と設定で確認する。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-005-A1",
-    "knowledge_ids": [
-      "K03-005"
-    ],
-    "kind": "計算",
-    "question": "1バイト＝8ビットとして、1GbpsをMB/sに換算せよ。GとMは10進接頭辞とし、オーバーヘッドは無視する。",
-    "answer": "125MB/s。",
-    "required": [
-      "125MB/s"
-    ],
-    "explanation": "1,000Mbps÷8＝125MB/s。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": {
-      "type": "rate",
-      "mbps": 1000,
-      "expected_MBps": 125
-    }
-  },
-  {
-    "id": "K03-076-A1",
-    "knowledge_ids": [
-      "K03-076"
-    ],
-    "kind": "判断",
-    "question": "有線リンクは1Gbps。アプリケーションの実測が900Mbpsだった。これだけでリンク速度の規格違反と断定できるか。",
-    "answer": "断定できない。",
-    "required": [
-      "リンク速度と実効速度を区別する"
-    ],
-    "explanation": "ヘッダや処理性能などがあるので、リンク速度とアプリケーションの実測値は一致しなくてよい。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-009-A1",
-    "knowledge_ids": [
-      "K03-009"
-    ],
-    "kind": "判断",
-    "question": "1000BASE-Tの規格に従って、途中に中継機器を置かず1区間120mで配線したい。規格上の100mという条件を満たすか。",
-    "answer": "満たさない。",
-    "required": [
-      "120mは100mを超える"
-    ],
-    "explanation": "実験でリンクすることと、規格に適合することは別。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-014-A1",
-    "knowledge_ids": [
-      "K03-014"
-    ],
-    "kind": "判断",
-    "question": "無線APから有線側へ合計2Gbps流したい。有線アップリンクは1Gbpsが1本。ほかに制約がないとして、要求を満たせない区間は？",
-    "answer": "APとスイッチ間の有線アップリンク。",
-    "required": [
-      "1Gbpsの有線アップリンク"
-    ],
-    "explanation": "無線側の公称速度だけを見ず、有線区間の容量と比較する。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-013-A1",
-    "knowledge_ids": [
-      "K03-013"
-    ],
-    "kind": "判断",
-    "question": "既設Cat5e配線を再利用して2.5GBASE-Tを導入したい。ケーブルにCat5eと書かれていれば、配線状態を問わず100mを保証してよいか。",
-    "answer": "保証してよいとはいえない。",
-    "required": [
-      "配線全体が規格要件を満たすか確認する"
-    ],
-    "explanation": "接続部を含めた配線品質や施工条件を確認する。カテゴリ名だけで、任意の既設配線の動作を保証しない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-022-A1",
-    "knowledge_ids": [
-      "K03-022"
-    ],
-    "kind": "判断",
-    "question": "100BASE-TXでAuto MDI/MDI-Xを両端とも使わない。MDIのPCとMDI-Xのスイッチをつなぐケーブルは？",
-    "answer": "ストレートケーブル。",
-    "required": [
-      "ストレート"
-    ],
-    "explanation": "MDI側の送信ピンが相手の受信ピンにつながる。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-023-A1",
-    "knowledge_ids": [
-      "K03-023"
-    ],
-    "kind": "判断",
-    "question": "100BASE-TXでAuto MDI/MDI-Xを両端とも使わない。MDI-Xのスイッチ同士をつなぐケーブルは？",
-    "answer": "クロスケーブル。",
-    "required": [
-      "クロス"
-    ],
-    "explanation": "同じピンの役割同士になるため、送受信の対応を交差させる。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-093-A1",
-    "knowledge_ids": [
-      "K03-093"
-    ],
-    "kind": "計算",
-    "question": "タグなしEthernet IIで、データ部に入れる内容が28バイトだった。最低46バイトにするには何バイトのパディングが必要か。",
-    "answer": "18バイト。",
-    "required": [
-      "18バイト"
-    ],
-    "explanation": "46−28＝18。ヘッダとFCSをデータ部に加算しない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": {
-      "type": "padding",
-      "payload": 28,
-      "minimum": 46,
-      "expected_padding": 18
-    }
-  },
-  {
-    "id": "K03-092-A1",
-    "knowledge_ids": [
-      "K03-092"
-    ],
-    "kind": "計算",
-    "question": "タグなしEthernet II。データ部1,500バイト、MACヘッダ14バイト、FCS4バイト。宛先MACからFCSまでの長さは？",
-    "answer": "1,518バイト。",
-    "required": [
-      "1,518バイト"
-    ],
-    "explanation": "1,500＋14＋4。プリアンブルやSFDは加えない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": {
-      "type": "frame",
-      "payload": 1500,
-      "header": 14,
-      "fcs": 4,
-      "expected_frame": 1518
-    }
-  },
-  {
-    "id": "K03-097-A1",
-    "knowledge_ids": [
-      "K03-097"
-    ],
-    "kind": "判断",
-    "question": "宛先MACが01:00:5E:01:02:03だった。先頭オクテット01のI/Gビットから、個別宛てとグループ宛てのどちらか。",
-    "answer": "グループ宛て。",
-    "required": [
-      "グループ宛て"
-    ],
-    "explanation": "0x01の最下位ビットは1。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": {
-      "type": "mac_bit",
-      "octet": "01",
-      "mask": 1,
-      "expected_bit": 1
-    }
-  },
-  {
-    "id": "K03-098-A1",
-    "knowledge_ids": [
-      "K03-098"
-    ],
-    "kind": "判断",
-    "question": "MACアドレスが02:11:22:33:44:55だった。先頭オクテット02のU/Lビットから、どちらの管理方式か。",
-    "answer": "ローカル管理。",
-    "required": [
-      "ローカル管理"
-    ],
-    "explanation": "0x02の下位から2番目のビットは1。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": {
-      "type": "mac_bit",
-      "octet": "02",
-      "mask": 2,
-      "expected_bit": 1
-    }
-  },
-  {
-    "id": "K03-036-A1",
-    "knowledge_ids": [
-      "K03-036"
-    ],
-    "kind": "理由",
-    "question": "共有媒体で衝突した2端末が、毎回まったく同じ固定時間後に再送する設計。再送待ち時間をランダムにしたい主な理由は？",
-    "answer": "同時再送による再衝突を避けるため。",
-    "required": [
-      "再送タイミングをずらす",
-      "再衝突を避ける"
-    ],
-    "explanation": "待つこと自体に加え、端末間の再送時刻をそろえないことがポイント。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-037-A1",
-    "knowledge_ids": [
-      "K03-037"
-    ],
-    "kind": "判断",
-    "question": "スイッチとPCを100BASE-TX・全二重で正常に接続している。このリンクでCSMA/CDによる媒体アクセス制御を使うか。",
-    "answer": "使わない。",
-    "required": [
-      "全二重ではCSMA/CDを使わない"
-    ],
-    "explanation": "CSMA/CDは半二重の共有媒体での動作。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-041-A1",
-    "knowledge_ids": [
-      "K03-041"
-    ],
-    "kind": "判断",
-    "question": "3台のPCを同じリピータハブに接続した。PCごとにコリジョンドメインは分離されるか。",
-    "answer": "分離されない。",
-    "required": [
-      "分離されない"
-    ],
-    "explanation": "ハブのポート数とコリジョンドメイン数を同一視しない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-103-A1",
-    "knowledge_ids": [
-      "K03-103"
-    ],
-    "kind": "判断",
-    "question": "通常のL2スイッチでポート1・2をVLAN10、ポート3・4をVLAN20にした。VLAN間ルーティングや特殊な中継はない。ポート1からのL2ブロードキャストはポート3へ流れるか。",
-    "answer": "流れない。",
-    "required": [
-      "別VLANにはそのまま転送しない"
-    ],
-    "explanation": "L2ブロードキャストの範囲はVLANごとに分かれる。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-044-A1",
-    "knowledge_ids": [
-      "K03-044"
-    ],
-    "kind": "判断",
-    "question": "通常のL2スイッチ。ポート1〜4はすべてVLAN10で転送可能。ポート1で、宛先MAC未学習のユニキャストを受信した。転送先ポートは？",
-    "answer": "ポート2・3・4。",
-    "required": [
-      "ポート2・3・4"
-    ],
-    "explanation": "問題文に与えられた条件だけで判断する。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": {
-      "type": "switch",
-      "ingress": 1,
-      "vlan": 10,
-      "ports": {
-        "1": 10,
-        "2": 10,
-        "3": 10,
-        "4": 10
-      },
-      "forwarding": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "table": {},
-      "dst": "B",
-      "source": "A",
-      "broadcast": false,
-      "check_learning": false,
-      "expected": [
-        2,
-        3,
-        4
-      ]
-    }
-  },
-  {
-    "id": "K03-044-A2",
-    "knowledge_ids": [
-      "K03-044"
-    ],
-    "kind": "判断",
-    "question": "通常のL2スイッチ。ポート1〜3はVLAN10、ポート4はVLAN20で全ポート転送可能。ポート1で、宛先MAC未学習のユニキャストを受信した。転送先は？",
-    "answer": "ポート2・3。",
-    "required": [
-      "ポート2・3"
-    ],
-    "explanation": "問題文に与えられた条件だけで判断する。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": {
-      "type": "switch",
-      "ingress": 1,
-      "vlan": 10,
-      "ports": {
-        "1": 10,
-        "2": 10,
-        "3": 10,
-        "4": 20
-      },
-      "forwarding": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "table": {},
-      "dst": "B",
-      "source": "A",
-      "broadcast": false,
-      "check_learning": false,
-      "expected": [
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "id": "K03-105-A1",
-    "knowledge_ids": [
-      "K03-105"
-    ],
-    "kind": "判断",
-    "question": "通常のL2スイッチ。ポート1〜4はすべてVLAN10で転送可能。宛先MAC Bはポート3に学習済み。ポート1でB宛てのユニキャストを受信した。転送先は？",
-    "answer": "ポート3。",
-    "required": [
-      "ポート3"
-    ],
-    "explanation": "問題文に与えられた条件だけで判断する。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": {
-      "type": "switch",
-      "ingress": 1,
-      "vlan": 10,
-      "ports": {
-        "1": 10,
-        "2": 10,
-        "3": 10,
-        "4": 10
-      },
-      "forwarding": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "table": {
-        "10:B": 3
-      },
-      "dst": "B",
-      "source": "A",
-      "broadcast": false,
-      "check_learning": false,
-      "expected": [
-        3
-      ]
-    }
-  },
-  {
-    "id": "K03-106-A1",
-    "knowledge_ids": [
-      "K03-106"
-    ],
-    "kind": "判断",
-    "question": "通常のブリッジ。VLAN10の宛先MAC Bはポート1に学習済み。ポート1でB宛てのユニキャストを受信した。ほかのポートへの転送は？",
-    "answer": "転送しない。",
-    "required": [
-      "転送しない"
-    ],
-    "explanation": "問題文に与えられた条件だけで判断する。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": {
-      "type": "switch",
-      "ingress": 1,
-      "vlan": 10,
-      "ports": {
-        "1": 10,
-        "2": 10,
-        "3": 10,
-        "4": 10
-      },
-      "forwarding": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "table": {
-        "10:B": 1
-      },
-      "dst": "B",
-      "source": "A",
-      "broadcast": false,
-      "check_learning": false,
-      "expected": []
-    }
-  },
-  {
-    "id": "K03-107-A1",
-    "knowledge_ids": [
-      "K03-107"
-    ],
-    "kind": "判断",
-    "question": "通常のL2スイッチ。ポート1・2・3はVLAN10、ポート4はVLAN20で全ポート転送可能。ポート2でブロードキャストを受信した。転送先は？",
-    "answer": "ポート1・3。",
-    "required": [
-      "ポート1・3"
-    ],
-    "explanation": "問題文に与えられた条件だけで判断する。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": {
-      "type": "switch",
-      "ingress": 2,
-      "vlan": 10,
-      "ports": {
-        "1": 10,
-        "2": 10,
-        "3": 10,
-        "4": 20
-      },
-      "forwarding": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "table": {},
-      "dst": "B",
-      "source": "A",
-      "broadcast": true,
-      "check_learning": false,
-      "expected": [
-        1,
-        3
-      ]
-    }
-  },
-  {
-    "id": "K03-043-A1",
-    "knowledge_ids": [
-      "K03-043"
-    ],
-    "kind": "判断",
-    "question": "動的学習中のL2スイッチ。VLAN10のポート2で送信元MAC Aのフレームを受信した。Aを対応付けて学習するポートは？",
-    "answer": "ポート2。",
-    "required": [
-      "ポート2"
-    ],
-    "explanation": "問題文に与えられた条件だけで判断する。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": {
-      "type": "switch",
-      "ingress": 2,
-      "vlan": 10,
-      "ports": {
-        "1": 10,
-        "2": 10,
-        "3": 10,
-        "4": 10
-      },
-      "forwarding": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "table": {},
-      "dst": "B",
-      "source": "A",
-      "broadcast": false,
-      "check_learning": true,
-      "expected": 2
-    }
-  },
-  {
-    "id": "K03-108-A1",
-    "knowledge_ids": [
-      "K03-108"
-    ],
-    "kind": "判断",
-    "question": "通常の動的MAC学習。VLAN10のMAC Aはポート2に登録済み。VLAN10のポート4で送信元Aのフレームを受信した。Aの対応ポートは？",
-    "answer": "ポート4。",
-    "required": [
-      "ポート4"
-    ],
-    "explanation": "問題文に与えられた条件だけで判断する。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": {
-      "type": "switch",
-      "ingress": 4,
-      "vlan": 10,
-      "ports": {
-        "1": 10,
-        "2": 10,
-        "3": 10,
-        "4": 10
-      },
-      "forwarding": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "table": {
-        "10:A": 2
-      },
-      "dst": "B",
-      "source": "A",
-      "broadcast": false,
-      "check_learning": true,
-      "expected": 4
-    }
-  },
-  {
-    "id": "K03-045-A1",
-    "knowledge_ids": [
-      "K03-045"
-    ],
-    "kind": "判断",
-    "question": "動的MACエントリのエージング時間は300秒。最後の学習更新から301秒経過し、その間に更新がない。エントリは保持されるか。",
-    "answer": "エージングで削除される。",
-    "required": [
-      "更新がないまま有効時間を過ぎたため削除"
-    ],
-    "explanation": "300秒はこの問題で与えた設定値。すべてのスイッチの固定値ではない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-046-A1",
-    "knowledge_ids": [
-      "K03-046"
-    ],
-    "kind": "判断",
-    "question": "ストアアンドフォワード方式のスイッチが、FCS不一致のフレームを全体まで受信した。通常、そのフレームを転送するか。",
-    "answer": "転送せず破棄する。",
-    "required": [
-      "FCSエラーを検出して破棄する"
-    ],
-    "explanation": "フレーム全体を受け取って誤りを検査する方式。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-051-A1",
-    "knowledge_ids": [
-      "K03-051"
-    ],
-    "kind": "判断",
-    "question": "1Gbps・全二重のリンクで、片方向に2Gbpsを送りたい。「全二重だから可能」と判断してよいか。一方向の速度を根拠に答えよ。",
-    "answer": "よくない。一方向の上限は1Gbps。",
-    "required": [
-      "片方向の上限は1Gbps"
-    ],
-    "explanation": "全二重は送受信を同時に行えるという意味で、片方向が2倍になるわけではない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-053-A1",
-    "knowledge_ids": [
-      "K03-053"
-    ],
-    "kind": "判断",
-    "question": "10/100BASE-T系の両端がオートネゴシエーションを使う。一方は100Mbps全二重と10Mbps全二重、他方は10Mbps全二重だけを広告する。選ばれる速度は？",
-    "answer": "10Mbps。",
-    "required": [
-      "共通に使える10Mbps"
-    ],
-    "explanation": "一方が対応する最大速度だけでは決まらない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-054-A1",
-    "knowledge_ids": [
-      "K03-054"
-    ],
-    "kind": "判断",
-    "question": "A―B―Cの順に各機器を直接接続し、全機器で通常のLLDPを送受信している。Aが直接受信するLLDP広告の送信元はBとCのどちらか。",
-    "answer": "B。",
-    "required": [
-      "直接隣接するB"
-    ],
-    "explanation": "通常のLLDP広告をBが別ポートへ中継して、Cの情報をAへ届ける仕組みではない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-058-A1",
-    "knowledge_ids": [
-      "K03-058"
-    ],
-    "kind": "計算",
-    "question": "LLDP情報を時刻0秒にTTL120秒で受信し、時刻70秒に同じ隣接機器からTTL120秒で更新した。その後更新がない場合、有効期限は何秒時点か。",
-    "answer": "190秒時点。",
-    "required": [
-      "70＋120＝190秒"
-    ],
-    "explanation": "TTLは最後に受信した情報の保持期間として更新される。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": {
-      "type": "ttl",
-      "last_received": 70,
-      "ttl": 120,
-      "expected_expiry": 190
-    }
-  },
-  {
-    "id": "K03-059-A1",
-    "knowledge_ids": [
-      "K03-059"
-    ],
-    "kind": "判断",
-    "question": "ホストAは192.0.2.10/24、宛先Bは198.51.100.20。Aに特別な経路はなく、ゲートウェイは192.0.2.1。Aが最初に送るEthernetフレームの宛先MACは？",
-    "answer": "192.0.2.1のMACアドレス。",
-    "required": [
-      "同一LAN上のゲートウェイ192.0.2.1のMAC"
-    ],
-    "explanation": "宛先IPはBのまま、最初のL2宛先はゲートウェイ。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-117-A1",
-    "knowledge_ids": [
-      "K03-117"
-    ],
-    "kind": "判断",
-    "question": "同じEthernet LAN上で、Aは192.0.2.10/24、Bは192.0.2.20/24。特別な中継はなく、ARP解決済み。AからBへの宛先MACは？",
-    "answer": "BのMACアドレス。",
-    "required": [
-      "直接通信相手BのMAC"
-    ],
-    "explanation": "同じサブネットなので、デフォルトゲートウェイへ送らない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-118-A1",
-    "knowledge_ids": [
-      "K03-118"
-    ],
-    "kind": "判断",
-    "question": "A―ルータR―Bの2区間はいずれもEthernet。BはRの送出先LANに直結し、ARP解決済み。RがBへ送るフレームの宛先MACは？",
-    "answer": "BのMACアドレス。",
-    "required": [
-      "直結する次ホップBのMAC"
-    ],
-    "explanation": "Rの宛先IPではなく、その区間の次ホップのMACで包む。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-061-A1",
-    "knowledge_ids": [
-      "K03-061"
-    ],
-    "kind": "判断",
-    "question": "A―ルータR―Bの2区間はいずれもEthernet。RがB側LANへ送出するフレームの送信元MACは？",
-    "answer": "RのB側インターフェースのMACアドレス。",
-    "required": [
-      "Rの送出インターフェースのMAC"
-    ],
-    "explanation": "元のホストAの送信元MACを、そのまま次の区間へ持ち越さない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-060-A1",
-    "knowledge_ids": [
-      "K03-060"
-    ],
-    "kind": "判断",
-    "question": "AからBへのIPパケットをルータRが転送する。NAT・プロキシ・トンネルはない。Rが次の区間へ送るとき、宛先IPはBとRのどちらか。",
-    "answer": "B。",
-    "required": [
-      "最終宛先BのIPを保持する"
-    ],
-    "explanation": "L2の宛先MACが区間ごとに変わることと、最終宛先IPを区別する。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-068-A1",
-    "knowledge_ids": [
-      "K03-068"
-    ],
-    "kind": "判断",
-    "question": "PLCの配線は変えていないが、ある電気機器の運転中だけ速度が落ちる。電力線上の要因として、まず疑うものの例は？",
-    "answer": "電気機器が発生するノイズ。",
-    "required": [
-      "電力線に入るノイズ"
-    ],
-    "explanation": "原因の確定ではなく、症状から考える候補の一つを答える問題。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-123-A1",
-    "knowledge_ids": [
-      "K03-123"
-    ],
-    "kind": "判断",
-    "question": "IEEE 802.3afのPD側で14W必要な端末がある。PSE側は最大15.4Wなので必ず足りる、と判断してよいか。PD側の電力を根拠に答えよ。",
-    "answer": "よくない。PD側の最大12.95Wを超える。",
-    "required": [
-      "PD側で保証される最大12.95Wを14Wが超える"
-    ],
-    "explanation": "PSE側とPD側の電力を混ぜて比較しない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
-  },
-  {
-    "id": "K03-125-A1",
-    "knowledge_ids": [
-      "K03-125"
-    ],
-    "kind": "計算",
-    "question": "PoEスイッチの装置全体の給電予算は120W。1台につきPSE側で30Wを予約するAPを5台同時に給電したい。各ポートは30W対応。他の負荷はない。合計電力の条件を満たすか。",
-    "answer": "満たさない。",
-    "required": [
-      "必要150Wが予算120Wを超える"
-    ],
-    "explanation": "30W×5＝150W。1ポートの上限を満たしても、装置全体の予算を超える。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": {
-      "type": "budget",
-      "budget": 120,
-      "reserved_per_device": 30,
-      "devices": 5,
-      "expected_total": 150,
-      "expected_fits": false
-    }
-  },
-  {
-    "id": "K03-125-A2",
-    "knowledge_ids": [
-      "K03-125"
-    ],
-    "kind": "計算",
-    "question": "PoEスイッチの給電予算は120W。AP1台につきPSE側で30Wを予約し、全ポートが30W対応でポート数は十分。他の負荷がない場合、電力予算だけで決まる最大台数は？",
-    "answer": "4台。",
-    "required": [
-      "120÷30＝4台"
-    ],
-    "explanation": "実際の設計ではポート数、規格、配線、必要な余裕も別に確認する。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": {
-      "type": "capacity",
-      "budget": 120,
-      "reserved_per_device": 30,
-      "expected_count": 4
-    }
-  },
-  {
-    "id": "K03-073-A1",
-    "knowledge_ids": [
-      "K03-073"
-    ],
-    "kind": "判断",
-    "question": "給電側PSEの1ポート最大電力で比べる。候補は802.3afの15.4Wと802.3atの30W。要求が「PSE側で25W以上」の場合、どちらが満たす？",
-    "answer": "IEEE 802.3at。",
-    "required": [
-      "30Wの802.3at"
-    ],
-    "explanation": "25Wはこの問題で指定したPSE側要求。PD側の消費電力だとは読まない。",
-    "accepted": [],
-    "legacy_ids": [],
-    "scenario": null
+    "question": "2.5GBASE-Tと5GBASE-Tの速度を、それぞれ答えよ。",
+    "answer": "2.5Gbps、5Gbps。",
+    "section_title": "マルチギガビットEthernet",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet14.html"
+    ]
   },
   {
     "id": "K03-129-B",
-    "knowledge_ids": [
-      "K03-129"
-    ],
-    "kind": "知識",
-    "question": "企業LANで、2.5GBASE-Tや5GBASE-Tをまとめて一般に何と呼ぶ？",
+    "question": "2.5GBASE-Tと5GBASE-Tの総称は？",
     "answer": "マルチギガビットEthernet。",
-    "required": [
-      "マルチギガビットEthernet"
-    ],
-    "explanation": "通称と規格番号を対応付けて覚える。",
-    "accepted": [
-      "mGig",
-      "マルチギガビットイーサネット"
-    ],
-    "legacy_ids": [],
-    "scenario": null
+    "section_title": "マルチギガビットEthernet",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet14.html"
+    ]
   },
   {
-    "id": "K03-130-B",
-    "knowledge_ids": [
-      "K03-130"
-    ],
-    "kind": "知識",
-    "question": "IEEE 802.3atによるPoEの一般的な呼称は？",
-    "answer": "PoE+。",
-    "required": [
-      "PoE+"
-    ],
-    "explanation": "通称と規格番号を対応付けて覚える。",
-    "accepted": [
-      "PoEプラス"
-    ],
-    "legacy_ids": [],
-    "scenario": null
+    "id": "K03-012-B",
+    "question": "2.5GBASE-Tと5GBASE-Tを標準化した規格番号は？",
+    "answer": "IEEE 802.3bz。",
+    "section_title": "マルチギガビットEthernet",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet14.html"
+    ]
+  },
+  {
+    "id": "K03-013-B",
+    "question": "2.5GBASE-Tで再利用できる、広く普及したLANケーブルのカテゴリは？",
+    "answer": "カテゴリ5e（Cat5e）。",
+    "section_title": "マルチギガビットEthernet",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet14.html"
+    ]
+  },
+  {
+    "id": "K03-014-B",
+    "question": "高速な無線APに1Gbpsの有線接続を使うと、どの部分がボトルネックになり得る？",
+    "answer": "APとスイッチ間の有線リンク。",
+    "section_title": "マルチギガビットEthernet",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet14.html"
+    ]
+  },
+  {
+    "id": "K03-015-B",
+    "question": "2.5GBASE-T／5GBASE-Tの標準で想定する最大伝送距離は？",
+    "answer": "100m。",
+    "section_title": "マルチギガビットEthernet",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet14.html"
+    ]
+  },
+  {
+    "id": "K03-016-B",
+    "question": "UTPケーブルとSTPケーブルの、構造上の違いは？",
+    "answer": "UTPにはシールドがなく、STPにはシールドがある。",
+    "section_title": "伝送メディア",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet2.html"
+    ]
+  },
+  {
+    "id": "K03-017-B",
+    "question": "一般的な4対のLAN用ツイストペアケーブルは、合計何本の芯線を持つ？",
+    "answer": "8本。",
+    "section_title": "伝送メディア",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet2.html"
+    ]
+  },
+  {
+    "id": "K03-019-B",
+    "question": "光ファイバーで、光が主に伝わる中心部と、その周囲を覆う部分はそれぞれ何という？",
+    "answer": "中心部がコア、その周囲がクラッド。",
+    "section_title": "伝送メディア",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet2.html"
+    ]
+  },
+  {
+    "id": "K03-020-B",
+    "question": "一般に、長距離伝送向けに用いられるのはSMFとMMFのどちらか。",
+    "answer": "SMF（シングルモードファイバー）。",
+    "section_title": "伝送メディア",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet2.html"
+    ]
+  },
+  {
+    "id": "K03-021-B",
+    "question": "両端を同じピン配列で結線したLANケーブルを何という？",
+    "answer": "ストレートケーブル。",
+    "section_title": "ストレート／クロスケーブル",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet3.html"
+    ]
+  },
+  {
+    "id": "K03-022-B",
+    "question": "100BASE-TXでAuto MDI/MDI-Xを使わず、MDIとMDI-Xを接続するケーブルは？",
+    "answer": "ストレートケーブル。",
+    "section_title": "ストレート／クロスケーブル",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet3.html"
+    ]
+  },
+  {
+    "id": "K03-023-B",
+    "question": "100BASE-TXでAuto MDI/MDI-Xを使わず、MDI同士を接続するケーブルは？",
+    "answer": "クロスケーブル。",
+    "section_title": "ストレート／クロスケーブル",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet3.html"
+    ]
+  },
+  {
+    "id": "K03-131-B",
+    "question": "Auto MDI/MDI-Xを使わない100BASE-TXで、MDI同士の接続にクロスケーブルが必要なのはなぜ？",
+    "answer": "一方の送信ピンを、相手の受信ピンにつなぐため。",
+    "section_title": "ストレート／クロスケーブル",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet3.html"
+    ]
+  },
+  {
+    "id": "K03-024-B",
+    "question": "接続先に応じ、送受信の配線の対応を自動調整する機能は？",
+    "answer": "Auto MDI/MDI-X。",
+    "section_title": "ストレート／クロスケーブル",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet3.html"
+    ]
+  },
+  {
+    "id": "K03-026-B",
+    "question": "Ethernetで一般的に使うMACアドレスの長さは何ビットか。",
+    "answer": "48ビット（6バイト）。",
+    "section_title": "EthernetフレームとMACアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet4.html"
+    ]
+  },
+  {
+    "id": "K03-027-B",
+    "question": "Ethernet IIのTypeフィールドは、何を識別する？",
+    "answer": "データ部に格納された上位層のプロトコル。",
+    "section_title": "EthernetフレームとMACアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet4.html"
+    ]
+  },
+  {
+    "id": "K03-028-B",
+    "question": "Ethernet IIでIPv4を示すType値は？",
+    "answer": "0x0800。",
+    "section_title": "EthernetフレームとMACアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet4.html"
+    ]
+  },
+  {
+    "id": "K03-090-B",
+    "question": "Ethernet IIでARPを示すType値は？",
+    "answer": "0x0806。",
+    "section_title": "EthernetフレームとMACアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet4.html"
+    ]
+  },
+  {
+    "id": "K03-091-B",
+    "question": "Ethernet IIでIPv6を示すType値は？",
+    "answer": "0x86DD。",
+    "section_title": "EthernetフレームとMACアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet4.html"
+    ]
+  },
+  {
+    "id": "K03-029-B",
+    "question": "EthernetフレームのFCSは何のために付ける？",
+    "answer": "CRCを使って、フレームの伝送誤りを検出するため。",
+    "section_title": "EthernetフレームとMACアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet4.html"
+    ]
+  },
+  {
+    "id": "K03-030a-B",
+    "question": "VLANタグなしの通常フレームは、宛先MACからFCSまでで最小・最大何バイトか。",
+    "answer": "最小64バイト、最大1,518バイト。",
+    "section_title": "EthernetフレームとMACアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet4.html"
+    ]
+  },
+  {
+    "id": "K03-031-B",
+    "question": "VLANタグなしのEthernetフレームで、パディングを追加する目的は？",
+    "answer": "データ部を46バイト以上にし、フレームの最小長64バイトを確保するため。",
+    "section_title": "EthernetフレームとMACアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet4.html"
+    ]
+  },
+  {
+    "id": "K03-032-B",
+    "question": "Ethernetのブロードキャスト宛先MACアドレスは？",
+    "answer": "FF:FF:FF:FF:FF:FF（48ビットすべて1）。",
+    "section_title": "EthernetフレームとMACアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet4.html"
+    ]
+  },
+  {
+    "id": "K03-092-B",
+    "question": "通常のEthernet IIフレームのデータ部の最大長は？",
+    "answer": "1,500バイト。",
+    "section_title": "EthernetフレームとMACアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet4.html"
+    ]
+  },
+  {
+    "id": "K03-096-B",
+    "question": "MACアドレスの割当てに使うOUIは何ビットで、何を識別する？",
+    "answer": "24ビットで、割当てを受けたベンダーなどの組織を識別する。",
+    "section_title": "EthernetフレームとMACアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet4.html"
+    ]
+  },
+  {
+    "id": "K03-097-B",
+    "question": "宛先MACアドレスのI/Gビットは、0と1で何を表す？",
+    "answer": "0はユニキャスト、1はマルチキャストまたはブロードキャスト。",
+    "section_title": "EthernetフレームとMACアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet4.html"
+    ]
+  },
+  {
+    "id": "K03-098-B",
+    "question": "MACアドレスのU/Lビットは、0と1で何を表す？",
+    "answer": "0はグローバル管理、1はローカル管理。",
+    "section_title": "EthernetフレームとMACアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet4.html"
+    ]
+  },
+  {
+    "id": "K03-033-B",
+    "question": "CSMA/CDのCarrier Senseでは、送信前に何を確認する？",
+    "answer": "伝送媒体がほかの通信に使われていないか。",
+    "section_title": "CSMA/CD",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet5.html"
+    ]
+  },
+  {
+    "id": "K03-034-B",
+    "question": "CSMA/CDのMultiple Accessは、どのような媒体の利用を意味する？",
+    "answer": "複数の端末で同じ伝送媒体を共有すること。",
+    "section_title": "CSMA/CD",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet5.html"
+    ]
+  },
+  {
+    "id": "K03-035-B",
+    "question": "CSMA/CDのCollision Detectionは、何を検出する？",
+    "answer": "同時送信による信号の衝突。",
+    "section_title": "CSMA/CD",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet5.html"
+    ]
+  },
+  {
+    "id": "K03-036-B",
+    "question": "CSMA/CDで衝突後の再送待ち時間をランダムにするのはなぜ？",
+    "answer": "再送のタイミングをずらし、再び衝突するのを避けるため。",
+    "section_title": "CSMA/CD",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet5.html"
+    ]
+  },
+  {
+    "id": "K03-037-B",
+    "question": "CSMA/CDが使われるのは、半二重と全二重のどちらか。",
+    "answer": "半二重。",
+    "section_title": "CSMA/CD",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet5.html"
+    ]
+  },
+  {
+    "id": "K03-038-B",
+    "question": "リピータハブが動作するOSI参照モデルの層は？",
+    "answer": "物理層（第1層）。",
+    "section_title": "ネットワーク機器の役割",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet6.html"
+    ]
+  },
+  {
+    "id": "K03-039-B",
+    "question": "L2スイッチが主に転送判断を行う層は？",
+    "answer": "データリンク層（第2層）。",
+    "section_title": "ネットワーク機器の役割",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet6.html"
+    ]
+  },
+  {
+    "id": "K03-040-B",
+    "question": "ルータが主に経路選択を行う層は？",
+    "answer": "ネットワーク層（第3層）。",
+    "section_title": "ネットワーク機器の役割",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet6.html"
+    ]
+  },
+  {
+    "id": "K03-041-B",
+    "question": "L2スイッチとリピータハブは、コリジョンドメインの分割でどう違う？",
+    "answer": "L2スイッチはポートごとに分割するが、リピータハブは分割しない。",
+    "section_title": "ネットワーク機器の役割",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet6.html"
+    ]
+  },
+  {
+    "id": "K03-042-B",
+    "question": "ルータは、インターフェース間でL2ブロードキャストドメインを分割できるか。",
+    "answer": "できる。L2ブロードキャストを別セグメントへそのまま転送しない。",
+    "section_title": "ネットワーク機器の役割",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet6.html"
+    ]
+  },
+  {
+    "id": "K03-103-B",
+    "question": "L2スイッチでVLANを分けると、どのドメインを分割できる？",
+    "answer": "ブロードキャストドメイン。",
+    "section_title": "ネットワーク機器の役割",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet6.html"
+    ]
+  },
+  {
+    "id": "K03-104-B",
+    "question": "L3スイッチは、L2スイッチの機能に加えて何を行える？",
+    "answer": "IPルーティング。",
+    "section_title": "ネットワーク機器の役割",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet6.html"
+    ]
+  },
+  {
+    "id": "K03-043-B",
+    "question": "L2スイッチは、受信フレームの何を、どの接続情報と対応付けて学習する？",
+    "answer": "送信元MACアドレスを、受信ポートとVLANに対応付ける。",
+    "section_title": "L2スイッチの学習と転送",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet7.html"
+    ]
+  },
+  {
+    "id": "K03-044-B",
+    "question": "宛先MACアドレスが未学習のユニキャストフレームを、通常のL2スイッチはどこへ転送する？",
+    "answer": "同じVLANの転送可能なポートのうち、受信ポートを除いたポート。",
+    "section_title": "L2スイッチの学習と転送",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet7.html"
+    ]
+  },
+  {
+    "id": "K03-105-B",
+    "question": "宛先MACアドレスを別の転送可能なポートに学習している場合、L2スイッチの転送先は？",
+    "answer": "その宛先MACアドレスを学習したポート。",
+    "section_title": "L2スイッチの学習と転送",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet7.html"
+    ]
+  },
+  {
+    "id": "K03-045-B",
+    "question": "動的に学習したMACエントリを、一定時間更新されなければ削除する動作は？",
+    "answer": "エージング。",
+    "section_title": "L2スイッチの学習と転送",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet7.html"
+    ]
+  },
+  {
+    "id": "K03-046-B",
+    "question": "フレーム全体を受信し、FCSを検査してから転送する方式は？",
+    "answer": "ストアアンドフォワード。",
+    "section_title": "L2スイッチの学習と転送",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet7.html"
+    ]
+  },
+  {
+    "id": "K03-047-B",
+    "question": "フレーム全体の受信完了前に転送を始める方式は？",
+    "answer": "カットスルー。",
+    "section_title": "L2スイッチの学習と転送",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet7.html"
+    ]
+  },
+  {
+    "id": "K03-048-B",
+    "question": "フラグメントフリー方式は、先頭何バイトの受信を待って転送する？",
+    "answer": "64バイト。",
+    "section_title": "L2スイッチの学習と転送",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet7.html"
+    ]
+  },
+  {
+    "id": "K03-049-B",
+    "question": "送信と受信を同時に行える通信方式は？",
+    "answer": "全二重通信。",
+    "section_title": "半二重・全二重とオートネゴシエーション",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet8.html"
+    ]
+  },
+  {
+    "id": "K03-050-B",
+    "question": "送信と受信を同時に行わず、交互に行う通信方式は？",
+    "answer": "半二重通信。",
+    "section_title": "半二重・全二重とオートネゴシエーション",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet8.html"
+    ]
+  },
+  {
+    "id": "K03-051-B",
+    "question": "1Gbps・全二重のリンクで、一方向当たりの最大伝送速度は？",
+    "answer": "1Gbps。",
+    "section_title": "半二重・全二重とオートネゴシエーション",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet8.html"
+    ]
+  },
+  {
+    "id": "K03-052-B",
+    "question": "Ethernetのオートネゴシエーションが、両端で自動的に合わせる主な2項目は？",
+    "answer": "通信速度と、全二重・半二重の通信モード。",
+    "section_title": "半二重・全二重とオートネゴシエーション",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet8.html"
+    ]
+  },
+  {
+    "id": "K03-053-B",
+    "question": "オートネゴシエーションの優先順位は、100Mbps半二重と10Mbps全二重のどちらが高い？",
+    "answer": "100Mbps半二重。",
+    "section_title": "半二重・全二重とオートネゴシエーション",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet8.html"
+    ]
+  },
+  {
+    "id": "K03-054-B",
+    "question": "LLDPは、どの範囲の機器と、どのような情報をやり取りする？",
+    "answer": "直接隣接する機器と、機器名やポートなどの情報をやり取りする。",
+    "section_title": "LLDP",
+    "sources": [
+      "https://www.infraexpert.com/study/catalyst25.html"
+    ]
+  },
+  {
+    "id": "K03-055-B",
+    "question": "LLDPが動作するOSI参照モデルの層は？",
+    "answer": "データリンク層（第2層）。",
+    "section_title": "LLDP",
+    "sources": [
+      "https://www.infraexpert.com/study/catalyst25.html"
+    ]
+  },
+  {
+    "id": "K03-056-B",
+    "question": "LLDPの標準規格番号は？",
+    "answer": "IEEE 802.1AB。",
+    "section_title": "LLDP",
+    "sources": [
+      "https://www.infraexpert.com/study/catalyst25.html"
+    ]
+  },
+  {
+    "id": "K03-110-B",
+    "question": "LLDPとCDPは、標準化の点でどう違う？",
+    "answer": "LLDPはIEEE標準、CDPはCisco独自。",
+    "section_title": "LLDP",
+    "sources": [
+      "https://www.infraexpert.com/study/catalyst25.html"
+    ]
+  },
+  {
+    "id": "K03-057-B",
+    "question": "LLDPで、隣接機器へ伝える情報を表現する形式は？",
+    "answer": "TLV（Type・Length・Value）形式。",
+    "section_title": "LLDP",
+    "sources": [
+      "https://www.infraexpert.com/study/catalyst25.html"
+    ]
+  },
+  {
+    "id": "K03-111-B",
+    "question": "LLDPのChassis IDとPort IDは、それぞれ何を識別する？",
+    "answer": "Chassis IDは機器、Port IDはそのポート。",
+    "section_title": "LLDP",
+    "sources": [
+      "https://www.infraexpert.com/study/catalyst25.html"
+    ]
+  },
+  {
+    "id": "K03-058-B",
+    "question": "LLDPのTTLは、何を保持する時間を表す？",
+    "answer": "受信した隣接機器の情報を、有効として保持する時間。",
+    "section_title": "LLDP",
+    "sources": [
+      "https://www.infraexpert.com/study/catalyst25.html"
+    ]
+  },
+  {
+    "id": "K03-059-B",
+    "question": "別サブネットのホストへデフォルトゲートウェイ経由で送るとき、最初のフレームの宛先MACは誰のMACか。",
+    "answer": "同一LAN上のデフォルトゲートウェイのMACアドレス。",
+    "section_title": "ルータを経由する通信",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet10.html"
+    ]
+  },
+  {
+    "id": "K03-060-B",
+    "question": "NATを行わずにルータを経由するとき、宛先IPアドレスはどうなる？",
+    "answer": "最終宛先ホストのIPアドレスのまま変わらない。",
+    "section_title": "ルータを経由する通信",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet10.html"
+    ]
+  },
+  {
+    "id": "K03-061-B",
+    "question": "ルータが次のEthernet区間へ送るフレームの送信元MACは、誰のMACになる？",
+    "answer": "そのルータの送出インターフェースのMACアドレス。",
+    "section_title": "ルータを経由する通信",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet10.html"
+    ]
+  },
+  {
+    "id": "K03-118-B",
+    "question": "ルータがEthernetへ送出するフレームの宛先MACは、誰のMACになる？",
+    "answer": "そのEthernet区間の次ホップのMACアドレス。",
+    "section_title": "ルータを経由する通信",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet10.html"
+    ]
+  },
+  {
+    "id": "K03-062-B",
+    "question": "IPv4の次ホップのMACが不明なとき、Ethernet上で解決に使うプロトコルは？",
+    "answer": "ARP。",
+    "section_title": "ルータを経由する通信",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet10.html"
+    ]
+  },
+  {
+    "id": "K03-063-B",
+    "question": "ルータがパケットの次ホップや送出インターフェースを決めるときに参照する表は？",
+    "answer": "ルーティングテーブル。",
+    "section_title": "ルータを経由する通信",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet10.html"
+    ]
+  },
+  {
+    "id": "K03-064-B",
+    "question": "PLCを使うと、どの既存の配線をデータ通信に利用できる？",
+    "answer": "電力線。",
+    "section_title": "PLC（電力線通信）",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet12.html"
+    ]
+  },
+  {
+    "id": "K03-065-B",
+    "question": "PLCの英語名称は？",
+    "answer": "Power Line Communication。",
+    "section_title": "PLC（電力線通信）",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet12.html"
+    ]
+  },
+  {
+    "id": "K03-066-B",
+    "question": "LAN機器を電力線での通信に接続する装置を何という？",
+    "answer": "PLCモデム、またはPLCアダプター。",
+    "section_title": "PLC（電力線通信）",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet12.html"
+    ]
+  },
+  {
+    "id": "K03-068-B",
+    "question": "PLCの通信速度を低下させる、電力線上の要因の例は？",
+    "answer": "電気機器などが発生させるノイズ。",
+    "section_title": "PLC（電力線通信）",
+    "sources": [
+      "https://www.infraexpert.com/study/ethernet12.html"
+    ]
+  },
+  {
+    "id": "K03-069-B",
+    "question": "EthernetのLANケーブルで、通信と併せて電力も供給する技術は？",
+    "answer": "PoE（Power over Ethernet）。",
+    "section_title": "PoE・PoE+・PoE++",
+    "sources": [
+      "https://www.infraexpert.com/study/catalyst24.html"
+    ]
+  },
+  {
+    "id": "K03-070-B",
+    "question": "PoEの給電機器を表す略称は？",
+    "answer": "PSE（Power Sourcing Equipment）。",
+    "section_title": "PoE・PoE+・PoE++",
+    "sources": [
+      "https://www.infraexpert.com/study/catalyst24.html"
+    ]
+  },
+  {
+    "id": "K03-071-B",
+    "question": "PoEの受電機器を表す略称は？",
+    "answer": "PD（Powered Device）。",
+    "section_title": "PoE・PoE+・PoE++",
+    "sources": [
+      "https://www.infraexpert.com/study/catalyst24.html"
+    ]
+  },
+  {
+    "id": "K03-072-B",
+    "question": "IEEE 802.3afの、PSE側の1ポート当たりの最大給電電力は？",
+    "answer": "15.4W。",
+    "section_title": "PoE・PoE+・PoE++",
+    "sources": [
+      "https://www.infraexpert.com/study/catalyst24.html"
+    ]
+  },
+  {
+    "id": "K03-073-B",
+    "question": "IEEE 802.3atのPoE+で、PSE側の1ポート当たりの最大給電電力は？",
+    "answer": "30W。",
+    "section_title": "PoE・PoE+・PoE++",
+    "sources": [
+      "https://www.infraexpert.com/study/catalyst24.html"
+    ]
+  },
+  {
+    "id": "K03-074-B",
+    "question": "IEEE 802.3btによる高出力のPoEは、一般に何と呼ばれる？",
+    "answer": "PoE++。",
+    "section_title": "PoE・PoE+・PoE++",
+    "sources": [
+      "https://www.infraexpert.com/study/catalyst24.html"
+    ]
+  },
+  {
+    "id": "K03-075-B",
+    "question": "規格準拠のPoEスイッチが、PoE非対応のPCに通常給電しないのはなぜ？",
+    "answer": "接続機器がPoEの受電機器かどうかを検出してから給電するため。",
+    "section_title": "PoE・PoE+・PoE++",
+    "sources": [
+      "https://www.infraexpert.com/study/catalyst24.html"
+    ]
   }
 ]

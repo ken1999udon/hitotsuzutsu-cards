@@ -1,165 +1,82 @@
 {
-  "version": "2.0",
+  "version": "3.0",
   "chapter": "第3章 Ethernet LAN",
+  "deck_title": "Ethernet LAN",
   "reference_index": "https://www.infraexpert.com/info/netspecial1.html",
   "reviewed_on": "2026-11-15",
   "source_sections": 14,
   "method": [
-    "知識を事実・関係・条件として抽出する",
-    "各知識に出典・旧版との対応・優先度の根拠を付ける",
-    "一問ごとに主要な判断と必須要素を定義する",
-    "重要な仕組みに独立した条件付き問題を追加する",
-    "数値・転送先の具体例を機械的にも確認する",
-    "学習後の誤り原因を記録して改訂する"
+    "本文で説明される定義・仕組み・違い・理由・主要数値を問う。",
+    "こちらでネットワーク構成や数値条件を作り足さない。",
+    "問題と解答の組だけで復習できる長さにする。",
+    "一枚を形式的に細分化しすぎず、一つのまとまりとして理解する比較は一緒に問う。",
+    "説明が必要な答えは、答えそのものの中で簡潔に説明する。",
+    "補足欄を埋めること、知識IDや前提一覧を見せることを目的にしない。",
+    "75問などの問題数を目標にしない。"
   ],
-  "coverage_statement": "抽出して採用した知識の全件にカードを対応付ける。元サイトの全文章・全図表の網羅率や試験得点率は表さない。",
-  "priority_rules": {
-    "A_過去問接点": "選んだ代表設問で、直接の問いまたは適用を確認した知識。頻度順位ではない。",
-    "B_基礎": "原理・基本動作の理解を支える知識。作成者判断。",
-    "C_参照": "規格名・数値・ピン番号・CLIなどの参照知識。作成者判断。"
-  },
-  "evidence_scope": "2009〜2025年の既存分析データと一部の元問題・公式解答を照合して代表例を記録。全916小問の再監査ではなく、参照数は出題回数として利用しない。",
-  "source_corrections": [
-    "PDの展開はPowered Deviceを採用。",
-    "MACの世界一意性を無条件に断定しない。",
-    "フラッディングを同じVLAN・受信ポート除外・転送可能なポートという条件で記述。",
-    "FCS検出と誤り訂正を区別。",
-    "PoEのPSE電力とPD電力を分離。",
-    "100BASE-TXのピンとケーブルの問題は速度・Auto MDI/MDI-Xの有無を限定。",
-    "光の距離・LLDP初期値・ポリシング値を全製品へ一般化しない。"
+  "display_fields": [
+    "question",
+    "answer"
   ],
+  "learning_display": "学習用の表示は問題と簡潔な解答。補足、必須要素、許容表現、前提一覧、対応する知識、管理IDは表示しない。",
+  "coverage_statement": "第3章の主要な説明を対象にした86問。本文の全文章・全表の網羅を意味しない。",
+  "knowledge_registry_status": "knowledge.jsonは旧170問版の検討記録。現在のカードにはknowledge_idsを付けず、出典URLを直接対応付ける。",
   "sections": [
     {
       "id": "01",
-      "title": "Ethernetの基本",
-      "covered_knowledge": 7,
-      "deliberately_not_carded": [
-        "Ethernetの発明者・年表の個別年号",
-        "IEEE組織図の全項目"
-      ]
+      "title": "Ethernetの基本"
     },
     {
       "id": "02",
-      "title": "Ethernetの規格と速度",
-      "covered_knowledge": 10,
-      "deliberately_not_carded": [
-        "10BASE5/2、100BASE-T4、WAN PHYなどの規格表の全セル",
-        "光モジュールごとの距離・波長・型番と価格"
-      ]
+      "title": "Ethernetの規格と速度"
     },
     {
       "id": "03",
-      "title": "マルチギガビットEthernet",
-      "covered_knowledge": 7,
-      "deliberately_not_carded": [
-        "車載用802.3chの詳細（本カード集では企業LANの2.5/5GBASE-Tを中心にする）"
-      ]
+      "title": "マルチギガビットEthernet"
     },
     {
       "id": "04",
-      "title": "伝送メディア",
-      "covered_knowledge": 9,
-      "deliberately_not_carded": [
-        "Cat1〜Cat7の周波数表全体",
-        "T568A/Bの全8色の配列",
-        "材質だけで光ファイバーの曲げやすさ・価格を断定する記述"
-      ]
+      "title": "伝送メディア"
     },
     {
       "id": "05",
-      "title": "ストレート／クロスケーブル",
-      "covered_knowledge": 7,
-      "deliberately_not_carded": [
-        "1000BASE-Tのクロス配線全体の暗記"
-      ]
+      "title": "ストレート／クロスケーブル"
     },
     {
       "id": "06",
-      "title": "EthernetフレームとMACアドレス",
-      "covered_knowledge": 19,
-      "deliberately_not_carded": [
-        "AppleTalk・IPXのEtherType",
-        "特定OSの操作手順",
-        "すべてのMACが必ず世界で一意だとする一般化"
-      ]
+      "title": "EthernetフレームとMACアドレス"
     },
     {
       "id": "07",
-      "title": "CSMA/CD",
-      "covered_knowledge": 6,
-      "deliberately_not_carded": [
-        "バックオフの再試行回数と乱数範囲の全パターン"
-      ]
+      "title": "CSMA/CD"
     },
     {
       "id": "08",
-      "title": "ネットワーク機器の役割",
-      "covered_knowledge": 9,
-      "deliberately_not_carded": [
-        "ハブの最大カスケード段数",
-        "ブリッジは必ずソフトウェア、スイッチは必ず特定機能を持たないという一般化"
-      ]
+      "title": "ネットワーク機器の役割"
     },
     {
       "id": "09",
-      "title": "L2スイッチの学習と転送",
-      "covered_knowledge": 11,
-      "deliberately_not_carded": [
-        "全メーカー・全機種が同じ転送方式であるという一般化",
-        "エージング既定値300秒を全製品共通とする暗記"
-      ]
+      "title": "L2スイッチの学習と転送"
     },
     {
       "id": "10",
-      "title": "半二重・全二重とオートネゴシエーション",
-      "covered_knowledge": 5,
-      "deliberately_not_carded": [
-        "廃れたPHYを含む優先順位の全列挙",
-        "duplex不一致時の機種別動作とトラブルシュート（別途出典・前提を要する）"
-      ]
+      "title": "半二重・全二重とオートネゴシエーション"
     },
     {
       "id": "11",
-      "title": "LLDP",
-      "covered_knowledge": 12,
-      "deliberately_not_carded": [
-        "機種・版によって変わるLLDP既定値",
-        "必須TLVを3個と数える問題（End of LLDPDUを含めるかで曖昧になるため）",
-        "音声VLAN割当ての設定例全体、特定電話機の互換性"
-      ]
+      "title": "LLDP"
     },
     {
       "id": "12",
-      "title": "ルータを経由する通信",
-      "covered_knowledge": 8,
-      "deliberately_not_carded": [
-        "図中の特定機器名・IPアドレスをそのまま暗記する問題"
-      ]
+      "title": "ルータを経由する通信"
     },
     {
       "id": "13",
-      "title": "PLC（電力線通信）",
-      "covered_knowledge": 6,
-      "deliberately_not_carded": [
-        "国内の省令・利用可能周波数の現行法令",
-        "個別世代PLC製品の速度と販売状況",
-        "旧HD-PLC仕様表全セル"
-      ]
+      "title": "PLC（電力線通信）"
     },
     {
       "id": "14",
-      "title": "PoE・PoE+・PoE++",
-      "covered_knowledge": 16,
-      "deliberately_not_carded": [
-        "機種依存のポリシングしきい値・初期設定",
-        "Class0〜8の全表",
-        "802.11ac/axのAPなら一律に同じ電力という扱い"
-      ]
+      "title": "PoE・PoE+・PoE++"
     }
-  ],
-  "review_limits": [
-    "作成者による資料照合と構造検証を実施。第三者専門家の査読ではない。",
-    "学習者による実際の解答結果はまだない。review_log.csvで収集する。",
-    "具体例の機械検証は、自然言語の曖昧さを完全に保証するものではない。"
   ]
 }

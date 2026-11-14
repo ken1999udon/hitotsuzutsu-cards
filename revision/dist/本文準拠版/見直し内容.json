@@ -1,0 +1,456 @@
+{
+  "basis": "infraexpert.comの第3章14項目",
+  "decision": "元75問を固定採用せず、各問いを本文の要点・重複・自然さで見直す。",
+  "removed_original_questions": {
+    "Q18": "UTPとSTPの構造の違いとしてQ16へ統合。",
+    "Q25": "単独の送信ピン番号より、クロス結線が必要な理由を扱う問いへ変更。",
+    "Q67": "既存の電力線を使うという内容がQ64と重なるため統合。"
+  },
+  "kept_or_reworded_original_questions": 72,
+  "added_source_points": 14,
+  "removed_invented_scenario_cards": 38,
+  "cards": 86,
+  "principles": [
+    "本文で説明される定義・仕組み・違い・理由・主要数値を問う。",
+    "こちらでネットワーク構成や数値条件を作り足さない。",
+    "問題と解答の組だけで復習できる長さにする。",
+    "一枚を形式的に細分化しすぎず、一つのまとまりとして理解する比較は一緒に問う。",
+    "説明が必要な答えは、答えそのものの中で簡潔に説明する。",
+    "補足欄を埋めること、知識IDや前提一覧を見せることを目的にしない。",
+    "75問などの問題数を目標にしない。"
+  ],
+  "per_card_editorial_decision": {
+    "K03-001-B": {
+      "legacy": "Q01",
+      "section": "01",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-002-B": {
+      "legacy": "Q02",
+      "section": "01",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-003-B": {
+      "legacy": "Q03",
+      "section": "01",
+      "decision": "問いを調整"
+    },
+    "K03-004-B": {
+      "legacy": "Q04",
+      "section": "01",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-005-B": {
+      "legacy": "Q05",
+      "section": "01",
+      "decision": "問いを調整"
+    },
+    "K03-006-B": {
+      "legacy": "Q06",
+      "section": "02",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-007-B": {
+      "legacy": "Q07",
+      "section": "02",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-008-B": {
+      "legacy": "Q08",
+      "section": "02",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-009-B": {
+      "legacy": "Q09",
+      "section": "02",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-010-B": {
+      "legacy": "Q10",
+      "section": "02",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-011a-B": {
+      "legacy": "Q11",
+      "section": "03",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-012-B": {
+      "legacy": "Q12",
+      "section": "03",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-013-B": {
+      "legacy": "Q13",
+      "section": "03",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-014-B": {
+      "legacy": "Q14",
+      "section": "03",
+      "decision": "問いを調整"
+    },
+    "K03-015-B": {
+      "legacy": "Q15",
+      "section": "03",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-016-B": {
+      "legacy": "Q16",
+      "section": "04",
+      "decision": "問いを調整"
+    },
+    "K03-017-B": {
+      "legacy": "Q17",
+      "section": "04",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-019-B": {
+      "legacy": "Q19",
+      "section": "04",
+      "decision": "問いを調整"
+    },
+    "K03-020-B": {
+      "legacy": "Q20",
+      "section": "04",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-021-B": {
+      "legacy": "Q21",
+      "section": "05",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-022-B": {
+      "legacy": "Q22",
+      "section": "05",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-023-B": {
+      "legacy": "Q23",
+      "section": "05",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-024-B": {
+      "legacy": "Q24",
+      "section": "05",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-026-B": {
+      "legacy": "Q26",
+      "section": "06",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-027-B": {
+      "legacy": "Q27",
+      "section": "06",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-028-B": {
+      "legacy": "Q28",
+      "section": "06",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-029-B": {
+      "legacy": "Q29",
+      "section": "06",
+      "decision": "問いを調整"
+    },
+    "K03-030a-B": {
+      "legacy": "Q30",
+      "section": "06",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-031-B": {
+      "legacy": "Q31",
+      "section": "06",
+      "decision": "問いを調整"
+    },
+    "K03-032-B": {
+      "legacy": "Q32",
+      "section": "06",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-033-B": {
+      "legacy": "Q33",
+      "section": "07",
+      "decision": "問いを調整"
+    },
+    "K03-034-B": {
+      "legacy": "Q34",
+      "section": "07",
+      "decision": "問いを調整"
+    },
+    "K03-035-B": {
+      "legacy": "Q35",
+      "section": "07",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-036-B": {
+      "legacy": "Q36",
+      "section": "07",
+      "decision": "問いを調整"
+    },
+    "K03-037-B": {
+      "legacy": "Q37",
+      "section": "07",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-038-B": {
+      "legacy": "Q38",
+      "section": "08",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-039-B": {
+      "legacy": "Q39",
+      "section": "08",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-040-B": {
+      "legacy": "Q40",
+      "section": "08",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-041-B": {
+      "legacy": "Q41",
+      "section": "08",
+      "decision": "問いを調整"
+    },
+    "K03-042-B": {
+      "legacy": "Q42",
+      "section": "08",
+      "decision": "問いを調整"
+    },
+    "K03-043-B": {
+      "legacy": "Q43",
+      "section": "09",
+      "decision": "問いを調整"
+    },
+    "K03-044-B": {
+      "legacy": "Q44",
+      "section": "09",
+      "decision": "問いを調整"
+    },
+    "K03-045-B": {
+      "legacy": "Q45",
+      "section": "09",
+      "decision": "問いを調整"
+    },
+    "K03-046-B": {
+      "legacy": "Q46",
+      "section": "09",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-047-B": {
+      "legacy": "Q47",
+      "section": "09",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-048-B": {
+      "legacy": "Q48",
+      "section": "09",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-049-B": {
+      "legacy": "Q49",
+      "section": "10",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-050-B": {
+      "legacy": "Q50",
+      "section": "10",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-051-B": {
+      "legacy": "Q51",
+      "section": "10",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-052-B": {
+      "legacy": "Q52",
+      "section": "10",
+      "decision": "問いを調整"
+    },
+    "K03-053-B": {
+      "legacy": "Q53",
+      "section": "10",
+      "decision": "問いを調整"
+    },
+    "K03-054-B": {
+      "legacy": "Q54",
+      "section": "11",
+      "decision": "問いを調整"
+    },
+    "K03-055-B": {
+      "legacy": "Q55",
+      "section": "11",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-056-B": {
+      "legacy": "Q56",
+      "section": "11",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-057-B": {
+      "legacy": "Q57",
+      "section": "11",
+      "decision": "問いを調整"
+    },
+    "K03-058-B": {
+      "legacy": "Q58",
+      "section": "11",
+      "decision": "問いを調整"
+    },
+    "K03-059-B": {
+      "legacy": "Q59",
+      "section": "12",
+      "decision": "問いを調整"
+    },
+    "K03-060-B": {
+      "legacy": "Q60",
+      "section": "12",
+      "decision": "問いを調整"
+    },
+    "K03-061-B": {
+      "legacy": "Q61",
+      "section": "12",
+      "decision": "問いを調整"
+    },
+    "K03-062-B": {
+      "legacy": "Q62",
+      "section": "12",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-063-B": {
+      "legacy": "Q63",
+      "section": "12",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-064-B": {
+      "legacy": "Q64",
+      "section": "13",
+      "decision": "問いを調整"
+    },
+    "K03-065-B": {
+      "legacy": "Q65",
+      "section": "13",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-066-B": {
+      "legacy": "Q66",
+      "section": "13",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-068-B": {
+      "legacy": "Q68",
+      "section": "13",
+      "decision": "問いを調整"
+    },
+    "K03-069-B": {
+      "legacy": "Q69",
+      "section": "14",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-070-B": {
+      "legacy": "Q70",
+      "section": "14",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-071-B": {
+      "legacy": "Q71",
+      "section": "14",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-072-B": {
+      "legacy": "Q72",
+      "section": "14",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-073-B": {
+      "legacy": "Q73",
+      "section": "14",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-074-B": {
+      "legacy": "Q74",
+      "section": "14",
+      "decision": "本文の確認に適した問いとして維持"
+    },
+    "K03-075-B": {
+      "legacy": "Q75",
+      "section": "14",
+      "decision": "問いを調整"
+    },
+    "K03-090-B": {
+      "legacy": null,
+      "section": "06",
+      "decision": "主要なType値の抜けを補う。"
+    },
+    "K03-091-B": {
+      "legacy": null,
+      "section": "06",
+      "decision": "主要なType値の抜けを補う。"
+    },
+    "K03-092-B": {
+      "legacy": null,
+      "section": "06",
+      "decision": "フレーム全体の長さとデータ部の長さを区別する。"
+    },
+    "K03-096-B": {
+      "legacy": null,
+      "section": "06",
+      "decision": "MACの構成と各部分の役割を扱う。"
+    },
+    "K03-097-B": {
+      "legacy": null,
+      "section": "06",
+      "decision": "本文で説明されるアドレスの判別を扱う。"
+    },
+    "K03-098-B": {
+      "legacy": null,
+      "section": "06",
+      "decision": "本文で説明されるアドレスの管理区分を扱う。"
+    },
+    "K03-103-B": {
+      "legacy": null,
+      "section": "08",
+      "decision": "機器の分割範囲を説明する本文の注記を補う。"
+    },
+    "K03-104-B": {
+      "legacy": null,
+      "section": "08",
+      "decision": "第3章内のL3スイッチの説明を補う。"
+    },
+    "K03-105-B": {
+      "legacy": null,
+      "section": "09",
+      "decision": "未学習時のフラッディングと対になる基本動作を補う。"
+    },
+    "K03-110-B": {
+      "legacy": null,
+      "section": "11",
+      "decision": "本文の比較表の主要な違いを扱う。"
+    },
+    "K03-111-B": {
+      "legacy": null,
+      "section": "11",
+      "decision": "TLVの名称だけでなく役割を扱う。"
+    },
+    "K03-118-B": {
+      "legacy": null,
+      "section": "12",
+      "decision": "区間ごとに変わるMACアドレスの説明を補う。"
+    },
+    "K03-129-B": {
+      "legacy": null,
+      "section": "03",
+      "decision": "本文の規格群の名称を補う。"
+    },
+    "K03-131-B": {
+      "legacy": null,
+      "section": "05",
+      "decision": "単独のピン番号から、本文が説明する結線の理由へ置き換える。"
+    }
+  },
+  "display": "問題と解答。前提・対応知識・必須要素・補足・管理IDの表示は不要。",
+  "notes": "各カードの出典URLは管理用データに残す。書き換えに際してIDは維持。旧170問版の知識台帳は過去の検討記録であり、今回の問題構成表ではない。"
+}

@@ -1,0 +1,18 @@
+{
+  "cards": 86,
+  "sections": 14,
+  "card_fields": [
+    "id",
+    "question",
+    "answer",
+    "section_title",
+    "sources"
+  ],
+  "invented_scenario_cards": 0,
+  "standalone_supplementary_fields": 0,
+  "anki_backend_import": "86 notes / 86 cards",
+  "visible_metadata": "none",
+  "source_domains": [
+    "infraexpert.com"
+  ]
+}

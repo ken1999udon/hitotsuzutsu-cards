@@ -18,21 +18,51 @@ def add_chapter(root, number, cards):
 
 
 class CatalogTest(unittest.TestCase):
-    def test_rich_chapter_in_any_folder_includes_criteria_sources_and_sections(self):
+    def test_authoring_metadata_is_kept_out_of_the_learning_answer(self):
         with TemporaryDirectory() as directory:
             root = Path(directory)
             card = {'id': 'Q01', 'question': '問題', 'answer': '短い解答',
-                    'knowledge_ids': ['K1'], 'required': ['要素'], 'explanation': '補足'}
+                    'knowledge_ids': ['K1'], 'required': ['要素'], 'explanation': '補足',
+                    'accepted': ['許容表現']}
             folder = add_chapter(root, 1, [card]) / 'data'
             (folder / 'knowledge.json').write_text(json.dumps([{'id': 'K1', 'section': '01', 'source_ids': ['S1'], 'conditions': '前提'}]))
             (folder / 'sources.json').write_text(json.dumps({'S1': {'url': 'https://example.com/source'}}))
-            (folder / 'review_policy.json').write_text(json.dumps({'sections': [{'id': '01', 'title': '節の名前'}]}))
+            (folder / 'review_policy.json').write_text(json.dumps({'deck_title': '本文準拠版', 'sections': [{'id': '01', 'title': '節の名前'}]}))
             chapter = build_catalog(root)['decks'][0]
             self.assertEqual(chapter['deck_id'], 'chapter-01')
             self.assertEqual(chapter['cards'][0]['section_title'], '節の名前')
-            self.assertIn('正解に必要な要素', chapter['cards'][0]['answer'])
-            self.assertIn('補足', chapter['cards'][0]['answer'])
+            self.assertEqual(chapter['title'], '本文準拠版')
+            self.assertEqual(chapter['cards'][0]['id'], 'Q01')
+            self.assertEqual(chapter['cards'][0]['question'], '問題')
+            self.assertEqual(chapter['cards'][0]['answer'], '<div class="answer-text">短い解答</div>')
             self.assertEqual(chapter['cards'][0]['sources'], ['https://example.com/source'])
+
+    def test_learning_text_is_escaped_and_empty_catalog_does_not_replace_output(self):
+        import subprocess
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            folder = add_chapter(root, 1, [{'id': 'Q01', 'question': '問題 <tag>', 'answer': '答え & 補記'}])
+            card = build_catalog(root)['decks'][0]['cards'][0]
+            self.assertEqual(card['question'], '問題 &lt;tag&gt;')
+            self.assertEqual(card['answer'], '<div class="answer-text">答え &amp; 補記</div>')
+            (folder / 'data/cards.json').write_text('[]')
+            output = root / 'published.json'
+            output.write_text('previous publication')
+            result = subprocess.run([sys.executable, str(ROOT / 'tools/export_catalog.py'), '--root', str(root), '--output', str(output)], capture_output=True)
+            self.assertNotEqual(result.returncode, 0)
+            self.assertEqual(output.read_text(), 'previous publication')
+
+    def test_minimal_cards_do_not_require_links_to_older_knowledge_records(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            records = [{'id': 'Q02', 'question': '最初の問題', 'answer': '答え', 'section_title': '本文の節'},
+                       {'id': 'Q01', 'question': '次の問題', 'answer': '答え'}]
+            folder = add_chapter(root, 3, records) / 'data'
+            (folder / 'knowledge.json').write_text(json.dumps([{'id': 'OLD', 'section': '01'}]))
+            cards = build_catalog(root)['decks'][0]['cards']
+            self.assertEqual([card['id'] for card in cards], ['Q02', 'Q01'])
+            self.assertEqual(cards[0]['section_title'], '本文の節')
+            self.assertEqual(cards[0]['answer'], '<div class="answer-text">答え</div>')
 
     def test_new_chapters_are_discovered_and_edits_change_the_revision(self):
         with TemporaryDirectory() as directory:

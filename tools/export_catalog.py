@@ -32,7 +32,7 @@ def build_chapter(definition):
     sources = read(folder / 'sources.json', {})
     policy = read(folder / 'review_policy.json', {})
     sections = {s['id']: s['title'] for s in policy.get('sections', [])}
-    if knowledge:
+    if knowledge and all(card.get('knowledge_ids') for card in records):
         records = sorted(records, key=lambda c: (
             knowledge[c['knowledge_ids'][0]]['section'], c['knowledge_ids'][0],
             not c['id'].endswith('-B'), c['id']))
@@ -43,16 +43,6 @@ def build_chapter(definition):
         facts = [knowledge[k] for k in card.get('knowledge_ids', [])]
         links = card.get('sources', []) + [sources[s]['url'] for f in facts for s in f.get('source_ids', [])]
         answer = '<div class="answer-text">' + text(card['answer']) + '</div>'
-        if card.get('required'):
-            answer += '<div class="answer-criteria"><div class="answer-heading">正解に必要な要素</div><ul>'
-            answer += ''.join('<li>' + text(value) + '</li>' for value in card['required']) + '</ul></div>'
-        if card.get('accepted'):
-            answer += '<div class="answer-accepted"><div class="answer-heading">許容表現の例</div>' + text('、'.join(card['accepted'])) + '</div>'
-        if card.get('explanation'):
-            answer += '<div class="answer-explanation"><div class="answer-heading">補足</div>' + text(card['explanation']) + '</div>'
-        if facts:
-            answer += '<details class="answer-details"><summary>前提・対応する知識</summary><p>カード：' + text(card['id']) + '<br>知識：' + text('、'.join(card['knowledge_ids'])) + '</p>'
-            answer += ''.join('<p>' + text(f.get('conditions', '')) + '</p>' for f in facts) + '</details>'
         section = facts[0]['section'] if facts else card.get('section', '')
         cards.append({'id': card['id'], 'question': text(card['question']), 'answer': answer,
                       'html': True, 'section': section, 'section_title': card.get('section_title', sections.get(section, '')),
@@ -62,7 +52,7 @@ def build_chapter(definition):
         raise ValueError(f'{definition}: カードIDが重複しています')
     files = [definition] + [folder / name for name in ('cards.json', 'knowledge.json', 'sources.json', 'review_policy.json') if (folder / name).exists()]
     revision = sha256(b'\0'.join(p.read_bytes() for p in files)).hexdigest()
-    return {'deck_id': meta['deck_id'], 'revision': revision, 'title': meta['title'],
+    return {'deck_id': meta['deck_id'], 'revision': revision, 'title': policy.get('deck_title') or meta['title'],
             'subtitle': meta.get('subtitle', ''), 'knowledge_count': len(knowledge),
             'question_count': len(cards), 'sections': len(sections) or len({c['section_title'] for c in cards if c['section_title']}),
             'cards': cards}
