@@ -3,10 +3,6 @@ name: Publish study cards
 on:
   push:
     branches: [main]
-    paths:
-      - 'revision/data/**'
-      - 'revision/tools/export_site.py'
-      - '.github/workflows/publish-cards.yml'
   workflow_dispatch:
 
 permissions:
@@ -23,8 +19,10 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: main
-      - name: Generate the browser deck
-        run: python3 revision/tools/export_site.py --output "$RUNNER_TEMP/deck.json"
+      - name: Check the chapter exporter
+        run: python3 -m unittest discover -s tests
+      - name: Generate all chapters
+        run: python3 tools/export_catalog.py --output "$RUNNER_TEMP/catalog.json"
       - name: Publish the generated JSON
         shell: bash
         run: |
@@ -37,8 +35,8 @@ jobs:
           else
             git switch --orphan published
           fi
-          cp "$RUNNER_TEMP/deck.json" deck.json
-          git add deck.json
+          cp "$RUNNER_TEMP/catalog.json" catalog.json
+          git add catalog.json
           if ! git diff --cached --quiet; then
             git commit -m "Publish cards from $source_sha"
             git push origin HEAD:published
