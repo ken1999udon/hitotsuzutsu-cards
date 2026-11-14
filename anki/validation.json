@@ -1,0 +1,13 @@
+{
+  "file": "flashcards/chapter03/anki/ネスペイージス_第3章_EthernetLAN_75問.apkg",
+  "deck": "ネスペイージス::第3章 Ethernet LAN",
+  "notes": 75,
+  "cards": 75,
+  "sections": 14,
+  "question_answer_content": "all 75 identical to the existing JSON data",
+  "database_integrity": "ok",
+  "all_cards_new": true,
+  "front_has_no_answer": true,
+  "anki_app_import": "not performed",
+  "file_size_bytes": 90330
+}

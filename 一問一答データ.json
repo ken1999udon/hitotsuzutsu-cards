@@ -1,0 +1,837 @@
+{
+  "title": "ネスペイージス第3章 Ethernet LAN 一問一答",
+  "reference_index": "https://www.infraexpert.com/info/netspecial1.html",
+  "question_count": 75,
+  "sections": 14,
+  "cards": [
+    {
+      "id": "Q01",
+      "section": "01",
+      "section_title": "Ethernetの基本",
+      "kind": "用語",
+      "question": "Ethernetを規定するIEEE 802系列の規格番号は？",
+      "answer": "IEEE 802.3。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet.html"
+      ]
+    },
+    {
+      "id": "Q02",
+      "section": "01",
+      "section_title": "Ethernetの基本",
+      "kind": "用語",
+      "question": "Ethernetは、OSI参照モデルの主にどの2層に対応する？",
+      "answer": "物理層とデータリンク層。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet.html",
+        "https://www.infraexpert.com/study/ethernet1.html"
+      ]
+    },
+    {
+      "id": "Q03",
+      "section": "01",
+      "section_title": "Ethernetの基本",
+      "kind": "用語",
+      "question": "通信速度を表すbpsは、1秒当たりの何の数を表す？",
+      "answer": "ビット数。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet.html"
+      ]
+    },
+    {
+      "id": "Q04",
+      "section": "01",
+      "section_title": "Ethernetの基本",
+      "kind": "数値",
+      "question": "1Gbpsは何Mbpsか。",
+      "answer": "1,000Mbps。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet.html"
+      ]
+    },
+    {
+      "id": "Q05",
+      "section": "01",
+      "section_title": "Ethernetの基本",
+      "kind": "数値",
+      "question": "100Mbpsをバイト毎秒に換算すると、理論上何MB/sか。",
+      "answer": "12.5MB/s。1バイト＝8ビットとして計算する。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet.html"
+      ]
+    },
+    {
+      "id": "Q06",
+      "section": "02",
+      "section_title": "Ethernetの規格と速度",
+      "kind": "数値",
+      "question": "Fast Ethernetの通信速度は？",
+      "answer": "100Mbps。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet1.html"
+      ]
+    },
+    {
+      "id": "Q07",
+      "section": "02",
+      "section_title": "Ethernetの規格と速度",
+      "kind": "数値",
+      "question": "Gigabit Ethernetの通信速度は？",
+      "answer": "1Gbps。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet1.html"
+      ]
+    },
+    {
+      "id": "Q08",
+      "section": "02",
+      "section_title": "Ethernetの規格と速度",
+      "kind": "数値",
+      "question": "10 Gigabit Ethernetの通信速度は？",
+      "answer": "10Gbps。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet1.html"
+      ]
+    },
+    {
+      "id": "Q09",
+      "section": "02",
+      "section_title": "Ethernetの規格と速度",
+      "kind": "数値",
+      "question": "1000BASE-Tの規格上の最大伝送距離は？",
+      "answer": "100m。規格に適合する配線を使用する。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet1.html"
+      ]
+    },
+    {
+      "id": "Q10",
+      "section": "02",
+      "section_title": "Ethernetの規格と速度",
+      "kind": "用語",
+      "question": "100BASE-TXなどの名称に含まれるBASEは、どの伝送方式を示す？",
+      "answer": "ベースバンド方式。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet1.html"
+      ]
+    },
+    {
+      "id": "Q11",
+      "section": "03",
+      "section_title": "マルチギガビットEthernet",
+      "kind": "数値",
+      "question": "2.5GBASE-Tと5GBASE-Tの速度を、それぞれ答えよ。",
+      "answer": "2.5Gbps、5Gbps。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet14.html"
+      ]
+    },
+    {
+      "id": "Q12",
+      "section": "03",
+      "section_title": "マルチギガビットEthernet",
+      "kind": "用語",
+      "question": "2.5GBASE-Tと5GBASE-Tを標準化した規格番号は？",
+      "answer": "IEEE 802.3bz。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet14.html"
+      ]
+    },
+    {
+      "id": "Q13",
+      "section": "03",
+      "section_title": "マルチギガビットEthernet",
+      "kind": "用語",
+      "question": "2.5GBASE-Tで再利用できる、広く普及したLANケーブルのカテゴリは？",
+      "answer": "カテゴリ5e（Cat5e）。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet14.html"
+      ]
+    },
+    {
+      "id": "Q14",
+      "section": "03",
+      "section_title": "マルチギガビットEthernet",
+      "kind": "説明",
+      "question": "高速な無線APに1Gbpsの有線接続を使うと、どの区間がボトルネックになり得る？",
+      "answer": "APとスイッチ間の有線区間。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet14.html"
+      ]
+    },
+    {
+      "id": "Q15",
+      "section": "03",
+      "section_title": "マルチギガビットEthernet",
+      "kind": "数値",
+      "question": "2.5GBASE-T／5GBASE-Tの標準で想定する最大伝送距離は？",
+      "answer": "100m。使用する配線は規格の要件を満たす必要がある。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet14.html"
+      ]
+    },
+    {
+      "id": "Q16",
+      "section": "04",
+      "section_title": "伝送メディア",
+      "kind": "用語",
+      "question": "UTPとシールド付きツイストペアケーブルを比べたとき、UTPにないものは？",
+      "answer": "シールド。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet2.html"
+      ]
+    },
+    {
+      "id": "Q17",
+      "section": "04",
+      "section_title": "伝送メディア",
+      "kind": "数値",
+      "question": "一般的な4対のLAN用ツイストペアケーブルは、合計何本の芯線を持つ？",
+      "answer": "8本。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet2.html"
+      ]
+    },
+    {
+      "id": "Q18",
+      "section": "04",
+      "section_title": "伝送メディア",
+      "kind": "用語",
+      "question": "外来ノイズの影響を抑えるため、シールドを備えたツイストペアケーブルを何という？",
+      "answer": "STPケーブル（Shielded Twisted Pair）。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet2.html"
+      ]
+    },
+    {
+      "id": "Q19",
+      "section": "04",
+      "section_title": "伝送メディア",
+      "kind": "用語",
+      "question": "光ファイバーで、光が主に伝わる中心部分を何という？",
+      "answer": "コア。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet2.html"
+      ]
+    },
+    {
+      "id": "Q20",
+      "section": "04",
+      "section_title": "伝送メディア",
+      "kind": "用語",
+      "question": "一般に、長距離伝送向けに用いられるのはSMFとMMFのどちらか。",
+      "answer": "SMF（シングルモードファイバー）。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet2.html"
+      ]
+    },
+    {
+      "id": "Q21",
+      "section": "05",
+      "section_title": "ストレート／クロスケーブル",
+      "kind": "用語",
+      "question": "両端を同じピン配列で結線したLANケーブルを何という？",
+      "answer": "ストレートケーブル。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet3.html"
+      ]
+    },
+    {
+      "id": "Q22",
+      "section": "05",
+      "section_title": "ストレート／クロスケーブル",
+      "kind": "用語",
+      "question": "100BASE-TXでAuto MDI/MDI-Xを使わず、MDIとMDI-Xを接続するケーブルは？",
+      "answer": "ストレートケーブル。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet3.html"
+      ]
+    },
+    {
+      "id": "Q23",
+      "section": "05",
+      "section_title": "ストレート／クロスケーブル",
+      "kind": "用語",
+      "question": "100BASE-TXでAuto MDI/MDI-Xを使わず、MDI同士を接続するケーブルは？",
+      "answer": "クロスケーブル。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet3.html"
+      ]
+    },
+    {
+      "id": "Q24",
+      "section": "05",
+      "section_title": "ストレート／クロスケーブル",
+      "kind": "用語",
+      "question": "接続先に応じ、送受信の配線の対応を自動調整する機能は？",
+      "answer": "Auto MDI/MDI-X。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet3.html"
+      ]
+    },
+    {
+      "id": "Q25",
+      "section": "05",
+      "section_title": "ストレート／クロスケーブル",
+      "kind": "数値",
+      "question": "100BASE-TXのMDIポートで、送信に使用するピン番号は？",
+      "answer": "1番と2番。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet3.html"
+      ]
+    },
+    {
+      "id": "Q26",
+      "section": "06",
+      "section_title": "EthernetフレームとMACアドレス",
+      "kind": "数値",
+      "question": "Ethernetで一般的に使うMACアドレスの長さは何ビットか。",
+      "answer": "48ビット（6バイト）。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ]
+    },
+    {
+      "id": "Q27",
+      "section": "06",
+      "section_title": "EthernetフレームとMACアドレス",
+      "kind": "説明",
+      "question": "Ethernet IIのTypeフィールドは、何を識別する？",
+      "answer": "データ部に格納された上位層のプロトコル。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ]
+    },
+    {
+      "id": "Q28",
+      "section": "06",
+      "section_title": "EthernetフレームとMACアドレス",
+      "kind": "数値",
+      "question": "Ethernet IIでIPv4を示すType値は？",
+      "answer": "0x0800。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ]
+    },
+    {
+      "id": "Q29",
+      "section": "06",
+      "section_title": "EthernetフレームとMACアドレス",
+      "kind": "説明",
+      "question": "EthernetフレームのFCSが検出するものは？",
+      "answer": "伝送中のビット誤り。CRCを使って検査する。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ]
+    },
+    {
+      "id": "Q30",
+      "section": "06",
+      "section_title": "EthernetフレームとMACアドレス",
+      "kind": "数値",
+      "question": "VLANタグなしの通常フレームは、宛先MACからFCSまでで最小・最大何バイトか。",
+      "answer": "最小64バイト、最大1,518バイト。プリアンブルとSFDは含めない。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ]
+    },
+    {
+      "id": "Q31",
+      "section": "06",
+      "section_title": "EthernetフレームとMACアドレス",
+      "kind": "用語",
+      "question": "短いEthernetフレームを最小長まで埋める処理を何という？",
+      "answer": "パディング。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ]
+    },
+    {
+      "id": "Q32",
+      "section": "06",
+      "section_title": "EthernetフレームとMACアドレス",
+      "kind": "用語",
+      "question": "Ethernetのブロードキャスト宛先MACアドレスは？",
+      "answer": "FF:FF:FF:FF:FF:FF（48ビットすべて1）。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ]
+    },
+    {
+      "id": "Q33",
+      "section": "07",
+      "section_title": "CSMA/CD",
+      "kind": "説明",
+      "question": "CSMA/CDのCarrier Senseでは、送信前に何を確認する？",
+      "answer": "伝送媒体がほかの通信に使用されていないか。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet5.html"
+      ]
+    },
+    {
+      "id": "Q34",
+      "section": "07",
+      "section_title": "CSMA/CD",
+      "kind": "説明",
+      "question": "CSMA/CDのMultiple Accessは、どのような媒体利用を意味する？",
+      "answer": "複数の端末で同じ伝送媒体を共有すること。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet5.html"
+      ]
+    },
+    {
+      "id": "Q35",
+      "section": "07",
+      "section_title": "CSMA/CD",
+      "kind": "用語",
+      "question": "CSMA/CDのCollision Detectionは、何を検出する？",
+      "answer": "同時送信による信号の衝突。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet5.html"
+      ]
+    },
+    {
+      "id": "Q36",
+      "section": "07",
+      "section_title": "CSMA/CD",
+      "kind": "説明",
+      "question": "衝突後、再送までの待機時間をランダムにするのはなぜか。",
+      "answer": "端末同士が同時に再送して、再び衝突するのを避けるため。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet5.html"
+      ]
+    },
+    {
+      "id": "Q37",
+      "section": "07",
+      "section_title": "CSMA/CD",
+      "kind": "用語",
+      "question": "CSMA/CDが使われるのは、半二重と全二重のどちらか。",
+      "answer": "半二重。全二重Ethernetでは使用しない。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet5.html"
+      ]
+    },
+    {
+      "id": "Q38",
+      "section": "08",
+      "section_title": "ネットワーク機器の役割",
+      "kind": "用語",
+      "question": "リピータハブが動作するOSI参照モデルの層は？",
+      "answer": "物理層（第1層）。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet6.html"
+      ]
+    },
+    {
+      "id": "Q39",
+      "section": "08",
+      "section_title": "ネットワーク機器の役割",
+      "kind": "用語",
+      "question": "L2スイッチが主に転送判断を行う層は？",
+      "answer": "データリンク層（第2層）。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet6.html"
+      ]
+    },
+    {
+      "id": "Q40",
+      "section": "08",
+      "section_title": "ネットワーク機器の役割",
+      "kind": "用語",
+      "question": "ルータが主に経路選択を行う層は？",
+      "answer": "ネットワーク層（第3層）。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet6.html"
+      ]
+    },
+    {
+      "id": "Q41",
+      "section": "08",
+      "section_title": "ネットワーク機器の役割",
+      "kind": "説明",
+      "question": "リピータハブは、ポートごとにコリジョンドメインを分割できるか。",
+      "answer": "できない。接続された端末は衝突の影響範囲を共有する。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet6.html"
+      ]
+    },
+    {
+      "id": "Q42",
+      "section": "08",
+      "section_title": "ネットワーク機器の役割",
+      "kind": "説明",
+      "question": "ルータは、通常のL2ブロードキャストドメインをインターフェース間で分割できるか。",
+      "answer": "できる。L2ブロードキャストを別セグメントへそのまま中継しない。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet6.html"
+      ]
+    },
+    {
+      "id": "Q43",
+      "section": "09",
+      "section_title": "L2スイッチの学習と転送",
+      "kind": "用語",
+      "question": "L2スイッチがMACアドレスを学習するとき、受信フレームの送信元・宛先のどちらを使う？",
+      "answer": "送信元MACアドレス。受信ポートやVLANと対応付ける。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet7.html",
+        "https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-mac.html"
+      ]
+    },
+    {
+      "id": "Q44",
+      "section": "09",
+      "section_title": "L2スイッチの学習と転送",
+      "kind": "説明",
+      "question": "宛先MACが未学習のユニキャストフレームを、通常のL2スイッチはどこへ転送する？",
+      "answer": "同じVLANの転送可能なポートのうち、受信ポートを除いたポート。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet7.html",
+        "https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-mac.html"
+      ]
+    },
+    {
+      "id": "Q45",
+      "section": "09",
+      "section_title": "L2スイッチの学習と転送",
+      "kind": "用語",
+      "question": "動的に学習したMACエントリを、一定時間更新がなければ削除する動作は？",
+      "answer": "エージング。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet7.html"
+      ]
+    },
+    {
+      "id": "Q46",
+      "section": "09",
+      "section_title": "L2スイッチの学習と転送",
+      "kind": "用語",
+      "question": "フレーム全体を受信し、FCSを検査してから転送する方式は？",
+      "answer": "ストアアンドフォワード。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet7.html"
+      ]
+    },
+    {
+      "id": "Q47",
+      "section": "09",
+      "section_title": "L2スイッチの学習と転送",
+      "kind": "用語",
+      "question": "フレーム全体の受信完了前に転送を始める方式は？",
+      "answer": "カットスルー。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet7.html"
+      ]
+    },
+    {
+      "id": "Q48",
+      "section": "09",
+      "section_title": "L2スイッチの学習と転送",
+      "kind": "数値",
+      "question": "フラグメントフリー方式は、先頭何バイトの受信を待って転送する？",
+      "answer": "64バイト。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet7.html"
+      ]
+    },
+    {
+      "id": "Q49",
+      "section": "10",
+      "section_title": "半二重・全二重とオートネゴシエーション",
+      "kind": "用語",
+      "question": "送信と受信を同時に行える通信方式は？",
+      "answer": "全二重通信。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet8.html"
+      ]
+    },
+    {
+      "id": "Q50",
+      "section": "10",
+      "section_title": "半二重・全二重とオートネゴシエーション",
+      "kind": "用語",
+      "question": "送信と受信を同時に行わず、交互に行う通信方式は？",
+      "answer": "半二重通信。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet8.html"
+      ]
+    },
+    {
+      "id": "Q51",
+      "section": "10",
+      "section_title": "半二重・全二重とオートネゴシエーション",
+      "kind": "数値",
+      "question": "1Gbps・全二重のリンクで、一方向当たりの最大伝送速度は？",
+      "answer": "1Gbps。送受信の合計値と区別する。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet8.html"
+      ]
+    },
+    {
+      "id": "Q52",
+      "section": "10",
+      "section_title": "半二重・全二重とオートネゴシエーション",
+      "kind": "用語",
+      "question": "Ethernetのオートネゴシエーションが自動調整する、速度以外の主な項目は？",
+      "answer": "全二重・半二重の通信モード。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet8.html"
+      ]
+    },
+    {
+      "id": "Q53",
+      "section": "10",
+      "section_title": "半二重・全二重とオートネゴシエーション",
+      "kind": "用語",
+      "question": "両端が100BASE-TX全二重と10BASE-T全二重に対応している場合、通常どちらが優先される？",
+      "answer": "100BASE-TX全二重。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet8.html"
+      ]
+    },
+    {
+      "id": "Q54",
+      "section": "11",
+      "section_title": "LLDP",
+      "kind": "用語",
+      "question": "LLDPは、基本的にどの機器間で情報を交換する？",
+      "answer": "直接隣接するネットワーク機器間。異なるベンダー間でも利用できる。",
+      "sources": [
+        "https://www.infraexpert.com/study/catalyst25.html"
+      ]
+    },
+    {
+      "id": "Q55",
+      "section": "11",
+      "section_title": "LLDP",
+      "kind": "用語",
+      "question": "LLDPが動作するOSI参照モデルの層は？",
+      "answer": "データリンク層（第2層）。",
+      "sources": [
+        "https://www.infraexpert.com/study/catalyst25.html"
+      ]
+    },
+    {
+      "id": "Q56",
+      "section": "11",
+      "section_title": "LLDP",
+      "kind": "用語",
+      "question": "LLDPの標準規格番号は？",
+      "answer": "IEEE 802.1AB。",
+      "sources": [
+        "https://www.infraexpert.com/study/catalyst25.html"
+      ]
+    },
+    {
+      "id": "Q57",
+      "section": "11",
+      "section_title": "LLDP",
+      "kind": "用語",
+      "question": "LLDPの情報表現に使う、Type・Length・Valueの組を何という？",
+      "answer": "TLV。",
+      "sources": [
+        "https://www.infraexpert.com/study/catalyst25.html"
+      ]
+    },
+    {
+      "id": "Q58",
+      "section": "11",
+      "section_title": "LLDP",
+      "kind": "説明",
+      "question": "LLDPのTime To Liveは、受信側での何の期限を表す？",
+      "answer": "隣接機器の情報を有効として保持する期限。",
+      "sources": [
+        "https://www.infraexpert.com/study/catalyst25.html"
+      ]
+    },
+    {
+      "id": "Q59",
+      "section": "12",
+      "section_title": "ルータを経由する通信",
+      "kind": "用語",
+      "question": "別サブネットのホストへ送る最初のEthernetフレームの宛先MACは、通常誰のMACか。",
+      "answer": "同一LAN上のデフォルトゲートウェイのMACアドレス。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet10.html"
+      ]
+    },
+    {
+      "id": "Q60",
+      "section": "12",
+      "section_title": "ルータを経由する通信",
+      "kind": "説明",
+      "question": "NATなどがない通常のルーティングで、宛先IPはルータごとに書き換わるか。",
+      "answer": "書き換わらず、最終宛先ホストのIPアドレスのまま。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet10.html"
+      ]
+    },
+    {
+      "id": "Q61",
+      "section": "12",
+      "section_title": "ルータを経由する通信",
+      "kind": "用語",
+      "question": "ルータが次のEthernet区間へ送るとき、送信元MACは誰のMACになる？",
+      "answer": "そのルータの送出インターフェースのMACアドレス。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet10.html"
+      ]
+    },
+    {
+      "id": "Q62",
+      "section": "12",
+      "section_title": "ルータを経由する通信",
+      "kind": "用語",
+      "question": "IPv4の次ホップのMACが不明なとき、Ethernet上で解決に使うプロトコルは？",
+      "answer": "ARP。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet10.html"
+      ]
+    },
+    {
+      "id": "Q63",
+      "section": "12",
+      "section_title": "ルータを経由する通信",
+      "kind": "用語",
+      "question": "ルータがパケットの次ホップや送出インターフェースを決めるときに参照する表は？",
+      "answer": "ルーティングテーブル。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet10.html"
+      ]
+    },
+    {
+      "id": "Q64",
+      "section": "13",
+      "section_title": "PLC（電力線通信）",
+      "kind": "用語",
+      "question": "PLCがデータ伝送に使用する配線は？",
+      "answer": "電力線。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet12.html"
+      ]
+    },
+    {
+      "id": "Q65",
+      "section": "13",
+      "section_title": "PLC（電力線通信）",
+      "kind": "用語",
+      "question": "PLCの英語名称は？",
+      "answer": "Power Line Communication。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet12.html"
+      ]
+    },
+    {
+      "id": "Q66",
+      "section": "13",
+      "section_title": "PLC（電力線通信）",
+      "kind": "用語",
+      "question": "LAN機器を電力線での通信に接続する装置を何という？",
+      "answer": "PLCモデム、またはPLCアダプター。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet12.html"
+      ]
+    },
+    {
+      "id": "Q67",
+      "section": "13",
+      "section_title": "PLC（電力線通信）",
+      "kind": "説明",
+      "question": "PLCは、新たなLANケーブルの敷設が難しい場所で、何を再利用できる利点がある？",
+      "answer": "既存の電力配線。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet12.html"
+      ]
+    },
+    {
+      "id": "Q68",
+      "section": "13",
+      "section_title": "PLC（電力線通信）",
+      "kind": "説明",
+      "question": "PLCの通信速度が理論値より低くなる原因となる、電力線上の要因の例は？",
+      "answer": "電気機器などが発生するノイズ。",
+      "sources": [
+        "https://www.infraexpert.com/study/ethernet12.html"
+      ]
+    },
+    {
+      "id": "Q69",
+      "section": "14",
+      "section_title": "PoE・PoE+・PoE++",
+      "kind": "用語",
+      "question": "EthernetのLANケーブルで、通信と併せて電力も供給する技術は？",
+      "answer": "PoE（Power over Ethernet）。",
+      "sources": [
+        "https://www.infraexpert.com/study/catalyst24.html"
+      ]
+    },
+    {
+      "id": "Q70",
+      "section": "14",
+      "section_title": "PoE・PoE+・PoE++",
+      "kind": "用語",
+      "question": "PoEの給電機器を表す略称は？",
+      "answer": "PSE（Power Sourcing Equipment）。",
+      "sources": [
+        "https://www.infraexpert.com/study/catalyst24.html"
+      ]
+    },
+    {
+      "id": "Q71",
+      "section": "14",
+      "section_title": "PoE・PoE+・PoE++",
+      "kind": "用語",
+      "question": "PoEの受電機器を表す略称は？",
+      "answer": "PD（Powered Device）。",
+      "sources": [
+        "https://www.infraexpert.com/study/catalyst24.html",
+        "https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/infra/poe/poe-configuration-guide/g-poe/c-poe.html"
+      ]
+    },
+    {
+      "id": "Q72",
+      "section": "14",
+      "section_title": "PoE・PoE+・PoE++",
+      "kind": "数値",
+      "question": "IEEE 802.3afの、PSE側の1ポート当たりの最大給電電力は？",
+      "answer": "15.4W。受電側で使用できる電力とは区別する。",
+      "sources": [
+        "https://www.infraexpert.com/study/catalyst24.html"
+      ]
+    },
+    {
+      "id": "Q73",
+      "section": "14",
+      "section_title": "PoE・PoE+・PoE++",
+      "kind": "数値",
+      "question": "IEEE 802.3atのPoE+で、PSE側の1ポート当たりの最大給電電力は？",
+      "answer": "30W。受電側で使用できる電力とは区別する。",
+      "sources": [
+        "https://www.infraexpert.com/study/catalyst24.html"
+      ]
+    },
+    {
+      "id": "Q74",
+      "section": "14",
+      "section_title": "PoE・PoE+・PoE++",
+      "kind": "用語",
+      "question": "IEEE 802.3btによる高出力のPoEは、一般に何と呼ばれる？",
+      "answer": "PoE++。",
+      "sources": [
+        "https://www.infraexpert.com/study/catalyst24.html"
+      ]
+    },
+    {
+      "id": "Q75",
+      "section": "14",
+      "section_title": "PoE・PoE+・PoE++",
+      "kind": "説明",
+      "question": "規格準拠のPoEスイッチは、PoE非対応のPCにも通常給電を開始するか。",
+      "answer": "開始しない。受電機器を検出してから給電する。",
+      "sources": [
+        "https://www.infraexpert.com/study/catalyst24.html"
+      ]
+    }
+  ]
+}

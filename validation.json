@@ -1,0 +1,30 @@
+{
+  "valid": true,
+  "questions": 75,
+  "sections": 14,
+  "kinds": {
+    "用語": 44,
+    "数値": 17,
+    "説明": 14
+  },
+  "all_question_answer_ids_match": true,
+  "blank_answer_cells": 75,
+  "japanese_save_readback": true,
+  "no_exact_row_height_or_edit_protection": true,
+  "section_question_counts": {
+    "01": 5,
+    "02": 5,
+    "03": 5,
+    "04": 5,
+    "05": 5,
+    "06": 7,
+    "07": 5,
+    "08": 5,
+    "09": 6,
+    "10": 5,
+    "11": 5,
+    "12": 5,
+    "13": 5,
+    "14": 7
+  }
+}

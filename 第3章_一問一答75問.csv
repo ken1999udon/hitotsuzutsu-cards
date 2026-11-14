@@ -1,0 +1,80 @@
+﻿番号,節,分野,種別,問題,解答,参照URL
+Q01,01,Ethernetの基本,用語,Ethernetを規定するIEEE 802系列の規格番号は？,IEEE 802.3。,https://www.infraexpert.com/study/ethernet.html
+Q02,01,Ethernetの基本,用語,Ethernetは、OSI参照モデルの主にどの2層に対応する？,物理層とデータリンク層。,"https://www.infraexpert.com/study/ethernet.html
+https://www.infraexpert.com/study/ethernet1.html"
+Q03,01,Ethernetの基本,用語,通信速度を表すbpsは、1秒当たりの何の数を表す？,ビット数。,https://www.infraexpert.com/study/ethernet.html
+Q04,01,Ethernetの基本,数値,1Gbpsは何Mbpsか。,"1,000Mbps。",https://www.infraexpert.com/study/ethernet.html
+Q05,01,Ethernetの基本,数値,100Mbpsをバイト毎秒に換算すると、理論上何MB/sか。,12.5MB/s。1バイト＝8ビットとして計算する。,https://www.infraexpert.com/study/ethernet.html
+Q06,02,Ethernetの規格と速度,数値,Fast Ethernetの通信速度は？,100Mbps。,https://www.infraexpert.com/study/ethernet1.html
+Q07,02,Ethernetの規格と速度,数値,Gigabit Ethernetの通信速度は？,1Gbps。,https://www.infraexpert.com/study/ethernet1.html
+Q08,02,Ethernetの規格と速度,数値,10 Gigabit Ethernetの通信速度は？,10Gbps。,https://www.infraexpert.com/study/ethernet1.html
+Q09,02,Ethernetの規格と速度,数値,1000BASE-Tの規格上の最大伝送距離は？,100m。規格に適合する配線を使用する。,https://www.infraexpert.com/study/ethernet1.html
+Q10,02,Ethernetの規格と速度,用語,100BASE-TXなどの名称に含まれるBASEは、どの伝送方式を示す？,ベースバンド方式。,https://www.infraexpert.com/study/ethernet1.html
+Q11,03,マルチギガビットEthernet,数値,2.5GBASE-Tと5GBASE-Tの速度を、それぞれ答えよ。,2.5Gbps、5Gbps。,https://www.infraexpert.com/study/ethernet14.html
+Q12,03,マルチギガビットEthernet,用語,2.5GBASE-Tと5GBASE-Tを標準化した規格番号は？,IEEE 802.3bz。,https://www.infraexpert.com/study/ethernet14.html
+Q13,03,マルチギガビットEthernet,用語,2.5GBASE-Tで再利用できる、広く普及したLANケーブルのカテゴリは？,カテゴリ5e（Cat5e）。,https://www.infraexpert.com/study/ethernet14.html
+Q14,03,マルチギガビットEthernet,説明,高速な無線APに1Gbpsの有線接続を使うと、どの区間がボトルネックになり得る？,APとスイッチ間の有線区間。,https://www.infraexpert.com/study/ethernet14.html
+Q15,03,マルチギガビットEthernet,数値,2.5GBASE-T／5GBASE-Tの標準で想定する最大伝送距離は？,100m。使用する配線は規格の要件を満たす必要がある。,https://www.infraexpert.com/study/ethernet14.html
+Q16,04,伝送メディア,用語,UTPとシールド付きツイストペアケーブルを比べたとき、UTPにないものは？,シールド。,https://www.infraexpert.com/study/ethernet2.html
+Q17,04,伝送メディア,数値,一般的な4対のLAN用ツイストペアケーブルは、合計何本の芯線を持つ？,8本。,https://www.infraexpert.com/study/ethernet2.html
+Q18,04,伝送メディア,用語,外来ノイズの影響を抑えるため、シールドを備えたツイストペアケーブルを何という？,STPケーブル（Shielded Twisted Pair）。,https://www.infraexpert.com/study/ethernet2.html
+Q19,04,伝送メディア,用語,光ファイバーで、光が主に伝わる中心部分を何という？,コア。,https://www.infraexpert.com/study/ethernet2.html
+Q20,04,伝送メディア,用語,一般に、長距離伝送向けに用いられるのはSMFとMMFのどちらか。,SMF（シングルモードファイバー）。,https://www.infraexpert.com/study/ethernet2.html
+Q21,05,ストレート／クロスケーブル,用語,両端を同じピン配列で結線したLANケーブルを何という？,ストレートケーブル。,https://www.infraexpert.com/study/ethernet3.html
+Q22,05,ストレート／クロスケーブル,用語,100BASE-TXでAuto MDI/MDI-Xを使わず、MDIとMDI-Xを接続するケーブルは？,ストレートケーブル。,https://www.infraexpert.com/study/ethernet3.html
+Q23,05,ストレート／クロスケーブル,用語,100BASE-TXでAuto MDI/MDI-Xを使わず、MDI同士を接続するケーブルは？,クロスケーブル。,https://www.infraexpert.com/study/ethernet3.html
+Q24,05,ストレート／クロスケーブル,用語,接続先に応じ、送受信の配線の対応を自動調整する機能は？,Auto MDI/MDI-X。,https://www.infraexpert.com/study/ethernet3.html
+Q25,05,ストレート／クロスケーブル,数値,100BASE-TXのMDIポートで、送信に使用するピン番号は？,1番と2番。,https://www.infraexpert.com/study/ethernet3.html
+Q26,06,EthernetフレームとMACアドレス,数値,Ethernetで一般的に使うMACアドレスの長さは何ビットか。,48ビット（6バイト）。,https://www.infraexpert.com/study/ethernet4.html
+Q27,06,EthernetフレームとMACアドレス,説明,Ethernet IIのTypeフィールドは、何を識別する？,データ部に格納された上位層のプロトコル。,https://www.infraexpert.com/study/ethernet4.html
+Q28,06,EthernetフレームとMACアドレス,数値,Ethernet IIでIPv4を示すType値は？,0x0800。,https://www.infraexpert.com/study/ethernet4.html
+Q29,06,EthernetフレームとMACアドレス,説明,EthernetフレームのFCSが検出するものは？,伝送中のビット誤り。CRCを使って検査する。,https://www.infraexpert.com/study/ethernet4.html
+Q30,06,EthernetフレームとMACアドレス,数値,VLANタグなしの通常フレームは、宛先MACからFCSまでで最小・最大何バイトか。,"最小64バイト、最大1,518バイト。プリアンブルとSFDは含めない。",https://www.infraexpert.com/study/ethernet4.html
+Q31,06,EthernetフレームとMACアドレス,用語,短いEthernetフレームを最小長まで埋める処理を何という？,パディング。,https://www.infraexpert.com/study/ethernet4.html
+Q32,06,EthernetフレームとMACアドレス,用語,Ethernetのブロードキャスト宛先MACアドレスは？,FF:FF:FF:FF:FF:FF（48ビットすべて1）。,https://www.infraexpert.com/study/ethernet4.html
+Q33,07,CSMA/CD,説明,CSMA/CDのCarrier Senseでは、送信前に何を確認する？,伝送媒体がほかの通信に使用されていないか。,https://www.infraexpert.com/study/ethernet5.html
+Q34,07,CSMA/CD,説明,CSMA/CDのMultiple Accessは、どのような媒体利用を意味する？,複数の端末で同じ伝送媒体を共有すること。,https://www.infraexpert.com/study/ethernet5.html
+Q35,07,CSMA/CD,用語,CSMA/CDのCollision Detectionは、何を検出する？,同時送信による信号の衝突。,https://www.infraexpert.com/study/ethernet5.html
+Q36,07,CSMA/CD,説明,衝突後、再送までの待機時間をランダムにするのはなぜか。,端末同士が同時に再送して、再び衝突するのを避けるため。,https://www.infraexpert.com/study/ethernet5.html
+Q37,07,CSMA/CD,用語,CSMA/CDが使われるのは、半二重と全二重のどちらか。,半二重。全二重Ethernetでは使用しない。,https://www.infraexpert.com/study/ethernet5.html
+Q38,08,ネットワーク機器の役割,用語,リピータハブが動作するOSI参照モデルの層は？,物理層（第1層）。,https://www.infraexpert.com/study/ethernet6.html
+Q39,08,ネットワーク機器の役割,用語,L2スイッチが主に転送判断を行う層は？,データリンク層（第2層）。,https://www.infraexpert.com/study/ethernet6.html
+Q40,08,ネットワーク機器の役割,用語,ルータが主に経路選択を行う層は？,ネットワーク層（第3層）。,https://www.infraexpert.com/study/ethernet6.html
+Q41,08,ネットワーク機器の役割,説明,リピータハブは、ポートごとにコリジョンドメインを分割できるか。,できない。接続された端末は衝突の影響範囲を共有する。,https://www.infraexpert.com/study/ethernet6.html
+Q42,08,ネットワーク機器の役割,説明,ルータは、通常のL2ブロードキャストドメインをインターフェース間で分割できるか。,できる。L2ブロードキャストを別セグメントへそのまま中継しない。,https://www.infraexpert.com/study/ethernet6.html
+Q43,09,L2スイッチの学習と転送,用語,L2スイッチがMACアドレスを学習するとき、受信フレームの送信元・宛先のどちらを使う？,送信元MACアドレス。受信ポートやVLANと対応付ける。,"https://www.infraexpert.com/study/ethernet7.html
+https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-mac.html"
+Q44,09,L2スイッチの学習と転送,説明,宛先MACが未学習のユニキャストフレームを、通常のL2スイッチはどこへ転送する？,同じVLANの転送可能なポートのうち、受信ポートを除いたポート。,"https://www.infraexpert.com/study/ethernet7.html
+https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-mac.html"
+Q45,09,L2スイッチの学習と転送,用語,動的に学習したMACエントリを、一定時間更新がなければ削除する動作は？,エージング。,https://www.infraexpert.com/study/ethernet7.html
+Q46,09,L2スイッチの学習と転送,用語,フレーム全体を受信し、FCSを検査してから転送する方式は？,ストアアンドフォワード。,https://www.infraexpert.com/study/ethernet7.html
+Q47,09,L2スイッチの学習と転送,用語,フレーム全体の受信完了前に転送を始める方式は？,カットスルー。,https://www.infraexpert.com/study/ethernet7.html
+Q48,09,L2スイッチの学習と転送,数値,フラグメントフリー方式は、先頭何バイトの受信を待って転送する？,64バイト。,https://www.infraexpert.com/study/ethernet7.html
+Q49,10,半二重・全二重とオートネゴシエーション,用語,送信と受信を同時に行える通信方式は？,全二重通信。,https://www.infraexpert.com/study/ethernet8.html
+Q50,10,半二重・全二重とオートネゴシエーション,用語,送信と受信を同時に行わず、交互に行う通信方式は？,半二重通信。,https://www.infraexpert.com/study/ethernet8.html
+Q51,10,半二重・全二重とオートネゴシエーション,数値,1Gbps・全二重のリンクで、一方向当たりの最大伝送速度は？,1Gbps。送受信の合計値と区別する。,https://www.infraexpert.com/study/ethernet8.html
+Q52,10,半二重・全二重とオートネゴシエーション,用語,Ethernetのオートネゴシエーションが自動調整する、速度以外の主な項目は？,全二重・半二重の通信モード。,https://www.infraexpert.com/study/ethernet8.html
+Q53,10,半二重・全二重とオートネゴシエーション,用語,両端が100BASE-TX全二重と10BASE-T全二重に対応している場合、通常どちらが優先される？,100BASE-TX全二重。,https://www.infraexpert.com/study/ethernet8.html
+Q54,11,LLDP,用語,LLDPは、基本的にどの機器間で情報を交換する？,直接隣接するネットワーク機器間。異なるベンダー間でも利用できる。,https://www.infraexpert.com/study/catalyst25.html
+Q55,11,LLDP,用語,LLDPが動作するOSI参照モデルの層は？,データリンク層（第2層）。,https://www.infraexpert.com/study/catalyst25.html
+Q56,11,LLDP,用語,LLDPの標準規格番号は？,IEEE 802.1AB。,https://www.infraexpert.com/study/catalyst25.html
+Q57,11,LLDP,用語,LLDPの情報表現に使う、Type・Length・Valueの組を何という？,TLV。,https://www.infraexpert.com/study/catalyst25.html
+Q58,11,LLDP,説明,LLDPのTime To Liveは、受信側での何の期限を表す？,隣接機器の情報を有効として保持する期限。,https://www.infraexpert.com/study/catalyst25.html
+Q59,12,ルータを経由する通信,用語,別サブネットのホストへ送る最初のEthernetフレームの宛先MACは、通常誰のMACか。,同一LAN上のデフォルトゲートウェイのMACアドレス。,https://www.infraexpert.com/study/ethernet10.html
+Q60,12,ルータを経由する通信,説明,NATなどがない通常のルーティングで、宛先IPはルータごとに書き換わるか。,書き換わらず、最終宛先ホストのIPアドレスのまま。,https://www.infraexpert.com/study/ethernet10.html
+Q61,12,ルータを経由する通信,用語,ルータが次のEthernet区間へ送るとき、送信元MACは誰のMACになる？,そのルータの送出インターフェースのMACアドレス。,https://www.infraexpert.com/study/ethernet10.html
+Q62,12,ルータを経由する通信,用語,IPv4の次ホップのMACが不明なとき、Ethernet上で解決に使うプロトコルは？,ARP。,https://www.infraexpert.com/study/ethernet10.html
+Q63,12,ルータを経由する通信,用語,ルータがパケットの次ホップや送出インターフェースを決めるときに参照する表は？,ルーティングテーブル。,https://www.infraexpert.com/study/ethernet10.html
+Q64,13,PLC（電力線通信）,用語,PLCがデータ伝送に使用する配線は？,電力線。,https://www.infraexpert.com/study/ethernet12.html
+Q65,13,PLC（電力線通信）,用語,PLCの英語名称は？,Power Line Communication。,https://www.infraexpert.com/study/ethernet12.html
+Q66,13,PLC（電力線通信）,用語,LAN機器を電力線での通信に接続する装置を何という？,PLCモデム、またはPLCアダプター。,https://www.infraexpert.com/study/ethernet12.html
+Q67,13,PLC（電力線通信）,説明,PLCは、新たなLANケーブルの敷設が難しい場所で、何を再利用できる利点がある？,既存の電力配線。,https://www.infraexpert.com/study/ethernet12.html
+Q68,13,PLC（電力線通信）,説明,PLCの通信速度が理論値より低くなる原因となる、電力線上の要因の例は？,電気機器などが発生するノイズ。,https://www.infraexpert.com/study/ethernet12.html
+Q69,14,PoE・PoE+・PoE++,用語,EthernetのLANケーブルで、通信と併せて電力も供給する技術は？,PoE（Power over Ethernet）。,https://www.infraexpert.com/study/catalyst24.html
+Q70,14,PoE・PoE+・PoE++,用語,PoEの給電機器を表す略称は？,PSE（Power Sourcing Equipment）。,https://www.infraexpert.com/study/catalyst24.html
+Q71,14,PoE・PoE+・PoE++,用語,PoEの受電機器を表す略称は？,PD（Powered Device）。,"https://www.infraexpert.com/study/catalyst24.html
+https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/infra/poe/poe-configuration-guide/g-poe/c-poe.html"
+Q72,14,PoE・PoE+・PoE++,数値,IEEE 802.3afの、PSE側の1ポート当たりの最大給電電力は？,15.4W。受電側で使用できる電力とは区別する。,https://www.infraexpert.com/study/catalyst24.html
+Q73,14,PoE・PoE+・PoE++,数値,IEEE 802.3atのPoE+で、PSE側の1ポート当たりの最大給電電力は？,30W。受電側で使用できる電力とは区別する。,https://www.infraexpert.com/study/catalyst24.html
+Q74,14,PoE・PoE+・PoE++,用語,IEEE 802.3btによる高出力のPoEは、一般に何と呼ばれる？,PoE++。,https://www.infraexpert.com/study/catalyst24.html
+Q75,14,PoE・PoE+・PoE++,説明,規格準拠のPoEスイッチは、PoE非対応のPCにも通常給電を開始するか。,開始しない。受電機器を検出してから給電する。,https://www.infraexpert.com/study/catalyst24.html
