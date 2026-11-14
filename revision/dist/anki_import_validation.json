@@ -1,0 +1,11 @@
+{
+  "anki_backend_version": "26.9.4",
+  "fresh_import_notes": 170,
+  "fresh_import_cards": 170,
+  "all_cards_rendered": true,
+  "no_unexpanded_template_fields": true,
+  "reimport_duplicates": 0,
+  "reimport_preserves_existing_review_state": true,
+  "profile": "temporary profile only",
+  "gui_import_test": false
+}

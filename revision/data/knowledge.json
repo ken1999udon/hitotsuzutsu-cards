@@ -1,0 +1,2971 @@
+[
+  {
+    "id": "K03-001",
+    "section": "01",
+    "title": "EthernetはIEEE 802.3系列で標準化されている。",
+    "statement": "EthernetはIEEE 802.3系列で標準化されている。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S01"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [
+      {
+        "unit_id": "2012-pm1-Q2-S1-1",
+        "relation": "直接",
+        "note": "空欄アでIEEE 802.3afの規格番号の一部を問う。"
+      }
+    ],
+    "legacy_ids": [
+      "Q01"
+    ],
+    "source_locator": "IEEEの全体像／帯域幅",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表例で直接または適用の接点を確認。頻度・配点の評価ではない。",
+    "card_ids": [
+      "K03-001-B"
+    ]
+  },
+  {
+    "id": "K03-002",
+    "section": "01",
+    "title": "EthernetはOSIの物理層とデータリンク層に対応する。",
+    "statement": "EthernetはOSIの物理層とデータリンク層に対応する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S01"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q02"
+    ],
+    "source_locator": "IEEEの全体像／帯域幅",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-002-B"
+    ]
+  },
+  {
+    "id": "K03-003",
+    "section": "01",
+    "title": "bpsは1秒当たりのビット数を表す。",
+    "statement": "bpsは1秒当たりのビット数を表す。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S01"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q03"
+    ],
+    "source_locator": "IEEEの全体像／帯域幅",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-003-B"
+    ]
+  },
+  {
+    "id": "K03-004",
+    "section": "01",
+    "title": "1Gbpsは1,000Mbpsである。",
+    "statement": "1Gbpsは1,000Mbpsである。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S01"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q04"
+    ],
+    "source_locator": "IEEEの全体像／帯域幅",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-004-B"
+    ]
+  },
+  {
+    "id": "K03-005",
+    "section": "01",
+    "title": "100Mbpsは、8ビット＝1バイトで換算すると12.5MB/sである。",
+    "statement": "100Mbpsは、8ビット＝1バイトで換算すると12.5MB/sである。",
+    "conditions": "1バイト＝8ビット。Mは10の6乗。プロトコルのオーバーヘッドを考慮しない単位換算。",
+    "source_ids": [
+      "S01"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q05"
+    ],
+    "source_locator": "IEEEの全体像／帯域幅",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-005-B",
+      "K03-005-A1"
+    ]
+  },
+  {
+    "id": "K03-006",
+    "section": "02",
+    "title": "Fast Ethernetの伝送速度は100Mbpsである。",
+    "statement": "Fast Ethernetの伝送速度は100Mbpsである。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S02"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q06"
+    ],
+    "source_locator": "LANの規格／命名規則／速度別の規格表",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-006-B"
+    ]
+  },
+  {
+    "id": "K03-007",
+    "section": "02",
+    "title": "Gigabit Ethernetの伝送速度は1Gbpsである。",
+    "statement": "Gigabit Ethernetの伝送速度は1Gbpsである。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S02"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q07"
+    ],
+    "source_locator": "LANの規格／命名規則／速度別の規格表",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-007-B"
+    ]
+  },
+  {
+    "id": "K03-008",
+    "section": "02",
+    "title": "10 Gigabit Ethernetの伝送速度は10Gbpsである。",
+    "statement": "10 Gigabit Ethernetの伝送速度は10Gbpsである。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S02"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q08"
+    ],
+    "source_locator": "LANの規格／命名規則／速度別の規格表",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-008-B"
+    ]
+  },
+  {
+    "id": "K03-009",
+    "section": "02",
+    "title": "1000BASE-Tの最大チャネル長は、適合する配線で100mである。",
+    "statement": "1000BASE-Tの最大チャネル長は、適合する配線で100mである。",
+    "conditions": "1000BASE-T。規格に適合するケーブル・コネクタ・チャネルを使用する。",
+    "source_ids": [
+      "S02"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q09"
+    ],
+    "source_locator": "LANの規格／命名規則／速度別の規格表",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-009-B",
+      "K03-009-A1"
+    ]
+  },
+  {
+    "id": "K03-010",
+    "section": "02",
+    "title": "Ethernet規格名のBASEはベースバンド方式を表す。",
+    "statement": "Ethernet規格名のBASEはベースバンド方式を表す。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S02"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q10"
+    ],
+    "source_locator": "LANの規格／命名規則／速度別の規格表",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-010-B"
+    ]
+  },
+  {
+    "id": "K03-011a",
+    "section": "03",
+    "title": "2.5GBASE-Tの伝送速度は2.5Gbps。",
+    "statement": "2.5GBASE-Tの伝送速度は2.5Gbps。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S03",
+      "I_BZ"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q11"
+    ],
+    "source_locator": "需要の背景／マルチギガビットEthernetの規格",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-011a-B"
+    ]
+  },
+  {
+    "id": "K03-011b",
+    "section": "03",
+    "title": "5GBASE-Tの伝送速度は5Gbps。",
+    "statement": "5GBASE-Tの伝送速度は5Gbps。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S03",
+      "I_BZ"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q11"
+    ],
+    "source_locator": "需要の背景／マルチギガビットEthernetの規格",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-011b-B"
+    ]
+  },
+  {
+    "id": "K03-012",
+    "section": "03",
+    "title": "2.5GBASE-Tと5GBASE-TはIEEE 802.3bzで標準化された。",
+    "statement": "2.5GBASE-Tと5GBASE-TはIEEE 802.3bzで標準化された。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S03",
+      "I_BZ"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [
+      {
+        "unit_id": "2023-pm1-Q3-S1",
+        "relation": "前提",
+        "note": "空欄fのマルチギガビットEthernetを理解する規格の背景。802.3bz自体の直接出題とは数えない。"
+      }
+    ],
+    "legacy_ids": [
+      "Q12"
+    ],
+    "source_locator": "需要の背景／マルチギガビットEthernetの規格",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-012-B"
+    ]
+  },
+  {
+    "id": "K03-013",
+    "section": "03",
+    "title": "2.5GBASE-Tは適合するCat5e配線を利用できる。",
+    "statement": "2.5GBASE-Tは適合するCat5e配線を利用できる。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S03",
+      "I_BZ"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q13"
+    ],
+    "source_locator": "需要の背景／マルチギガビットEthernetの規格",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-013-B",
+      "K03-013-A1"
+    ]
+  },
+  {
+    "id": "K03-014",
+    "section": "03",
+    "title": "高速な無線APでは、有線アップリンクの容量がボトルネックになり得る。",
+    "statement": "高速な無線APでは、有線アップリンクの容量がボトルネックになり得る。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S03",
+      "I_BZ"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2023-pm1-Q3-S1",
+        "relation": "前提",
+        "note": "APとフロアL2SW間の1Gbpsがボトルネックになる状況が題材。"
+      }
+    ],
+    "legacy_ids": [
+      "Q14"
+    ],
+    "source_locator": "需要の背景／マルチギガビットEthernetの規格",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-014-B",
+      "K03-014-A1"
+    ]
+  },
+  {
+    "id": "K03-015",
+    "section": "03",
+    "title": "2.5GBASE-T／5GBASE-Tの最大チャネル長は、適合する配線で100mである。",
+    "statement": "2.5GBASE-T／5GBASE-Tの最大チャネル長は、適合する配線で100mである。",
+    "conditions": "2.5GBASE-T／5GBASE-T。配線が対象速度の規格要件を満たす。",
+    "source_ids": [
+      "S03",
+      "I_BZ"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q15"
+    ],
+    "source_locator": "需要の背景／マルチギガビットEthernetの規格",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-015-B"
+    ]
+  },
+  {
+    "id": "K03-016",
+    "section": "04",
+    "title": "UTPはシールドを持たないツイストペアケーブルである。",
+    "statement": "UTPはシールドを持たないツイストペアケーブルである。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S04"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q16"
+    ],
+    "source_locator": "UTP／STP／RJ-45／光ファイバー",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-016-B"
+    ]
+  },
+  {
+    "id": "K03-017",
+    "section": "04",
+    "title": "4対のツイストペアケーブルには8本の芯線がある。",
+    "statement": "4対のツイストペアケーブルには8本の芯線がある。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S04"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q17"
+    ],
+    "source_locator": "UTP／STP／RJ-45／光ファイバー",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-017-B"
+    ]
+  },
+  {
+    "id": "K03-018",
+    "section": "04",
+    "title": "STPケーブルはシールドを備えるツイストペアケーブルである。",
+    "statement": "STPケーブルはシールドを備えるツイストペアケーブルである。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S04"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q18"
+    ],
+    "source_locator": "UTP／STP／RJ-45／光ファイバー",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-018-B"
+    ]
+  },
+  {
+    "id": "K03-019",
+    "section": "04",
+    "title": "光ファイバーで光が主に伝わる中心部はコアである。",
+    "statement": "光ファイバーで光が主に伝わる中心部はコアである。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S04"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q19"
+    ],
+    "source_locator": "UTP／STP／RJ-45／光ファイバー",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-019-B"
+    ]
+  },
+  {
+    "id": "K03-020",
+    "section": "04",
+    "title": "SMFは一般にMMFより長距離の伝送に用いられる。",
+    "statement": "SMFは一般にMMFより長距離の伝送に用いられる。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S04"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q20"
+    ],
+    "source_locator": "UTP／STP／RJ-45／光ファイバー",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-020-B"
+    ]
+  },
+  {
+    "id": "K03-021",
+    "section": "05",
+    "title": "ストレートケーブルは両端を同じピン配列で結線する。",
+    "statement": "ストレートケーブルは両端を同じピン配列で結線する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S05"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q21"
+    ],
+    "source_locator": "MDI・MDI-Xとストレート／クロスの接続",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-021-B"
+    ]
+  },
+  {
+    "id": "K03-022",
+    "section": "05",
+    "title": "Auto MDI/MDI-Xを使わない100BASE-TXのMDI―MDI-X接続にはストレートを使う。",
+    "statement": "Auto MDI/MDI-Xを使わない100BASE-TXのMDI―MDI-X接続にはストレートを使う。",
+    "conditions": "100BASE-TX。両端ともAuto MDI/MDI-Xを使用しない。",
+    "source_ids": [
+      "S05"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q22"
+    ],
+    "source_locator": "MDI・MDI-Xとストレート／クロスの接続",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-022-B",
+      "K03-022-A1"
+    ]
+  },
+  {
+    "id": "K03-023",
+    "section": "05",
+    "title": "Auto MDI/MDI-Xを使わない100BASE-TXのMDI同士の接続にはクロスを使う。",
+    "statement": "Auto MDI/MDI-Xを使わない100BASE-TXのMDI同士の接続にはクロスを使う。",
+    "conditions": "100BASE-TX。両端ともAuto MDI/MDI-Xを使用しない。",
+    "source_ids": [
+      "S05"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q23"
+    ],
+    "source_locator": "MDI・MDI-Xとストレート／クロスの接続",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-023-B",
+      "K03-023-A1"
+    ]
+  },
+  {
+    "id": "K03-024",
+    "section": "05",
+    "title": "Auto MDI/MDI-Xは、対向に合わせて送受信の配線の対応を自動調整する。",
+    "statement": "Auto MDI/MDI-Xは、対向に合わせて送受信の配線の対応を自動調整する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S05"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2009-pm1-Q1-S1",
+        "relation": "直接",
+        "note": "空欄オでAuto MDI/MDI-Xの名称を問う。"
+      }
+    ],
+    "legacy_ids": [
+      "Q24"
+    ],
+    "source_locator": "MDI・MDI-Xとストレート／クロスの接続",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表例で直接または適用の接点を確認。頻度・配点の評価ではない。",
+    "card_ids": [
+      "K03-024-B"
+    ]
+  },
+  {
+    "id": "K03-025",
+    "section": "05",
+    "title": "100BASE-TXのMDIポートの送信ピンは1番・2番である。",
+    "statement": "100BASE-TXのMDIポートの送信ピンは1番・2番である。",
+    "conditions": "100BASE-TXのMDIポート。1000BASE-Tの配線動作に一般化しない。",
+    "source_ids": [
+      "S05"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q25"
+    ],
+    "source_locator": "MDI・MDI-Xとストレート／クロスの接続",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-025-B"
+    ]
+  },
+  {
+    "id": "K03-026",
+    "section": "06",
+    "title": "一般的なEthernetのMACアドレスは48ビット（6バイト）である。",
+    "statement": "一般的なEthernetのMACアドレスは48ビット（6バイト）である。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S06",
+      "C_ETH",
+      "I_ADDR"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q26"
+    ],
+    "source_locator": "フレームのフィールド／タイプ値／MACアドレス",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-026-B"
+    ]
+  },
+  {
+    "id": "K03-027",
+    "section": "06",
+    "title": "Ethernet IIのTypeフィールドは、データ部の上位層プロトコルを識別する。",
+    "statement": "Ethernet IIのTypeフィールドは、データ部の上位層プロトコルを識別する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S06",
+      "C_ETH",
+      "I_ADDR"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q27"
+    ],
+    "source_locator": "フレームのフィールド／タイプ値／MACアドレス",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-027-B"
+    ]
+  },
+  {
+    "id": "K03-028",
+    "section": "06",
+    "title": "Ethernet IIのIPv4のEtherTypeは0x0800である。",
+    "statement": "Ethernet IIのIPv4のEtherTypeは0x0800である。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S06",
+      "C_ETH",
+      "I_ADDR"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q28"
+    ],
+    "source_locator": "フレームのフィールド／タイプ値／MACアドレス",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-028-B"
+    ]
+  },
+  {
+    "id": "K03-029",
+    "section": "06",
+    "title": "FCSはCRCを用いて伝送中のビット誤りを検出する。",
+    "statement": "FCSはCRCを用いて伝送中のビット誤りを検出する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S06",
+      "C_ETH",
+      "I_ADDR"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q29"
+    ],
+    "source_locator": "フレームのフィールド／タイプ値／MACアドレス",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-029-B"
+    ]
+  },
+  {
+    "id": "K03-030a",
+    "section": "06",
+    "title": "通常のタグなしEthernetフレームの最小長は64バイト。",
+    "statement": "通常のタグなしEthernetフレームの最小長は64バイト。",
+    "conditions": "VLANタグなし・通常のフレーム・宛先MACからFCSまで。",
+    "source_ids": [
+      "S06",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q30"
+    ],
+    "source_locator": "フレームのフィールド／タイプ値／MACアドレス",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-030a-B"
+    ]
+  },
+  {
+    "id": "K03-030b",
+    "section": "06",
+    "title": "通常のタグなしEthernetフレームの最大長は1,518バイト。",
+    "statement": "通常のタグなしEthernetフレームの最大長は1,518バイト。",
+    "conditions": "VLANタグなし・通常のフレーム・宛先MACからFCSまで。",
+    "source_ids": [
+      "S06",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q30"
+    ],
+    "source_locator": "フレームのフィールド／タイプ値／MACアドレス",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-030b-B"
+    ]
+  },
+  {
+    "id": "K03-031",
+    "section": "06",
+    "title": "短いEthernetフレームを最小長まで埋める処理はパディングである。",
+    "statement": "短いEthernetフレームを最小長まで埋める処理はパディングである。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S06",
+      "C_ETH",
+      "I_ADDR"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q31"
+    ],
+    "source_locator": "フレームのフィールド／タイプ値／MACアドレス",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-031-B"
+    ]
+  },
+  {
+    "id": "K03-032",
+    "section": "06",
+    "title": "Ethernetのブロードキャスト宛先MACは48ビットがすべて1である。",
+    "statement": "Ethernetのブロードキャスト宛先MACは48ビットがすべて1である。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S06",
+      "C_ETH",
+      "I_ADDR"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q32"
+    ],
+    "source_locator": "フレームのフィールド／タイプ値／MACアドレス",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-032-B"
+    ]
+  },
+  {
+    "id": "K03-033",
+    "section": "07",
+    "title": "CSMA/CDのCarrier Senseは、送信前に媒体の使用状況を確認する。",
+    "statement": "CSMA/CDのCarrier Senseは、送信前に媒体の使用状況を確認する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S07",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q33"
+    ],
+    "source_locator": "CSMA/CDの動作／半二重と全二重",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-033-B"
+    ]
+  },
+  {
+    "id": "K03-034",
+    "section": "07",
+    "title": "CSMA/CDのMultiple Accessは、複数端末による媒体の共有を意味する。",
+    "statement": "CSMA/CDのMultiple Accessは、複数端末による媒体の共有を意味する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S07",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q34"
+    ],
+    "source_locator": "CSMA/CDの動作／半二重と全二重",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-034-B"
+    ]
+  },
+  {
+    "id": "K03-035",
+    "section": "07",
+    "title": "CSMA/CDのCollision Detectionは信号の衝突を検出する。",
+    "statement": "CSMA/CDのCollision Detectionは信号の衝突を検出する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S07",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q35"
+    ],
+    "source_locator": "CSMA/CDの動作／半二重と全二重",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-035-B"
+    ]
+  },
+  {
+    "id": "K03-036",
+    "section": "07",
+    "title": "衝突後のランダム待ちは、再送時刻をずらして再衝突を避けるために行う。",
+    "statement": "衝突後のランダム待ちは、再送時刻をずらして再衝突を避けるために行う。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S07",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q36"
+    ],
+    "source_locator": "CSMA/CDの動作／半二重と全二重",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-036-B",
+      "K03-036-A1"
+    ]
+  },
+  {
+    "id": "K03-037",
+    "section": "07",
+    "title": "CSMA/CDは半二重Ethernetで使い、全二重では使わない。",
+    "statement": "CSMA/CDは半二重Ethernetで使い、全二重では使わない。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S07",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q37"
+    ],
+    "source_locator": "CSMA/CDの動作／半二重と全二重",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-037-B",
+      "K03-037-A1"
+    ]
+  },
+  {
+    "id": "K03-038",
+    "section": "08",
+    "title": "リピータハブはOSIの物理層で動作する。",
+    "statement": "リピータハブはOSIの物理層で動作する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S08"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q38"
+    ],
+    "source_locator": "各機器の役割／コリジョン・ブロードキャストドメイン",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-038-B"
+    ]
+  },
+  {
+    "id": "K03-039",
+    "section": "08",
+    "title": "L2スイッチはデータリンク層でフレームの転送を判断する。",
+    "statement": "L2スイッチはデータリンク層でフレームの転送を判断する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S08"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q39"
+    ],
+    "source_locator": "各機器の役割／コリジョン・ブロードキャストドメイン",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-039-B"
+    ]
+  },
+  {
+    "id": "K03-040",
+    "section": "08",
+    "title": "ルータはネットワーク層で経路を選択する。",
+    "statement": "ルータはネットワーク層で経路を選択する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S08"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q40"
+    ],
+    "source_locator": "各機器の役割／コリジョン・ブロードキャストドメイン",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-040-B"
+    ]
+  },
+  {
+    "id": "K03-041",
+    "section": "08",
+    "title": "リピータハブはコリジョンドメインをポートごとに分割しない。",
+    "statement": "リピータハブはコリジョンドメインをポートごとに分割しない。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S08"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q41"
+    ],
+    "source_locator": "各機器の役割／コリジョン・ブロードキャストドメイン",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-041-B",
+      "K03-041-A1"
+    ]
+  },
+  {
+    "id": "K03-042",
+    "section": "08",
+    "title": "通常のIPルータは、インターフェース間でL2ブロードキャストドメインを分割する。",
+    "statement": "通常のIPルータは、インターフェース間でL2ブロードキャストドメインを分割する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S08"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q42"
+    ],
+    "source_locator": "各機器の役割／コリジョン・ブロードキャストドメイン",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-042-B"
+    ]
+  },
+  {
+    "id": "K03-043",
+    "section": "09",
+    "title": "L2スイッチは送信元MACを受信ポート・VLANと対応付けて学習する。",
+    "statement": "L2スイッチは送信元MACを受信ポート・VLANと対応付けて学習する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S09",
+      "C_MAC",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2009-pm1-Q1-S2-2",
+        "relation": "適用",
+        "note": "送信元MACをどの接続ポートに学習するかを問う。"
+      }
+    ],
+    "legacy_ids": [
+      "Q43"
+    ],
+    "source_locator": "学習／フラッディング／エージング／転送方式",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表例で直接または適用の接点を確認。頻度・配点の評価ではない。",
+    "card_ids": [
+      "K03-043-B",
+      "K03-043-A1"
+    ]
+  },
+  {
+    "id": "K03-044",
+    "section": "09",
+    "title": "宛先未学習のユニキャストは同一VLANの転送可能なポートへ、受信ポートを除いてフラッディングする。",
+    "statement": "宛先未学習のユニキャストは同一VLANの転送可能なポートへ、受信ポートを除いてフラッディングする。",
+    "conditions": "通常のL2スイッチ。宛先未学習のユニキャスト。VLANとポートの転送状態を考慮し、受信ポートを除外する。",
+    "source_ids": [
+      "S09",
+      "C_MAC",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2022-pm1-Q1-S3-1",
+        "relation": "直接",
+        "note": "空欄dでフラッディングの名称を問う。"
+      }
+    ],
+    "legacy_ids": [
+      "Q44"
+    ],
+    "source_locator": "学習／フラッディング／エージング／転送方式",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表例で直接または適用の接点を確認。頻度・配点の評価ではない。",
+    "card_ids": [
+      "K03-044-B",
+      "K03-044-A1",
+      "K03-044-A2"
+    ]
+  },
+  {
+    "id": "K03-045",
+    "section": "09",
+    "title": "動的MACエントリは、学習更新がないままエージング時間を過ぎると削除される。",
+    "statement": "動的MACエントリは、学習更新がないままエージング時間を過ぎると削除される。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S09",
+      "C_MAC",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2012-pm2-Q2-S4-1",
+        "relation": "関連",
+        "note": "MACテーブル消去後のフラッディング。時間経過によるエージングそのものの出題ではない。"
+      }
+    ],
+    "legacy_ids": [
+      "Q45"
+    ],
+    "source_locator": "学習／フラッディング／エージング／転送方式",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-045-B",
+      "K03-045-A1"
+    ]
+  },
+  {
+    "id": "K03-046",
+    "section": "09",
+    "title": "ストアアンドフォワードはフレーム全体を受信し、FCS検査後に転送する。",
+    "statement": "ストアアンドフォワードはフレーム全体を受信し、FCS検査後に転送する。",
+    "conditions": "ストアアンドフォワード方式を選択したスイッチの動作。すべての現行製品の方式だとは扱わない。",
+    "source_ids": [
+      "S09",
+      "C_MAC",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q46"
+    ],
+    "source_locator": "学習／フラッディング／エージング／転送方式",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-046-B",
+      "K03-046-A1"
+    ]
+  },
+  {
+    "id": "K03-047",
+    "section": "09",
+    "title": "カットスルーはフレーム全体を受け取る前に転送を始める。",
+    "statement": "カットスルーはフレーム全体を受け取る前に転送を始める。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S09",
+      "C_MAC",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q47"
+    ],
+    "source_locator": "学習／フラッディング／エージング／転送方式",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-047-B"
+    ]
+  },
+  {
+    "id": "K03-048",
+    "section": "09",
+    "title": "フラグメントフリーは先頭64バイトを受け取ってから転送する。",
+    "statement": "フラグメントフリーは先頭64バイトを受け取ってから転送する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S09",
+      "C_MAC",
+      "C_ETH"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q48"
+    ],
+    "source_locator": "学習／フラッディング／エージング／転送方式",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-048-B"
+    ]
+  },
+  {
+    "id": "K03-049",
+    "section": "10",
+    "title": "全二重は送信と受信を同時に行える。",
+    "statement": "全二重は送信と受信を同時に行える。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S10",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q49"
+    ],
+    "source_locator": "全二重・半二重／オートネゴシエーション",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-049-B"
+    ]
+  },
+  {
+    "id": "K03-050",
+    "section": "10",
+    "title": "半二重は同時に双方向へ送れず、送信と受信を交互に行う。",
+    "statement": "半二重は同時に双方向へ送れず、送信と受信を交互に行う。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S10",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q50"
+    ],
+    "source_locator": "全二重・半二重／オートネゴシエーション",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-050-B"
+    ]
+  },
+  {
+    "id": "K03-051",
+    "section": "10",
+    "title": "1Gbps・全二重のリンクの一方向の最大伝送速度は1Gbpsである。",
+    "statement": "1Gbps・全二重のリンクの一方向の最大伝送速度は1Gbpsである。",
+    "conditions": "リンク速度1Gbps・全二重。一方向の伝送速度。アプリケーションの実効速度とは区別する。",
+    "source_ids": [
+      "S10",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q51"
+    ],
+    "source_locator": "全二重・半二重／オートネゴシエーション",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-051-B",
+      "K03-051-A1"
+    ]
+  },
+  {
+    "id": "K03-052",
+    "section": "10",
+    "title": "Ethernetのオートネゴシエーションは、速度と全二重／半二重等の共通能力を調整する。",
+    "statement": "Ethernetのオートネゴシエーションは、速度と全二重／半二重等の共通能力を調整する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S10",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q52"
+    ],
+    "source_locator": "全二重・半二重／オートネゴシエーション",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-052-B"
+    ]
+  },
+  {
+    "id": "K03-053",
+    "section": "10",
+    "title": "10/100BASE-T系の共通能力では、100Mbps全二重が10Mbps全二重より優先される。",
+    "statement": "10/100BASE-T系の共通能力では、100Mbps全二重が10Mbps全二重より優先される。",
+    "conditions": "10/100BASE-T系。両端ともオートネゴシエーションを使用し、共通能力を広告する。",
+    "source_ids": [
+      "S10",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q53"
+    ],
+    "source_locator": "全二重・半二重／オートネゴシエーション",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-053-B",
+      "K03-053-A1"
+    ]
+  },
+  {
+    "id": "K03-054",
+    "section": "11",
+    "title": "通常のLLDPは直接隣接する機器間で機器・ポート等の情報を通知する。",
+    "statement": "通常のLLDPは直接隣接する機器間で機器・ポート等の情報を通知する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S11",
+      "C_LLDP"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2021-pm1-Q1-S3-3",
+        "relation": "適用",
+        "note": "LLDPで取得した接続構成の確認。"
+      }
+    ],
+    "legacy_ids": [
+      "Q54"
+    ],
+    "source_locator": "LLDPの概要／TLV／設定と確認",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表例で直接または適用の接点を確認。頻度・配点の評価ではない。",
+    "card_ids": [
+      "K03-054-B",
+      "K03-054-A1"
+    ]
+  },
+  {
+    "id": "K03-055",
+    "section": "11",
+    "title": "LLDPはOSIのデータリンク層で動作する。",
+    "statement": "LLDPはOSIのデータリンク層で動作する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S11",
+      "C_LLDP"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2021-pm1-Q1-S3-1",
+        "relation": "直接",
+        "note": "LLDPが動作するOSI第2層を問う。"
+      }
+    ],
+    "legacy_ids": [
+      "Q55"
+    ],
+    "source_locator": "LLDPの概要／TLV／設定と確認",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表例で直接または適用の接点を確認。頻度・配点の評価ではない。",
+    "card_ids": [
+      "K03-055-B"
+    ]
+  },
+  {
+    "id": "K03-056",
+    "section": "11",
+    "title": "LLDPの標準はIEEE 802.1ABである。",
+    "statement": "LLDPの標準はIEEE 802.1ABである。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S11",
+      "C_LLDP"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q56"
+    ],
+    "source_locator": "LLDPの概要／TLV／設定と確認",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-056-B"
+    ]
+  },
+  {
+    "id": "K03-057",
+    "section": "11",
+    "title": "LLDPはType・Length・ValueからなるTLVを用いる。",
+    "statement": "LLDPはType・Length・ValueからなるTLVを用いる。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S11",
+      "C_LLDP"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q57"
+    ],
+    "source_locator": "LLDPの概要／TLV／設定と確認",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-057-B"
+    ]
+  },
+  {
+    "id": "K03-058",
+    "section": "11",
+    "title": "LLDPのTTLは、受信側で隣接情報を有効として保持する時間を表す。",
+    "statement": "LLDPのTTLは、受信側で隣接情報を有効として保持する時間を表す。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S11",
+      "C_LLDP"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q58"
+    ],
+    "source_locator": "LLDPの概要／TLV／設定と確認",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-058-B",
+      "K03-058-A1"
+    ]
+  },
+  {
+    "id": "K03-059",
+    "section": "12",
+    "title": "別サブネットへデフォルトルートで送るホストは、最初のL2宛先を同一LAN上のゲートウェイとする。",
+    "statement": "別サブネットへデフォルトルートで送るホストは、最初のL2宛先を同一LAN上のゲートウェイとする。",
+    "conditions": "IPv4・通常のホスト設定・宛先が別サブネット。特別な経路がなくデフォルトルートを使う。",
+    "source_ids": [
+      "S12"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2021-pm2-Q1-S6-2",
+        "relation": "適用",
+        "note": "ルーティング時の区間ごとのMACアドレスを問う。"
+      }
+    ],
+    "legacy_ids": [
+      "Q59"
+    ],
+    "source_locator": "ルータを経由する通信の説明",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表例で直接または適用の接点を確認。頻度・配点の評価ではない。",
+    "card_ids": [
+      "K03-059-B",
+      "K03-059-A1"
+    ]
+  },
+  {
+    "id": "K03-060",
+    "section": "12",
+    "title": "NAT等がない通常のルーティングでは、最終宛先IPアドレスを保持する。",
+    "statement": "NAT等がない通常のルーティングでは、最終宛先IPアドレスを保持する。",
+    "conditions": "NAT・トンネル・プロキシ等がない通常のIPルーティング。IPヘッダの全フィールドが不変という意味ではない。",
+    "source_ids": [
+      "S12"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2015-pm1-Q2-S2-1",
+        "relation": "適用",
+        "note": "IPを保持し次ホップのMACを用いる通信の追跡。"
+      }
+    ],
+    "legacy_ids": [
+      "Q60"
+    ],
+    "source_locator": "ルータを経由する通信の説明",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表例で直接または適用の接点を確認。頻度・配点の評価ではない。",
+    "card_ids": [
+      "K03-060-B",
+      "K03-060-A1"
+    ]
+  },
+  {
+    "id": "K03-061",
+    "section": "12",
+    "title": "Ethernetへ送出するルータは、自分の送出インターフェースのMACを送信元にする。",
+    "statement": "Ethernetへ送出するルータは、自分の送出インターフェースのMACを送信元にする。",
+    "conditions": "Ethernet間の通常のルーティング。",
+    "source_ids": [
+      "S12"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2021-pm2-Q1-S6-2",
+        "relation": "適用",
+        "note": "ルーティング時の送信元MACを問う。"
+      }
+    ],
+    "legacy_ids": [
+      "Q61"
+    ],
+    "source_locator": "ルータを経由する通信の説明",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表例で直接または適用の接点を確認。頻度・配点の評価ではない。",
+    "card_ids": [
+      "K03-061-B",
+      "K03-061-A1"
+    ]
+  },
+  {
+    "id": "K03-062",
+    "section": "12",
+    "title": "IPv4の次ホップMACアドレスを解決するためにARPを使う。",
+    "statement": "IPv4の次ホップMACアドレスを解決するためにARPを使う。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S12"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2013-pm1-Q2-S1",
+        "relation": "直接",
+        "note": "空欄イでARPの名称を問う。"
+      }
+    ],
+    "legacy_ids": [
+      "Q62"
+    ],
+    "source_locator": "ルータを経由する通信の説明",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表例で直接または適用の接点を確認。頻度・配点の評価ではない。",
+    "card_ids": [
+      "K03-062-B"
+    ]
+  },
+  {
+    "id": "K03-063",
+    "section": "12",
+    "title": "ルータはルーティングテーブルを参照し、次ホップや送出先を決める。",
+    "statement": "ルータはルーティングテーブルを参照し、次ホップや送出先を決める。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S12"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q63"
+    ],
+    "source_locator": "ルータを経由する通信の説明",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-063-B"
+    ]
+  },
+  {
+    "id": "K03-064",
+    "section": "13",
+    "title": "PLCは電力線を通信媒体として利用する。",
+    "statement": "PLCは電力線を通信媒体として利用する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S13"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q64"
+    ],
+    "source_locator": "PLCの概要／構成／ノイズ",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-064-B"
+    ]
+  },
+  {
+    "id": "K03-065",
+    "section": "13",
+    "title": "PLCはPower Line Communicationの略である。",
+    "statement": "PLCはPower Line Communicationの略である。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S13"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q65"
+    ],
+    "source_locator": "PLCの概要／構成／ノイズ",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-065-B"
+    ]
+  },
+  {
+    "id": "K03-066",
+    "section": "13",
+    "title": "LANと電力線上の通信を接続する装置はPLCモデム／アダプターである。",
+    "statement": "LANと電力線上の通信を接続する装置はPLCモデム／アダプターである。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S13"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q66"
+    ],
+    "source_locator": "PLCの概要／構成／ノイズ",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-066-B"
+    ]
+  },
+  {
+    "id": "K03-067",
+    "section": "13",
+    "title": "PLCには既存の電力配線を通信に利用できる利点がある。",
+    "statement": "PLCには既存の電力配線を通信に利用できる利点がある。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S13"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q67"
+    ],
+    "source_locator": "PLCの概要／構成／ノイズ",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-067-B"
+    ]
+  },
+  {
+    "id": "K03-068",
+    "section": "13",
+    "title": "PLCは電力線上のノイズにより実効速度が低下し得る。",
+    "statement": "PLCは電力線上のノイズにより実効速度が低下し得る。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S13"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [
+      "Q68"
+    ],
+    "source_locator": "PLCの概要／構成／ノイズ",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-068-B",
+      "K03-068-A1"
+    ]
+  },
+  {
+    "id": "K03-069",
+    "section": "14",
+    "title": "PoEはEthernetのLANケーブルで通信と併せて電力を供給する技術である。",
+    "statement": "PoEはEthernetのLANケーブルで通信と併せて電力を供給する技術である。",
+    "conditions": "IEEE規格に沿うPoE。対応するPSEとPDおよび適合配線を使用する。",
+    "source_ids": [
+      "S14",
+      "C_POE",
+      "C_BUDGET"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2012-pm1-Q2-S1-1",
+        "relation": "直接",
+        "note": "空欄ウでPoEの名称を問う。"
+      }
+    ],
+    "legacy_ids": [
+      "Q69"
+    ],
+    "source_locator": "PoEコンポーネント／給電仕様／検出／設定",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表例で直接または適用の接点を確認。頻度・配点の評価ではない。",
+    "card_ids": [
+      "K03-069-B"
+    ]
+  },
+  {
+    "id": "K03-070",
+    "section": "14",
+    "title": "PoEのPSEは給電側の機器を指す。",
+    "statement": "PoEのPSEは給電側の機器を指す。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S14",
+      "C_POE",
+      "C_BUDGET"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [
+      {
+        "unit_id": "2012-pm1-Q2-S1-1",
+        "relation": "直接",
+        "note": "空欄イでPSEの名称を問う。"
+      }
+    ],
+    "legacy_ids": [
+      "Q70"
+    ],
+    "source_locator": "PoEコンポーネント／給電仕様／検出／設定",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表例で直接または適用の接点を確認。頻度・配点の評価ではない。",
+    "card_ids": [
+      "K03-070-B"
+    ]
+  },
+  {
+    "id": "K03-071",
+    "section": "14",
+    "title": "PoEのPD（Powered Device）は受電側の機器を指す。",
+    "statement": "PoEのPD（Powered Device）は受電側の機器を指す。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S14",
+      "C_POE",
+      "C_BUDGET"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [
+      {
+        "unit_id": "2012-pm1-Q2-S1-1",
+        "relation": "前提",
+        "note": "本文にPDの定義が与えられている。PD自体を答える空欄ではない。"
+      }
+    ],
+    "legacy_ids": [
+      "Q71"
+    ],
+    "source_locator": "PoEコンポーネント／給電仕様／検出／設定",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-071-B"
+    ]
+  },
+  {
+    "id": "K03-072",
+    "section": "14",
+    "title": "IEEE 802.3afのPSE側1ポートの最大給電電力は15.4Wである。",
+    "statement": "IEEE 802.3afのPSE側1ポートの最大給電電力は15.4Wである。",
+    "conditions": "IEEE 802.3af。PSE側の1ポート最大給電電力。",
+    "source_ids": [
+      "S14",
+      "C_POE",
+      "C_BUDGET"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2012-pm1-Q2-S1-2",
+        "relation": "前提",
+        "note": "PSEの1ポート15.4Wと装置全体56Wを用いて接続を検討する。"
+      }
+    ],
+    "legacy_ids": [
+      "Q72"
+    ],
+    "source_locator": "PoEコンポーネント／給電仕様／検出／設定",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-072-B"
+    ]
+  },
+  {
+    "id": "K03-073",
+    "section": "14",
+    "title": "IEEE 802.3atのPSE側1ポートの最大給電電力は30Wである。",
+    "statement": "IEEE 802.3atのPSE側1ポートの最大給電電力は30Wである。",
+    "conditions": "IEEE 802.3at。PSE側の1ポート最大給電電力。",
+    "source_ids": [
+      "S14",
+      "C_POE",
+      "C_BUDGET"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2017-pm2-Q2-S3-5",
+        "relation": "前提",
+        "note": "802.3atの呼称が直接問われる。PSE最大30Wはこの知識の背景であり、この数値の直接出題とは数えない。"
+      }
+    ],
+    "legacy_ids": [
+      "Q73"
+    ],
+    "source_locator": "PoEコンポーネント／給電仕様／検出／設定",
+    "priority": "B_基礎",
+    "priority_reason": "給電側の上限を理解する基礎。ここに付けた代表例は呼称の出題である。",
+    "card_ids": [
+      "K03-073-B",
+      "K03-073-A1"
+    ]
+  },
+  {
+    "id": "K03-074",
+    "section": "14",
+    "title": "IEEE 802.3btの高出力PoEは一般にPoE++等と呼ばれる。",
+    "statement": "IEEE 802.3btの高出力PoEは一般にPoE++等と呼ばれる。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S14",
+      "C_POE",
+      "C_BUDGET"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2023-pm1-Q3-S1",
+        "relation": "直接",
+        "note": "空欄eでIEEE 802.3btの通称PoE++を問う。"
+      }
+    ],
+    "legacy_ids": [
+      "Q74"
+    ],
+    "source_locator": "PoEコンポーネント／給電仕様／検出／設定",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表例で直接または適用の接点を確認。頻度・配点の評価ではない。",
+    "card_ids": [
+      "K03-074-B"
+    ]
+  },
+  {
+    "id": "K03-075",
+    "section": "14",
+    "title": "規格に準拠するPoEのPSEは、受電機器を検出してから通常給電を開始する。",
+    "statement": "規格に準拠するPoEのPSEは、受電機器を検出してから通常給電を開始する。",
+    "conditions": "IEEE規格に準拠する検出付きPoE。常時電圧を印加するパッシブPoEは対象外。",
+    "source_ids": [
+      "S14",
+      "C_POE",
+      "C_BUDGET"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2012-pm1-Q2-S1-1",
+        "relation": "前提",
+        "note": "本文の受電機器検出の説明を理解する基礎。"
+      }
+    ],
+    "legacy_ids": [
+      "Q75"
+    ],
+    "source_locator": "PoEコンポーネント／給電仕様／検出／設定",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-075-B"
+    ]
+  },
+  {
+    "id": "K03-076",
+    "section": "01",
+    "title": "デジタル通信の帯域は、そのリンクで送れるビット数の上限を表す。",
+    "statement": "デジタル通信の帯域は、そのリンクで送れるビット数の上限を表す。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S01"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "IEEEの全体像／帯域幅",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-076-B",
+      "K03-076-A1"
+    ]
+  },
+  {
+    "id": "K03-077",
+    "section": "01",
+    "title": "アナログの帯域幅は周波数範囲であり、Hzで表す。",
+    "statement": "アナログの帯域幅は周波数範囲であり、Hzで表す。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S01"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "IEEEの全体像／帯域幅",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-077-B"
+    ]
+  },
+  {
+    "id": "K03-078",
+    "section": "02",
+    "title": "IEEEのLANモデルで、MAC副層は媒体アクセスやフレームの扱いを担う。",
+    "statement": "IEEEのLANモデルで、MAC副層は媒体アクセスやフレームの扱いを担う。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S02",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "LANの規格／命名規則／速度別の規格表",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-078-B"
+    ]
+  },
+  {
+    "id": "K03-079",
+    "section": "02",
+    "title": "規格名の1000BASE-Tの1000は1000Mbpsを示す。",
+    "statement": "規格名の1000BASE-Tの1000は1000Mbpsを示す。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S02"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "LANの規格／命名規則／速度別の規格表",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-079-B"
+    ]
+  },
+  {
+    "id": "K03-080",
+    "section": "02",
+    "title": "1000BASE-Tはツイストペアケーブルを使う。",
+    "statement": "1000BASE-Tはツイストペアケーブルを使う。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S02"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "LANの規格／命名規則／速度別の規格表",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-080-B"
+    ]
+  },
+  {
+    "id": "K03-081",
+    "section": "02",
+    "title": "1000BASE-SXはマルチモード光ファイバーを使う。",
+    "statement": "1000BASE-SXはマルチモード光ファイバーを使う。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S02"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "LANの規格／命名規則／速度別の規格表",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-081-B"
+    ]
+  },
+  {
+    "id": "K03-082",
+    "section": "02",
+    "title": "10GBASE-LRはシングルモード光ファイバーを使う。",
+    "statement": "10GBASE-LRはシングルモード光ファイバーを使う。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S02"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "LANの規格／命名規則／速度別の規格表",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-082-B"
+    ]
+  },
+  {
+    "id": "K03-083",
+    "section": "04",
+    "title": "10BASE5と10BASE2は同軸ケーブルを使う。",
+    "statement": "10BASE5と10BASE2は同軸ケーブルを使う。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S04"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "UTP／STP／RJ-45／光ファイバー",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-083-B"
+    ]
+  },
+  {
+    "id": "K03-084",
+    "section": "04",
+    "title": "一般的なツイストペアEthernetで使う8極のコネクタは通称RJ-45。",
+    "statement": "一般的なツイストペアEthernetで使う8極のコネクタは通称RJ-45。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S04"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "UTP／STP／RJ-45／光ファイバー",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-084-B"
+    ]
+  },
+  {
+    "id": "K03-085",
+    "section": "04",
+    "title": "光ファイバーのコアはクラッドに囲まれる。",
+    "statement": "光ファイバーのコアはクラッドに囲まれる。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S04"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "UTP／STP／RJ-45／光ファイバー",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-085-B"
+    ]
+  },
+  {
+    "id": "K03-086",
+    "section": "04",
+    "title": "10GBASE-Tを100mで使う配線例としてカテゴリ6Aがある。",
+    "statement": "10GBASE-Tを100mで使う配線例としてカテゴリ6Aがある。",
+    "conditions": "10GBASE-T・100m。配線全体が対象規格に適合すること。",
+    "source_ids": [
+      "S04",
+      "S02"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "UTP／STP／RJ-45／光ファイバー",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-086-B"
+    ]
+  },
+  {
+    "id": "K03-087",
+    "section": "05",
+    "title": "100BASE-TXのMDIでは受信にピン3・6を使う。",
+    "statement": "100BASE-TXのMDIでは受信にピン3・6を使う。",
+    "conditions": "100BASE-TXのMDIポート。1000BASE-Tに一般化しない。",
+    "source_ids": [
+      "S05"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "MDI・MDI-Xとストレート／クロスの接続",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-087-B"
+    ]
+  },
+  {
+    "id": "K03-088",
+    "section": "05",
+    "title": "100BASE-TXのMDI-Xでは送信にピン3・6を使う。",
+    "statement": "100BASE-TXのMDI-Xでは送信にピン3・6を使う。",
+    "conditions": "100BASE-TXのMDI-Xポート。1000BASE-Tに一般化しない。",
+    "source_ids": [
+      "S05"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "MDI・MDI-Xとストレート／クロスの接続",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-088-B"
+    ]
+  },
+  {
+    "id": "K03-089",
+    "section": "06",
+    "title": "プリアンブルは受信の同期に使う。",
+    "statement": "プリアンブルは受信の同期に使う。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S06",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "フレームのフィールド／タイプ値／MACアドレス",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-089-B"
+    ]
+  },
+  {
+    "id": "K03-090",
+    "section": "06",
+    "title": "Ethernet IIのARPを示すEtherTypeは0x0806。",
+    "statement": "Ethernet IIのARPを示すEtherTypeは0x0806。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S06"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "フレームのフィールド／タイプ値／MACアドレス",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-090-B"
+    ]
+  },
+  {
+    "id": "K03-091",
+    "section": "06",
+    "title": "Ethernet IIのIPv6を示すEtherTypeは0x86DD。",
+    "statement": "Ethernet IIのIPv6を示すEtherTypeは0x86DD。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S06"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "フレームのフィールド／タイプ値／MACアドレス",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-091-B"
+    ]
+  },
+  {
+    "id": "K03-092",
+    "section": "06",
+    "title": "通常のタグなしEthernet IIのデータ部の最大長は1500バイト。",
+    "statement": "通常のタグなしEthernet IIのデータ部の最大長は1500バイト。",
+    "conditions": "通常のタグなしEthernet II。データ部のみで、MACヘッダとFCSを含めない。",
+    "source_ids": [
+      "S06",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "フレームのフィールド／タイプ値／MACアドレス",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-092-B",
+      "K03-092-A1"
+    ]
+  },
+  {
+    "id": "K03-093",
+    "section": "06",
+    "title": "通常のタグなしEthernet IIのデータ部は、パディング込みで最低46バイト。",
+    "statement": "通常のタグなしEthernet IIのデータ部は、パディング込みで最低46バイト。",
+    "conditions": "通常のタグなしEthernet II。データ部だけを数える。",
+    "source_ids": [
+      "S06",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "フレームのフィールド／タイプ値／MACアドレス",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-093-B",
+      "K03-093-A1"
+    ]
+  },
+  {
+    "id": "K03-094",
+    "section": "06",
+    "title": "EthernetのFCSは4バイト。",
+    "statement": "EthernetのFCSは4バイト。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S06",
+      "C_ETH"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "フレームのフィールド／タイプ値／MACアドレス",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-094-B"
+    ]
+  },
+  {
+    "id": "K03-095",
+    "section": "06",
+    "title": "FCSのCRCは誤り検出用であり、誤ったビットの訂正を行わない。",
+    "statement": "FCSのCRCは誤り検出用であり、誤ったビットの訂正を行わない。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S06",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "フレームのフィールド／タイプ値／MACアドレス",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-095-B"
+    ]
+  },
+  {
+    "id": "K03-096",
+    "section": "06",
+    "title": "OUIを先頭に使う形式では、OUIは24ビット。",
+    "statement": "OUIを先頭に使う形式では、OUIは24ビット。",
+    "conditions": "24ビットのOUIから生成するEUI-48。OUI-36などの別の割当て方式は対象外。",
+    "source_ids": [
+      "S06",
+      "I_ADDR"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2013-pm1-Q2-S3-1",
+        "relation": "直接",
+        "note": "MACアドレスの製造者識別部分のビット長を問う。"
+      }
+    ],
+    "legacy_ids": [],
+    "source_locator": "フレームのフィールド／タイプ値／MACアドレス",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表例で直接または適用の接点を確認。頻度・配点の評価ではない。",
+    "card_ids": [
+      "K03-096-B"
+    ]
+  },
+  {
+    "id": "K03-097",
+    "section": "06",
+    "title": "I/Gビットは先頭オクテットの最下位ビットで、1はグループアドレスを表す。",
+    "statement": "I/Gビットは先頭オクテットの最下位ビットで、1はグループアドレスを表す。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S06",
+      "I_ADDR"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "フレームのフィールド／タイプ値／MACアドレス",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-097-B",
+      "K03-097-A1"
+    ]
+  },
+  {
+    "id": "K03-098",
+    "section": "06",
+    "title": "U/Lビットが1のMACアドレスはローカル管理を表す。",
+    "statement": "U/Lビットが1のMACアドレスはローカル管理を表す。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S06",
+      "I_ADDR"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "フレームのフィールド／タイプ値／MACアドレス",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-098-B",
+      "K03-098-A1"
+    ]
+  },
+  {
+    "id": "K03-099",
+    "section": "06",
+    "title": "ローカル管理などのMACアドレスもあるため、すべてが世界で一意とは限らない。",
+    "statement": "ローカル管理などのMACアドレスもあるため、すべてが世界で一意とは限らない。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S06",
+      "I_ADDR"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "フレームのフィールド／タイプ値／MACアドレス",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-099-B"
+    ]
+  },
+  {
+    "id": "K03-100",
+    "section": "07",
+    "title": "コリジョンは複数端末の同時送信による信号の衝突。",
+    "statement": "コリジョンは複数端末の同時送信による信号の衝突。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S07",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "CSMA/CDの動作／半二重と全二重",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-100-B"
+    ]
+  },
+  {
+    "id": "K03-101",
+    "section": "08",
+    "title": "ブリッジは第2層で宛先MACを基に転送する。",
+    "statement": "ブリッジは第2層で宛先MACを基に転送する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S08"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "各機器の役割／コリジョン・ブロードキャストドメイン",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-101-B"
+    ]
+  },
+  {
+    "id": "K03-102",
+    "section": "08",
+    "title": "ブリッジやL2スイッチはコリジョンドメインをポートごとに分ける。",
+    "statement": "ブリッジやL2スイッチはコリジョンドメインをポートごとに分ける。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S08"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "各機器の役割／コリジョン・ブロードキャストドメイン",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-102-B"
+    ]
+  },
+  {
+    "id": "K03-103",
+    "section": "08",
+    "title": "L2スイッチでもVLANを分ければL2ブロードキャストドメインを分けられる。",
+    "statement": "L2スイッチでもVLANを分ければL2ブロードキャストドメインを分けられる。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S08"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "各機器の役割／コリジョン・ブロードキャストドメイン",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-103-B",
+      "K03-103-A1"
+    ]
+  },
+  {
+    "id": "K03-104",
+    "section": "08",
+    "title": "L3スイッチはL2転送に加えてIPルーティングも行える。",
+    "statement": "L3スイッチはL2転送に加えてIPルーティングも行える。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S08"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "各機器の役割／コリジョン・ブロードキャストドメイン",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-104-B"
+    ]
+  },
+  {
+    "id": "K03-105",
+    "section": "09",
+    "title": "学習済み宛先のユニキャストは、該当する転送先ポートに送る。",
+    "statement": "学習済み宛先のユニキャストは、該当する転送先ポートに送る。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S09",
+      "C_MAC"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "学習／フラッディング／エージング／転送方式",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-105-B",
+      "K03-105-A1"
+    ]
+  },
+  {
+    "id": "K03-106",
+    "section": "09",
+    "title": "宛先MACが受信ポートと同じ側に学習済みなら、別ポートへ転送しない。",
+    "statement": "宛先MACが受信ポートと同じ側に学習済みなら、別ポートへ転送しない。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S09",
+      "C_MAC"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "学習／フラッディング／エージング／転送方式",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-106-B",
+      "K03-106-A1"
+    ]
+  },
+  {
+    "id": "K03-107",
+    "section": "09",
+    "title": "L2ブロードキャストは、同一VLANの転送可能なポートへ受信ポートを除いて送る。",
+    "statement": "L2ブロードキャストは、同一VLANの転送可能なポートへ受信ポートを除いて送る。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S09",
+      "C_MAC",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "学習／フラッディング／エージング／転送方式",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-107-B",
+      "K03-107-A1"
+    ]
+  },
+  {
+    "id": "K03-108",
+    "section": "09",
+    "title": "動的MAC学習は、同じ送信元を別ポートで受けると対応ポートを更新する。",
+    "statement": "動的MAC学習は、同じ送信元を別ポートで受けると対応ポートを更新する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S09",
+      "C_MAC"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "学習／フラッディング／エージング／転送方式",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-108-B",
+      "K03-108-A1"
+    ]
+  },
+  {
+    "id": "K03-109",
+    "section": "09",
+    "title": "カットスルーは全体のFCS確認前に転送を開始し得る。",
+    "statement": "カットスルーは全体のFCS確認前に転送を開始し得る。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S09",
+      "C_ETH"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "学習／フラッディング／エージング／転送方式",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-109-B"
+    ]
+  },
+  {
+    "id": "K03-110",
+    "section": "11",
+    "title": "LLDPはIEEEの標準で、異なるベンダー間でも使える。",
+    "statement": "LLDPはIEEEの標準で、異なるベンダー間でも使える。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S11",
+      "C_LLDP"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "LLDPの概要／TLV／設定と確認",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-110-B"
+    ]
+  },
+  {
+    "id": "K03-111",
+    "section": "11",
+    "title": "LLDPのChassis IDは送信元の機器を識別する。",
+    "statement": "LLDPのChassis IDは送信元の機器を識別する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S11",
+      "C_LLDP"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "LLDPの概要／TLV／設定と確認",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-111-B"
+    ]
+  },
+  {
+    "id": "K03-112",
+    "section": "11",
+    "title": "LLDPのPort IDは送信元のポートを識別する。",
+    "statement": "LLDPのPort IDは送信元のポートを識別する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S11",
+      "C_LLDP"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "LLDPの概要／TLV／設定と確認",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-112-B"
+    ]
+  },
+  {
+    "id": "K03-113",
+    "section": "11",
+    "title": "LLDPの隣接情報を集めると、接続構成を構成図と照合できる。",
+    "statement": "LLDPの隣接情報を集めると、接続構成を構成図と照合できる。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S11",
+      "C_LLDP"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2021-pm1-Q1-S3-3",
+        "relation": "直接",
+        "note": "LLDPで把握した接続構成を確認する設問。"
+      }
+    ],
+    "legacy_ids": [],
+    "source_locator": "LLDPの概要／TLV／設定と確認",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表例で直接または適用の接点を確認。頻度・配点の評価ではない。",
+    "card_ids": [
+      "K03-113-B"
+    ]
+  },
+  {
+    "id": "K03-114",
+    "section": "11",
+    "title": "LLDP-MEDはIP電話等に向けたLLDPの拡張。",
+    "statement": "LLDP-MEDはIP電話等に向けたLLDPの拡張。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S11",
+      "C_LLDP"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "LLDPの概要／TLV／設定と確認",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-114-B"
+    ]
+  },
+  {
+    "id": "K03-115",
+    "section": "11",
+    "title": "Cisco IOS系のLLDP全体有効化コマンドはlldp run。",
+    "statement": "Cisco IOS系のLLDP全体有効化コマンドはlldp run。",
+    "conditions": "参考ページにあるCisco IOS系のCLI。ベンダー共通のコマンドとは扱わない。",
+    "source_ids": [
+      "S11",
+      "C_LLDP"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "LLDPの概要／TLV／設定と確認",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-115-B"
+    ]
+  },
+  {
+    "id": "K03-116",
+    "section": "11",
+    "title": "Cisco IOS系ではshow lldp neighborsで隣接情報を表示する。",
+    "statement": "Cisco IOS系ではshow lldp neighborsで隣接情報を表示する。",
+    "conditions": "参考ページにあるCisco IOS系のCLI。",
+    "source_ids": [
+      "S11",
+      "C_LLDP"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "LLDPの概要／TLV／設定と確認",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-116-B"
+    ]
+  },
+  {
+    "id": "K03-117",
+    "section": "12",
+    "title": "同じサブネットの直接通信では、最終宛先ホストのMACを宛先にする。",
+    "statement": "同じサブネットの直接通信では、最終宛先ホストのMACを宛先にする。",
+    "conditions": "同一LAN・同一IPv4サブネット・Proxy ARP等なし。",
+    "source_ids": [
+      "S12"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2021-pm2-Q1-S6-1",
+        "relation": "適用",
+        "note": "同一セグメント通信の宛先MACを問う。"
+      }
+    ],
+    "legacy_ids": [],
+    "source_locator": "ルータを経由する通信の説明",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表例で直接または適用の接点を確認。頻度・配点の評価ではない。",
+    "card_ids": [
+      "K03-117-B",
+      "K03-117-A1"
+    ]
+  },
+  {
+    "id": "K03-118",
+    "section": "12",
+    "title": "Ethernetへ送出するルータは、次ホップのMACを宛先にする。",
+    "statement": "Ethernetへ送出するルータは、次ホップのMACを宛先にする。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S12"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2021-pm2-Q1-S6-2",
+        "relation": "適用",
+        "note": "ルーティングを伴う通信の宛先MACを問う。"
+      }
+    ],
+    "legacy_ids": [],
+    "source_locator": "ルータを経由する通信の説明",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表例で直接または適用の接点を確認。頻度・配点の評価ではない。",
+    "card_ids": [
+      "K03-118-B",
+      "K03-118-A1"
+    ]
+  },
+  {
+    "id": "K03-119",
+    "section": "12",
+    "title": "IPv4で未知の次ホップMACを調べるARP要求は、そのLANへブロードキャストする。",
+    "statement": "IPv4で未知の次ホップMACを調べるARP要求は、そのLANへブロードキャストする。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S12"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2009-pm2-Q2-S3-1",
+        "relation": "適用",
+        "note": "ARP要求の宛先MACがブロードキャストであることを使う。"
+      }
+    ],
+    "legacy_ids": [],
+    "source_locator": "ルータを経由する通信の説明",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表例で直接または適用の接点を確認。頻度・配点の評価ではない。",
+    "card_ids": [
+      "K03-119-B"
+    ]
+  },
+  {
+    "id": "K03-120",
+    "section": "13",
+    "title": "電力線上の2地点をつなぐ構成では、両地点にPLCアダプターを置く。",
+    "statement": "電力線上の2地点をつなぐ構成では、両地点にPLCアダプターを置く。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S13"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "PLCの概要／構成／ノイズ",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-120-B"
+    ]
+  },
+  {
+    "id": "K03-121",
+    "section": "14",
+    "title": "PoE対応端末は、必要電力をLANケーブルから受け取れる。",
+    "statement": "PoE対応端末は、必要電力をLANケーブルから受け取れる。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S14",
+      "C_POE"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "PoEコンポーネント／給電仕様／検出／設定",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-121-B"
+    ]
+  },
+  {
+    "id": "K03-122",
+    "section": "14",
+    "title": "PoEインジェクターもPSEとして使える。",
+    "statement": "PoEインジェクターもPSEとして使える。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S14",
+      "C_POE"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "PoEコンポーネント／給電仕様／検出／設定",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-122-B"
+    ]
+  },
+  {
+    "id": "K03-123",
+    "section": "14",
+    "title": "IEEE 802.3afのPD側で利用できる最大電力は12.95W。",
+    "statement": "IEEE 802.3afのPD側で利用できる最大電力は12.95W。",
+    "conditions": "802.3af Type 1。PSE側15.4Wとの区別。",
+    "source_ids": [
+      "S14",
+      "C_BUDGET"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "PoEコンポーネント／給電仕様／検出／設定",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-123-B",
+      "K03-123-A1"
+    ]
+  },
+  {
+    "id": "K03-124",
+    "section": "14",
+    "title": "PSE側の給電電力からケーブルで損失が生じ、PD側の利用可能電力は小さくなる。",
+    "statement": "PSE側の給電電力からケーブルで損失が生じ、PD側の利用可能電力は小さくなる。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S14",
+      "C_BUDGET"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "PoEコンポーネント／給電仕様／検出／設定",
+    "priority": "B_基礎",
+    "priority_reason": "仕組みの理解と判断を支える基礎事項。作成者判断。",
+    "card_ids": [
+      "K03-124-B"
+    ]
+  },
+  {
+    "id": "K03-125",
+    "section": "14",
+    "title": "PoE設計では1ポートの上限と装置全体の給電予算の両方を確認する。",
+    "statement": "PoE設計では1ポートの上限と装置全体の給電予算の両方を確認する。",
+    "conditions": "問題文で指定した通常のEthernet動作を前提とする。",
+    "source_ids": [
+      "S14",
+      "C_BUDGET"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2012-pm1-Q2-S1-2",
+        "relation": "適用",
+        "note": "装置全体の給電能力を考慮してAPの接続先を設計する。"
+      },
+      {
+        "unit_id": "2017-pm2-Q2-S3-5",
+        "relation": "適用",
+        "note": "必要な最小供給電力を求める。"
+      }
+    ],
+    "legacy_ids": [],
+    "source_locator": "PoEコンポーネント／給電仕様／検出／設定",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表例で直接または適用の接点を確認。頻度・配点の評価ではない。",
+    "card_ids": [
+      "K03-125-B",
+      "K03-125-A1",
+      "K03-125-A2"
+    ]
+  },
+  {
+    "id": "K03-126",
+    "section": "14",
+    "title": "IEEE 802.3bt Type 3のPSE最大電力は60W。",
+    "statement": "IEEE 802.3bt Type 3のPSE最大電力は60W。",
+    "conditions": "802.3bt Type 3・PSE側。PD側電力とは区別する。",
+    "source_ids": [
+      "S14",
+      "C_POE"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "PoEコンポーネント／給電仕様／検出／設定",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-126-B"
+    ]
+  },
+  {
+    "id": "K03-127",
+    "section": "14",
+    "title": "IEEE 802.3bt Type 4のPSE最大電力は90W。",
+    "statement": "IEEE 802.3bt Type 4のPSE最大電力は90W。",
+    "conditions": "802.3bt Type 4・PSE側。PD側電力とは区別する。",
+    "source_ids": [
+      "S14",
+      "C_POE"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "PoEコンポーネント／給電仕様／検出／設定",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-127-B"
+    ]
+  },
+  {
+    "id": "K03-128",
+    "section": "14",
+    "title": "PoEポリシングは割当て電力を超えた受電機器から給電側を保護するための機能。",
+    "statement": "PoEポリシングは割当て電力を超えた受電機器から給電側を保護するための機能。",
+    "conditions": "CiscoのPoEポリシング。しきい値の固定値や全製品共通の動作は問わない。",
+    "source_ids": [
+      "S14",
+      "C_BUDGET"
+    ],
+    "learning_role": "参照",
+    "exam_evidence": [],
+    "legacy_ids": [],
+    "source_locator": "PoEコンポーネント／給電仕様／検出／設定",
+    "priority": "C_参照",
+    "priority_reason": "規格名・ピン番号・CLI等の参照知識。作成者判断。",
+    "card_ids": [
+      "K03-128-B"
+    ]
+  },
+  {
+    "id": "K03-129",
+    "section": "03",
+    "title": "2.5GBASE-T／5GBASE-TはマルチギガビットEthernetと呼ばれる。",
+    "statement": "2.5GBASE-T／5GBASE-TはマルチギガビットEthernetと呼ばれる。",
+    "conditions": "企業LAN向けの通常の名称。製品選定では規格・Type・Class・電力も確認する。",
+    "source_ids": [
+      "S03",
+      "I_BZ"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2023-pm1-Q3-S1",
+        "relation": "直接",
+        "note": "空欄fでマルチギガビットEthernetの名称を問う。"
+      }
+    ],
+    "legacy_ids": [],
+    "source_locator": "規格名・呼称",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表設問で名称の直接出題を確認。頻度順位ではない。",
+    "card_ids": [
+      "K03-129-B"
+    ]
+  },
+  {
+    "id": "K03-130",
+    "section": "14",
+    "title": "IEEE 802.3atはPoE+と呼ばれる。",
+    "statement": "IEEE 802.3atはPoE+と呼ばれる。",
+    "conditions": "企業LAN向けの通常の名称。製品選定では規格・Type・Class・電力も確認する。",
+    "source_ids": [
+      "S14",
+      "C_POE"
+    ],
+    "learning_role": "基本",
+    "exam_evidence": [
+      {
+        "unit_id": "2017-pm2-Q2-S3-5",
+        "relation": "直接",
+        "note": "IEEE 802.3atの呼称を問う。"
+      }
+    ],
+    "legacy_ids": [],
+    "source_locator": "規格名・呼称",
+    "priority": "A_過去問接点",
+    "priority_reason": "代表設問で名称の直接出題を確認。頻度順位ではない。",
+    "card_ids": [
+      "K03-130-B"
+    ]
+  }
+]

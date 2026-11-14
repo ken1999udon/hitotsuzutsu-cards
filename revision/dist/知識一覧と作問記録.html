@@ -1,0 +1,766 @@
+<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>第3章 改訂版の知識一覧と作問記録</title>
+<style>body{font-family:system-ui,sans-serif;line-height:1.8;color:#243247;max-width:1050px;margin:32px auto;padding:0 18px}h1{font-size:27px}h2{margin-top:45px;border-bottom:2px solid #d9e3ee}h3{font-size:18px}a{color:#0369a1}article{border:1px solid #d9e3ee;border-radius:8px;padding:15px;margin:14px 0}details{margin:12px 0}summary{cursor:pointer}small,.meta{color:#52657d;font-size:13px}.answer{color:#075985;font-weight:700}.card{border-left:3px solid #c8d9e8;padding-left:15px;margin:25px 0}code{font-family:monospace}li{margin:4px 0}@media print{details{display:block}article{break-inside:avoid}}</style>
+<h1>第3章 Ethernet LAN — 改訂版の知識一覧と作問記録</h1>
+<p>採用した知識 <b>132項目</b> ／ カード <b>170枚</b> ／ 元サイトの14項目。基本カードと条件付きカードを掲載します。カード内容には解答が含まれます。</p>
+<p>抽出して採用した知識の全件にカードを対応付ける。元サイトの全文章・全図表の網羅率や試験得点率は表さない。</p>
+<p>優先度Aは過去問との接点を確認できた代表例、Bは基礎、Cは参照知識です。頻度や配点による順位ではありません。</p>
+<p>学習時は短い解答を思い出し、必須要素で自己判定します。補足の文章を丸ごと再現する必要はありません。</p>
+<nav><a href="#section-01">01 Ethernetの基本</a> / <a href="#section-02">02 Ethernetの規格と速度</a> / <a href="#section-03">03 マルチギガビットEthernet</a> / <a href="#section-04">04 伝送メディア</a> / <a href="#section-05">05 ストレート／クロスケーブル</a> / <a href="#section-06">06 EthernetフレームとMACアドレス</a> / <a href="#section-07">07 CSMA/CD</a> / <a href="#section-08">08 ネットワーク機器の役割</a> / <a href="#section-09">09 L2スイッチの学習と転送</a> / <a href="#section-10">10 半二重・全二重とオートネゴシエーション</a> / <a href="#section-11">11 LLDP</a> / <a href="#section-12">12 ルータを経由する通信</a> / <a href="#section-13">13 PLC（電力線通信）</a> / <a href="#section-14">14 PoE・PoE+・PoE++</a></nav>
+<details><summary>作成方針・確認範囲</summary><ul><li>知識を事実・関係・条件として抽出する</li><li>各知識に出典・旧版との対応・優先度の根拠を付ける</li><li>一問ごとに主要な判断と必須要素を定義する</li><li>重要な仕組みに独立した条件付き問題を追加する</li><li>数値・転送先の具体例を機械的にも確認する</li><li>学習後の誤り原因を記録して改訂する</li></ul><p>2009〜2025年の既存分析データと一部の元問題・公式解答を照合して代表例を記録。全916小問の再監査ではなく、参照数は出題回数として利用しない。</p><ul><li>作成者による資料照合と構造検証を実施。第三者専門家の査読ではない。</li><li>学習者による実際の解答結果はまだない。review_log.csvで収集する。</li><li>具体例の機械検証は、自然言語の曖昧さを完全に保証するものではない。</li></ul></details>
+<details><summary>出典の記述から条件を補った箇所</summary><ul><li>PDの展開はPowered Deviceを採用。</li><li>MACの世界一意性を無条件に断定しない。</li><li>フラッディングを同じVLAN・受信ポート除外・転送可能なポートという条件で記述。</li><li>FCS検出と誤り訂正を区別。</li><li>PoEのPSE電力とPD電力を分離。</li><li>100BASE-TXのピンとケーブルの問題は速度・Auto MDI/MDI-Xの有無を限定。</li><li>光の距離・LLDP初期値・ポリシング値を全製品へ一般化しない。</li></ul></details>
+<h2 id="section-01">01 Ethernetの基本</h2>
+<details><summary>今回はカード化しない内容・その範囲</summary><ul><li>Ethernetの発明者・年表の個別年号</li><li>IEEE組織図の全項目</li></ul></details>
+<article id="K03-001"><div class="meta">K03-001 ／ A_過去問接点 ／ 旧版：Q01</div><h3>EthernetはIEEE 802.3系列で標準化されている。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：代表例で直接または適用の接点を確認。頻度・配点の評価ではない。</p>
+<div class="card" id="K03-001-B"><small>K03-001-B ／ 知識</small><p>Ethernetを規定するIEEE 802系列の規格番号は？</p><p class="answer">答：IEEE 802.3。</p><small>正解に必要な要素</small><ul><li>IEEE 802.3</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet.html">Ethernetの基本</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2012-pm1-Q2-S1-1（直接）：空欄アでIEEE 802.3afの規格番号の一部を問う。</li></ul></details>
+</article>
+<article id="K03-002"><div class="meta">K03-002 ／ B_基礎 ／ 旧版：Q02</div><h3>EthernetはOSIの物理層とデータリンク層に対応する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-002-B"><small>K03-002-B ／ 知識</small><p>Ethernetは、OSI参照モデルの主にどの2層に対応する？</p><p class="answer">答：物理層とデータリンク層。</p><small>正解に必要な要素</small><ul><li>物理層とデータリンク層の両方（第1層・第2層でもよい）</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet.html">Ethernetの基本</a></p>
+</article>
+<article id="K03-003"><div class="meta">K03-003 ／ B_基礎 ／ 旧版：Q03</div><h3>bpsは1秒当たりのビット数を表す。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-003-B"><small>K03-003-B ／ 知識</small><p>通信速度を表すbpsは、1秒当たりの何の数を表す？</p><p class="answer">答：ビット数。</p><small>正解に必要な要素</small><ul><li>ビット数</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet.html">Ethernetの基本</a></p>
+</article>
+<article id="K03-004"><div class="meta">K03-004 ／ B_基礎 ／ 旧版：Q04</div><h3>1Gbpsは1,000Mbpsである。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-004-B"><small>K03-004-B ／ 数値</small><p>1Gbpsは何Mbpsか。</p><p class="answer">答：1,000Mbps。</p><small>正解に必要な要素</small><ul><li>1,000Mbps</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet.html">Ethernetの基本</a></p>
+</article>
+<article id="K03-005"><div class="meta">K03-005 ／ B_基礎 ／ 旧版：Q05</div><h3>100Mbpsは、8ビット＝1バイトで換算すると12.5MB/sである。</h3>
+<p class="meta">前提：1バイト＝8ビット。Mは10の6乗。プロトコルのオーバーヘッドを考慮しない単位換算。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-005-B"><small>K03-005-B ／ 数値</small><p>1バイト＝8ビットとして、100Mbpsは理論上何MB/sか。Mは10進接頭辞とし、オーバーヘッドを無視する。</p><p class="answer">答：12.5MB/s。</p><small>正解に必要な要素</small><ul><li>12.5MB/s（Mは10の6乗）</li></ul><p>補足：100÷8＝12.5。アプリケーションの実測速度を保証する問題ではない。</p></div>
+<div class="card" id="K03-005-A1"><small>K03-005-A1 ／ 計算</small><p>1バイト＝8ビットとして、1GbpsをMB/sに換算せよ。GとMは10進接頭辞とし、オーバーヘッドは無視する。</p><p class="answer">答：125MB/s。</p><small>正解に必要な要素</small><ul><li>125MB/s</li></ul><p>補足：1,000Mbps÷8＝125MB/s。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet.html">Ethernetの基本</a></p>
+</article>
+<article id="K03-076"><div class="meta">K03-076 ／ B_基礎 ／ 旧版：追加</div><h3>デジタル通信の帯域は、そのリンクで送れるビット数の上限を表す。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-076-B"><small>K03-076-B ／ 知識</small><p>リンク速度が1Gbpsなら、アプリケーションのデータも常に1Gbpsで転送できるか。</p><p class="answer">答：できない。</p><small>正解に必要な要素</small><ul><li>実効速度がリンク速度と常に一致するわけではない</li></ul><p>補足：ヘッダ、フレーム間隔、他の通信、処理性能なども実効速度に影響する。</p></div>
+<div class="card" id="K03-076-A1"><small>K03-076-A1 ／ 判断</small><p>有線リンクは1Gbps。アプリケーションの実測が900Mbpsだった。これだけでリンク速度の規格違反と断定できるか。</p><p class="answer">答：断定できない。</p><small>正解に必要な要素</small><ul><li>リンク速度と実効速度を区別する</li></ul><p>補足：ヘッダや処理性能などがあるので、リンク速度とアプリケーションの実測値は一致しなくてよい。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet.html">Ethernetの基本</a></p>
+</article>
+<article id="K03-077"><div class="meta">K03-077 ／ C_参照 ／ 旧版：追加</div><h3>アナログの帯域幅は周波数範囲であり、Hzで表す。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-077-B"><small>K03-077-B ／ 知識</small><p>周波数の幅としての帯域幅は、bpsとHzのどちらで表す？</p><p class="answer">答：Hz。</p><small>正解に必要な要素</small><ul><li>Hz</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet.html">Ethernetの基本</a></p>
+</article>
+<h2 id="section-02">02 Ethernetの規格と速度</h2>
+<details><summary>今回はカード化しない内容・その範囲</summary><ul><li>10BASE5/2、100BASE-T4、WAN PHYなどの規格表の全セル</li><li>光モジュールごとの距離・波長・型番と価格</li></ul></details>
+<article id="K03-006"><div class="meta">K03-006 ／ C_参照 ／ 旧版：Q06</div><h3>Fast Ethernetの伝送速度は100Mbpsである。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-006-B"><small>K03-006-B ／ 数値</small><p>Fast Ethernetの通信速度は？</p><p class="answer">答：100Mbps。</p><small>正解に必要な要素</small><ul><li>100Mbps</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet1.html">Ethernetの規格と速度</a></p>
+</article>
+<article id="K03-007"><div class="meta">K03-007 ／ C_参照 ／ 旧版：Q07</div><h3>Gigabit Ethernetの伝送速度は1Gbpsである。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-007-B"><small>K03-007-B ／ 数値</small><p>Gigabit Ethernetの通信速度は？</p><p class="answer">答：1Gbps。</p><small>正解に必要な要素</small><ul><li>1Gbps</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet1.html">Ethernetの規格と速度</a></p>
+</article>
+<article id="K03-008"><div class="meta">K03-008 ／ C_参照 ／ 旧版：Q08</div><h3>10 Gigabit Ethernetの伝送速度は10Gbpsである。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-008-B"><small>K03-008-B ／ 数値</small><p>10 Gigabit Ethernetの通信速度は？</p><p class="answer">答：10Gbps。</p><small>正解に必要な要素</small><ul><li>10Gbps</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet1.html">Ethernetの規格と速度</a></p>
+</article>
+<article id="K03-009"><div class="meta">K03-009 ／ B_基礎 ／ 旧版：Q09</div><h3>1000BASE-Tの最大チャネル長は、適合する配線で100mである。</h3>
+<p class="meta">前提：1000BASE-T。規格に適合するケーブル・コネクタ・チャネルを使用する。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-009-B"><small>K03-009-B ／ 数値</small><p>1000BASE-Tの規格上の最大伝送距離は？</p><p class="answer">答：100m。</p><small>正解に必要な要素</small><ul><li>100m</li></ul><p>補足：規格に適合する配線を使用する。</p></div>
+<div class="card" id="K03-009-A1"><small>K03-009-A1 ／ 判断</small><p>1000BASE-Tの規格に従って、途中に中継機器を置かず1区間120mで配線したい。規格上の100mという条件を満たすか。</p><p class="answer">答：満たさない。</p><small>正解に必要な要素</small><ul><li>120mは100mを超える</li></ul><p>補足：実験でリンクすることと、規格に適合することは別。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet1.html">Ethernetの規格と速度</a></p>
+</article>
+<article id="K03-010"><div class="meta">K03-010 ／ C_参照 ／ 旧版：Q10</div><h3>Ethernet規格名のBASEはベースバンド方式を表す。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-010-B"><small>K03-010-B ／ 知識</small><p>100BASE-TXなどの名称に含まれるBASEは、どの伝送方式を示す？</p><p class="answer">答：ベースバンド方式。</p><small>正解に必要な要素</small><ul><li>ベースバンド方式</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet1.html">Ethernetの規格と速度</a></p>
+</article>
+<article id="K03-078"><div class="meta">K03-078 ／ B_基礎 ／ 旧版：追加</div><h3>IEEEのLANモデルで、MAC副層は媒体アクセスやフレームの扱いを担う。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-078-B"><small>K03-078-B ／ 知識</small><p>MAC副層とLLC副層のうち、媒体アクセスやMACアドレスによるフレームの扱いを担うのは？</p><p class="answer">答：MAC副層。</p><small>正解に必要な要素</small><ul><li>MAC副層</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet1.html">Ethernetの規格と速度</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-079"><div class="meta">K03-079 ／ C_参照 ／ 旧版：追加</div><h3>規格名の1000BASE-Tの1000は1000Mbpsを示す。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-079-B"><small>K03-079-B ／ 知識</small><p>1000BASE-Tの先頭の1000は、何を示す数値か。</p><p class="answer">答：伝送速度1,000Mbps。</p><small>正解に必要な要素</small><ul><li>伝送速度</li><li>1,000Mbps（1Gbps）</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet1.html">Ethernetの規格と速度</a></p>
+</article>
+<article id="K03-080"><div class="meta">K03-080 ／ B_基礎 ／ 旧版：追加</div><h3>1000BASE-Tはツイストペアケーブルを使う。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-080-B"><small>K03-080-B ／ 知識</small><p>1000BASE-Tの伝送媒体は、ツイストペアケーブルと光ファイバーのどちらか。</p><p class="answer">答：ツイストペアケーブル。</p><small>正解に必要な要素</small><ul><li>ツイストペアケーブル</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet1.html">Ethernetの規格と速度</a></p>
+</article>
+<article id="K03-081"><div class="meta">K03-081 ／ C_参照 ／ 旧版：追加</div><h3>1000BASE-SXはマルチモード光ファイバーを使う。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-081-B"><small>K03-081-B ／ 知識</small><p>1000BASE-SXで使う光ファイバーは、SMFとMMFのどちらか。</p><p class="answer">答：MMF。</p><small>正解に必要な要素</small><ul><li>MMF</li></ul><p>補足：伝送距離はファイバーの種類や光モジュールの仕様に依存する。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet1.html">Ethernetの規格と速度</a></p>
+</article>
+<article id="K03-082"><div class="meta">K03-082 ／ C_参照 ／ 旧版：追加</div><h3>10GBASE-LRはシングルモード光ファイバーを使う。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-082-B"><small>K03-082-B ／ 知識</small><p>10GBASE-LRで使う光ファイバーは、SMFとMMFのどちらか。</p><p class="answer">答：SMF。</p><small>正解に必要な要素</small><ul><li>SMF</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet1.html">Ethernetの規格と速度</a></p>
+</article>
+<h2 id="section-03">03 マルチギガビットEthernet</h2>
+<details><summary>今回はカード化しない内容・その範囲</summary><ul><li>車載用802.3chの詳細（本カード集では企業LANの2.5/5GBASE-Tを中心にする）</li></ul></details>
+<article id="K03-011a"><div class="meta">K03-011a ／ B_基礎 ／ 旧版：Q11</div><h3>2.5GBASE-Tの伝送速度は2.5Gbps。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-011a-B"><small>K03-011a-B ／ 数値</small><p>2.5GBASE-Tの伝送速度は？</p><p class="answer">答：2.5Gbps。</p><small>正解に必要な要素</small><ul><li>2.5Gbps</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet14.html">マルチギガビットEthernet</a> / <a href="https://www.ieee802.org/3/bz/index.html">IEEE: 802.3bzの標準化</a></p>
+</article>
+<article id="K03-011b"><div class="meta">K03-011b ／ B_基礎 ／ 旧版：Q11</div><h3>5GBASE-Tの伝送速度は5Gbps。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-011b-B"><small>K03-011b-B ／ 数値</small><p>5GBASE-Tの伝送速度は？</p><p class="answer">答：5Gbps。</p><small>正解に必要な要素</small><ul><li>5Gbps</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet14.html">マルチギガビットEthernet</a> / <a href="https://www.ieee802.org/3/bz/index.html">IEEE: 802.3bzの標準化</a></p>
+</article>
+<article id="K03-012"><div class="meta">K03-012 ／ C_参照 ／ 旧版：Q12</div><h3>2.5GBASE-Tと5GBASE-TはIEEE 802.3bzで標準化された。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-012-B"><small>K03-012-B ／ 知識</small><p>2.5GBASE-Tと5GBASE-Tを標準化した規格番号は？</p><p class="answer">答：IEEE 802.3bz。</p><small>正解に必要な要素</small><ul><li>IEEE 802.3bz</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet14.html">マルチギガビットEthernet</a> / <a href="https://www.ieee802.org/3/bz/index.html">IEEE: 802.3bzの標準化</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2023-pm1-Q3-S1（前提）：空欄fのマルチギガビットEthernetを理解する規格の背景。802.3bz自体の直接出題とは数えない。</li></ul></details>
+</article>
+<article id="K03-013"><div class="meta">K03-013 ／ B_基礎 ／ 旧版：Q13</div><h3>2.5GBASE-Tは適合するCat5e配線を利用できる。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-013-B"><small>K03-013-B ／ 知識</small><p>2.5GBASE-Tで再利用できる、広く普及したLANケーブルのカテゴリは？</p><p class="answer">答：カテゴリ5e（Cat5e）。</p><small>正解に必要な要素</small><ul><li>カテゴリ5e（Cat5e）</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-013-A1"><small>K03-013-A1 ／ 判断</small><p>既設Cat5e配線を再利用して2.5GBASE-Tを導入したい。ケーブルにCat5eと書かれていれば、配線状態を問わず100mを保証してよいか。</p><p class="answer">答：保証してよいとはいえない。</p><small>正解に必要な要素</small><ul><li>配線全体が規格要件を満たすか確認する</li></ul><p>補足：接続部を含めた配線品質や施工条件を確認する。カテゴリ名だけで、任意の既設配線の動作を保証しない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet14.html">マルチギガビットEthernet</a> / <a href="https://www.ieee802.org/3/bz/index.html">IEEE: 802.3bzの標準化</a></p>
+</article>
+<article id="K03-014"><div class="meta">K03-014 ／ B_基礎 ／ 旧版：Q14</div><h3>高速な無線APでは、有線アップリンクの容量がボトルネックになり得る。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-014-B"><small>K03-014-B ／ 動作</small><p>高速な無線APに1Gbpsの有線接続を使うと、どの区間がボトルネックになり得る？</p><p class="answer">答：APとスイッチ間の有線区間。</p><small>正解に必要な要素</small><ul><li>APとスイッチの間の有線リンク</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-014-A1"><small>K03-014-A1 ／ 判断</small><p>無線APから有線側へ合計2Gbps流したい。有線アップリンクは1Gbpsが1本。ほかに制約がないとして、要求を満たせない区間は？</p><p class="answer">答：APとスイッチ間の有線アップリンク。</p><small>正解に必要な要素</small><ul><li>1Gbpsの有線アップリンク</li></ul><p>補足：無線側の公称速度だけを見ず、有線区間の容量と比較する。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet14.html">マルチギガビットEthernet</a> / <a href="https://www.ieee802.org/3/bz/index.html">IEEE: 802.3bzの標準化</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2023-pm1-Q3-S1（前提）：APとフロアL2SW間の1Gbpsがボトルネックになる状況が題材。</li></ul></details>
+</article>
+<article id="K03-015"><div class="meta">K03-015 ／ B_基礎 ／ 旧版：Q15</div><h3>2.5GBASE-T／5GBASE-Tの最大チャネル長は、適合する配線で100mである。</h3>
+<p class="meta">前提：2.5GBASE-T／5GBASE-T。配線が対象速度の規格要件を満たす。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-015-B"><small>K03-015-B ／ 数値</small><p>2.5GBASE-T／5GBASE-Tの標準で想定する最大伝送距離は？</p><p class="answer">答：100m。</p><small>正解に必要な要素</small><ul><li>100m</li></ul><p>補足：使用する配線は規格の要件を満たす必要がある。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet14.html">マルチギガビットEthernet</a> / <a href="https://www.ieee802.org/3/bz/index.html">IEEE: 802.3bzの標準化</a></p>
+</article>
+<article id="K03-129"><div class="meta">K03-129 ／ A_過去問接点 ／ 旧版：追加</div><h3>2.5GBASE-T／5GBASE-TはマルチギガビットEthernetと呼ばれる。</h3>
+<p class="meta">前提：企業LAN向けの通常の名称。製品選定では規格・Type・Class・電力も確認する。<br>優先度の根拠：代表設問で名称の直接出題を確認。頻度順位ではない。</p>
+<div class="card" id="K03-129-B"><small>K03-129-B ／ 知識</small><p>企業LANで、2.5GBASE-Tや5GBASE-Tをまとめて一般に何と呼ぶ？</p><p class="answer">答：マルチギガビットEthernet。</p><small>正解に必要な要素</small><ul><li>マルチギガビットEthernet</li></ul><p>補足：通称と規格番号を対応付けて覚える。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet14.html">マルチギガビットEthernet</a> / <a href="https://www.ieee802.org/3/bz/index.html">IEEE: 802.3bzの標準化</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2023-pm1-Q3-S1（直接）：空欄fでマルチギガビットEthernetの名称を問う。</li></ul></details>
+</article>
+<h2 id="section-04">04 伝送メディア</h2>
+<details><summary>今回はカード化しない内容・その範囲</summary><ul><li>Cat1〜Cat7の周波数表全体</li><li>T568A/Bの全8色の配列</li><li>材質だけで光ファイバーの曲げやすさ・価格を断定する記述</li></ul></details>
+<article id="K03-016"><div class="meta">K03-016 ／ C_参照 ／ 旧版：Q16</div><h3>UTPはシールドを持たないツイストペアケーブルである。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-016-B"><small>K03-016-B ／ 知識</small><p>UTPとシールド付きツイストペアケーブルを比べたとき、UTPにないものは？</p><p class="answer">答：シールド。</p><small>正解に必要な要素</small><ul><li>シールド</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet2.html">伝送メディア</a></p>
+</article>
+<article id="K03-017"><div class="meta">K03-017 ／ B_基礎 ／ 旧版：Q17</div><h3>4対のツイストペアケーブルには8本の芯線がある。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-017-B"><small>K03-017-B ／ 数値</small><p>一般的な4対のLAN用ツイストペアケーブルは、合計何本の芯線を持つ？</p><p class="answer">答：8本。</p><small>正解に必要な要素</small><ul><li>8本（4対×2本）</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet2.html">伝送メディア</a></p>
+</article>
+<article id="K03-018"><div class="meta">K03-018 ／ C_参照 ／ 旧版：Q18</div><h3>STPケーブルはシールドを備えるツイストペアケーブルである。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-018-B"><small>K03-018-B ／ 知識</small><p>外来ノイズの影響を抑えるため、シールドを備えたツイストペアケーブルを何という？</p><p class="answer">答：STPケーブル（Shielded Twisted Pair）。</p><small>正解に必要な要素</small><ul><li>STPケーブル（Shielded Twisted Pair）</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet2.html">伝送メディア</a></p>
+</article>
+<article id="K03-019"><div class="meta">K03-019 ／ B_基礎 ／ 旧版：Q19</div><h3>光ファイバーで光が主に伝わる中心部はコアである。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-019-B"><small>K03-019-B ／ 知識</small><p>光ファイバーで、光が主に伝わる中心部分を何という？</p><p class="answer">答：コア。</p><small>正解に必要な要素</small><ul><li>コア</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet2.html">伝送メディア</a></p>
+</article>
+<article id="K03-020"><div class="meta">K03-020 ／ B_基礎 ／ 旧版：Q20</div><h3>SMFは一般にMMFより長距離の伝送に用いられる。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-020-B"><small>K03-020-B ／ 知識</small><p>一般に、長距離伝送向けに用いられるのはSMFとMMFのどちらか。</p><p class="answer">答：SMF（シングルモードファイバー）。</p><small>正解に必要な要素</small><ul><li>SMF（シングルモードファイバー）</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet2.html">伝送メディア</a></p>
+</article>
+<article id="K03-083"><div class="meta">K03-083 ／ C_参照 ／ 旧版：追加</div><h3>10BASE5と10BASE2は同軸ケーブルを使う。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-083-B"><small>K03-083-B ／ 知識</small><p>旧来の10BASE5／10BASE2が使う伝送媒体は？</p><p class="answer">答：同軸ケーブル。</p><small>正解に必要な要素</small><ul><li>同軸ケーブル</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet2.html">伝送メディア</a></p>
+</article>
+<article id="K03-084"><div class="meta">K03-084 ／ C_参照 ／ 旧版：追加</div><h3>一般的なツイストペアEthernetで使う8極のコネクタは通称RJ-45。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-084-B"><small>K03-084-B ／ 知識</small><p>一般的なツイストペアEthernetのLANケーブルで使う8極のコネクタは、通称何という？</p><p class="answer">答：RJ-45。</p><small>正解に必要な要素</small><ul><li>RJ-45</li></ul><p>補足：コネクタの通称を確認する問題。電話用RJ-11とは区別する。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet2.html">伝送メディア</a></p>
+</article>
+<article id="K03-085"><div class="meta">K03-085 ／ B_基礎 ／ 旧版：追加</div><h3>光ファイバーのコアはクラッドに囲まれる。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-085-B"><small>K03-085-B ／ 知識</small><p>光ファイバーで、コアの外側を囲む部分は？</p><p class="answer">答：クラッド。</p><small>正解に必要な要素</small><ul><li>クラッド</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet2.html">伝送メディア</a></p>
+</article>
+<article id="K03-086"><div class="meta">K03-086 ／ B_基礎 ／ 旧版：追加</div><h3>10GBASE-Tを100mで使う配線例としてカテゴリ6Aがある。</h3>
+<p class="meta">前提：10GBASE-T・100m。配線全体が対象規格に適合すること。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-086-B"><small>K03-086-B ／ 知識</small><p>10GBASE-Tを100mで使いたい。Cat5eとCat6Aのうち、規格に適合するチャネルとして選ぶべきものは？</p><p class="answer">答：Cat6A。</p><small>正解に必要な要素</small><ul><li>Cat6A</li></ul><p>補足：ケーブル単体の表示だけでなく、コネクタなどを含むチャネル全体の適合が必要。短距離でのCat6の可否を問う問題ではない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet2.html">伝送メディア</a> / <a href="https://www.infraexpert.com/study/ethernet1.html">Ethernetの規格と速度</a></p>
+</article>
+<h2 id="section-05">05 ストレート／クロスケーブル</h2>
+<details><summary>今回はカード化しない内容・その範囲</summary><ul><li>1000BASE-Tのクロス配線全体の暗記</li></ul></details>
+<article id="K03-021"><div class="meta">K03-021 ／ C_参照 ／ 旧版：Q21</div><h3>ストレートケーブルは両端を同じピン配列で結線する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-021-B"><small>K03-021-B ／ 知識</small><p>両端を同じピン配列で結線したLANケーブルを何という？</p><p class="answer">答：ストレートケーブル。</p><small>正解に必要な要素</small><ul><li>ストレートケーブル</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet3.html">ストレート／クロスケーブル</a></p>
+</article>
+<article id="K03-022"><div class="meta">K03-022 ／ B_基礎 ／ 旧版：Q22</div><h3>Auto MDI/MDI-Xを使わない100BASE-TXのMDI―MDI-X接続にはストレートを使う。</h3>
+<p class="meta">前提：100BASE-TX。両端ともAuto MDI/MDI-Xを使用しない。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-022-B"><small>K03-022-B ／ 知識</small><p>100BASE-TXでAuto MDI/MDI-Xを使わず、MDIとMDI-Xを接続するケーブルは？</p><p class="answer">答：ストレートケーブル。</p><small>正解に必要な要素</small><ul><li>ストレートケーブル</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-022-A1"><small>K03-022-A1 ／ 判断</small><p>100BASE-TXでAuto MDI/MDI-Xを両端とも使わない。MDIのPCとMDI-Xのスイッチをつなぐケーブルは？</p><p class="answer">答：ストレートケーブル。</p><small>正解に必要な要素</small><ul><li>ストレート</li></ul><p>補足：MDI側の送信ピンが相手の受信ピンにつながる。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet3.html">ストレート／クロスケーブル</a></p>
+</article>
+<article id="K03-023"><div class="meta">K03-023 ／ B_基礎 ／ 旧版：Q23</div><h3>Auto MDI/MDI-Xを使わない100BASE-TXのMDI同士の接続にはクロスを使う。</h3>
+<p class="meta">前提：100BASE-TX。両端ともAuto MDI/MDI-Xを使用しない。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-023-B"><small>K03-023-B ／ 知識</small><p>100BASE-TXでAuto MDI/MDI-Xを使わず、MDI同士を接続するケーブルは？</p><p class="answer">答：クロスケーブル。</p><small>正解に必要な要素</small><ul><li>クロスケーブル</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-023-A1"><small>K03-023-A1 ／ 判断</small><p>100BASE-TXでAuto MDI/MDI-Xを両端とも使わない。MDI-Xのスイッチ同士をつなぐケーブルは？</p><p class="answer">答：クロスケーブル。</p><small>正解に必要な要素</small><ul><li>クロス</li></ul><p>補足：同じピンの役割同士になるため、送受信の対応を交差させる。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet3.html">ストレート／クロスケーブル</a></p>
+</article>
+<article id="K03-024"><div class="meta">K03-024 ／ A_過去問接点 ／ 旧版：Q24</div><h3>Auto MDI/MDI-Xは、対向に合わせて送受信の配線の対応を自動調整する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：代表例で直接または適用の接点を確認。頻度・配点の評価ではない。</p>
+<div class="card" id="K03-024-B"><small>K03-024-B ／ 知識</small><p>接続先に応じ、送受信の配線の対応を自動調整する機能は？</p><p class="answer">答：Auto MDI/MDI-X。</p><small>正解に必要な要素</small><ul><li>Auto MDI/MDI-X</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet3.html">ストレート／クロスケーブル</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2009-pm1-Q1-S1（直接）：空欄オでAuto MDI/MDI-Xの名称を問う。</li></ul></details>
+</article>
+<article id="K03-025"><div class="meta">K03-025 ／ C_参照 ／ 旧版：Q25</div><h3>100BASE-TXのMDIポートの送信ピンは1番・2番である。</h3>
+<p class="meta">前提：100BASE-TXのMDIポート。1000BASE-Tの配線動作に一般化しない。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-025-B"><small>K03-025-B ／ 数値</small><p>100BASE-TXのMDIポートで、送信に使用するピン番号は？</p><p class="answer">答：1番と2番。</p><small>正解に必要な要素</small><ul><li>1番と2番</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet3.html">ストレート／クロスケーブル</a></p>
+</article>
+<article id="K03-087"><div class="meta">K03-087 ／ C_参照 ／ 旧版：追加</div><h3>100BASE-TXのMDIでは受信にピン3・6を使う。</h3>
+<p class="meta">前提：100BASE-TXのMDIポート。1000BASE-Tに一般化しない。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-087-B"><small>K03-087-B ／ 知識</small><p>100BASE-TXのMDIポートで、受信に使うピン番号は？</p><p class="answer">答：3番・6番。</p><small>正解に必要な要素</small><ul><li>3番・6番</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet3.html">ストレート／クロスケーブル</a></p>
+</article>
+<article id="K03-088"><div class="meta">K03-088 ／ C_参照 ／ 旧版：追加</div><h3>100BASE-TXのMDI-Xでは送信にピン3・6を使う。</h3>
+<p class="meta">前提：100BASE-TXのMDI-Xポート。1000BASE-Tに一般化しない。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-088-B"><small>K03-088-B ／ 知識</small><p>100BASE-TXのMDI-Xポートで、送信に使うピン番号は？</p><p class="answer">答：3番・6番。</p><small>正解に必要な要素</small><ul><li>3番・6番</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet3.html">ストレート／クロスケーブル</a></p>
+</article>
+<h2 id="section-06">06 EthernetフレームとMACアドレス</h2>
+<details><summary>今回はカード化しない内容・その範囲</summary><ul><li>AppleTalk・IPXのEtherType</li><li>特定OSの操作手順</li><li>すべてのMACが必ず世界で一意だとする一般化</li></ul></details>
+<article id="K03-026"><div class="meta">K03-026 ／ B_基礎 ／ 旧版：Q26</div><h3>一般的なEthernetのMACアドレスは48ビット（6バイト）である。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-026-B"><small>K03-026-B ／ 数値</small><p>Ethernetで一般的に使うMACアドレスの長さは何ビットか。</p><p class="answer">答：48ビット（6バイト）。</p><small>正解に必要な要素</small><ul><li>48ビット、または6バイト</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet4.html">EthernetフレームとMACアドレス</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a> / <a href="https://standards.ieee.org/wp-content/uploads/import/documents/tutorials/eui.pdf">IEEE: EUI・OUI・MACアドレスのビット</a></p>
+</article>
+<article id="K03-027"><div class="meta">K03-027 ／ B_基礎 ／ 旧版：Q27</div><h3>Ethernet IIのTypeフィールドは、データ部の上位層プロトコルを識別する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-027-B"><small>K03-027-B ／ 動作</small><p>Ethernet IIのTypeフィールドは、何を識別する？</p><p class="answer">答：データ部に格納された上位層のプロトコル。</p><small>正解に必要な要素</small><ul><li>データ部の上位層プロトコルの識別</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet4.html">EthernetフレームとMACアドレス</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a> / <a href="https://standards.ieee.org/wp-content/uploads/import/documents/tutorials/eui.pdf">IEEE: EUI・OUI・MACアドレスのビット</a></p>
+</article>
+<article id="K03-028"><div class="meta">K03-028 ／ C_参照 ／ 旧版：Q28</div><h3>Ethernet IIのIPv4のEtherTypeは0x0800である。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-028-B"><small>K03-028-B ／ 数値</small><p>Ethernet IIでIPv4を示すType値は？</p><p class="answer">答：0x0800。</p><small>正解に必要な要素</small><ul><li>0x0800</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet4.html">EthernetフレームとMACアドレス</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a> / <a href="https://standards.ieee.org/wp-content/uploads/import/documents/tutorials/eui.pdf">IEEE: EUI・OUI・MACアドレスのビット</a></p>
+</article>
+<article id="K03-029"><div class="meta">K03-029 ／ B_基礎 ／ 旧版：Q29</div><h3>FCSはCRCを用いて伝送中のビット誤りを検出する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-029-B"><small>K03-029-B ／ 動作</small><p>EthernetフレームのFCSが検出するものは？</p><p class="answer">答：伝送中のビット誤り。</p><small>正解に必要な要素</small><ul><li>伝送中のビット誤りの検出</li></ul><p>補足：CRCを使って検査する。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet4.html">EthernetフレームとMACアドレス</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a> / <a href="https://standards.ieee.org/wp-content/uploads/import/documents/tutorials/eui.pdf">IEEE: EUI・OUI・MACアドレスのビット</a></p>
+</article>
+<article id="K03-030a"><div class="meta">K03-030a ／ B_基礎 ／ 旧版：Q30</div><h3>通常のタグなしEthernetフレームの最小長は64バイト。</h3>
+<p class="meta">前提：VLANタグなし・通常のフレーム・宛先MACからFCSまで。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-030a-B"><small>K03-030a-B ／ 数値</small><p>VLANタグなしの通常のEthernetフレームは、宛先MACからFCSまでで最小何バイトか。</p><p class="answer">答：64バイト。</p><small>正解に必要な要素</small><ul><li>64バイト</li></ul><p>補足：プリアンブル・SFD・IFGを含めない。ジャンボフレームは対象外。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet4.html">EthernetフレームとMACアドレス</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-030b"><div class="meta">K03-030b ／ B_基礎 ／ 旧版：Q30</div><h3>通常のタグなしEthernetフレームの最大長は1,518バイト。</h3>
+<p class="meta">前提：VLANタグなし・通常のフレーム・宛先MACからFCSまで。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-030b-B"><small>K03-030b-B ／ 数値</small><p>VLANタグなしの通常のEthernetフレームは、宛先MACからFCSまでで最大何バイトか。</p><p class="answer">答：1,518バイト。</p><small>正解に必要な要素</small><ul><li>1,518バイト</li></ul><p>補足：プリアンブル・SFD・IFGを含めない。ジャンボフレームは対象外。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet4.html">EthernetフレームとMACアドレス</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-031"><div class="meta">K03-031 ／ B_基礎 ／ 旧版：Q31</div><h3>短いEthernetフレームを最小長まで埋める処理はパディングである。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-031-B"><small>K03-031-B ／ 知識</small><p>短いEthernetフレームを最小長まで埋める処理を何という？</p><p class="answer">答：パディング。</p><small>正解に必要な要素</small><ul><li>パディング</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet4.html">EthernetフレームとMACアドレス</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a> / <a href="https://standards.ieee.org/wp-content/uploads/import/documents/tutorials/eui.pdf">IEEE: EUI・OUI・MACアドレスのビット</a></p>
+</article>
+<article id="K03-032"><div class="meta">K03-032 ／ B_基礎 ／ 旧版：Q32</div><h3>Ethernetのブロードキャスト宛先MACは48ビットがすべて1である。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-032-B"><small>K03-032-B ／ 知識</small><p>Ethernetのブロードキャスト宛先MACアドレスは？</p><p class="answer">答：FF:FF:FF:FF:FF:FF（48ビットすべて1）。</p><small>正解に必要な要素</small><ul><li>FF:FF:FF:FF:FF:FFなど、48ビットすべてが1の表記</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet4.html">EthernetフレームとMACアドレス</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a> / <a href="https://standards.ieee.org/wp-content/uploads/import/documents/tutorials/eui.pdf">IEEE: EUI・OUI・MACアドレスのビット</a></p>
+</article>
+<article id="K03-089"><div class="meta">K03-089 ／ B_基礎 ／ 旧版：追加</div><h3>プリアンブルは受信の同期に使う。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-089-B"><small>K03-089-B ／ 知識</small><p>Ethernetのプリアンブルは、受信時の何を合わせるために使う？</p><p class="answer">答：送受信の同期。</p><small>正解に必要な要素</small><ul><li>送受信の同期</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet4.html">EthernetフレームとMACアドレス</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-090"><div class="meta">K03-090 ／ C_参照 ／ 旧版：追加</div><h3>Ethernet IIのARPを示すEtherTypeは0x0806。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-090-B"><small>K03-090-B ／ 知識</small><p>Ethernet IIでARPを示すType値は？</p><p class="answer">答：0x0806。</p><small>正解に必要な要素</small><ul><li>0x0806</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet4.html">EthernetフレームとMACアドレス</a></p>
+</article>
+<article id="K03-091"><div class="meta">K03-091 ／ C_参照 ／ 旧版：追加</div><h3>Ethernet IIのIPv6を示すEtherTypeは0x86DD。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-091-B"><small>K03-091-B ／ 知識</small><p>Ethernet IIでIPv6を示すType値は？</p><p class="answer">答：0x86DD。</p><small>正解に必要な要素</small><ul><li>0x86DD</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet4.html">EthernetフレームとMACアドレス</a></p>
+</article>
+<article id="K03-092"><div class="meta">K03-092 ／ B_基礎 ／ 旧版：追加</div><h3>通常のタグなしEthernet IIのデータ部の最大長は1500バイト。</h3>
+<p class="meta">前提：通常のタグなしEthernet II。データ部のみで、MACヘッダとFCSを含めない。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-092-B"><small>K03-092-B ／ 数値</small><p>VLANタグなし・ジャンボフレームなしのEthernet IIで、データ部の最大長は？</p><p class="answer">答：1,500バイト。</p><small>正解に必要な要素</small><ul><li>1,500バイト</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-092-A1"><small>K03-092-A1 ／ 計算</small><p>タグなしEthernet II。データ部1,500バイト、MACヘッダ14バイト、FCS4バイト。宛先MACからFCSまでの長さは？</p><p class="answer">答：1,518バイト。</p><small>正解に必要な要素</small><ul><li>1,518バイト</li></ul><p>補足：1,500＋14＋4。プリアンブルやSFDは加えない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet4.html">EthernetフレームとMACアドレス</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-093"><div class="meta">K03-093 ／ B_基礎 ／ 旧版：追加</div><h3>通常のタグなしEthernet IIのデータ部は、パディング込みで最低46バイト。</h3>
+<p class="meta">前提：通常のタグなしEthernet II。データ部だけを数える。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-093-B"><small>K03-093-B ／ 数値</small><p>通常のタグなしEthernet IIで、パディングを含むデータ部の最小長は？</p><p class="answer">答：46バイト。</p><small>正解に必要な要素</small><ul><li>46バイト</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-093-A1"><small>K03-093-A1 ／ 計算</small><p>タグなしEthernet IIで、データ部に入れる内容が28バイトだった。最低46バイトにするには何バイトのパディングが必要か。</p><p class="answer">答：18バイト。</p><small>正解に必要な要素</small><ul><li>18バイト</li></ul><p>補足：46−28＝18。ヘッダとFCSをデータ部に加算しない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet4.html">EthernetフレームとMACアドレス</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-094"><div class="meta">K03-094 ／ C_参照 ／ 旧版：追加</div><h3>EthernetのFCSは4バイト。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-094-B"><small>K03-094-B ／ 数値</small><p>EthernetのFCSの長さは何バイトか。</p><p class="answer">答：4バイト。</p><small>正解に必要な要素</small><ul><li>4バイト</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet4.html">EthernetフレームとMACアドレス</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-095"><div class="meta">K03-095 ／ B_基礎 ／ 旧版：追加</div><h3>FCSのCRCは誤り検出用であり、誤ったビットの訂正を行わない。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-095-B"><small>K03-095-B ／ 知識</small><p>EthernetのFCSが不一致だった。FCSのCRCだけで誤ったビットを訂正できるか。</p><p class="answer">答：できない。</p><small>正解に必要な要素</small><ul><li>FCSのCRCだけでは誤り訂正できない</li></ul><p>補足：再送が必要な場合でも、EthernetのFCS自体が誤りを直すわけではない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet4.html">EthernetフレームとMACアドレス</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-096"><div class="meta">K03-096 ／ A_過去問接点 ／ 旧版：追加</div><h3>OUIを先頭に使う形式では、OUIは24ビット。</h3>
+<p class="meta">前提：24ビットのOUIから生成するEUI-48。OUI-36などの別の割当て方式は対象外。<br>優先度の根拠：代表例で直接または適用の接点を確認。頻度・配点の評価ではない。</p>
+<div class="card" id="K03-096-B"><small>K03-096-B ／ 数値</small><p>OUIを先頭に使う通常のEUI-48形式で、OUIの長さは何ビットか。</p><p class="answer">答：24ビット。</p><small>正解に必要な要素</small><ul><li>24ビット</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet4.html">EthernetフレームとMACアドレス</a> / <a href="https://standards.ieee.org/wp-content/uploads/import/documents/tutorials/eui.pdf">IEEE: EUI・OUI・MACアドレスのビット</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2013-pm1-Q2-S3-1（直接）：MACアドレスの製造者識別部分のビット長を問う。</li></ul></details>
+</article>
+<article id="K03-097"><div class="meta">K03-097 ／ B_基礎 ／ 旧版：追加</div><h3>I/Gビットは先頭オクテットの最下位ビットで、1はグループアドレスを表す。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-097-B"><small>K03-097-B ／ 知識</small><p>宛先MACアドレスのI/Gビットが1の場合、個別宛てとグループ宛てのどちらか。</p><p class="answer">答：グループ宛て。</p><small>正解に必要な要素</small><ul><li>グループ宛て</li></ul><p>補足：マルチキャストまたはブロードキャスト。通常表記の先頭オクテットの最下位ビット。</p></div>
+<div class="card" id="K03-097-A1"><small>K03-097-A1 ／ 判断</small><p>宛先MACが01:00:5E:01:02:03だった。先頭オクテット01のI/Gビットから、個別宛てとグループ宛てのどちらか。</p><p class="answer">答：グループ宛て。</p><small>正解に必要な要素</small><ul><li>グループ宛て</li></ul><p>補足：0x01の最下位ビットは1。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet4.html">EthernetフレームとMACアドレス</a> / <a href="https://standards.ieee.org/wp-content/uploads/import/documents/tutorials/eui.pdf">IEEE: EUI・OUI・MACアドレスのビット</a></p>
+</article>
+<article id="K03-098"><div class="meta">K03-098 ／ B_基礎 ／ 旧版：追加</div><h3>U/Lビットが1のMACアドレスはローカル管理を表す。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-098-B"><small>K03-098-B ／ 知識</small><p>MACアドレスのU/Lビットが1の場合、ユニバーサル管理とローカル管理のどちらか。</p><p class="answer">答：ローカル管理。</p><small>正解に必要な要素</small><ul><li>ローカル管理</li></ul><p>補足：先頭オクテットの下位から2番目のビット。ローカルMACをメーカーOUIと決め付けない。</p></div>
+<div class="card" id="K03-098-A1"><small>K03-098-A1 ／ 判断</small><p>MACアドレスが02:11:22:33:44:55だった。先頭オクテット02のU/Lビットから、どちらの管理方式か。</p><p class="answer">答：ローカル管理。</p><small>正解に必要な要素</small><ul><li>ローカル管理</li></ul><p>補足：0x02の下位から2番目のビットは1。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet4.html">EthernetフレームとMACアドレス</a> / <a href="https://standards.ieee.org/wp-content/uploads/import/documents/tutorials/eui.pdf">IEEE: EUI・OUI・MACアドレスのビット</a></p>
+</article>
+<article id="K03-099"><div class="meta">K03-099 ／ B_基礎 ／ 旧版：追加</div><h3>ローカル管理などのMACアドレスもあるため、すべてが世界で一意とは限らない。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-099-B"><small>K03-099-B ／ 知識</small><p>MACアドレスは、ローカル管理の設定や誤設定も含めて、必ず世界中で一意と考えてよいか。理由も簡潔に答えよ。</p><p class="answer">答：よくない。ローカル管理や誤設定で重複があり得る。</p><small>正解に必要な要素</small><ul><li>ローカル管理や誤設定で重複があり得る</li></ul><p>補足：IEEEの割当てによる一意性の意図と、実際のネットワークでの重複可能性を区別する。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet4.html">EthernetフレームとMACアドレス</a> / <a href="https://standards.ieee.org/wp-content/uploads/import/documents/tutorials/eui.pdf">IEEE: EUI・OUI・MACアドレスのビット</a></p>
+</article>
+<h2 id="section-07">07 CSMA/CD</h2>
+<details><summary>今回はカード化しない内容・その範囲</summary><ul><li>バックオフの再試行回数と乱数範囲の全パターン</li></ul></details>
+<article id="K03-033"><div class="meta">K03-033 ／ B_基礎 ／ 旧版：Q33</div><h3>CSMA/CDのCarrier Senseは、送信前に媒体の使用状況を確認する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-033-B"><small>K03-033-B ／ 動作</small><p>CSMA/CDのCarrier Senseでは、送信前に何を確認する？</p><p class="answer">答：伝送媒体がほかの通信に使用されていないか。</p><small>正解に必要な要素</small><ul><li>共有媒体がほかの通信で使用中かどうかを確認する</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet5.html">CSMA/CD</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-034"><div class="meta">K03-034 ／ B_基礎 ／ 旧版：Q34</div><h3>CSMA/CDのMultiple Accessは、複数端末による媒体の共有を意味する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-034-B"><small>K03-034-B ／ 動作</small><p>CSMA/CDのMultiple Accessは、どのような媒体利用を意味する？</p><p class="answer">答：複数の端末で同じ伝送媒体を共有すること。</p><small>正解に必要な要素</small><ul><li>複数端末による同じ伝送媒体の共有</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet5.html">CSMA/CD</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-035"><div class="meta">K03-035 ／ B_基礎 ／ 旧版：Q35</div><h3>CSMA/CDのCollision Detectionは信号の衝突を検出する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-035-B"><small>K03-035-B ／ 知識</small><p>CSMA/CDのCollision Detectionは、何を検出する？</p><p class="answer">答：同時送信による信号の衝突。</p><small>正解に必要な要素</small><ul><li>同時送信による信号の衝突</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet5.html">CSMA/CD</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-036"><div class="meta">K03-036 ／ B_基礎 ／ 旧版：Q36</div><h3>衝突後のランダム待ちは、再送時刻をずらして再衝突を避けるために行う。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-036-B"><small>K03-036-B ／ 理由</small><p>衝突後、再送までの待機時間をランダムにするのはなぜか。</p><p class="answer">答：再送時刻をずらし、再衝突を避けるため。</p><small>正解に必要な要素</small><ul><li>端末同士の再送タイミングをずらす</li><li>再衝突を避ける目的</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-036-A1"><small>K03-036-A1 ／ 理由</small><p>共有媒体で衝突した2端末が、毎回まったく同じ固定時間後に再送する設計。再送待ち時間をランダムにしたい主な理由は？</p><p class="answer">答：同時再送による再衝突を避けるため。</p><small>正解に必要な要素</small><ul><li>再送タイミングをずらす</li><li>再衝突を避ける</li></ul><p>補足：待つこと自体に加え、端末間の再送時刻をそろえないことがポイント。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet5.html">CSMA/CD</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-037"><div class="meta">K03-037 ／ B_基礎 ／ 旧版：Q37</div><h3>CSMA/CDは半二重Ethernetで使い、全二重では使わない。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-037-B"><small>K03-037-B ／ 知識</small><p>CSMA/CDが使われるのは、半二重と全二重のどちらか。</p><p class="answer">答：半二重。</p><small>正解に必要な要素</small><ul><li>半二重</li></ul><p>補足：全二重Ethernetでは使用しない。</p></div>
+<div class="card" id="K03-037-A1"><small>K03-037-A1 ／ 判断</small><p>スイッチとPCを100BASE-TX・全二重で正常に接続している。このリンクでCSMA/CDによる媒体アクセス制御を使うか。</p><p class="answer">答：使わない。</p><small>正解に必要な要素</small><ul><li>全二重ではCSMA/CDを使わない</li></ul><p>補足：CSMA/CDは半二重の共有媒体での動作。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet5.html">CSMA/CD</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-100"><div class="meta">K03-100 ／ B_基礎 ／ 旧版：追加</div><h3>コリジョンは複数端末の同時送信による信号の衝突。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-100-B"><small>K03-100-B ／ 知識</small><p>半二重の共有Ethernetで、複数端末が同時に送信して信号が衝突することを何という？</p><p class="answer">答：コリジョン。</p><small>正解に必要な要素</small><ul><li>コリジョン</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet5.html">CSMA/CD</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<h2 id="section-08">08 ネットワーク機器の役割</h2>
+<details><summary>今回はカード化しない内容・その範囲</summary><ul><li>ハブの最大カスケード段数</li><li>ブリッジは必ずソフトウェア、スイッチは必ず特定機能を持たないという一般化</li></ul></details>
+<article id="K03-038"><div class="meta">K03-038 ／ C_参照 ／ 旧版：Q38</div><h3>リピータハブはOSIの物理層で動作する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-038-B"><small>K03-038-B ／ 知識</small><p>リピータハブが動作するOSI参照モデルの層は？</p><p class="answer">答：物理層（第1層）。</p><small>正解に必要な要素</small><ul><li>物理層（第1層）</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet6.html">ネットワーク機器の役割</a></p>
+</article>
+<article id="K03-039"><div class="meta">K03-039 ／ C_参照 ／ 旧版：Q39</div><h3>L2スイッチはデータリンク層でフレームの転送を判断する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-039-B"><small>K03-039-B ／ 知識</small><p>L2スイッチが主に転送判断を行う層は？</p><p class="answer">答：データリンク層（第2層）。</p><small>正解に必要な要素</small><ul><li>データリンク層（第2層）</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet6.html">ネットワーク機器の役割</a></p>
+</article>
+<article id="K03-040"><div class="meta">K03-040 ／ C_参照 ／ 旧版：Q40</div><h3>ルータはネットワーク層で経路を選択する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-040-B"><small>K03-040-B ／ 知識</small><p>ルータが主に経路選択を行う層は？</p><p class="answer">答：ネットワーク層（第3層）。</p><small>正解に必要な要素</small><ul><li>ネットワーク層（第3層）</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet6.html">ネットワーク機器の役割</a></p>
+</article>
+<article id="K03-041"><div class="meta">K03-041 ／ B_基礎 ／ 旧版：Q41</div><h3>リピータハブはコリジョンドメインをポートごとに分割しない。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-041-B"><small>K03-041-B ／ 動作</small><p>リピータハブは、ポートごとにコリジョンドメインを分割できるか。</p><p class="answer">答：分割できない。</p><small>正解に必要な要素</small><ul><li>分割できない</li></ul><p>補足：同じハブ配下の端末は衝突の影響範囲を共有する。</p></div>
+<div class="card" id="K03-041-A1"><small>K03-041-A1 ／ 判断</small><p>3台のPCを同じリピータハブに接続した。PCごとにコリジョンドメインは分離されるか。</p><p class="answer">答：分離されない。</p><small>正解に必要な要素</small><ul><li>分離されない</li></ul><p>補足：ハブのポート数とコリジョンドメイン数を同一視しない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet6.html">ネットワーク機器の役割</a></p>
+</article>
+<article id="K03-042"><div class="meta">K03-042 ／ B_基礎 ／ 旧版：Q42</div><h3>通常のIPルータは、インターフェース間でL2ブロードキャストドメインを分割する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-042-B"><small>K03-042-B ／ 動作</small><p>ルータは、通常のL2ブロードキャストドメインをインターフェース間で分割できるか。</p><p class="answer">答：分割できる。</p><small>正解に必要な要素</small><ul><li>分割できる</li></ul><p>補足：通常のL2ブロードキャストを別のセグメントへそのまま転送しない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet6.html">ネットワーク機器の役割</a></p>
+</article>
+<article id="K03-101"><div class="meta">K03-101 ／ B_基礎 ／ 旧版：追加</div><h3>ブリッジは第2層で宛先MACを基に転送する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-101-B"><small>K03-101-B ／ 知識</small><p>ブリッジがフレームの転送先を判断するとき、参照する主な宛先アドレスは？</p><p class="answer">答：宛先MACアドレス。</p><small>正解に必要な要素</small><ul><li>宛先MACアドレス</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet6.html">ネットワーク機器の役割</a></p>
+</article>
+<article id="K03-102"><div class="meta">K03-102 ／ B_基礎 ／ 旧版：追加</div><h3>ブリッジやL2スイッチはコリジョンドメインをポートごとに分ける。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-102-B"><small>K03-102-B ／ 知識</small><p>半二重リンクを収容するL2スイッチは、コリジョンドメインをポートごとに分割できるか。</p><p class="answer">答：できる。</p><small>正解に必要な要素</small><ul><li>できる</li></ul><p>補足：全二重リンクではコリジョンを前提にしない。リピータハブの共有媒体との比較として覚える。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet6.html">ネットワーク機器の役割</a></p>
+</article>
+<article id="K03-103"><div class="meta">K03-103 ／ B_基礎 ／ 旧版：追加</div><h3>L2スイッチでもVLANを分ければL2ブロードキャストドメインを分けられる。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-103-B"><small>K03-103-B ／ 知識</small><p>L2スイッチで、通常のL2ブロードキャストの届く範囲を論理的に分ける機能は？</p><p class="answer">答：VLAN。</p><small>正解に必要な要素</small><ul><li>VLAN</li></ul><p>補足：単にポート数を増やすことと、VLANを分けることは別。</p></div>
+<div class="card" id="K03-103-A1"><small>K03-103-A1 ／ 判断</small><p>通常のL2スイッチでポート1・2をVLAN10、ポート3・4をVLAN20にした。VLAN間ルーティングや特殊な中継はない。ポート1からのL2ブロードキャストはポート3へ流れるか。</p><p class="answer">答：流れない。</p><small>正解に必要な要素</small><ul><li>別VLANにはそのまま転送しない</li></ul><p>補足：L2ブロードキャストの範囲はVLANごとに分かれる。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet6.html">ネットワーク機器の役割</a></p>
+</article>
+<article id="K03-104"><div class="meta">K03-104 ／ B_基礎 ／ 旧版：追加</div><h3>L3スイッチはL2転送に加えてIPルーティングも行える。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-104-B"><small>K03-104-B ／ 知識</small><p>L3スイッチがL2スイッチの機能に加えて持つ、異なるIPサブネット間を転送する機能は？</p><p class="answer">答：IPルーティング。</p><small>正解に必要な要素</small><ul><li>IPルーティング</li></ul><p>補足：製品によってWAN・暗号化などの実装も異なるため、機能の有無を名称だけで一般化しない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet6.html">ネットワーク機器の役割</a></p>
+</article>
+<h2 id="section-09">09 L2スイッチの学習と転送</h2>
+<details><summary>今回はカード化しない内容・その範囲</summary><ul><li>全メーカー・全機種が同じ転送方式であるという一般化</li><li>エージング既定値300秒を全製品共通とする暗記</li></ul></details>
+<article id="K03-043"><div class="meta">K03-043 ／ A_過去問接点 ／ 旧版：Q43</div><h3>L2スイッチは送信元MACを受信ポート・VLANと対応付けて学習する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：代表例で直接または適用の接点を確認。頻度・配点の評価ではない。</p>
+<div class="card" id="K03-043-B"><small>K03-043-B ／ 知識</small><p>L2スイッチがMACアドレスを学習するとき、受信フレームの送信元・宛先のどちらを使う？</p><p class="answer">答：送信元MACアドレス。</p><small>正解に必要な要素</small><ul><li>送信元MACアドレス</li></ul><p>補足：受信ポートやVLANと対応付ける。</p></div>
+<div class="card" id="K03-043-A1"><small>K03-043-A1 ／ 判断</small><p>動的学習中のL2スイッチ。VLAN10のポート2で送信元MAC Aのフレームを受信した。Aを対応付けて学習するポートは？</p><p class="answer">答：ポート2。</p><small>正解に必要な要素</small><ul><li>ポート2</li></ul><p>補足：問題文に与えられた条件だけで判断する。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet7.html">L2スイッチの学習と転送</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-mac.html">Cisco: MAC学習・転送</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2009-pm1-Q1-S2-2（適用）：送信元MACをどの接続ポートに学習するかを問う。</li></ul></details>
+</article>
+<article id="K03-044"><div class="meta">K03-044 ／ A_過去問接点 ／ 旧版：Q44</div><h3>宛先未学習のユニキャストは同一VLANの転送可能なポートへ、受信ポートを除いてフラッディングする。</h3>
+<p class="meta">前提：通常のL2スイッチ。宛先未学習のユニキャスト。VLANとポートの転送状態を考慮し、受信ポートを除外する。<br>優先度の根拠：代表例で直接または適用の接点を確認。頻度・配点の評価ではない。</p>
+<div class="card" id="K03-044-B"><small>K03-044-B ／ 動作</small><p>宛先MACが未学習のユニキャストフレームを、通常のL2スイッチはどこへ転送する？</p><p class="answer">答：同じVLANの転送可能なポートのうち、受信ポートを除いたポート。</p><small>正解に必要な要素</small><ul><li>同じVLAN</li><li>受信ポートを除く</li><li>転送可能なポートに送る</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-044-A1"><small>K03-044-A1 ／ 判断</small><p>通常のL2スイッチ。ポート1〜4はすべてVLAN10で転送可能。ポート1で、宛先MAC未学習のユニキャストを受信した。転送先ポートは？</p><p class="answer">答：ポート2・3・4。</p><small>正解に必要な要素</small><ul><li>ポート2・3・4</li></ul><p>補足：問題文に与えられた条件だけで判断する。</p></div>
+<div class="card" id="K03-044-A2"><small>K03-044-A2 ／ 判断</small><p>通常のL2スイッチ。ポート1〜3はVLAN10、ポート4はVLAN20で全ポート転送可能。ポート1で、宛先MAC未学習のユニキャストを受信した。転送先は？</p><p class="answer">答：ポート2・3。</p><small>正解に必要な要素</small><ul><li>ポート2・3</li></ul><p>補足：問題文に与えられた条件だけで判断する。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet7.html">L2スイッチの学習と転送</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-mac.html">Cisco: MAC学習・転送</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2022-pm1-Q1-S3-1（直接）：空欄dでフラッディングの名称を問う。</li></ul></details>
+</article>
+<article id="K03-045"><div class="meta">K03-045 ／ B_基礎 ／ 旧版：Q45</div><h3>動的MACエントリは、学習更新がないままエージング時間を過ぎると削除される。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-045-B"><small>K03-045-B ／ 知識</small><p>動的に学習したMACエントリを、一定時間更新がなければ削除する動作は？</p><p class="answer">答：エージング。</p><small>正解に必要な要素</small><ul><li>エージング</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-045-A1"><small>K03-045-A1 ／ 判断</small><p>動的MACエントリのエージング時間は300秒。最後の学習更新から301秒経過し、その間に更新がない。エントリは保持されるか。</p><p class="answer">答：エージングで削除される。</p><small>正解に必要な要素</small><ul><li>更新がないまま有効時間を過ぎたため削除</li></ul><p>補足：300秒はこの問題で与えた設定値。すべてのスイッチの固定値ではない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet7.html">L2スイッチの学習と転送</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-mac.html">Cisco: MAC学習・転送</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2012-pm2-Q2-S4-1（関連）：MACテーブル消去後のフラッディング。時間経過によるエージングそのものの出題ではない。</li></ul></details>
+</article>
+<article id="K03-046"><div class="meta">K03-046 ／ B_基礎 ／ 旧版：Q46</div><h3>ストアアンドフォワードはフレーム全体を受信し、FCS検査後に転送する。</h3>
+<p class="meta">前提：ストアアンドフォワード方式を選択したスイッチの動作。すべての現行製品の方式だとは扱わない。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-046-B"><small>K03-046-B ／ 知識</small><p>フレーム全体を受信し、FCSを検査してから転送する方式は？</p><p class="answer">答：ストアアンドフォワード。</p><small>正解に必要な要素</small><ul><li>ストアアンドフォワード</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-046-A1"><small>K03-046-A1 ／ 判断</small><p>ストアアンドフォワード方式のスイッチが、FCS不一致のフレームを全体まで受信した。通常、そのフレームを転送するか。</p><p class="answer">答：転送せず破棄する。</p><small>正解に必要な要素</small><ul><li>FCSエラーを検出して破棄する</li></ul><p>補足：フレーム全体を受け取って誤りを検査する方式。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet7.html">L2スイッチの学習と転送</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-mac.html">Cisco: MAC学習・転送</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-047"><div class="meta">K03-047 ／ B_基礎 ／ 旧版：Q47</div><h3>カットスルーはフレーム全体を受け取る前に転送を始める。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-047-B"><small>K03-047-B ／ 知識</small><p>フレーム全体の受信完了前に転送を始める方式は？</p><p class="answer">答：カットスルー。</p><small>正解に必要な要素</small><ul><li>カットスルー</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet7.html">L2スイッチの学習と転送</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-mac.html">Cisco: MAC学習・転送</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-048"><div class="meta">K03-048 ／ C_参照 ／ 旧版：Q48</div><h3>フラグメントフリーは先頭64バイトを受け取ってから転送する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-048-B"><small>K03-048-B ／ 数値</small><p>フラグメントフリー方式は、先頭何バイトの受信を待って転送する？</p><p class="answer">答：64バイト。</p><small>正解に必要な要素</small><ul><li>64バイト</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet7.html">L2スイッチの学習と転送</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-mac.html">Cisco: MAC学習・転送</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-105"><div class="meta">K03-105 ／ B_基礎 ／ 旧版：追加</div><h3>学習済み宛先のユニキャストは、該当する転送先ポートに送る。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-105-B"><small>K03-105-B ／ 知識</small><p>通常のL2スイッチで、宛先ユニキャストMACが別の転送可能なポートに学習済みなら、どこへ転送する？</p><p class="answer">答：そのMACを学習したポート。</p><small>正解に必要な要素</small><ul><li>そのMACを学習したポート</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-105-A1"><small>K03-105-A1 ／ 判断</small><p>通常のL2スイッチ。ポート1〜4はすべてVLAN10で転送可能。宛先MAC Bはポート3に学習済み。ポート1でB宛てのユニキャストを受信した。転送先は？</p><p class="answer">答：ポート3。</p><small>正解に必要な要素</small><ul><li>ポート3</li></ul><p>補足：問題文に与えられた条件だけで判断する。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet7.html">L2スイッチの学習と転送</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-mac.html">Cisco: MAC学習・転送</a></p>
+</article>
+<article id="K03-106"><div class="meta">K03-106 ／ B_基礎 ／ 旧版：追加</div><h3>宛先MACが受信ポートと同じ側に学習済みなら、別ポートへ転送しない。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-106-B"><small>K03-106-B ／ 知識</small><p>通常のブリッジで、ユニキャスト宛先MACが受信ポートと同じポートに学習済み。別ポートへ中継するか。</p><p class="answer">答：中継しない。</p><small>正解に必要な要素</small><ul><li>中継しない</li></ul><p>補足：宛先が受信側のセグメントにいるため、ほかのセグメントへ流さない。通常のブリッジ動作を前提とし、特殊なヘアピン設定は除く。</p></div>
+<div class="card" id="K03-106-A1"><small>K03-106-A1 ／ 判断</small><p>通常のブリッジ。VLAN10の宛先MAC Bはポート1に学習済み。ポート1でB宛てのユニキャストを受信した。ほかのポートへの転送は？</p><p class="answer">答：転送しない。</p><small>正解に必要な要素</small><ul><li>転送しない</li></ul><p>補足：問題文に与えられた条件だけで判断する。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet7.html">L2スイッチの学習と転送</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-mac.html">Cisco: MAC学習・転送</a></p>
+</article>
+<article id="K03-107"><div class="meta">K03-107 ／ B_基礎 ／ 旧版：追加</div><h3>L2ブロードキャストは、同一VLANの転送可能なポートへ受信ポートを除いて送る。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-107-B"><small>K03-107-B ／ 知識</small><p>通常のL2スイッチで、ブロードキャストフレームはどの範囲へ転送される？</p><p class="answer">答：同じVLANの転送可能なポートのうち、受信ポートを除いたポート。</p><small>正解に必要な要素</small><ul><li>同じVLAN</li><li>受信ポートを除く</li><li>転送可能なポート</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-107-A1"><small>K03-107-A1 ／ 判断</small><p>通常のL2スイッチ。ポート1・2・3はVLAN10、ポート4はVLAN20で全ポート転送可能。ポート2でブロードキャストを受信した。転送先は？</p><p class="answer">答：ポート1・3。</p><small>正解に必要な要素</small><ul><li>ポート1・3</li></ul><p>補足：問題文に与えられた条件だけで判断する。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet7.html">L2スイッチの学習と転送</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-mac.html">Cisco: MAC学習・転送</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-108"><div class="meta">K03-108 ／ B_基礎 ／ 旧版：追加</div><h3>動的MAC学習は、同じ送信元を別ポートで受けると対応ポートを更新する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-108-B"><small>K03-108-B ／ 知識</small><p>通常の動的MAC学習で、同じVLANの同じ送信元MACを別のポートで受信した。対応ポートを保持するか、受信した新しいポートへ更新するか。</p><p class="answer">答：受信した新しいポートへ更新する。</p><small>正解に必要な要素</small><ul><li>新しく受信したポートへ更新する</li></ul><p>補足：ポートセキュリティや固定MAC設定などがない通常の動的学習を前提とする。</p></div>
+<div class="card" id="K03-108-A1"><small>K03-108-A1 ／ 判断</small><p>通常の動的MAC学習。VLAN10のMAC Aはポート2に登録済み。VLAN10のポート4で送信元Aのフレームを受信した。Aの対応ポートは？</p><p class="answer">答：ポート4。</p><small>正解に必要な要素</small><ul><li>ポート4</li></ul><p>補足：問題文に与えられた条件だけで判断する。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet7.html">L2スイッチの学習と転送</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-mac.html">Cisco: MAC学習・転送</a></p>
+</article>
+<article id="K03-109"><div class="meta">K03-109 ／ B_基礎 ／ 旧版：追加</div><h3>カットスルーは全体のFCS確認前に転送を開始し得る。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-109-B"><small>K03-109-B ／ 知識</small><p>カットスルーで転送を始めたフレームにFCSエラーがあった。誤りを知る前に一部を送る可能性はあるか。転送開始のタイミングに着目して答えよ。</p><p class="answer">答：ある。FCSの確認前に転送を始めるため。</p><small>正解に必要な要素</small><ul><li>全体のFCS確認前に転送を開始するため、誤りを含むフレームを送り始める可能性がある</li></ul><p>補足：転送開始を早めることと、全体の誤り検査を済ませることの違いを確認する。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet7.html">L2スイッチの学習と転送</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<h2 id="section-10">10 半二重・全二重とオートネゴシエーション</h2>
+<details><summary>今回はカード化しない内容・その範囲</summary><ul><li>廃れたPHYを含む優先順位の全列挙</li><li>duplex不一致時の機種別動作とトラブルシュート（別途出典・前提を要する）</li></ul></details>
+<article id="K03-049"><div class="meta">K03-049 ／ B_基礎 ／ 旧版：Q49</div><h3>全二重は送信と受信を同時に行える。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-049-B"><small>K03-049-B ／ 知識</small><p>送信と受信を同時に行える通信方式は？</p><p class="answer">答：全二重通信。</p><small>正解に必要な要素</small><ul><li>全二重通信</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet8.html">半二重・全二重とオートネゴシエーション</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-050"><div class="meta">K03-050 ／ B_基礎 ／ 旧版：Q50</div><h3>半二重は同時に双方向へ送れず、送信と受信を交互に行う。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-050-B"><small>K03-050-B ／ 知識</small><p>送信と受信を同時に行わず、交互に行う通信方式は？</p><p class="answer">答：半二重通信。</p><small>正解に必要な要素</small><ul><li>半二重通信</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet8.html">半二重・全二重とオートネゴシエーション</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-051"><div class="meta">K03-051 ／ B_基礎 ／ 旧版：Q51</div><h3>1Gbps・全二重のリンクの一方向の最大伝送速度は1Gbpsである。</h3>
+<p class="meta">前提：リンク速度1Gbps・全二重。一方向の伝送速度。アプリケーションの実効速度とは区別する。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-051-B"><small>K03-051-B ／ 数値</small><p>1Gbps・全二重のリンクで、一方向当たりの最大伝送速度は？</p><p class="answer">答：1Gbps。</p><small>正解に必要な要素</small><ul><li>一方向は1Gbps</li></ul><p>補足：送受信を合わせた値と、一方向の速度を区別する。実効転送速度はヘッダなどの影響も受ける。</p></div>
+<div class="card" id="K03-051-A1"><small>K03-051-A1 ／ 判断</small><p>1Gbps・全二重のリンクで、片方向に2Gbpsを送りたい。「全二重だから可能」と判断してよいか。一方向の速度を根拠に答えよ。</p><p class="answer">答：よくない。一方向の上限は1Gbps。</p><small>正解に必要な要素</small><ul><li>片方向の上限は1Gbps</li></ul><p>補足：全二重は送受信を同時に行えるという意味で、片方向が2倍になるわけではない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet8.html">半二重・全二重とオートネゴシエーション</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-052"><div class="meta">K03-052 ／ B_基礎 ／ 旧版：Q52</div><h3>Ethernetのオートネゴシエーションは、速度と全二重／半二重等の共通能力を調整する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-052-B"><small>K03-052-B ／ 知識</small><p>Ethernetのオートネゴシエーションが自動調整する、速度以外の主な項目は？</p><p class="answer">答：全二重・半二重の通信モード。</p><small>正解に必要な要素</small><ul><li>全二重・半二重の通信モード</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet8.html">半二重・全二重とオートネゴシエーション</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<article id="K03-053"><div class="meta">K03-053 ／ B_基礎 ／ 旧版：Q53</div><h3>10/100BASE-T系の共通能力では、100Mbps全二重が10Mbps全二重より優先される。</h3>
+<p class="meta">前提：10/100BASE-T系。両端ともオートネゴシエーションを使用し、共通能力を広告する。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-053-B"><small>K03-053-B ／ 知識</small><p>両端が100BASE-TX全二重と10BASE-T全二重を広告し、オートネゴシエーションで接続する。どちらが選ばれる？</p><p class="answer">答：100BASE-TX全二重。</p><small>正解に必要な要素</small><ul><li>100BASE-TX全二重</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-053-A1"><small>K03-053-A1 ／ 判断</small><p>10/100BASE-T系の両端がオートネゴシエーションを使う。一方は100Mbps全二重と10Mbps全二重、他方は10Mbps全二重だけを広告する。選ばれる速度は？</p><p class="answer">答：10Mbps。</p><small>正解に必要な要素</small><ul><li>共通に使える10Mbps</li></ul><p>補足：一方が対応する最大速度だけでは決まらない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet8.html">半二重・全二重とオートネゴシエーション</a> / <a href="https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html">Cisco: Ethernetの動作・フレーム形式</a></p>
+</article>
+<h2 id="section-11">11 LLDP</h2>
+<details><summary>今回はカード化しない内容・その範囲</summary><ul><li>機種・版によって変わるLLDP既定値</li><li>必須TLVを3個と数える問題（End of LLDPDUを含めるかで曖昧になるため）</li><li>音声VLAN割当ての設定例全体、特定電話機の互換性</li></ul></details>
+<article id="K03-054"><div class="meta">K03-054 ／ A_過去問接点 ／ 旧版：Q54</div><h3>通常のLLDPは直接隣接する機器間で機器・ポート等の情報を通知する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：代表例で直接または適用の接点を確認。頻度・配点の評価ではない。</p>
+<div class="card" id="K03-054-B"><small>K03-054-B ／ 知識</small><p>LLDPは、基本的にどの機器間で情報を交換する？</p><p class="answer">答：直接隣接する機器間。</p><small>正解に必要な要素</small><ul><li>直接隣接する機器間</li></ul><p>補足：IEEE標準のため、対応している異なるベンダー間でも情報交換できる。</p></div>
+<div class="card" id="K03-054-A1"><small>K03-054-A1 ／ 判断</small><p>A―B―Cの順に各機器を直接接続し、全機器で通常のLLDPを送受信している。Aが直接受信するLLDP広告の送信元はBとCのどちらか。</p><p class="answer">答：B。</p><small>正解に必要な要素</small><ul><li>直接隣接するB</li></ul><p>補足：通常のLLDP広告をBが別ポートへ中継して、Cの情報をAへ届ける仕組みではない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst25.html">LLDP</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-lldp.html">Cisco: LLDPの動作と設定</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2021-pm1-Q1-S3-3（適用）：LLDPで取得した接続構成の確認。</li></ul></details>
+</article>
+<article id="K03-055"><div class="meta">K03-055 ／ A_過去問接点 ／ 旧版：Q55</div><h3>LLDPはOSIのデータリンク層で動作する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：代表例で直接または適用の接点を確認。頻度・配点の評価ではない。</p>
+<div class="card" id="K03-055-B"><small>K03-055-B ／ 知識</small><p>LLDPが動作するOSI参照モデルの層は？</p><p class="answer">答：データリンク層（第2層）。</p><small>正解に必要な要素</small><ul><li>データリンク層（第2層）</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst25.html">LLDP</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-lldp.html">Cisco: LLDPの動作と設定</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2021-pm1-Q1-S3-1（直接）：LLDPが動作するOSI第2層を問う。</li></ul></details>
+</article>
+<article id="K03-056"><div class="meta">K03-056 ／ C_参照 ／ 旧版：Q56</div><h3>LLDPの標準はIEEE 802.1ABである。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-056-B"><small>K03-056-B ／ 知識</small><p>LLDPの標準規格番号は？</p><p class="answer">答：IEEE 802.1AB。</p><small>正解に必要な要素</small><ul><li>IEEE 802.1AB</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst25.html">LLDP</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-lldp.html">Cisco: LLDPの動作と設定</a></p>
+</article>
+<article id="K03-057"><div class="meta">K03-057 ／ C_参照 ／ 旧版：Q57</div><h3>LLDPはType・Length・ValueからなるTLVを用いる。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-057-B"><small>K03-057-B ／ 知識</small><p>LLDPの情報表現に使う、Type・Length・Valueの組を何という？</p><p class="answer">答：TLV。</p><small>正解に必要な要素</small><ul><li>TLV</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst25.html">LLDP</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-lldp.html">Cisco: LLDPの動作と設定</a></p>
+</article>
+<article id="K03-058"><div class="meta">K03-058 ／ B_基礎 ／ 旧版：Q58</div><h3>LLDPのTTLは、受信側で隣接情報を有効として保持する時間を表す。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-058-B"><small>K03-058-B ／ 動作</small><p>LLDPのTime To Liveは、受信側での何の期限を表す？</p><p class="answer">答：隣接機器の情報を有効として保持する期限。</p><small>正解に必要な要素</small><ul><li>受信した隣接機器情報の有効保持期限</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-058-A1"><small>K03-058-A1 ／ 計算</small><p>LLDP情報を時刻0秒にTTL120秒で受信し、時刻70秒に同じ隣接機器からTTL120秒で更新した。その後更新がない場合、有効期限は何秒時点か。</p><p class="answer">答：190秒時点。</p><small>正解に必要な要素</small><ul><li>70＋120＝190秒</li></ul><p>補足：TTLは最後に受信した情報の保持期間として更新される。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst25.html">LLDP</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-lldp.html">Cisco: LLDPの動作と設定</a></p>
+</article>
+<article id="K03-110"><div class="meta">K03-110 ／ B_基礎 ／ 旧版：追加</div><h3>LLDPはIEEEの標準で、異なるベンダー間でも使える。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-110-B"><small>K03-110-B ／ 知識</small><p>複数ベンダーの機器間で隣接情報を交換したい。IEEE標準のLLDPとCisco独自のCDPのどちらを選ぶ？</p><p class="answer">答：LLDP。</p><small>正解に必要な要素</small><ul><li>LLDP</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst25.html">LLDP</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-lldp.html">Cisco: LLDPの動作と設定</a></p>
+</article>
+<article id="K03-111"><div class="meta">K03-111 ／ B_基礎 ／ 旧版：追加</div><h3>LLDPのChassis IDは送信元の機器を識別する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-111-B"><small>K03-111-B ／ 知識</small><p>LLDPのChassis IDは、機器とポートのどちらを識別する情報か。</p><p class="answer">答：機器。</p><small>正解に必要な要素</small><ul><li>機器</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst25.html">LLDP</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-lldp.html">Cisco: LLDPの動作と設定</a></p>
+</article>
+<article id="K03-112"><div class="meta">K03-112 ／ B_基礎 ／ 旧版：追加</div><h3>LLDPのPort IDは送信元のポートを識別する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-112-B"><small>K03-112-B ／ 知識</small><p>LLDPのPort IDは、機器とポートのどちらを識別する情報か。</p><p class="answer">答：ポート。</p><small>正解に必要な要素</small><ul><li>ポート</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst25.html">LLDP</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-lldp.html">Cisco: LLDPの動作と設定</a></p>
+</article>
+<article id="K03-113"><div class="meta">K03-113 ／ A_過去問接点 ／ 旧版：追加</div><h3>LLDPの隣接情報を集めると、接続構成を構成図と照合できる。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：代表例で直接または適用の接点を確認。頻度・配点の評価ではない。</p>
+<div class="card" id="K03-113-B"><small>K03-113-B ／ 知識</small><p>LLDPで集めた隣接機器名とポートの組を、設計上の構成図と照合すると何を確認できる？</p><p class="answer">答：機器同士の接続構成が設計どおりか。</p><small>正解に必要な要素</small><ul><li>実際の機器・ポート間の接続</li><li>構成図との一致</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst25.html">LLDP</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-lldp.html">Cisco: LLDPの動作と設定</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2021-pm1-Q1-S3-3（直接）：LLDPで把握した接続構成を確認する設問。</li></ul></details>
+</article>
+<article id="K03-114"><div class="meta">K03-114 ／ B_基礎 ／ 旧版：追加</div><h3>LLDP-MEDはIP電話等に向けたLLDPの拡張。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-114-B"><small>K03-114-B ／ 知識</small><p>音声VLANやPoEなどの情報をIP電話等へ通知するLLDPの拡張は？</p><p class="answer">答：LLDP-MED。</p><small>正解に必要な要素</small><ul><li>LLDP-MED</li></ul><p>補足：各機器が必要なTLVをサポートすることを確認する。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst25.html">LLDP</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-lldp.html">Cisco: LLDPの動作と設定</a></p>
+</article>
+<article id="K03-115"><div class="meta">K03-115 ／ C_参照 ／ 旧版：追加</div><h3>Cisco IOS系のLLDP全体有効化コマンドはlldp run。</h3>
+<p class="meta">前提：参考ページにあるCisco IOS系のCLI。ベンダー共通のコマンドとは扱わない。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-115-B"><small>K03-115-B ／ 知識</small><p>Cisco IOS系の設定例で、LLDPを装置全体で有効にするコマンドは？</p><p class="answer">答：lldp run。</p><small>正解に必要な要素</small><ul><li>lldp run</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst25.html">LLDP</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-lldp.html">Cisco: LLDPの動作と設定</a></p>
+</article>
+<article id="K03-116"><div class="meta">K03-116 ／ C_参照 ／ 旧版：追加</div><h3>Cisco IOS系ではshow lldp neighborsで隣接情報を表示する。</h3>
+<p class="meta">前提：参考ページにあるCisco IOS系のCLI。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-116-B"><small>K03-116-B ／ 知識</small><p>Cisco IOS系で、LLDPによる隣接機器一覧を表示する代表的なコマンドは？</p><p class="answer">答：show lldp neighbors。</p><small>正解に必要な要素</small><ul><li>show lldp neighbors</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst25.html">LLDP</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-lldp.html">Cisco: LLDPの動作と設定</a></p>
+</article>
+<h2 id="section-12">12 ルータを経由する通信</h2>
+<details><summary>今回はカード化しない内容・その範囲</summary><ul><li>図中の特定機器名・IPアドレスをそのまま暗記する問題</li></ul></details>
+<article id="K03-059"><div class="meta">K03-059 ／ A_過去問接点 ／ 旧版：Q59</div><h3>別サブネットへデフォルトルートで送るホストは、最初のL2宛先を同一LAN上のゲートウェイとする。</h3>
+<p class="meta">前提：IPv4・通常のホスト設定・宛先が別サブネット。特別な経路がなくデフォルトルートを使う。<br>優先度の根拠：代表例で直接または適用の接点を確認。頻度・配点の評価ではない。</p>
+<div class="card" id="K03-059-B"><small>K03-059-B ／ 知識</small><p>別サブネットのホストへ、デフォルトルートで送信する。最初のEthernetフレームの宛先MACは誰のMACか。</p><p class="answer">答：同一LAN上のデフォルトゲートウェイのMACアドレス。</p><small>正解に必要な要素</small><ul><li>送信元ホストと同じLAN上のデフォルトゲートウェイのMACアドレス</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-059-A1"><small>K03-059-A1 ／ 判断</small><p>ホストAは192.0.2.10/24、宛先Bは198.51.100.20。Aに特別な経路はなく、ゲートウェイは192.0.2.1。Aが最初に送るEthernetフレームの宛先MACは？</p><p class="answer">答：192.0.2.1のMACアドレス。</p><small>正解に必要な要素</small><ul><li>同一LAN上のゲートウェイ192.0.2.1のMAC</li></ul><p>補足：宛先IPはBのまま、最初のL2宛先はゲートウェイ。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet10.html">ルータを経由する通信</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2021-pm2-Q1-S6-2（適用）：ルーティング時の区間ごとのMACアドレスを問う。</li></ul></details>
+</article>
+<article id="K03-060"><div class="meta">K03-060 ／ A_過去問接点 ／ 旧版：Q60</div><h3>NAT等がない通常のルーティングでは、最終宛先IPアドレスを保持する。</h3>
+<p class="meta">前提：NAT・トンネル・プロキシ等がない通常のIPルーティング。IPヘッダの全フィールドが不変という意味ではない。<br>優先度の根拠：代表例で直接または適用の接点を確認。頻度・配点の評価ではない。</p>
+<div class="card" id="K03-060-B"><small>K03-060-B ／ 動作</small><p>NATなどがない通常のルーティングで、宛先IPはルータごとに書き換わるか。</p><p class="answer">答：書き換わらず、最終宛先ホストのIPアドレスを保持する。</p><small>正解に必要な要素</small><ul><li>宛先IPは書き換わらない</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-060-A1"><small>K03-060-A1 ／ 判断</small><p>AからBへのIPパケットをルータRが転送する。NAT・プロキシ・トンネルはない。Rが次の区間へ送るとき、宛先IPはBとRのどちらか。</p><p class="answer">答：B。</p><small>正解に必要な要素</small><ul><li>最終宛先BのIPを保持する</li></ul><p>補足：L2の宛先MACが区間ごとに変わることと、最終宛先IPを区別する。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet10.html">ルータを経由する通信</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2015-pm1-Q2-S2-1（適用）：IPを保持し次ホップのMACを用いる通信の追跡。</li></ul></details>
+</article>
+<article id="K03-061"><div class="meta">K03-061 ／ A_過去問接点 ／ 旧版：Q61</div><h3>Ethernetへ送出するルータは、自分の送出インターフェースのMACを送信元にする。</h3>
+<p class="meta">前提：Ethernet間の通常のルーティング。<br>優先度の根拠：代表例で直接または適用の接点を確認。頻度・配点の評価ではない。</p>
+<div class="card" id="K03-061-B"><small>K03-061-B ／ 知識</small><p>ルータが次のEthernet区間へ送るとき、送信元MACは誰のMACになる？</p><p class="answer">答：そのルータの送出インターフェースのMACアドレス。</p><small>正解に必要な要素</small><ul><li>ルータの送出インターフェースのMACアドレス</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-061-A1"><small>K03-061-A1 ／ 判断</small><p>A―ルータR―Bの2区間はいずれもEthernet。RがB側LANへ送出するフレームの送信元MACは？</p><p class="answer">答：RのB側インターフェースのMACアドレス。</p><small>正解に必要な要素</small><ul><li>Rの送出インターフェースのMAC</li></ul><p>補足：元のホストAの送信元MACを、そのまま次の区間へ持ち越さない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet10.html">ルータを経由する通信</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2021-pm2-Q1-S6-2（適用）：ルーティング時の送信元MACを問う。</li></ul></details>
+</article>
+<article id="K03-062"><div class="meta">K03-062 ／ A_過去問接点 ／ 旧版：Q62</div><h3>IPv4の次ホップMACアドレスを解決するためにARPを使う。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：代表例で直接または適用の接点を確認。頻度・配点の評価ではない。</p>
+<div class="card" id="K03-062-B"><small>K03-062-B ／ 知識</small><p>IPv4の次ホップのMACが不明なとき、Ethernet上で解決に使うプロトコルは？</p><p class="answer">答：ARP。</p><small>正解に必要な要素</small><ul><li>ARP</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet10.html">ルータを経由する通信</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2013-pm1-Q2-S1（直接）：空欄イでARPの名称を問う。</li></ul></details>
+</article>
+<article id="K03-063"><div class="meta">K03-063 ／ B_基礎 ／ 旧版：Q63</div><h3>ルータはルーティングテーブルを参照し、次ホップや送出先を決める。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-063-B"><small>K03-063-B ／ 知識</small><p>ルータがパケットの次ホップや送出インターフェースを決めるときに参照する表は？</p><p class="answer">答：ルーティングテーブル。</p><small>正解に必要な要素</small><ul><li>ルーティングテーブル</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet10.html">ルータを経由する通信</a></p>
+</article>
+<article id="K03-117"><div class="meta">K03-117 ／ A_過去問接点 ／ 旧版：追加</div><h3>同じサブネットの直接通信では、最終宛先ホストのMACを宛先にする。</h3>
+<p class="meta">前提：同一LAN・同一IPv4サブネット・Proxy ARP等なし。<br>優先度の根拠：代表例で直接または適用の接点を確認。頻度・配点の評価ではない。</p>
+<div class="card" id="K03-117-B"><small>K03-117-B ／ 知識</small><p>同じEthernet LAN・同じIPv4サブネットのホストへ直接送る。ARP解決済みなら、フレームの宛先MACは誰のMACか。</p><p class="answer">答：最終宛先ホストのMACアドレス。</p><small>正解に必要な要素</small><ul><li>最終宛先ホストのMACアドレス</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-117-A1"><small>K03-117-A1 ／ 判断</small><p>同じEthernet LAN上で、Aは192.0.2.10/24、Bは192.0.2.20/24。特別な中継はなく、ARP解決済み。AからBへの宛先MACは？</p><p class="answer">答：BのMACアドレス。</p><small>正解に必要な要素</small><ul><li>直接通信相手BのMAC</li></ul><p>補足：同じサブネットなので、デフォルトゲートウェイへ送らない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet10.html">ルータを経由する通信</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2021-pm2-Q1-S6-1（適用）：同一セグメント通信の宛先MACを問う。</li></ul></details>
+</article>
+<article id="K03-118"><div class="meta">K03-118 ／ A_過去問接点 ／ 旧版：追加</div><h3>Ethernetへ送出するルータは、次ホップのMACを宛先にする。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：代表例で直接または適用の接点を確認。頻度・配点の評価ではない。</p>
+<div class="card" id="K03-118-B"><small>K03-118-B ／ 知識</small><p>ルータがEthernetへパケットを送出する。宛先フレームのMACには、通常誰のMACを設定する？</p><p class="answer">答：そのEthernet区間の次ホップのMACアドレス。</p><small>正解に必要な要素</small><ul><li>そのEthernet区間の次ホップのMACアドレス</li></ul><p>補足：宛先ホストが直結ならそのホスト、別のルータを経由するなら次のルータ。</p></div>
+<div class="card" id="K03-118-A1"><small>K03-118-A1 ／ 判断</small><p>A―ルータR―Bの2区間はいずれもEthernet。BはRの送出先LANに直結し、ARP解決済み。RがBへ送るフレームの宛先MACは？</p><p class="answer">答：BのMACアドレス。</p><small>正解に必要な要素</small><ul><li>直結する次ホップBのMAC</li></ul><p>補足：Rの宛先IPではなく、その区間の次ホップのMACで包む。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet10.html">ルータを経由する通信</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2021-pm2-Q1-S6-2（適用）：ルーティングを伴う通信の宛先MACを問う。</li></ul></details>
+</article>
+<article id="K03-119"><div class="meta">K03-119 ／ A_過去問接点 ／ 旧版：追加</div><h3>IPv4で未知の次ホップMACを調べるARP要求は、そのLANへブロードキャストする。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：代表例で直接または適用の接点を確認。頻度・配点の評価ではない。</p>
+<div class="card" id="K03-119-B"><small>K03-119-B ／ 知識</small><p>IPv4の次ホップMACを調べる通常のARP要求では、Ethernetの宛先MACはユニキャストかブロードキャストか。</p><p class="answer">答：ブロードキャスト。</p><small>正解に必要な要素</small><ul><li>ブロードキャスト</li></ul><p>補足：ARP要求はルータを越えてそのまま広がるものではない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet10.html">ルータを経由する通信</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2009-pm2-Q2-S3-1（適用）：ARP要求の宛先MACがブロードキャストであることを使う。</li></ul></details>
+</article>
+<h2 id="section-13">13 PLC（電力線通信）</h2>
+<details><summary>今回はカード化しない内容・その範囲</summary><ul><li>国内の省令・利用可能周波数の現行法令</li><li>個別世代PLC製品の速度と販売状況</li><li>旧HD-PLC仕様表全セル</li></ul></details>
+<article id="K03-064"><div class="meta">K03-064 ／ B_基礎 ／ 旧版：Q64</div><h3>PLCは電力線を通信媒体として利用する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-064-B"><small>K03-064-B ／ 知識</small><p>PLCがデータ伝送に使用する配線は？</p><p class="answer">答：電力線。</p><small>正解に必要な要素</small><ul><li>電力線</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet12.html">PLC（電力線通信）</a></p>
+</article>
+<article id="K03-065"><div class="meta">K03-065 ／ C_参照 ／ 旧版：Q65</div><h3>PLCはPower Line Communicationの略である。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-065-B"><small>K03-065-B ／ 知識</small><p>PLCの英語名称は？</p><p class="answer">答：Power Line Communication。</p><small>正解に必要な要素</small><ul><li>Power Line Communication</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet12.html">PLC（電力線通信）</a></p>
+</article>
+<article id="K03-066"><div class="meta">K03-066 ／ C_参照 ／ 旧版：Q66</div><h3>LANと電力線上の通信を接続する装置はPLCモデム／アダプターである。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-066-B"><small>K03-066-B ／ 知識</small><p>LAN機器を電力線での通信に接続する装置を何という？</p><p class="answer">答：PLCモデム、またはPLCアダプター。</p><small>正解に必要な要素</small><ul><li>PLCモデム、またはPLCアダプター</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet12.html">PLC（電力線通信）</a></p>
+</article>
+<article id="K03-067"><div class="meta">K03-067 ／ B_基礎 ／ 旧版：Q67</div><h3>PLCには既存の電力配線を通信に利用できる利点がある。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-067-B"><small>K03-067-B ／ 動作</small><p>LANケーブルの新設が難しい場所でPLCを使うと、既設のどの配線を通信に利用できる？</p><p class="answer">答：既存の電力配線。</p><small>正解に必要な要素</small><ul><li>既存の電力配線を通信に利用する</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet12.html">PLC（電力線通信）</a></p>
+</article>
+<article id="K03-068"><div class="meta">K03-068 ／ B_基礎 ／ 旧版：Q68</div><h3>PLCは電力線上のノイズにより実効速度が低下し得る。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-068-B"><small>K03-068-B ／ 動作</small><p>PLCの通信速度が理論値より低くなる原因となる、電力線上の要因の例は？</p><p class="answer">答：電気機器などが発生するノイズ。</p><small>正解に必要な要素</small><ul><li>電気機器などから電力線に入るノイズ</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-068-A1"><small>K03-068-A1 ／ 判断</small><p>PLCの配線は変えていないが、ある電気機器の運転中だけ速度が落ちる。電力線上の要因として、まず疑うものの例は？</p><p class="answer">答：電気機器が発生するノイズ。</p><small>正解に必要な要素</small><ul><li>電力線に入るノイズ</li></ul><p>補足：原因の確定ではなく、症状から考える候補の一つを答える問題。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet12.html">PLC（電力線通信）</a></p>
+</article>
+<article id="K03-120"><div class="meta">K03-120 ／ B_基礎 ／ 旧版：追加</div><h3>電力線上の2地点をつなぐ構成では、両地点にPLCアダプターを置く。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-120-B"><small>K03-120-B ／ 知識</small><p>LANの2地点を既存の電力線でつなぐ。PLCアダプターは片側だけに置けばよいか。</p><p class="answer">答：両側に必要。</p><small>正解に必要な要素</small><ul><li>両側に必要</li></ul><p>補足：それぞれの地点でLAN側と電力線側の信号を接続する。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/ethernet12.html">PLC（電力線通信）</a></p>
+</article>
+<h2 id="section-14">14 PoE・PoE+・PoE++</h2>
+<details><summary>今回はカード化しない内容・その範囲</summary><ul><li>機種依存のポリシングしきい値・初期設定</li><li>Class0〜8の全表</li><li>802.11ac/axのAPなら一律に同じ電力という扱い</li></ul></details>
+<article id="K03-069"><div class="meta">K03-069 ／ A_過去問接点 ／ 旧版：Q69</div><h3>PoEはEthernetのLANケーブルで通信と併せて電力を供給する技術である。</h3>
+<p class="meta">前提：IEEE規格に沿うPoE。対応するPSEとPDおよび適合配線を使用する。<br>優先度の根拠：代表例で直接または適用の接点を確認。頻度・配点の評価ではない。</p>
+<div class="card" id="K03-069-B"><small>K03-069-B ／ 知識</small><p>EthernetのLANケーブルで、通信と併せて電力も供給する技術は？</p><p class="answer">答：PoE（Power over Ethernet）。</p><small>正解に必要な要素</small><ul><li>PoE、またはPower over Ethernet</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst24.html">PoE・PoE+・PoE++</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/infra/poe/poe-configuration-guide/g-poe/c-poe.html">Cisco: PoEの種類と給電側電力</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750/software/troubleshooting/g_power_over_ethernet.html">Cisco: PoEの給電予算・PSEとPDの電力差</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2012-pm1-Q2-S1-1（直接）：空欄ウでPoEの名称を問う。</li></ul></details>
+</article>
+<article id="K03-070"><div class="meta">K03-070 ／ A_過去問接点 ／ 旧版：Q70</div><h3>PoEのPSEは給電側の機器を指す。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：代表例で直接または適用の接点を確認。頻度・配点の評価ではない。</p>
+<div class="card" id="K03-070-B"><small>K03-070-B ／ 知識</small><p>PoEの給電機器を表す略称は？</p><p class="answer">答：PSE（Power Sourcing Equipment）。</p><small>正解に必要な要素</small><ul><li>PSE</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst24.html">PoE・PoE+・PoE++</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/infra/poe/poe-configuration-guide/g-poe/c-poe.html">Cisco: PoEの種類と給電側電力</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750/software/troubleshooting/g_power_over_ethernet.html">Cisco: PoEの給電予算・PSEとPDの電力差</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2012-pm1-Q2-S1-1（直接）：空欄イでPSEの名称を問う。</li></ul></details>
+</article>
+<article id="K03-071"><div class="meta">K03-071 ／ C_参照 ／ 旧版：Q71</div><h3>PoEのPD（Powered Device）は受電側の機器を指す。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-071-B"><small>K03-071-B ／ 知識</small><p>PoEの受電機器を表す略称は？</p><p class="answer">答：PD（Powered Device）。</p><small>正解に必要な要素</small><ul><li>PD</li></ul><p>補足：PDはPowered Device。参考ページのPower Deviceという表記は採用しない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst24.html">PoE・PoE+・PoE++</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/infra/poe/poe-configuration-guide/g-poe/c-poe.html">Cisco: PoEの種類と給電側電力</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750/software/troubleshooting/g_power_over_ethernet.html">Cisco: PoEの給電予算・PSEとPDの電力差</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2012-pm1-Q2-S1-1（前提）：本文にPDの定義が与えられている。PD自体を答える空欄ではない。</li></ul></details>
+</article>
+<article id="K03-072"><div class="meta">K03-072 ／ B_基礎 ／ 旧版：Q72</div><h3>IEEE 802.3afのPSE側1ポートの最大給電電力は15.4Wである。</h3>
+<p class="meta">前提：IEEE 802.3af。PSE側の1ポート最大給電電力。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-072-B"><small>K03-072-B ／ 数値</small><p>IEEE 802.3afの、PSE側の1ポート当たりの最大給電電力は？</p><p class="answer">答：15.4W。</p><small>正解に必要な要素</small><ul><li>15.4W</li></ul><p>補足：ケーブルで損失が生じるため、PSEの給電電力とPDが利用できる電力は同じ値ではない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst24.html">PoE・PoE+・PoE++</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/infra/poe/poe-configuration-guide/g-poe/c-poe.html">Cisco: PoEの種類と給電側電力</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750/software/troubleshooting/g_power_over_ethernet.html">Cisco: PoEの給電予算・PSEとPDの電力差</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2012-pm1-Q2-S1-2（前提）：PSEの1ポート15.4Wと装置全体56Wを用いて接続を検討する。</li></ul></details>
+</article>
+<article id="K03-073"><div class="meta">K03-073 ／ B_基礎 ／ 旧版：Q73</div><h3>IEEE 802.3atのPSE側1ポートの最大給電電力は30Wである。</h3>
+<p class="meta">前提：IEEE 802.3at。PSE側の1ポート最大給電電力。<br>優先度の根拠：給電側の上限を理解する基礎。ここに付けた代表例は呼称の出題である。</p>
+<div class="card" id="K03-073-B"><small>K03-073-B ／ 数値</small><p>IEEE 802.3atのPoE+で、PSE側の1ポート当たりの最大給電電力は？</p><p class="answer">答：30W。</p><small>正解に必要な要素</small><ul><li>30W</li></ul><p>補足：ケーブルで損失が生じるため、PSEの給電電力とPDが利用できる電力は同じ値ではない。</p></div>
+<div class="card" id="K03-073-A1"><small>K03-073-A1 ／ 判断</small><p>給電側PSEの1ポート最大電力で比べる。候補は802.3afの15.4Wと802.3atの30W。要求が「PSE側で25W以上」の場合、どちらが満たす？</p><p class="answer">答：IEEE 802.3at。</p><small>正解に必要な要素</small><ul><li>30Wの802.3at</li></ul><p>補足：25Wはこの問題で指定したPSE側要求。PD側の消費電力だとは読まない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst24.html">PoE・PoE+・PoE++</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/infra/poe/poe-configuration-guide/g-poe/c-poe.html">Cisco: PoEの種類と給電側電力</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750/software/troubleshooting/g_power_over_ethernet.html">Cisco: PoEの給電予算・PSEとPDの電力差</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2017-pm2-Q2-S3-5（前提）：802.3atの呼称が直接問われる。PSE最大30Wはこの知識の背景であり、この数値の直接出題とは数えない。</li></ul></details>
+</article>
+<article id="K03-074"><div class="meta">K03-074 ／ A_過去問接点 ／ 旧版：Q74</div><h3>IEEE 802.3btの高出力PoEは一般にPoE++等と呼ばれる。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：代表例で直接または適用の接点を確認。頻度・配点の評価ではない。</p>
+<div class="card" id="K03-074-B"><small>K03-074-B ／ 知識</small><p>IEEE 802.3btによる高出力のPoEは、一般に何と呼ばれる？</p><p class="answer">答：PoE++。</p><small>正解に必要な要素</small><ul><li>PoE++</li></ul><p>補足：通称の使い方はベンダーによって差がある。仕様選定ではIEEE 802.3btのType・ClassとPSE/PDの電力を確認する。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst24.html">PoE・PoE+・PoE++</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/infra/poe/poe-configuration-guide/g-poe/c-poe.html">Cisco: PoEの種類と給電側電力</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750/software/troubleshooting/g_power_over_ethernet.html">Cisco: PoEの給電予算・PSEとPDの電力差</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2023-pm1-Q3-S1（直接）：空欄eでIEEE 802.3btの通称PoE++を問う。</li></ul></details>
+</article>
+<article id="K03-075"><div class="meta">K03-075 ／ B_基礎 ／ 旧版：Q75</div><h3>規格に準拠するPoEのPSEは、受電機器を検出してから通常給電を開始する。</h3>
+<p class="meta">前提：IEEE規格に準拠する検出付きPoE。常時電圧を印加するパッシブPoEは対象外。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-075-B"><small>K03-075-B ／ 動作</small><p>規格準拠のPoEスイッチは、PoE非対応のPCにも通常給電を開始するか。</p><p class="answer">答：開始しない。</p><small>正解に必要な要素</small><ul><li>通常給電を開始しない</li></ul><p>補足：規格に準拠するPSEは受電機器を検出してから通常給電する。検出せず常時給電するパッシブPoEは別扱い。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst24.html">PoE・PoE+・PoE++</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/infra/poe/poe-configuration-guide/g-poe/c-poe.html">Cisco: PoEの種類と給電側電力</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750/software/troubleshooting/g_power_over_ethernet.html">Cisco: PoEの給電予算・PSEとPDの電力差</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2012-pm1-Q2-S1-1（前提）：本文の受電機器検出の説明を理解する基礎。</li></ul></details>
+</article>
+<article id="K03-121"><div class="meta">K03-121 ／ B_基礎 ／ 旧版：追加</div><h3>PoE対応端末は、必要電力をLANケーブルから受け取れる。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-121-B"><small>K03-121-B ／ 知識</small><p>天井の無線APがPoE受電に対応し、PSEの能力も十分。設置場所の電源工事を減らせる理由は？</p><p class="answer">答：LANケーブルから給電できるため。</p><small>正解に必要な要素</small><ul><li>APへの給電をLANケーブルで行える</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst24.html">PoE・PoE+・PoE++</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/infra/poe/poe-configuration-guide/g-poe/c-poe.html">Cisco: PoEの種類と給電側電力</a></p>
+</article>
+<article id="K03-122"><div class="meta">K03-122 ／ B_基礎 ／ 旧版：追加</div><h3>PoEインジェクターもPSEとして使える。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-122-B"><small>K03-122-B ／ 知識</small><p>PoE非対応スイッチからのLAN配線に電力を重畳して受電機器へ送る装置は？</p><p class="answer">答：PoEインジェクター。</p><small>正解に必要な要素</small><ul><li>PoEインジェクター</li></ul><p>補足：インジェクターは給電側でありPSE。対応するPoE規格・電力・配線条件を確認する。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst24.html">PoE・PoE+・PoE++</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/infra/poe/poe-configuration-guide/g-poe/c-poe.html">Cisco: PoEの種類と給電側電力</a></p>
+</article>
+<article id="K03-123"><div class="meta">K03-123 ／ B_基礎 ／ 旧版：追加</div><h3>IEEE 802.3afのPD側で利用できる最大電力は12.95W。</h3>
+<p class="meta">前提：802.3af Type 1。PSE側15.4Wとの区別。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-123-B"><small>K03-123-B ／ 数値</small><p>IEEE 802.3afで、ケーブル損失を考慮したPD側の最大利用電力は？</p><p class="answer">答：12.95W。</p><small>正解に必要な要素</small><ul><li>12.95W</li></ul><p>補足：PSE側15.4Wと区別する。12.95Wは約13Wと表記されることもある。</p></div>
+<div class="card" id="K03-123-A1"><small>K03-123-A1 ／ 判断</small><p>IEEE 802.3afのPD側で14W必要な端末がある。PSE側は最大15.4Wなので必ず足りる、と判断してよいか。PD側の電力を根拠に答えよ。</p><p class="answer">答：よくない。PD側の最大12.95Wを超える。</p><small>正解に必要な要素</small><ul><li>PD側で保証される最大12.95Wを14Wが超える</li></ul><p>補足：PSE側とPD側の電力を混ぜて比較しない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst24.html">PoE・PoE+・PoE++</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750/software/troubleshooting/g_power_over_ethernet.html">Cisco: PoEの給電予算・PSEとPDの電力差</a></p>
+</article>
+<article id="K03-124"><div class="meta">K03-124 ／ B_基礎 ／ 旧版：追加</div><h3>PSE側の給電電力からケーブルで損失が生じ、PD側の利用可能電力は小さくなる。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：仕組みの理解と判断を支える基礎事項。作成者判断。</p>
+<div class="card" id="K03-124-B"><small>K03-124-B ／ 理由</small><p>PoEで、PSEの最大給電電力をそのままPDが使えるとは限らないのはなぜか。</p><p class="answer">答：ケーブルで電力損失が生じるため。</p><small>正解に必要な要素</small><ul><li>ケーブルでの電力損失</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst24.html">PoE・PoE+・PoE++</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750/software/troubleshooting/g_power_over_ethernet.html">Cisco: PoEの給電予算・PSEとPDの電力差</a></p>
+</article>
+<article id="K03-125"><div class="meta">K03-125 ／ A_過去問接点 ／ 旧版：追加</div><h3>PoE設計では1ポートの上限と装置全体の給電予算の両方を確認する。</h3>
+<p class="meta">前提：問題文で指定した通常のEthernet動作を前提とする。<br>優先度の根拠：代表例で直接または適用の接点を確認。頻度・配点の評価ではない。</p>
+<div class="card" id="K03-125-B"><small>K03-125-B ／ 知識</small><p>PoEスイッチで、各ポートの必要電力が上限以内でも、全端末へ同時に給電できないことがある。ほかにどの上限を確認する？</p><p class="answer">答：装置全体の給電予算。</p><small>正解に必要な要素</small><ul><li>全端末への給電に使える合計電力の上限</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<div class="card" id="K03-125-A1"><small>K03-125-A1 ／ 計算</small><p>PoEスイッチの装置全体の給電予算は120W。1台につきPSE側で30Wを予約するAPを5台同時に給電したい。各ポートは30W対応。他の負荷はない。合計電力の条件を満たすか。</p><p class="answer">答：満たさない。</p><small>正解に必要な要素</small><ul><li>必要150Wが予算120Wを超える</li></ul><p>補足：30W×5＝150W。1ポートの上限を満たしても、装置全体の予算を超える。</p></div>
+<div class="card" id="K03-125-A2"><small>K03-125-A2 ／ 計算</small><p>PoEスイッチの給電予算は120W。AP1台につきPSE側で30Wを予約し、全ポートが30W対応でポート数は十分。他の負荷がない場合、電力予算だけで決まる最大台数は？</p><p class="answer">答：4台。</p><small>正解に必要な要素</small><ul><li>120÷30＝4台</li></ul><p>補足：実際の設計ではポート数、規格、配線、必要な余裕も別に確認する。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst24.html">PoE・PoE+・PoE++</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750/software/troubleshooting/g_power_over_ethernet.html">Cisco: PoEの給電予算・PSEとPDの電力差</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2012-pm1-Q2-S1-2（適用）：装置全体の給電能力を考慮してAPの接続先を設計する。</li><li>2017-pm2-Q2-S3-5（適用）：必要な最小供給電力を求める。</li></ul></details>
+</article>
+<article id="K03-126"><div class="meta">K03-126 ／ C_参照 ／ 旧版：追加</div><h3>IEEE 802.3bt Type 3のPSE最大電力は60W。</h3>
+<p class="meta">前提：802.3bt Type 3・PSE側。PD側電力とは区別する。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-126-B"><small>K03-126-B ／ 数値</small><p>IEEE 802.3bt Type 3で、PSE側の最大給電電力は？</p><p class="answer">答：60W。</p><small>正解に必要な要素</small><ul><li>60W</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst24.html">PoE・PoE+・PoE++</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/infra/poe/poe-configuration-guide/g-poe/c-poe.html">Cisco: PoEの種類と給電側電力</a></p>
+</article>
+<article id="K03-127"><div class="meta">K03-127 ／ C_参照 ／ 旧版：追加</div><h3>IEEE 802.3bt Type 4のPSE最大電力は90W。</h3>
+<p class="meta">前提：802.3bt Type 4・PSE側。PD側電力とは区別する。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-127-B"><small>K03-127-B ／ 数値</small><p>IEEE 802.3bt Type 4で、PSE側の最大給電電力は？</p><p class="answer">答：90W。</p><small>正解に必要な要素</small><ul><li>90W</li></ul><p>補足：必須要素と同じ意味を表す解答なら、語順や表記の違いは問わない。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst24.html">PoE・PoE+・PoE++</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/infra/poe/poe-configuration-guide/g-poe/c-poe.html">Cisco: PoEの種類と給電側電力</a></p>
+</article>
+<article id="K03-128"><div class="meta">K03-128 ／ C_参照 ／ 旧版：追加</div><h3>PoEポリシングは割当て電力を超えた受電機器から給電側を保護するための機能。</h3>
+<p class="meta">前提：CiscoのPoEポリシング。しきい値の固定値や全製品共通の動作は問わない。<br>優先度の根拠：規格名・ピン番号・CLI等の参照知識。作成者判断。</p>
+<div class="card" id="K03-128-B"><small>K03-128-B ／ 知識</small><p>CiscoのPoEポリシングは、割当て電力を超えて消費する受電機器に対して、何を保護するための機能か。</p><p class="answer">答：給電側のスイッチ。</p><small>正解に必要な要素</small><ul><li>給電側のスイッチ</li></ul><p>補足：停止・再起動などの動作やしきい値は、対象機種と設定で確認する。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst24.html">PoE・PoE+・PoE++</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750/software/troubleshooting/g_power_over_ethernet.html">Cisco: PoEの給電予算・PSEとPDの電力差</a></p>
+</article>
+<article id="K03-130"><div class="meta">K03-130 ／ A_過去問接点 ／ 旧版：追加</div><h3>IEEE 802.3atはPoE+と呼ばれる。</h3>
+<p class="meta">前提：企業LAN向けの通常の名称。製品選定では規格・Type・Class・電力も確認する。<br>優先度の根拠：代表設問で名称の直接出題を確認。頻度順位ではない。</p>
+<div class="card" id="K03-130-B"><small>K03-130-B ／ 知識</small><p>IEEE 802.3atによるPoEの一般的な呼称は？</p><p class="answer">答：PoE+。</p><small>正解に必要な要素</small><ul><li>PoE+</li></ul><p>補足：通称と規格番号を対応付けて覚える。</p></div>
+<p class="meta">参考：<a href="https://www.infraexpert.com/study/catalyst24.html">PoE・PoE+・PoE++</a> / <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/infra/poe/poe-configuration-guide/g-poe/c-poe.html">Cisco: PoEの種類と給電側電力</a></p>
+<details><summary>過去問との接点（代表例）</summary><ul><li>2017-pm2-Q2-S3-5（直接）：IEEE 802.3atの呼称を問う。</li></ul></details>
+</article>
+</html>

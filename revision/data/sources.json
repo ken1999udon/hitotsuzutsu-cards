@@ -1,0 +1,142 @@
+{
+  "S01": {
+    "title": "Ethernetの基本",
+    "url": "https://www.infraexpert.com/study/ethernet.html",
+    "role": "範囲の指定・基礎事項",
+    "reviewed_on": "2026-11-15",
+    "sha256": "9ad0145efe893583324720131ace9369f070e1bb30b2e73af4be7249d0ff1832"
+  },
+  "S02": {
+    "title": "Ethernetの規格と速度",
+    "url": "https://www.infraexpert.com/study/ethernet1.html",
+    "role": "範囲の指定・基礎事項",
+    "reviewed_on": "2026-11-15",
+    "sha256": "96827e2d18870df437f62bb2449711509a195121a4fe2d2bed1b7394b6d380eb"
+  },
+  "S03": {
+    "title": "マルチギガビットEthernet",
+    "url": "https://www.infraexpert.com/study/ethernet14.html",
+    "role": "範囲の指定・基礎事項",
+    "reviewed_on": "2026-11-15",
+    "sha256": "344348b93e41a0cf31f9e2c38db1da95ac4a00d373dbecd180373764bc5e55d4"
+  },
+  "S04": {
+    "title": "伝送メディア",
+    "url": "https://www.infraexpert.com/study/ethernet2.html",
+    "role": "範囲の指定・基礎事項",
+    "reviewed_on": "2026-11-15",
+    "sha256": "c44879843f5dee29eb7e28a5566624dd2532c92102a591082533eda59be927de"
+  },
+  "S05": {
+    "title": "ストレート／クロスケーブル",
+    "url": "https://www.infraexpert.com/study/ethernet3.html",
+    "role": "範囲の指定・基礎事項",
+    "reviewed_on": "2026-11-15",
+    "sha256": "4dec71df6b0fcae318ef278c0ecdb6f9ef515764688dec97878b77acda965c02"
+  },
+  "S06": {
+    "title": "EthernetフレームとMACアドレス",
+    "url": "https://www.infraexpert.com/study/ethernet4.html",
+    "role": "範囲の指定・基礎事項",
+    "reviewed_on": "2026-11-15",
+    "sha256": "f9ddf28a2c4c14ed04461ce9abd1c4de0e9b9c8b8811cd65cf3b5459e2862539"
+  },
+  "S07": {
+    "title": "CSMA/CD",
+    "url": "https://www.infraexpert.com/study/ethernet5.html",
+    "role": "範囲の指定・基礎事項",
+    "reviewed_on": "2026-11-15",
+    "sha256": "a4b1c33def34bfc302ada2f09343d40bf2eb6a1fd2738debd2a76cd4739a1e9b"
+  },
+  "S08": {
+    "title": "ネットワーク機器の役割",
+    "url": "https://www.infraexpert.com/study/ethernet6.html",
+    "role": "範囲の指定・基礎事項",
+    "reviewed_on": "2026-11-15",
+    "sha256": "94450afe0aa5ff701880db998e25226e743d43130eec8b91d8a7324075f0f9a5"
+  },
+  "S09": {
+    "title": "L2スイッチの学習と転送",
+    "url": "https://www.infraexpert.com/study/ethernet7.html",
+    "role": "範囲の指定・基礎事項",
+    "reviewed_on": "2026-11-15",
+    "sha256": "91dd63673b18e94e499132669cda04f8a5cf08483ce9d63e591999753dac2ef3"
+  },
+  "S10": {
+    "title": "半二重・全二重とオートネゴシエーション",
+    "url": "https://www.infraexpert.com/study/ethernet8.html",
+    "role": "範囲の指定・基礎事項",
+    "reviewed_on": "2026-11-15",
+    "sha256": "50c5a62ef865cb599b22c68355c0d50dcb56920210b0367aa4953c9b6d553ef5"
+  },
+  "S11": {
+    "title": "LLDP",
+    "url": "https://www.infraexpert.com/study/catalyst25.html",
+    "role": "範囲の指定・基礎事項",
+    "reviewed_on": "2026-11-15",
+    "sha256": "c420b535282565703c8954637ef91253aac8f84d04effefc578b6ea22b2a8867"
+  },
+  "S12": {
+    "title": "ルータを経由する通信",
+    "url": "https://www.infraexpert.com/study/ethernet10.html",
+    "role": "範囲の指定・基礎事項",
+    "reviewed_on": "2026-11-15",
+    "sha256": "bfaa2ab32eede6a52e0a9d362d97fb96f2130c9471abcb09a4488e664fb98091"
+  },
+  "S13": {
+    "title": "PLC（電力線通信）",
+    "url": "https://www.infraexpert.com/study/ethernet12.html",
+    "role": "範囲の指定・基礎事項",
+    "reviewed_on": "2026-11-15",
+    "sha256": "797707931a6683d9cf5888b0134634d40309c7b0e74c522e0ee33590a521baed"
+  },
+  "S14": {
+    "title": "PoE・PoE+・PoE++",
+    "url": "https://www.infraexpert.com/study/catalyst24.html",
+    "role": "範囲の指定・基礎事項",
+    "reviewed_on": "2026-11-15",
+    "sha256": "7f2ad4d65ed9c762ace5c683c3328735ad6c827d8844b6b9929c7ce7aac98ee7"
+  },
+  "C_MAC": {
+    "title": "Cisco: MAC学習・転送",
+    "url": "https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-mac.html",
+    "role": "条件・用語・一般化の確認",
+    "reviewed_on": "2026-11-15"
+  },
+  "C_ETH": {
+    "title": "Cisco: Ethernetの動作・フレーム形式",
+    "url": "https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html",
+    "role": "条件・用語・一般化の確認",
+    "reviewed_on": "2026-11-15"
+  },
+  "C_LLDP": {
+    "title": "Cisco: LLDPの動作と設定",
+    "url": "https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/lyr2-fwd/cdp-lldp-mac-udld/cdp-lldp-mac-udld-configuration-guide/c-configure-lldp.html",
+    "role": "条件・用語・一般化の確認",
+    "reviewed_on": "2026-11-15"
+  },
+  "C_POE": {
+    "title": "Cisco: PoEの種類と給電側電力",
+    "url": "https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/infra/poe/poe-configuration-guide/g-poe/c-poe.html",
+    "role": "条件・用語・一般化の確認",
+    "reviewed_on": "2026-11-15"
+  },
+  "C_BUDGET": {
+    "title": "Cisco: PoEの給電予算・PSEとPDの電力差",
+    "url": "https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750/software/troubleshooting/g_power_over_ethernet.html",
+    "role": "条件・用語・一般化の確認",
+    "reviewed_on": "2026-11-15"
+  },
+  "I_ADDR": {
+    "title": "IEEE: EUI・OUI・MACアドレスのビット",
+    "url": "https://standards.ieee.org/wp-content/uploads/import/documents/tutorials/eui.pdf",
+    "role": "条件・用語・一般化の確認",
+    "reviewed_on": "2026-11-15"
+  },
+  "I_BZ": {
+    "title": "IEEE: 802.3bzの標準化",
+    "url": "https://www.ieee802.org/3/bz/index.html",
+    "role": "条件・用語・一般化の確認",
+    "reviewed_on": "2026-11-15"
+  }
+}

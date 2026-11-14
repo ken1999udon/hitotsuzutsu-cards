@@ -1,0 +1,31 @@
+{
+  "version": "2.0",
+  "knowledge_items": 132,
+  "cards": 170,
+  "sections": 14,
+  "covered_knowledge_items": 132,
+  "all_legacy_75_questions_mapped": true,
+  "basic_cards": 132,
+  "scenario_cards": 38,
+  "independently_calculated_scenarios": 15,
+  "kinds": {
+    "知識": 91,
+    "数値": 26,
+    "動作": 13,
+    "理由": 3,
+    "計算": 6,
+    "判断": 31
+  },
+  "priorities": {
+    "A_過去問接点": 21,
+    "B_基礎": 76,
+    "C_参照": 35
+  },
+  "representative_exam_units": 16,
+  "exhaustive_exam_frequency_count": false,
+  "apkg_database_integrity": "ok",
+  "all_notes_and_fields_match_sources": true,
+  "review_history": "empty",
+  "front_answer_leak": false,
+  "package": "ネスペイージス_第3章_改訂版_170問.apkg"
+}
