@@ -1,0 +1,326 @@
+[
+  {
+    "id": "C12-01-01",
+    "question": "TLSとSSLは、どのような関係のプロトコルか。",
+    "answer": "TLSはSSLを基に標準化された後継プロトコル。",
+    "section_title": "SSL/TLSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security7.html"
+    ]
+  },
+  {
+    "id": "C12-01-02",
+    "question": "TLSは、主に通信のどのような性質を保護する？",
+    "answer": "機密性、完全性、通信相手の認証。",
+    "section_title": "SSL/TLSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security7.html"
+    ]
+  },
+  {
+    "id": "C12-01-03",
+    "question": "HTTPSは、HTTPに何を組み合わせた通信か。",
+    "answer": "TLSによる通信の保護。",
+    "section_title": "SSL/TLSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security7.html"
+    ]
+  },
+  {
+    "id": "C12-01-04",
+    "question": "TLSの実データの暗号化では、主に共通鍵暗号と公開鍵暗号のどちらを使う？",
+    "answer": "共通鍵暗号。",
+    "section_title": "SSL/TLSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security7.html"
+    ]
+  },
+  {
+    "id": "C12-01-05",
+    "question": "TLSのサーバ認証で、通常サーバから提示されるものは？",
+    "answer": "サーバ証明書。",
+    "section_title": "SSL/TLSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security7.html"
+    ]
+  },
+  {
+    "id": "C12-01-06",
+    "question": "TLS 1.2以前のRSA鍵交換では、プリマスターシークレットをどの鍵で暗号化する？",
+    "answer": "サーバ証明書に含まれるサーバの公開鍵。",
+    "section_title": "SSL/TLSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security7.html"
+    ]
+  },
+  {
+    "id": "C12-01-07",
+    "question": "TLSでいう暗号スイートは、何を定める組合せか。",
+    "answer": "通信の暗号化や完全性保護などに使う暗号方式の組合せ。",
+    "section_title": "SSL/TLSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security7.html"
+    ]
+  },
+  {
+    "id": "C12-01-08",
+    "question": "TLS 1.3で使う、暗号化と完全性保護を組み合わせた暗号方式は？",
+    "answer": "AEAD（認証付き暗号）。",
+    "section_title": "SSL/TLSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security7.html"
+    ]
+  },
+  {
+    "id": "C12-02-01",
+    "question": "HTTPSで、通信の暗号化とは別にサーバの身元確認も必要な理由は？",
+    "answer": "暗号化できても、接続相手が偽サーバなら情報を渡してしまうため。",
+    "section_title": "SSL/TLSサーバ証明書とは その1",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver1.html"
+    ]
+  },
+  {
+    "id": "C12-02-02",
+    "question": "HTTPのURLでポート番号を443にするだけで、TLSによる暗号化が有効になるか。",
+    "answer": "ならない。ポート番号だけでなく、HTTPSとして通信する必要がある。",
+    "section_title": "SSL/TLSサーバ証明書とは その1",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver1.html"
+    ]
+  },
+  {
+    "id": "C12-02-03",
+    "question": "サーバ証明書の検証で、接続先の名前について確認することは？",
+    "answer": "証明書の対象となるホスト名の範囲に、接続先の名前が含まれること。",
+    "section_title": "SSL/TLSサーバ証明書とは その1",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver1.html"
+    ]
+  },
+  {
+    "id": "C12-03-01",
+    "question": "DV証明書とOV証明書は、CAが確認する範囲がどう違う？",
+    "answer": "DVはドメインの管理権限、OVはそれに加えて組織の実在性などを確認する。",
+    "section_title": "SSL/TLSサーバ証明書とは その2",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver2.html"
+    ]
+  },
+  {
+    "id": "C12-03-02",
+    "question": "EV証明書は、通常のドメイン認証に加えてどのような確認を厳格に行う？",
+    "answer": "証明書を申請する組織の実在性や身元などの確認。",
+    "section_title": "SSL/TLSサーバ証明書とは その2",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver2.html"
+    ]
+  },
+  {
+    "id": "C12-03-03",
+    "question": "ドメイン認証の証明書が有効でも、Webサイトの運営内容まで安全と保証できない理由は？",
+    "answer": "証明する対象がドメインの管理権限などであり、掲載内容や取引の安全性ではないため。",
+    "section_title": "SSL/TLSサーバ証明書とは その2",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver2.html"
+    ]
+  },
+  {
+    "id": "C12-03-04",
+    "question": "ロードバランサでTLSを終端する場合、サーバ証明書はどこへ設定する？",
+    "answer": "TLSの接続を受けるロードバランサ。",
+    "section_title": "SSL/TLSサーバ証明書とは その2",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver2.html"
+    ]
+  },
+  {
+    "id": "C12-03-05",
+    "question": "CSRとは、何のためにCAへ提出するデータか。",
+    "answer": "公開鍵証明書の発行を申請するための署名要求。",
+    "section_title": "SSL/TLSサーバ証明書とは その2",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver2.html"
+    ]
+  },
+  {
+    "id": "C12-03-06",
+    "question": "CSRに含める主な情報は？",
+    "answer": "公開鍵と、証明書の申請者や対象を表す情報。",
+    "section_title": "SSL/TLSサーバ証明書とは その2",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver2.html"
+    ]
+  },
+  {
+    "id": "C12-03-07",
+    "question": "CSRをCAへ送るとき、証明書と対になる秘密鍵も送るか。",
+    "answer": "送らない。秘密鍵は申請側で秘密に保持する。",
+    "section_title": "SSL/TLSサーバ証明書とは その2",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver2.html"
+    ]
+  },
+  {
+    "id": "C12-03-08",
+    "question": "証明書のSubjectは、主に誰についての情報か。",
+    "answer": "証明対象となる主体。",
+    "section_title": "SSL/TLSサーバ証明書とは その2",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver2.html"
+    ]
+  },
+  {
+    "id": "C12-03-09",
+    "question": "証明書のIssuerは、主に誰についての情報か。",
+    "answer": "証明書を発行した認証局。",
+    "section_title": "SSL/TLSサーバ証明書とは その2",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver2.html"
+    ]
+  },
+  {
+    "id": "C12-03-10",
+    "question": "証明書申請で用いるDNのO・OU・Cは、何を表す？",
+    "answer": "Oは組織、OUは組織単位・部門、Cは国。",
+    "section_title": "SSL/TLSサーバ証明書とは その2",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver2.html"
+    ]
+  },
+  {
+    "id": "C12-03-11",
+    "question": "PKCS #10は、主に何の形式を定める？",
+    "answer": "証明書署名要求（CSR）。",
+    "section_title": "SSL/TLSサーバ証明書とは その2",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver2.html"
+    ]
+  },
+  {
+    "id": "C12-03-12",
+    "question": "PKCS #12形式では、証明書とともに何を格納できる？",
+    "answer": "対応する秘密鍵。",
+    "section_title": "SSL/TLSサーバ証明書とは その2",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver2.html"
+    ]
+  },
+  {
+    "id": "C12-04-01",
+    "question": "サーバ証明書とクライアント証明書は、誰の認証に使う？",
+    "answer": "サーバ証明書は接続先サーバ、クライアント証明書は接続元の利用者や端末の認証。",
+    "section_title": "SSL/TLSクライアント証明書とは",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver3.html"
+    ]
+  },
+  {
+    "id": "C12-04-02",
+    "question": "クライアント証明書を使って認証するため、証明書だけでなく必要なものは？",
+    "answer": "証明書の公開鍵と対になる秘密鍵。",
+    "section_title": "SSL/TLSクライアント証明書とは",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver3.html"
+    ]
+  },
+  {
+    "id": "C12-04-03",
+    "question": "端末認証用とユーザ認証用のクライアント証明書は、識別対象がどう違う？",
+    "answer": "端末認証用は機器、ユーザ認証用は利用者。",
+    "section_title": "SSL/TLSクライアント証明書とは",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver3.html"
+    ]
+  },
+  {
+    "id": "C12-04-04",
+    "question": "EAP-TLSでは、クライアント側とサーバ側のどちらが証明書を使う？",
+    "answer": "双方が使い、相互認証する。",
+    "section_title": "SSL/TLSクライアント証明書とは",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver3.html"
+    ]
+  },
+  {
+    "id": "C12-05-01",
+    "question": "TLSを使うリモートアクセスVPNで、リバースプロキシ方式の利点は？",
+    "answer": "ブラウザを使い、専用VPNクライアントなしで社内Webへアクセスできる。",
+    "section_title": "SSL-VPNとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security8.html"
+    ]
+  },
+  {
+    "id": "C12-05-02",
+    "question": "TLSを使うVPNのリバースプロキシ方式は、利用するアプリケーションにどのような制約がある？",
+    "answer": "主にブラウザで利用できるアプリケーションが対象となる。",
+    "section_title": "SSL-VPNとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security8.html"
+    ]
+  },
+  {
+    "id": "C12-05-03",
+    "question": "TLSを使うVPNのポートフォワーディング方式で、固定の接続先ポートだけを定義する場合の制約は？",
+    "answer": "通信中に動的な別ポートを使うアプリケーションを扱いにくい。",
+    "section_title": "SSL-VPNとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security8.html"
+    ]
+  },
+  {
+    "id": "C12-05-04",
+    "question": "仮想NICを使うVPNクライアント方式は、ブラウザだけの方式と何が違う？",
+    "answer": "IPパケットをVPNへ送り、Web以外のアプリケーションの通信も扱える。",
+    "section_title": "SSL-VPNとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security8.html"
+    ]
+  },
+  {
+    "id": "C12-06-01",
+    "question": "証明書の有効期限内でも、失効確認が必要な理由は？",
+    "answer": "秘密鍵の漏えいや誤発行などで、有効期限前に失効することがあるため。",
+    "section_title": "CRL（証明書失効リスト）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver13.html"
+    ]
+  },
+  {
+    "id": "C12-06-02",
+    "question": "CRLと証明書を照合するとき、主にどの識別情報を使う？",
+    "answer": "発行元CAと証明書のシリアル番号。",
+    "section_title": "CRL（証明書失効リスト）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver13.html"
+    ]
+  },
+  {
+    "id": "C12-06-03",
+    "question": "古いCRLを使い続けると、どのような問題がある？",
+    "answer": "その後に失効した証明書を見逃す可能性がある。",
+    "section_title": "CRL（証明書失効リスト）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver13.html"
+    ]
+  },
+  {
+    "id": "C12-06-04",
+    "question": "OCSPは、何をオンラインで問い合わせるプロトコルか。",
+    "answer": "個々の証明書の失効状態。",
+    "section_title": "CRL（証明書失効リスト）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver13.html"
+    ]
+  },
+  {
+    "id": "C12-06-05",
+    "question": "CRLとOCSPは、失効確認のために何を取得する点が違う？",
+    "answer": "CRLは失効証明書の一覧を取得し、OCSPは対象証明書についての状態応答を取得する。",
+    "section_title": "CRL（証明書失効リスト）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/sslserver13.html"
+    ]
+  }
+]

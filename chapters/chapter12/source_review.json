@@ -1,0 +1,86 @@
+[
+  {
+    "section": 1,
+    "title": "SSL/TLSとは",
+    "url": "https://www.infraexpert.com/study/security7.html",
+    "sha256": "f2cbbb076435c47bedaa9e858b369331df03c94730b2cb431a99a6856d65046f",
+    "card_ids": [
+      "C12-01-01",
+      "C12-01-02",
+      "C12-01-03",
+      "C12-01-04",
+      "C12-01-05",
+      "C12-01-06",
+      "C12-01-07",
+      "C12-01-08"
+    ]
+  },
+  {
+    "section": 2,
+    "title": "SSL/TLSサーバ証明書とは その1",
+    "url": "https://www.infraexpert.com/study/sslserver1.html",
+    "sha256": "ae794b2f262bad0ae18134930472964ea1b5e56c8e49df3d67c1b1904452d9af",
+    "card_ids": [
+      "C12-02-01",
+      "C12-02-02",
+      "C12-02-03"
+    ]
+  },
+  {
+    "section": 3,
+    "title": "SSL/TLSサーバ証明書とは その2",
+    "url": "https://www.infraexpert.com/study/sslserver2.html",
+    "sha256": "dd81ac0d33d522017115d41111bb41f29e7f771524e7ff9a125bb0e7c8ea24d3",
+    "card_ids": [
+      "C12-03-01",
+      "C12-03-02",
+      "C12-03-03",
+      "C12-03-04",
+      "C12-03-05",
+      "C12-03-06",
+      "C12-03-07",
+      "C12-03-08",
+      "C12-03-09",
+      "C12-03-10",
+      "C12-03-11",
+      "C12-03-12"
+    ]
+  },
+  {
+    "section": 4,
+    "title": "SSL/TLSクライアント証明書とは",
+    "url": "https://www.infraexpert.com/study/sslserver3.html",
+    "sha256": "85d615b17aadaad26a900fc4422036601564d08e30bb38d4ff5673b3e913b14d",
+    "card_ids": [
+      "C12-04-01",
+      "C12-04-02",
+      "C12-04-03",
+      "C12-04-04"
+    ]
+  },
+  {
+    "section": 5,
+    "title": "SSL-VPNとは",
+    "url": "https://www.infraexpert.com/study/security8.html",
+    "sha256": "6fb973807a8ed02cc8a06fc2018e0a0cd9c43d3a57c1a3e10e8674565058903c",
+    "card_ids": [
+      "C12-05-01",
+      "C12-05-02",
+      "C12-05-03",
+      "C12-05-04"
+    ]
+  },
+  {
+    "section": 6,
+    "title": "CRL（証明書失効リスト）とは",
+    "url": "https://www.infraexpert.com/study/sslserver13.html",
+    "sha256": "d5bb90e880793abf82b2cf28d91a5da4a6ed245e87d397cae23478dc74902c8c",
+    "card_ids": [
+      "C12-06-01",
+      "C12-06-02",
+      "C12-06-03",
+      "C12-06-04",
+      "C12-06-05"
+    ]
+  }
+]

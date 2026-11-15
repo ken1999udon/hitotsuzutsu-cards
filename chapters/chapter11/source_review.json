@@ -1,0 +1,151 @@
+[
+  {
+    "section": 1,
+    "title": "VPN ( Virtual Private Network ) とは",
+    "url": "https://www.infraexpert.com/study/ipsec.html",
+    "sha256": "2e0c6cbc94d1e4935bd0d02715c45a53fa81b3817a2d8bc58b689f5ed933768f",
+    "card_ids": [
+      "C11-01-01",
+      "C11-01-02",
+      "C11-01-03",
+      "C11-01-04"
+    ]
+  },
+  {
+    "section": 2,
+    "title": "VPN - VPNの基礎知識",
+    "url": "https://www.infraexpert.com/study/ipsec2.html",
+    "sha256": "1078c8b6938024c4412f4b92bbb354518de278db12d6c52cb32c646516e57b76",
+    "card_ids": [
+      "C11-02-01",
+      "C11-02-02",
+      "C11-02-03",
+      "C11-02-04"
+    ]
+  },
+  {
+    "section": 3,
+    "title": "VPN - 暗号システムの概要",
+    "url": "https://www.infraexpert.com/study/ipsec3.html",
+    "sha256": "fe4983c568e6dc4e0cab8582a977c4868818f245bff2dbc8e0d667165b8ccbfd",
+    "card_ids": [
+      "C11-03-01",
+      "C11-03-02",
+      "C11-03-03"
+    ]
+  },
+  {
+    "section": 4,
+    "title": "VPN - 共通鍵暗号と公開鍵暗号",
+    "url": "https://www.infraexpert.com/study/ipsec4.html",
+    "sha256": "7dd498ba6ca1b8ed1f5fd1fcd816cdef817b8fcea5bfd3ec421d1ed20a62f667",
+    "card_ids": [
+      "C11-04-01",
+      "C11-04-02",
+      "C11-04-03"
+    ]
+  },
+  {
+    "section": 5,
+    "title": "IPsec - AH と ESP",
+    "url": "https://www.infraexpert.com/study/ipsec5.html",
+    "sha256": "d104a131b89dbf9456b28fe5fb4627cdd74ce708df8efdff3b4f67033ef951bd",
+    "card_ids": [
+      "C11-05-01",
+      "C11-05-02",
+      "C11-05-03",
+      "C11-05-04",
+      "C11-05-05",
+      "C11-05-06",
+      "C11-05-07",
+      "C11-05-08"
+    ]
+  },
+  {
+    "section": 6,
+    "title": "IPsec - トランスポートモードとトンネルモード",
+    "url": "https://www.infraexpert.com/study/ipsec6.html",
+    "sha256": "7b0769d436931b9a7d0de457b1f3e56e3f150f3c793522c6c839bd2b106da2ac",
+    "card_ids": [
+      "C11-06-01",
+      "C11-06-02",
+      "C11-06-03",
+      "C11-06-04"
+    ]
+  },
+  {
+    "section": 7,
+    "title": "IPsec - SA ( Secrutiy Association )",
+    "url": "https://www.infraexpert.com/study/ipsec7.html",
+    "sha256": "edeb2d90284baf712a8a0aacb5c7d322419850f26e0d404ffeec45863820584c",
+    "card_ids": [
+      "C11-07-01",
+      "C11-07-02",
+      "C11-07-03",
+      "C11-07-04"
+    ]
+  },
+  {
+    "section": 8,
+    "title": "IPsec - IKE ： ISAKMPメッセージ",
+    "url": "https://www.infraexpert.com/study/ipsec8.html",
+    "sha256": "510ad0a4233c2dfc91bbd578cb41058dd477e8f2448d0d18af70fc244251b65a",
+    "card_ids": [
+      "C11-08-01",
+      "C11-08-02",
+      "C11-08-03"
+    ]
+  },
+  {
+    "section": 9,
+    "title": "IPsec - IKE ： IKEフェーズ1、IKEフェーズ2",
+    "url": "https://www.infraexpert.com/study/ipsec9.html",
+    "sha256": "f566dfd440a91b426579fc63e8cdf795e0ee78891f1dea09cbff136b29d3609c",
+    "card_ids": [
+      "C11-09-01",
+      "C11-09-02",
+      "C11-09-03",
+      "C11-09-04",
+      "C11-09-05",
+      "C11-09-06",
+      "C11-09-07",
+      "C11-09-08"
+    ]
+  },
+  {
+    "section": 10,
+    "title": "DMVPNとは",
+    "url": "https://www.infraexpert.com/study/ipsec1.html",
+    "sha256": "5d9ab59048a725e616698c91f7743e878bc5f2bfd45f70fd880ad00db8eaf871",
+    "card_ids": [
+      "C11-10-01",
+      "C11-10-02"
+    ],
+    "note": "CiscoのDMVPN自体は除外。フルメッシュとハブアンドスポークの一般的な課題だけを採用。"
+  },
+  {
+    "section": 11,
+    "title": "MPLSとは",
+    "url": "https://www.infraexpert.com/study/mpls1.html",
+    "sha256": "453545908471a1e8d100350e8fd8835619ce0ad19d7783542bf1a4d11e1e857c",
+    "card_ids": [
+      "C11-11-01",
+      "C11-11-02",
+      "C11-11-03"
+    ]
+  },
+  {
+    "section": 12,
+    "title": "MPLS-TE（Traffic Engineering）とは",
+    "url": "https://www.infraexpert.com/study/mpls8.html",
+    "sha256": "db7412f6be2fcc35400816aaca81683808d1d54ecfa5a4b10924322a7e63a9eb",
+    "card_ids": [
+      "C11-12-01",
+      "C11-12-02",
+      "C11-12-03",
+      "C11-12-04",
+      "C11-12-05",
+      "C11-12-06"
+    ]
+  }
+]

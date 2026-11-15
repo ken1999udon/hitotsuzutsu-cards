@@ -1,0 +1,1100 @@
+[
+  {
+    "id": "C10-01-01",
+    "question": "情報セキュリティの機密性・完全性・可用性は、それぞれ何を守る性質か。",
+    "answer": "機密性は権限のある者だけのアクセス、完全性は情報の正確さや改ざんされないこと、可用性は必要なときに利用できること。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-02",
+    "question": "情報セキュリティの脅威と脆弱性の違いは？",
+    "answer": "脅威は被害を引き起こす要因、脆弱性は悪用され得る弱点。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-03",
+    "question": "セキュリティインシデントとは何か。",
+    "answer": "情報の漏えいや不正アクセスなど、安全な運用を脅かす事象や事故。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-04",
+    "question": "セキュリティパッチを適用する主な目的は？",
+    "answer": "ソフトウェアの脆弱性や不具合を修正するため。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-05",
+    "question": "マルウェアとは何か。",
+    "answer": "不正な動作や被害をもたらす目的で作られた、悪意あるソフトウェアの総称。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-06",
+    "question": "ウイルスとワームは、拡散の形態がどう違う？",
+    "answer": "ウイルスは他のプログラムなどに寄生し、ワームは独立して自己複製しネットワークなどで拡散する。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-07",
+    "question": "トロイの木馬とは、どのようなマルウェアか。",
+    "answer": "有用・無害なプログラムを装い、実行時に不正な処理を行うもの。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-08",
+    "question": "ランサムウェアは、どのような被害を与えて金銭を要求する？",
+    "answer": "データの暗号化や端末のロックなどで利用を妨げ、復旧などと引き換えに身代金を要求する。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-09",
+    "question": "インフォスティーラーは、主に何を盗むマルウェアか。",
+    "answer": "パスワードやCookie、セッショントークンなどの情報。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-10",
+    "question": "マルウェアのシグネチャ検知と振る舞い検知の違いは？",
+    "answer": "シグネチャ検知は既知の特徴と照合し、振る舞い検知は実行中の不審な動作を監視する。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-11",
+    "question": "DoS攻撃は、機密性・完全性・可用性のうち主にどれを侵害する？",
+    "answer": "可用性。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-12",
+    "question": "DoS攻撃とDDoS攻撃の違いは？",
+    "answer": "DDoSは、分散した多数の機器からDoS攻撃を行う。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-13",
+    "question": "SYNフラッド攻撃が、サーバの接続資源を消費する仕組みは？",
+    "answer": "大量の接続要求に対し、ハンドシェイクが未完了の接続状態を多数保持させる。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-14",
+    "question": "反射型DoS攻撃では、第三者のサーバをどう悪用する？",
+    "answer": "被害者を送信元に偽装して要求し、サーバの応答を被害者へ集中させる。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-15",
+    "question": "増幅型の反射攻撃で、小さな要求が大きな負荷になる理由は？",
+    "answer": "要求より大きい応答が、多数のサーバから被害者へ送られるため。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-16",
+    "question": "IPスプーフィングとは、何を偽装することか。",
+    "answer": "パケットの送信元IPアドレス。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-17",
+    "question": "辞書攻撃と総当たり攻撃の違いは？",
+    "answer": "辞書攻撃は単語などの候補を試し、総当たり攻撃は可能な組合せを網羅的に試す。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-18",
+    "question": "ソーシャルエンジニアリングは、主に何を悪用して秘密情報を得る？",
+    "answer": "人の心理的な隙や行動上の不注意。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-19",
+    "question": "フィッシングとスピアフィッシングの違いは？",
+    "answer": "スピアフィッシングは、特定の個人や組織に対象を絞ったフィッシング。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-20",
+    "question": "スミッシングとビッシングは、どの媒体を使うフィッシングか。",
+    "answer": "スミッシングはSMS、ビッシングは電話などの音声。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-21",
+    "question": "中間者攻撃とは、どのような攻撃か。",
+    "answer": "通信する二者の間に割り込み、通信の盗聴や改ざんを行う攻撃。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-22",
+    "question": "サイドチャネル攻撃では、どのような情報から秘密を推測する？",
+    "answer": "処理時間、消費電力、漏れる電磁波など、通常の入出力以外の情報。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-23",
+    "question": "DNSキャッシュポイズニングは、DNSに何を保存させる攻撃か。",
+    "answer": "偽の名前解決結果。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-24",
+    "question": "Webスキミングは、Webページで主にどのような情報を盗む？",
+    "answer": "利用者がフォームへ入力したカード情報など。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-25",
+    "question": "セッショントークンの窃取が、多要素認証の利用時にも問題となる理由は？",
+    "answer": "認証後のセッションを悪用され、認証手順を踏まずにアクセスされる可能性があるため。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-26",
+    "question": "FIDO認証では、サーバ側と利用者の認証器側にどちらの鍵を保持する？",
+    "answer": "サーバ側に公開鍵、認証器側に秘密鍵。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-01-27",
+    "question": "フィッシングとは、どのように認証情報などを盗む手口か。",
+    "answer": "正規のサービスを装ったメールや偽サイトなどへ誘導し、入力させて盗む手口。",
+    "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/security1.html"
+    ]
+  },
+  {
+    "id": "C10-02-01",
+    "question": "外部と接続しないクローズドネットワークでも、内部の対策が必要な理由は？",
+    "answer": "内部不正や誤操作、持込み媒体などを通じた漏えい・感染が起こり得るため。",
+    "section_title": "オープンネットワークとクローズドネットワーク",
+    "sources": [
+      "https://www.infraexpert.com/study/security.html"
+    ]
+  },
+  {
+    "id": "C10-02-02",
+    "question": "認証の三要素を挙げると？",
+    "answer": "知識情報、所持情報、生体情報。",
+    "section_title": "オープンネットワークとクローズドネットワーク",
+    "sources": [
+      "https://www.infraexpert.com/study/security.html"
+    ]
+  },
+  {
+    "id": "C10-02-03",
+    "question": "パスワード・ICカード・指紋は、それぞれどの認証要素に当たる？",
+    "answer": "パスワードは知識、ICカードは所持、指紋は生体。",
+    "section_title": "オープンネットワークとクローズドネットワーク",
+    "sources": [
+      "https://www.infraexpert.com/study/security.html"
+    ]
+  },
+  {
+    "id": "C10-02-04",
+    "question": "多要素認証とは何か。",
+    "answer": "種類の異なる2つ以上の認証要素を組み合わせる方式。",
+    "section_title": "オープンネットワークとクローズドネットワーク",
+    "sources": [
+      "https://www.infraexpert.com/study/security.html"
+    ]
+  },
+  {
+    "id": "C10-02-05",
+    "question": "パスワードと秘密の質問を順に使っても、二要素認証といえない理由は？",
+    "answer": "どちらも知識情報で、異なる種類の要素を使っていないため。",
+    "section_title": "オープンネットワークとクローズドネットワーク",
+    "sources": [
+      "https://www.infraexpert.com/study/security.html"
+    ]
+  },
+  {
+    "id": "C10-03-01",
+    "question": "ポートスキャンでは、主に何を調べる？",
+    "answer": "対象ホストで接続可能なポートや、待ち受けているサービス。",
+    "section_title": "攻撃者（クラッカー）と攻撃手法（DoS/DDoS）",
+    "sources": [
+      "https://www.infraexpert.com/study/security2.html"
+    ]
+  },
+  {
+    "id": "C10-03-02",
+    "question": "バックドアとは、何のために設けられる仕組みか。",
+    "answer": "通常の認証などを迂回して、後から再侵入できるようにするための裏口。",
+    "section_title": "攻撃者（クラッカー）と攻撃手法（DoS/DDoS）",
+    "sources": [
+      "https://www.infraexpert.com/study/security2.html"
+    ]
+  },
+  {
+    "id": "C10-04-01",
+    "question": "パケットフィルタ型ファイアウォールが、通信の判定に使う主な情報は？",
+    "answer": "送信元・宛先IPアドレス、ポート番号、プロトコルなど。",
+    "section_title": "Firewallとは、IDSとは、IPSとは、DMZとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security3.html"
+    ]
+  },
+  {
+    "id": "C10-04-02",
+    "question": "IDSとIPSは、不正な通信の検出後の動作がどう違う？",
+    "answer": "IDSは主に通知し、IPSは通知に加えて通信の破棄や遮断を行う。",
+    "section_title": "Firewallとは、IDSとは、IPSとは、DMZとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security3.html"
+    ]
+  },
+  {
+    "id": "C10-04-03",
+    "question": "DMZに公開サーバを配置し、社内LANと分ける主な目的は？",
+    "answer": "公開サーバが侵害された場合の、社内LANへの被害拡大を抑えるため。",
+    "section_title": "Firewallとは、IDSとは、IPSとは、DMZとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security3.html"
+    ]
+  },
+  {
+    "id": "C10-04-04",
+    "question": "通信のIPアドレスとポートを許可していても、その通信が安全とは限らない理由は？",
+    "answer": "許可された通信の中に、アプリケーションへの攻撃が含まれる場合があるため。",
+    "section_title": "Firewallとは、IDSとは、IPSとは、DMZとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security3.html"
+    ]
+  },
+  {
+    "id": "C10-05-01",
+    "question": "ステートフルインスペクションは、個々のパケット以外に何を確認して判定する？",
+    "answer": "通信セッションの状態と、そのパケットとの整合性。",
+    "section_title": "Firewall - Stateful Inspection/Stateful Failover",
+    "sources": [
+      "https://www.infraexpert.com/study/security25.html"
+    ]
+  },
+  {
+    "id": "C10-05-02",
+    "question": "ステートフルインスペクションが、応答パケットを識別するために保持する情報は？",
+    "answer": "開始済みの通信のアドレス・ポートなどのセッション情報。",
+    "section_title": "Firewall - Stateful Inspection/Stateful Failover",
+    "sources": [
+      "https://www.infraexpert.com/study/security25.html"
+    ]
+  },
+  {
+    "id": "C10-05-03",
+    "question": "ファイアウォールのステートフルフェールオーバーでは、予備機へ何を同期する？",
+    "answer": "通信セッションやNAT変換など、通信を継続するための状態情報。",
+    "section_title": "Firewall - Stateful Inspection/Stateful Failover",
+    "sources": [
+      "https://www.infraexpert.com/study/security25.html"
+    ]
+  },
+  {
+    "id": "C10-05-04",
+    "question": "冗長ファイアウォールで、アドレスだけでなくセッション情報も引き継ぐ理由は？",
+    "answer": "切替え後の機器が、既存の通信を正当な継続通信として処理するため。",
+    "section_title": "Firewall - Stateful Inspection/Stateful Failover",
+    "sources": [
+      "https://www.infraexpert.com/study/security25.html"
+    ]
+  },
+  {
+    "id": "C10-06-01",
+    "question": "WAFが主に保護する対象は？",
+    "answer": "Webアプリケーション。",
+    "section_title": "WAFとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security17.html"
+    ]
+  },
+  {
+    "id": "C10-06-02",
+    "question": "SQLインジェクションは、アプリケーションに何を実行させる攻撃か。",
+    "answer": "入力を悪用して、本来想定していないSQL文を実行させる攻撃。",
+    "section_title": "WAFとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security17.html"
+    ]
+  },
+  {
+    "id": "C10-06-03",
+    "question": "OSコマンドインジェクションは、どのような処理を不正に実行させる？",
+    "answer": "サーバ上のOSコマンド。",
+    "section_title": "WAFとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security17.html"
+    ]
+  },
+  {
+    "id": "C10-06-04",
+    "question": "XSSでは、悪意のあるスクリプトが主にどこで実行される？",
+    "answer": "被害者のWebブラウザ。",
+    "section_title": "WAFとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security17.html"
+    ]
+  },
+  {
+    "id": "C10-06-05",
+    "question": "WAFのシグネチャ方式とホワイトリスト方式は、何に基づいて判定する？",
+    "answer": "シグネチャ方式は攻撃の特徴、ホワイトリスト方式は許可する正常な通信の条件。",
+    "section_title": "WAFとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security17.html"
+    ]
+  },
+  {
+    "id": "C10-06-06",
+    "question": "WAFがHTTPSの通信内容を検査するために、必要となる処理は？",
+    "answer": "TLSの終端などによって、暗号化されたHTTPの内容を復号する処理。",
+    "section_title": "WAFとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security17.html"
+    ]
+  },
+  {
+    "id": "C10-07-01",
+    "question": "UTMは、どのようなセキュリティ製品・管理手法か。",
+    "answer": "ファイアウォールやIPSなど、複数の対策機能を統合して管理するもの。",
+    "section_title": "UTM（統合脅威管理）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security14.html"
+    ]
+  },
+  {
+    "id": "C10-07-02",
+    "question": "複数のセキュリティ機能をUTMにまとめる主な運用上の利点は？",
+    "answer": "機器や設定の管理を集約でき、導入・運用の負担を抑えられる。",
+    "section_title": "UTM（統合脅威管理）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security14.html"
+    ]
+  },
+  {
+    "id": "C10-07-03",
+    "question": "UTMで多数の検査機能を有効にするとき、性能面で注意することは？",
+    "answer": "検査処理の負荷が増え、実効スループットが低下し得ること。",
+    "section_title": "UTM（統合脅威管理）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security14.html"
+    ]
+  },
+  {
+    "id": "C10-08-01",
+    "question": "暗号化と復号は、それぞれどのような処理か。",
+    "answer": "暗号化は鍵などを使って内容を読めない形へ変換し、復号はそれを元のデータへ戻す処理。",
+    "section_title": "暗号化と暗号化アルゴリズム",
+    "sources": [
+      "https://www.infraexpert.com/study/security4.html"
+    ]
+  },
+  {
+    "id": "C10-08-02",
+    "question": "共通鍵暗号と公開鍵暗号は、暗号化と復号の鍵がどう違う？",
+    "answer": "共通鍵暗号は同じ秘密の鍵を使い、公開鍵暗号は対になる公開鍵と秘密鍵を使う。",
+    "section_title": "暗号化と暗号化アルゴリズム",
+    "sources": [
+      "https://www.infraexpert.com/study/security4.html"
+    ]
+  },
+  {
+    "id": "C10-08-03",
+    "question": "公開鍵暗号で受信者だけが読めるよう暗号化するとき、誰のどの鍵を使う？",
+    "answer": "受信者の公開鍵。",
+    "section_title": "暗号化と暗号化アルゴリズム",
+    "sources": [
+      "https://www.infraexpert.com/study/security4.html"
+    ]
+  },
+  {
+    "id": "C10-08-04",
+    "question": "公開鍵で暗号化したデータを復号するため、受信者が保持する鍵は？",
+    "answer": "その公開鍵と対になる秘密鍵。",
+    "section_title": "暗号化と暗号化アルゴリズム",
+    "sources": [
+      "https://www.infraexpert.com/study/security4.html"
+    ]
+  },
+  {
+    "id": "C10-08-05",
+    "question": "共通鍵暗号の鍵配送で、注意すべきことは？",
+    "answer": "第三者に知られない方法で、相手と鍵を共有すること。",
+    "section_title": "暗号化と暗号化アルゴリズム",
+    "sources": [
+      "https://www.infraexpert.com/study/security4.html"
+    ]
+  },
+  {
+    "id": "C10-08-06",
+    "question": "大量のデータの暗号化に、公開鍵暗号より共通鍵暗号が使われる主な理由は？",
+    "answer": "一般に処理が高速なため。",
+    "section_title": "暗号化と暗号化アルゴリズム",
+    "sources": [
+      "https://www.infraexpert.com/study/security4.html"
+    ]
+  },
+  {
+    "id": "C10-08-07",
+    "question": "公開鍵暗号と共通鍵暗号を組み合わせるハイブリッド方式の役割分担は？",
+    "answer": "公開鍵の仕組みで鍵を安全に共有し、共通鍵暗号で実データを暗号化する。",
+    "section_title": "暗号化と暗号化アルゴリズム",
+    "sources": [
+      "https://www.infraexpert.com/study/security4.html"
+    ]
+  },
+  {
+    "id": "C10-08-08",
+    "question": "AESは、共通鍵暗号と公開鍵暗号のどちらか。",
+    "answer": "共通鍵暗号。",
+    "section_title": "暗号化と暗号化アルゴリズム",
+    "sources": [
+      "https://www.infraexpert.com/study/security4.html"
+    ]
+  },
+  {
+    "id": "C10-09-01",
+    "question": "デジタル署名によって、受信者が検証する主な2点は？",
+    "answer": "署名者の正当性と、データが改ざんされていないこと。",
+    "section_title": "PKI (デジタル署名)",
+    "sources": [
+      "https://www.infraexpert.com/study/security5.html"
+    ]
+  },
+  {
+    "id": "C10-09-02",
+    "question": "デジタル署名を作成する鍵と、検証する鍵は？",
+    "answer": "作成は署名者の秘密鍵、検証は署名者の公開鍵。",
+    "section_title": "PKI (デジタル署名)",
+    "sources": [
+      "https://www.infraexpert.com/study/security5.html"
+    ]
+  },
+  {
+    "id": "C10-09-03",
+    "question": "デジタル署名で、ハッシュ関数を利用する目的は？",
+    "answer": "データから要約値を計算し、データの変更を検出できるようにするため。",
+    "section_title": "PKI (デジタル署名)",
+    "sources": [
+      "https://www.infraexpert.com/study/security5.html"
+    ]
+  },
+  {
+    "id": "C10-09-04",
+    "question": "署名を検証する公開鍵自体が偽物なら、何を正しく確認できない？",
+    "answer": "その署名が、意図した本人によるものかどうか。",
+    "section_title": "PKI (デジタル署名)",
+    "sources": [
+      "https://www.infraexpert.com/study/security5.html"
+    ]
+  },
+  {
+    "id": "C10-10-01",
+    "question": "公開鍵証明書は、主に何と何の対応を証明する？",
+    "answer": "公開鍵と、その鍵の所有者・対象となる名前の対応。",
+    "section_title": "PKI (デジタル証明書を使用したデジタル署名)",
+    "sources": [
+      "https://www.infraexpert.com/study/security6.html"
+    ]
+  },
+  {
+    "id": "C10-10-02",
+    "question": "CA（認証局）の主な役割は？",
+    "answer": "所有者などを確認し、公開鍵証明書に署名して発行する。",
+    "section_title": "PKI (デジタル証明書を使用したデジタル署名)",
+    "sources": [
+      "https://www.infraexpert.com/study/security6.html"
+    ]
+  },
+  {
+    "id": "C10-10-03",
+    "question": "証明書の発行元CAによる署名は、どの鍵で検証する？",
+    "answer": "発行元CAの公開鍵。",
+    "section_title": "PKI (デジタル証明書を使用したデジタル署名)",
+    "sources": [
+      "https://www.infraexpert.com/study/security6.html"
+    ]
+  },
+  {
+    "id": "C10-10-04",
+    "question": "X.509は、主に何の形式を定める規格か。",
+    "answer": "公開鍵証明書の形式。",
+    "section_title": "PKI (デジタル証明書を使用したデジタル署名)",
+    "sources": [
+      "https://www.infraexpert.com/study/security6.html"
+    ]
+  },
+  {
+    "id": "C10-10-05",
+    "question": "公開鍵証明書に含まれる、鍵以外の主な情報は？",
+    "answer": "発行者、証明対象、有効期間、シリアル番号など。",
+    "section_title": "PKI (デジタル証明書を使用したデジタル署名)",
+    "sources": [
+      "https://www.infraexpert.com/study/security6.html"
+    ]
+  },
+  {
+    "id": "C10-10-06",
+    "question": "ルートCAと中間CAの、証明書の信頼関係の違いは？",
+    "answer": "ルートCAは信頼の起点となり、中間CAは上位CAの署名付き証明書によって信頼をつなぐ。",
+    "section_title": "PKI (デジタル証明書を使用したデジタル署名)",
+    "sources": [
+      "https://www.infraexpert.com/study/security6.html"
+    ]
+  },
+  {
+    "id": "C10-10-07",
+    "question": "自組織のCAが発行した証明書で、ブラウザに警告が出ることがある理由は？",
+    "answer": "そのCAを信頼する設定が、ブラウザやOSにないため。",
+    "section_title": "PKI (デジタル証明書を使用したデジタル署名)",
+    "sources": [
+      "https://www.infraexpert.com/study/security6.html"
+    ]
+  },
+  {
+    "id": "C10-10-08",
+    "question": "CRLとは何の一覧か。",
+    "answer": "有効期間内でも失効させた証明書の一覧。",
+    "section_title": "PKI (デジタル証明書を使用したデジタル署名)",
+    "sources": [
+      "https://www.infraexpert.com/study/security6.html"
+    ]
+  },
+  {
+    "id": "C10-10-09",
+    "question": "PKIとは、何を扱うための基盤か。",
+    "answer": "公開鍵と証明書の発行・検証・管理によって、認証などを支える基盤。",
+    "section_title": "PKI (デジタル証明書を使用したデジタル署名)",
+    "sources": [
+      "https://www.infraexpert.com/study/security6.html"
+    ]
+  },
+  {
+    "id": "C10-11-01",
+    "question": "検疫ネットワークは、接続する端末の何を確認する？",
+    "answer": "パッチやウイルス対策などが、組織のセキュリティポリシーを満たしているか。",
+    "section_title": "検疫ネットワークとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security10.html"
+    ]
+  },
+  {
+    "id": "C10-11-02",
+    "question": "検疫ネットワークの検査・隔離・治療は、どのような流れか。",
+    "answer": "端末を検査し、不適合なら隔離して更新などを行い、再検査後に通常の接続を許可する。",
+    "section_title": "検疫ネットワークとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security10.html"
+    ]
+  },
+  {
+    "id": "C10-11-03",
+    "question": "認証スイッチ方式の検疫では、検査結果に応じて何を切り替える？",
+    "answer": "端末の接続先VLANなど。",
+    "section_title": "検疫ネットワークとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security10.html"
+    ]
+  },
+  {
+    "id": "C10-11-04",
+    "question": "DHCP方式だけの検疫を、固定IPアドレスの端末が回避できる理由は？",
+    "answer": "DHCPによるアドレスの配布・変更を経ずに通信できるため。",
+    "section_title": "検疫ネットワークとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security10.html"
+    ]
+  },
+  {
+    "id": "C10-11-05",
+    "question": "検疫済み端末と未検疫端末を同じL2ネットワークへ置く問題は？",
+    "answer": "未検疫端末から、検疫済み端末へ直接通信や感染が及び得ること。",
+    "section_title": "検疫ネットワークとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security10.html"
+    ]
+  },
+  {
+    "id": "C10-12-01",
+    "question": "フォワードプロキシは、誰の代理として外部へ接続する？",
+    "answer": "内部ネットワークのクライアント。",
+    "section_title": "プロキシサーバとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security23.html"
+    ]
+  },
+  {
+    "id": "C10-12-02",
+    "question": "通常のフォワードプロキシを経由したTCP接続で、Webサーバから見える送信元IPは？",
+    "answer": "プロキシ側のIPアドレス。",
+    "section_title": "プロキシサーバとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security23.html"
+    ]
+  },
+  {
+    "id": "C10-12-03",
+    "question": "Webプロキシのキャッシュで、外部通信量を減らせる理由は？",
+    "answer": "保存済みの応答を再利用できれば、同じデータを外部から再取得せずに済むため。",
+    "section_title": "プロキシサーバとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security23.html"
+    ]
+  },
+  {
+    "id": "C10-12-04",
+    "question": "Webプロキシで認証やURLフィルタを行う運用上の利点は？",
+    "answer": "利用者の外部Webアクセスを、一元的に管理・制御できる。",
+    "section_title": "プロキシサーバとは",
+    "sources": [
+      "https://www.infraexpert.com/study/security23.html"
+    ]
+  },
+  {
+    "id": "C10-13-01",
+    "question": "PACファイルは、ブラウザに何を判断させるためのファイルか。",
+    "answer": "アクセス先に応じた、プロキシの利用先や直接接続の選択。",
+    "section_title": "プロキシサーバの設定 - WPADプロトコルとPACファイル",
+    "sources": [
+      "https://www.infraexpert.com/study/security29.html"
+    ]
+  },
+  {
+    "id": "C10-13-02",
+    "question": "PACファイルは、どの言語で記述する？",
+    "answer": "JavaScript。",
+    "section_title": "プロキシサーバの設定 - WPADプロトコルとPACファイル",
+    "sources": [
+      "https://www.infraexpert.com/study/security29.html"
+    ]
+  },
+  {
+    "id": "C10-13-03",
+    "question": "PACのURLを指定する方式とWPADの違いは？",
+    "answer": "URL指定は管理者などが取得先を設定し、WPADは取得先を自動検出する。",
+    "section_title": "プロキシサーバの設定 - WPADプロトコルとPACファイル",
+    "sources": [
+      "https://www.infraexpert.com/study/security29.html"
+    ]
+  },
+  {
+    "id": "C10-13-04",
+    "question": "WPADがPACファイルの場所を発見するために使う主な仕組みは？",
+    "answer": "DHCPやDNS。",
+    "section_title": "プロキシサーバの設定 - WPADプロトコルとPACファイル",
+    "sources": [
+      "https://www.infraexpert.com/study/security29.html"
+    ]
+  },
+  {
+    "id": "C10-13-05",
+    "question": "WPADで不正なPACファイルを取得すると、どのような危険がある？",
+    "answer": "通信が攻撃者のプロキシへ誘導され、盗聴や改ざんを受ける可能性がある。",
+    "section_title": "プロキシサーバの設定 - WPADプロトコルとPACファイル",
+    "sources": [
+      "https://www.infraexpert.com/study/security29.html"
+    ]
+  },
+  {
+    "id": "C10-14-01",
+    "question": "Kerberosで、サービスの利用時にパスワードの代わりに提示するものは？",
+    "answer": "チケット。",
+    "section_title": "Kerberos認証とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security18.html"
+    ]
+  },
+  {
+    "id": "C10-14-02",
+    "question": "KerberosのKDCは、何を提供する中心的な機関か。",
+    "answer": "利用者の認証と、サービスを利用するためのチケット発行。",
+    "section_title": "Kerberos認証とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security18.html"
+    ]
+  },
+  {
+    "id": "C10-14-03",
+    "question": "KerberosのASとTGSの主な役割は？",
+    "answer": "ASは初期認証、TGSは各サービス向けチケットの発行。",
+    "section_title": "Kerberos認証とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security18.html"
+    ]
+  },
+  {
+    "id": "C10-14-04",
+    "question": "Kerberosのプリンシパルとレルムは、それぞれ何か。",
+    "answer": "プリンシパルは認証対象のユーザやサービス、レルムはKDCが管理する認証の範囲。",
+    "section_title": "Kerberos認証とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security18.html"
+    ]
+  },
+  {
+    "id": "C10-14-05",
+    "question": "Kerberos認証で時刻同期が重要な理由は？",
+    "answer": "認証情報の時刻を検証し、古い要求の再利用などを防ぐため。",
+    "section_title": "Kerberos認証とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security18.html"
+    ]
+  },
+  {
+    "id": "C10-14-06",
+    "question": "Kerberosがシングルサインオンに適する理由は？",
+    "answer": "初期認証後にチケットを使い、複数サービスへパスワードを再入力せずに認証できるため。",
+    "section_title": "Kerberos認証とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security18.html"
+    ]
+  },
+  {
+    "id": "C10-15-01",
+    "question": "LDAPは、何へアクセスするためのプロトコルか。",
+    "answer": "ユーザや組織などの情報を持つ、ディレクトリサービス。",
+    "section_title": "LDAP認証とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security19.html"
+    ]
+  },
+  {
+    "id": "C10-15-02",
+    "question": "LDAPのエントリは、どのような情報のまとまりか。",
+    "answer": "名前や所属、メールアドレスなど、関連する属性の集合。",
+    "section_title": "LDAP認証とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security19.html"
+    ]
+  },
+  {
+    "id": "C10-15-03",
+    "question": "LDAPのDNとRDNは、関係がどうなっている？",
+    "answer": "DNは対象を一意に示す識別名で、複数のRDNを階層に沿って並べて表す。",
+    "section_title": "LDAP認証とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security19.html"
+    ]
+  },
+  {
+    "id": "C10-15-04",
+    "question": "LDAPの標準的な接続に使うTCPポート番号は？",
+    "answer": "389。",
+    "section_title": "LDAP認証とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security19.html"
+    ]
+  },
+  {
+    "id": "C10-15-05",
+    "question": "LDAPが、単なる認証専用プロトコルではない理由は？",
+    "answer": "認証に加え、ディレクトリ内の情報の検索・追加・変更・削除にも使うため。",
+    "section_title": "LDAP認証とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security19.html"
+    ]
+  },
+  {
+    "id": "C10-16-01",
+    "question": "RADIUSのクライアントは、認証される利用者のPCそのものを指すか。",
+    "answer": "通常は指さない。利用者の認証要求をサーバへ中継するAPやスイッチなどのNASを指す。",
+    "section_title": "Radius認証とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security20.html"
+    ]
+  },
+  {
+    "id": "C10-16-02",
+    "question": "RADIUSサーバとNASの役割の違いは？",
+    "answer": "サーバが認証・認可を判定し、NASが利用者との接点でアクセスを制御する。",
+    "section_title": "Radius認証とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security20.html"
+    ]
+  },
+  {
+    "id": "C10-16-03",
+    "question": "RADIUSの認証とアカウンティングで使う、代表的なUDPポート番号は？",
+    "answer": "認証は1812、アカウンティングは1813。",
+    "section_title": "Radius認証とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security20.html"
+    ]
+  },
+  {
+    "id": "C10-16-04",
+    "question": "RADIUSのAccess-Request・Access-Accept・Access-Rejectの意味は？",
+    "answer": "認証要求、アクセス許可、アクセス拒否。",
+    "section_title": "Radius認証とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security20.html"
+    ]
+  },
+  {
+    "id": "C10-16-05",
+    "question": "RADIUSのアカウンティングでは、どのような情報を記録する？",
+    "answer": "接続時間や通信量など、ネットワークの利用状況。",
+    "section_title": "Radius認証とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security20.html"
+    ]
+  },
+  {
+    "id": "C10-16-06",
+    "question": "RADIUSの属性値ペアとは、どのような情報の表現形式か。",
+    "answer": "ユーザ名などの属性と、その値を組にした形式。",
+    "section_title": "Radius認証とは",
+    "sources": [
+      "https://www.infraexpert.com/study/security20.html"
+    ]
+  },
+  {
+    "id": "C10-17-01",
+    "question": "不正なDHCPサーバが端末へ偽の設定を配布すると、どのような被害が起こり得る？",
+    "answer": "偽のゲートウェイやDNSへ誘導され、通信の盗聴・妨害などを受ける。",
+    "section_title": "DHCPスプーフィングとは",
+    "sources": [
+      "https://www.infraexpert.com/study/dhcpz5.html"
+    ]
+  },
+  {
+    "id": "C10-17-02",
+    "question": "DHCP要求の大量送信によって、正規利用者の接続が妨げられる理由は？",
+    "answer": "アドレスプールやDHCPサーバの処理資源が消費されるため。",
+    "section_title": "DHCPスプーフィングとは",
+    "sources": [
+      "https://www.infraexpert.com/study/dhcpz5.html"
+    ]
+  },
+  {
+    "id": "C10-18-01",
+    "question": "DHCPスヌーピングで、サーバ側のメッセージを受けてよいポートを区別する目的は？",
+    "answer": "不正なDHCPサーバからの応答を、利用者側ポートで遮断するため。",
+    "section_title": "DHCPスヌーピングとは",
+    "sources": [
+      "https://www.infraexpert.com/study/dhcp4.htm"
+    ]
+  },
+  {
+    "id": "C10-18-02",
+    "question": "DHCPスヌーピングのバインディングテーブルは、主に何を対応付ける？",
+    "answer": "クライアントのIPアドレス、MACアドレス、VLAN、接続ポートなど。",
+    "section_title": "DHCPスヌーピングとは",
+    "sources": [
+      "https://www.infraexpert.com/study/dhcp4.htm"
+    ]
+  },
+  {
+    "id": "C10-18-03",
+    "question": "DHCP Option 82は、要求にどのような追加情報を付ける仕組みか。",
+    "answer": "クライアントが接続している回線や中継機器を識別する情報。",
+    "section_title": "DHCPスヌーピングとは",
+    "sources": [
+      "https://www.infraexpert.com/study/dhcp4.htm"
+    ]
+  },
+  {
+    "id": "C10-19-01",
+    "question": "ARPスプーフィングは、端末にどのような誤情報を学習させる攻撃か。",
+    "answer": "IPアドレスとMACアドレスの偽の対応。",
+    "section_title": "ARPスプーフィングとは",
+    "sources": [
+      "https://www.infraexpert.com/study/dhcpz6.html"
+    ]
+  },
+  {
+    "id": "C10-19-02",
+    "question": "ARPスプーフィングで、ゲートウェイのIPと攻撃者のMACを対応付けると何が起こる？",
+    "answer": "本来ゲートウェイへ送るフレームが、攻撃者へ向かう。",
+    "section_title": "ARPスプーフィングとは",
+    "sources": [
+      "https://www.infraexpert.com/study/dhcpz6.html"
+    ]
+  },
+  {
+    "id": "C10-20-01",
+    "question": "BGP Flowspecは、経路に加えてどのような制御情報を配布する？",
+    "answer": "通信を識別する条件と、破棄・速度制限・転送などの処理方法。",
+    "section_title": "BGP Flowspecとは - DDoS対策",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz39.html"
+    ]
+  },
+  {
+    "id": "C10-20-02",
+    "question": "宛先ベースのRTBHで、正当な通信まで止まり得る理由は？",
+    "answer": "対象の宛先への通信を、攻撃通信と区別せず破棄するため。",
+    "section_title": "BGP Flowspecとは - DDoS対策",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz39.html"
+    ]
+  },
+  {
+    "id": "C10-20-03",
+    "question": "BGP Flowspecが、宛先ベースのRTBHより細かく通信を選別できる理由は？",
+    "answer": "送信元IPやポート番号なども組み合わせて、対象フローを指定できるため。",
+    "section_title": "BGP Flowspecとは - DDoS対策",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz39.html"
+    ]
+  },
+  {
+    "id": "C10-21-01",
+    "question": "SPFは、配送元のIPアドレスを何と照合する？",
+    "answer": "エンベロープFromなどのドメインがDNSで公開する、送信を許可したIPアドレスの情報。",
+    "section_title": "なりすましメール対策（SPF、DKIM、DMARC、S/MIME、PGP）",
+    "sources": [
+      "https://www.infraexpert.com/study/security30.html"
+    ]
+  },
+  {
+    "id": "C10-21-02",
+    "question": "DKIMでは、メールに付けた署名を検証する公開鍵をどこで公開する？",
+    "answer": "署名ドメインのDNS。",
+    "section_title": "なりすましメール対策（SPF、DKIM、DMARC、S/MIME、PGP）",
+    "sources": [
+      "https://www.infraexpert.com/study/security30.html"
+    ]
+  },
+  {
+    "id": "C10-21-03",
+    "question": "DKIMの検証は、メール本文の暗号化を意味するか。",
+    "answer": "意味しない。署名によって対象部分の改ざんなどを検出する。",
+    "section_title": "なりすましメール対策（SPF、DKIM、DMARC、S/MIME、PGP）",
+    "sources": [
+      "https://www.infraexpert.com/study/security30.html"
+    ]
+  },
+  {
+    "id": "C10-21-04",
+    "question": "DMARCは、SPF/DKIMを使った認証に何を加える？",
+    "answer": "Fromドメインとの対応の確認と、失敗したメールの扱いやレポートの方針。",
+    "section_title": "なりすましメール対策（SPF、DKIM、DMARC、S/MIME、PGP）",
+    "sources": [
+      "https://www.infraexpert.com/study/security30.html"
+    ]
+  },
+  {
+    "id": "C10-21-05",
+    "question": "DMARCポリシーのnone・quarantine・rejectは、何を求める方針か。",
+    "answer": "noneは特別な処理を求めず監視、quarantineは隔離、rejectは拒否。",
+    "section_title": "なりすましメール対策（SPF、DKIM、DMARC、S/MIME、PGP）",
+    "sources": [
+      "https://www.infraexpert.com/study/security30.html"
+    ]
+  },
+  {
+    "id": "C10-21-06",
+    "question": "S/MIMEとPGPは、何を暗号化・署名する仕組みか。",
+    "answer": "電子メールの内容。",
+    "section_title": "なりすましメール対策（SPF、DKIM、DMARC、S/MIME、PGP）",
+    "sources": [
+      "https://www.infraexpert.com/study/security30.html"
+    ]
+  },
+  {
+    "id": "C10-21-07",
+    "question": "S/MIMEとPGPは、公開鍵の信頼の確認でどのような考え方が違う？",
+    "answer": "S/MIMEはCAによる証明書、PGPは利用者同士の署名などによる信用の輪を使う。",
+    "section_title": "なりすましメール対策（SPF、DKIM、DMARC、S/MIME、PGP）",
+    "sources": [
+      "https://www.infraexpert.com/study/security30.html"
+    ]
+  },
+  {
+    "id": "C10-21-08",
+    "question": "メール転送にTLSを使うことと、S/MIMEなどでメールを暗号化することの違いは？",
+    "answer": "TLSは通信区間を保護し、S/MIMEなどは送信者から受信者までメールの内容を保護できる。",
+    "section_title": "なりすましメール対策（SPF、DKIM、DMARC、S/MIME、PGP）",
+    "sources": [
+      "https://www.infraexpert.com/study/security30.html"
+    ]
+  },
+  {
+    "id": "C10-21-09",
+    "question": "IMAPSとPOP3Sで使う既定のTCPポート番号は？",
+    "answer": "IMAPSは993、POP3Sは995。",
+    "section_title": "なりすましメール対策（SPF、DKIM、DMARC、S/MIME、PGP）",
+    "sources": [
+      "https://www.infraexpert.com/study/security30.html"
+    ]
+  }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "section": 1,
+    "title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+    "url": "https://www.infraexpert.com/study/security1.html",
+    "sha256": "8d70ed73af3e96f8fd5f0ebebe09c69fade06b80d4f1cf91dc17e722bc18d107",
+    "card_ids": [
+      "C10-01-01",
+      "C10-01-02",
+      "C10-01-03",
+      "C10-01-04",
+      "C10-01-05",
+      "C10-01-06",
+      "C10-01-07",
+      "C10-01-08",
+      "C10-01-09",
+      "C10-01-10",
+      "C10-01-11",
+      "C10-01-12",
+      "C10-01-13",
+      "C10-01-14",
+      "C10-01-15",
+      "C10-01-16",
+      "C10-01-17",
+      "C10-01-18",
+      "C10-01-19",
+      "C10-01-20",
+      "C10-01-21",
+      "C10-01-22",
+      "C10-01-23",
+      "C10-01-24",
+      "C10-01-25",
+      "C10-01-26",
+      "C10-01-27"
+    ]
+  },
+  {
+    "section": 2,
+    "title": "オープンネットワークとクローズドネットワーク",
+    "url": "https://www.infraexpert.com/study/security.html",
+    "sha256": "bce013b212255b163e41c1496adcfb582a818f5187fb24a20c7f8918b4359d14",
+    "card_ids": [
+      "C10-02-01",
+      "C10-02-02",
+      "C10-02-03",
+      "C10-02-04",
+      "C10-02-05"
+    ]
+  },
+  {
+    "section": 3,
+    "title": "攻撃者（クラッカー）と攻撃手法（DoS/DDoS）",
+    "url": "https://www.infraexpert.com/study/security2.html",
+    "sha256": "6dcd728a41e779868034dadebd4abd135e1642750e9d12dd230b5668f4e9df88",
+    "card_ids": [
+      "C10-03-01",
+      "C10-03-02"
+    ]
+  },
+  {
+    "section": 4,
+    "title": "Firewallとは、IDSとは、IPSとは、DMZとは",
+    "url": "https://www.infraexpert.com/study/security3.html",
+    "sha256": "1789e37468d3e76c9db758e61b8de582fde4777a835281cee2e14f9828852df6",
+    "card_ids": [
+      "C10-04-01",
+      "C10-04-02",
+      "C10-04-03",
+      "C10-04-04"
+    ]
+  },
+  {
+    "section": 5,
+    "title": "Firewall - Stateful Inspection/Stateful Failover",
+    "url": "https://www.infraexpert.com/study/security25.html",
+    "sha256": "b6a76572125a5ab5a019271cb267e22a2ec6f075c259e6ab7ef770132d73534e",
+    "card_ids": [
+      "C10-05-01",
+      "C10-05-02",
+      "C10-05-03",
+      "C10-05-04"
+    ]
+  },
+  {
+    "section": 6,
+    "title": "WAFとは",
+    "url": "https://www.infraexpert.com/study/security17.html",
+    "sha256": "b328a3844419fca3e96e3998a9cbb31106c1827a0fa7a46091ce597711eca32a",
+    "card_ids": [
+      "C10-06-01",
+      "C10-06-02",
+      "C10-06-03",
+      "C10-06-04",
+      "C10-06-05",
+      "C10-06-06"
+    ]
+  },
+  {
+    "section": 7,
+    "title": "UTM（統合脅威管理）とは",
+    "url": "https://www.infraexpert.com/study/security14.html",
+    "sha256": "0baaf326967ba01c520af9a9fdfcce940f8590ddd3732dc4084d5e3ac35819b8",
+    "card_ids": [
+      "C10-07-01",
+      "C10-07-02",
+      "C10-07-03"
+    ]
+  },
+  {
+    "section": 8,
+    "title": "暗号化と暗号化アルゴリズム",
+    "url": "https://www.infraexpert.com/study/security4.html",
+    "sha256": "209906db1d1ba2a0291a89c49fa9a9e76a1329667c09bbd60bf2aac8ec2984c9",
+    "card_ids": [
+      "C10-08-01",
+      "C10-08-02",
+      "C10-08-03",
+      "C10-08-04",
+      "C10-08-05",
+      "C10-08-06",
+      "C10-08-07",
+      "C10-08-08"
+    ]
+  },
+  {
+    "section": 9,
+    "title": "PKI (デジタル署名)",
+    "url": "https://www.infraexpert.com/study/security5.html",
+    "sha256": "20bc4ab325b2f369404da3db8cd13036e6bc7219f8561dd2e088c3429a23251d",
+    "card_ids": [
+      "C10-09-01",
+      "C10-09-02",
+      "C10-09-03",
+      "C10-09-04"
+    ]
+  },
+  {
+    "section": 10,
+    "title": "PKI (デジタル証明書を使用したデジタル署名)",
+    "url": "https://www.infraexpert.com/study/security6.html",
+    "sha256": "cc97fed7b2365a56d10864432a491d3324729ef3b5e1f0eb1ef4362f4e92241a",
+    "card_ids": [
+      "C10-10-01",
+      "C10-10-02",
+      "C10-10-03",
+      "C10-10-04",
+      "C10-10-05",
+      "C10-10-06",
+      "C10-10-07",
+      "C10-10-08",
+      "C10-10-09"
+    ]
+  },
+  {
+    "section": 11,
+    "title": "検疫ネットワークとは",
+    "url": "https://www.infraexpert.com/study/security10.html",
+    "sha256": "a8f9d55bc25af7f41c855bf3d2a504804653c557ab5fa1a65bf041bdd2d1d648",
+    "card_ids": [
+      "C10-11-01",
+      "C10-11-02",
+      "C10-11-03",
+      "C10-11-04",
+      "C10-11-05"
+    ]
+  },
+  {
+    "section": 12,
+    "title": "プロキシサーバとは",
+    "url": "https://www.infraexpert.com/study/security23.html",
+    "sha256": "e5d6c50647c3108ac2e7bb3bd2e4a51c4331b30aa310efe02bf932746242a7a2",
+    "card_ids": [
+      "C10-12-01",
+      "C10-12-02",
+      "C10-12-03",
+      "C10-12-04"
+    ]
+  },
+  {
+    "section": 13,
+    "title": "プロキシサーバの設定 - WPADプロトコルとPACファイル",
+    "url": "https://www.infraexpert.com/study/security29.html",
+    "sha256": "a8295163d5b82119ad1c7d64947764b66971de881b9a4b3d11d89e7768619001",
+    "card_ids": [
+      "C10-13-01",
+      "C10-13-02",
+      "C10-13-03",
+      "C10-13-04",
+      "C10-13-05"
+    ]
+  },
+  {
+    "section": 14,
+    "title": "Kerberos認証とは",
+    "url": "https://www.infraexpert.com/study/security18.html",
+    "sha256": "b166ca4dee459fbf4ff1719c4a9582ce411ccbe3e0af9796f2fce8cfd98adc7e",
+    "card_ids": [
+      "C10-14-01",
+      "C10-14-02",
+      "C10-14-03",
+      "C10-14-04",
+      "C10-14-05",
+      "C10-14-06"
+    ]
+  },
+  {
+    "section": 15,
+    "title": "LDAP認証とは",
+    "url": "https://www.infraexpert.com/study/security19.html",
+    "sha256": "8908f16f59c8e04a5a902d5e37730fb4c04d2bcd91d003b6f4734be24d1f6a4e",
+    "card_ids": [
+      "C10-15-01",
+      "C10-15-02",
+      "C10-15-03",
+      "C10-15-04",
+      "C10-15-05"
+    ]
+  },
+  {
+    "section": 16,
+    "title": "Radius認証とは",
+    "url": "https://www.infraexpert.com/study/security20.html",
+    "sha256": "5798ad0b5b22847fd2d52d1865eb683e3a86872f581e10fc846b4942d5bbbf40",
+    "card_ids": [
+      "C10-16-01",
+      "C10-16-02",
+      "C10-16-03",
+      "C10-16-04",
+      "C10-16-05",
+      "C10-16-06"
+    ]
+  },
+  {
+    "section": 17,
+    "title": "DHCPスプーフィングとは",
+    "url": "https://www.infraexpert.com/study/dhcpz5.html",
+    "sha256": "fd6d550adaccb8417e3014ff40ea49f58e70c3ea52361643c2b6404fc0a5d881",
+    "card_ids": [
+      "C10-17-01",
+      "C10-17-02"
+    ]
+  },
+  {
+    "section": 18,
+    "title": "DHCPスヌーピングとは",
+    "url": "https://www.infraexpert.com/study/dhcp4.htm",
+    "sha256": "475f3b9032b373ac4c8df2a1008a8d1b0bd3c8b4edfa88d6651353ed81a45a76",
+    "card_ids": [
+      "C10-18-01",
+      "C10-18-02",
+      "C10-18-03"
+    ]
+  },
+  {
+    "section": 19,
+    "title": "ARPスプーフィングとは",
+    "url": "https://www.infraexpert.com/study/dhcpz6.html",
+    "sha256": "a890e8b00b70b0bf62aeb8a31474c664ae41ca623f914c685dbe251b3efe0762",
+    "card_ids": [
+      "C10-19-01",
+      "C10-19-02"
+    ]
+  },
+  {
+    "section": 20,
+    "title": "BGP Flowspecとは - DDoS対策",
+    "url": "https://www.infraexpert.com/study/bgpz39.html",
+    "sha256": "eee5ee861145dba72dab62cc2163a7579b41be682bc371f9a26bd45028bea804",
+    "card_ids": [
+      "C10-20-01",
+      "C10-20-02",
+      "C10-20-03"
+    ]
+  },
+  {
+    "section": 21,
+    "title": "なりすましメール対策（SPF、DKIM、DMARC、S/MIME、PGP）",
+    "url": "https://www.infraexpert.com/study/security30.html",
+    "sha256": "68235be0449a82e8abe5c6e8b4ca7ec5519fd6ec951dbd0ef84f8bc8c38f87c9",
+    "card_ids": [
+      "C10-21-01",
+      "C10-21-02",
+      "C10-21-03",
+      "C10-21-04",
+      "C10-21-05",
+      "C10-21-06",
+      "C10-21-07",
+      "C10-21-08",
+      "C10-21-09"
+    ]
+  }
+]

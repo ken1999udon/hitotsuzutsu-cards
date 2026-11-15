@@ -1,0 +1,470 @@
+[
+  {
+    "id": "C11-01-01",
+    "question": "インターネットVPNとIP-VPNは、利用するネットワークがどう違う？",
+    "answer": "インターネットVPNは公衆インターネット、IP-VPNは事業者が提供する閉域IP網を利用する。",
+    "section_title": "VPN ( Virtual Private Network ) とは",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec.html"
+    ]
+  },
+  {
+    "id": "C11-01-02",
+    "question": "サイト間VPNとリモートアクセスVPNは、接続する相手がどう違う？",
+    "answer": "サイト間VPNは拠点間、リモートアクセスVPNは個々の端末と組織のネットワークを接続する。",
+    "section_title": "VPN ( Virtual Private Network ) とは",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec.html"
+    ]
+  },
+  {
+    "id": "C11-01-03",
+    "question": "VPNゲートウェイ間で接続するサイト間VPNでは、暗号化や復号を主にどこで行う？",
+    "answer": "拠点のVPNゲートウェイ。",
+    "section_title": "VPN ( Virtual Private Network ) とは",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec.html"
+    ]
+  },
+  {
+    "id": "C11-01-04",
+    "question": "VPNで、通常のIP通信より小さいMSSを使うことがある理由は？",
+    "answer": "トンネル用のヘッダや暗号化による付加情報が増えるため。",
+    "section_title": "VPN ( Virtual Private Network ) とは",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec.html"
+    ]
+  },
+  {
+    "id": "C11-02-01",
+    "question": "トンネリングと暗号化は、目的がどう違う？",
+    "answer": "トンネリングは別のパケットなどに包んで運び、暗号化は内容を第三者が読めないようにする。",
+    "section_title": "VPN - VPNの基礎知識",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec2.html"
+    ]
+  },
+  {
+    "id": "C11-02-02",
+    "question": "GREだけで、運ぶデータの機密性を確保できるか。",
+    "answer": "できない。GRE自体には暗号化機能がない。",
+    "section_title": "VPN - VPNの基礎知識",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec2.html"
+    ]
+  },
+  {
+    "id": "C11-02-03",
+    "question": "GREとIPsecを組み合わせる場合、それぞれ主に何を担う？",
+    "answer": "GREがパケットのカプセル化、IPsecが暗号化や完全性の保護。",
+    "section_title": "VPN - VPNの基礎知識",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec2.html"
+    ]
+  },
+  {
+    "id": "C11-02-04",
+    "question": "認証と認可の違いは？",
+    "answer": "認証は相手が誰かの確認、認可は何へのアクセスを認めるかの決定。",
+    "section_title": "VPN - VPNの基礎知識",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec2.html"
+    ]
+  },
+  {
+    "id": "C11-03-01",
+    "question": "ハッシュ値を付けるだけでは、第三者によるデータの偽装を十分に防げない理由は？",
+    "answer": "第三者も、改ざんしたデータから新しいハッシュ値を計算できるため。",
+    "section_title": "VPN - 暗号システムの概要",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec3.html"
+    ]
+  },
+  {
+    "id": "C11-03-02",
+    "question": "HMACは、ハッシュ関数と何を組み合わせる？",
+    "answer": "送受信者が共有する秘密の鍵。",
+    "section_title": "VPN - 暗号システムの概要",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec3.html"
+    ]
+  },
+  {
+    "id": "C11-03-03",
+    "question": "HMACとデジタル署名は、検証側が持つ鍵がどう違う？",
+    "answer": "HMACは送信側と同じ秘密の共通鍵、署名は署名者の公開鍵を使う。",
+    "section_title": "VPN - 暗号システムの概要",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec3.html"
+    ]
+  },
+  {
+    "id": "C11-04-01",
+    "question": "Diffie-Hellman鍵交換は、共通鍵そのものを通信路へ送る方式か。",
+    "answer": "送らない。公開情報を交換し、双方が同じ共有秘密を計算する。",
+    "section_title": "VPN - 共通鍵暗号と公開鍵暗号",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec4.html"
+    ]
+  },
+  {
+    "id": "C11-04-02",
+    "question": "ハッシュ関数の出力である、固定長の要約値を何という？",
+    "answer": "ダイジェスト、またはハッシュ値。",
+    "section_title": "VPN - 共通鍵暗号と公開鍵暗号",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec4.html"
+    ]
+  },
+  {
+    "id": "C11-04-03",
+    "question": "HMACで受信データの完全性を確認する基本的な方法は？",
+    "answer": "受信データと共有鍵から計算した値を、受け取った認証値と比較する。",
+    "section_title": "VPN - 共通鍵暗号と公開鍵暗号",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec4.html"
+    ]
+  },
+  {
+    "id": "C11-05-01",
+    "question": "IPsecが主に通信を保護する、OSI参照モデルの層は？",
+    "answer": "ネットワーク層。",
+    "section_title": "IPsec - AH と ESP",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec5.html"
+    ]
+  },
+  {
+    "id": "C11-05-02",
+    "question": "IPsecのAHとESPは、暗号化機能でどう違う？",
+    "answer": "AHは暗号化せず、ESPは暗号化できる。",
+    "section_title": "IPsec - AH と ESP",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec5.html"
+    ]
+  },
+  {
+    "id": "C11-05-03",
+    "question": "ESPは、暗号化以外にどのような保護を提供できる？",
+    "answer": "データの完全性や送信元の認証、リプレイ防止。",
+    "section_title": "IPsec - AH と ESP",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec5.html"
+    ]
+  },
+  {
+    "id": "C11-05-04",
+    "question": "AHとESPのIPプロトコル番号は？",
+    "answer": "AHは51、ESPは50。",
+    "section_title": "IPsec - AH と ESP",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec5.html"
+    ]
+  },
+  {
+    "id": "C11-05-05",
+    "question": "IPsecのSPIは、主に何を識別する情報か。",
+    "answer": "受信したパケットを処理するSA。",
+    "section_title": "IPsec - AH と ESP",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec5.html"
+    ]
+  },
+  {
+    "id": "C11-05-06",
+    "question": "IPsecのシーケンス番号は、どのような攻撃の検出に使う？",
+    "answer": "過去の正当なパケットを再送するリプレイ攻撃。",
+    "section_title": "IPsec - AH と ESP",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec5.html"
+    ]
+  },
+  {
+    "id": "C11-05-07",
+    "question": "IPsecのICVは、何を検証するための値か。",
+    "answer": "保護対象データの完全性など。",
+    "section_title": "IPsec - AH と ESP",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec5.html"
+    ]
+  },
+  {
+    "id": "C11-05-08",
+    "question": "ESPの認証だけで、外側IPヘッダ全体の完全性も保証できるか。",
+    "answer": "できない。外側IPヘッダはESPの認証対象に含まれない。",
+    "section_title": "IPsec - AH と ESP",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec5.html"
+    ]
+  },
+  {
+    "id": "C11-06-01",
+    "question": "ESPのトランスポートモードとトンネルモードは、元のIPヘッダの扱いがどう違う？",
+    "answer": "トランスポートモードは外側に残し、トンネルモードは元のIPパケットを丸ごと包んで新しいIPヘッダを付ける。",
+    "section_title": "IPsec - トランスポートモードとトンネルモード",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec6.html"
+    ]
+  },
+  {
+    "id": "C11-06-02",
+    "question": "暗号化を行うESPのトンネルモードでは、元のIPヘッダも暗号化の対象か。",
+    "answer": "対象になる。",
+    "section_title": "IPsec - トランスポートモードとトンネルモード",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec6.html"
+    ]
+  },
+  {
+    "id": "C11-06-03",
+    "question": "ESPのトンネルモードで、中継ルータが転送に使う宛先IPは？",
+    "answer": "新しく付けた外側IPヘッダの宛先IPアドレス。",
+    "section_title": "IPsec - トランスポートモードとトンネルモード",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec6.html"
+    ]
+  },
+  {
+    "id": "C11-06-04",
+    "question": "拠点のVPNゲートウェイ同士で、元のIPパケット全体を保護する代表的なIPsecモードは？",
+    "answer": "トンネルモード。",
+    "section_title": "IPsec - トランスポートモードとトンネルモード",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec6.html"
+    ]
+  },
+  {
+    "id": "C11-07-01",
+    "question": "IPsec SAは、主にどのような情報の組か。",
+    "answer": "暗号化・認証方式、鍵、通信モード、有効期間など、保護処理に使うパラメータの組。",
+    "section_title": "IPsec - SA ( Secrutiy Association )",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec7.html"
+    ]
+  },
+  {
+    "id": "C11-07-02",
+    "question": "AH/ESPのIPsec SAは、一方向と双方向のどちらか。",
+    "answer": "一方向。",
+    "section_title": "IPsec - SA ( Secrutiy Association )",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec7.html"
+    ]
+  },
+  {
+    "id": "C11-07-03",
+    "question": "ESPだけで双方向に通信するため、通常いくつのIPsec SAを用意する？",
+    "answer": "送信用と受信用の2つ。",
+    "section_title": "IPsec - SA ( Secrutiy Association )",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec7.html"
+    ]
+  },
+  {
+    "id": "C11-07-04",
+    "question": "IPsecのSADとSPDは、保持する内容がどう違う？",
+    "answer": "SADは有効なSA、SPDはパケットを保護・通過・破棄するなどの処理方針。",
+    "section_title": "IPsec - SA ( Secrutiy Association )",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec7.html"
+    ]
+  },
+  {
+    "id": "C11-08-01",
+    "question": "IPsecで、SAや鍵を自動的に交渉・管理するプロトコルは？",
+    "answer": "IKE。",
+    "section_title": "IPsec - IKE ： ISAKMPメッセージ",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec8.html"
+    ]
+  },
+  {
+    "id": "C11-08-02",
+    "question": "通常のIKEで使う代表的なUDPポート番号は？",
+    "answer": "500。",
+    "section_title": "IPsec - IKE ： ISAKMPメッセージ",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec8.html"
+    ]
+  },
+  {
+    "id": "C11-08-03",
+    "question": "IKEv1のフェーズ1とフェーズ2は、それぞれ何を確立する？",
+    "answer": "フェーズ1はIKEの通信を保護するISAKMP SA、フェーズ2は実データを保護するIPsec SA。",
+    "section_title": "IPsec - IKE ： ISAKMPメッセージ",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec8.html"
+    ]
+  },
+  {
+    "id": "C11-09-01",
+    "question": "IKEv1のフェーズ1で、相手について確認する主なことは？",
+    "answer": "VPNの通信相手が正当な機器かどうか。",
+    "section_title": "IPsec - IKE ： IKEフェーズ1、IKEフェーズ2",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec9.html"
+    ]
+  },
+  {
+    "id": "C11-09-02",
+    "question": "IKEv1のMainモードとAggressiveモードのメッセージ数は？",
+    "answer": "Mainモードは6、Aggressiveモードは3。",
+    "section_title": "IPsec - IKE ： IKEフェーズ1、IKEフェーズ2",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec9.html"
+    ]
+  },
+  {
+    "id": "C11-09-03",
+    "question": "IKEで相手認証に使う事前共有鍵（PSK）とは何か。",
+    "answer": "通信相手同士で、あらかじめ共有しておく秘密の情報。",
+    "section_title": "IPsec - IKE ： IKEフェーズ1、IKEフェーズ2",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec9.html"
+    ]
+  },
+  {
+    "id": "C11-09-04",
+    "question": "IKEの相手認証に使うPSKと、実データの暗号化鍵は同じものか。",
+    "answer": "別のもの。実データ用の鍵は交渉で生成する。",
+    "section_title": "IPsec - IKE ： IKEフェーズ1、IKEフェーズ2",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec9.html"
+    ]
+  },
+  {
+    "id": "C11-09-05",
+    "question": "IKEv1のフェーズ2が、フェーズ1より後に行われる理由は？",
+    "answer": "フェーズ1で確立した保護された通信路を使い、IPsec SAを交渉するため。",
+    "section_title": "IPsec - IKE ： IKEフェーズ1、IKEフェーズ2",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec9.html"
+    ]
+  },
+  {
+    "id": "C11-09-06",
+    "question": "IKEv1のフェーズ2で、IPsec SAのために決める主な情報は？",
+    "answer": "AH/ESP、暗号化・認証方式、通信モード、有効期間など。",
+    "section_title": "IPsec - IKE ： IKEフェーズ1、IKEフェーズ2",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec9.html"
+    ]
+  },
+  {
+    "id": "C11-09-07",
+    "question": "IKEv1のフェーズ2で使う交換モードは？",
+    "answer": "Quickモード。",
+    "section_title": "IPsec - IKE ： IKEフェーズ1、IKEフェーズ2",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec9.html"
+    ]
+  },
+  {
+    "id": "C11-09-08",
+    "question": "IPsecのPFSを有効にして、新しいDH交換を行う目的は？",
+    "answer": "新しい鍵を以前の鍵から独立させ、鍵の漏えいの影響を抑えるため。",
+    "section_title": "IPsec - IKE ： IKEフェーズ1、IKEフェーズ2",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec9.html"
+    ]
+  },
+  {
+    "id": "C11-10-01",
+    "question": "ハブアンドスポーク型VPNで、スポーク間の通信をハブ経由にする問題は？",
+    "answer": "ハブへの負荷集中や、迂回による遅延が増えること。",
+    "section_title": "DMVPNとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec1.html"
+    ]
+  },
+  {
+    "id": "C11-10-02",
+    "question": "フルメッシュ型VPNで、拠点数が増えた際の管理上の課題は？",
+    "answer": "拠点間の接続の組合せが増え、設定や管理が複雑になること。",
+    "section_title": "DMVPNとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ipsec1.html"
+    ]
+  },
+  {
+    "id": "C11-11-01",
+    "question": "MPLSのラベル値は、同じ宛先なら網内の全ルータで同じである必要があるか。",
+    "answer": "ない。各ルータがローカルに割り当てたラベルを配布し、転送時に付け替えられる。",
+    "section_title": "MPLSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/mpls1.html"
+    ]
+  },
+  {
+    "id": "C11-11-02",
+    "question": "MPLS網の入口と出口に位置するエッジルータは、それぞれ何と呼ぶ？",
+    "answer": "入口はIngress LER、出口はEgress LER。",
+    "section_title": "MPLSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/mpls1.html"
+    ]
+  },
+  {
+    "id": "C11-11-03",
+    "question": "MPLSは、高速転送以外にどのような用途で使われる？",
+    "answer": "VPNの分離、QoS、トラフィックエンジニアリングなど。",
+    "section_title": "MPLSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/mpls1.html"
+    ]
+  },
+  {
+    "id": "C11-12-01",
+    "question": "MPLS-TEは、LSPをどのように制御する技術か。",
+    "answer": "帯域や方針などの条件に応じて、通過する経路を制御する技術。",
+    "section_title": "MPLS-TE（Traffic Engineering）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/mpls8.html"
+    ]
+  },
+  {
+    "id": "C11-12-02",
+    "question": "MPLS-TEで、OSPF-TEやIS-IS-TEが配布する主な情報は？",
+    "answer": "利用可能な帯域やリンク属性など、経路計算に必要な情報。",
+    "section_title": "MPLS-TE（Traffic Engineering）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/mpls8.html"
+    ]
+  },
+  {
+    "id": "C11-12-03",
+    "question": "RSVP-TEが、通常のRSVPへ追加する主な役割は？",
+    "answer": "MPLSのLSPを作るためのラベル割当てや、明示的な経路の設定。",
+    "section_title": "MPLS-TE（Traffic Engineering）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/mpls8.html"
+    ]
+  },
+  {
+    "id": "C11-12-04",
+    "question": "RSVP-TEのEROは、何を指定する情報か。",
+    "answer": "LSPが通る明示的な経路。",
+    "section_title": "MPLS-TE（Traffic Engineering）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/mpls8.html"
+    ]
+  },
+  {
+    "id": "C11-12-05",
+    "question": "RSVP-TEのPATHとRESVは、経路設定のどの方向に流れる？",
+    "answer": "PATHは開始側から終端側、RESVはその逆方向。",
+    "section_title": "MPLS-TE（Traffic Engineering）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/mpls8.html"
+    ]
+  },
+  {
+    "id": "C11-12-06",
+    "question": "MPLSのDU方式とDoD方式は、ラベル配布のきっかけがどう違う？",
+    "answer": "DUは要求を待たずに配布し、DoDは要求に応じて配布する。",
+    "section_title": "MPLS-TE（Traffic Engineering）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/mpls8.html"
+    ]
+  }
+]
