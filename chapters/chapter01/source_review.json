@@ -1,0 +1,145 @@
+[
+  {
+    "section": 1,
+    "title": "ネットワークとは",
+    "url": "https://www.infraexpert.com/study/networking.html",
+    "sha256": "63cfe2e7d323f9b73afe7e91445ce929fa58c6c24d897a0a698bac3a7c1448a4",
+    "card_ids": [
+      "C01-01-01",
+      "C01-01-02",
+      "C01-01-03",
+      "C01-01-04",
+      "C01-01-05",
+      "C01-01-06"
+    ]
+  },
+  {
+    "section": 2,
+    "title": "ネットワークストレージとは",
+    "url": "https://www.infraexpert.com/study/networking0.html",
+    "sha256": "e4f85f7ab85034dab265735bfa333e2fea0985003fd738bd425797d19a1d27e7",
+    "card_ids": [
+      "C01-02-01",
+      "C01-02-02",
+      "C01-02-03",
+      "C01-02-04",
+      "C01-02-05"
+    ]
+  },
+  {
+    "section": 3,
+    "title": "ネットワークトポロジーとは",
+    "url": "https://www.infraexpert.com/study/networking1.html",
+    "sha256": "2392b8dca96847beb2b966a0056ed126e72f96ec729060a41516faac75dda910",
+    "card_ids": [
+      "C01-03-01",
+      "C01-03-02",
+      "C01-03-03",
+      "C01-03-04",
+      "C01-03-05",
+      "C01-03-06",
+      "C01-03-07",
+      "C01-03-08",
+      "C01-03-09",
+      "C01-03-10"
+    ]
+  },
+  {
+    "section": 4,
+    "title": "プロトコルとは",
+    "url": "https://www.infraexpert.com/study/networking2.html",
+    "sha256": "4e43f38d9426f23293410a74428b90b3bdcb3ba05249dc4749227e4c188bcb91",
+    "card_ids": [
+      "C01-04-01",
+      "C01-04-02",
+      "C01-04-03",
+      "C01-04-04",
+      "C01-04-05",
+      "C01-04-06"
+    ]
+  },
+  {
+    "section": 5,
+    "title": "OSI 参照モデルとは　その1",
+    "url": "https://www.infraexpert.com/study/networking3.html",
+    "sha256": "66ace1d4b291f8ee9a99ec455efc05cd63018daeb2b13945b6f6c80e01884652",
+    "card_ids": [
+      "C01-05-01",
+      "C01-05-02",
+      "C01-05-03",
+      "C01-05-04",
+      "C01-05-05",
+      "C01-05-06",
+      "C01-05-07",
+      "C01-05-08",
+      "C01-05-09"
+    ]
+  },
+  {
+    "section": 6,
+    "title": "OSI 参照モデルとは　その2",
+    "url": "https://www.infraexpert.com/study/networking4.html",
+    "sha256": "34191b3b7ba6693cba028d6843264bc54a1a8d04ff600deecf9880ef1198d9b4",
+    "card_ids": [
+      "C01-06-01",
+      "C01-06-02",
+      "C01-06-03",
+      "C01-06-04",
+      "C01-06-05",
+      "C01-06-06",
+      "C01-06-07",
+      "C01-06-08",
+      "C01-06-09"
+    ]
+  },
+  {
+    "section": 7,
+    "title": "2進数と10進数との変換",
+    "url": "https://www.infraexpert.com/study/ip1.html",
+    "sha256": "e1eb0a51247604300b7171c86088e3ae30b1f536e5d5962a87d56ec0122411b1",
+    "card_ids": [
+      "C01-07-01",
+      "C01-07-02",
+      "C01-07-03",
+      "C01-07-04",
+      "C01-07-05"
+    ]
+  },
+  {
+    "section": 8,
+    "title": "2進数と16進数との変換",
+    "url": "https://www.infraexpert.com/study/ip2.html",
+    "sha256": "3f3a7a70eb2062a7d25a8ffe1270764d8dae9f07cdbb63e9fc5c261f574a0ac7",
+    "card_ids": [
+      "C01-08-01",
+      "C01-08-02",
+      "C01-08-03",
+      "C01-08-05"
+    ]
+  },
+  {
+    "section": 9,
+    "title": "ユニキャスト、マルチキャスト、ブロードキャスト",
+    "url": "https://www.infraexpert.com/study/networking8.html",
+    "sha256": "2d463b9c54c7c76afb16d3512783fbccb1bb6f36627098e5dbe07c277f69ec7e",
+    "card_ids": [
+      "C01-09-01",
+      "C01-09-02",
+      "C01-09-03",
+      "C01-09-04",
+      "C01-09-05"
+    ]
+  },
+  {
+    "section": 10,
+    "title": "マルチキャストとは",
+    "url": "https://www.infraexpert.com/study/multicastz01.html",
+    "sha256": "9a05249e1462a1c9b231e6d8ae142d393ef55de1dd620f014dfb0b4ba8794936",
+    "card_ids": [
+      "C01-10-01",
+      "C01-10-02",
+      "C01-10-03",
+      "C01-10-04"
+    ]
+  }
+]

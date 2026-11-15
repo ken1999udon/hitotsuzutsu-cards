@@ -1,0 +1,551 @@
+[
+  {
+    "id": "C05-01-01",
+    "question": "IPv4アドレスの長さは何ビットか。",
+    "answer": "32ビット。",
+    "section_title": "IPアドレスとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip3.html"
+    ]
+  },
+  {
+    "id": "C05-01-02",
+    "question": "IPv4アドレスの通常の10進表記は、何ビットずつ何組に分ける？",
+    "answer": "8ビットずつ4組に分ける。",
+    "section_title": "IPアドレスとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip3.html"
+    ]
+  },
+  {
+    "id": "C05-01-03",
+    "question": "IPv4アドレスのネットワーク部とホスト部は、それぞれ何を識別する？",
+    "answer": "ネットワーク部は所属ネットワーク、ホスト部はその中のホストを識別する。",
+    "section_title": "IPアドレスとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip3.html"
+    ]
+  },
+  {
+    "id": "C05-01-04",
+    "question": "IPv4アドレスに付ける「/24」は、何が24ビットであることを示す？",
+    "answer": "ネットワーク部の長さ。",
+    "section_title": "IPアドレスとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip3.html"
+    ]
+  },
+  {
+    "id": "C05-01-05",
+    "question": "クラスフルなIPv4で、クラスA・B・Cの標準ネットワーク部はそれぞれ何ビットか。",
+    "answer": "Aは8ビット、Bは16ビット、Cは24ビット。",
+    "section_title": "IPアドレスとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip3.html"
+    ]
+  },
+  {
+    "id": "C05-01-06",
+    "question": "従来のIPv4のクラスDは、何の用途か。",
+    "answer": "マルチキャスト。",
+    "section_title": "IPアドレスとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip3.html"
+    ]
+  },
+  {
+    "id": "C05-01-07",
+    "question": "IPv4のアドレス空間の不足に対応して開発された、後継のIPは？",
+    "answer": "IPv6。",
+    "section_title": "IPアドレスとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip3.html"
+    ]
+  },
+  {
+    "id": "C05-02-01",
+    "question": "通常のIPv4サブネットで、ネットワークアドレスのホスト部のビットはどうなる？",
+    "answer": "すべて0。",
+    "section_title": "ネットワークアドレス と ブロードキャストアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ip4.html"
+    ]
+  },
+  {
+    "id": "C05-02-02",
+    "question": "通常のIPv4サブネットで、ブロードキャストアドレスのホスト部のビットはどうなる？",
+    "answer": "すべて1。",
+    "section_title": "ネットワークアドレス と ブロードキャストアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ip4.html"
+    ]
+  },
+  {
+    "id": "C05-02-03",
+    "question": "ネットワークアドレスは、何を表すためのアドレスか。",
+    "answer": "ホスト単体ではなく、ネットワーク自体を表す。",
+    "section_title": "ネットワークアドレス と ブロードキャストアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ip4.html"
+    ]
+  },
+  {
+    "id": "C05-02-04",
+    "question": "IPv4の代表的なループバックアドレスは？",
+    "answer": "127.0.0.1。",
+    "section_title": "ネットワークアドレス と ブロードキャストアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ip4.html"
+    ]
+  },
+  {
+    "id": "C05-02-05",
+    "question": "ループバックアドレスへのpingが応答しても、何の疎通までは確認できない？",
+    "answer": "外部のネットワークへの疎通。",
+    "section_title": "ネットワークアドレス と ブロードキャストアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ip4.html"
+    ]
+  },
+  {
+    "id": "C05-02-06",
+    "question": "ダイレクトブロードキャストとは、どこを宛先にするブロードキャストか。",
+    "answer": "特定の別ネットワークに属する全ホストを宛先にするもの。",
+    "section_title": "ネットワークアドレス と ブロードキャストアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ip4.html"
+    ]
+  },
+  {
+    "id": "C05-02-07",
+    "question": "ダイレクトブロードキャストの転送が、ルータで通常無効なのはなぜ？",
+    "answer": "攻撃への悪用などのセキュリティ上の問題があるため。",
+    "section_title": "ネットワークアドレス と ブロードキャストアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ip4.html"
+    ]
+  },
+  {
+    "id": "C05-03-01",
+    "question": "プライベートIPv4アドレスは、どの範囲で一意になるよう管理する？",
+    "answer": "同じ組織内など、相互に通信する内部ネットワークの範囲。",
+    "section_title": "グローバルIPアドレス と プライベートIPアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ip5.html"
+    ]
+  },
+  {
+    "id": "C05-03-02",
+    "question": "10で始まるプライベートIPv4アドレスの範囲を、プレフィックスで表すと？",
+    "answer": "10.0.0.0/8。",
+    "section_title": "グローバルIPアドレス と プライベートIPアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ip5.html"
+    ]
+  },
+  {
+    "id": "C05-03-03",
+    "question": "172で始まるプライベートIPv4アドレスの範囲は？",
+    "answer": "172.16.0.0〜172.31.255.255（172.16.0.0/12）。",
+    "section_title": "グローバルIPアドレス と プライベートIPアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ip5.html"
+    ]
+  },
+  {
+    "id": "C05-03-04",
+    "question": "192で始まるプライベートIPv4アドレスの範囲を、プレフィックスで表すと？",
+    "answer": "192.168.0.0/16。",
+    "section_title": "グローバルIPアドレス と プライベートIPアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ip5.html"
+    ]
+  },
+  {
+    "id": "C05-03-05",
+    "question": "プライベートIPv4アドレスを、そのままインターネット上の宛先として経路制御できるか。",
+    "answer": "できない。NATやプロキシなどを介して外部と通信する。",
+    "section_title": "グローバルIPアドレス と プライベートIPアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ip5.html"
+    ]
+  },
+  {
+    "id": "C05-03-06",
+    "question": "日本でIPアドレス資源の管理・調整を担う組織は？",
+    "answer": "JPNIC。",
+    "section_title": "グローバルIPアドレス と プライベートIPアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/ip5.html"
+    ]
+  },
+  {
+    "id": "C05-04-01",
+    "question": "サブネットマスクの役割は？",
+    "answer": "IPアドレスのネットワーク部とホスト部の境界を示す。",
+    "section_title": "サブネットマスク と サブネット",
+    "sources": [
+      "https://www.infraexpert.com/study/ip6.html"
+    ]
+  },
+  {
+    "id": "C05-04-02",
+    "question": "通常のサブネットマスクで、1のビットと0のビットはそれぞれどの部分を示す？",
+    "answer": "1はネットワーク部、0はホスト部。",
+    "section_title": "サブネットマスク と サブネット",
+    "sources": [
+      "https://www.infraexpert.com/study/ip6.html"
+    ]
+  },
+  {
+    "id": "C05-04-03",
+    "question": "サブネット化では、もとのアドレスのどの部分をネットワークの識別に使う？",
+    "answer": "ホスト部の一部をサブネット部として使う。",
+    "section_title": "サブネットマスク と サブネット",
+    "sources": [
+      "https://www.infraexpert.com/study/ip6.html"
+    ]
+  },
+  {
+    "id": "C05-04-04",
+    "question": "ネットワークを必要な大きさのサブネットへ分ける利点は？",
+    "answer": "ホスト数に合わせてアドレス空間を効率よく割り当てられる。",
+    "section_title": "サブネットマスク と サブネット",
+    "sources": [
+      "https://www.infraexpert.com/study/ip6.html"
+    ]
+  },
+  {
+    "id": "C05-04-05",
+    "question": "IPv4の「/24」のサブネットマスクを、ドット付き10進数で表すと？",
+    "answer": "255.255.255.0。",
+    "section_title": "サブネットマスク と サブネット",
+    "sources": [
+      "https://www.infraexpert.com/study/ip6.html"
+    ]
+  },
+  {
+    "id": "C05-05-01",
+    "question": "サブネット用にnビットを使うと、サブネットは最大いくつ作れる？",
+    "answer": "2のn乗個。",
+    "section_title": "サブネット数/アドレス数の算出方法",
+    "sources": [
+      "https://www.infraexpert.com/study/ip7.html"
+    ]
+  },
+  {
+    "id": "C05-05-02",
+    "question": "通常のIPv4 LANで、2ビット以上のホスト部をhビットとすると、利用可能なホスト数は？",
+    "answer": "2のh乗−2。",
+    "section_title": "サブネット数/アドレス数の算出方法",
+    "sources": [
+      "https://www.infraexpert.com/study/ip7.html"
+    ]
+  },
+  {
+    "id": "C05-05-03",
+    "question": "通常のIPv4 LANで、ホスト数の計算から2を引く理由は？",
+    "answer": "ネットワークアドレスとブロードキャストアドレスを除くため。",
+    "section_title": "サブネット数/アドレス数の算出方法",
+    "sources": [
+      "https://www.infraexpert.com/study/ip7.html"
+    ]
+  },
+  {
+    "id": "C05-05-04",
+    "question": "「/25」のサブネットマスクは？",
+    "answer": "255.255.255.128。",
+    "section_title": "サブネット数/アドレス数の算出方法",
+    "sources": [
+      "https://www.infraexpert.com/study/ip7.html"
+    ]
+  },
+  {
+    "id": "C05-05-05",
+    "question": "「/26」のサブネットマスクは？",
+    "answer": "255.255.255.192。",
+    "section_title": "サブネット数/アドレス数の算出方法",
+    "sources": [
+      "https://www.infraexpert.com/study/ip7.html"
+    ]
+  },
+  {
+    "id": "C05-05-06",
+    "question": "「/27」のサブネットマスクは？",
+    "answer": "255.255.255.224。",
+    "section_title": "サブネット数/アドレス数の算出方法",
+    "sources": [
+      "https://www.infraexpert.com/study/ip7.html"
+    ]
+  },
+  {
+    "id": "C05-05-07",
+    "question": "「/28」のサブネットマスクは？",
+    "answer": "255.255.255.240。",
+    "section_title": "サブネット数/アドレス数の算出方法",
+    "sources": [
+      "https://www.infraexpert.com/study/ip7.html"
+    ]
+  },
+  {
+    "id": "C05-05-08",
+    "question": "「/29」のサブネットマスクは？",
+    "answer": "255.255.255.248。",
+    "section_title": "サブネット数/アドレス数の算出方法",
+    "sources": [
+      "https://www.infraexpert.com/study/ip7.html"
+    ]
+  },
+  {
+    "id": "C05-05-09",
+    "question": "「/30」のサブネットマスクは？",
+    "answer": "255.255.255.252。",
+    "section_title": "サブネット数/アドレス数の算出方法",
+    "sources": [
+      "https://www.infraexpert.com/study/ip7.html"
+    ]
+  },
+  {
+    "id": "C05-05-11",
+    "question": "同じサブネットのブロードキャストアドレスは、次のネットワークアドレスとの関係でどう求める？",
+    "answer": "次のネットワークアドレスの直前のアドレスにする。",
+    "section_title": "サブネット数/アドレス数の算出方法",
+    "sources": [
+      "https://www.infraexpert.com/study/ip7.html"
+    ]
+  },
+  {
+    "id": "C05-05-12",
+    "question": "サブネットの境界を含むオクテットで、アドレス範囲の刻み幅はどう求める？",
+    "answer": "256から、そのオクテットのサブネットマスク値を引く。",
+    "section_title": "サブネット数/アドレス数の算出方法",
+    "sources": [
+      "https://www.infraexpert.com/study/ip7.html"
+    ]
+  },
+  {
+    "id": "C05-06-01",
+    "question": "VLSMとは、サブネットマスクをどのように使う技術か。",
+    "answer": "同じ元ネットワークの中で、長さの異なるサブネットマスクを使う技術。",
+    "section_title": "VLSMとは、CIDRとは、サブネットゼロとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip8.html"
+    ]
+  },
+  {
+    "id": "C05-06-02",
+    "question": "VLSMでアドレス空間の無駄を減らせる理由は？",
+    "answer": "サブネットごとの必要なホスト数に合わせて、異なる大きさを割り当てられるため。",
+    "section_title": "VLSMとは、CIDRとは、サブネットゼロとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip8.html"
+    ]
+  },
+  {
+    "id": "C05-06-03",
+    "question": "RIPv1などのクラスフルなルーティングプロトコルで、VLSMが使えない理由は？",
+    "answer": "経路情報にサブネットマスクを含めて通知しないため。",
+    "section_title": "VLSMとは、CIDRとは、サブネットゼロとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip8.html"
+    ]
+  },
+  {
+    "id": "C05-06-04",
+    "question": "CIDRは、IPアドレスのクラスとの関係でどのような考え方か。",
+    "answer": "クラスの境界にとらわれず、プレフィックス長でアドレスや経路を扱う。",
+    "section_title": "VLSMとは、CIDRとは、サブネットゼロとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip8.html"
+    ]
+  },
+  {
+    "id": "C05-06-05",
+    "question": "連続するネットワークを1つの短いプレフィックスへ集約すると、ルータにどのような利点がある？",
+    "answer": "保持・処理する経路情報を減らせる。",
+    "section_title": "VLSMとは、CIDRとは、サブネットゼロとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip8.html"
+    ]
+  },
+  {
+    "id": "C05-06-06",
+    "question": "ゼロサブネットとは、どの部分のビットがすべて0のサブネットか。",
+    "answer": "サブネット化のために借りたサブネット部。",
+    "section_title": "VLSMとは、CIDRとは、サブネットゼロとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip8.html"
+    ]
+  },
+  {
+    "id": "C05-06-07",
+    "question": "ゼロサブネットを使える場合でも、各サブネットのネットワークアドレスを通常のホストへ割り当ててよいか。",
+    "answer": "よくない。ゼロサブネットの使用と、ホスト部がすべて0のアドレスの使用は別。",
+    "section_title": "VLSMとは、CIDRとは、サブネットゼロとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip8.html"
+    ]
+  },
+  {
+    "id": "C05-07-01",
+    "question": "NATは、パケットの何を変換する技術か。",
+    "answer": "IPアドレス。",
+    "section_title": "NATとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip10.html"
+    ]
+  },
+  {
+    "id": "C05-07-02",
+    "question": "内部端末が外部へ出る通常の送信元NATでは、どのIPアドレスを変換する？",
+    "answer": "送信元IPアドレス。",
+    "section_title": "NATとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip10.html"
+    ]
+  },
+  {
+    "id": "C05-07-03",
+    "question": "送信元NATを通った通信の戻りパケットでは、内部へ戻すために何を変換する？",
+    "answer": "宛先IPアドレス。",
+    "section_title": "NATとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip10.html"
+    ]
+  },
+  {
+    "id": "C05-07-04",
+    "question": "NATで、IPヘッダだけを変換しても動作しないアプリケーションがある理由は？",
+    "answer": "アプリケーションのデータ中にもIPアドレスを含む場合があるため。",
+    "section_title": "NATとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip10.html"
+    ]
+  },
+  {
+    "id": "C05-07-05",
+    "question": "CiscoのNAT用語で、内部ローカルアドレスとは何か。",
+    "answer": "内部ホストに実際に割り当てた、内部側で使うアドレス。",
+    "section_title": "NATとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip10.html"
+    ]
+  },
+  {
+    "id": "C05-07-06",
+    "question": "CiscoのNAT用語で、内部グローバルアドレスとは何か。",
+    "answer": "外部から見える、内部ホストの変換後アドレス。",
+    "section_title": "NATとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip10.html"
+    ]
+  },
+  {
+    "id": "C05-07-07",
+    "question": "CiscoのNAT用語で、外部ローカルと外部グローバルは何の見え方の違いか。",
+    "answer": "外部ホストのアドレスを、内部側から見るか、外部側で見るかの違い。",
+    "section_title": "NATとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip10.html"
+    ]
+  },
+  {
+    "id": "C05-08-01",
+    "question": "スタティックNATでは、アドレスの対応をいつ決める？",
+    "answer": "管理者があらかじめ1対1の対応を設定する。",
+    "section_title": "NATの仕組み",
+    "sources": [
+      "https://www.infraexpert.com/study/ip11.html"
+    ]
+  },
+  {
+    "id": "C05-08-02",
+    "question": "ダイナミックNATは、外部向け通信が発生すると何からアドレスを割り当てる？",
+    "answer": "事前に用意した変換用アドレスプール。",
+    "section_title": "NATの仕組み",
+    "sources": [
+      "https://www.infraexpert.com/study/ip11.html"
+    ]
+  },
+  {
+    "id": "C05-08-03",
+    "question": "アドレスだけを1対1変換するNATでは、同時に変換できる内部端末数を何が制限する？",
+    "answer": "利用できる外部向けアドレスの数。",
+    "section_title": "NATの仕組み",
+    "sources": [
+      "https://www.infraexpert.com/study/ip11.html"
+    ]
+  },
+  {
+    "id": "C05-09-01",
+    "question": "TCP/UDPのNAPTは、IPアドレスのほかに何を変換する？",
+    "answer": "ポート番号。",
+    "section_title": "NAPT（IPマスカレード）の仕組み",
+    "sources": [
+      "https://www.infraexpert.com/study/ip11.5.html"
+    ]
+  },
+  {
+    "id": "C05-09-02",
+    "question": "NAPTによって、複数の内部端末が何を共有できる？",
+    "answer": "外部向けの1つのIPアドレス。",
+    "section_title": "NAPT（IPマスカレード）の仕組み",
+    "sources": [
+      "https://www.infraexpert.com/study/ip11.5.html"
+    ]
+  },
+  {
+    "id": "C05-09-03",
+    "question": "NAPTで同じ外部向けIPアドレスを使う通信を、戻りパケットで区別できる理由は？",
+    "answer": "ポート番号を含む変換情報で、対応する内部の通信を識別するため。",
+    "section_title": "NAPT（IPマスカレード）の仕組み",
+    "sources": [
+      "https://www.infraexpert.com/study/ip11.5.html"
+    ]
+  },
+  {
+    "id": "C05-09-04",
+    "question": "CiscoでNAPTを指す呼び名は？",
+    "answer": "PAT（Port Address Translation）。",
+    "section_title": "NAPT（IPマスカレード）の仕組み",
+    "sources": [
+      "https://www.infraexpert.com/study/ip11.5.html"
+    ]
+  },
+  {
+    "id": "C05-09-05",
+    "question": "LinuxでNAPTを指す代表的な呼び名は？",
+    "answer": "IPマスカレード。",
+    "section_title": "NAPT（IPマスカレード）の仕組み",
+    "sources": [
+      "https://www.infraexpert.com/study/ip11.5.html"
+    ]
+  },
+  {
+    "id": "C05-10-01",
+    "question": "IP Unnumberedは、インターフェースのIPアドレスをどう扱う仕組みか。",
+    "answer": "個別のIPアドレスを割り当てず、別のインターフェースのアドレスを借りる。",
+    "section_title": "IP Unnumbered（IPアンナンバード）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip13.html"
+    ]
+  },
+  {
+    "id": "C05-10-02",
+    "question": "IP Unnumberedによって節約できるものは？",
+    "answer": "ポイントツーポイント接続などに個別に割り当てるIPアドレス。",
+    "section_title": "IP Unnumbered（IPアンナンバード）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip13.html"
+    ]
+  },
+  {
+    "id": "C05-10-03",
+    "question": "PPPoEの端末型払い出しとLAN型払い出しは、割り当てるものがどう違う？",
+    "answer": "端末型は1つのIPアドレス、LAN型は1つのIPネットワークのアドレス範囲を割り当てる。",
+    "section_title": "IP Unnumbered（IPアンナンバード）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/ip13.html"
+    ]
+  }
+]

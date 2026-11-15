@@ -1,0 +1,767 @@
+[
+  {
+    "id": "C04-01-01",
+    "question": "VLANとは、何を論理的に分ける技術か。",
+    "answer": "物理的な接続にとらわれず、LANセグメントを論理的に分ける技術。",
+    "section_title": "VLANの概要",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz1.html"
+    ]
+  },
+  {
+    "id": "C04-01-02",
+    "question": "VLANによって分割できる、ブロードキャストの届く範囲を何という？",
+    "answer": "ブロードキャストドメイン。",
+    "section_title": "VLANの概要",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz1.html"
+    ]
+  },
+  {
+    "id": "C04-01-03",
+    "question": "同じVLANは、複数のスイッチにまたがって構成できるか。",
+    "answer": "構成できる。",
+    "section_title": "VLANの概要",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz1.html"
+    ]
+  },
+  {
+    "id": "C04-01-04",
+    "question": "異なるVLAN間で通信するには、通常どの機能が必要か。",
+    "answer": "ルータやL3スイッチによるルーティング。",
+    "section_title": "VLANの概要",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz1.html"
+    ]
+  },
+  {
+    "id": "C04-01-05",
+    "question": "VLANによる分離が、不要な通信負荷を減らす理由は？",
+    "answer": "ブロードキャストの届く範囲をVLAN内に限定できるため。",
+    "section_title": "VLANの概要",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz1.html"
+    ]
+  },
+  {
+    "id": "C04-01-06",
+    "question": "管理VLANとは、何のためのVLANか。",
+    "answer": "スイッチへの設定・監視など、管理用の通信を流すVLAN。",
+    "section_title": "VLANの概要",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz1.html"
+    ]
+  },
+  {
+    "id": "C04-01-07",
+    "question": "Catalystの標準的な初期設定で、デフォルトVLANとして使われるVLAN IDは？",
+    "answer": "VLAN 1。",
+    "section_title": "VLANの概要",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz1.html"
+    ]
+  },
+  {
+    "id": "C04-02-01",
+    "question": "通常のアクセスポートとトランクポートは、扱うVLANの数でどう違う？",
+    "answer": "アクセスポートは1つ、トランクポートは複数のVLANを扱う。",
+    "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz2.html"
+    ]
+  },
+  {
+    "id": "C04-02-02",
+    "question": "スタティックVLANとダイナミックVLANの割当て方法の違いは？",
+    "answer": "スタティックは管理者がポートへ固定で割り当て、ダイナミックは接続端末などの情報で動的に決める。",
+    "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz2.html"
+    ]
+  },
+  {
+    "id": "C04-02-03",
+    "question": "ダイナミックVLANで、所属VLANの判断に使う情報の例は？",
+    "answer": "端末のMACアドレス、IPアドレス、認証ユーザーなど。",
+    "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz2.html"
+    ]
+  },
+  {
+    "id": "C04-02-04",
+    "question": "MACベースのダイナミックVLANで、VMPSが保持する情報は？",
+    "answer": "端末のMACアドレスと所属VLANの対応情報。",
+    "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz2.html"
+    ]
+  },
+  {
+    "id": "C04-02-05",
+    "question": "スイッチ間の1本のリンクで、複数のVLANを運ぶ接続方式は？",
+    "answer": "トランク接続。",
+    "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz2.html"
+    ]
+  },
+  {
+    "id": "C04-02-06",
+    "question": "802.1Qのタグは、トランクリンク上で何を識別するために付ける？",
+    "answer": "フレームが所属するVLAN。",
+    "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz2.html"
+    ]
+  },
+  {
+    "id": "C04-02-07",
+    "question": "802.1Qタグは、Ethernetフレームのどの位置へ挿入する？",
+    "answer": "送信元MACアドレスとTypeフィールドの間。",
+    "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz2.html"
+    ]
+  },
+  {
+    "id": "C04-02-08",
+    "question": "802.1Qタグの長さは？",
+    "answer": "4バイト。",
+    "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz2.html"
+    ]
+  },
+  {
+    "id": "C04-02-09",
+    "question": "802.1QタグのTPIDに入る代表的な値は？",
+    "answer": "0x8100。",
+    "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz2.html"
+    ]
+  },
+  {
+    "id": "C04-02-10",
+    "question": "802.1Qタグで、VLAN IDを格納するVIDは何ビットか。",
+    "answer": "12ビット。",
+    "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz2.html"
+    ]
+  },
+  {
+    "id": "C04-02-11",
+    "question": "802.1QのPCPは、何を示すフィールドか。",
+    "answer": "フレームの優先度。3ビットで0〜7を表す。",
+    "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz2.html"
+    ]
+  },
+  {
+    "id": "C04-02-12",
+    "question": "通常の802.1Qトランクで、タグを付けずに転送するVLANを何という？",
+    "answer": "ネイティブVLAN。",
+    "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz2.html"
+    ]
+  },
+  {
+    "id": "C04-02-13",
+    "question": "トランク両端のネイティブVLANを一致させる理由は？",
+    "answer": "タグなしフレームを、両端で同じVLANの通信として扱うため。",
+    "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz2.html"
+    ]
+  },
+  {
+    "id": "C04-02-14",
+    "question": "802.1QとCisco独自のISLは、フレームへのVLAN情報の付け方がどう違う？",
+    "answer": "802.1Qはタグを挿入し、ISLは元のフレーム全体をカプセル化する。",
+    "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz2.html"
+    ]
+  },
+  {
+    "id": "C04-03-01",
+    "question": "Q-in-Qは、顧客のタグ付きフレームをどのように運ぶ？",
+    "answer": "顧客のVLANタグを残したまま、事業者側のVLANタグを追加して運ぶ。",
+    "section_title": "IEEE802.1q トンネリング（Q-in-Q）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz17.html"
+    ]
+  },
+  {
+    "id": "C04-03-02",
+    "question": "Q-in-Qで、顧客間のVLAN IDが重複しても分離できるのはなぜ？",
+    "answer": "事業者側の外側タグで、顧客の通信を区別するため。",
+    "section_title": "IEEE802.1q トンネリング（Q-in-Q）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz17.html"
+    ]
+  },
+  {
+    "id": "C04-03-03",
+    "question": "Q-in-Qで、事業者網へ付加した外側のタグは顧客側へ出るときどうする？",
+    "answer": "事業者網の出口で外す。",
+    "section_title": "IEEE802.1q トンネリング（Q-in-Q）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz17.html"
+    ]
+  },
+  {
+    "id": "C04-03-04",
+    "question": "Q-in-Qのサービスエッジで、顧客のVLANを収容するポートを何という？",
+    "answer": "トンネルポート。",
+    "section_title": "IEEE802.1q トンネリング（Q-in-Q）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/vlanz17.html"
+    ]
+  },
+  {
+    "id": "C04-04-01",
+    "question": "STPの主な目的は？",
+    "answer": "冗長なL2構成で転送経路のループを防ぐ。",
+    "section_title": "STP - スパニングツリープロトコルの概要",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz1.html"
+    ]
+  },
+  {
+    "id": "C04-04-02",
+    "question": "L2ループでブロードキャストが繰り返し複製・転送される状態は？",
+    "answer": "ブロードキャストストーム。",
+    "section_title": "STP - スパニングツリープロトコルの概要",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz1.html"
+    ]
+  },
+  {
+    "id": "C04-04-03",
+    "question": "STPは、物理的な冗長リンクを残したまま、どのようにループを防ぐ？",
+    "answer": "一部のポートでユーザーデータの転送を止め、論理的なツリーを作る。",
+    "section_title": "STP - スパニングツリープロトコルの概要",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz1.html"
+    ]
+  },
+  {
+    "id": "C04-04-04",
+    "question": "STPの制御情報を交換するフレームは？",
+    "answer": "BPDU（Bridge Protocol Data Unit）。",
+    "section_title": "STP - スパニングツリープロトコルの概要",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz1.html"
+    ]
+  },
+  {
+    "id": "C04-04-05",
+    "question": "従来のSTPを標準化したIEEE規格は？",
+    "answer": "IEEE 802.1D。",
+    "section_title": "STP - スパニングツリープロトコルの概要",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz1.html"
+    ]
+  },
+  {
+    "id": "C04-04-06",
+    "question": "STPのブリッジIDを構成する主な情報は？",
+    "answer": "ブリッジプライオリティとMACアドレス。",
+    "section_title": "STP - スパニングツリープロトコルの概要",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz1.html"
+    ]
+  },
+  {
+    "id": "C04-04-07",
+    "question": "STPでいうルートパスコストは、何を表す？",
+    "answer": "ルートブリッジまでの経路の累積コスト。",
+    "section_title": "STP - スパニングツリープロトコルの概要",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz1.html"
+    ]
+  },
+  {
+    "id": "C04-04-08",
+    "question": "STPの経路選択では、パスコストは大きい方と小さい方のどちらが優先される？",
+    "answer": "小さい方。",
+    "section_title": "STP - スパニングツリープロトコルの概要",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz1.html"
+    ]
+  },
+  {
+    "id": "C04-05-01",
+    "question": "STPのルートブリッジには、何が最小のスイッチを選ぶ？",
+    "answer": "ブリッジID。",
+    "section_title": "STP - スパニングツリープロトコルの動作",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz2.html"
+    ]
+  },
+  {
+    "id": "C04-05-02",
+    "question": "ブリッジIDを比較するとき、プライオリティが同じなら何で決める？",
+    "answer": "MACアドレスの小さい方で決める。",
+    "section_title": "STP - スパニングツリープロトコルの動作",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz2.html"
+    ]
+  },
+  {
+    "id": "C04-05-03",
+    "question": "STPのルートポートは、各非ルートブリッジにいくつ選ばれる？",
+    "answer": "1つ。",
+    "section_title": "STP - スパニングツリープロトコルの動作",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz2.html"
+    ]
+  },
+  {
+    "id": "C04-05-04",
+    "question": "ルートポートの選出で、最初に比較する値は？",
+    "answer": "ルートブリッジまでのルートパスコスト。",
+    "section_title": "STP - スパニングツリープロトコルの動作",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz2.html"
+    ]
+  },
+  {
+    "id": "C04-05-05",
+    "question": "ルートポート候補のパスコストが同じ場合、次に比較する情報は？",
+    "answer": "受信したBPDUの送信元ブリッジID。",
+    "section_title": "STP - スパニングツリープロトコルの動作",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz2.html"
+    ]
+  },
+  {
+    "id": "C04-05-06",
+    "question": "ルートポート候補のパスコストと送信元ブリッジIDも同じなら、次に何を比較する？",
+    "answer": "送信元ポートID。",
+    "section_title": "STP - スパニングツリープロトコルの動作",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz2.html"
+    ]
+  },
+  {
+    "id": "C04-05-07",
+    "question": "STPの指定ポートは、どの単位で選ばれる？",
+    "answer": "各リンク（セグメント）ごとに1つ。",
+    "section_title": "STP - スパニングツリープロトコルの動作",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz2.html"
+    ]
+  },
+  {
+    "id": "C04-05-08",
+    "question": "STPの指定ポート選出では、最初にスイッチ間のどの値を比較する？",
+    "answer": "ルートブリッジまでのルートパスコスト。",
+    "section_title": "STP - スパニングツリープロトコルの動作",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz2.html"
+    ]
+  },
+  {
+    "id": "C04-05-09",
+    "question": "通常のSTPツリーで、ルートブリッジのポートはどの役割になる？",
+    "answer": "指定ポート。",
+    "section_title": "STP - スパニングツリープロトコルの動作",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz2.html"
+    ]
+  },
+  {
+    "id": "C04-05-10",
+    "question": "従来STPで、ルートポートにも指定ポートにもならなかったポートの役割は？",
+    "answer": "非指定ポート。",
+    "section_title": "STP - スパニングツリープロトコルの動作",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz2.html"
+    ]
+  },
+  {
+    "id": "C04-05-11",
+    "question": "STPのブロッキングポートは、BPDUも受信しないのか。",
+    "answer": "ユーザーデータは転送しないが、BPDUは受信する。",
+    "section_title": "STP - スパニングツリープロトコルの動作",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz2.html"
+    ]
+  },
+  {
+    "id": "C04-05-12",
+    "question": "STPのポートIDは、主に何を組み合わせたものか。",
+    "answer": "ポートプライオリティとポート番号。",
+    "section_title": "STP - スパニングツリープロトコルの動作",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz2.html"
+    ]
+  },
+  {
+    "id": "C04-06-01",
+    "question": "従来STPのリスニング状態は、MAC学習とユーザーデータの転送を行うか。",
+    "answer": "どちらも行わない。",
+    "section_title": "STP - スパニングツリープロトコルのポート状態",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz3.html"
+    ]
+  },
+  {
+    "id": "C04-06-02",
+    "question": "従来STPのラーニング状態は、MAC学習とユーザーデータの転送を行うか。",
+    "answer": "MAC学習は行うが、ユーザーデータは転送しない。",
+    "section_title": "STP - スパニングツリープロトコルのポート状態",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz3.html"
+    ]
+  },
+  {
+    "id": "C04-06-03",
+    "question": "従来STPで、MAC学習とユーザーデータの転送を両方行う状態は？",
+    "answer": "フォワーディング。",
+    "section_title": "STP - スパニングツリープロトコルのポート状態",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz3.html"
+    ]
+  },
+  {
+    "id": "C04-06-04",
+    "question": "従来STPで、ポートがデータ転送できるまでにリスニングとラーニングを経る理由は？",
+    "answer": "BPDUでループのない構成を決め、MAC情報を学習してから転送を始めるため。",
+    "section_title": "STP - スパニングツリープロトコルのポート状態",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz3.html"
+    ]
+  },
+  {
+    "id": "C04-06-05",
+    "question": "従来STPの標準的なHello Timeは？",
+    "answer": "2秒。",
+    "section_title": "STP - スパニングツリープロトコルのポート状態",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz3.html"
+    ]
+  },
+  {
+    "id": "C04-06-06",
+    "question": "従来STPの標準的なMax Ageは？",
+    "answer": "20秒。",
+    "section_title": "STP - スパニングツリープロトコルのポート状態",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz3.html"
+    ]
+  },
+  {
+    "id": "C04-06-07",
+    "question": "従来STPの標準的なForward Delayは、リスニング・ラーニングの各状態で何秒か。",
+    "answer": "それぞれ15秒。",
+    "section_title": "STP - スパニングツリープロトコルのポート状態",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz3.html"
+    ]
+  },
+  {
+    "id": "C04-06-08",
+    "question": "従来STPでMax Ageの満了を待つ障害時は、標準タイマーで収束まで最大何秒かかる？",
+    "answer": "50秒。Max Age 20秒と、リスニング・ラーニング各15秒。",
+    "section_title": "STP - スパニングツリープロトコルのポート状態",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz3.html"
+    ]
+  },
+  {
+    "id": "C04-06-09",
+    "question": "STPの収束とは、どのような状態になることか。",
+    "answer": "ポートの役割と転送・遮断状態が決まり、構成が安定すること。",
+    "section_title": "STP - スパニングツリープロトコルのポート状態",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz3.html"
+    ]
+  },
+  {
+    "id": "C04-07-01",
+    "question": "CSTとPVST+は、スパニングツリーの作成単位がどう違う？",
+    "answer": "CSTは全体で1つ、PVST+はVLANごとに1つのツリーを作る。",
+    "section_title": "STP - CSTとは、PVSTとは",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz4.html"
+    ]
+  },
+  {
+    "id": "C04-07-02",
+    "question": "PVST+で、VLANごとに異なるルートブリッジを設定する利点は？",
+    "answer": "VLANごとに転送経路を変え、複数のリンクへ負荷分散できる。",
+    "section_title": "STP - CSTとは、PVSTとは",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz4.html"
+    ]
+  },
+  {
+    "id": "C04-07-03",
+    "question": "PVST+の拡張システムIDには、何を格納する？",
+    "answer": "VLAN ID。",
+    "section_title": "STP - CSTとは、PVSTとは",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz4.html"
+    ]
+  },
+  {
+    "id": "C04-07-04",
+    "question": "拡張システムIDを使う場合、ブリッジプライオリティは何刻みで設定する？",
+    "answer": "4096刻み。",
+    "section_title": "STP - CSTとは、PVSTとは",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz4.html"
+    ]
+  },
+  {
+    "id": "C04-08-01",
+    "question": "RSTPは、従来STPのどの点を主に改善したプロトコルか。",
+    "answer": "トポロジー変更時の収束速度。",
+    "section_title": "RSTP（ IEEE802.1W ）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz8.html"
+    ]
+  },
+  {
+    "id": "C04-08-02",
+    "question": "RSTPを追加したIEEE規格は？",
+    "answer": "IEEE 802.1w。",
+    "section_title": "RSTP（ IEEE802.1W ）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz8.html"
+    ]
+  },
+  {
+    "id": "C04-08-03",
+    "question": "RSTPの3つのポート状態は？",
+    "answer": "ディスカーディング、ラーニング、フォワーディング。",
+    "section_title": "RSTP（ IEEE802.1W ）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz8.html"
+    ]
+  },
+  {
+    "id": "C04-08-04",
+    "question": "RSTPの代替ポートは、どのポートの予備となる？",
+    "answer": "ルートポート。",
+    "section_title": "RSTP（ IEEE802.1W ）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz8.html"
+    ]
+  },
+  {
+    "id": "C04-08-05",
+    "question": "RSTPのバックアップポートは、どのポートの予備となる？",
+    "answer": "同じ共有セグメント上の指定ポート。",
+    "section_title": "RSTP（ IEEE802.1W ）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz8.html"
+    ]
+  },
+  {
+    "id": "C04-08-06",
+    "question": "RSTPで高速な切替えを合意するため、BPDUで交換するメッセージは？",
+    "answer": "プロポーザル（提案）とアグリーメント（合意）。",
+    "section_title": "RSTP（ IEEE802.1W ）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz8.html"
+    ]
+  },
+  {
+    "id": "C04-08-07",
+    "question": "RSTPは、従来のSTPと接続できるか。",
+    "answer": "互換性があり接続できるが、従来STPと接続する部分では高速収束が制限される。",
+    "section_title": "RSTP（ IEEE802.1W ）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz8.html"
+    ]
+  },
+  {
+    "id": "C04-09-01",
+    "question": "MSTPでは、複数のVLANを何という単位へまとめる？",
+    "answer": "スパニングツリーのインスタンス。",
+    "section_title": "MSTP（ IEEE802.1S ）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz16.html"
+    ]
+  },
+  {
+    "id": "C04-09-02",
+    "question": "MSTPがPVST+より計算負荷を抑えられる理由は？",
+    "answer": "VLANごとではなく、複数VLANをまとめたインスタンスごとに経路計算するため。",
+    "section_title": "MSTP（ IEEE802.1S ）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz16.html"
+    ]
+  },
+  {
+    "id": "C04-09-03",
+    "question": "MSTPの高速収束の基礎となるプロトコルは？",
+    "answer": "RSTP。",
+    "section_title": "MSTP（ IEEE802.1S ）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz16.html"
+    ]
+  },
+  {
+    "id": "C04-09-04",
+    "question": "MSTPを追加したIEEE規格は？",
+    "answer": "IEEE 802.1s。",
+    "section_title": "MSTP（ IEEE802.1S ）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz16.html"
+    ]
+  },
+  {
+    "id": "C04-10-01",
+    "question": "リンクアグリゲーションとは、複数の物理リンクをどう扱う技術か。",
+    "answer": "束ねて1本の論理リンクとして扱う技術。",
+    "section_title": "リンクアグリゲーションとは",
+    "sources": [
+      "https://www.infraexpert.com/study/etherchannel.html"
+    ]
+  },
+  {
+    "id": "C04-10-02",
+    "question": "リンクアグリゲーションで、構成する1本のリンクが故障すると通信はどうなる？",
+    "answer": "残りのリンクで通信を継続できるが、利用可能な合計帯域は減る。",
+    "section_title": "リンクアグリゲーションとは",
+    "sources": [
+      "https://www.infraexpert.com/study/etherchannel.html"
+    ]
+  },
+  {
+    "id": "C04-10-03",
+    "question": "Ciscoがリンクアグリゲーションに使う呼び名は？",
+    "answer": "EtherChannel。",
+    "section_title": "リンクアグリゲーションとは",
+    "sources": [
+      "https://www.infraexpert.com/study/etherchannel.html"
+    ]
+  },
+  {
+    "id": "C04-10-04",
+    "question": "リンクアグリゲーションを動的に交渉する標準プロトコルは？",
+    "answer": "LACP。",
+    "section_title": "リンクアグリゲーションとは",
+    "sources": [
+      "https://www.infraexpert.com/study/etherchannel.html"
+    ]
+  },
+  {
+    "id": "C04-10-05",
+    "question": "静的なリンクアグリゲーションとLACPを使う方式の違いは？",
+    "answer": "静的方式は交渉せず手動で構成し、LACP方式は相手と交渉して構成する。",
+    "section_title": "リンクアグリゲーションとは",
+    "sources": [
+      "https://www.infraexpert.com/study/etherchannel.html"
+    ]
+  },
+  {
+    "id": "C04-10-06",
+    "question": "リンクアグリゲーションで、負荷分散先を選ぶために使う情報の例は？",
+    "answer": "送信元・宛先のMACアドレスやIPアドレス。",
+    "section_title": "リンクアグリゲーションとは",
+    "sources": [
+      "https://www.infraexpert.com/study/etherchannel.html"
+    ]
+  },
+  {
+    "id": "C04-10-07",
+    "question": "リンク集約した複数のケーブルが、STPで個別に遮断されない理由は？",
+    "answer": "束ねた1本の論理リンクとして扱われる。",
+    "section_title": "リンクアグリゲーションとは",
+    "sources": [
+      "https://www.infraexpert.com/study/etherchannel.html"
+    ]
+  },
+  {
+    "id": "C04-11-01",
+    "question": "NICチーミングとは何か。",
+    "answer": "複数の物理NICを、1つの仮想的なNICとして扱う技術。",
+    "section_title": "チーミングとは",
+    "sources": [
+      "https://www.infraexpert.com/study/etherchannel1.html"
+    ]
+  },
+  {
+    "id": "C04-11-02",
+    "question": "NICチーミングのフォールトトレランス方式は、NICをどう使う？",
+    "answer": "稼働系と待機系に分け、障害時に待機系へ切り替える。",
+    "section_title": "チーミングとは",
+    "sources": [
+      "https://www.infraexpert.com/study/etherchannel1.html"
+    ]
+  },
+  {
+    "id": "C04-11-03",
+    "question": "NICチーミングのロードバランシング方式は、通信をどう分散する？",
+    "answer": "複数のNICへ通信を分散し、各通信は基本的に1枚のNICで処理する。",
+    "section_title": "チーミングとは",
+    "sources": [
+      "https://www.infraexpert.com/study/etherchannel1.html"
+    ]
+  },
+  {
+    "id": "C04-11-04",
+    "question": "サーバ側でリンクアグリゲーションを構成するとき、接続先スイッチにも必要な設定は？",
+    "answer": "対応するリンクアグリゲーションの設定。",
+    "section_title": "チーミングとは",
+    "sources": [
+      "https://www.infraexpert.com/study/etherchannel1.html"
+    ]
+  },
+  {
+    "id": "C04-11-05",
+    "question": "サーバのNICを冗長化しても、接続先スイッチが1台だけなら何が残る？",
+    "answer": "そのスイッチが単一障害点となる。",
+    "section_title": "チーミングとは",
+    "sources": [
+      "https://www.infraexpert.com/study/etherchannel1.html"
+    ]
+  },
+  {
+    "id": "C04-11-06",
+    "question": "リンクステートトラッキングは、上位リンク障害を下位のサーバへどう伝える？",
+    "answer": "関連付けたサーバ向けリンクをダウンさせ、NIC側が障害を検知できるようにする。",
+    "section_title": "チーミングとは",
+    "sources": [
+      "https://www.infraexpert.com/study/etherchannel1.html"
+    ]
+  },
+  {
+    "id": "C04-12-01",
+    "question": "スイッチのスタックとは、複数の物理スイッチをどう動作させる技術か。",
+    "answer": "1台の論理スイッチとして動作させる技術。",
+    "section_title": "スタックとは",
+    "sources": [
+      "https://www.infraexpert.com/study/etherchannel2.html"
+    ]
+  },
+  {
+    "id": "C04-12-02",
+    "question": "スイッチをスタックして管理する利点は？",
+    "answer": "設定や監視を、1台の論理スイッチとしてまとめて扱える。",
+    "section_title": "スタックとは",
+    "sources": [
+      "https://www.infraexpert.com/study/etherchannel2.html"
+    ]
+  },
+  {
+    "id": "C04-12-03",
+    "question": "スタックが、サーバや下位スイッチのリンク集約に役立つ理由は？",
+    "answer": "複数の物理スイッチにまたがるポートを、1つのリンク集約として構成できるため。",
+    "section_title": "スタックとは",
+    "sources": [
+      "https://www.infraexpert.com/study/etherchannel2.html"
+    ]
+  }
+]

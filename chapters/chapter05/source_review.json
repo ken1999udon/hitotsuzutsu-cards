@@ -1,0 +1,143 @@
+[
+  {
+    "section": 1,
+    "title": "IPアドレスとは",
+    "url": "https://www.infraexpert.com/study/ip3.html",
+    "sha256": "4f68c7f539c9fb20d2062064f7413b9a52b211b684fb299d4cc8e9eb4bfcc7f4",
+    "card_ids": [
+      "C05-01-01",
+      "C05-01-02",
+      "C05-01-03",
+      "C05-01-04",
+      "C05-01-05",
+      "C05-01-06",
+      "C05-01-07"
+    ]
+  },
+  {
+    "section": 2,
+    "title": "ネットワークアドレス と ブロードキャストアドレス",
+    "url": "https://www.infraexpert.com/study/ip4.html",
+    "sha256": "97f09de389430d6565f1bd90014869660b2e80bc02180526e1f2b399bb0b86eb",
+    "card_ids": [
+      "C05-02-01",
+      "C05-02-02",
+      "C05-02-03",
+      "C05-02-04",
+      "C05-02-05",
+      "C05-02-06",
+      "C05-02-07"
+    ]
+  },
+  {
+    "section": 3,
+    "title": "グローバルIPアドレス と プライベートIPアドレス",
+    "url": "https://www.infraexpert.com/study/ip5.html",
+    "sha256": "d385177e247d8f8b6ec5f8c550b467a7bffd2657bfa9bd60d2908f970603a9dc",
+    "card_ids": [
+      "C05-03-01",
+      "C05-03-02",
+      "C05-03-03",
+      "C05-03-04",
+      "C05-03-05",
+      "C05-03-06"
+    ]
+  },
+  {
+    "section": 4,
+    "title": "サブネットマスク と サブネット",
+    "url": "https://www.infraexpert.com/study/ip6.html",
+    "sha256": "34771eeb12f6243c6c8239a520d48e4c1ba1aac92c73ecfd1691bcf28f14774b",
+    "card_ids": [
+      "C05-04-01",
+      "C05-04-02",
+      "C05-04-03",
+      "C05-04-04",
+      "C05-04-05"
+    ]
+  },
+  {
+    "section": 5,
+    "title": "サブネット数/アドレス数の算出方法",
+    "url": "https://www.infraexpert.com/study/ip7.html",
+    "sha256": "a2972dd3b30d8c373a76545aa34d01db1b8bf58c2670077d9a482624e265f0cf",
+    "card_ids": [
+      "C05-05-01",
+      "C05-05-02",
+      "C05-05-03",
+      "C05-05-04",
+      "C05-05-05",
+      "C05-05-06",
+      "C05-05-07",
+      "C05-05-08",
+      "C05-05-09",
+      "C05-05-11",
+      "C05-05-12"
+    ]
+  },
+  {
+    "section": 6,
+    "title": "VLSMとは、CIDRとは、サブネットゼロとは",
+    "url": "https://www.infraexpert.com/study/ip8.html",
+    "sha256": "b0477173b4f663912e5bfc15360a14f3128f32a5132b002555ba1e7fdb141c3e",
+    "card_ids": [
+      "C05-06-01",
+      "C05-06-02",
+      "C05-06-03",
+      "C05-06-04",
+      "C05-06-05",
+      "C05-06-06",
+      "C05-06-07"
+    ]
+  },
+  {
+    "section": 7,
+    "title": "NATとは",
+    "url": "https://www.infraexpert.com/study/ip10.html",
+    "sha256": "d180a1d76ecc0dee6307c963fb1d66e93d96dc825060efd184bd441dd6e4edab",
+    "card_ids": [
+      "C05-07-01",
+      "C05-07-02",
+      "C05-07-03",
+      "C05-07-04",
+      "C05-07-05",
+      "C05-07-06",
+      "C05-07-07"
+    ]
+  },
+  {
+    "section": 8,
+    "title": "NATの仕組み",
+    "url": "https://www.infraexpert.com/study/ip11.html",
+    "sha256": "10999859db889001877c9b7ff70fcff80ec2b3c969704f66e4c639b94a0ea730",
+    "card_ids": [
+      "C05-08-01",
+      "C05-08-02",
+      "C05-08-03"
+    ]
+  },
+  {
+    "section": 9,
+    "title": "NAPT（IPマスカレード）の仕組み",
+    "url": "https://www.infraexpert.com/study/ip11.5.html",
+    "sha256": "bcefe93fddb20efbc59cc7b5d72a92d39e1f6518c43201db6c487fa7853f6136",
+    "card_ids": [
+      "C05-09-01",
+      "C05-09-02",
+      "C05-09-03",
+      "C05-09-04",
+      "C05-09-05"
+    ]
+  },
+  {
+    "section": 10,
+    "title": "IP Unnumbered（IPアンナンバード）とは",
+    "url": "https://www.infraexpert.com/study/ip13.html",
+    "sha256": "d23500450da95aa2cffdd287ce5a252e80cd63064315d17636903d9958bd7b2c",
+    "card_ids": [
+      "C05-10-01",
+      "C05-10-02",
+      "C05-10-03"
+    ]
+  }
+]

@@ -1,0 +1,569 @@
+[
+  {
+    "id": "C01-01-01",
+    "question": "ほかのコンピュータと接続せず、単体で利用する形態を何という？",
+    "answer": "スタンドアロン。",
+    "section_title": "ネットワークとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking.html"
+    ]
+  },
+  {
+    "id": "C01-01-02",
+    "question": "コンピュータネットワークとは、どのような仕組みか。",
+    "answer": "複数のコンピュータを接続し、相互に情報をやり取りする仕組み。",
+    "section_title": "ネットワークとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking.html"
+    ]
+  },
+  {
+    "id": "C01-01-03",
+    "question": "ネットワークを利用すると、プリンターなどの機器を複数のPCでどう利用できる？",
+    "answer": "共有して利用できる。",
+    "section_title": "ネットワークとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking.html"
+    ]
+  },
+  {
+    "id": "C01-01-04",
+    "question": "LANとWANは、接続する範囲でどう違う？",
+    "answer": "LANは建物や構内などの範囲を結び、WANは地理的に離れた拠点などを結ぶ。",
+    "section_title": "ネットワークとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking.html"
+    ]
+  },
+  {
+    "id": "C01-01-05",
+    "question": "イントラネットとは何か。",
+    "answer": "TCP/IPなどのインターネット標準技術を使って構築する組織内ネットワーク。",
+    "section_title": "ネットワークとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking.html"
+    ]
+  },
+  {
+    "id": "C01-01-06",
+    "question": "インターネットは、一つのコンピュータが全体を統括する仕組みか。",
+    "answer": "そうではなく、多数のネットワークやコンピュータが分散して成り立つ。",
+    "section_title": "ネットワークとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking.html"
+    ]
+  },
+  {
+    "id": "C01-02-01",
+    "question": "DASは、ストレージをどこへ接続する形態か。",
+    "answer": "サーバなどのコンピュータへ直接接続する形態。",
+    "section_title": "ネットワークストレージとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking0.html"
+    ]
+  },
+  {
+    "id": "C01-02-02",
+    "question": "ネットワーク上で、ファイルサーバ専用機として使うストレージは？",
+    "answer": "NAS。",
+    "section_title": "ネットワークストレージとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking0.html"
+    ]
+  },
+  {
+    "id": "C01-02-03",
+    "question": "SANとは、何を接続するためのネットワークか。",
+    "answer": "サーバとストレージを接続するための専用ネットワーク。",
+    "section_title": "ネットワークストレージとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking0.html"
+    ]
+  },
+  {
+    "id": "C01-02-04",
+    "question": "NASとSANは、ストレージへのアクセスの単位でどう違う？",
+    "answer": "NASはファイル単位、SANはブロック単位でアクセスする。",
+    "section_title": "ネットワークストレージとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking0.html"
+    ]
+  },
+  {
+    "id": "C01-02-05",
+    "question": "FC-SANとIP-SANでは、使用するネットワーク技術がどう違う？",
+    "answer": "FC-SANはファイバチャネル、IP-SANはiSCSIなどのIPネットワークを使う。",
+    "section_title": "ネットワークストレージとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking0.html"
+    ]
+  },
+  {
+    "id": "C01-03-01",
+    "question": "ネットワークトポロジーとは何か。",
+    "answer": "ネットワークを構成する機器の接続形態。",
+    "section_title": "ネットワークトポロジーとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking1.html"
+    ]
+  },
+  {
+    "id": "C01-03-02",
+    "question": "物理トポロジーと論理トポロジーは、何を表すか。",
+    "answer": "物理トポロジーは実際の配線や接続、論理トポロジーはデータの流れ方を表す。",
+    "section_title": "ネットワークトポロジーとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking1.html"
+    ]
+  },
+  {
+    "id": "C01-03-03",
+    "question": "1本の共通ケーブルへ複数のノードを接続するトポロジーは？",
+    "answer": "バス型。",
+    "section_title": "ネットワークトポロジーとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking1.html"
+    ]
+  },
+  {
+    "id": "C01-03-04",
+    "question": "バス型のケーブル端に付けるターミネータの役割は？",
+    "answer": "終端での信号の反射を防ぐ。",
+    "section_title": "ネットワークトポロジーとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking1.html"
+    ]
+  },
+  {
+    "id": "C01-03-05",
+    "question": "スター型トポロジーでは、各ノードをどこへ接続する？",
+    "answer": "ハブやスイッチなどの集線装置へ接続する。",
+    "section_title": "ネットワークトポロジーとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking1.html"
+    ]
+  },
+  {
+    "id": "C01-03-06",
+    "question": "スター型で、1本の端末用ケーブルの故障と集線装置の故障は、影響範囲がどう違う？",
+    "answer": "端末用ケーブルの故障は主にその端末、集線装置の故障は接続された全端末へ影響する。",
+    "section_title": "ネットワークトポロジーとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking1.html"
+    ]
+  },
+  {
+    "id": "C01-03-07",
+    "question": "トークンリングでは、どのノードが送信できる？",
+    "answer": "巡回するトークンを取得したノード。",
+    "section_title": "ネットワークトポロジーとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking1.html"
+    ]
+  },
+  {
+    "id": "C01-03-08",
+    "question": "デュアルリング型が、シングルリング型より耐障害性を高める仕組みは？",
+    "answer": "予備のリングを設け、一方の障害時にも通信を継続する。",
+    "section_title": "ネットワークトポロジーとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking1.html"
+    ]
+  },
+  {
+    "id": "C01-03-09",
+    "question": "フルメッシュ型とパーシャルメッシュ型の違いは？",
+    "answer": "フルメッシュは全機器を相互接続し、パーシャルメッシュは一部だけを相互接続する。",
+    "section_title": "ネットワークトポロジーとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking1.html"
+    ]
+  },
+  {
+    "id": "C01-03-10",
+    "question": "物理的なフルメッシュ構成が高コストになりやすいのはなぜ？",
+    "answer": "全機器間の接続に、多くの回線やポートが必要になるため。",
+    "section_title": "ネットワークトポロジーとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking1.html"
+    ]
+  },
+  {
+    "id": "C01-04-01",
+    "question": "通信におけるプロトコルとは何か。",
+    "answer": "機器同士が通信するために取り決めた手順や規則。",
+    "section_title": "プロトコルとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking2.html"
+    ]
+  },
+  {
+    "id": "C01-04-02",
+    "question": "プロトコルスタックとは何か。",
+    "answer": "通信に必要な複数のプロトコルを階層的に組み合わせたもの。",
+    "section_title": "プロトコルとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking2.html"
+    ]
+  },
+  {
+    "id": "C01-04-03",
+    "question": "TCP/IPという呼び名は、TCPとIPの2種類だけを指すか。",
+    "answer": "TCPとIPだけでなく、UDPやHTTPなどを含むプロトコル群を指す。",
+    "section_title": "プロトコルとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking2.html"
+    ]
+  },
+  {
+    "id": "C01-04-04",
+    "question": "プロトコルを標準化すると、機器の接続にどのような利点がある？",
+    "answer": "異なるメーカーの機器同士でも相互接続しやすくなる。",
+    "section_title": "プロトコルとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking2.html"
+    ]
+  },
+  {
+    "id": "C01-04-05",
+    "question": "インターネット技術の標準化を進め、RFCを発行する組織は？",
+    "answer": "IETF。",
+    "section_title": "プロトコルとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking2.html"
+    ]
+  },
+  {
+    "id": "C01-04-06",
+    "question": "Ethernetなどの電気・電子分野の標準化に関わる学会は？",
+    "answer": "IEEE。",
+    "section_title": "プロトコルとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking2.html"
+    ]
+  },
+  {
+    "id": "C01-05-01",
+    "question": "OSI参照モデルを策定した組織は？",
+    "answer": "ISO（国際標準化機構）。",
+    "section_title": "OSI 参照モデルとは　その1",
+    "sources": [
+      "https://www.infraexpert.com/study/networking3.html"
+    ]
+  },
+  {
+    "id": "C01-05-02",
+    "question": "OSI参照モデルでは、通信機能を何層に分ける？",
+    "answer": "7層。",
+    "section_title": "OSI 参照モデルとは　その1",
+    "sources": [
+      "https://www.infraexpert.com/study/networking3.html"
+    ]
+  },
+  {
+    "id": "C01-05-03",
+    "question": "送信側は、OSI参照モデルの上位層と下位層のどちらから処理する？",
+    "answer": "上位層から下位層へ処理する。",
+    "section_title": "OSI 参照モデルとは　その1",
+    "sources": [
+      "https://www.infraexpert.com/study/networking3.html"
+    ]
+  },
+  {
+    "id": "C01-05-04",
+    "question": "カプセル化とは、どのような処理か。",
+    "answer": "上位層から受け取ったデータに、各層のヘッダなどを付けて包む処理。",
+    "section_title": "OSI 参照モデルとは　その1",
+    "sources": [
+      "https://www.infraexpert.com/study/networking3.html"
+    ]
+  },
+  {
+    "id": "C01-05-05",
+    "question": "受信側で、各層のヘッダを取り外しながら上位層へ渡す処理は？",
+    "answer": "非カプセル化。",
+    "section_title": "OSI 参照モデルとは　その1",
+    "sources": [
+      "https://www.infraexpert.com/study/networking3.html"
+    ]
+  },
+  {
+    "id": "C01-05-06",
+    "question": "PDUとは何か。",
+    "answer": "各プロトコルが扱うデータの単位。",
+    "section_title": "OSI 参照モデルとは　その1",
+    "sources": [
+      "https://www.infraexpert.com/study/networking3.html"
+    ]
+  },
+  {
+    "id": "C01-05-07",
+    "question": "データリンク層とネットワーク層のPDUは、それぞれ何と呼ぶ？",
+    "answer": "データリンク層はフレーム、ネットワーク層はパケット。",
+    "section_title": "OSI 参照モデルとは　その1",
+    "sources": [
+      "https://www.infraexpert.com/study/networking3.html"
+    ]
+  },
+  {
+    "id": "C01-05-08",
+    "question": "TCPとUDPのPDUは、それぞれ何と呼ぶ？",
+    "answer": "TCPはセグメント、UDPはデータグラム。",
+    "section_title": "OSI 参照モデルとは　その1",
+    "sources": [
+      "https://www.infraexpert.com/study/networking3.html"
+    ]
+  },
+  {
+    "id": "C01-05-09",
+    "question": "パケットなどからヘッダを除いた、実際に運ぶデータ部分を何という？",
+    "answer": "ペイロード。",
+    "section_title": "OSI 参照モデルとは　その1",
+    "sources": [
+      "https://www.infraexpert.com/study/networking3.html"
+    ]
+  },
+  {
+    "id": "C01-06-01",
+    "question": "OSI参照モデルで、HTTPなどのアプリケーション固有の通信機能を扱う層は？",
+    "answer": "アプリケーション層（第7層）。",
+    "section_title": "OSI 参照モデルとは　その2",
+    "sources": [
+      "https://www.infraexpert.com/study/networking4.html"
+    ]
+  },
+  {
+    "id": "C01-06-02",
+    "question": "文字コード・圧縮・暗号化など、データの表現形式を扱うOSIの層は？",
+    "answer": "プレゼンテーション層（第6層）。",
+    "section_title": "OSI 参照モデルとは　その2",
+    "sources": [
+      "https://www.infraexpert.com/study/networking4.html"
+    ]
+  },
+  {
+    "id": "C01-06-03",
+    "question": "アプリケーション間のセッションの確立・維持・終了を扱うOSIの層は？",
+    "answer": "セッション層（第5層）。",
+    "section_title": "OSI 参照モデルとは　その2",
+    "sources": [
+      "https://www.infraexpert.com/study/networking4.html"
+    ]
+  },
+  {
+    "id": "C01-06-04",
+    "question": "エンド間のデータ転送やポート番号を扱うOSIの層は？",
+    "answer": "トランスポート層（第4層）。",
+    "section_title": "OSI 参照モデルとは　その2",
+    "sources": [
+      "https://www.infraexpert.com/study/networking4.html"
+    ]
+  },
+  {
+    "id": "C01-06-05",
+    "question": "IPアドレスに基づく経路選択を扱うOSIの層は？",
+    "answer": "ネットワーク層（第3層）。",
+    "section_title": "OSI 参照モデルとは　その2",
+    "sources": [
+      "https://www.infraexpert.com/study/networking4.html"
+    ]
+  },
+  {
+    "id": "C01-06-06",
+    "question": "同じリンク上で直接接続されたノード間の通信を扱うOSIの層は？",
+    "answer": "データリンク層（第2層）。",
+    "section_title": "OSI 参照モデルとは　その2",
+    "sources": [
+      "https://www.infraexpert.com/study/networking4.html"
+    ]
+  },
+  {
+    "id": "C01-06-07",
+    "question": "ビット列と電気信号などの変換や物理的な伝送を扱うOSIの層は？",
+    "answer": "物理層（第1層）。",
+    "section_title": "OSI 参照モデルとは　その2",
+    "sources": [
+      "https://www.infraexpert.com/study/networking4.html"
+    ]
+  },
+  {
+    "id": "C01-06-08",
+    "question": "トランスポート層で、通信するアプリケーションを識別するために使う番号は？",
+    "answer": "ポート番号。",
+    "section_title": "OSI 参照モデルとは　その2",
+    "sources": [
+      "https://www.infraexpert.com/study/networking4.html"
+    ]
+  },
+  {
+    "id": "C01-06-09",
+    "question": "OSI参照モデルでいうセッションと、TCPコネクションの役割の違いは？",
+    "answer": "セッションは通信の開始から終了までの管理単位、TCPコネクションはデータを転送する論理的な経路。",
+    "section_title": "OSI 参照モデルとは　その2",
+    "sources": [
+      "https://www.infraexpert.com/study/networking4.html"
+    ]
+  },
+  {
+    "id": "C01-07-01",
+    "question": "2進数では、どの2種類の数字を使う？",
+    "answer": "0と1。",
+    "section_title": "2進数と10進数との変換",
+    "sources": [
+      "https://www.infraexpert.com/study/ip1.html"
+    ]
+  },
+  {
+    "id": "C01-07-02",
+    "question": "2進数で左へ1桁進むと、桁の重みは何倍になる？",
+    "answer": "2倍。",
+    "section_title": "2進数と10進数との変換",
+    "sources": [
+      "https://www.infraexpert.com/study/ip1.html"
+    ]
+  },
+  {
+    "id": "C01-07-03",
+    "question": "2進数を10進数へ変換する基本的な方法は？",
+    "answer": "1の立っている桁の重みを足し合わせる。",
+    "section_title": "2進数と10進数との変換",
+    "sources": [
+      "https://www.infraexpert.com/study/ip1.html"
+    ]
+  },
+  {
+    "id": "C01-07-04",
+    "question": "10進数を2で繰り返し割って2進数へ直すとき、余りはどの順で読む？",
+    "answer": "最後に求めた余りから逆順に読む。",
+    "section_title": "2進数と10進数との変換",
+    "sources": [
+      "https://www.infraexpert.com/study/ip1.html"
+    ]
+  },
+  {
+    "id": "C01-07-05",
+    "question": "2進数の先頭に0を付けると、その数の値は変わるか。",
+    "answer": "変わらない。",
+    "section_title": "2進数と10進数との変換",
+    "sources": [
+      "https://www.infraexpert.com/study/ip1.html"
+    ]
+  },
+  {
+    "id": "C01-08-01",
+    "question": "16進数のAからFは、10進数ではいくつからいくつに対応する？",
+    "answer": "10から15。",
+    "section_title": "2進数と16進数との変換",
+    "sources": [
+      "https://www.infraexpert.com/study/ip2.html"
+    ]
+  },
+  {
+    "id": "C01-08-02",
+    "question": "数値が16進数であることを示す、先頭の表記は？",
+    "answer": "0x。",
+    "section_title": "2進数と16進数との変換",
+    "sources": [
+      "https://www.infraexpert.com/study/ip2.html"
+    ]
+  },
+  {
+    "id": "C01-08-03",
+    "question": "16進数の1桁は、2進数の何ビットに対応する？",
+    "answer": "4ビット。",
+    "section_title": "2進数と16進数との変換",
+    "sources": [
+      "https://www.infraexpert.com/study/ip2.html"
+    ]
+  },
+  {
+    "id": "C01-08-05",
+    "question": "16進数を2進数へ変換する基本的な方法は？",
+    "answer": "各桁を4ビットの2進数に置き換えて並べる。",
+    "section_title": "2進数と16進数との変換",
+    "sources": [
+      "https://www.infraexpert.com/study/ip2.html"
+    ]
+  },
+  {
+    "id": "C01-09-01",
+    "question": "単一の宛先を指定する1対1の通信を何という？",
+    "answer": "ユニキャスト。",
+    "section_title": "ユニキャスト、マルチキャスト、ブロードキャスト",
+    "sources": [
+      "https://www.infraexpert.com/study/networking8.html"
+    ]
+  },
+  {
+    "id": "C01-09-02",
+    "question": "特定のグループへ1対複数で送る通信を何という？",
+    "answer": "マルチキャスト。",
+    "section_title": "ユニキャスト、マルチキャスト、ブロードキャスト",
+    "sources": [
+      "https://www.infraexpert.com/study/networking8.html"
+    ]
+  },
+  {
+    "id": "C01-09-03",
+    "question": "同じデータリンク内の全宛先へ送る通信を何という？",
+    "answer": "ブロードキャスト。",
+    "section_title": "ユニキャスト、マルチキャスト、ブロードキャスト",
+    "sources": [
+      "https://www.infraexpert.com/study/networking8.html"
+    ]
+  },
+  {
+    "id": "C01-09-04",
+    "question": "通常のL2ブロードキャストは、ルータを越えてそのまま転送されるか。",
+    "answer": "転送されない。",
+    "section_title": "ユニキャスト、マルチキャスト、ブロードキャスト",
+    "sources": [
+      "https://www.infraexpert.com/study/networking8.html"
+    ]
+  },
+  {
+    "id": "C01-09-05",
+    "question": "IPv4でリミテッドブロードキャストを示すアドレスは？",
+    "answer": "255.255.255.255。",
+    "section_title": "ユニキャスト、マルチキャスト、ブロードキャスト",
+    "sources": [
+      "https://www.infraexpert.com/study/networking8.html"
+    ]
+  },
+  {
+    "id": "C01-10-01",
+    "question": "同じ動画を多数の相手へユニキャストで配信すると、送信側の負荷が増えるのはなぜ？",
+    "answer": "受信者ごとに同じデータを個別に送る必要があるため。",
+    "section_title": "マルチキャストとは",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz01.html"
+    ]
+  },
+  {
+    "id": "C01-10-02",
+    "question": "同じデータをグループへ配信するとき、マルチキャストが送信帯域を抑えられる理由は？",
+    "answer": "送信元が送ったデータを、必要な分岐点でネットワーク側が複製するため。",
+    "section_title": "マルチキャストとは",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz01.html"
+    ]
+  },
+  {
+    "id": "C01-10-03",
+    "question": "ブロードキャストによる動画配信で、受信不要な端末にも負荷がかかる理由は？",
+    "answer": "配信を必要としない端末にもトラフィックが届くため。",
+    "section_title": "マルチキャストとは",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz01.html"
+    ]
+  },
+  {
+    "id": "C01-10-04",
+    "question": "L2スイッチで、マルチキャストを受信不要なポートへ転送するのを抑える機能は？",
+    "answer": "IGMPスヌーピング。",
+    "section_title": "マルチキャストとは",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz01.html"
+    ]
+  }
+]

@@ -1,0 +1,183 @@
+[
+  {
+    "section": 1,
+    "title": "VLANの概要",
+    "url": "https://www.infraexpert.com/study/vlanz1.html",
+    "sha256": "831f0274a37f856d30ce3a9f4ebc9fd0c91193454ac5bc0c930b1773602898f4",
+    "card_ids": [
+      "C04-01-01",
+      "C04-01-02",
+      "C04-01-03",
+      "C04-01-04",
+      "C04-01-05",
+      "C04-01-06",
+      "C04-01-07"
+    ]
+  },
+  {
+    "section": 2,
+    "title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+    "url": "https://www.infraexpert.com/study/vlanz2.html",
+    "sha256": "9731f91967b2ccab18753b452a3108ecc76c6d0388a1c8fc3fe3cf4cffba6a5b",
+    "card_ids": [
+      "C04-02-01",
+      "C04-02-02",
+      "C04-02-03",
+      "C04-02-04",
+      "C04-02-05",
+      "C04-02-06",
+      "C04-02-07",
+      "C04-02-08",
+      "C04-02-09",
+      "C04-02-10",
+      "C04-02-11",
+      "C04-02-12",
+      "C04-02-13",
+      "C04-02-14"
+    ]
+  },
+  {
+    "section": 3,
+    "title": "IEEE802.1q トンネリング（Q-in-Q）とは",
+    "url": "https://www.infraexpert.com/study/vlanz17.html",
+    "sha256": "f5eaf1718e36cc5695d80c8993a03b3fa18a5a676b808e5bd41d1dbf125c804c",
+    "card_ids": [
+      "C04-03-01",
+      "C04-03-02",
+      "C04-03-03",
+      "C04-03-04"
+    ]
+  },
+  {
+    "section": 4,
+    "title": "STP - スパニングツリープロトコルの概要",
+    "url": "https://www.infraexpert.com/study/stpz1.html",
+    "sha256": "5bd0b2b14ba56f491be4bf99e9fa651bd055dc2cb89f84c0460c898f3bb8849a",
+    "card_ids": [
+      "C04-04-01",
+      "C04-04-02",
+      "C04-04-03",
+      "C04-04-04",
+      "C04-04-05",
+      "C04-04-06",
+      "C04-04-07",
+      "C04-04-08"
+    ]
+  },
+  {
+    "section": 5,
+    "title": "STP - スパニングツリープロトコルの動作",
+    "url": "https://www.infraexpert.com/study/stpz2.html",
+    "sha256": "a199636de2679d21305d6ef300f999980f18531bdf4413456da425dcad840edb",
+    "card_ids": [
+      "C04-05-01",
+      "C04-05-02",
+      "C04-05-03",
+      "C04-05-04",
+      "C04-05-05",
+      "C04-05-06",
+      "C04-05-07",
+      "C04-05-08",
+      "C04-05-09",
+      "C04-05-10",
+      "C04-05-11",
+      "C04-05-12"
+    ]
+  },
+  {
+    "section": 6,
+    "title": "STP - スパニングツリープロトコルのポート状態",
+    "url": "https://www.infraexpert.com/study/stpz3.html",
+    "sha256": "8db7c2a71addf641ed3e48bea7fbaeaa5dd94825984b0aa26a8f12fa6d40dce0",
+    "card_ids": [
+      "C04-06-01",
+      "C04-06-02",
+      "C04-06-03",
+      "C04-06-04",
+      "C04-06-05",
+      "C04-06-06",
+      "C04-06-07",
+      "C04-06-08",
+      "C04-06-09"
+    ]
+  },
+  {
+    "section": 7,
+    "title": "STP - CSTとは、PVSTとは",
+    "url": "https://www.infraexpert.com/study/stpz4.html",
+    "sha256": "50de98763a2bdb953460fade45f5e679ccd9ab0127024789c882bd09c4c26f73",
+    "card_ids": [
+      "C04-07-01",
+      "C04-07-02",
+      "C04-07-03",
+      "C04-07-04"
+    ]
+  },
+  {
+    "section": 8,
+    "title": "RSTP（ IEEE802.1W ）とは",
+    "url": "https://www.infraexpert.com/study/stpz8.html",
+    "sha256": "965d50d74d4dba04668b74fe414eeefa0e42ebffed3e858583d80736c38da56c",
+    "card_ids": [
+      "C04-08-01",
+      "C04-08-02",
+      "C04-08-03",
+      "C04-08-04",
+      "C04-08-05",
+      "C04-08-06",
+      "C04-08-07"
+    ]
+  },
+  {
+    "section": 9,
+    "title": "MSTP（ IEEE802.1S ）とは",
+    "url": "https://www.infraexpert.com/study/stpz16.html",
+    "sha256": "057b8149f2f0eb7fe65edd105f19e590c1b6230f42d4968ae02da9f92c2eeba5",
+    "card_ids": [
+      "C04-09-01",
+      "C04-09-02",
+      "C04-09-03",
+      "C04-09-04"
+    ]
+  },
+  {
+    "section": 10,
+    "title": "リンクアグリゲーションとは",
+    "url": "https://www.infraexpert.com/study/etherchannel.html",
+    "sha256": "d6375eece44ebb56cf6e8e45a344b1ebf81bcf54f861112ae89db685d1dea3c4",
+    "card_ids": [
+      "C04-10-01",
+      "C04-10-02",
+      "C04-10-03",
+      "C04-10-04",
+      "C04-10-05",
+      "C04-10-06",
+      "C04-10-07"
+    ]
+  },
+  {
+    "section": 11,
+    "title": "チーミングとは",
+    "url": "https://www.infraexpert.com/study/etherchannel1.html",
+    "sha256": "e752681ce40337486e5d7f1d10f559520c095c518eab204f7557787216109da5",
+    "card_ids": [
+      "C04-11-01",
+      "C04-11-02",
+      "C04-11-03",
+      "C04-11-04",
+      "C04-11-05",
+      "C04-11-06"
+    ]
+  },
+  {
+    "section": 12,
+    "title": "スタックとは",
+    "url": "https://www.infraexpert.com/study/etherchannel2.html",
+    "sha256": "b206cfbe5b711e3801660f691299279415b94a2bb68ed6dacf3c00c15f14cb7c",
+    "card_ids": [
+      "C04-12-01",
+      "C04-12-02",
+      "C04-12-03"
+    ]
+  }
+]
