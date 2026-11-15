@@ -1,5 +1,5 @@
 {
-  "revision": "b9abc55f63b4fd586d03ec33b039588fb73e3b098198f80f623f461298d7f2e1",
+  "revision": "8e0df242a87c3e2106aac56dcd55036dc4012380eaf2cf5a14b2c6502ec2b450",
   "decks": [
     {
       "deck_id": "chapter-01",
@@ -12027,6 +12027,2808 @@
           "section_title": "CRL（証明書失効リスト）とは",
           "sources": [
             "https://www.infraexpert.com/study/sslserver13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        }
+      ]
+    },
+    {
+      "deck_id": "chapter-13",
+      "revision": "8ab4a5372bd30916ba97439a8654ba48216e886901635806dbcb658a94881c14",
+      "title": "無線LAN",
+      "subtitle": "ネスペイージス 第13章",
+      "knowledge_count": 0,
+      "question_count": 116,
+      "sections": 25,
+      "cards": [
+        {
+          "id": "C13-01-01",
+          "question": "無線LANの基本規格を定めるIEEE 802系列の規格は？",
+          "answer": "<div class=\"answer-text\">IEEE 802.11。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-01-02",
+          "question": "無線LANのインフラストラクチャモードとアドホックモードの違いは？",
+          "answer": "<div class=\"answer-text\">インフラストラクチャはAPを介して通信し、アドホックはAPを介さず端末同士で通信する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-01-03",
+          "question": "無線LANの移動・配置上の利点は？",
+          "answer": "<div class=\"answer-text\">電波の届く範囲で、ケーブルを差し替えずに移動や配置変更ができる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-01-04",
+          "question": "無線LANで、有線LAN以上に盗聴対策を意識する理由は？",
+          "answer": "<div class=\"answer-text\">電波が空間へ広がり、意図しない相手にも受信され得るため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-02-01",
+          "question": "IEEE 802.11bが使う周波数帯と最大物理伝送速度は？",
+          "answer": "<div class=\"answer-text\">2.4GHz帯、11Mbps。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - IEEE802.11b / 11a / 11g / 11n / 11ac / 11ax",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-02-02",
+          "question": "IEEE 802.11aと802.11gは、周波数帯がどう違う？",
+          "answer": "<div class=\"answer-text\">11aは5GHz帯、11gは2.4GHz帯。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - IEEE802.11b / 11a / 11g / 11n / 11ac / 11ax",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-02-03",
+          "question": "IEEE 802.11aと802.11gの最大物理伝送速度は？",
+          "answer": "<div class=\"answer-text\">どちらも54Mbps。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - IEEE802.11b / 11a / 11g / 11n / 11ac / 11ax",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-02-04",
+          "question": "IEEE 802.11iと802.11eは、それぞれ何を強化した仕様か。",
+          "answer": "<div class=\"answer-text\">11iはセキュリティ、11eはQoS。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - IEEE802.11b / 11a / 11g / 11n / 11ac / 11ax",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-02-05",
+          "question": "2.4GHz帯で、無線LAN以外に干渉源となる機器の例は？",
+          "answer": "<div class=\"answer-text\">電子レンジ、Bluetooth機器など。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - IEEE802.11b / 11a / 11g / 11n / 11ac / 11ax",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-03-01",
+          "question": "無線LANのチャネルとは何か。",
+          "answer": "<div class=\"answer-text\">無線通信に使う、一定の幅を持つ周波数の区分。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - チャネルとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-03-02",
+          "question": "APと端末が1つの無線リンクで通信するため、チャネルをどう合わせる？",
+          "answer": "<div class=\"answer-text\">同じチャネルを使う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - チャネルとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-03-03",
+          "question": "近接するAPのチャネル設計で、番号だけでなく周波数の重なりを確認する理由は？",
+          "answer": "<div class=\"answer-text\">異なるチャネル番号でも、使用する周波数帯が重なる場合があるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - チャネルとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-03-04",
+          "question": "無線LANを設置する前にサイトサーベイを行う目的は？",
+          "answer": "<div class=\"answer-text\">電波の到達範囲、強度、干渉などを調べ、適切なAP配置やチャネルを決めるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - チャネルとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-04-01",
+          "question": "無線LANのセル、またはカバレッジとは何か。",
+          "answer": "<div class=\"answer-text\">APの電波で通信できる範囲。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - セル範囲と伝送速度",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-04-02",
+          "question": "APから離れたり遮蔽物が増えたりすると、伝送速度が下がりやすい理由は？",
+          "answer": "<div class=\"answer-text\">受信信号が弱くなり、より低速で耐性のある伝送方式を選ぶため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - セル範囲と伝送速度",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-04-03",
+          "question": "無線LANのリンク速度を、アプリケーションの実効速度と同じと考えられない理由は？",
+          "answer": "<div class=\"answer-text\">制御フレームや送信待ち、再送などの時間も必要なため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - セル範囲と伝送速度",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-04-04",
+          "question": "同じチャネルに多数の端末がいると、1台当たりの利用可能な通信量が減りやすい理由は？",
+          "answer": "<div class=\"answer-text\">端末同士が、電波を使う時間を共有するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - セル範囲と伝送速度",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-04-05",
+          "question": "無線LANの実効速度は、接続端末数で単純に等分した値になるか。",
+          "answer": "<div class=\"answer-text\">ならない。通信量や伝送速度、送信待ちなどが端末ごとに異なる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - セル範囲と伝送速度",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-05-01",
+          "question": "インフラストラクチャ型無線LANのBSSとESSの違いは？",
+          "answer": "<div class=\"answer-text\">BSSは1つのAPと配下端末の基本単位、ESSは複数のBSSを接続した範囲。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - BSS, ESS, BSSID, ESSID",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-05-02",
+          "question": "BSSIDとSSIDは、主に何を識別する？",
+          "answer": "<div class=\"answer-text\">BSSIDは個々のBSS、SSIDは接続する無線ネットワークの名前。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - BSS, ESS, BSSID, ESSID",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-05-03",
+          "question": "BSSIDは、一般にどの形式の識別子か。",
+          "answer": "<div class=\"answer-text\">MACアドレスと同じ48ビットの識別子。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - BSS, ESS, BSSID, ESSID",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-05-04",
+          "question": "無線LANのローミングとは何か。",
+          "answer": "<div class=\"answer-text\">端末の移動などに応じて、接続するAPを切り替えること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - BSS, ESS, BSSID, ESSID",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-05-05",
+          "question": "同じESSでAP間のローミングを行う場合、AP間で合わせるネットワーク名は？",
+          "answer": "<div class=\"answer-text\">SSID（ESSID）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - BSS, ESS, BSSID, ESSID",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-05-06",
+          "question": "ローミング用にAPを配置するとき、セルを適度に重ねる理由は？",
+          "answer": "<div class=\"answer-text\">移動中に、どのAPとも通信できない場所が生じるのを避けるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - BSS, ESS, BSSID, ESSID",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-06-01",
+          "question": "CSMA/CAのCAは、衝突に対して何を行うことを意味する？",
+          "answer": "<div class=\"answer-text\">Collision Avoidance。衝突を回避すること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - CSMA/CA",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-06-02",
+          "question": "無線LANで、送信前にランダムなバックオフ時間を設ける理由は？",
+          "answer": "<div class=\"answer-text\">複数端末が同時に送信を始める可能性を下げるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - CSMA/CA",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-06-03",
+          "question": "通常の無線LANユニキャストで、受信確認に使う制御フレームは？",
+          "answer": "<div class=\"answer-text\">ACK。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - CSMA/CA",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-06-04",
+          "question": "SIFSとDIFSは、どちらの待ち時間が短い？",
+          "answer": "<div class=\"answer-text\">SIFS。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - CSMA/CA",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-06-05",
+          "question": "ACKなどがSIFS後に送れることには、どのような利点がある？",
+          "answer": "<div class=\"answer-text\">新しいデータ送信が始まる前に、応答を優先して返せる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - CSMA/CA",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-06-06",
+          "question": "無線LANの隠れ端末問題とは、どのような問題か。",
+          "answer": "<div class=\"answer-text\">互いの電波を検知できない端末が同時送信し、APなどで衝突する問題。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - CSMA/CA",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-06-07",
+          "question": "RTSとCTSは、送信前に何をやり取りする？",
+          "answer": "<div class=\"answer-text\">送信の要求と、それに対する送信許可。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - CSMA/CA",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-06-08",
+          "question": "RTS/CTSは、隠れ端末による衝突をどう抑える？",
+          "answer": "<div class=\"answer-text\">APのCTSなどで周囲に媒体の予約を知らせ、他端末の送信を待たせる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - CSMA/CA",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-06-09",
+          "question": "RTS/CTSを使うと、衝突回避以外にどのような負担が増える？",
+          "answer": "<div class=\"answer-text\">制御フレームを交換する通信時間と処理。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - CSMA/CA",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-07-01",
+          "question": "IEEE 802.11の管理・制御・データフレームは、それぞれ何を運ぶ？",
+          "answer": "<div class=\"answer-text\">管理は接続管理の情報、制御はRTS/CTSやACKなど、データは利用者のデータ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - IEEE802.11フレームフォーマット",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-07-02",
+          "question": "無線LANのMACヘッダに、送信元・宛先以外のアドレスが必要になる理由は？",
+          "answer": "<div class=\"answer-text\">元の送信元・最終宛先と、無線区間の送信・受信機器が異なる場合があるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - IEEE802.11フレームフォーマット",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-07-03",
+          "question": "無線LANのDurationフィールドは、主に何を知らせる？",
+          "answer": "<div class=\"answer-text\">媒体を使用する予定時間。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - IEEE802.11フレームフォーマット",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-07-04",
+          "question": "無線LANのSequence Controlは、どのような識別に使う？",
+          "answer": "<div class=\"answer-text\">フレームの順序や重複、フラグメントの識別。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - IEEE802.11フレームフォーマット",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-08-01",
+          "question": "無線LANのパッシブスキャンとアクティブスキャンの違いは？",
+          "answer": "<div class=\"answer-text\">パッシブはビーコンを受信し、アクティブはプローブ要求を送り応答を得る。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - 初心者でもわかる無線LAN通信の流れ",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-08-02",
+          "question": "無線LANのビーコンが端末へ知らせる情報の例は？",
+          "answer": "<div class=\"answer-text\">SSID、使用チャネル、対応する機能など。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - 初心者でもわかる無線LAN通信の流れ",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-08-03",
+          "question": "無線LANのアソシエーションとは何か。",
+          "answer": "<div class=\"answer-text\">端末がAPへ接続を要求し、無線LAN上の接続関係を登録する手続き。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - 初心者でもわかる無線LAN通信の流れ",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-08-04",
+          "question": "APが無線端末の通信を有線LANへ中継するとき、L2フレームはどう扱う？",
+          "answer": "<div class=\"answer-text\">IEEE 802.11のフレームから、Ethernetのフレームへ変換する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LAN - 初心者でもわかる無線LAN通信の流れ",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-09-01",
+          "question": "旧来のWEPが使う暗号アルゴリズムは？",
+          "answer": "<div class=\"answer-text\">RC4。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WEP",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-09-02",
+          "question": "WEPのIVは何ビットか。",
+          "answer": "<div class=\"answer-text\">24ビット。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WEP",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-09-03",
+          "question": "WEPのICVは、どの計算方式を使う？",
+          "answer": "<div class=\"answer-text\">CRC-32。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WEP",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-09-04",
+          "question": "WEPは、鍵長を長くするだけで根本的な脆弱性を解消できるか。",
+          "answer": "<div class=\"answer-text\">できない。暗号方式やIVの扱いなどに構造的な弱点がある。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WEP",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-10-01",
+          "question": "SSIDを隠しても、それだけで無線LANを安全にできない理由は？",
+          "answer": "<div class=\"answer-text\">他の管理フレームなどからSSIDが分かり、接続の認証や通信の暗号化の代わりにならないため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - ESSID隠蔽、WEP脆弱性",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-10-02",
+          "question": "MACアドレスフィルタだけでは、強い端末認証にならない理由は？",
+          "answer": "<div class=\"answer-text\">許可されたMACアドレスを調べ、偽装される可能性があるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - ESSID隠蔽、WEP脆弱性",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-10-03",
+          "question": "正規APを装う不正APは、利用者に対して何を狙う？",
+          "answer": "<div class=\"answer-text\">誤って接続させ、認証情報や通信内容を盗むこと。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - ESSID隠蔽、WEP脆弱性",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-11-01",
+          "question": "Wi-Fi CERTIFIEDの認証は、製品の何を確認するためのものか。",
+          "answer": "<div class=\"answer-text\">異なるメーカーの機器との相互接続性など。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - 高度セキュリティ / Wi-Fiアライアンス",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-11-02",
+          "question": "WPAが、IEEE 802.11i完成前に策定された理由は？",
+          "answer": "<div class=\"answer-text\">WEPの弱点に早く対処するため、11iの一部を先行して実装するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - 高度セキュリティ / Wi-Fiアライアンス",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-12-01",
+          "question": "WPA-PersonalとWPA-Enterpriseは、認証方法がどう違う？",
+          "answer": "<div class=\"answer-text\">PersonalはPSK、EnterpriseはIEEE 802.1Xによる認証を使う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WPA",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-12-02",
+          "question": "WPAのTKIPがデータ暗号化に使うアルゴリズムは？",
+          "answer": "<div class=\"answer-text\">RC4。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WPA",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-12-03",
+          "question": "TKIPがWEPから改善した、鍵の扱いの特徴は？",
+          "answer": "<div class=\"answer-text\">暗号鍵を動的に生成・更新し、パケットごとに異なる鍵情報を使う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WPA",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-12-04",
+          "question": "TKIPで、CRCだけに頼らず改ざんを検出するために追加したものは？",
+          "answer": "<div class=\"answer-text\">MIC（メッセージ完全性コード）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WPA",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-12-05",
+          "question": "WPA/WPA2のPMKとPTKは、鍵の役割がどう違う？",
+          "answer": "<div class=\"answer-text\">PMKは鍵生成のもととなるマスター鍵、PTKは端末とAPのユニキャスト通信に使う鍵情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WPA",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-12-06",
+          "question": "WPA/WPA2のGTKは、どの通信の保護に使う？",
+          "answer": "<div class=\"answer-text\">ブロードキャストやマルチキャストのグループ通信。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WPA",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-12-07",
+          "question": "WPA/WPA2-Personalで、あらかじめ端末とAPへ設定する認証情報は？",
+          "answer": "<div class=\"answer-text\">共通のPSK、またはPSKを生成するためのパスフレーズ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WPA",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-12-08",
+          "question": "WPA/WPA2で、PMKを基にPTKを導出し、相手との鍵の確認を行うやり取りは？",
+          "answer": "<div class=\"answer-text\">4ウェイハンドシェイク。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WPA",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-13-01",
+          "question": "WPA2で必須となった、AESを基にする暗号化・完全性保護の方式は？",
+          "answer": "<div class=\"answer-text\">CCMP。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WPA2",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-13-02",
+          "question": "CCMPのCTRモードとCBC-MACは、主に何を担う？",
+          "answer": "<div class=\"answer-text\">CTRモードは暗号化、CBC-MACは完全性の保護。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WPA2",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-13-03",
+          "question": "CCMPのカウンターモードで、平文とXORするものは？",
+          "answer": "<div class=\"answer-text\">カウンタ値をAESで暗号化して得た値。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WPA2",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-13-04",
+          "question": "WPA2-PersonalとWPA2-Enterpriseは、利用者ごとの認証でどう違う？",
+          "answer": "<div class=\"answer-text\">Personalは共有PSKを使い、Enterpriseは認証サーバで利用者や端末ごとに認証できる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WPA2",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-14-01",
+          "question": "WPA3-Personalが、PSK方式に代わって使う認証・鍵確立方式は？",
+          "answer": "<div class=\"answer-text\">SAE。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WPA3",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless56.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-14-02",
+          "question": "WPA3で使用が必須となった、管理フレームの保護機能は？",
+          "answer": "<div class=\"answer-text\">PMF（Protected Management Frames）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WPA3",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless56.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-14-03",
+          "question": "無線LANのPMFは、主に何を保護する機能か。",
+          "answer": "<div class=\"answer-text\">切断通知など、一部の重要な管理フレームを偽装・改ざんから保護する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WPA3",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless56.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-14-04",
+          "question": "WPA3-Enterpriseは、利用者の認証にどの標準を使う？",
+          "answer": "<div class=\"answer-text\">IEEE 802.1X。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - WPA3",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless56.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-15-01",
+          "question": "IEEE 802.1Xは、無線LANだけで使う認証の規格か。",
+          "answer": "<div class=\"answer-text\">有線LANでも使う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - IEEE802.1X認証",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless14.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-15-02",
+          "question": "IEEE 802.1Xの3つの構成要素は？",
+          "answer": "<div class=\"answer-text\">サプリカント、オーセンティケータ、認証サーバ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - IEEE802.1X認証",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless14.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-15-03",
+          "question": "IEEE 802.1Xのサプリカントとオーセンティケータの役割は？",
+          "answer": "<div class=\"answer-text\">サプリカントは認証を受ける端末側、オーセンティケータは認証を仲介してアクセスを制御する機器。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - IEEE802.1X認証",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless14.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-15-04",
+          "question": "IEEE 802.1Xの認証サーバには、一般に何のプロトコルに対応したサーバを使う？",
+          "answer": "<div class=\"answer-text\">RADIUS。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - IEEE802.1X認証",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless14.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-15-05",
+          "question": "EAPは、認証方式の中でどのような役割を持つ？",
+          "answer": "<div class=\"answer-text\">複数の認証方式を運ぶ、共通の枠組み。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - IEEE802.1X認証",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless14.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-15-06",
+          "question": "サプリカントと認証装置の間で、LAN上にEAPを運ぶ方式は？",
+          "answer": "<div class=\"answer-text\">EAPOL。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - IEEE802.1X認証",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless14.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-15-07",
+          "question": "IEEE 802.1Xで、認証前の端末にIPアドレスがなくても認証処理を始められる理由は？",
+          "answer": "<div class=\"answer-text\">端末と認証装置の間は、IPを使わないEAPOLで通信できるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - IEEE802.1X認証",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless14.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-16-01",
+          "question": "IEEE 802.1Xで、通常のネットワーク利用を許可するタイミングは？",
+          "answer": "<div class=\"answer-text\">認証サーバの成功結果を受け、認証装置がアクセスを許可した後。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - IEEE802.1X認証 その2",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless51.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-16-02",
+          "question": "EAP-TLSとPEAPのパスワード方式は、クライアントの認証情報がどう違う？",
+          "answer": "<div class=\"answer-text\">EAP-TLSはクライアント証明書、PEAPのパスワード方式はTLSトンネル内でパスワードによる認証を行う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - IEEE802.1X認証 その2",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless51.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-16-03",
+          "question": "EAP-TLSやPEAPで、クライアントが認証サーバの証明書を検証する目的は？",
+          "answer": "<div class=\"answer-text\">偽の認証サーバへ接続し、認証情報などを渡すのを防ぐため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - IEEE802.1X認証 その2",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless51.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-16-04",
+          "question": "EAP-TTLSは、クライアント認証の情報をどのように保護して運ぶ？",
+          "answer": "<div class=\"answer-text\">サーバ証明書で認証したTLSトンネルの中で運ぶ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ - IEEE802.1X認証 その2",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless51.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-17-01",
+          "question": "Wi-Fi 4に対応するIEEE規格と、使える周波数帯は？",
+          "answer": "<div class=\"answer-text\">IEEE 802.11n。2.4GHz帯と5GHz帯。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11n（Wi-Fi 4）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-17-02",
+          "question": "IEEE 802.11nのチャネルボンディングは、何を束ねて高速化する？",
+          "answer": "<div class=\"answer-text\">隣接する20MHz幅のチャネルを束ね、40MHz幅で通信する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11n（Wi-Fi 4）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-17-03",
+          "question": "MIMOの空間多重化は、何を利用して伝送量を増やす？",
+          "answer": "<div class=\"answer-text\">複数のアンテナによる、複数の空間ストリーム。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11n（Wi-Fi 4）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-17-04",
+          "question": "同じ802.11n対応でも、機器によって最大リンク速度が違う主な理由は？",
+          "answer": "<div class=\"answer-text\">対応するチャネル幅や空間ストリーム数などが異なるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11n（Wi-Fi 4）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-17-05",
+          "question": "IEEE 802.11nの規格上の最大物理伝送速度は？",
+          "answer": "<div class=\"answer-text\">600Mbps。40MHz幅・4ストリームなどの条件での値。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11n（Wi-Fi 4）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-17-06",
+          "question": "チャネル幅を広げることが、APの多い場所では不利にもなる理由は？",
+          "answer": "<div class=\"answer-text\">重ならずに使えるチャネルが減り、干渉や競合が増えやすいため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11n（Wi-Fi 4）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-18-01",
+          "question": "無線LANのEDCAは、通信をどの4カテゴリに分類する？",
+          "answer": "<div class=\"answer-text\">音声、映像、ベストエフォート、バックグラウンド。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11e",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-18-02",
+          "question": "EDCAで音声などを優先するため、送信待ちを決める値をどう調整する？",
+          "answer": "<div class=\"answer-text\">AIFSや競合ウィンドウを小さくし、送信権を得やすくする。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11e",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-18-03",
+          "question": "EDCAのTXOP Limitは、何の上限を定める？",
+          "answer": "<div class=\"answer-text\">送信権を得た後、連続して媒体を使用できる時間。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11e",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-18-04",
+          "question": "EDCAとHCCAは、送信機会を得る仕組みがどう違う？",
+          "answer": "<div class=\"answer-text\">EDCAは優先度を付けた競合、HCCAはAPのポーリングによる割当て。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11e",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-18-05",
+          "question": "Wi-Fi Allianceが、EDCAを基に相互接続性を認証するQoSの呼び名は？",
+          "answer": "<div class=\"answer-text\">WMM。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11e",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-19-01",
+          "question": "無線LANコントローラ（WLC）を導入する主な管理上の目的は？",
+          "answer": "<div class=\"answer-text\">複数APの設定、認証、電波出力などを集中管理するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線LANスイッチ（WLC）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless17.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-20-01",
+          "question": "WiMAXの基礎となるIEEE規格は？",
+          "answer": "<div class=\"answer-text\">IEEE 802.16系列。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線技術 - WiMAXとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless27.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-20-02",
+          "question": "固定WiMAXに対し、モバイルWiMAXが追加した重要な機能は？",
+          "answer": "<div class=\"answer-text\">移動中に接続先基地局を切り替えるハンドオーバー。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線技術 - WiMAXとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless27.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-21-01",
+          "question": "FDDとTDDは、上り・下りの通信をどう分ける？",
+          "answer": "<div class=\"answer-text\">FDDは周波数、TDDは時間で分ける。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線技術 - LTEとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless46.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-21-02",
+          "question": "LTEの基本的な無線アクセス方式は、下りと上りでそれぞれ何か。",
+          "answer": "<div class=\"answer-text\">下りはOFDMA、上りはSC-FDMA。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線技術 - LTEとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless46.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-21-03",
+          "question": "LTEのVoLTEは、音声をどのように運ぶ？",
+          "answer": "<div class=\"answer-text\">音声をIPパケットにしてLTE網で運ぶ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線技術 - LTEとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless46.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-21-04",
+          "question": "LTEのCSフォールバックは、音声通話時に何を利用する仕組みか。",
+          "answer": "<div class=\"answer-text\">3Gなどの回線交換網へ切り替えて通話する仕組み。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線技術 - LTEとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless46.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-21-05",
+          "question": "LTE-Advancedのキャリアアグリゲーションは、何を束ねる？",
+          "answer": "<div class=\"answer-text\">複数の周波数帯域のキャリア。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線技術 - LTEとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless46.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-21-06",
+          "question": "LTEの通信速度が、基地局の性能だけで決まらない理由は？",
+          "answer": "<div class=\"answer-text\">端末の対応カテゴリ、帯域幅、MIMOなどの対応能力にも制限されるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線技術 - LTEとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless46.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-22-01",
+          "question": "NFCは、主にどの程度の距離で使う無線通信技術か。",
+          "answer": "<div class=\"answer-text\">数cm〜10cm程度の近距離。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線技術 - NFCとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless47.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-22-02",
+          "question": "NFCで使う代表的な周波数は？",
+          "answer": "<div class=\"answer-text\">13.56MHz。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線技術 - NFCとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless47.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-22-03",
+          "question": "受動型の非接触ICカードが、電池なしで通信できる理由は？",
+          "answer": "<div class=\"answer-text\">リーダーの電波から電力を得るため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線技術 - NFCとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless47.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-22-04",
+          "question": "NFCからWi-FiやBluetoothへ、大容量データの通信を引き継ぐ理由は？",
+          "answer": "<div class=\"answer-text\">近接による接続設定の簡便さと、他方式の高速なデータ転送を組み合わせるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "無線技術 - NFCとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless47.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-23-01",
+          "question": "Wi-Fi 5に対応するIEEE規格と、使う周波数帯は？",
+          "answer": "<div class=\"answer-text\">IEEE 802.11ac。5GHz帯。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11ac（Wi-Fi 5）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless49.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-23-02",
+          "question": "IEEE 802.11acは、チャネル幅を最大何MHzまで広げられる？",
+          "answer": "<div class=\"answer-text\">160MHz。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11ac（Wi-Fi 5）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless49.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-23-03",
+          "question": "IEEE 802.11acのMU-MIMOは、SU-MIMOと何が違う？",
+          "answer": "<div class=\"answer-text\">SU-MIMOは1端末との空間多重、MU-MIMOは複数端末との同時通信に空間ストリームを使う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11ac（Wi-Fi 5）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless49.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-23-04",
+          "question": "IEEE 802.11acのMU-MIMOが対応する通信方向は？",
+          "answer": "<div class=\"answer-text\">APから端末への下り。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11ac（Wi-Fi 5）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless49.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-24-01",
+          "question": "Wi-Fi 6とWi-Fi 6Eは、どちらもどのIEEE規格を基にする？",
+          "answer": "<div class=\"answer-text\">IEEE 802.11ax。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11ax（Wi-Fi 6 / Wi-Fi 6E）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless57.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-24-02",
+          "question": "Wi-Fi 6Eは、Wi-Fi 6に対してどの周波数帯の利用を加える？",
+          "answer": "<div class=\"answer-text\">6GHz帯。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11ax（Wi-Fi 6 / Wi-Fi 6E）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless57.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-24-03",
+          "question": "IEEE 802.11axのOFDMAは、複数端末の通信をどのように多重化する？",
+          "answer": "<div class=\"answer-text\">チャネルのサブキャリア群を分け、複数端末へ割り当てる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11ax（Wi-Fi 6 / Wi-Fi 6E）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless57.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-24-05",
+          "question": "IEEE 802.11axでは、MU-MIMOの通信方向をどのように拡張した？",
+          "answer": "<div class=\"answer-text\">下りに加え、端末からAPへの上りにも対応した。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11ax（Wi-Fi 6 / Wi-Fi 6E）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless57.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-24-06",
+          "question": "256QAMと1024QAMは、1シンボルでそれぞれ何ビットを表せる？",
+          "answer": "<div class=\"answer-text\">256QAMは8ビット、1024QAMは10ビット。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11ax（Wi-Fi 6 / Wi-Fi 6E）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless57.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-24-07",
+          "question": "IEEE 802.11axのTWTは、どのように端末を省電力化する？",
+          "answer": "<div class=\"answer-text\">APと起床・通信の時刻を調整し、それ以外の時間をスリープできるようにする。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11ax（Wi-Fi 6 / Wi-Fi 6E）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless57.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-24-08",
+          "question": "BSS Coloringは、何を識別して無線の空間再利用に役立てる？",
+          "answer": "<div class=\"answer-text\">自分のBSSと、周囲の別のBSSからの通信。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.11ax（Wi-Fi 6 / Wi-Fi 6E）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless57.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-25-01",
+          "question": "APのデュアルバンドは、代表的にはどの2つの周波数帯を同時利用する？",
+          "answer": "<div class=\"answer-text\">2.4GHz帯と5GHz帯。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "デュアルバンド、トライバンド、クアッドバンドとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless60.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-25-02",
+          "question": "トライバンド機で5GHz帯を2系統に分けて使う利点は？",
+          "answer": "<div class=\"answer-text\">別々のチャネルを同時利用し、接続端末や通信を分散できる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "デュアルバンド、トライバンド、クアッドバンドとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless60.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-25-03",
+          "question": "無線LANのDFSは、主に何との干渉を避ける機能か。",
+          "answer": "<div class=\"answer-text\">気象レーダーや航空レーダーなど。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "デュアルバンド、トライバンド、クアッドバンドとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless60.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C13-25-04",
+          "question": "DFSで使用中のチャネルにレーダーを検知すると、APはどうする？",
+          "answer": "<div class=\"answer-text\">そのチャネルでの送信をやめ、別のチャネルへ移るなどの制御を行う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "デュアルバンド、トライバンド、クアッドバンドとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wireless60.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        }
+      ]
+    },
+    {
+      "deck_id": "chapter-14",
+      "revision": "bda09f33026a4163ee31e72dab73ac91d0647e0805a387648dbe7853955cec98",
+      "title": "負荷分散技術",
+      "subtitle": "ネスペイージス 第14章",
+      "knowledge_count": 0,
+      "question_count": 40,
+      "sections": 12,
+      "cards": [
+        {
+          "id": "C14-01-01",
+          "question": "ロードバランサを導入する主な目的は？",
+          "answer": "<div class=\"answer-text\">複数のサーバへ処理を分散し、性能や可用性を高めるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランサとは、DNSラウンドロビンとは",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-01-02",
+          "question": "DNSラウンドロビンは、1つのホスト名へ何を登録して負荷分散する？",
+          "answer": "<div class=\"answer-text\">複数のIPアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランサとは、DNSラウンドロビンとは",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-01-03",
+          "question": "単純なDNSラウンドロビンだけでは、障害サーバを自動で除外できない理由は？",
+          "answer": "<div class=\"answer-text\">DNSの応答順を変えるだけでは、サーバの稼働状態を監視しないため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランサとは、DNSラウンドロビンとは",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-01-04",
+          "question": "DNSラウンドロビンで、負荷が必ず均等になるとは限らない理由は？",
+          "answer": "<div class=\"answer-text\">DNSキャッシュや接続の継続時間などによって、実際のアクセス数が偏るため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランサとは、DNSラウンドロビンとは",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-02-01",
+          "question": "ロードバランサへの接続で、クライアントが宛先にする仮想的なIPアドレスは？",
+          "answer": "<div class=\"answer-text\">VIP（仮想IPアドレス）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランサ＋DNSラウンドロビンの組合せ",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-02-02",
+          "question": "サーバを複数台にしても、ロードバランサが1台なら残る可用性上の問題は？",
+          "answer": "<div class=\"answer-text\">ロードバランサ自体が単一障害点となる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランサ＋DNSラウンドロビンの組合せ",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-03-01",
+          "question": "回線障害に応じてDNS回答を変える負荷分散では、障害側のアドレスをどう扱う？",
+          "answer": "<div class=\"answer-text\">新しい回答の候補から外す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランサ＋DNSラウンドロビン＋回線負荷分散",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-03-02",
+          "question": "DNSの回答を正常側へ変えても、全端末の接続先がすぐには変わらない理由は？",
+          "answer": "<div class=\"answer-text\">以前のDNS回答が、クライアントやリゾルバにキャッシュされている場合があるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランサ＋DNSラウンドロビン＋回線負荷分散",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-04-01",
+          "question": "負荷分散のラウンドロビン方式は、どのようにサーバを選ぶ？",
+          "answer": "<div class=\"answer-text\">利用可能なサーバへ順番に振り分ける。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランシングの種類",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-04-02",
+          "question": "重み付きラウンドロビンは、何に応じて振分けの割合を変えられる？",
+          "answer": "<div class=\"answer-text\">サーバごとに設定した重み。処理能力の差などを反映できる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランシングの種類",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-04-03",
+          "question": "最小接続数方式は、どのサーバを選ぶ？",
+          "answer": "<div class=\"answer-text\">現在の接続数が最も少ないサーバ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランシングの種類",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-04-04",
+          "question": "静的な負荷分散と動的な負荷分散の違いは？",
+          "answer": "<div class=\"answer-text\">静的方式は決めた順序や比率を使い、動的方式は接続数などの状態を反映する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランシングの種類",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-05-01",
+          "question": "ロードバランサのパーシステンスとは、どのような機能か。",
+          "answer": "<div class=\"answer-text\">同じ利用者などからの一連の要求を、同じサーバへ転送する機能。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "パーシステンスの種類",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-05-02",
+          "question": "セッション情報を各サーバが個別に持つWebアプリで、パーシステンスを使う理由は？",
+          "answer": "<div class=\"answer-text\">途中で別サーバへ振り分けられ、ログインや買物かごなどの状態が失われるのを防ぐため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "パーシステンスの種類",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-05-03",
+          "question": "送信元IP方式とCookie方式のパーシステンスは、何で振分け先を固定する？",
+          "answer": "<div class=\"answer-text\">前者はクライアントの送信元IP、後者はHTTP Cookieの情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "パーシステンスの種類",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-05-04",
+          "question": "ロードバランサがCookieを挿入する方式では、最初の応答で何を行う？",
+          "answer": "<div class=\"answer-text\">選んだサーバを識別できるCookieを、クライアントへ返す応答に付ける。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "パーシステンスの種類",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-05-05",
+          "question": "Cookie方式のパーシステンスで、2回目以降の振分け先を判断できる理由は？",
+          "answer": "<div class=\"answer-text\">クライアントが前の応答で受け取ったCookieを、次の要求で送り返すため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "パーシステンスの種類",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-06-01",
+          "question": "ロードバランサのヘルスチェックは、何を判断するために行う？",
+          "answer": "<div class=\"answer-text\">分散先サーバが、利用できる状態にあるかどうか。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "モニターの種類",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-06-02",
+          "question": "TCP接続による監視は、ICMP監視より何を追加で確認できる？",
+          "answer": "<div class=\"answer-text\">対象のTCPサービスが接続を受け付けること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "モニターの種類",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-06-03",
+          "question": "HTTPの応答内容を確認する監視は、TCP接続の成功だけでは分からない何を確認する？",
+          "answer": "<div class=\"answer-text\">アプリケーションが、期待する内容を正常に返せること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "モニターの種類",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-06-04",
+          "question": "ヘルスチェックで異常を検出したサーバは、新規要求の振分けでどう扱う？",
+          "answer": "<div class=\"answer-text\">正常に戻るまで、振分け対象から外す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "モニターの種類",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-07-01",
+          "question": "ロードバランサの仮想サービスは、通常どの2つの宛先情報で定義する？",
+          "answer": "<div class=\"answer-text\">仮想IPアドレスとポート番号。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "基本構成、IPアドレス割当、アドレス変換内容",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-07-02",
+          "question": "アドレス変換型ロードバランサは、要求の宛先をVIPから何へ変換する？",
+          "answer": "<div class=\"answer-text\">選択した実サーバのアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "基本構成、IPアドレス割当、アドレス変換内容",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-07-03",
+          "question": "ロードバランサの公開ポートと、実サーバの待受けポートは同じでなければならないか。",
+          "answer": "<div class=\"answer-text\">異なっていてもよい。ポート番号も変換できる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "基本構成、IPアドレス割当、アドレス変換内容",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-08-01",
+          "question": "ロードバランサのインライン構成とワンアーム構成の違いは？",
+          "answer": "<div class=\"answer-text\">インラインは通信経路上に直列に置き、ワンアームは経路上のスイッチなどへ横付けする。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランサ - ワンアーム構成とは",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-08-02",
+          "question": "NAT型ロードバランサを使う構成で、応答もロードバランサへ戻す理由は？",
+          "answer": "<div class=\"answer-text\">要求に対応するアドレス変換や、セッション処理を行う必要があるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランサ - ワンアーム構成とは",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-08-03",
+          "question": "ワンアーム構成で、実サーバへの送信元をロードバランサのIPへ変換する主な目的は？",
+          "answer": "<div class=\"answer-text\">実サーバの応答をロードバランサへ確実に戻すため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランサ - ワンアーム構成とは",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-09-01",
+          "question": "X-Forwarded-Forは、プロキシやロードバランサから実サーバへ何を伝えるHTTPヘッダか。",
+          "answer": "<div class=\"answer-text\">元のクライアントなどのIPアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランサ - XFF（X-Forwared-For）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-09-02",
+          "question": "ロードバランサでSNATを行うと、実サーバの接続元IPは通常どう見える？",
+          "answer": "<div class=\"answer-text\">ロードバランサが変換に使うIPアドレスに見える。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランサ - XFF（X-Forwared-For）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-09-03",
+          "question": "X-Forwarded-Forを、任意のTCP通信へそのまま追加できない理由は？",
+          "answer": "<div class=\"answer-text\">HTTPヘッダの仕組みであり、HTTPを使わない通信には適用できないため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランサ - XFF（X-Forwared-For）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-10-01",
+          "question": "DSRは、サーバからの応答をどの経路で返す方式か。",
+          "answer": "<div class=\"answer-text\">ロードバランサを経由せず、実サーバからクライアント側へ返す方式。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランサ - DSR（Direct Server Return）",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-10-02",
+          "question": "DSRがロードバランサの負担を軽くできる理由は？",
+          "answer": "<div class=\"answer-text\">応答データがロードバランサを通らず、要求側の分散処理を中心にできるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランサ - DSR（Direct Server Return）",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-10-03",
+          "question": "L2 DSRで、実サーバの応答元として使うIPアドレスは？",
+          "answer": "<div class=\"answer-text\">クライアントが接続したサービスのVIP。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランサ - DSR（Direct Server Return）",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-10-04",
+          "question": "通常のDSR構成で、ロードバランサによるTLS終端を組み合わせにくい理由は？",
+          "answer": "<div class=\"answer-text\">応答がロードバランサを通らず、TLSを含む双方向の中継処理ができないため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ロードバランサ - DSR（Direct Server Return）",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-11-01",
+          "question": "GSLBは、通常の同一拠点内の負荷分散と比べて何を分散先にする？",
+          "answer": "<div class=\"answer-text\">地理的に離れた複数のサイト・データセンター。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "広域負荷分散 - GSLBとは",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-11-02",
+          "question": "DNSを利用するGSLBは、利用者の接続先をどう選ばせる？",
+          "answer": "<div class=\"answer-text\">監視状態や方針に応じた、適切なサイトのIPアドレスをDNSで回答する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "広域負荷分散 - GSLBとは",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-11-03",
+          "question": "GSLBがディザスタリカバリ対策となる理由は？",
+          "answer": "<div class=\"answer-text\">拠点全体の障害時に、別の地域のサイトへ接続先を切り替えられるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "広域負荷分散 - GSLBとは",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-12-01",
+          "question": "CDNのオリジンサーバとエッジのキャッシュサーバは、役割がどう違う？",
+          "answer": "<div class=\"answer-text\">オリジンは元のコンテンツを提供し、エッジは取得した内容を保存して利用者へ配信する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "CDN（Contents Delivery Network）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-12-02",
+          "question": "CDNがオリジンサーバの負荷を減らせる理由は？",
+          "answer": "<div class=\"answer-text\">キャッシュで応答できる要求を、分散したエッジサーバが処理するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "CDN（Contents Delivery Network）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C14-12-03",
+          "question": "CDNで利用者に近いエッジから配信する主な利点は？",
+          "answer": "<div class=\"answer-text\">通信距離や遅延を抑え、コンテンツの取得を速められる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "CDN（Contents Delivery Network）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/loadbalancer13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        }
+      ]
+    },
+    {
+      "deck_id": "chapter-15",
+      "revision": "050f3f38a544e04d4a9f8f812b8630a8998b53b1c6efe354d919fbfda96324f1",
+      "title": "IPv6",
+      "subtitle": "ネスペイージス 第15章",
+      "knowledge_count": 0,
+      "question_count": 57,
+      "sections": 11,
+      "cards": [
+        {
+          "id": "C15-01-01",
+          "question": "IPv6アドレスの長さは何ビットか。",
+          "answer": "<div class=\"answer-text\">128ビット。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6とは",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-01-02",
+          "question": "IPv6の基本ヘッダは、可変長と固定長のどちらで、何バイトか。",
+          "answer": "<div class=\"answer-text\">固定長で40バイト。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6とは",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-01-03",
+          "question": "IPv6の基本ヘッダに、IPv4のようなヘッダチェックサムはあるか。",
+          "answer": "<div class=\"answer-text\">ない。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6とは",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-01-04",
+          "question": "IPv6のNext Headerは、何を識別する？",
+          "answer": "<div class=\"answer-text\">次に続く拡張ヘッダ、またはTCPなどの上位層プロトコル。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6とは",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-01-05",
+          "question": "IPv6のHop Limitは、IPv4のどのフィールドに相当する？",
+          "answer": "<div class=\"answer-text\">TTL。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6とは",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-01-06",
+          "question": "IPv6のPayload Lengthは、基本ヘッダ40バイトを含む長さか。",
+          "answer": "<div class=\"answer-text\">含まない。基本ヘッダの後ろの拡張ヘッダとデータの長さ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6とは",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-01-07",
+          "question": "IPv6で、基本ヘッダ以外のオプション情報を付ける仕組みは？",
+          "answer": "<div class=\"answer-text\">拡張ヘッダ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6とは",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-01-08",
+          "question": "IPv6のFlow Labelは、主に何を識別するための値か。",
+          "answer": "<div class=\"answer-text\">同じ処理を受けるパケットのフロー。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6とは",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-02-01",
+          "question": "IPv6アドレスの標準的な表記は、何進数を何ビットごとに区切る？",
+          "answer": "<div class=\"answer-text\">16進数を16ビットごとに、コロンで区切る。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - 表記方法と省略表記",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-02-02",
+          "question": "IPv6アドレスの各16ビット区画で、省略できる0はどの部分か。",
+          "answer": "<div class=\"answer-text\">先頭に連続する0。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - 表記方法と省略表記",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-02-03",
+          "question": "IPv6アドレスの「::」は、何を省略した表記か。",
+          "answer": "<div class=\"answer-text\">連続する、値が0の区画。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - 表記方法と省略表記",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-02-04",
+          "question": "IPv6アドレスで「::」を2か所に使えない理由は？",
+          "answer": "<div class=\"answer-text\">それぞれ何個の0を省略したのか、一意に復元できなくなるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - 表記方法と省略表記",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-02-05",
+          "question": "IPv6のプレフィックスとインターフェースIDは、それぞれ主に何を識別する？",
+          "answer": "<div class=\"answer-text\">プレフィックスはネットワーク、インターフェースIDはその中のインターフェース。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - 表記方法と省略表記",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-03-01",
+          "question": "IPv6には、IPv4と同じブロードキャストアドレスがあるか。",
+          "answer": "<div class=\"answer-text\">ない。同報が必要な用途には、マルチキャストなどを使う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - ユニキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-03-02",
+          "question": "IPv6のリンクローカルアドレスは、どこまでの通信に使う？",
+          "answer": "<div class=\"answer-text\">同一リンク内。ルータを越えて転送されない。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - ユニキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-03-03",
+          "question": "IPv6のリンクローカルアドレス用に予約されたプレフィックスは？",
+          "answer": "<div class=\"answer-text\">FE80::/10。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - ユニキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-03-04",
+          "question": "IPv6のユニークローカルアドレス（ULA）は、主に何のためのアドレスか。",
+          "answer": "<div class=\"answer-text\">インターネット全体へ経路広告せず、組織内などで使うローカルなアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - ユニキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-03-05",
+          "question": "IPv6のULA全体の範囲と、ローカル生成に使う範囲は？",
+          "answer": "<div class=\"answer-text\">ULA全体はFC00::/7、ローカル生成用はFD00::/8。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - ユニキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-03-06",
+          "question": "IPv6グローバルユニキャストで、サブネットIDは何を識別する？",
+          "answer": "<div class=\"answer-text\">組織内で分割したサブネット。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - ユニキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-04-01",
+          "question": "IPv6のマルチキャストアドレスの範囲を表すプレフィックスは？",
+          "answer": "<div class=\"answer-text\">FF00::/8。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - マルチキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-04-02",
+          "question": "IPv6マルチキャストのスコープフィールドは、何を示す？",
+          "answer": "<div class=\"answer-text\">パケットが到達する範囲。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - マルチキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-04-03",
+          "question": "FF02::1とFF02::2は、それぞれ何を表す？",
+          "answer": "<div class=\"answer-text\">同じリンク上の全ノードと、全ルータ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - マルチキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-04-04",
+          "question": "IPv6の要請ノードマルチキャストアドレスは、対象アドレスのどの部分を使って作る？",
+          "answer": "<div class=\"answer-text\">IPv6アドレスの下位24ビット。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - マルチキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-04-05",
+          "question": "IPv6の要請ノードマルチキャストアドレスの範囲は？",
+          "answer": "<div class=\"answer-text\">FF02::1:FF00:0/104。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - マルチキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-04-06",
+          "question": "IPv6マルチキャストをEthernetへ対応付けるMACアドレスは、どう構成する？",
+          "answer": "<div class=\"answer-text\">先頭を33:33とし、後ろへIPv6マルチキャストアドレスの下位32ビットを付ける。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - マルチキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-04-07",
+          "question": "IPv6の要請ノードマルチキャストは、近隣探索で主に何に使う？",
+          "answer": "<div class=\"answer-text\">対象ノードのMACアドレスの解決や、アドレス重複検出。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - マルチキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-05-01",
+          "question": "IPv6のエニーキャストとマルチキャストは、届く相手がどう違う？",
+          "answer": "<div class=\"answer-text\">エニーキャストは同じアドレスを持つ候補の1つ、マルチキャストはグループの受信者へ届く。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - エニーキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-05-02",
+          "question": "エニーキャストの「近いノード」は、主に何に基づいて選ばれる？",
+          "answer": "<div class=\"answer-text\">物理的な距離ではなく、ルーティングで選ばれる経路の近さ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - エニーキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-05-03",
+          "question": "IPv6のエニーキャストは、アドレスの文字列表記だけでユニキャストと区別できるか。",
+          "answer": "<div class=\"answer-text\">できない。ユニキャストと同じアドレス形式を使う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - エニーキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-06-01",
+          "question": "48ビットMACから修正EUI-64形式のIDを作るとき、中央へ挿入する値は？",
+          "answer": "<div class=\"answer-text\">FFFE。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - EUI-64 / 特殊なIPv6アドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-06-02",
+          "question": "修正EUI-64によるIPv6インターフェースIDの生成では、MACアドレスのどのビットを反転する？",
+          "answer": "<div class=\"answer-text\">先頭オクテットのU/Lビット。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - EUI-64 / 特殊なIPv6アドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-06-03",
+          "question": "IPv6のインターフェースIDは、必ずMACアドレスから生成するか。",
+          "answer": "<div class=\"answer-text\">必ずではない。手動設定や、MACに依存しない自動生成もできる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - EUI-64 / 特殊なIPv6アドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-06-04",
+          "question": "IPv6のループバックアドレスと未指定アドレスは？",
+          "answer": "<div class=\"answer-text\">ループバックは::1、未指定は::。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - EUI-64 / 特殊なIPv6アドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-06-05",
+          "question": "IPv4射影アドレス（IPv4-mapped address）は、末尾に何を含む？",
+          "answer": "<div class=\"answer-text\">32ビットのIPv4アドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - EUI-64 / 特殊なIPv6アドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-07-01",
+          "question": "IPv6でICMPv6を表すNext Headerの値は？",
+          "answer": "<div class=\"answer-text\">58。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6 - ICMPv6",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-07-02",
+          "question": "ICMPv6は、エラー通知以外に近隣探索でどのような処理を担う？",
+          "answer": "<div class=\"answer-text\">ルータの発見、MACアドレスの解決、アドレスの重複検出など。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6 - ICMPv6",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-07-03",
+          "question": "ICMPv6のPacket Too Bigは、何を通知する？",
+          "answer": "<div class=\"answer-text\">パケットが次のリンクのMTUより大きく、転送できないこと。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6 - ICMPv6",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-07-04",
+          "question": "ICMPv6のRSとRAは、役割がどう違う？",
+          "answer": "<div class=\"answer-text\">RSはルータ情報の要求、RAはルータやプレフィックスなどの情報の広告。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6 - ICMPv6",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-07-05",
+          "question": "ICMPv6のNSとNAは、役割がどう違う？",
+          "answer": "<div class=\"answer-text\">NSは近隣ノードのリンク層アドレスや到達性の確認、NAはその応答やアドレス情報の通知。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6 - ICMPv6",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-08-01",
+          "question": "IPv6で、IPv4のARPに相当するMACアドレスの解決には何を使う？",
+          "answer": "<div class=\"answer-text\">ICMPv6によるNeighbor Discovery。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - Neighbor Discovery （IPv4のARPに相当）",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-08-02",
+          "question": "IPv6で、MACアドレス解決の最初のNSは通常どの宛先へ送る？",
+          "answer": "<div class=\"answer-text\">対象ノードの要請ノードマルチキャストアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - Neighbor Discovery （IPv4のARPに相当）",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-08-03",
+          "question": "NSを受けた対象ノードは、MACアドレスなどをどのメッセージで返す？",
+          "answer": "<div class=\"answer-text\">NA（Neighbor Advertisement）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - Neighbor Discovery （IPv4のARPに相当）",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-10-01",
+          "question": "SLAACでは、何を組み合わせてIPv6アドレスを作る？",
+          "answer": "<div class=\"answer-text\">RAで得たプレフィックスと、自分で生成したインターフェースID。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - ホストのIPv6アドレス設定、DHCPv6",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-10-02",
+          "question": "ステートフルDHCPv6とSLAACは、IPv6アドレスの決定方法がどう違う？",
+          "answer": "<div class=\"answer-text\">DHCPv6はサーバが割り当て、SLAACは端末がRAの情報を使って生成する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - ホストのIPv6アドレス設定、DHCPv6",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-10-03",
+          "question": "IPv6のデフォルトルータの情報は、通常DHCPv6とRAのどちらから得る？",
+          "answer": "<div class=\"answer-text\">RA。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - ホストのIPv6アドレス設定、DHCPv6",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-10-04",
+          "question": "ステートレスDHCPv6では、アドレス以外にどのような設定を取得する？",
+          "answer": "<div class=\"answer-text\">DNSサーバのアドレスなど。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - ホストのIPv6アドレス設定、DHCPv6",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-10-05",
+          "question": "RAのMフラグは、DHCPv6について何を通知する？",
+          "answer": "<div class=\"answer-text\">DHCPv6でアドレスを取得できること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - ホストのIPv6アドレス設定、DHCPv6",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-10-06",
+          "question": "RAのOフラグは、DHCPv6について何を通知する？",
+          "answer": "<div class=\"answer-text\">DNSサーバなど、アドレス以外の設定情報を取得できること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - ホストのIPv6アドレス設定、DHCPv6",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-10-07",
+          "question": "RAで、DNSサーバの情報も端末へ配布できるか。",
+          "answer": "<div class=\"answer-text\">RDNSSなどの対応したオプションを使えば配布できる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - ホストのIPv6アドレス設定、DHCPv6",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-10-08",
+          "question": "DHCPv6-PDでは、単一ホストのアドレスではなく主に何を委譲する？",
+          "answer": "<div class=\"answer-text\">ルータの配下などで使うIPv6プレフィックス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6アドレス - ホストのIPv6アドレス設定、DHCPv6",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-11-01",
+          "question": "デュアルスタックは、1台の機器で何を併用する方式か。",
+          "answer": "<div class=\"answer-text\">IPv4とIPv6のプロトコルスタック。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6移行技術 - デュアルスタック、トランスレータ",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-11-02",
+          "question": "IPv4とIPv6のトランスレータは、どのような通信を実現する？",
+          "answer": "<div class=\"answer-text\">IPv4だけを使う側と、IPv6を使う側との相互通信。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6移行技術 - デュアルスタック、トランスレータ",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-11-03",
+          "question": "IPv4/IPv6のプロトコル変換と、トンネリングの違いは？",
+          "answer": "<div class=\"answer-text\">変換はパケット形式などを変え、トンネリングは元のパケットを別のパケットに包んで運ぶ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6移行技術 - デュアルスタック、トランスレータ",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-12-01",
+          "question": "IPv6 over IPv4トンネルは、IPv6パケットを何に格納して運ぶ？",
+          "answer": "<div class=\"answer-text\">IPv4パケットのペイロード。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6移行技術 - トンネリング",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z8.1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-12-02",
+          "question": "IPv6をIPv4へ直接カプセル化するとき、外側IPv4のProtocol番号は？",
+          "answer": "<div class=\"answer-text\">41。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6移行技術 - トンネリング",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z8.1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-12-03",
+          "question": "従来の6to4は、宛先トンネルのIPv4アドレスをどこから求める？",
+          "answer": "<div class=\"answer-text\">IPv6アドレスに埋め込まれたIPv4アドレスの情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6移行技術 - トンネリング",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z8.1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C15-12-04",
+          "question": "Teredoは、IPv4のNATを越えるため、IPv6パケットを何でカプセル化する？",
+          "answer": "<div class=\"answer-text\">UDP/IPv4。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPv6移行技術 - トンネリング",
+          "sources": [
+            "https://www.infraexpert.com/study/ipv6z8.1.html"
           ],
           "kind": "",
           "knowledge_ids": []
