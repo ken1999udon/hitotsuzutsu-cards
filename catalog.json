@@ -1,5 +1,5 @@
 {
-  "revision": "3da923755f274b3f8143bcb690f6d9dbfcfa8a53baaf31505ebe4a966f51a677",
+  "revision": "324711a3084a165bd6115516513c4cfbf95202f0a93bd8538a015c3909e17c4c",
   "decks": [
     {
       "deck_id": "chapter-01",
@@ -832,12 +832,2753 @@
       ]
     },
     {
+      "deck_id": "chapter-02",
+      "revision": "3bab91a466218b37cadc810b3c662d2c16f7814695ff323e0c4bdbc9128c21fb",
+      "title": "TCP/IPプロトコル",
+      "subtitle": "ネスペイージス 第2章",
+      "knowledge_count": 0,
+      "question_count": 210,
+      "sections": 35,
+      "cards": [
+        {
+          "id": "C02-01-02",
+          "question": "TCP/IPの4階層を、上位から順に挙げると？",
+          "answer": "<div class=\"answer-text\">アプリケーション層、トランスポート層、インターネット層、ネットワークインターフェース層。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCP/IPの階層モデル",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-01-03",
+          "question": "TCP/IPのアプリケーション層は、OSI参照モデルのどの層に相当する？",
+          "answer": "<div class=\"answer-text\">アプリケーション層、プレゼンテーション層、セッション層。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCP/IPの階層モデル",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-01-04",
+          "question": "TCP/IPのインターネット層は、OSI参照モデルのどの層に相当する？",
+          "answer": "<div class=\"answer-text\">ネットワーク層。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCP/IPの階層モデル",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-01-05",
+          "question": "TCP/IPのネットワークインターフェース層は、OSI参照モデルのどの層に相当する？",
+          "answer": "<div class=\"answer-text\">データリンク層と物理層。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCP/IPの階層モデル",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-01-06",
+          "question": "TCP/IPのトランスポート層で使う代表的な2つのプロトコルは？",
+          "answer": "<div class=\"answer-text\">TCPとUDP。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCP/IPの階層モデル",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-02-01",
+          "question": "IPのコネクションレス型通信とは、何をせずに送信する方式か。",
+          "answer": "<div class=\"answer-text\">通信相手とのコネクションを事前に確立せず送信する方式。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-02-02",
+          "question": "IPのベストエフォート型通信では、到達や順序は保証されるか。",
+          "answer": "<div class=\"answer-text\">保証されない。必要な信頼性は上位層で補う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-02-03",
+          "question": "IPv4ヘッダの長さは、オプションなしの場合と最大でそれぞれ何バイトか。",
+          "answer": "<div class=\"answer-text\">オプションなしは20バイト、最大60バイト。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-02-04",
+          "question": "IPv4ヘッダのIHLは、ヘッダ長を何バイト単位で表す？",
+          "answer": "<div class=\"answer-text\">4バイト単位。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-02-05",
+          "question": "IPv4ヘッダのTotal Lengthは、ヘッダも含む長さか。",
+          "answer": "<div class=\"answer-text\">ヘッダを含むIPパケット全体の長さ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-02-06",
+          "question": "IPv4のTTLは、ルータで転送されるたびにどうなる？",
+          "answer": "<div class=\"answer-text\">通常1ずつ減り、0になるとパケットが破棄される。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-02-07",
+          "question": "IPのTTLが、ルーティングループによる問題を抑える理由は？",
+          "answer": "<div class=\"answer-text\">経路がループしても、TTLが尽きるとパケットを破棄できるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-02-08",
+          "question": "IPv4ヘッダのProtocolフィールドは、何を識別する？",
+          "answer": "<div class=\"answer-text\">IPペイロードに格納された次のプロトコル。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-02-09",
+          "question": "IPv4のProtocol番号で、TCPとUDPはそれぞれいくつか。",
+          "answer": "<div class=\"answer-text\">TCPは6、UDPは17。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-02-10",
+          "question": "IPv4ヘッダのチェックサムが検査する範囲は？",
+          "answer": "<div class=\"answer-text\">IPv4ヘッダ。ペイロード全体ではない。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-02-11",
+          "question": "IPv4フラグメントのIdentificationは、何を判断するために使う？",
+          "answer": "<div class=\"answer-text\">どのフラグメントが同じ元のIPパケットに属するかを判断する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-02-12",
+          "question": "IPv4のDFフラグを1にすると、何を禁止する？",
+          "answer": "<div class=\"answer-text\">パケットのフラグメント化。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-02-13",
+          "question": "IPv4のMFフラグは、後続フラグメントがあるとき何になる？",
+          "answer": "<div class=\"answer-text\">1になる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-02-14",
+          "question": "IPv4のFragment Offsetは、何を表す？",
+          "answer": "<div class=\"answer-text\">元のIPデータの中で、そのフラグメントが位置する場所。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-03-01",
+          "question": "ARPは、何から何を解決するプロトコルか。",
+          "answer": "<div class=\"answer-text\">IPv4アドレスから、そのリンク上のMACアドレスを解決する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ARPとは、RARPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-03-02",
+          "question": "通常のARPリクエストは、Ethernetでどの宛先へ送る？",
+          "answer": "<div class=\"answer-text\">ブロードキャスト宛て。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ARPとは、RARPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-03-03",
+          "question": "通常のARPリプライは、誰へ返す？",
+          "answer": "<div class=\"answer-text\">問い合わせた送信元へユニキャストで返す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ARPとは、RARPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-03-04",
+          "question": "別サブネットの相手へ送る場合、ホストが最初にARPで調べる通常の相手は？",
+          "answer": "<div class=\"answer-text\">同一リンク上のデフォルトゲートウェイ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ARPとは、RARPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-03-05",
+          "question": "RARPは、ARPと逆に何を求めるプロトコルか。",
+          "answer": "<div class=\"answer-text\">MACアドレスから、自分に割り当てられるIPアドレスを求める。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ARPとは、RARPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-04-01",
+          "question": "GARPは、誰のIPアドレスについて送るARPか。",
+          "answer": "<div class=\"answer-text\">送信元自身のIPアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "GARP（Gratuitous ARP）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip3.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-04-02",
+          "question": "GARPの主な2つの用途は？",
+          "answer": "<div class=\"answer-text\">IPアドレスの重複検出と、周囲のARPキャッシュの更新。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "GARP（Gratuitous ARP）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip3.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-04-03",
+          "question": "冗長機器の切替え時にGARPを送る目的は？",
+          "answer": "<div class=\"answer-text\">新しい機器とすぐ通信できるよう、周囲のARPキャッシュを更新する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "GARP（Gratuitous ARP）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip3.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-05-01",
+          "question": "ARPキャッシュを保持する利点は？",
+          "answer": "<div class=\"answer-text\">同じ対応を使うたびにARPで問い合わせ直す必要を減らせる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ARPキャッシュとARPテーブル",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-05-02",
+          "question": "ARPテーブルが保持する基本的な対応情報は？",
+          "answer": "<div class=\"answer-text\">IPアドレスとMACアドレスの対応。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ARPキャッシュとARPテーブル",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-05-03",
+          "question": "ARPテーブルのdynamicとstaticは、学習方法でどう違う？",
+          "answer": "<div class=\"answer-text\">dynamicは通信で動的に学習し、staticは手動設定などで固定する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ARPキャッシュとARPテーブル",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-05-04",
+          "question": "WindowsなどでARPテーブルを表示する代表的なコマンドは？",
+          "answer": "<div class=\"answer-text\">arp -a。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ARPキャッシュとARPテーブル",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-05-05",
+          "question": "Ethernet上のARPは、IPv4パケットにカプセル化して送るか。",
+          "answer": "<div class=\"answer-text\">IPv4パケットには格納せず、Ethernetフレームへ直接格納する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ARPキャッシュとARPテーブル",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-06-01",
+          "question": "ICMPは、主にどのようなメッセージを伝えるプロトコルか。",
+          "answer": "<div class=\"answer-text\">IP通信のエラー通知や、通信状態の問い合わせなどの制御メッセージ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ICMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-06-02",
+          "question": "IPv4ヘッダでICMPを示すProtocol番号は？",
+          "answer": "<div class=\"answer-text\">1。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ICMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-06-03",
+          "question": "ICMPのTypeとCodeは、何を表す？",
+          "answer": "<div class=\"answer-text\">Typeはメッセージの種類、Codeはその種類の中での詳しい内容。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ICMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-06-04",
+          "question": "ICMPv4のEcho RequestとEcho ReplyのType番号は？",
+          "answer": "<div class=\"answer-text\">要求は8、応答は0。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ICMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-06-05",
+          "question": "ICMPv4のDestination Unreachableは、何を通知する？",
+          "answer": "<div class=\"answer-text\">宛先へ到達できないこと。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ICMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-06-06",
+          "question": "ICMPv4のTime Exceededは、転送中にどの状態になると返される？",
+          "answer": "<div class=\"answer-text\">IPパケットのTTLが尽きたとき。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ICMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-06-07",
+          "question": "ICMPv4の「Fragmentation Needed」は、何を通知する？",
+          "answer": "<div class=\"answer-text\">分割が必要なのに、DFフラグが立っていて分割できないこと。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ICMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-06-08",
+          "question": "ICMPのエラー通知は、通常どの相手へ返す？",
+          "answer": "<div class=\"answer-text\">問題となったパケットの送信元。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ICMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-07-01",
+          "question": "pingは、主にどのような到達性を確認するコマンドか。",
+          "answer": "<div class=\"answer-text\">ICMPエコー要求と応答による、相手とのIP到達性。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "pingコマンド",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-07-02",
+          "question": "pingが失敗しただけで、TCPなどの通信もすべて不可能と断定できるか。",
+          "answer": "<div class=\"answer-text\">できない。ICMPだけが制限されている場合もある。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "pingコマンド",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-07-03",
+          "question": "pingが成功しても、アプリケーションのサービスが正常とは限らないのはなぜ？",
+          "answer": "<div class=\"answer-text\">ICMP応答と、アプリケーションが使うポートや処理の動作は別だから。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "pingコマンド",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-07-04",
+          "question": "pingの応答時間は、主にどの時間を表す？",
+          "answer": "<div class=\"answer-text\">要求を送ってから応答を受け取るまでの往復時間。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "pingコマンド",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-07-05",
+          "question": "pingで到達不能を通知したIPアドレスは、必ず最終宛先のものか。",
+          "answer": "<div class=\"answer-text\">途中のルータなどが通知する場合もある。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "pingコマンド",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-07-06",
+          "question": "TTL超過が繰り返し通知されるとき、疑う経路の問題の一つは？",
+          "answer": "<div class=\"answer-text\">ルーティングループ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "pingコマンド",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-08-01",
+          "question": "TCPが通信開始前に、相手との間に確立するものは？",
+          "answer": "<div class=\"answer-text\">コネクション。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-08-02",
+          "question": "TCPが通信の信頼性を確保する主な仕組みは？",
+          "answer": "<div class=\"answer-text\">確認応答、順序制御、再送制御など。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-08-03",
+          "question": "TCP/UDPのポート番号は何ビットか。",
+          "answer": "<div class=\"answer-text\">16ビット。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-08-04",
+          "question": "IANAが定めるウェルノウンポートの範囲は？",
+          "answer": "<div class=\"answer-text\">0〜1023。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-08-05",
+          "question": "IANAが定める登録済みポートの範囲は？",
+          "answer": "<div class=\"answer-text\">1024〜49151。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-08-06",
+          "question": "IANAが定める動的・プライベートポートの範囲は？",
+          "answer": "<div class=\"answer-text\">49152〜65535。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-08-07",
+          "question": "サーバ側で既知のポート番号を使う主な理由は？",
+          "answer": "<div class=\"answer-text\">クライアントが接続先のサービスを指定できるようにするため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-09-01",
+          "question": "TCPのシーケンス番号は、データの何を示す？",
+          "answer": "<div class=\"answer-text\">送信するデータの先頭バイトの位置。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：TCPヘッダ",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-09-02",
+          "question": "TCPの確認応答番号は、何を示す？",
+          "answer": "<div class=\"answer-text\">次に受信したいデータのシーケンス番号。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：TCPヘッダ",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-09-03",
+          "question": "TCPのACKフラグが1であることは、何を示す？",
+          "answer": "<div class=\"answer-text\">確認応答番号のフィールドが有効であること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：TCPヘッダ",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-09-04",
+          "question": "TCPのSYN・FIN・RSTは、それぞれ何に使う？",
+          "answer": "<div class=\"answer-text\">SYNは接続開始、FINは正常な送信終了、RSTは接続の強制リセット。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：TCPヘッダ",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-09-05",
+          "question": "TCPヘッダのウィンドウサイズは、主に何を相手へ通知する？",
+          "answer": "<div class=\"answer-text\">自分が受信できるデータ量。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：TCPヘッダ",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-09-06",
+          "question": "TCPのチェックサムは、データ部分の誤りも検出するか。",
+          "answer": "<div class=\"answer-text\">検出する。TCPヘッダとデータも検査対象となる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：TCPヘッダ",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-09-07",
+          "question": "TCPヘッダのデータオフセットは何を示す？",
+          "answer": "<div class=\"answer-text\">TCPヘッダの長さ、つまりデータ部の開始位置。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：TCPヘッダ",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-10-01",
+          "question": "TCPの3ウェイハンドシェイクで、フラグはどの順にやり取りする？",
+          "answer": "<div class=\"answer-text\">SYN → SYN＋ACK → ACK。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：3ウェイハンドシェイク",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-10-02",
+          "question": "TCPで、データを含まないSYNやFINはシーケンス番号を消費するか。",
+          "answer": "<div class=\"answer-text\">それぞれ1つ消費する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：3ウェイハンドシェイク",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-10-03",
+          "question": "TCPの通常の切断で、FINを双方が送る理由は？",
+          "answer": "<div class=\"answer-text\">各方向の送信をそれぞれ終了するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：3ウェイハンドシェイク",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-10-04",
+          "question": "TCPのMSSは、何の最大サイズか。",
+          "answer": "<div class=\"answer-text\">TCPヘッダを含まない、1セグメントのTCPデータ部分の最大サイズ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：3ウェイハンドシェイク",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-10-05",
+          "question": "TCPのSYNでMSSを通知すると、相手に何を伝えられる？",
+          "answer": "<div class=\"answer-text\">自分が受信できるTCPデータ部分の最大サイズ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：3ウェイハンドシェイク",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-10-06",
+          "question": "MTUが1500バイトで、IPv4・TCPヘッダが各20バイトなら、MSSは？",
+          "answer": "<div class=\"answer-text\">1460バイト。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：3ウェイハンドシェイク",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-11-01",
+          "question": "TCPのLISTEN状態は、何を待っている？",
+          "answer": "<div class=\"answer-text\">接続要求の到着。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：状態遷移 - CLOSED、LISTEN、ESTABLISHED",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip31.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-11-02",
+          "question": "TCPのSYN_SENT状態は、どの段階か。",
+          "answer": "<div class=\"answer-text\">SYNを送信し、相手からの接続応答を待っている段階。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：状態遷移 - CLOSED、LISTEN、ESTABLISHED",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip31.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-11-03",
+          "question": "TCPのSYN_RECEIVED状態は、どの段階か。",
+          "answer": "<div class=\"answer-text\">SYNを受信してSYN＋ACKを送り、最後のACKを待っている段階。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：状態遷移 - CLOSED、LISTEN、ESTABLISHED",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip31.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-11-04",
+          "question": "TCPのESTABLISHED状態は、何を表す？",
+          "answer": "<div class=\"answer-text\">コネクションが確立され、データをやり取りできる状態。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：状態遷移 - CLOSED、LISTEN、ESTABLISHED",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip31.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-11-05",
+          "question": "TCPのCLOSE_WAITは、何の終了を待つ状態か。",
+          "answer": "<div class=\"answer-text\">相手のFINを受信した後、自分側のアプリケーションが接続を閉じるのを待つ状態。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：状態遷移 - CLOSED、LISTEN、ESTABLISHED",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip31.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-11-06",
+          "question": "TCPのLAST_ACKは、何を待つ状態か。",
+          "answer": "<div class=\"answer-text\">自分が送ったFINに対する最後のACK。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：状態遷移 - CLOSED、LISTEN、ESTABLISHED",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip31.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-11-07",
+          "question": "TCPで、切断後もしばらく待機してからCLOSEDへ移る状態は？",
+          "answer": "<div class=\"answer-text\">TIME_WAIT。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：状態遷移 - CLOSED、LISTEN、ESTABLISHED",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip31.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-11-08",
+          "question": "TCPコネクションの状態を調べる代表的なOSコマンドは？",
+          "answer": "<div class=\"answer-text\">netstat。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：状態遷移 - CLOSED、LISTEN、ESTABLISHED",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip31.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-12-01",
+          "question": "TCPは、到着順が入れ替わったデータを何に基づいて並べ直す？",
+          "answer": "<div class=\"answer-text\">シーケンス番号。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：順序制御、再送制御",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-12-02",
+          "question": "TCPで、確認応答が一定時間届かない場合に行う処理は？",
+          "answer": "<div class=\"answer-text\">未確認のデータを再送する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：順序制御、再送制御",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-12-03",
+          "question": "TCPでACKが届かない場合、データ自体が必ず失われたといえるか。",
+          "answer": "<div class=\"answer-text\">いえない。ACKが失われた可能性もある。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：順序制御、再送制御",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-13-01",
+          "question": "TCPのウィンドウ制御が、1セグメントごとにACKを待つ方式より効率的な理由は？",
+          "answer": "<div class=\"answer-text\">許された範囲のデータを、ACKを待たずに続けて送れるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：ウィンドウ制御、フロー制御制御",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-13-02",
+          "question": "TCPのスライディングウィンドウでは、ACKを受けると送信可能な範囲をどうする？",
+          "answer": "<div class=\"answer-text\">確認された分だけ先へずらし、後続データを送れるようにする。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：ウィンドウ制御、フロー制御制御",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-13-03",
+          "question": "TCPのフロー制御は、何を防ぐための制御か。",
+          "answer": "<div class=\"answer-text\">受信側の処理能力やバッファ容量を超える送信。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：ウィンドウ制御、フロー制御制御",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-13-04",
+          "question": "TCPの受信側が処理しきれなくなった場合、通知するウィンドウサイズをどうする？",
+          "answer": "<div class=\"answer-text\">小さくする。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TCPとは：ウィンドウ制御、フロー制御制御",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-14-01",
+          "question": "UDPは、TCPと同様のコネクション確立処理を行うか。",
+          "answer": "<div class=\"answer-text\">行わない。コネクションレス型で通信する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "UDPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-14-02",
+          "question": "UDPヘッダは何バイトか。",
+          "answer": "<div class=\"answer-text\">8バイト。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "UDPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-14-03",
+          "question": "UDPの長さフィールドは、何の合計長か。",
+          "answer": "<div class=\"answer-text\">UDPヘッダとUDPデータの合計長。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "UDPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-14-04",
+          "question": "UDP自体に、確認応答・再送・順序保証の機能はあるか。",
+          "answer": "<div class=\"answer-text\">ない。必要なら上位のアプリケーションで実現する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "UDPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-14-05",
+          "question": "音声などのリアルタイム通信で、UDPが使われる理由は？",
+          "answer": "<div class=\"answer-text\">再送待ちなどの遅延を抑え、継続的な送信を優先できるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "UDPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-14-06",
+          "question": "TCPとUDPのうち、IPマルチキャストやブロードキャストに使えるのは？",
+          "answer": "<div class=\"answer-text\">UDP。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "UDPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-14-07",
+          "question": "少量の問い合わせと応答にUDPを使うと、どのような負担を省ける？",
+          "answer": "<div class=\"answer-text\">通信開始前のコネクション確立処理。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "UDPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-15-01",
+          "question": "DHCPでIPアドレスとともに配布できる設定の例は？",
+          "answer": "<div class=\"answer-text\">サブネットマスク、デフォルトゲートウェイ、DNSサーバのアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DHCPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-15-02",
+          "question": "DHCPで使うトランスポート層プロトコルと、サーバ・クライアントのポート番号は？",
+          "answer": "<div class=\"answer-text\">UDP。サーバは67、クライアントは68。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DHCPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-15-03",
+          "question": "DHCPで、初回のアドレス取得時に使う4種類のメッセージの順序は？",
+          "answer": "<div class=\"answer-text\">Discover → Offer → Request → ACK。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DHCPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-15-04",
+          "question": "初回のDHCP Discoverがブロードキャストになる理由は？",
+          "answer": "<div class=\"answer-text\">クライアントが、利用できるDHCPサーバのアドレスをまだ知らないため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DHCPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-15-05",
+          "question": "DHCPサーバが割り当て用IPアドレスを選ぶ範囲を何という？",
+          "answer": "<div class=\"answer-text\">アドレスプール。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DHCPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-15-06",
+          "question": "DHCPのリース期間とは何か。",
+          "answer": "<div class=\"answer-text\">割り当てられたIPアドレスを利用できる貸出期間。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DHCPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-16-01",
+          "question": "通常のルータ越しでは、DHCP Discoverがそのままサーバへ届かない理由は？",
+          "answer": "<div class=\"answer-text\">ルータがL2ブロードキャストを別サブネットへそのまま転送しないため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DHCPリレーエージェントとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip14.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-16-02",
+          "question": "DHCPリレーエージェントの役割は？",
+          "answer": "<div class=\"answer-text\">クライアントのDHCP要求を、別サブネットのDHCPサーバへ中継する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DHCPリレーエージェントとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip14.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-16-03",
+          "question": "DHCPリレーエージェントから指定DHCPサーバへの転送には、通常どの配送方式を使う？",
+          "answer": "<div class=\"answer-text\">ユニキャスト。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DHCPリレーエージェントとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip14.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-17-01",
+          "question": "DNSでいう名前解決とは、どのような処理か。",
+          "answer": "<div class=\"answer-text\">ドメイン名から対応するIPアドレスなどを求める処理。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-17-02",
+          "question": "DNSのドメイン名は、どのような構造で管理される？",
+          "answer": "<div class=\"answer-text\">ルートを頂点とする階層構造。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-17-03",
+          "question": "FQDNとは何か。",
+          "answer": "<div class=\"answer-text\">ホスト名から上位ドメインまでを省略せずに表した完全なドメイン名。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-17-04",
+          "question": "DNSで、名前解決の問い合わせを行う側を何という？",
+          "answer": "<div class=\"answer-text\">リゾルバ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-17-05",
+          "question": "DNSの通常の問い合わせで使う代表的なポート番号は？",
+          "answer": "<div class=\"answer-text\">53。UDPとTCPの両方で使う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-17-06",
+          "question": "DNSのゾーン転送で使うトランスポート層プロトコルは？",
+          "answer": "<div class=\"answer-text\">TCP。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-17-07",
+          "question": "DNSが、毎回ルートサーバから問い合わせ直さずに済む理由は？",
+          "answer": "<div class=\"answer-text\">以前の問い合わせ結果をキャッシュできるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-18-01",
+          "question": "権威DNSサーバとキャッシュDNSサーバの役割の違いは？",
+          "answer": "<div class=\"answer-text\">権威サーバは管理するゾーンの情報を応答し、キャッシュサーバは利用者に代わって問い合わせ、結果を保存する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "権威DNSサーバとキャッシュDNSサーバの違い",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip15.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-18-02",
+          "question": "DNSのプライマリサーバとセカンダリサーバは、ゾーン情報をどう持つ？",
+          "answer": "<div class=\"answer-text\">プライマリが原本を管理し、セカンダリが複製を保持する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "権威DNSサーバとキャッシュDNSサーバの違い",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip15.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-18-03",
+          "question": "DNSのゾーン転送とは何か。",
+          "answer": "<div class=\"answer-text\">権威DNSサーバ間で、ゾーン情報を複製・同期すること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "権威DNSサーバとキャッシュDNSサーバの違い",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip15.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-18-04",
+          "question": "クライアントの「優先DNSサーバ」と「代替DNSサーバ」は、何の指定か。",
+          "answer": "<div class=\"answer-text\">名前解決を問い合わせるDNSサーバの優先順位。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "権威DNSサーバとキャッシュDNSサーバの違い",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip15.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-19-01",
+          "question": "DNSのAレコードは、何を対応付ける？",
+          "answer": "<div class=\"answer-text\">ホスト名とIPv4アドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSゾーンファイルとリソースレコード",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip23.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-19-02",
+          "question": "DNSのPTRレコードは、何の名前解決で使う？",
+          "answer": "<div class=\"answer-text\">IPアドレスからホスト名を求める逆引き。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSゾーンファイルとリソースレコード",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip23.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-19-03",
+          "question": "DNSのNSレコードは、何を指定する？",
+          "answer": "<div class=\"answer-text\">そのゾーンを管理する権威DNSサーバ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSゾーンファイルとリソースレコード",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip23.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-19-04",
+          "question": "DNSのCNAMEレコードは、何を指定する？",
+          "answer": "<div class=\"answer-text\">名前の別名と、その参照先となる正式な名前。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSゾーンファイルとリソースレコード",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip23.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-19-05",
+          "question": "DNSのMXレコードは、何を指定する？",
+          "answer": "<div class=\"answer-text\">そのドメイン宛てのメールを受け取るメールサーバ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSゾーンファイルとリソースレコード",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip23.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-19-06",
+          "question": "DNSのMXレコードの優先度は、数値が大きい方と小さい方のどちらを優先する？",
+          "answer": "<div class=\"answer-text\">小さい方。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSゾーンファイルとリソースレコード",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip23.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-19-07",
+          "question": "DNSのTXTレコードには、どのような情報を格納する？",
+          "answer": "<div class=\"answer-text\">テキスト情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSゾーンファイルとリソースレコード",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip23.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-19-08",
+          "question": "DNSのSOAレコードには、どのような情報を持たせる？",
+          "answer": "<div class=\"answer-text\">ゾーンの管理者、シリアル番号、更新確認間隔などの管理情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSゾーンファイルとリソースレコード",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip23.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-19-09",
+          "question": "DNSゾーンのシリアル番号を、更新時に増やす理由は？",
+          "answer": "<div class=\"answer-text\">セカンダリサーバがゾーンの更新を判断できるようにするため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSゾーンファイルとリソースレコード",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip23.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-19-10",
+          "question": "DNSレコードのTTLは、何の保持時間か。",
+          "answer": "<div class=\"answer-text\">そのレコードをキャッシュして利用できる時間。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSゾーンファイルとリソースレコード",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip23.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-19-11",
+          "question": "DNSのSOAにあるRefresh・Retry・Expireの役割は？",
+          "answer": "<div class=\"answer-text\">更新確認の間隔、確認失敗時の再試行間隔、更新できない場合のゾーン情報の有効期間。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSゾーンファイルとリソースレコード",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip23.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-19-12",
+          "question": "DNSのネガティブキャッシュは、どのような結果を保存する？",
+          "answer": "<div class=\"answer-text\">名前や該当レコードが存在しないなどの否定的な応答。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSゾーンファイルとリソースレコード",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip23.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-19-13",
+          "question": "DNSゾーンファイルで、ドメイン名の末尾に「.」を付ける意味は？",
+          "answer": "<div class=\"answer-text\">完全なドメイン名として扱い、末尾にORIGINを補わないこと。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSゾーンファイルとリソースレコード",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip23.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-19-14",
+          "question": "DNSSECは、何によってDNSデータの出所と完全性を検証する？",
+          "answer": "<div class=\"answer-text\">リソースレコードに対するデジタル署名。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSゾーンファイルとリソースレコード",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip23.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-20-01",
+          "question": "DNSのスタブリゾルバとフルサービスリゾルバの違いは？",
+          "answer": "<div class=\"answer-text\">スタブは名前解決を依頼し、フルサービスは必要な問い合わせを進めて最終結果を求める。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSリゾルバ、フォワーダー",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip24.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-20-02",
+          "question": "DNSの再帰問い合わせでは、問い合わせ先に何を依頼する？",
+          "answer": "<div class=\"answer-text\">他サーバへの問い合わせも含めて名前解決を行い、最終結果を返すこと。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSリゾルバ、フォワーダー",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip24.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-20-03",
+          "question": "DNSの反復問い合わせを受けたサーバは、必ず他サーバへ問い合わせる必要があるか。",
+          "answer": "<div class=\"answer-text\">ない。自分が持つ回答や、次の問い合わせ先などを返す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSリゾルバ、フォワーダー",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip24.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-20-04",
+          "question": "DNSのフォワーダ機能は、解決できない問い合わせをどう扱う？",
+          "answer": "<div class=\"answer-text\">指定した別のDNSサーバへ転送し、名前解決を依頼する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSリゾルバ、フォワーダー",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip24.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-21-01",
+          "question": "DNSプロキシ機能を持つルータは、クライアントのDNS問い合わせをどう処理する？",
+          "answer": "<div class=\"answer-text\">DNSサーバへ代理で問い合わせ、得た応答をクライアントへ返す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSプロキシ",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip26.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-21-02",
+          "question": "DNSプロキシを使うと、実際のDNSサーバのアドレス変更時にクライアント側で何を省ける？",
+          "answer": "<div class=\"answer-text\">クライアントごとのDNSサーバ設定の変更。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DNSプロキシ",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip26.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-22-01",
+          "question": "HTTPの基本的な通信は、どの2種類のメッセージで行う？",
+          "answer": "<div class=\"answer-text\">クライアントからのリクエストと、サーバからのレスポンス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-22-02",
+          "question": "URLのスキーム・ホスト・パスは、それぞれ何を表す？",
+          "answer": "<div class=\"answer-text\">アクセス方法、接続先ホスト、対象資源の位置。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-22-03",
+          "question": "HTTPとHTTPSの既定のサーバポート番号は？",
+          "answer": "<div class=\"answer-text\">HTTPは80、HTTPSは443。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-22-04",
+          "question": "HTTP/1.1のリクエスト行に含む主な3項目は？",
+          "answer": "<div class=\"answer-text\">メソッド、リクエスト対象、HTTPバージョン。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-22-05",
+          "question": "HTTPのGETとHEADの違いは？",
+          "answer": "<div class=\"answer-text\">GETは資源の内容を取得し、HEADは本文を受け取らずヘッダを取得する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-22-06",
+          "question": "HTTPのPOSTメソッドは、主に何に使う？",
+          "answer": "<div class=\"answer-text\">サーバへデータを送り、処理を依頼する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-22-07",
+          "question": "HTTPのPUTとDELETEは、対象資源に対して何を要求する？",
+          "answer": "<div class=\"answer-text\">PUTは作成・置換、DELETEは削除。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-22-08",
+          "question": "HTTPのCONNECTメソッドは、何を要求する？",
+          "answer": "<div class=\"answer-text\">プロキシなどに対するトンネルの確立。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-22-09",
+          "question": "HTTPのステータスコードの2xx・3xx・4xx・5xxは、それぞれ何を示す？",
+          "answer": "<div class=\"answer-text\">成功、リダイレクト、クライアント側のエラー、サーバ側のエラー。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-22-10",
+          "question": "HTTPの200・301・404・503は、それぞれ何を示す？",
+          "answer": "<div class=\"answer-text\">成功、恒久的な移動、対象が見つからない、サービス利用不可。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-23-01",
+          "question": "HTTP/2が、1つのTCP接続で複数の要求・応答を並行して扱う仕組みは？",
+          "answer": "<div class=\"answer-text\">ストリームの多重化。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTP/2とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-23-02",
+          "question": "HTTP/2のフレームは、どのストリームに属するかを何で識別する？",
+          "answer": "<div class=\"answer-text\">ストリームID。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTP/2とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-23-03",
+          "question": "HTTP/1.1とHTTP/2は、メッセージの表現形式がどう違う？",
+          "answer": "<div class=\"answer-text\">HTTP/1.1はテキスト形式、HTTP/2はバイナリ形式。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTP/2とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-23-04",
+          "question": "HTTP/2のHEADERSフレームとDATAフレームは、それぞれ何を運ぶ？",
+          "answer": "<div class=\"answer-text\">HEADERSはHTTPヘッダ、DATAはメッセージ本文。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTP/2とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-23-05",
+          "question": "TLS上のHTTP/2で、利用するアプリケーションプロトコルを合意するTLS拡張は？",
+          "answer": "<div class=\"answer-text\">ALPN。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTP/2とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-23-06",
+          "question": "HTTP/2で使うヘッダ圧縮方式は？",
+          "answer": "<div class=\"answer-text\">HPACK。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTP/2とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-23-07",
+          "question": "HTTP/2のサーバプッシュは、どのような機能か。",
+          "answer": "<div class=\"answer-text\">関連する資源を、その資源の要求を受ける前にサーバから送る機能。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTP/2とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-23-08",
+          "question": "HTTP/2のRST_STREAMとGOAWAYは、終了させる対象がどう違う？",
+          "answer": "<div class=\"answer-text\">RST_STREAMは個別のストリーム、GOAWAYは接続の終了処理に使う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTP/2とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-24-01",
+          "question": "HTTP/3は、TCPの代わりに何を利用する？",
+          "answer": "<div class=\"answer-text\">UDP上で動作するQUIC。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTP/3とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-24-02",
+          "question": "HTTP/3で通常使うサーバポート番号は？",
+          "answer": "<div class=\"answer-text\">UDPの443。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTP/3とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-24-03",
+          "question": "HTTP/3では、信頼性のある転送をUDP自体が提供するか。",
+          "answer": "<div class=\"answer-text\">しない。確認応答や再送などをQUICが実現する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTP/3とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-24-04",
+          "question": "QUICが通信の保護に組み込んでいるTLSのバージョンは？",
+          "answer": "<div class=\"answer-text\">TLS 1.3。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTP/3とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-24-05",
+          "question": "TCP上のHTTP/2で、パケット損失が複数ストリームの受信処理を待たせる理由は？",
+          "answer": "<div class=\"answer-text\">TCPが1つの順序付きバイト列なので、欠けた部分の回復まで後続データを上位へ渡せないため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTP/3とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-24-06",
+          "question": "QUICが、あるストリームの損失による他ストリームの待ちを抑えられる理由は？",
+          "answer": "<div class=\"answer-text\">ストリームごとに順序を管理し、独立してデータを届けられるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTP/3とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-24-07",
+          "question": "QUICのコネクションマイグレーションは、何が変化しても通信を継続するための機能か。",
+          "answer": "<div class=\"answer-text\">クライアントのIPアドレスやポート番号、利用するネットワーク経路。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTP/3とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-24-08",
+          "question": "QUICが、IPアドレスやポート番号の変化をまたいで接続を識別するために使うものは？",
+          "answer": "<div class=\"answer-text\">コネクションID。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTP/3とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-24-09",
+          "question": "QUICの0-RTTによる早期データ送信を利用するのは、初回接続と接続再開のどちらか。",
+          "answer": "<div class=\"answer-text\">接続再開。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HTTP/3とは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-25-01",
+          "question": "CGIでは、Webブラウザからの要求に応じて何を行う？",
+          "answer": "<div class=\"answer-text\">Webサーバが外部プログラムを呼び出し、その実行結果を返す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "CGIとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-26-01",
+          "question": "HTTP Cookieを使う主な目的は？",
+          "answer": "<div class=\"answer-text\">状態の維持や、同じブラウザからの要求の識別。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Cookieとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-26-02",
+          "question": "Cookieの値を保存し、後の要求で送り返すのは誰か。",
+          "answer": "<div class=\"answer-text\">クライアントのWebブラウザ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Cookieとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-26-03",
+          "question": "サーバからCookieを設定するヘッダと、クライアントが送り返すヘッダは？",
+          "answer": "<div class=\"answer-text\">設定はSet-Cookie、送信はCookie。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Cookieとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-26-04",
+          "question": "CookieにセッションIDを持たせる目的は？",
+          "answer": "<div class=\"answer-text\">個々の要求を、サーバが管理する同じセッションに対応付けるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Cookieとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-26-05",
+          "question": "CookieのDomain属性とPath属性は、何を指定する？",
+          "answer": "<div class=\"answer-text\">Cookieを送る対象のドメインとパスの範囲。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Cookieとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-26-06",
+          "question": "CookieのSecure属性は、送信をどのように制限する？",
+          "answer": "<div class=\"answer-text\">HTTPSなどの保護された通信でのみ送信する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Cookieとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-26-07",
+          "question": "CookieのHttpOnly属性は、どのようなアクセスを制限する？",
+          "answer": "<div class=\"answer-text\">JavaScriptなどからのCookieへのアクセス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Cookieとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-26-08",
+          "question": "CookieのExpiresとMax-Ageは、有効期限をどう指定する？",
+          "answer": "<div class=\"answer-text\">Expiresは日時、Max-Ageは秒数で指定する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Cookieとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip16.6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-27-01",
+          "question": "SMTPとPOP3は、メールの扱いでどう役割が違う？",
+          "answer": "<div class=\"answer-text\">SMTPは送信・サーバ間転送、POP3はサーバに届いたメールの取得。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SMTP/POPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip17.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-27-02",
+          "question": "メールサーバ間のSMTP転送と、通常のPOP3で使うTCPポート番号は？",
+          "answer": "<div class=\"answer-text\">SMTPは25、POP3は110。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SMTP/POPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip17.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-27-03",
+          "question": "メールサーバは、宛先メールアドレスのどの部分から配送先ドメインを判断する？",
+          "answer": "<div class=\"answer-text\">「@」より後ろの部分。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SMTP/POPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip17.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-27-04",
+          "question": "TLSを使わないPOP3のUSER/PASS認証で、盗聴上の問題となるものは？",
+          "answer": "<div class=\"answer-text\">ユーザ名やパスワードが暗号化されずに送られること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SMTP/POPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip17.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-28-01",
+          "question": "OP25Bは、何を制限する迷惑メール対策か。",
+          "answer": "<div class=\"answer-text\">加入者回線から外部メールサーバなどへのTCP 25番ポートの送信。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SMTP - OP25B、サブミッションポートとSMTP認証",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip18.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-28-02",
+          "question": "メール投稿用のサブミッションポートは何番か。",
+          "answer": "<div class=\"answer-text\">TCPの587。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SMTP - OP25B、サブミッションポートとSMTP認証",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip18.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-28-03",
+          "question": "SMTP-AUTHの役割は？",
+          "answer": "<div class=\"answer-text\">メール送信を依頼する利用者を認証する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SMTP - OP25B、サブミッションポートとSMTP認証",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip18.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-28-04",
+          "question": "メール投稿とメールサーバ間転送で、ポートや認証を分ける理由は？",
+          "answer": "<div class=\"answer-text\">利用者の送信は認証しつつ、異なるドメインのサーバ間でメールを転送できるようにするため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SMTP - OP25B、サブミッションポートとSMTP認証",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip18.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-29-01",
+          "question": "TelnetとSSHは、遠隔操作の通信内容の保護でどう違う？",
+          "answer": "<div class=\"answer-text\">Telnetは通常平文、SSHは認証情報や操作内容を暗号化する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Telnet/SSHとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip19.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-29-02",
+          "question": "TelnetとSSHのサーバが使う既定のTCPポート番号は？",
+          "answer": "<div class=\"answer-text\">Telnetは23、SSHは22。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Telnet/SSHとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip19.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-30-01",
+          "question": "FTPのコントロールコネクションとデータコネクションは、何を運ぶ？",
+          "answer": "<div class=\"answer-text\">制御用は命令と応答、データ用はファイルの内容など。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FTPとは - アクティブ/パッシブモード - PORT/PASV",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip20.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-30-02",
+          "question": "FTPのコントロールコネクションが使うサーバ側TCPポート番号は？",
+          "answer": "<div class=\"answer-text\">21。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FTPとは - アクティブ/パッシブモード - PORT/PASV",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip20.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-30-03",
+          "question": "FTPのアクティブモードとパッシブモードは、データ接続の開始側がどう違う？",
+          "answer": "<div class=\"answer-text\">アクティブはサーバから、パッシブはクライアントから開始する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FTPとは - アクティブ/パッシブモード - PORT/PASV",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip20.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-30-04",
+          "question": "FTPのPORTコマンドで、クライアントは何をサーバへ伝える？",
+          "answer": "<div class=\"answer-text\">データ接続を受けるクライアント側のアドレスとポート番号。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FTPとは - アクティブ/パッシブモード - PORT/PASV",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip20.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-30-05",
+          "question": "FTPのPASVコマンドに対する応答で、サーバは何を伝える？",
+          "answer": "<div class=\"answer-text\">データ接続を待ち受けるサーバ側のアドレスとポート番号。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FTPとは - アクティブ/パッシブモード - PORT/PASV",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip20.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-30-06",
+          "question": "FTPのパッシブモードが、クライアント側ファイアウォールと組み合わせやすい理由は？",
+          "answer": "<div class=\"answer-text\">制御接続もデータ接続も、クライアント側から開始できるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FTPとは - アクティブ/パッシブモード - PORT/PASV",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip20.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-30-07",
+          "question": "FTPSとSFTPは、通信を保護する技術がどう違う？",
+          "answer": "<div class=\"answer-text\">FTPSはFTPをTLSで保護し、SFTPはSSHを使う別のファイル転送方式。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FTPとは - アクティブ/パッシブモード - PORT/PASV",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip20.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-31-01",
+          "question": "TFTPは、トランスポート層に何を使う？",
+          "answer": "<div class=\"answer-text\">UDP。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TFTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip20.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-31-02",
+          "question": "TFTPの最初の読み書き要求が使うサーバ側ポート番号は？",
+          "answer": "<div class=\"answer-text\">UDPの69。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TFTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip20.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-31-03",
+          "question": "TFTPは、ファイル転送中も常にサーバの69番ポートを使うか。",
+          "answer": "<div class=\"answer-text\">使わない。最初の要求後は別のポート番号を使う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TFTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip20.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-31-04",
+          "question": "TFTPは、ユーザ名とパスワードによるログイン認証を備えるか。",
+          "answer": "<div class=\"answer-text\">備えない。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TFTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip20.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-31-05",
+          "question": "TFTPの確認応答を行うのは、UDPとTFTPのどちらか。",
+          "answer": "<div class=\"answer-text\">TFTP。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TFTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip20.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-31-06",
+          "question": "基本のTFTPで、最後のデータブロックを識別する方法は？",
+          "answer": "<div class=\"answer-text\">データ長が512バイト未満のブロックで終了を示す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "TFTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip20.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-32-01",
+          "question": "SNMPのマネージャとエージェントは、それぞれ何をする？",
+          "answer": "<div class=\"answer-text\">マネージャは管理・監視し、エージェントは情報の提供や状態変化の通知を行う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SNMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip21.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-32-02",
+          "question": "SNMPの問い合わせ先とトラップ通知先のUDPポート番号は？",
+          "answer": "<div class=\"answer-text\">問い合わせ先は161、通知先は162。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SNMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip21.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-32-03",
+          "question": "SNMPのMIBとは何か。",
+          "answer": "<div class=\"answer-text\">管理対象の機器情報を定義し、体系化したもの。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SNMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip21.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-32-04",
+          "question": "SNMPのOIDは、何を識別する？",
+          "answer": "<div class=\"answer-text\">MIBのツリー構造内の管理対象オブジェクト。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SNMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip21.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-32-05",
+          "question": "SNMPのGetとSetは、それぞれ何を要求する？",
+          "answer": "<div class=\"answer-text\">Getは管理情報の取得、Setは管理情報の変更。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SNMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip21.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-32-06",
+          "question": "SNMPのポーリングとトラップは、通知のきっかけがどう違う？",
+          "answer": "<div class=\"answer-text\">ポーリングはマネージャの問い合わせ、トラップはエージェント側の状態変化などがきっかけ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SNMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip21.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-32-07",
+          "question": "RMONは、主に何の監視に使う仕組みか。",
+          "answer": "<div class=\"answer-text\">ネットワーク上の通信量や通信状況。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SNMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip21.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-33-01",
+          "question": "SNMPv1/v2cのコミュニティ名は、何のために照合する？",
+          "answer": "<div class=\"answer-text\">管理情報へのアクセスを認める範囲や権限を識別するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SNMPコミュニティ、バージョン",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip21.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-33-02",
+          "question": "SNMPのROとRWは、管理情報への権限がどう違う？",
+          "answer": "<div class=\"answer-text\">ROは読み取りのみ、RWは読み取りと書き込み。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SNMPコミュニティ、バージョン",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip21.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-33-03",
+          "question": "SNMPv1/v2cのコミュニティ名は、暗号化されて送信されるか。",
+          "answer": "<div class=\"answer-text\">されない。平文で送信される。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SNMPコミュニティ、バージョン",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip21.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-33-04",
+          "question": "SNMPのGetBulkは、何の効率を高める？",
+          "answer": "<div class=\"answer-text\">複数の管理情報をまとめて取得する効率。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SNMPコミュニティ、バージョン",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip21.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-33-05",
+          "question": "SNMPのTrapとInformの違いは？",
+          "answer": "<div class=\"answer-text\">Trapは確認応答を求めず、Informは確認応答を求める。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SNMPコミュニティ、バージョン",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip21.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-33-06",
+          "question": "SNMPv3のUSMとVACMは、それぞれ何を担う？",
+          "answer": "<div class=\"answer-text\">USMはユーザ単位の認証や通信保護、VACMはアクセスできる管理情報の範囲の制御。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SNMPコミュニティ、バージョン",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip21.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-34-01",
+          "question": "NTPを利用する目的は？",
+          "answer": "<div class=\"answer-text\">ネットワーク経由で機器の時刻を同期するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip25.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-34-02",
+          "question": "NTPサーバが使うUDPポート番号は？",
+          "answer": "<div class=\"answer-text\">123。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip25.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-34-03",
+          "question": "複数のネットワーク機器で時刻を合わせると、ログ解析でどのような利点がある？",
+          "answer": "<div class=\"answer-text\">別々の機器のイベントを、正しい時系列で照合しやすくなる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip25.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-34-04",
+          "question": "NTPのstratumは、何を表す？",
+          "answer": "<div class=\"answer-text\">基準となる時刻源からの同期の階層。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip25.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-34-05",
+          "question": "基準時計に直接つながるNTPサーバと、同期不能を示すstratum値は？",
+          "answer": "<div class=\"answer-text\">直接つながるサーバは1、同期不能は16。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip25.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-34-06",
+          "question": "NTPが、サーバの時刻をそのままコピーせずに時刻補正する理由は？",
+          "answer": "<div class=\"answer-text\">ネットワークの伝送遅延を考慮する必要があるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/tcpip25.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-35-01",
+          "question": "syslogは、何をネットワーク経由で転送する？",
+          "answer": "<div class=\"answer-text\">機器やソフトウェアのログメッセージ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "syslogとは",
+          "sources": [
+            "https://www.infraexpert.com/study/syslog1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-35-02",
+          "question": "従来のUDPによるsyslog転送で使う宛先ポート番号は？",
+          "answer": "<div class=\"answer-text\">514。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "syslogとは",
+          "sources": [
+            "https://www.infraexpert.com/study/syslog1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-35-03",
+          "question": "syslogのFacilityとSeverityは、それぞれ何を示す？",
+          "answer": "<div class=\"answer-text\">Facilityはメッセージの種別・出力元、Severityは重要度。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "syslogとは",
+          "sources": [
+            "https://www.infraexpert.com/study/syslog1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C02-35-04",
+          "question": "syslogのSeverityは、0と7のどちらが重要度が高い？",
+          "answer": "<div class=\"answer-text\">0が最も高く、7が最も低い。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "syslogとは",
+          "sources": [
+            "https://www.infraexpert.com/study/syslog1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        }
+      ]
+    },
+    {
       "deck_id": "chapter-03-v2",
-      "revision": "fe079137619948f38f85cb5e5bdea8c808cfb8284741cd3160eac548ab7b5f50",
+      "revision": "6671a6203d1ebd30534a41bfe3bb641e555e7c164d0d338192c42433e22921b9",
       "title": "Ethernet LAN",
       "subtitle": "ネスペイージス 第3章",
       "knowledge_count": 132,
-      "question_count": 86,
+      "question_count": 85,
       "sections": 14,
       "cards": [
         {
@@ -1686,19 +4427,6 @@
           "knowledge_ids": []
         },
         {
-          "id": "K03-110-B",
-          "question": "LLDPとCDPは、標準化の点でどう違う？",
-          "answer": "<div class=\"answer-text\">LLDPはIEEE標準、CDPはCisco独自。</div>",
-          "html": true,
-          "section": "",
-          "section_title": "LLDP",
-          "sources": [
-            "https://www.infraexpert.com/study/catalyst25.html"
-          ],
-          "kind": "",
-          "knowledge_ids": []
-        },
-        {
           "id": "K03-057-B",
           "question": "LLDPで、隣接機器へ伝える情報を表現する形式は？",
           "answer": "<div class=\"answer-text\">TLV（Type・Length・Value）形式。</div>",
@@ -1962,12 +4690,12 @@
     },
     {
       "deck_id": "chapter-04",
-      "revision": "7da6d31d10a950ff459df1ca18e90fe085735b32fd7e1f33c12dc904fd1b1c0f",
+      "revision": "a4e6a9dd4d3ea1f997f7d37413dbb25fd27bbf934d39f048810a7fcab769aae8",
       "title": "VLANとスパニングツリー",
       "subtitle": "ネスペイージス 第4章",
       "knowledge_count": 0,
-      "question_count": 85,
-      "sections": 12,
+      "question_count": 78,
+      "sections": 11,
       "cards": [
         {
           "id": "C04-01-01",
@@ -2220,19 +4948,6 @@
           "id": "C04-02-13",
           "question": "トランク両端のネイティブVLANを一致させる理由は？",
           "answer": "<div class=\"answer-text\">タグなしフレームを、両端で同じVLANの通信として扱うため。</div>",
-          "html": true,
-          "section": "",
-          "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
-          "sources": [
-            "https://www.infraexpert.com/study/vlanz2.html"
-          ],
-          "kind": "",
-          "knowledge_ids": []
-        },
-        {
-          "id": "C04-02-14",
-          "question": "802.1QとCisco独自のISLは、フレームへのVLAN情報の付け方がどう違う？",
-          "answer": "<div class=\"answer-text\">802.1Qはタグを挿入し、ISLは元のフレーム全体をカプセル化する。</div>",
           "html": true,
           "section": "",
           "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
@@ -2672,58 +5387,6 @@
           "knowledge_ids": []
         },
         {
-          "id": "C04-07-01",
-          "question": "CSTとPVST+は、スパニングツリーの作成単位がどう違う？",
-          "answer": "<div class=\"answer-text\">CSTは全体で1つ、PVST+はVLANごとに1つのツリーを作る。</div>",
-          "html": true,
-          "section": "",
-          "section_title": "STP - CSTとは、PVSTとは",
-          "sources": [
-            "https://www.infraexpert.com/study/stpz4.html"
-          ],
-          "kind": "",
-          "knowledge_ids": []
-        },
-        {
-          "id": "C04-07-02",
-          "question": "PVST+で、VLANごとに異なるルートブリッジを設定する利点は？",
-          "answer": "<div class=\"answer-text\">VLANごとに転送経路を変え、複数のリンクへ負荷分散できる。</div>",
-          "html": true,
-          "section": "",
-          "section_title": "STP - CSTとは、PVSTとは",
-          "sources": [
-            "https://www.infraexpert.com/study/stpz4.html"
-          ],
-          "kind": "",
-          "knowledge_ids": []
-        },
-        {
-          "id": "C04-07-03",
-          "question": "PVST+の拡張システムIDには、何を格納する？",
-          "answer": "<div class=\"answer-text\">VLAN ID。</div>",
-          "html": true,
-          "section": "",
-          "section_title": "STP - CSTとは、PVSTとは",
-          "sources": [
-            "https://www.infraexpert.com/study/stpz4.html"
-          ],
-          "kind": "",
-          "knowledge_ids": []
-        },
-        {
-          "id": "C04-07-04",
-          "question": "拡張システムIDを使う場合、ブリッジプライオリティは何刻みで設定する？",
-          "answer": "<div class=\"answer-text\">4096刻み。</div>",
-          "html": true,
-          "section": "",
-          "section_title": "STP - CSTとは、PVSTとは",
-          "sources": [
-            "https://www.infraexpert.com/study/stpz4.html"
-          ],
-          "kind": "",
-          "knowledge_ids": []
-        },
-        {
           "id": "C04-08-01",
           "question": "RSTPは、従来STPのどの点を主に改善したプロトコルか。",
           "answer": "<div class=\"answer-text\">トポロジー変更時の収束速度。</div>",
@@ -2829,8 +5492,8 @@
         },
         {
           "id": "C04-09-02",
-          "question": "MSTPがPVST+より計算負荷を抑えられる理由は？",
-          "answer": "<div class=\"answer-text\">VLANごとではなく、複数VLANをまとめたインスタンスごとに経路計算するため。</div>",
+          "question": "MSTPで複数のVLANを同じインスタンスへまとめる利点は？",
+          "answer": "<div class=\"answer-text\">スパニングツリーの計算や管理に必要な負荷を抑えられる。</div>",
           "html": true,
           "section": "",
           "section_title": "MSTP（ IEEE802.1S ）とは",
@@ -2883,19 +5546,6 @@
           "id": "C04-10-02",
           "question": "リンクアグリゲーションで、構成する1本のリンクが故障すると通信はどうなる？",
           "answer": "<div class=\"answer-text\">残りのリンクで通信を継続できるが、利用可能な合計帯域は減る。</div>",
-          "html": true,
-          "section": "",
-          "section_title": "リンクアグリゲーションとは",
-          "sources": [
-            "https://www.infraexpert.com/study/etherchannel.html"
-          ],
-          "kind": "",
-          "knowledge_ids": []
-        },
-        {
-          "id": "C04-10-03",
-          "question": "Ciscoがリンクアグリゲーションに使う呼び名は？",
-          "answer": "<div class=\"answer-text\">EtherChannel。</div>",
           "html": true,
           "section": "",
           "section_title": "リンクアグリゲーションとは",
@@ -3023,19 +5673,6 @@
           "knowledge_ids": []
         },
         {
-          "id": "C04-11-06",
-          "question": "リンクステートトラッキングは、上位リンク障害を下位のサーバへどう伝える？",
-          "answer": "<div class=\"answer-text\">関連付けたサーバ向けリンクをダウンさせ、NIC側が障害を検知できるようにする。</div>",
-          "html": true,
-          "section": "",
-          "section_title": "チーミングとは",
-          "sources": [
-            "https://www.infraexpert.com/study/etherchannel1.html"
-          ],
-          "kind": "",
-          "knowledge_ids": []
-        },
-        {
           "id": "C04-12-01",
           "question": "スイッチのスタックとは、複数の物理スイッチをどう動作させる技術か。",
           "answer": "<div class=\"answer-text\">1台の論理スイッチとして動作させる技術。</div>",
@@ -3078,11 +5715,11 @@
     },
     {
       "deck_id": "chapter-05",
-      "revision": "dae0c41add1a2486cc7ea790d5ec2977ec4a296409d7d01d360f9544620ed196",
+      "revision": "7f0798fe5d6ebcf11ee5ac125c5b46ca7e32d3164929dc7b61c2e1da2819d8b2",
       "title": "IPアドレスとサブネット",
       "subtitle": "ネスペイージス 第5章",
       "knowledge_count": 0,
-      "question_count": 61,
+      "question_count": 57,
       "sections": 10,
       "cards": [
         {
@@ -3697,45 +6334,6 @@
           "knowledge_ids": []
         },
         {
-          "id": "C05-07-05",
-          "question": "CiscoのNAT用語で、内部ローカルアドレスとは何か。",
-          "answer": "<div class=\"answer-text\">内部ホストに実際に割り当てた、内部側で使うアドレス。</div>",
-          "html": true,
-          "section": "",
-          "section_title": "NATとは",
-          "sources": [
-            "https://www.infraexpert.com/study/ip10.html"
-          ],
-          "kind": "",
-          "knowledge_ids": []
-        },
-        {
-          "id": "C05-07-06",
-          "question": "CiscoのNAT用語で、内部グローバルアドレスとは何か。",
-          "answer": "<div class=\"answer-text\">外部から見える、内部ホストの変換後アドレス。</div>",
-          "html": true,
-          "section": "",
-          "section_title": "NATとは",
-          "sources": [
-            "https://www.infraexpert.com/study/ip10.html"
-          ],
-          "kind": "",
-          "knowledge_ids": []
-        },
-        {
-          "id": "C05-07-07",
-          "question": "CiscoのNAT用語で、外部ローカルと外部グローバルは何の見え方の違いか。",
-          "answer": "<div class=\"answer-text\">外部ホストのアドレスを、内部側から見るか、外部側で見るかの違い。</div>",
-          "html": true,
-          "section": "",
-          "section_title": "NATとは",
-          "sources": [
-            "https://www.infraexpert.com/study/ip10.html"
-          ],
-          "kind": "",
-          "knowledge_ids": []
-        },
-        {
           "id": "C05-08-01",
           "question": "スタティックNATでは、アドレスの対応をいつ決める？",
           "answer": "<div class=\"answer-text\">管理者があらかじめ1対1の対応を設定する。</div>",
@@ -3804,19 +6402,6 @@
           "id": "C05-09-03",
           "question": "NAPTで同じ外部向けIPアドレスを使う通信を、戻りパケットで区別できる理由は？",
           "answer": "<div class=\"answer-text\">ポート番号を含む変換情報で、対応する内部の通信を識別するため。</div>",
-          "html": true,
-          "section": "",
-          "section_title": "NAPT（IPマスカレード）の仕組み",
-          "sources": [
-            "https://www.infraexpert.com/study/ip11.5.html"
-          ],
-          "kind": "",
-          "knowledge_ids": []
-        },
-        {
-          "id": "C05-09-04",
-          "question": "CiscoでNAPTを指す呼び名は？",
-          "answer": "<div class=\"answer-text\">PAT（Port Address Translation）。</div>",
           "html": true,
           "section": "",
           "section_title": "NAPT（IPマスカレード）の仕組み",
