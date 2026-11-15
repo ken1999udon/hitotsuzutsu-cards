@@ -1,5 +1,5 @@
 {
-  "revision": "83e152ff9ffae1efe7acb93ca065539e21e7fb482a99ccbf3f9fbe49e431d76a",
+  "revision": "b9abc55f63b4fd586d03ec33b039588fb73e3b098198f80f623f461298d7f2e1",
   "decks": [
     {
       "deck_id": "chapter-01",
@@ -9264,6 +9264,2769 @@
           "section_title": "OSPF - 仮想リンク（バーチャルリンク）とは",
           "sources": [
             "https://www.infraexpert.com/study/ospfz25.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        }
+      ]
+    },
+    {
+      "deck_id": "chapter-10",
+      "revision": "2996bceff02e33593add0becc917e15738233bbdcc4e0532754e57821e9e26e2",
+      "title": "ネットワークセキュリティ",
+      "subtitle": "ネスペイージス 第10章",
+      "knowledge_count": 0,
+      "question_count": 122,
+      "sections": 21,
+      "cards": [
+        {
+          "id": "C10-01-01",
+          "question": "情報セキュリティの機密性・完全性・可用性は、それぞれ何を守る性質か。",
+          "answer": "<div class=\"answer-text\">機密性は権限のある者だけのアクセス、完全性は情報の正確さや改ざんされないこと、可用性は必要なときに利用できること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-02",
+          "question": "情報セキュリティの脅威と脆弱性の違いは？",
+          "answer": "<div class=\"answer-text\">脅威は被害を引き起こす要因、脆弱性は悪用され得る弱点。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-03",
+          "question": "セキュリティインシデントとは何か。",
+          "answer": "<div class=\"answer-text\">情報の漏えいや不正アクセスなど、安全な運用を脅かす事象や事故。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-04",
+          "question": "セキュリティパッチを適用する主な目的は？",
+          "answer": "<div class=\"answer-text\">ソフトウェアの脆弱性や不具合を修正するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-05",
+          "question": "マルウェアとは何か。",
+          "answer": "<div class=\"answer-text\">不正な動作や被害をもたらす目的で作られた、悪意あるソフトウェアの総称。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-06",
+          "question": "ウイルスとワームは、拡散の形態がどう違う？",
+          "answer": "<div class=\"answer-text\">ウイルスは他のプログラムなどに寄生し、ワームは独立して自己複製しネットワークなどで拡散する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-07",
+          "question": "トロイの木馬とは、どのようなマルウェアか。",
+          "answer": "<div class=\"answer-text\">有用・無害なプログラムを装い、実行時に不正な処理を行うもの。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-08",
+          "question": "ランサムウェアは、どのような被害を与えて金銭を要求する？",
+          "answer": "<div class=\"answer-text\">データの暗号化や端末のロックなどで利用を妨げ、復旧などと引き換えに身代金を要求する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-09",
+          "question": "インフォスティーラーは、主に何を盗むマルウェアか。",
+          "answer": "<div class=\"answer-text\">パスワードやCookie、セッショントークンなどの情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-10",
+          "question": "マルウェアのシグネチャ検知と振る舞い検知の違いは？",
+          "answer": "<div class=\"answer-text\">シグネチャ検知は既知の特徴と照合し、振る舞い検知は実行中の不審な動作を監視する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-11",
+          "question": "DoS攻撃は、機密性・完全性・可用性のうち主にどれを侵害する？",
+          "answer": "<div class=\"answer-text\">可用性。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-12",
+          "question": "DoS攻撃とDDoS攻撃の違いは？",
+          "answer": "<div class=\"answer-text\">DDoSは、分散した多数の機器からDoS攻撃を行う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-13",
+          "question": "SYNフラッド攻撃が、サーバの接続資源を消費する仕組みは？",
+          "answer": "<div class=\"answer-text\">大量の接続要求に対し、ハンドシェイクが未完了の接続状態を多数保持させる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-14",
+          "question": "反射型DoS攻撃では、第三者のサーバをどう悪用する？",
+          "answer": "<div class=\"answer-text\">被害者を送信元に偽装して要求し、サーバの応答を被害者へ集中させる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-15",
+          "question": "増幅型の反射攻撃で、小さな要求が大きな負荷になる理由は？",
+          "answer": "<div class=\"answer-text\">要求より大きい応答が、多数のサーバから被害者へ送られるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-16",
+          "question": "IPスプーフィングとは、何を偽装することか。",
+          "answer": "<div class=\"answer-text\">パケットの送信元IPアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-17",
+          "question": "辞書攻撃と総当たり攻撃の違いは？",
+          "answer": "<div class=\"answer-text\">辞書攻撃は単語などの候補を試し、総当たり攻撃は可能な組合せを網羅的に試す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-18",
+          "question": "ソーシャルエンジニアリングは、主に何を悪用して秘密情報を得る？",
+          "answer": "<div class=\"answer-text\">人の心理的な隙や行動上の不注意。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-19",
+          "question": "フィッシングとスピアフィッシングの違いは？",
+          "answer": "<div class=\"answer-text\">スピアフィッシングは、特定の個人や組織に対象を絞ったフィッシング。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-20",
+          "question": "スミッシングとビッシングは、どの媒体を使うフィッシングか。",
+          "answer": "<div class=\"answer-text\">スミッシングはSMS、ビッシングは電話などの音声。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-21",
+          "question": "中間者攻撃とは、どのような攻撃か。",
+          "answer": "<div class=\"answer-text\">通信する二者の間に割り込み、通信の盗聴や改ざんを行う攻撃。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-22",
+          "question": "サイドチャネル攻撃では、どのような情報から秘密を推測する？",
+          "answer": "<div class=\"answer-text\">処理時間、消費電力、漏れる電磁波など、通常の入出力以外の情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-23",
+          "question": "DNSキャッシュポイズニングは、DNSに何を保存させる攻撃か。",
+          "answer": "<div class=\"answer-text\">偽の名前解決結果。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-24",
+          "question": "Webスキミングは、Webページで主にどのような情報を盗む？",
+          "answer": "<div class=\"answer-text\">利用者がフォームへ入力したカード情報など。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-25",
+          "question": "セッショントークンの窃取が、多要素認証の利用時にも問題となる理由は？",
+          "answer": "<div class=\"answer-text\">認証後のセッションを悪用され、認証手順を踏まずにアクセスされる可能性があるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-26",
+          "question": "FIDO認証では、サーバ側と利用者の認証器側にどちらの鍵を保持する？",
+          "answer": "<div class=\"answer-text\">サーバ側に公開鍵、認証器側に秘密鍵。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-01-27",
+          "question": "フィッシングとは、どのように認証情報などを盗む手口か。",
+          "answer": "<div class=\"answer-text\">正規のサービスを装ったメールや偽サイトなどへ誘導し、入力させて盗む手口。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "セキュリティ用語・マルウェア・攻撃手法の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/security1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-02-01",
+          "question": "外部と接続しないクローズドネットワークでも、内部の対策が必要な理由は？",
+          "answer": "<div class=\"answer-text\">内部不正や誤操作、持込み媒体などを通じた漏えい・感染が起こり得るため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "オープンネットワークとクローズドネットワーク",
+          "sources": [
+            "https://www.infraexpert.com/study/security.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-02-02",
+          "question": "認証の三要素を挙げると？",
+          "answer": "<div class=\"answer-text\">知識情報、所持情報、生体情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "オープンネットワークとクローズドネットワーク",
+          "sources": [
+            "https://www.infraexpert.com/study/security.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-02-03",
+          "question": "パスワード・ICカード・指紋は、それぞれどの認証要素に当たる？",
+          "answer": "<div class=\"answer-text\">パスワードは知識、ICカードは所持、指紋は生体。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "オープンネットワークとクローズドネットワーク",
+          "sources": [
+            "https://www.infraexpert.com/study/security.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-02-04",
+          "question": "多要素認証とは何か。",
+          "answer": "<div class=\"answer-text\">種類の異なる2つ以上の認証要素を組み合わせる方式。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "オープンネットワークとクローズドネットワーク",
+          "sources": [
+            "https://www.infraexpert.com/study/security.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-02-05",
+          "question": "パスワードと秘密の質問を順に使っても、二要素認証といえない理由は？",
+          "answer": "<div class=\"answer-text\">どちらも知識情報で、異なる種類の要素を使っていないため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "オープンネットワークとクローズドネットワーク",
+          "sources": [
+            "https://www.infraexpert.com/study/security.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-03-01",
+          "question": "ポートスキャンでは、主に何を調べる？",
+          "answer": "<div class=\"answer-text\">対象ホストで接続可能なポートや、待ち受けているサービス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "攻撃者（クラッカー）と攻撃手法（DoS/DDoS）",
+          "sources": [
+            "https://www.infraexpert.com/study/security2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-03-02",
+          "question": "バックドアとは、何のために設けられる仕組みか。",
+          "answer": "<div class=\"answer-text\">通常の認証などを迂回して、後から再侵入できるようにするための裏口。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "攻撃者（クラッカー）と攻撃手法（DoS/DDoS）",
+          "sources": [
+            "https://www.infraexpert.com/study/security2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-04-01",
+          "question": "パケットフィルタ型ファイアウォールが、通信の判定に使う主な情報は？",
+          "answer": "<div class=\"answer-text\">送信元・宛先IPアドレス、ポート番号、プロトコルなど。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Firewallとは、IDSとは、IPSとは、DMZとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-04-02",
+          "question": "IDSとIPSは、不正な通信の検出後の動作がどう違う？",
+          "answer": "<div class=\"answer-text\">IDSは主に通知し、IPSは通知に加えて通信の破棄や遮断を行う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Firewallとは、IDSとは、IPSとは、DMZとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-04-03",
+          "question": "DMZに公開サーバを配置し、社内LANと分ける主な目的は？",
+          "answer": "<div class=\"answer-text\">公開サーバが侵害された場合の、社内LANへの被害拡大を抑えるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Firewallとは、IDSとは、IPSとは、DMZとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-04-04",
+          "question": "通信のIPアドレスとポートを許可していても、その通信が安全とは限らない理由は？",
+          "answer": "<div class=\"answer-text\">許可された通信の中に、アプリケーションへの攻撃が含まれる場合があるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Firewallとは、IDSとは、IPSとは、DMZとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-05-01",
+          "question": "ステートフルインスペクションは、個々のパケット以外に何を確認して判定する？",
+          "answer": "<div class=\"answer-text\">通信セッションの状態と、そのパケットとの整合性。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Firewall - Stateful Inspection/Stateful Failover",
+          "sources": [
+            "https://www.infraexpert.com/study/security25.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-05-02",
+          "question": "ステートフルインスペクションが、応答パケットを識別するために保持する情報は？",
+          "answer": "<div class=\"answer-text\">開始済みの通信のアドレス・ポートなどのセッション情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Firewall - Stateful Inspection/Stateful Failover",
+          "sources": [
+            "https://www.infraexpert.com/study/security25.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-05-03",
+          "question": "ファイアウォールのステートフルフェールオーバーでは、予備機へ何を同期する？",
+          "answer": "<div class=\"answer-text\">通信セッションやNAT変換など、通信を継続するための状態情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Firewall - Stateful Inspection/Stateful Failover",
+          "sources": [
+            "https://www.infraexpert.com/study/security25.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-05-04",
+          "question": "冗長ファイアウォールで、アドレスだけでなくセッション情報も引き継ぐ理由は？",
+          "answer": "<div class=\"answer-text\">切替え後の機器が、既存の通信を正当な継続通信として処理するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Firewall - Stateful Inspection/Stateful Failover",
+          "sources": [
+            "https://www.infraexpert.com/study/security25.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-06-01",
+          "question": "WAFが主に保護する対象は？",
+          "answer": "<div class=\"answer-text\">Webアプリケーション。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAFとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security17.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-06-02",
+          "question": "SQLインジェクションは、アプリケーションに何を実行させる攻撃か。",
+          "answer": "<div class=\"answer-text\">入力を悪用して、本来想定していないSQL文を実行させる攻撃。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAFとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security17.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-06-03",
+          "question": "OSコマンドインジェクションは、どのような処理を不正に実行させる？",
+          "answer": "<div class=\"answer-text\">サーバ上のOSコマンド。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAFとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security17.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-06-04",
+          "question": "XSSでは、悪意のあるスクリプトが主にどこで実行される？",
+          "answer": "<div class=\"answer-text\">被害者のWebブラウザ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAFとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security17.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-06-05",
+          "question": "WAFのシグネチャ方式とホワイトリスト方式は、何に基づいて判定する？",
+          "answer": "<div class=\"answer-text\">シグネチャ方式は攻撃の特徴、ホワイトリスト方式は許可する正常な通信の条件。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAFとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security17.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-06-06",
+          "question": "WAFがHTTPSの通信内容を検査するために、必要となる処理は？",
+          "answer": "<div class=\"answer-text\">TLSの終端などによって、暗号化されたHTTPの内容を復号する処理。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAFとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security17.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-07-01",
+          "question": "UTMは、どのようなセキュリティ製品・管理手法か。",
+          "answer": "<div class=\"answer-text\">ファイアウォールやIPSなど、複数の対策機能を統合して管理するもの。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "UTM（統合脅威管理）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security14.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-07-02",
+          "question": "複数のセキュリティ機能をUTMにまとめる主な運用上の利点は？",
+          "answer": "<div class=\"answer-text\">機器や設定の管理を集約でき、導入・運用の負担を抑えられる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "UTM（統合脅威管理）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security14.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-07-03",
+          "question": "UTMで多数の検査機能を有効にするとき、性能面で注意することは？",
+          "answer": "<div class=\"answer-text\">検査処理の負荷が増え、実効スループットが低下し得ること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "UTM（統合脅威管理）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security14.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-08-01",
+          "question": "暗号化と復号は、それぞれどのような処理か。",
+          "answer": "<div class=\"answer-text\">暗号化は鍵などを使って内容を読めない形へ変換し、復号はそれを元のデータへ戻す処理。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "暗号化と暗号化アルゴリズム",
+          "sources": [
+            "https://www.infraexpert.com/study/security4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-08-02",
+          "question": "共通鍵暗号と公開鍵暗号は、暗号化と復号の鍵がどう違う？",
+          "answer": "<div class=\"answer-text\">共通鍵暗号は同じ秘密の鍵を使い、公開鍵暗号は対になる公開鍵と秘密鍵を使う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "暗号化と暗号化アルゴリズム",
+          "sources": [
+            "https://www.infraexpert.com/study/security4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-08-03",
+          "question": "公開鍵暗号で受信者だけが読めるよう暗号化するとき、誰のどの鍵を使う？",
+          "answer": "<div class=\"answer-text\">受信者の公開鍵。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "暗号化と暗号化アルゴリズム",
+          "sources": [
+            "https://www.infraexpert.com/study/security4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-08-04",
+          "question": "公開鍵で暗号化したデータを復号するため、受信者が保持する鍵は？",
+          "answer": "<div class=\"answer-text\">その公開鍵と対になる秘密鍵。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "暗号化と暗号化アルゴリズム",
+          "sources": [
+            "https://www.infraexpert.com/study/security4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-08-05",
+          "question": "共通鍵暗号の鍵配送で、注意すべきことは？",
+          "answer": "<div class=\"answer-text\">第三者に知られない方法で、相手と鍵を共有すること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "暗号化と暗号化アルゴリズム",
+          "sources": [
+            "https://www.infraexpert.com/study/security4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-08-06",
+          "question": "大量のデータの暗号化に、公開鍵暗号より共通鍵暗号が使われる主な理由は？",
+          "answer": "<div class=\"answer-text\">一般に処理が高速なため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "暗号化と暗号化アルゴリズム",
+          "sources": [
+            "https://www.infraexpert.com/study/security4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-08-07",
+          "question": "公開鍵暗号と共通鍵暗号を組み合わせるハイブリッド方式の役割分担は？",
+          "answer": "<div class=\"answer-text\">公開鍵の仕組みで鍵を安全に共有し、共通鍵暗号で実データを暗号化する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "暗号化と暗号化アルゴリズム",
+          "sources": [
+            "https://www.infraexpert.com/study/security4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-08-08",
+          "question": "AESは、共通鍵暗号と公開鍵暗号のどちらか。",
+          "answer": "<div class=\"answer-text\">共通鍵暗号。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "暗号化と暗号化アルゴリズム",
+          "sources": [
+            "https://www.infraexpert.com/study/security4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-09-01",
+          "question": "デジタル署名によって、受信者が検証する主な2点は？",
+          "answer": "<div class=\"answer-text\">署名者の正当性と、データが改ざんされていないこと。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "PKI (デジタル署名)",
+          "sources": [
+            "https://www.infraexpert.com/study/security5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-09-02",
+          "question": "デジタル署名を作成する鍵と、検証する鍵は？",
+          "answer": "<div class=\"answer-text\">作成は署名者の秘密鍵、検証は署名者の公開鍵。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "PKI (デジタル署名)",
+          "sources": [
+            "https://www.infraexpert.com/study/security5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-09-03",
+          "question": "デジタル署名で、ハッシュ関数を利用する目的は？",
+          "answer": "<div class=\"answer-text\">データから要約値を計算し、データの変更を検出できるようにするため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "PKI (デジタル署名)",
+          "sources": [
+            "https://www.infraexpert.com/study/security5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-09-04",
+          "question": "署名を検証する公開鍵自体が偽物なら、何を正しく確認できない？",
+          "answer": "<div class=\"answer-text\">その署名が、意図した本人によるものかどうか。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "PKI (デジタル署名)",
+          "sources": [
+            "https://www.infraexpert.com/study/security5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-10-01",
+          "question": "公開鍵証明書は、主に何と何の対応を証明する？",
+          "answer": "<div class=\"answer-text\">公開鍵と、その鍵の所有者・対象となる名前の対応。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "PKI (デジタル証明書を使用したデジタル署名)",
+          "sources": [
+            "https://www.infraexpert.com/study/security6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-10-02",
+          "question": "CA（認証局）の主な役割は？",
+          "answer": "<div class=\"answer-text\">所有者などを確認し、公開鍵証明書に署名して発行する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "PKI (デジタル証明書を使用したデジタル署名)",
+          "sources": [
+            "https://www.infraexpert.com/study/security6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-10-03",
+          "question": "証明書の発行元CAによる署名は、どの鍵で検証する？",
+          "answer": "<div class=\"answer-text\">発行元CAの公開鍵。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "PKI (デジタル証明書を使用したデジタル署名)",
+          "sources": [
+            "https://www.infraexpert.com/study/security6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-10-04",
+          "question": "X.509は、主に何の形式を定める規格か。",
+          "answer": "<div class=\"answer-text\">公開鍵証明書の形式。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "PKI (デジタル証明書を使用したデジタル署名)",
+          "sources": [
+            "https://www.infraexpert.com/study/security6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-10-05",
+          "question": "公開鍵証明書に含まれる、鍵以外の主な情報は？",
+          "answer": "<div class=\"answer-text\">発行者、証明対象、有効期間、シリアル番号など。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "PKI (デジタル証明書を使用したデジタル署名)",
+          "sources": [
+            "https://www.infraexpert.com/study/security6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-10-06",
+          "question": "ルートCAと中間CAの、証明書の信頼関係の違いは？",
+          "answer": "<div class=\"answer-text\">ルートCAは信頼の起点となり、中間CAは上位CAの署名付き証明書によって信頼をつなぐ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "PKI (デジタル証明書を使用したデジタル署名)",
+          "sources": [
+            "https://www.infraexpert.com/study/security6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-10-07",
+          "question": "自組織のCAが発行した証明書で、ブラウザに警告が出ることがある理由は？",
+          "answer": "<div class=\"answer-text\">そのCAを信頼する設定が、ブラウザやOSにないため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "PKI (デジタル証明書を使用したデジタル署名)",
+          "sources": [
+            "https://www.infraexpert.com/study/security6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-10-08",
+          "question": "CRLとは何の一覧か。",
+          "answer": "<div class=\"answer-text\">有効期間内でも失効させた証明書の一覧。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "PKI (デジタル証明書を使用したデジタル署名)",
+          "sources": [
+            "https://www.infraexpert.com/study/security6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-10-09",
+          "question": "PKIとは、何を扱うための基盤か。",
+          "answer": "<div class=\"answer-text\">公開鍵と証明書の発行・検証・管理によって、認証などを支える基盤。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "PKI (デジタル証明書を使用したデジタル署名)",
+          "sources": [
+            "https://www.infraexpert.com/study/security6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-11-01",
+          "question": "検疫ネットワークは、接続する端末の何を確認する？",
+          "answer": "<div class=\"answer-text\">パッチやウイルス対策などが、組織のセキュリティポリシーを満たしているか。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "検疫ネットワークとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-11-02",
+          "question": "検疫ネットワークの検査・隔離・治療は、どのような流れか。",
+          "answer": "<div class=\"answer-text\">端末を検査し、不適合なら隔離して更新などを行い、再検査後に通常の接続を許可する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "検疫ネットワークとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-11-03",
+          "question": "認証スイッチ方式の検疫では、検査結果に応じて何を切り替える？",
+          "answer": "<div class=\"answer-text\">端末の接続先VLANなど。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "検疫ネットワークとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-11-04",
+          "question": "DHCP方式だけの検疫を、固定IPアドレスの端末が回避できる理由は？",
+          "answer": "<div class=\"answer-text\">DHCPによるアドレスの配布・変更を経ずに通信できるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "検疫ネットワークとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-11-05",
+          "question": "検疫済み端末と未検疫端末を同じL2ネットワークへ置く問題は？",
+          "answer": "<div class=\"answer-text\">未検疫端末から、検疫済み端末へ直接通信や感染が及び得ること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "検疫ネットワークとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-12-01",
+          "question": "フォワードプロキシは、誰の代理として外部へ接続する？",
+          "answer": "<div class=\"answer-text\">内部ネットワークのクライアント。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "プロキシサーバとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security23.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-12-02",
+          "question": "通常のフォワードプロキシを経由したTCP接続で、Webサーバから見える送信元IPは？",
+          "answer": "<div class=\"answer-text\">プロキシ側のIPアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "プロキシサーバとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security23.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-12-03",
+          "question": "Webプロキシのキャッシュで、外部通信量を減らせる理由は？",
+          "answer": "<div class=\"answer-text\">保存済みの応答を再利用できれば、同じデータを外部から再取得せずに済むため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "プロキシサーバとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security23.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-12-04",
+          "question": "Webプロキシで認証やURLフィルタを行う運用上の利点は？",
+          "answer": "<div class=\"answer-text\">利用者の外部Webアクセスを、一元的に管理・制御できる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "プロキシサーバとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security23.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-13-01",
+          "question": "PACファイルは、ブラウザに何を判断させるためのファイルか。",
+          "answer": "<div class=\"answer-text\">アクセス先に応じた、プロキシの利用先や直接接続の選択。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "プロキシサーバの設定 - WPADプロトコルとPACファイル",
+          "sources": [
+            "https://www.infraexpert.com/study/security29.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-13-02",
+          "question": "PACファイルは、どの言語で記述する？",
+          "answer": "<div class=\"answer-text\">JavaScript。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "プロキシサーバの設定 - WPADプロトコルとPACファイル",
+          "sources": [
+            "https://www.infraexpert.com/study/security29.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-13-03",
+          "question": "PACのURLを指定する方式とWPADの違いは？",
+          "answer": "<div class=\"answer-text\">URL指定は管理者などが取得先を設定し、WPADは取得先を自動検出する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "プロキシサーバの設定 - WPADプロトコルとPACファイル",
+          "sources": [
+            "https://www.infraexpert.com/study/security29.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-13-04",
+          "question": "WPADがPACファイルの場所を発見するために使う主な仕組みは？",
+          "answer": "<div class=\"answer-text\">DHCPやDNS。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "プロキシサーバの設定 - WPADプロトコルとPACファイル",
+          "sources": [
+            "https://www.infraexpert.com/study/security29.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-13-05",
+          "question": "WPADで不正なPACファイルを取得すると、どのような危険がある？",
+          "answer": "<div class=\"answer-text\">通信が攻撃者のプロキシへ誘導され、盗聴や改ざんを受ける可能性がある。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "プロキシサーバの設定 - WPADプロトコルとPACファイル",
+          "sources": [
+            "https://www.infraexpert.com/study/security29.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-14-01",
+          "question": "Kerberosで、サービスの利用時にパスワードの代わりに提示するものは？",
+          "answer": "<div class=\"answer-text\">チケット。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Kerberos認証とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security18.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-14-02",
+          "question": "KerberosのKDCは、何を提供する中心的な機関か。",
+          "answer": "<div class=\"answer-text\">利用者の認証と、サービスを利用するためのチケット発行。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Kerberos認証とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security18.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-14-03",
+          "question": "KerberosのASとTGSの主な役割は？",
+          "answer": "<div class=\"answer-text\">ASは初期認証、TGSは各サービス向けチケットの発行。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Kerberos認証とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security18.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-14-04",
+          "question": "Kerberosのプリンシパルとレルムは、それぞれ何か。",
+          "answer": "<div class=\"answer-text\">プリンシパルは認証対象のユーザやサービス、レルムはKDCが管理する認証の範囲。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Kerberos認証とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security18.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-14-05",
+          "question": "Kerberos認証で時刻同期が重要な理由は？",
+          "answer": "<div class=\"answer-text\">認証情報の時刻を検証し、古い要求の再利用などを防ぐため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Kerberos認証とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security18.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-14-06",
+          "question": "Kerberosがシングルサインオンに適する理由は？",
+          "answer": "<div class=\"answer-text\">初期認証後にチケットを使い、複数サービスへパスワードを再入力せずに認証できるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Kerberos認証とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security18.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-15-01",
+          "question": "LDAPは、何へアクセスするためのプロトコルか。",
+          "answer": "<div class=\"answer-text\">ユーザや組織などの情報を持つ、ディレクトリサービス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "LDAP認証とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security19.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-15-02",
+          "question": "LDAPのエントリは、どのような情報のまとまりか。",
+          "answer": "<div class=\"answer-text\">名前や所属、メールアドレスなど、関連する属性の集合。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "LDAP認証とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security19.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-15-03",
+          "question": "LDAPのDNとRDNは、関係がどうなっている？",
+          "answer": "<div class=\"answer-text\">DNは対象を一意に示す識別名で、複数のRDNを階層に沿って並べて表す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "LDAP認証とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security19.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-15-04",
+          "question": "LDAPの標準的な接続に使うTCPポート番号は？",
+          "answer": "<div class=\"answer-text\">389。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "LDAP認証とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security19.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-15-05",
+          "question": "LDAPが、単なる認証専用プロトコルではない理由は？",
+          "answer": "<div class=\"answer-text\">認証に加え、ディレクトリ内の情報の検索・追加・変更・削除にも使うため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "LDAP認証とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security19.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-16-01",
+          "question": "RADIUSのクライアントは、認証される利用者のPCそのものを指すか。",
+          "answer": "<div class=\"answer-text\">通常は指さない。利用者の認証要求をサーバへ中継するAPやスイッチなどのNASを指す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Radius認証とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security20.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-16-02",
+          "question": "RADIUSサーバとNASの役割の違いは？",
+          "answer": "<div class=\"answer-text\">サーバが認証・認可を判定し、NASが利用者との接点でアクセスを制御する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Radius認証とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security20.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-16-03",
+          "question": "RADIUSの認証とアカウンティングで使う、代表的なUDPポート番号は？",
+          "answer": "<div class=\"answer-text\">認証は1812、アカウンティングは1813。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Radius認証とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security20.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-16-04",
+          "question": "RADIUSのAccess-Request・Access-Accept・Access-Rejectの意味は？",
+          "answer": "<div class=\"answer-text\">認証要求、アクセス許可、アクセス拒否。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Radius認証とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security20.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-16-05",
+          "question": "RADIUSのアカウンティングでは、どのような情報を記録する？",
+          "answer": "<div class=\"answer-text\">接続時間や通信量など、ネットワークの利用状況。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Radius認証とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security20.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-16-06",
+          "question": "RADIUSの属性値ペアとは、どのような情報の表現形式か。",
+          "answer": "<div class=\"answer-text\">ユーザ名などの属性と、その値を組にした形式。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Radius認証とは",
+          "sources": [
+            "https://www.infraexpert.com/study/security20.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-17-01",
+          "question": "不正なDHCPサーバが端末へ偽の設定を配布すると、どのような被害が起こり得る？",
+          "answer": "<div class=\"answer-text\">偽のゲートウェイやDNSへ誘導され、通信の盗聴・妨害などを受ける。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DHCPスプーフィングとは",
+          "sources": [
+            "https://www.infraexpert.com/study/dhcpz5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-17-02",
+          "question": "DHCP要求の大量送信によって、正規利用者の接続が妨げられる理由は？",
+          "answer": "<div class=\"answer-text\">アドレスプールやDHCPサーバの処理資源が消費されるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DHCPスプーフィングとは",
+          "sources": [
+            "https://www.infraexpert.com/study/dhcpz5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-18-01",
+          "question": "DHCPスヌーピングで、サーバ側のメッセージを受けてよいポートを区別する目的は？",
+          "answer": "<div class=\"answer-text\">不正なDHCPサーバからの応答を、利用者側ポートで遮断するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DHCPスヌーピングとは",
+          "sources": [
+            "https://www.infraexpert.com/study/dhcp4.htm"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-18-02",
+          "question": "DHCPスヌーピングのバインディングテーブルは、主に何を対応付ける？",
+          "answer": "<div class=\"answer-text\">クライアントのIPアドレス、MACアドレス、VLAN、接続ポートなど。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DHCPスヌーピングとは",
+          "sources": [
+            "https://www.infraexpert.com/study/dhcp4.htm"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-18-03",
+          "question": "DHCP Option 82は、要求にどのような追加情報を付ける仕組みか。",
+          "answer": "<div class=\"answer-text\">クライアントが接続している回線や中継機器を識別する情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DHCPスヌーピングとは",
+          "sources": [
+            "https://www.infraexpert.com/study/dhcp4.htm"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-19-01",
+          "question": "ARPスプーフィングは、端末にどのような誤情報を学習させる攻撃か。",
+          "answer": "<div class=\"answer-text\">IPアドレスとMACアドレスの偽の対応。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ARPスプーフィングとは",
+          "sources": [
+            "https://www.infraexpert.com/study/dhcpz6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-19-02",
+          "question": "ARPスプーフィングで、ゲートウェイのIPと攻撃者のMACを対応付けると何が起こる？",
+          "answer": "<div class=\"answer-text\">本来ゲートウェイへ送るフレームが、攻撃者へ向かう。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ARPスプーフィングとは",
+          "sources": [
+            "https://www.infraexpert.com/study/dhcpz6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-20-01",
+          "question": "BGP Flowspecは、経路に加えてどのような制御情報を配布する？",
+          "answer": "<div class=\"answer-text\">通信を識別する条件と、破棄・速度制限・転送などの処理方法。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGP Flowspecとは - DDoS対策",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz39.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-20-02",
+          "question": "宛先ベースのRTBHで、正当な通信まで止まり得る理由は？",
+          "answer": "<div class=\"answer-text\">対象の宛先への通信を、攻撃通信と区別せず破棄するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGP Flowspecとは - DDoS対策",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz39.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-20-03",
+          "question": "BGP Flowspecが、宛先ベースのRTBHより細かく通信を選別できる理由は？",
+          "answer": "<div class=\"answer-text\">送信元IPやポート番号なども組み合わせて、対象フローを指定できるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGP Flowspecとは - DDoS対策",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz39.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-21-01",
+          "question": "SPFは、配送元のIPアドレスを何と照合する？",
+          "answer": "<div class=\"answer-text\">エンベロープFromなどのドメインがDNSで公開する、送信を許可したIPアドレスの情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "なりすましメール対策（SPF、DKIM、DMARC、S/MIME、PGP）",
+          "sources": [
+            "https://www.infraexpert.com/study/security30.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-21-02",
+          "question": "DKIMでは、メールに付けた署名を検証する公開鍵をどこで公開する？",
+          "answer": "<div class=\"answer-text\">署名ドメインのDNS。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "なりすましメール対策（SPF、DKIM、DMARC、S/MIME、PGP）",
+          "sources": [
+            "https://www.infraexpert.com/study/security30.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-21-03",
+          "question": "DKIMの検証は、メール本文の暗号化を意味するか。",
+          "answer": "<div class=\"answer-text\">意味しない。署名によって対象部分の改ざんなどを検出する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "なりすましメール対策（SPF、DKIM、DMARC、S/MIME、PGP）",
+          "sources": [
+            "https://www.infraexpert.com/study/security30.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-21-04",
+          "question": "DMARCは、SPF/DKIMを使った認証に何を加える？",
+          "answer": "<div class=\"answer-text\">Fromドメインとの対応の確認と、失敗したメールの扱いやレポートの方針。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "なりすましメール対策（SPF、DKIM、DMARC、S/MIME、PGP）",
+          "sources": [
+            "https://www.infraexpert.com/study/security30.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-21-05",
+          "question": "DMARCポリシーのnone・quarantine・rejectは、何を求める方針か。",
+          "answer": "<div class=\"answer-text\">noneは特別な処理を求めず監視、quarantineは隔離、rejectは拒否。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "なりすましメール対策（SPF、DKIM、DMARC、S/MIME、PGP）",
+          "sources": [
+            "https://www.infraexpert.com/study/security30.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-21-06",
+          "question": "S/MIMEとPGPは、何を暗号化・署名する仕組みか。",
+          "answer": "<div class=\"answer-text\">電子メールの内容。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "なりすましメール対策（SPF、DKIM、DMARC、S/MIME、PGP）",
+          "sources": [
+            "https://www.infraexpert.com/study/security30.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-21-07",
+          "question": "S/MIMEとPGPは、公開鍵の信頼の確認でどのような考え方が違う？",
+          "answer": "<div class=\"answer-text\">S/MIMEはCAによる証明書、PGPは利用者同士の署名などによる信用の輪を使う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "なりすましメール対策（SPF、DKIM、DMARC、S/MIME、PGP）",
+          "sources": [
+            "https://www.infraexpert.com/study/security30.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-21-08",
+          "question": "メール転送にTLSを使うことと、S/MIMEなどでメールを暗号化することの違いは？",
+          "answer": "<div class=\"answer-text\">TLSは通信区間を保護し、S/MIMEなどは送信者から受信者までメールの内容を保護できる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "なりすましメール対策（SPF、DKIM、DMARC、S/MIME、PGP）",
+          "sources": [
+            "https://www.infraexpert.com/study/security30.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C10-21-09",
+          "question": "IMAPSとPOP3Sで使う既定のTCPポート番号は？",
+          "answer": "<div class=\"answer-text\">IMAPSは993、POP3Sは995。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "なりすましメール対策（SPF、DKIM、DMARC、S/MIME、PGP）",
+          "sources": [
+            "https://www.infraexpert.com/study/security30.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        }
+      ]
+    },
+    {
+      "deck_id": "chapter-11",
+      "revision": "5a531c13b06bdee5cd7d9d59397ad93ba867920e11648f0413967cb26df646da",
+      "title": "VPN",
+      "subtitle": "ネスペイージス 第11章",
+      "knowledge_count": 0,
+      "question_count": 52,
+      "sections": 12,
+      "cards": [
+        {
+          "id": "C11-01-01",
+          "question": "インターネットVPNとIP-VPNは、利用するネットワークがどう違う？",
+          "answer": "<div class=\"answer-text\">インターネットVPNは公衆インターネット、IP-VPNは事業者が提供する閉域IP網を利用する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VPN ( Virtual Private Network ) とは",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-01-02",
+          "question": "サイト間VPNとリモートアクセスVPNは、接続する相手がどう違う？",
+          "answer": "<div class=\"answer-text\">サイト間VPNは拠点間、リモートアクセスVPNは個々の端末と組織のネットワークを接続する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VPN ( Virtual Private Network ) とは",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-01-03",
+          "question": "VPNゲートウェイ間で接続するサイト間VPNでは、暗号化や復号を主にどこで行う？",
+          "answer": "<div class=\"answer-text\">拠点のVPNゲートウェイ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VPN ( Virtual Private Network ) とは",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-01-04",
+          "question": "VPNで、通常のIP通信より小さいMSSを使うことがある理由は？",
+          "answer": "<div class=\"answer-text\">トンネル用のヘッダや暗号化による付加情報が増えるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VPN ( Virtual Private Network ) とは",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-02-01",
+          "question": "トンネリングと暗号化は、目的がどう違う？",
+          "answer": "<div class=\"answer-text\">トンネリングは別のパケットなどに包んで運び、暗号化は内容を第三者が読めないようにする。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VPN - VPNの基礎知識",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-02-02",
+          "question": "GREだけで、運ぶデータの機密性を確保できるか。",
+          "answer": "<div class=\"answer-text\">できない。GRE自体には暗号化機能がない。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VPN - VPNの基礎知識",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-02-03",
+          "question": "GREとIPsecを組み合わせる場合、それぞれ主に何を担う？",
+          "answer": "<div class=\"answer-text\">GREがパケットのカプセル化、IPsecが暗号化や完全性の保護。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VPN - VPNの基礎知識",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-02-04",
+          "question": "認証と認可の違いは？",
+          "answer": "<div class=\"answer-text\">認証は相手が誰かの確認、認可は何へのアクセスを認めるかの決定。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VPN - VPNの基礎知識",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-03-01",
+          "question": "ハッシュ値を付けるだけでは、第三者によるデータの偽装を十分に防げない理由は？",
+          "answer": "<div class=\"answer-text\">第三者も、改ざんしたデータから新しいハッシュ値を計算できるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VPN - 暗号システムの概要",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-03-02",
+          "question": "HMACは、ハッシュ関数と何を組み合わせる？",
+          "answer": "<div class=\"answer-text\">送受信者が共有する秘密の鍵。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VPN - 暗号システムの概要",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-03-03",
+          "question": "HMACとデジタル署名は、検証側が持つ鍵がどう違う？",
+          "answer": "<div class=\"answer-text\">HMACは送信側と同じ秘密の共通鍵、署名は署名者の公開鍵を使う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VPN - 暗号システムの概要",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-04-01",
+          "question": "Diffie-Hellman鍵交換は、共通鍵そのものを通信路へ送る方式か。",
+          "answer": "<div class=\"answer-text\">送らない。公開情報を交換し、双方が同じ共有秘密を計算する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VPN - 共通鍵暗号と公開鍵暗号",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-04-02",
+          "question": "ハッシュ関数の出力である、固定長の要約値を何という？",
+          "answer": "<div class=\"answer-text\">ダイジェスト、またはハッシュ値。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VPN - 共通鍵暗号と公開鍵暗号",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-04-03",
+          "question": "HMACで受信データの完全性を確認する基本的な方法は？",
+          "answer": "<div class=\"answer-text\">受信データと共有鍵から計算した値を、受け取った認証値と比較する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VPN - 共通鍵暗号と公開鍵暗号",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-05-01",
+          "question": "IPsecが主に通信を保護する、OSI参照モデルの層は？",
+          "answer": "<div class=\"answer-text\">ネットワーク層。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - AH と ESP",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-05-02",
+          "question": "IPsecのAHとESPは、暗号化機能でどう違う？",
+          "answer": "<div class=\"answer-text\">AHは暗号化せず、ESPは暗号化できる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - AH と ESP",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-05-03",
+          "question": "ESPは、暗号化以外にどのような保護を提供できる？",
+          "answer": "<div class=\"answer-text\">データの完全性や送信元の認証、リプレイ防止。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - AH と ESP",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-05-04",
+          "question": "AHとESPのIPプロトコル番号は？",
+          "answer": "<div class=\"answer-text\">AHは51、ESPは50。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - AH と ESP",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-05-05",
+          "question": "IPsecのSPIは、主に何を識別する情報か。",
+          "answer": "<div class=\"answer-text\">受信したパケットを処理するSA。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - AH と ESP",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-05-06",
+          "question": "IPsecのシーケンス番号は、どのような攻撃の検出に使う？",
+          "answer": "<div class=\"answer-text\">過去の正当なパケットを再送するリプレイ攻撃。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - AH と ESP",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-05-07",
+          "question": "IPsecのICVは、何を検証するための値か。",
+          "answer": "<div class=\"answer-text\">保護対象データの完全性など。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - AH と ESP",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-05-08",
+          "question": "ESPの認証だけで、外側IPヘッダ全体の完全性も保証できるか。",
+          "answer": "<div class=\"answer-text\">できない。外側IPヘッダはESPの認証対象に含まれない。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - AH と ESP",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-06-01",
+          "question": "ESPのトランスポートモードとトンネルモードは、元のIPヘッダの扱いがどう違う？",
+          "answer": "<div class=\"answer-text\">トランスポートモードは外側に残し、トンネルモードは元のIPパケットを丸ごと包んで新しいIPヘッダを付ける。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - トランスポートモードとトンネルモード",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-06-02",
+          "question": "暗号化を行うESPのトンネルモードでは、元のIPヘッダも暗号化の対象か。",
+          "answer": "<div class=\"answer-text\">対象になる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - トランスポートモードとトンネルモード",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-06-03",
+          "question": "ESPのトンネルモードで、中継ルータが転送に使う宛先IPは？",
+          "answer": "<div class=\"answer-text\">新しく付けた外側IPヘッダの宛先IPアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - トランスポートモードとトンネルモード",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-06-04",
+          "question": "拠点のVPNゲートウェイ同士で、元のIPパケット全体を保護する代表的なIPsecモードは？",
+          "answer": "<div class=\"answer-text\">トンネルモード。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - トランスポートモードとトンネルモード",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-07-01",
+          "question": "IPsec SAは、主にどのような情報の組か。",
+          "answer": "<div class=\"answer-text\">暗号化・認証方式、鍵、通信モード、有効期間など、保護処理に使うパラメータの組。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - SA ( Secrutiy Association )",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-07-02",
+          "question": "AH/ESPのIPsec SAは、一方向と双方向のどちらか。",
+          "answer": "<div class=\"answer-text\">一方向。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - SA ( Secrutiy Association )",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-07-03",
+          "question": "ESPだけで双方向に通信するため、通常いくつのIPsec SAを用意する？",
+          "answer": "<div class=\"answer-text\">送信用と受信用の2つ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - SA ( Secrutiy Association )",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-07-04",
+          "question": "IPsecのSADとSPDは、保持する内容がどう違う？",
+          "answer": "<div class=\"answer-text\">SADは有効なSA、SPDはパケットを保護・通過・破棄するなどの処理方針。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - SA ( Secrutiy Association )",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-08-01",
+          "question": "IPsecで、SAや鍵を自動的に交渉・管理するプロトコルは？",
+          "answer": "<div class=\"answer-text\">IKE。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - IKE ： ISAKMPメッセージ",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-08-02",
+          "question": "通常のIKEで使う代表的なUDPポート番号は？",
+          "answer": "<div class=\"answer-text\">500。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - IKE ： ISAKMPメッセージ",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-08-03",
+          "question": "IKEv1のフェーズ1とフェーズ2は、それぞれ何を確立する？",
+          "answer": "<div class=\"answer-text\">フェーズ1はIKEの通信を保護するISAKMP SA、フェーズ2は実データを保護するIPsec SA。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - IKE ： ISAKMPメッセージ",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-09-01",
+          "question": "IKEv1のフェーズ1で、相手について確認する主なことは？",
+          "answer": "<div class=\"answer-text\">VPNの通信相手が正当な機器かどうか。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - IKE ： IKEフェーズ1、IKEフェーズ2",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-09-02",
+          "question": "IKEv1のMainモードとAggressiveモードのメッセージ数は？",
+          "answer": "<div class=\"answer-text\">Mainモードは6、Aggressiveモードは3。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - IKE ： IKEフェーズ1、IKEフェーズ2",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-09-03",
+          "question": "IKEで相手認証に使う事前共有鍵（PSK）とは何か。",
+          "answer": "<div class=\"answer-text\">通信相手同士で、あらかじめ共有しておく秘密の情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - IKE ： IKEフェーズ1、IKEフェーズ2",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-09-04",
+          "question": "IKEの相手認証に使うPSKと、実データの暗号化鍵は同じものか。",
+          "answer": "<div class=\"answer-text\">別のもの。実データ用の鍵は交渉で生成する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - IKE ： IKEフェーズ1、IKEフェーズ2",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-09-05",
+          "question": "IKEv1のフェーズ2が、フェーズ1より後に行われる理由は？",
+          "answer": "<div class=\"answer-text\">フェーズ1で確立した保護された通信路を使い、IPsec SAを交渉するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - IKE ： IKEフェーズ1、IKEフェーズ2",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-09-06",
+          "question": "IKEv1のフェーズ2で、IPsec SAのために決める主な情報は？",
+          "answer": "<div class=\"answer-text\">AH/ESP、暗号化・認証方式、通信モード、有効期間など。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - IKE ： IKEフェーズ1、IKEフェーズ2",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-09-07",
+          "question": "IKEv1のフェーズ2で使う交換モードは？",
+          "answer": "<div class=\"answer-text\">Quickモード。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - IKE ： IKEフェーズ1、IKEフェーズ2",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-09-08",
+          "question": "IPsecのPFSを有効にして、新しいDH交換を行う目的は？",
+          "answer": "<div class=\"answer-text\">新しい鍵を以前の鍵から独立させ、鍵の漏えいの影響を抑えるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPsec - IKE ： IKEフェーズ1、IKEフェーズ2",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-10-01",
+          "question": "ハブアンドスポーク型VPNで、スポーク間の通信をハブ経由にする問題は？",
+          "answer": "<div class=\"answer-text\">ハブへの負荷集中や、迂回による遅延が増えること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DMVPNとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-10-02",
+          "question": "フルメッシュ型VPNで、拠点数が増えた際の管理上の課題は？",
+          "answer": "<div class=\"answer-text\">拠点間の接続の組合せが増え、設定や管理が複雑になること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DMVPNとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ipsec1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-11-01",
+          "question": "MPLSのラベル値は、同じ宛先なら網内の全ルータで同じである必要があるか。",
+          "answer": "<div class=\"answer-text\">ない。各ルータがローカルに割り当てたラベルを配布し、転送時に付け替えられる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "MPLSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/mpls1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-11-02",
+          "question": "MPLS網の入口と出口に位置するエッジルータは、それぞれ何と呼ぶ？",
+          "answer": "<div class=\"answer-text\">入口はIngress LER、出口はEgress LER。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "MPLSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/mpls1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-11-03",
+          "question": "MPLSは、高速転送以外にどのような用途で使われる？",
+          "answer": "<div class=\"answer-text\">VPNの分離、QoS、トラフィックエンジニアリングなど。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "MPLSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/mpls1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-12-01",
+          "question": "MPLS-TEは、LSPをどのように制御する技術か。",
+          "answer": "<div class=\"answer-text\">帯域や方針などの条件に応じて、通過する経路を制御する技術。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "MPLS-TE（Traffic Engineering）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/mpls8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-12-02",
+          "question": "MPLS-TEで、OSPF-TEやIS-IS-TEが配布する主な情報は？",
+          "answer": "<div class=\"answer-text\">利用可能な帯域やリンク属性など、経路計算に必要な情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "MPLS-TE（Traffic Engineering）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/mpls8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-12-03",
+          "question": "RSVP-TEが、通常のRSVPへ追加する主な役割は？",
+          "answer": "<div class=\"answer-text\">MPLSのLSPを作るためのラベル割当てや、明示的な経路の設定。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "MPLS-TE（Traffic Engineering）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/mpls8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-12-04",
+          "question": "RSVP-TEのEROは、何を指定する情報か。",
+          "answer": "<div class=\"answer-text\">LSPが通る明示的な経路。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "MPLS-TE（Traffic Engineering）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/mpls8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-12-05",
+          "question": "RSVP-TEのPATHとRESVは、経路設定のどの方向に流れる？",
+          "answer": "<div class=\"answer-text\">PATHは開始側から終端側、RESVはその逆方向。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "MPLS-TE（Traffic Engineering）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/mpls8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C11-12-06",
+          "question": "MPLSのDU方式とDoD方式は、ラベル配布のきっかけがどう違う？",
+          "answer": "<div class=\"answer-text\">DUは要求を待たずに配布し、DoDは要求に応じて配布する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "MPLS-TE（Traffic Engineering）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/mpls8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        }
+      ]
+    },
+    {
+      "deck_id": "chapter-12",
+      "revision": "58d281716298abb51c2141717d42ee320792b32d17fdc9e6e30034ee89fb65f6",
+      "title": "SSL/TLS",
+      "subtitle": "ネスペイージス 第12章",
+      "knowledge_count": 0,
+      "question_count": 36,
+      "sections": 6,
+      "cards": [
+        {
+          "id": "C12-01-01",
+          "question": "TLSとSSLは、どのような関係のプロトコルか。",
+          "answer": "<div class=\"answer-text\">TLSはSSLを基に標準化された後継プロトコル。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-01-02",
+          "question": "TLSは、主に通信のどのような性質を保護する？",
+          "answer": "<div class=\"answer-text\">機密性、完全性、通信相手の認証。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-01-03",
+          "question": "HTTPSは、HTTPに何を組み合わせた通信か。",
+          "answer": "<div class=\"answer-text\">TLSによる通信の保護。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-01-04",
+          "question": "TLSの実データの暗号化では、主に共通鍵暗号と公開鍵暗号のどちらを使う？",
+          "answer": "<div class=\"answer-text\">共通鍵暗号。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-01-05",
+          "question": "TLSのサーバ認証で、通常サーバから提示されるものは？",
+          "answer": "<div class=\"answer-text\">サーバ証明書。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-01-06",
+          "question": "TLS 1.2以前のRSA鍵交換では、プリマスターシークレットをどの鍵で暗号化する？",
+          "answer": "<div class=\"answer-text\">サーバ証明書に含まれるサーバの公開鍵。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-01-07",
+          "question": "TLSでいう暗号スイートは、何を定める組合せか。",
+          "answer": "<div class=\"answer-text\">通信の暗号化や完全性保護などに使う暗号方式の組合せ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-01-08",
+          "question": "TLS 1.3で使う、暗号化と完全性保護を組み合わせた暗号方式は？",
+          "answer": "<div class=\"answer-text\">AEAD（認証付き暗号）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-02-01",
+          "question": "HTTPSで、通信の暗号化とは別にサーバの身元確認も必要な理由は？",
+          "answer": "<div class=\"answer-text\">暗号化できても、接続相手が偽サーバなら情報を渡してしまうため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSサーバ証明書とは その1",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-02-02",
+          "question": "HTTPのURLでポート番号を443にするだけで、TLSによる暗号化が有効になるか。",
+          "answer": "<div class=\"answer-text\">ならない。ポート番号だけでなく、HTTPSとして通信する必要がある。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSサーバ証明書とは その1",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-02-03",
+          "question": "サーバ証明書の検証で、接続先の名前について確認することは？",
+          "answer": "<div class=\"answer-text\">証明書の対象となるホスト名の範囲に、接続先の名前が含まれること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSサーバ証明書とは その1",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-03-01",
+          "question": "DV証明書とOV証明書は、CAが確認する範囲がどう違う？",
+          "answer": "<div class=\"answer-text\">DVはドメインの管理権限、OVはそれに加えて組織の実在性などを確認する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSサーバ証明書とは その2",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-03-02",
+          "question": "EV証明書は、通常のドメイン認証に加えてどのような確認を厳格に行う？",
+          "answer": "<div class=\"answer-text\">証明書を申請する組織の実在性や身元などの確認。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSサーバ証明書とは その2",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-03-03",
+          "question": "ドメイン認証の証明書が有効でも、Webサイトの運営内容まで安全と保証できない理由は？",
+          "answer": "<div class=\"answer-text\">証明する対象がドメインの管理権限などであり、掲載内容や取引の安全性ではないため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSサーバ証明書とは その2",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-03-04",
+          "question": "ロードバランサでTLSを終端する場合、サーバ証明書はどこへ設定する？",
+          "answer": "<div class=\"answer-text\">TLSの接続を受けるロードバランサ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSサーバ証明書とは その2",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-03-05",
+          "question": "CSRとは、何のためにCAへ提出するデータか。",
+          "answer": "<div class=\"answer-text\">公開鍵証明書の発行を申請するための署名要求。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSサーバ証明書とは その2",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-03-06",
+          "question": "CSRに含める主な情報は？",
+          "answer": "<div class=\"answer-text\">公開鍵と、証明書の申請者や対象を表す情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSサーバ証明書とは その2",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-03-07",
+          "question": "CSRをCAへ送るとき、証明書と対になる秘密鍵も送るか。",
+          "answer": "<div class=\"answer-text\">送らない。秘密鍵は申請側で秘密に保持する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSサーバ証明書とは その2",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-03-08",
+          "question": "証明書のSubjectは、主に誰についての情報か。",
+          "answer": "<div class=\"answer-text\">証明対象となる主体。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSサーバ証明書とは その2",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-03-09",
+          "question": "証明書のIssuerは、主に誰についての情報か。",
+          "answer": "<div class=\"answer-text\">証明書を発行した認証局。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSサーバ証明書とは その2",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-03-10",
+          "question": "証明書申請で用いるDNのO・OU・Cは、何を表す？",
+          "answer": "<div class=\"answer-text\">Oは組織、OUは組織単位・部門、Cは国。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSサーバ証明書とは その2",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-03-11",
+          "question": "PKCS #10は、主に何の形式を定める？",
+          "answer": "<div class=\"answer-text\">証明書署名要求（CSR）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSサーバ証明書とは その2",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-03-12",
+          "question": "PKCS #12形式では、証明書とともに何を格納できる？",
+          "answer": "<div class=\"answer-text\">対応する秘密鍵。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSサーバ証明書とは その2",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-04-01",
+          "question": "サーバ証明書とクライアント証明書は、誰の認証に使う？",
+          "answer": "<div class=\"answer-text\">サーバ証明書は接続先サーバ、クライアント証明書は接続元の利用者や端末の認証。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSクライアント証明書とは",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-04-02",
+          "question": "クライアント証明書を使って認証するため、証明書だけでなく必要なものは？",
+          "answer": "<div class=\"answer-text\">証明書の公開鍵と対になる秘密鍵。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSクライアント証明書とは",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-04-03",
+          "question": "端末認証用とユーザ認証用のクライアント証明書は、識別対象がどう違う？",
+          "answer": "<div class=\"answer-text\">端末認証用は機器、ユーザ認証用は利用者。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSクライアント証明書とは",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-04-04",
+          "question": "EAP-TLSでは、クライアント側とサーバ側のどちらが証明書を使う？",
+          "answer": "<div class=\"answer-text\">双方が使い、相互認証する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL/TLSクライアント証明書とは",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-05-01",
+          "question": "TLSを使うリモートアクセスVPNで、リバースプロキシ方式の利点は？",
+          "answer": "<div class=\"answer-text\">ブラウザを使い、専用VPNクライアントなしで社内Webへアクセスできる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL-VPNとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-05-02",
+          "question": "TLSを使うVPNのリバースプロキシ方式は、利用するアプリケーションにどのような制約がある？",
+          "answer": "<div class=\"answer-text\">主にブラウザで利用できるアプリケーションが対象となる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL-VPNとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-05-03",
+          "question": "TLSを使うVPNのポートフォワーディング方式で、固定の接続先ポートだけを定義する場合の制約は？",
+          "answer": "<div class=\"answer-text\">通信中に動的な別ポートを使うアプリケーションを扱いにくい。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL-VPNとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-05-04",
+          "question": "仮想NICを使うVPNクライアント方式は、ブラウザだけの方式と何が違う？",
+          "answer": "<div class=\"answer-text\">IPパケットをVPNへ送り、Web以外のアプリケーションの通信も扱える。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SSL-VPNとは",
+          "sources": [
+            "https://www.infraexpert.com/study/security8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-06-01",
+          "question": "証明書の有効期限内でも、失効確認が必要な理由は？",
+          "answer": "<div class=\"answer-text\">秘密鍵の漏えいや誤発行などで、有効期限前に失効することがあるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "CRL（証明書失効リスト）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-06-02",
+          "question": "CRLと証明書を照合するとき、主にどの識別情報を使う？",
+          "answer": "<div class=\"answer-text\">発行元CAと証明書のシリアル番号。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "CRL（証明書失効リスト）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-06-03",
+          "question": "古いCRLを使い続けると、どのような問題がある？",
+          "answer": "<div class=\"answer-text\">その後に失効した証明書を見逃す可能性がある。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "CRL（証明書失効リスト）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-06-04",
+          "question": "OCSPは、何をオンラインで問い合わせるプロトコルか。",
+          "answer": "<div class=\"answer-text\">個々の証明書の失効状態。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "CRL（証明書失効リスト）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C12-06-05",
+          "question": "CRLとOCSPは、失効確認のために何を取得する点が違う？",
+          "answer": "<div class=\"answer-text\">CRLは失効証明書の一覧を取得し、OCSPは対象証明書についての状態応答を取得する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "CRL（証明書失効リスト）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/sslserver13.html"
           ],
           "kind": "",
           "knowledge_ids": []
