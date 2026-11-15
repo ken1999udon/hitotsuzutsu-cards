@@ -1,0 +1,129 @@
+{
+  "site": "https://hitotsuzutsu-nw-study.amiablesheep8.chatgpt.site/",
+  "chapters": 19,
+  "cards": 1383,
+  "catalog_revision": "942e3cb95e8ebd275d022bd3c20b42e00c3c93be4051ce44dab4913498854b00",
+  "all_question_and_answer_texts_match": true,
+  "all_answers_can_be_revealed": true,
+  "console_errors": [],
+  "checks": [
+    {
+      "deck": "chapter-01",
+      "questions": 63,
+      "answers": 63,
+      "reveal_all": true
+    },
+    {
+      "deck": "chapter-02",
+      "questions": 210,
+      "answers": 210,
+      "reveal_all": true
+    },
+    {
+      "deck": "chapter-03-v2",
+      "questions": 85,
+      "answers": 85,
+      "reveal_all": true
+    },
+    {
+      "deck": "chapter-04",
+      "questions": 77,
+      "answers": 77,
+      "reveal_all": true
+    },
+    {
+      "deck": "chapter-05",
+      "questions": 57,
+      "answers": 57,
+      "reveal_all": true
+    },
+    {
+      "deck": "chapter-06",
+      "questions": 63,
+      "answers": 63,
+      "reveal_all": true
+    },
+    {
+      "deck": "chapter-07",
+      "questions": 77,
+      "answers": 77,
+      "reveal_all": true
+    },
+    {
+      "deck": "chapter-08",
+      "questions": 19,
+      "answers": 19,
+      "reveal_all": true
+    },
+    {
+      "deck": "chapter-09",
+      "questions": 53,
+      "answers": 53,
+      "reveal_all": true
+    },
+    {
+      "deck": "chapter-10",
+      "questions": 122,
+      "answers": 122,
+      "reveal_all": true
+    },
+    {
+      "deck": "chapter-11",
+      "questions": 52,
+      "answers": 52,
+      "reveal_all": true
+    },
+    {
+      "deck": "chapter-12",
+      "questions": 36,
+      "answers": 36,
+      "reveal_all": true
+    },
+    {
+      "deck": "chapter-13",
+      "questions": 116,
+      "answers": 116,
+      "reveal_all": true
+    },
+    {
+      "deck": "chapter-14",
+      "questions": 40,
+      "answers": 40,
+      "reveal_all": true
+    },
+    {
+      "deck": "chapter-15",
+      "questions": 57,
+      "answers": 57,
+      "reveal_all": true
+    },
+    {
+      "deck": "chapter-16",
+      "questions": 43,
+      "answers": 43,
+      "reveal_all": true
+    },
+    {
+      "deck": "chapter-17",
+      "questions": 61,
+      "answers": 61,
+      "reveal_all": true
+    },
+    {
+      "deck": "chapter-18",
+      "questions": 54,
+      "answers": 54,
+      "reveal_all": true
+    },
+    {
+      "deck": "chapter-19",
+      "questions": 98,
+      "answers": 98,
+      "reveal_all": true
+    }
+  ],
+  "publication_commit": "fbd34634fe899db25e434867d035ca34d598f0ee",
+  "github_actions_url": "https://github.com/ken1999udon/hitotsuzutsu-cards/actions/runs/43661274573",
+  "github_actions_result": "success",
+  "date": "2026-11-15"
+}
