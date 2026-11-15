@@ -111,7 +111,8 @@
     "url": "https://www.infraexpert.com/study/ipv6z5.1.html",
     "sha256": "b55d6a5ba83189f7ac591b2fcfc8ca60aece8e315b35f72c866678d7671ebae1",
     "card_ids": [],
-    "note": "Ciscoの設定コマンド・既定動作は除外。手動設定の一般的内容は第2・6節と重複するため独立出題しない。"
+    "note": "Ciscoの設定コマンド・既定動作は除外。手動設定の一般的内容は第2・6節と重複するため独立出題しない。",
+    "decision": "機種別の設定コマンドは除外。IPv6アドレス構成とEUI-64の一般的な内容は他節のカードで扱い、重複を避けた。"
   },
   {
     "section": 10,

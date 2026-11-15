@@ -54,15 +54,6 @@
     ]
   },
   {
-    "id": "C04-01-07",
-    "question": "Catalystの標準的な初期設定で、デフォルトVLANとして使われるVLAN IDは？",
-    "answer": "VLAN 1。",
-    "section_title": "VLANの概要",
-    "sources": [
-      "https://www.infraexpert.com/study/vlanz1.html"
-    ]
-  },
-  {
     "id": "C04-02-01",
     "question": "通常のアクセスポートとトランクポートは、扱うVLANの数でどう違う？",
     "answer": "アクセスポートは1つ、トランクポートは複数のVLANを扱う。",
@@ -201,15 +192,6 @@
     "id": "C04-03-03",
     "question": "Q-in-Qで、事業者網へ付加した外側のタグは顧客側へ出るときどうする？",
     "answer": "事業者網の出口で外す。",
-    "section_title": "IEEE802.1q トンネリング（Q-in-Q）とは",
-    "sources": [
-      "https://www.infraexpert.com/study/vlanz17.html"
-    ]
-  },
-  {
-    "id": "C04-03-04",
-    "question": "Q-in-Qのサービスエッジで、顧客のVLANを収容するポートを何という？",
-    "answer": "トンネルポート。",
     "section_title": "IEEE802.1q トンネリング（Q-in-Q）とは",
     "sources": [
       "https://www.infraexpert.com/study/vlanz17.html"
@@ -474,6 +456,15 @@
     "section_title": "STP - スパニングツリープロトコルのポート状態",
     "sources": [
       "https://www.infraexpert.com/study/stpz3.html"
+    ]
+  },
+  {
+    "id": "C04-07-05",
+    "question": "CSTでは、複数のVLANに対してスパニングツリーをどう構成するか。",
+    "answer": "全VLANで1つのスパニングツリーを共有する。",
+    "section_title": "STP - CSTとは",
+    "sources": [
+      "https://www.infraexpert.com/study/stpz4.html"
     ]
   },
   {

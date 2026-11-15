@@ -372,7 +372,7 @@
     "id": "C11-10-01",
     "question": "ハブアンドスポーク型VPNで、スポーク間の通信をハブ経由にする問題は？",
     "answer": "ハブへの負荷集中や、迂回による遅延が増えること。",
-    "section_title": "DMVPNとは",
+    "section_title": "ハブ＆スポークとフルメッシュ",
     "sources": [
       "https://www.infraexpert.com/study/ipsec1.html"
     ]
@@ -381,7 +381,7 @@
     "id": "C11-10-02",
     "question": "フルメッシュ型VPNで、拠点数が増えた際の管理上の課題は？",
     "answer": "拠点間の接続の組合せが増え、設定や管理が複雑になること。",
-    "section_title": "DMVPNとは",
+    "section_title": "ハブ＆スポークとフルメッシュ",
     "sources": [
       "https://www.infraexpert.com/study/ipsec1.html"
     ]

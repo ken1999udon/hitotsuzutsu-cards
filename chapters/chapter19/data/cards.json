@@ -1,0 +1,884 @@
+[
+  {
+    "id": "C19-01-01",
+    "question": "サーバ仮想化とは何か。",
+    "answer": "1台の物理サーバ上で、複数の仮想サーバを独立して動作させる技術。",
+    "section_title": "サーバ仮想化 - 仮想化とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual.html"
+    ]
+  },
+  {
+    "id": "C19-01-02",
+    "question": "サーバ仮想化で、各仮想マシンに割り当てる主なハードウェア資源は何か。",
+    "answer": "CPU、メモリ、ディスク、ネットワークインタフェース。",
+    "section_title": "サーバ仮想化 - 仮想化とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual.html"
+    ]
+  },
+  {
+    "id": "C19-01-03",
+    "question": "仮想マシンごとに動作するOSを何というか。",
+    "answer": "ゲストOS。",
+    "section_title": "サーバ仮想化 - 仮想化とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual.html"
+    ]
+  },
+  {
+    "id": "C19-01-04",
+    "question": "利用率の低い物理サーバを仮想化して集約する利点は何か。",
+    "answer": "資源の利用効率を高め、設置スペースや消費電力、保守費用を減らせる。",
+    "section_title": "サーバ仮想化 - 仮想化とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual.html"
+    ]
+  },
+  {
+    "id": "C19-01-05",
+    "question": "負荷のピーク時間が異なるサーバを同じ物理サーバに集約する利点は何か。",
+    "answer": "ピークが重なりにくく、物理サーバの資源を有効に使える。",
+    "section_title": "サーバ仮想化 - 仮想化とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual.html"
+    ]
+  },
+  {
+    "id": "C19-01-06",
+    "question": "ホストOS型とハイパーバイザー型のサーバ仮想化は何が違うか。",
+    "answer": "ホストOS型はOS上の仮想化ソフトで動かし、ハイパーバイザー型はハードウェア上のハイパーバイザーが仮想マシンを管理する。",
+    "section_title": "サーバ仮想化 - 仮想化とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual.html"
+    ]
+  },
+  {
+    "id": "C19-01-07",
+    "question": "サーバ仮想化で物理ハードウェアを抽象化する利点は何か。",
+    "answer": "ゲストOSが仮想ハードウェアを利用するので、物理サーバの機種変更の影響を受けにくい。",
+    "section_title": "サーバ仮想化 - 仮想化とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual.html"
+    ]
+  },
+  {
+    "id": "C19-01-08",
+    "question": "複数の仮想マシンを1台に集約した場合、物理サーバの故障はどこに影響するか。",
+    "answer": "その物理サーバで稼働するすべての仮想マシンに影響する。",
+    "section_title": "サーバ仮想化 - 仮想化とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual.html"
+    ]
+  },
+  {
+    "id": "C19-02-01",
+    "question": "仮想サーバが物理ネットワークに接続するとき、仮想NICと物理NICの間でフレームを中継するものは何か。",
+    "answer": "仮想スイッチ。",
+    "section_title": "サーバ仮想化 - 仮想サーバのネットワーク接続",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual2.html"
+    ]
+  },
+  {
+    "id": "C19-02-02",
+    "question": "同じ仮想スイッチの同じVLANに接続した仮想マシン同士は、物理スイッチを経由せず通信できるか。",
+    "answer": "できる。仮想スイッチ内でフレームを転送できる。",
+    "section_title": "サーバ仮想化 - 仮想サーバのネットワーク接続",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual2.html"
+    ]
+  },
+  {
+    "id": "C19-02-03",
+    "question": "仮想マシンの通信、管理、ストレージなどのトラフィックを分ける目的は何か。",
+    "answer": "トラフィック同士の干渉や帯域の競合を減らすため。",
+    "section_title": "サーバ仮想化 - 仮想サーバのネットワーク接続",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual2.html"
+    ]
+  },
+  {
+    "id": "C19-02-04",
+    "question": "仮想サーバの物理NICを冗長化する目的は何か。",
+    "answer": "物理NICや接続先の障害時にも、別の経路で通信を継続するため。",
+    "section_title": "サーバ仮想化 - 仮想サーバのネットワーク接続",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual2.html"
+    ]
+  },
+  {
+    "id": "C19-02-05",
+    "question": "仮想スイッチと物理スイッチの間で複数のVLANを運ぶには、接続ポートをどのようにするか。",
+    "answer": "IEEE 802.1Qのタグを使うトランク接続にする。",
+    "section_title": "サーバ仮想化 - 仮想サーバのネットワーク接続",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual2.html"
+    ]
+  },
+  {
+    "id": "C19-03-01",
+    "question": "コンテナ型とハイパーバイザー型では、OSのカーネルの扱いがどう違うか。",
+    "answer": "コンテナ型はホストOSのカーネルを共有し、ハイパーバイザー型は仮想マシンごとにゲストOSのカーネルを持つ。",
+    "section_title": "サーバ仮想化 - ハイパーバイザー型とコンテナ型の違い",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual1.html"
+    ]
+  },
+  {
+    "id": "C19-03-02",
+    "question": "コンテナが仮想マシンより軽量で、起動も速い主な理由は何か。",
+    "answer": "コンテナごとにゲストOSを起動せず、ホストOSのカーネルを共有するため。",
+    "section_title": "サーバ仮想化 - ハイパーバイザー型とコンテナ型の違い",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual1.html"
+    ]
+  },
+  {
+    "id": "C19-03-03",
+    "question": "ホストOSのカーネルに障害が起きた場合、コンテナにはどのような影響があるか。",
+    "answer": "そのカーネルを共有するコンテナ全体に影響する。",
+    "section_title": "サーバ仮想化 - ハイパーバイザー型とコンテナ型の違い",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual1.html"
+    ]
+  },
+  {
+    "id": "C19-03-04",
+    "question": "異なる種類のOSカーネルを同じ物理サーバ上で動かすには、コンテナ型とハイパーバイザー型のどちらが適しているか。",
+    "answer": "ゲストOSごとにカーネルを持てるハイパーバイザー型。",
+    "section_title": "サーバ仮想化 - ハイパーバイザー型とコンテナ型の違い",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual1.html"
+    ]
+  },
+  {
+    "id": "C19-03-05",
+    "question": "コンテナにアプリケーションと必要なライブラリをまとめる利点は何か。",
+    "answer": "アプリケーションの実行環境をまとめて配布・再現しやすい。",
+    "section_title": "サーバ仮想化 - ハイパーバイザー型とコンテナ型の違い",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual1.html"
+    ]
+  },
+  {
+    "id": "C19-04-01",
+    "question": "VDIでは、利用者のデスクトップ環境をどこで動作させるか。",
+    "answer": "サーバ上の仮想マシンで動作させる。",
+    "section_title": "VDI（デスクトップ仮想化）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual6.html"
+    ]
+  },
+  {
+    "id": "C19-04-02",
+    "question": "VDIで端末とサーバの間を主にやり取りする情報は何か。",
+    "answer": "端末からのキーボード・マウス入力と、サーバからの画面情報。",
+    "section_title": "VDI（デスクトップ仮想化）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual6.html"
+    ]
+  },
+  {
+    "id": "C19-04-03",
+    "question": "VDIでOSやアプリケーションの管理を集約しやすいのはなぜか。",
+    "answer": "利用者のデスクトップ環境がサーバ側に集まっているため。",
+    "section_title": "VDI（デスクトップ仮想化）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual6.html"
+    ]
+  },
+  {
+    "id": "C19-04-04",
+    "question": "VDIが端末の紛失による情報漏えいのリスクを減らせるのはなぜか。",
+    "answer": "業務データをサーバ側で扱い、端末内へのデータ保存を減らせるため。",
+    "section_title": "VDI（デスクトップ仮想化）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual6.html"
+    ]
+  },
+  {
+    "id": "C19-04-05",
+    "question": "シンクライアントとは、どのような端末か。",
+    "answer": "処理やデータ管理を主にサーバに任せ、必要最小限の機能を持つ端末。",
+    "section_title": "VDI（デスクトップ仮想化）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual6.html"
+    ]
+  },
+  {
+    "id": "C19-04-06",
+    "question": "VDIとネットワークブート型では、OSやアプリケーションの実行場所がどう違うか。",
+    "answer": "VDIはサーバ側で実行し、ネットワークブート型はサーバからOSを読み込んで端末側で実行する。",
+    "section_title": "VDI（デスクトップ仮想化）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual6.html"
+    ]
+  },
+  {
+    "id": "C19-04-07",
+    "question": "SBC方式とVDI方式では、利用者ごとのOSの扱いがどう違うか。",
+    "answer": "SBCは1つのサーバOSを複数の利用者で共有し、VDIは利用者ごとに仮想マシンのOSを使う。",
+    "section_title": "VDI（デスクトップ仮想化）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual6.html"
+    ]
+  },
+  {
+    "id": "C19-04-08",
+    "question": "ブレードPC方式とVDI方式では、利用者に割り当てるPC環境がどう違うか。",
+    "answer": "ブレードPC方式は物理PCを割り当て、VDI方式は仮想マシンを割り当てる。",
+    "section_title": "VDI（デスクトップ仮想化）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual6.html"
+    ]
+  },
+  {
+    "id": "C19-04-09",
+    "question": "VDIでネットワークの遅延や通信断が業務に影響するのはなぜか。",
+    "answer": "画面転送と操作入力の通信が必要で、デスクトップの利用がネットワークに依存するため。",
+    "section_title": "VDI（デスクトップ仮想化）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual6.html"
+    ]
+  },
+  {
+    "id": "C19-05-01",
+    "question": "VXLANは、L3ネットワーク上に何を構築する技術か。",
+    "answer": "論理的なL2ネットワーク。",
+    "section_title": "VXLANとは、EVPN/VXLANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual3.html"
+    ]
+  },
+  {
+    "id": "C19-05-02",
+    "question": "VXLANは、イーサネットフレームをどのプロトコルでカプセル化するか。",
+    "answer": "UDP/IP。",
+    "section_title": "VXLANとは、EVPN/VXLANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual3.html"
+    ]
+  },
+  {
+    "id": "C19-05-03",
+    "question": "VXLANで論理ネットワークを識別する値を何というか。",
+    "answer": "VNI（VXLAN Network Identifier）。",
+    "section_title": "VXLANとは、EVPN/VXLANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual3.html"
+    ]
+  },
+  {
+    "id": "C19-05-04",
+    "question": "VXLANのVNIは何ビットか。また、およそいくつのネットワークを識別できるか。",
+    "answer": "24ビットで、約1,600万。",
+    "section_title": "VXLANとは、EVPN/VXLANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual3.html"
+    ]
+  },
+  {
+    "id": "C19-05-05",
+    "question": "VXLANがVLANより大規模なネットワーク分離に向くのはなぜか。",
+    "answer": "識別子が24ビットあり、12ビットのVLAN IDより多くのネットワークを識別できるため。",
+    "section_title": "VXLANとは、EVPN/VXLANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual3.html"
+    ]
+  },
+  {
+    "id": "C19-05-06",
+    "question": "VXLANのVTEPは、どのような役割を持つか。",
+    "answer": "VXLANトンネルの端点として、フレームのカプセル化とカプセル化解除を行う。",
+    "section_title": "VXLANとは、EVPN/VXLANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual3.html"
+    ]
+  },
+  {
+    "id": "C19-05-07",
+    "question": "VXLANを使うと、仮想マシンの移動に伴うIPアドレスの変更を避けられるのはなぜか。",
+    "answer": "物理的なL3ネットワークにまたがる論理的なL2ネットワークを構成できるため。",
+    "section_title": "VXLANとは、EVPN/VXLANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual3.html"
+    ]
+  },
+  {
+    "id": "C19-05-08",
+    "question": "IPv4を使うVXLANで、外側のEthernetヘッダを含めた通常のカプセル化のオーバーヘッドは何バイトか。",
+    "answer": "50バイト。Ethernetが14、IPv4が20、UDPが8、VXLANが8バイト。",
+    "section_title": "VXLANとは、EVPN/VXLANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual3.html"
+    ]
+  },
+  {
+    "id": "C19-05-09",
+    "question": "EVPN/VXLANでは、コントロールプレーンとデータプレーンをそれぞれ何が担うか。",
+    "answer": "コントロールプレーンはEVPN、データプレーンはVXLAN。",
+    "section_title": "VXLANとは、EVPN/VXLANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual3.html"
+    ]
+  },
+  {
+    "id": "C19-05-10",
+    "question": "EVPNでは、MACアドレスやIPアドレスなどの到達情報をどのプロトコルで交換するか。",
+    "answer": "MP-BGP。",
+    "section_title": "VXLANとは、EVPN/VXLANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual3.html"
+    ]
+  },
+  {
+    "id": "C19-05-11",
+    "question": "EVPNでMAC・IPの到達情報を事前に交換すると、ARPリクエストのフラッディングを減らせるのはなぜか。",
+    "answer": "学習した対応情報を使って、問い合わせを広く転送せずに応答できるため。",
+    "section_title": "VXLANとは、EVPN/VXLANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual3.html"
+    ]
+  },
+  {
+    "id": "C19-05-12",
+    "question": "VXLANのBUMトラフィックとは、どの3種類の通信か。",
+    "answer": "ブロードキャスト、宛先不明のユニキャスト、マルチキャスト。",
+    "section_title": "VXLANとは、EVPN/VXLANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual3.html"
+    ]
+  },
+  {
+    "id": "C19-05-13",
+    "question": "EVPNのオールアクティブ・マルチホーミングでは、複数の接続リンクをどのように使えるか。",
+    "answer": "冗長化した複数のリンクを同時に使用できる。",
+    "section_title": "VXLANとは、EVPN/VXLANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual3.html"
+    ]
+  },
+  {
+    "id": "C19-05-14",
+    "question": "EVPNでイーサネットセグメントを一意に識別する値を何というか。",
+    "answer": "ESI（Ethernet Segment Identifier）。",
+    "section_title": "VXLANとは、EVPN/VXLANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual3.html"
+    ]
+  },
+  {
+    "id": "C19-05-15",
+    "question": "EVPNのEVIは何を表すか。",
+    "answer": "EVPNインスタンス。EVPNにおけるVPNを表す。",
+    "section_title": "VXLANとは、EVPN/VXLANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual3.html"
+    ]
+  },
+  {
+    "id": "C19-06-01",
+    "question": "SaaS、PaaS、IaaSは、それぞれ何をサービスとして提供するか。",
+    "answer": "SaaSはアプリケーション、PaaSはアプリケーションの実行基盤、IaaSはサーバ・ストレージ・ネットワークなどの基盤。",
+    "section_title": "クラウドとは、SaaS、PaaS、IaaSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual4.html"
+    ]
+  },
+  {
+    "id": "C19-06-02",
+    "question": "クラウドのIaaSで、利用者側が管理する主なソフトウェアは何か。",
+    "answer": "OS、ミドルウェア、アプリケーション。",
+    "section_title": "クラウドとは、SaaS、PaaS、IaaSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual4.html"
+    ]
+  },
+  {
+    "id": "C19-06-03",
+    "question": "PaaSを使うと、アプリケーション開発者のどのような作業を減らせるか。",
+    "answer": "OSやミドルウェアなど、実行基盤を構築・管理する作業。",
+    "section_title": "クラウドとは、SaaS、PaaS、IaaSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual4.html"
+    ]
+  },
+  {
+    "id": "C19-06-04",
+    "question": "オンプレミスとは、どのようなシステムの運用形態か。",
+    "answer": "自社で機器などを用意し、自社側の設備でシステムを構築・運用する形態。",
+    "section_title": "クラウドとは、SaaS、PaaS、IaaSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual4.html"
+    ]
+  },
+  {
+    "id": "C19-06-05",
+    "question": "クラウドでは、物理サーバを自社調達する場合に比べて、なぜ利用開始を早められるか。",
+    "answer": "提供済みの基盤から必要な資源を割り当てて利用できるため。",
+    "section_title": "クラウドとは、SaaS、PaaS、IaaSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual4.html"
+    ]
+  },
+  {
+    "id": "C19-07-01",
+    "question": "IoTとは何か。",
+    "answer": "様々なモノをネットワークに接続し、データの収集や状態の把握、制御などを行う仕組み。",
+    "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual5.html"
+    ]
+  },
+  {
+    "id": "C19-07-02",
+    "question": "LPWAには、通信速度や消費電力にどのような特徴があるか。",
+    "answer": "低速だが低消費電力で、広い範囲を通信できる。",
+    "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual5.html"
+    ]
+  },
+  {
+    "id": "C19-07-03",
+    "question": "LPWAは、どのようなデータの送信に向いているか。",
+    "answer": "センサ値など、少量のデータを低頻度で送る用途。",
+    "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual5.html"
+    ]
+  },
+  {
+    "id": "C19-07-04",
+    "question": "MQTTのパブリッシュ／サブスクライブ型通信では、送信者と受信者の間で何がメッセージを仲介するか。",
+    "answer": "ブローカー。",
+    "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual5.html"
+    ]
+  },
+  {
+    "id": "C19-07-05",
+    "question": "MQTTで受信者が購読する、メッセージの分類・配信先を表すものは何か。",
+    "answer": "トピック。",
+    "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual5.html"
+    ]
+  },
+  {
+    "id": "C19-07-06",
+    "question": "MQTTのパブリッシュ／サブスクライブ型通信では、送信者は個々の受信者を知る必要があるか。",
+    "answer": "ない。送信者はブローカーに発行し、ブローカーが購読者へ配信する。",
+    "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual5.html"
+    ]
+  },
+  {
+    "id": "C19-07-07",
+    "question": "MQTTは、トランスポート層で主に何を使うか。",
+    "answer": "TCP。",
+    "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual5.html"
+    ]
+  },
+  {
+    "id": "C19-07-08",
+    "question": "MQTTの通信をTLSで保護する方式を何というか。",
+    "answer": "MQTTS。",
+    "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual5.html"
+    ]
+  },
+  {
+    "id": "C19-07-09",
+    "question": "CoAPは、どのような機器向けのプロトコルか。",
+    "answer": "処理能力や通信資源に制約がある機器向けの、軽量なリソース操作用プロトコル。",
+    "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual5.html"
+    ]
+  },
+  {
+    "id": "C19-07-10",
+    "question": "基本的なCoAP通信は、トランスポート層で何を使うか。",
+    "answer": "UDP。",
+    "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual5.html"
+    ]
+  },
+  {
+    "id": "C19-07-11",
+    "question": "UDPを使うCoAP通信を暗号化するために利用する仕組みは何か。",
+    "answer": "DTLS。",
+    "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/virtual5.html"
+    ]
+  },
+  {
+    "id": "C19-08-01",
+    "question": "SDNとは、ネットワークをどのように制御する考え方か。",
+    "answer": "ネットワーク機器の制御をソフトウェアにより集中的・柔軟に行う考え方。",
+    "section_title": "ネットワーク仮想化 - SDN",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn01.html"
+    ]
+  },
+  {
+    "id": "C19-08-02",
+    "question": "SDNで分離するコントロールプレーンとデータプレーンは、それぞれ何を行うか。",
+    "answer": "コントロールプレーンは転送方法を決め、データプレーンはその指示に従ってパケットを転送する。",
+    "section_title": "ネットワーク仮想化 - SDN",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn01.html"
+    ]
+  },
+  {
+    "id": "C19-08-03",
+    "question": "SDNの3つの層は何か。",
+    "answer": "アプリケーション層、コントロール層、インフラストラクチャ層。",
+    "section_title": "ネットワーク仮想化 - SDN",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn01.html"
+    ]
+  },
+  {
+    "id": "C19-08-04",
+    "question": "SDNのサウスバウンドAPIは、何と何を接続するインタフェースか。",
+    "answer": "コントローラとネットワーク機器。",
+    "section_title": "ネットワーク仮想化 - SDN",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn01.html"
+    ]
+  },
+  {
+    "id": "C19-08-05",
+    "question": "SDNのノースバウンドAPIは、何と何を接続するインタフェースか。",
+    "answer": "アプリケーションとコントローラ。",
+    "section_title": "ネットワーク仮想化 - SDN",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn01.html"
+    ]
+  },
+  {
+    "id": "C19-08-06",
+    "question": "OpenFlowとSDNは、どのような関係にあるか。",
+    "answer": "OpenFlowは、SDNを実現するための技術の一つ。",
+    "section_title": "ネットワーク仮想化 - SDN",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn01.html"
+    ]
+  },
+  {
+    "id": "C19-09-01",
+    "question": "SDNのホップバイホップ方式では、コントローラは各スイッチに何を設定するか。",
+    "answer": "パケットの転送ルール。",
+    "section_title": "ネットワーク仮想化 - SDN - ホップバイホップ、オーバーレイ",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn06.html"
+    ]
+  },
+  {
+    "id": "C19-09-02",
+    "question": "SDNのオーバーレイ方式では、物理ネットワークの上に論理ネットワークをどのように構成するか。",
+    "answer": "端点間をトンネルで結び、パケットをカプセル化して運ぶ。",
+    "section_title": "ネットワーク仮想化 - SDN - ホップバイホップ、オーバーレイ",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn06.html"
+    ]
+  },
+  {
+    "id": "C19-09-03",
+    "question": "オーバーレイを運ぶアンダーレイの中継機器には、基本的にどのような転送機能があればよいか。",
+    "answer": "トンネルの外側のIPパケットを転送できること。",
+    "section_title": "ネットワーク仮想化 - SDN - ホップバイホップ、オーバーレイ",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn06.html"
+    ]
+  },
+  {
+    "id": "C19-10-01",
+    "question": "OpenFlowのフローテーブルには、主にどのような情報を設定するか。",
+    "answer": "パケットの照合条件と、条件に一致したときの処理。",
+    "section_title": "ネットワーク仮想化 - SDN - OpenFlowとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn02.html"
+    ]
+  },
+  {
+    "id": "C19-10-02",
+    "question": "OpenFlowのフローの照合条件にできる情報には、どのようなものがあるか。",
+    "answer": "入力ポート、MACアドレス、VLAN ID、IPアドレス、TCP・UDPのポート番号など。",
+    "section_title": "ネットワーク仮想化 - SDN - OpenFlowとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn02.html"
+    ]
+  },
+  {
+    "id": "C19-10-03",
+    "question": "OpenFlowのフローで指定するアクションには、どのようなものがあるか。",
+    "answer": "指定ポートへの転送、破棄、ヘッダの書換えなど。",
+    "section_title": "ネットワーク仮想化 - SDN - OpenFlowとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn02.html"
+    ]
+  },
+  {
+    "id": "C19-10-04",
+    "question": "OpenFlowのPacket-Inは、どこからどこへ何を通知するメッセージか。",
+    "answer": "スイッチからコントローラへ、パケットや関連情報を通知する。",
+    "section_title": "ネットワーク仮想化 - SDN - OpenFlowとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn02.html"
+    ]
+  },
+  {
+    "id": "C19-10-05",
+    "question": "OpenFlowのPacket-Outは、どこからどこへ何を指示するメッセージか。",
+    "answer": "コントローラからスイッチへ、パケットの送出を指示する。",
+    "section_title": "ネットワーク仮想化 - SDN - OpenFlowとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn02.html"
+    ]
+  },
+  {
+    "id": "C19-10-06",
+    "question": "OpenFlowのFlow-Modは何を行うメッセージか。",
+    "answer": "コントローラがスイッチのフローエントリを追加・変更・削除する。",
+    "section_title": "ネットワーク仮想化 - SDN - OpenFlowとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn02.html"
+    ]
+  },
+  {
+    "id": "C19-10-07",
+    "question": "OpenFlowでは、すべてのパケットをコントローラへ送ってから転送する必要があるか。",
+    "answer": "ない。スイッチが設定済みのフローに従って処理できる。",
+    "section_title": "ネットワーク仮想化 - SDN - OpenFlowとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn02.html"
+    ]
+  },
+  {
+    "id": "C19-11-01",
+    "question": "NFVは、専用機器で提供していたネットワーク機能をどのように実現するか。",
+    "answer": "汎用サーバ上などで動作するソフトウェアとして実現する。",
+    "section_title": "ネットワーク仮想化 - NFV ( Network Functions Virtualization )",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn07.html"
+    ]
+  },
+  {
+    "id": "C19-11-02",
+    "question": "NFVで、仮想化したファイアウォールやルータなどのネットワーク機能を何というか。",
+    "answer": "VNF（Virtual Network Function）。",
+    "section_title": "ネットワーク仮想化 - NFV ( Network Functions Virtualization )",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn07.html"
+    ]
+  },
+  {
+    "id": "C19-11-03",
+    "question": "SDNとNFVは、それぞれ何に着目した技術か。",
+    "answer": "SDNはネットワーク制御と転送の分離・制御の自動化、NFVはネットワーク機能のソフトウェア化。",
+    "section_title": "ネットワーク仮想化 - NFV ( Network Functions Virtualization )",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn07.html"
+    ]
+  },
+  {
+    "id": "C19-11-04",
+    "question": "サービスファンクションチェイニングとは何か。",
+    "answer": "通信を複数のネットワーク機能に、決めた順番で通す仕組み。",
+    "section_title": "ネットワーク仮想化 - NFV ( Network Functions Virtualization )",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn02.html"
+    ]
+  },
+  {
+    "id": "C19-12-01",
+    "question": "APIとは、ソフトウェア同士にとってどのようなものか。",
+    "answer": "ソフトウェアの機能やデータを別のソフトウェアから利用するためのインタフェース。",
+    "section_title": "ネットワーク自動化とプログラマビリティ - REST APIとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn09.html"
+    ]
+  },
+  {
+    "id": "C19-12-02",
+    "question": "REST APIでは、操作対象のリソースを何で識別するか。",
+    "answer": "URI。",
+    "section_title": "ネットワーク自動化とプログラマビリティ - REST APIとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn09.html"
+    ]
+  },
+  {
+    "id": "C19-12-03",
+    "question": "REST APIでは、リソースへの操作の種類を主に何で表すか。",
+    "answer": "GET、POST、PUT、DELETEなどのHTTPメソッド。",
+    "section_title": "ネットワーク自動化とプログラマビリティ - REST APIとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn09.html"
+    ]
+  },
+  {
+    "id": "C19-12-04",
+    "question": "REST APIの処理結果を、HTTPレスポンスのどの情報で表すか。",
+    "answer": "ステータスコード。",
+    "section_title": "ネットワーク自動化とプログラマビリティ - REST APIとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn09.html"
+    ]
+  },
+  {
+    "id": "C19-12-05",
+    "question": "REST APIのステートレスとは、リクエストを処理するための情報をどのように扱うことか。",
+    "answer": "各リクエスト自体に、処理に必要な情報を含めること。",
+    "section_title": "ネットワーク自動化とプログラマビリティ - REST APIとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn09.html"
+    ]
+  },
+  {
+    "id": "C19-12-06",
+    "question": "REST APIでデータを表現する形式には、どのようなものがあるか。",
+    "answer": "JSONやXMLなど。",
+    "section_title": "ネットワーク自動化とプログラマビリティ - REST APIとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn09.html"
+    ]
+  },
+  {
+    "id": "C19-12-07",
+    "question": "YAMLでは、データの階層構造を主に何で表すか。",
+    "answer": "インデント。",
+    "section_title": "ネットワーク自動化とプログラマビリティ - REST APIとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn09.html"
+    ]
+  },
+  {
+    "id": "C19-13-01",
+    "question": "構成管理ツールで複数のサーバや機器の設定を自動化する利点は何か。",
+    "answer": "同じ手順を繰り返し適用でき、設定作業の負担や機器間の設定差異を減らせる。",
+    "section_title": "ネットワーク自動化とプログラマビリティ - Ansible/Puppet/Chef",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn10.html"
+    ]
+  },
+  {
+    "id": "C19-13-02",
+    "question": "Ansibleがエージェントレスと呼ばれるのはなぜか。",
+    "answer": "管理対象に専用の常駐エージェントを導入せず、SSHやAPIなどで操作できるため。",
+    "section_title": "ネットワーク自動化とプログラマビリティ - Ansible/Puppet/Chef",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn10.html"
+    ]
+  },
+  {
+    "id": "C19-13-03",
+    "question": "Ansibleで、実行する設定や作業の手順を記述するファイルを何というか。",
+    "answer": "Playbook。",
+    "section_title": "ネットワーク自動化とプログラマビリティ - Ansible/Puppet/Chef",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn10.html"
+    ]
+  },
+  {
+    "id": "C19-13-04",
+    "question": "AnsibleのPlaybookは、主にどの形式で記述するか。",
+    "answer": "YAML。",
+    "section_title": "ネットワーク自動化とプログラマビリティ - Ansible/Puppet/Chef",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn10.html"
+    ]
+  },
+  {
+    "id": "C19-13-05",
+    "question": "AnsibleのInventoryには何を記述するか。",
+    "answer": "管理対象のホストやグループ。",
+    "section_title": "ネットワーク自動化とプログラマビリティ - Ansible/Puppet/Chef",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn10.html"
+    ]
+  },
+  {
+    "id": "C19-14-01",
+    "question": "SD-WANでは、WANのどのような制御や運用をソフトウェアで行うか。",
+    "answer": "拠点間の接続、経路選択、通信ポリシーや設定などを集中的に管理する。",
+    "section_title": "SD-WANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn11.html"
+    ]
+  },
+  {
+    "id": "C19-14-02",
+    "question": "SD-WANのオーバーレイを構成する下位回線には、どのようなものを利用できるか。",
+    "answer": "インターネット回線やMPLS網など、異なる種類・事業者の回線。",
+    "section_title": "SD-WANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn11.html"
+    ]
+  },
+  {
+    "id": "C19-14-03",
+    "question": "SD-WANで通信経路を選択するときに用いる、回線品質の主な指標は何か。",
+    "answer": "遅延、ジッタ、パケット損失率など。",
+    "section_title": "SD-WANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn11.html"
+    ]
+  },
+  {
+    "id": "C19-14-04",
+    "question": "SD-WANでアプリケーションごとに経路を選ぶ目的は何か。",
+    "answer": "各アプリケーションの通信品質の要件に合う経路を使うため。",
+    "section_title": "SD-WANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn11.html"
+    ]
+  },
+  {
+    "id": "C19-14-05",
+    "question": "SD-WANなどで使うZTPとは、どのような仕組みか。",
+    "answer": "機器の起動後に必要な設定を自動取得し、現地での手動設定を減らす仕組み。",
+    "section_title": "SD-WANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn11.html"
+    ]
+  },
+  {
+    "id": "C19-14-06",
+    "question": "ローカルブレイクアウトとは、インターネット向け通信をどこから出すことか。",
+    "answer": "各拠点から直接インターネットへ出すこと。",
+    "section_title": "SD-WANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn11.html"
+    ]
+  },
+  {
+    "id": "C19-14-07",
+    "question": "ローカルブレイクアウトは、データセンターに通信を集約する構成のどのような問題を改善するか。",
+    "answer": "データセンター経由による迂回や、集約回線の帯域不足を減らせる。",
+    "section_title": "SD-WANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn11.html"
+    ]
+  },
+  {
+    "id": "C19-14-08",
+    "question": "ハイブリッドWANとは、どのような回線構成か。",
+    "answer": "閉域網とインターネットなど、性質の異なるWAN回線を組み合わせる構成。",
+    "section_title": "SD-WANとは",
+    "sources": [
+      "https://www.infraexpert.com/study/sdn11.html"
+    ]
+  }
+]

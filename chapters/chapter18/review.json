@@ -1,0 +1,728 @@
+{
+  "chapter": 18,
+  "cards": 54,
+  "reviewed_cards": 54,
+  "method": "草案の全問を読み直し、原文と問い・解答を照合してから確定。自動生成した合格印ではなく、見直し完了後に記録。",
+  "cards_review": [
+    {
+      "id": "C18-01-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz01.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-02-01",
+      "result": "修正後確認",
+      "source": "https://www.infraexpert.com/study/multicastz02.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "グループの種類が、問題文だけで分かるように明記。",
+      "draft_question": "グループに参加した端末のNICは、どのMAC宛てのフレームを受信対象へ加える？",
+      "draft_answer": "参加したグループに対応するマルチキャストMACアドレス宛て。"
+    },
+    {
+      "id": "C18-02-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz02.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-03-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz03.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-03-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz03.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-03-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz03.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-03-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz03.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-03-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz03.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-04-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz04.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-04-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz04.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-04-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz04.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-04-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz04.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-05-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz05.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-05-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz05.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-06-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz06.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-06-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz06.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-06-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz06.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-07-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz07.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-07-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz07.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-08-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz08.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-08-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz08.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-09-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz09.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-09-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz09.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-09-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz09.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-09-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz09.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-10-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz10.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-10-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz10.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-10-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz10.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-10-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz10.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-10-05",
+      "result": "修正後確認",
+      "source": "https://www.infraexpert.com/study/multicastz10.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "比較対象のないどちらという不自然な表現を修正。",
+      "draft_question": "同一リンクのIGMPv2ルータ間で、クエリアにはどちらのIPアドレスを持つものを選ぶ？",
+      "draft_answer": "最も小さいIPアドレスのルータ。"
+    },
+    {
+      "id": "C18-10-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz10.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-11-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz11.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-11-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz11.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-12-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz12.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-12-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz12.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-12-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz12.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-13-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-13-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-13-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-13-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-13-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-13-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-14-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz14.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-14-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz14.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-14-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz14.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-14-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz14.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-15-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz15.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-15-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz15.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-15-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz15.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-15-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz15.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-16-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz40.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-16-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz40.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-16-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz40.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    },
+    {
+      "id": "C18-16-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/multicastz40.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全54問を再読。IGMPの各版の違い、IGMPとPIM、ルーティングとスヌーピング、RPFの役割を確認。CiscoのIGMPタイマー、RPFの等コスト選択規則、IGMPv3 lite・URDは不採用。"
+    }
+  ],
+  "source_cautions": [
+    {
+      "topic": "IGMP",
+      "decision": "v2をType0x2とする本文の誤記や、Ciscoの60秒周期などは問わない。IGMPは利用者データではなく受信参加の制御として扱う。"
+    },
+    {
+      "topic": "RPF",
+      "decision": "RP側へのRPFもあるため、送信元と比較する問いは送信元ツリーに範囲を限定。等コスト時の大きい次ホップ選択は採用しない。"
+    },
+    {
+      "topic": "SSM",
+      "decision": "Cisco独自の代替方式やコマンドを除外。ソースフィルタだけで送信元の暗号学的認証までできるとは問わない。"
+    }
+  ]
+}

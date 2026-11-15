@@ -1206,5 +1206,11 @@
       ],
       "reason": "追加指示によりCisco独自事項を出題対象から除外。"
     }
+  ],
+  "vendor_neutral_references": [
+    {
+      "purpose": "非Cisco製品でのフラグメントフリー方式の実装例",
+      "url": "https://support.dlink.com/resource/products/DES-815/REVA/DES-815_MANUAL_1.00_EN.PDF"
+    }
   ]
 }

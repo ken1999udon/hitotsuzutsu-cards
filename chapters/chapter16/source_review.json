@@ -1,0 +1,109 @@
+[
+  {
+    "section": 1,
+    "title": "DAS、NAS、SAN の違い",
+    "url": "https://www.infraexpert.com/study/networking0.html",
+    "sha256": "e4f85f7ab85034dab265735bfa333e2fea0985003fd738bd425797d19a1d27e7",
+    "card_ids": [
+      "C16-01-01",
+      "C16-01-02"
+    ]
+  },
+  {
+    "section": 2,
+    "title": "NAS - NAS と SAN の比較",
+    "url": "https://www.infraexpert.com/study/networking5.html",
+    "sha256": "ffddb08cf3c2e95d2924c65a45127a19d562cd26262b9b8250d6f55f6e16314c",
+    "card_ids": [
+      "C16-02-01",
+      "C16-02-02",
+      "C16-02-03"
+    ]
+  },
+  {
+    "section": 3,
+    "title": "SAN - FC-SAN、IP-SANの違い",
+    "url": "https://www.infraexpert.com/study/networking6.html",
+    "sha256": "3bd3152b717af566ed4023a0136c4116f38a31995d51d315b1efcb7afbd2c770",
+    "card_ids": [
+      "C16-03-01",
+      "C16-03-02",
+      "C16-03-03",
+      "C16-03-04",
+      "C16-03-05"
+    ]
+  },
+  {
+    "section": 4,
+    "title": "FCoE - FC-SANとEthernet LANの統合",
+    "url": "https://www.infraexpert.com/study/networking7.html",
+    "sha256": "214a994983d879d53eba0a9c4d209022a3bc0ba9d3d96af927995d5d62b98f05",
+    "card_ids": [
+      "C16-04-01",
+      "C16-04-02",
+      "C16-04-03",
+      "C16-04-04",
+      "C16-04-05",
+      "C16-04-06",
+      "C16-04-07"
+    ]
+  },
+  {
+    "section": 5,
+    "title": "クラスタシステムとは",
+    "url": "https://www.infraexpert.com/study/networking11.html",
+    "sha256": "bb7a754a181c271452a71745fadfa2e8f164b2a0d58c9fd324b8ca10679490c1",
+    "card_ids": [
+      "C16-05-01",
+      "C16-05-02",
+      "C16-05-03",
+      "C16-05-04"
+    ]
+  },
+  {
+    "section": 6,
+    "title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+    "url": "https://www.infraexpert.com/study/networking9.html",
+    "sha256": "73f09facf7823e88970bac86b82c8bf109e742d5451032912a82a5ce0c5a16ff",
+    "card_ids": [
+      "C16-06-01",
+      "C16-06-02",
+      "C16-06-03",
+      "C16-06-04",
+      "C16-06-05",
+      "C16-06-06",
+      "C16-06-07",
+      "C16-06-08",
+      "C16-06-09",
+      "C16-06-10"
+    ]
+  },
+  {
+    "section": 7,
+    "title": "フルバックアップ、差分・増分バックアップ",
+    "url": "https://www.infraexpert.com/study/networking10.html",
+    "sha256": "514192caaa55205a3d0479440c275ab3c031f6f03c72e33b4ec624e79dcac036",
+    "card_ids": [
+      "C16-07-01",
+      "C16-07-02",
+      "C16-07-03",
+      "C16-07-04",
+      "C16-07-05"
+    ]
+  },
+  {
+    "section": 8,
+    "title": "フォールトトレランス、RASIS、MTBF/MTTR",
+    "url": "https://www.infraexpert.com/study/networking12.html",
+    "sha256": "f9115cee698a4c2a267536cf29c25a84cc20e2557b36cfd94e0703084dbe4d15",
+    "card_ids": [
+      "C16-08-01",
+      "C16-08-02",
+      "C16-08-03",
+      "C16-08-04",
+      "C16-08-05",
+      "C16-08-06",
+      "C16-08-07"
+    ]
+  }
+]

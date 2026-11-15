@@ -1,0 +1,212 @@
+[
+  {
+    "section": 1,
+    "title": "サーバ仮想化 - 仮想化とは",
+    "url": "https://www.infraexpert.com/study/virtual.html",
+    "sha256": "75d22fbf5a24799317b533d331221830af0a32bb638edfb2a6a527816feb98c0",
+    "card_ids": [
+      "C19-01-01",
+      "C19-01-02",
+      "C19-01-03",
+      "C19-01-04",
+      "C19-01-05",
+      "C19-01-06",
+      "C19-01-07",
+      "C19-01-08"
+    ]
+  },
+  {
+    "section": 2,
+    "title": "サーバ仮想化 - 仮想サーバのネットワーク接続",
+    "url": "https://www.infraexpert.com/study/virtual2.html",
+    "sha256": "aeffdfff67846b02fd539a803eeb7cca4d0ae8a03f75fd86dc499cc39930779c",
+    "card_ids": [
+      "C19-02-01",
+      "C19-02-02",
+      "C19-02-03",
+      "C19-02-04",
+      "C19-02-05"
+    ]
+  },
+  {
+    "section": 3,
+    "title": "サーバ仮想化 - ハイパーバイザー型とコンテナ型の違い",
+    "url": "https://www.infraexpert.com/study/virtual1.html",
+    "sha256": "b16e18f2c2038fa9d2cf66f5bcd8454c8c4b6203c4af1a96276fa4217a8f2ff2",
+    "card_ids": [
+      "C19-03-01",
+      "C19-03-02",
+      "C19-03-03",
+      "C19-03-04",
+      "C19-03-05"
+    ]
+  },
+  {
+    "section": 4,
+    "title": "VDI（デスクトップ仮想化）とは",
+    "url": "https://www.infraexpert.com/study/virtual6.html",
+    "sha256": "364a4c8f9fdd09ac933b1c3074de9d7ea471b9bb3d4cdd3a4adb73eb049cdda1",
+    "card_ids": [
+      "C19-04-01",
+      "C19-04-02",
+      "C19-04-03",
+      "C19-04-04",
+      "C19-04-05",
+      "C19-04-06",
+      "C19-04-07",
+      "C19-04-08",
+      "C19-04-09"
+    ]
+  },
+  {
+    "section": 5,
+    "title": "VXLANとは、EVPN/VXLANとは",
+    "url": "https://www.infraexpert.com/study/virtual3.html",
+    "sha256": "aefe3b2dadc43d1a5ca7479f731e7e6e363b388dd135ce4b77ab490b590f6fc3",
+    "card_ids": [
+      "C19-05-01",
+      "C19-05-02",
+      "C19-05-03",
+      "C19-05-04",
+      "C19-05-05",
+      "C19-05-06",
+      "C19-05-07",
+      "C19-05-08",
+      "C19-05-09",
+      "C19-05-10",
+      "C19-05-11",
+      "C19-05-12",
+      "C19-05-13",
+      "C19-05-14",
+      "C19-05-15"
+    ]
+  },
+  {
+    "section": 6,
+    "title": "クラウドとは、SaaS、PaaS、IaaSとは",
+    "url": "https://www.infraexpert.com/study/virtual4.html",
+    "sha256": "fa9fd92595ca974c60d2e0ceb776f62fb63d77c1e99a8ebaf5443f72fccc9622",
+    "card_ids": [
+      "C19-06-01",
+      "C19-06-02",
+      "C19-06-03",
+      "C19-06-04",
+      "C19-06-05"
+    ]
+  },
+  {
+    "section": 7,
+    "title": "IoT（Internet of Things：モノのインターネット）とは",
+    "url": "https://www.infraexpert.com/study/virtual5.html",
+    "sha256": "b5e43a57c6c0d69b9b7191c298ea03db98cea0079d4a45a0e0cfea182f46332e",
+    "card_ids": [
+      "C19-07-01",
+      "C19-07-02",
+      "C19-07-03",
+      "C19-07-04",
+      "C19-07-05",
+      "C19-07-06",
+      "C19-07-07",
+      "C19-07-08",
+      "C19-07-09",
+      "C19-07-10",
+      "C19-07-11"
+    ]
+  },
+  {
+    "section": 8,
+    "title": "ネットワーク仮想化 - SDN",
+    "url": "https://www.infraexpert.com/study/sdn01.html",
+    "sha256": "bc56c0b32b91c40f4012dcc3b62cb0d8bc789960668945429eabde526ef141f0",
+    "card_ids": [
+      "C19-08-01",
+      "C19-08-02",
+      "C19-08-03",
+      "C19-08-04",
+      "C19-08-05",
+      "C19-08-06"
+    ]
+  },
+  {
+    "section": 9,
+    "title": "ネットワーク仮想化 - SDN - ホップバイホップ、オーバーレイ",
+    "url": "https://www.infraexpert.com/study/sdn06.html",
+    "sha256": "00d0792f9aa6d834a334e1266b6e17ce903a8f44ad523ec8c52a34644452d992",
+    "card_ids": [
+      "C19-09-01",
+      "C19-09-02",
+      "C19-09-03"
+    ]
+  },
+  {
+    "section": 10,
+    "title": "ネットワーク仮想化 - SDN - OpenFlowとは",
+    "url": "https://www.infraexpert.com/study/sdn02.html",
+    "sha256": "6e7a24bea6c8531076172bc84f152acfd8ed58449da9d0882f40089b57b78358",
+    "card_ids": [
+      "C19-10-01",
+      "C19-10-02",
+      "C19-10-03",
+      "C19-10-04",
+      "C19-10-05",
+      "C19-10-06",
+      "C19-10-07",
+      "C19-11-04"
+    ]
+  },
+  {
+    "section": 11,
+    "title": "ネットワーク仮想化 - NFV ( Network Functions Virtualization )",
+    "url": "https://www.infraexpert.com/study/sdn07.html",
+    "sha256": "91e33e8fc1f2fe32d19baa16c999482e4e4f884eb189d330e903dcc195532736",
+    "card_ids": [
+      "C19-11-01",
+      "C19-11-02",
+      "C19-11-03"
+    ]
+  },
+  {
+    "section": 12,
+    "title": "ネットワーク自動化とプログラマビリティ - REST APIとは",
+    "url": "https://www.infraexpert.com/study/sdn09.html",
+    "sha256": "917c7bba88f5faaa9f1fb52e175573aadc5715fc026308e00d157c1def5566c2",
+    "card_ids": [
+      "C19-12-01",
+      "C19-12-02",
+      "C19-12-03",
+      "C19-12-04",
+      "C19-12-05",
+      "C19-12-06",
+      "C19-12-07"
+    ]
+  },
+  {
+    "section": 13,
+    "title": "ネットワーク自動化とプログラマビリティ - Ansible/Puppet/Chef",
+    "url": "https://www.infraexpert.com/study/sdn10.html",
+    "sha256": "90453e99f682868211b215f4567d7bb857a8d1d7b3d1d49b4e475f120be01dec",
+    "card_ids": [
+      "C19-13-01",
+      "C19-13-02",
+      "C19-13-03",
+      "C19-13-04",
+      "C19-13-05"
+    ]
+  },
+  {
+    "section": 14,
+    "title": "SD-WANとは",
+    "url": "https://www.infraexpert.com/study/sdn11.html",
+    "sha256": "9e05af29b0802213d18a3b221496533fc2829ff5c1efe9ed749b825f0a3f6b15",
+    "card_ids": [
+      "C19-14-01",
+      "C19-14-02",
+      "C19-14-03",
+      "C19-14-04",
+      "C19-14-05",
+      "C19-14-06",
+      "C19-14-07",
+      "C19-14-08"
+    ]
+  }
+]

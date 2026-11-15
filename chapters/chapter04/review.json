@@ -1,7 +1,7 @@
 {
   "chapter": 4,
-  "cards": 78,
-  "reviewed_cards": 78,
+  "cards": 77,
+  "reviewed_cards": 77,
   "method": "草案の全問を読み直し、原文と問い・解答を照合してから確定。自動生成した合格印ではなく、見直し完了後に記録。",
   "cards_review": [
     {
@@ -76,20 +76,6 @@
     },
     {
       "id": "C04-01-06",
-      "result": "確認済み",
-      "source": "https://www.infraexpert.com/study/vlanz1.html",
-      "checks": [
-        "本文に根拠がある",
-        "問いに答えている",
-        "短く自然な表現",
-        "不要な設定・補足なし",
-        "重複を確認",
-        "Cisco専用事項なし"
-      ],
-      "note": "本文との対応、問いと解答の一致、自然な日本語、重複を一問ずつ確認。"
-    },
-    {
-      "id": "C04-01-07",
       "result": "確認済み",
       "source": "https://www.infraexpert.com/study/vlanz1.html",
       "checks": [
@@ -314,20 +300,6 @@
     },
     {
       "id": "C04-03-03",
-      "result": "確認済み",
-      "source": "https://www.infraexpert.com/study/vlanz17.html",
-      "checks": [
-        "本文に根拠がある",
-        "問いに答えている",
-        "短く自然な表現",
-        "不要な設定・補足なし",
-        "重複を確認",
-        "Cisco専用事項なし"
-      ],
-      "note": "本文との対応、問いと解答の一致、自然な日本語、重複を一問ずつ確認。"
-    },
-    {
-      "id": "C04-03-04",
       "result": "確認済み",
       "source": "https://www.infraexpert.com/study/vlanz17.html",
       "checks": [
@@ -747,6 +719,18 @@
         "Cisco専用事項なし"
       ],
       "note": "本文との対応、問いと解答の一致、自然な日本語、重複を一問ずつ確認。"
+    },
+    {
+      "id": "C04-07-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/stpz4.html",
+      "checks": [
+        "原文のCSTの説明と照合",
+        "問いと解答の対応",
+        "Cisco固有のPVSTを含まない",
+        "既存STP・MSTPの問いと区別"
+      ],
+      "note": "記事全体ではなく、標準的なCSTの説明だけを採用。全VLANで1ツリーを使うことを一問で確認。"
     },
     {
       "id": "C04-08-01",
@@ -1172,5 +1156,30 @@
       ],
       "reason": "追加指示によりCisco独自事項を出題対象から除外。"
     }
+  ],
+  "removed_drafts": [
+    {
+      "id": "C04-01-07",
+      "question": "Catalystの標準的な初期設定で、デフォルトVLANとして使われるVLAN IDは？",
+      "answer": "VLAN 1。",
+      "section_title": "VLANの概要",
+      "sources": [
+        "https://www.infraexpert.com/study/vlanz1.html"
+      ],
+      "reason": "Cisco Catalystの機種依存の初期値なので除外。"
+    },
+    {
+      "id": "C04-03-04",
+      "question": "Q-in-Qのサービスエッジで、顧客のVLANを収容するポートを何という？",
+      "answer": "トンネルポート。",
+      "section_title": "IEEE802.1q トンネリング（Q-in-Q）とは",
+      "sources": [
+        "https://www.infraexpert.com/study/vlanz17.html"
+      ],
+      "reason": "標準技術の仕組みではなく、実装に依存するポート呼称の暗記になっているため除外。"
+    }
+  ],
+  "source_cautions": [
+    "全章照合でCatalystの初期値と実装依存のポート呼称を除外。CSTは標準技術として原文を再確認し追加。"
   ]
 }

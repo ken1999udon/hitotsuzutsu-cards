@@ -1,0 +1,488 @@
+[
+  {
+    "id": "C18-01-01",
+    "question": "マルチキャストの転送を最適化していないL2スイッチでは、受信者以外への転送も発生し得るか。",
+    "answer": "発生し得る。マルチキャストフレームが同じVLANへフラッディングされるため。",
+    "section_title": "マルチキャストとは",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz01.html"
+    ]
+  },
+  {
+    "id": "C18-02-01",
+    "question": "マルチキャストグループに参加した端末のNICは、どのMAC宛てフレームを受信対象へ加える？",
+    "answer": "参加したグループに対応するマルチキャストMACアドレス宛て。",
+    "section_title": "マルチキャスト - クライアント側の受信処理",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz02.html"
+    ]
+  },
+  {
+    "id": "C18-02-02",
+    "question": "1台の端末は、複数のマルチキャストグループに参加できるか。",
+    "answer": "できる。",
+    "section_title": "マルチキャスト - クライアント側の受信処理",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz02.html"
+    ]
+  },
+  {
+    "id": "C18-03-01",
+    "question": "IPv4のマルチキャストアドレスの範囲を、プレフィックスで表すと？",
+    "answer": "224.0.0.0/4。",
+    "section_title": "マルチキャスト - マルチキャストIPアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz03.html"
+    ]
+  },
+  {
+    "id": "C18-03-02",
+    "question": "IPv4のマルチキャストパケットは、送信元IPにどの種類のアドレスを使う？",
+    "answer": "送信元自身のユニキャストアドレス。",
+    "section_title": "マルチキャスト - マルチキャストIPアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz03.html"
+    ]
+  },
+  {
+    "id": "C18-03-03",
+    "question": "224.0.0.0/24のマルチキャストは、主にどの範囲の制御通信へ使う？",
+    "answer": "同一リンク内。",
+    "section_title": "マルチキャスト - マルチキャストIPアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz03.html"
+    ]
+  },
+  {
+    "id": "C18-03-04",
+    "question": "組織内で管理するIPv4マルチキャストの代表的なアドレス範囲は？",
+    "answer": "239.0.0.0/8。",
+    "section_title": "マルチキャスト - マルチキャストIPアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz03.html"
+    ]
+  },
+  {
+    "id": "C18-03-05",
+    "question": "224.0.0.1と224.0.0.2は、それぞれどのグループを表す？",
+    "answer": "同一リンク上の全マルチキャストホストと、全マルチキャストルータ。",
+    "section_title": "マルチキャスト - マルチキャストIPアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz03.html"
+    ]
+  },
+  {
+    "id": "C18-04-01",
+    "question": "IPv4マルチキャストに対応するEthernetのMACアドレスは、先頭が何で始まる？",
+    "answer": "01:00:5E。",
+    "section_title": "マルチキャスト - マルチキャストMACアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz04.html"
+    ]
+  },
+  {
+    "id": "C18-04-02",
+    "question": "IPv4のマルチキャストIPからMACを作るとき、IPアドレスの何ビットを写す？",
+    "answer": "下位23ビット。",
+    "section_title": "マルチキャスト - マルチキャストMACアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz04.html"
+    ]
+  },
+  {
+    "id": "C18-04-03",
+    "question": "IPv4マルチキャストのIPアドレスとMACアドレスが、1対1でない理由は？",
+    "answer": "グループ識別の28ビットのうち、下位23ビットしかMACへ写さないため。",
+    "section_title": "マルチキャスト - マルチキャストMACアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz04.html"
+    ]
+  },
+  {
+    "id": "C18-04-04",
+    "question": "1つのIPv4マルチキャストMACに対応し得る、マルチキャストIPの数は？",
+    "answer": "32個。",
+    "section_title": "マルチキャスト - マルチキャストMACアドレス",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz04.html"
+    ]
+  },
+  {
+    "id": "C18-05-01",
+    "question": "IPv4マルチキャストをサブネット間で転送するため、途中のルータに必要な機能は？",
+    "answer": "マルチキャストルーティング。",
+    "section_title": "マルチキャスト - トラフィックの転送処理（ルータとスイッチ）",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz05.html"
+    ]
+  },
+  {
+    "id": "C18-05-02",
+    "question": "送信元につながるルータだけでマルチキャスト転送を有効にしても、不十分な理由は？",
+    "answer": "受信側までの経路上のルータも、マルチキャストを転送できる必要があるため。",
+    "section_title": "マルチキャスト - トラフィックの転送処理（ルータとスイッチ）",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz05.html"
+    ]
+  },
+  {
+    "id": "C18-06-01",
+    "question": "マルチキャストのファーストホップルータとラストホップルータは、どちら側に位置する？",
+    "answer": "ファーストホップは送信元側、ラストホップは受信者側。",
+    "section_title": "マルチキャスト - マルチキャスト用語、マルチキャストの概念図",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz06.html"
+    ]
+  },
+  {
+    "id": "C18-06-02",
+    "question": "マルチキャストでいうUpstreamとDownstreamの方向は？",
+    "answer": "Upstreamは送信元側、Downstreamは受信者側。",
+    "section_title": "マルチキャスト - マルチキャスト用語、マルチキャストの概念図",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz06.html"
+    ]
+  },
+  {
+    "id": "C18-06-03",
+    "question": "マルチキャストのディストリビューションツリーとは何か。",
+    "answer": "送信元から複数の受信者へ、パケットを配布するための経路の木構造。",
+    "section_title": "マルチキャスト - マルチキャスト用語、マルチキャストの概念図",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz06.html"
+    ]
+  },
+  {
+    "id": "C18-07-01",
+    "question": "ルータは、マルチキャストの転送先インターフェースが複数あると何を行う？",
+    "answer": "必要な数だけパケットを複製して転送する。",
+    "section_title": "マルチキャスト - ディストリビューションツリーの特徴、作成",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz07.html"
+    ]
+  },
+  {
+    "id": "C18-07-02",
+    "question": "マルチキャストの配布ツリーが、固定ではなく動的に変わる理由は？",
+    "answer": "送信元や、受信グループへの参加・離脱の状況が変化するため。",
+    "section_title": "マルチキャスト - ディストリビューションツリーの特徴、作成",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz07.html"
+    ]
+  },
+  {
+    "id": "C18-08-01",
+    "question": "IGMPとPIMは、情報を交換する相手がどう違う？",
+    "answer": "IGMPは受信ホストとルータの間、PIMはルータ間。",
+    "section_title": "マルチキャスト - IGMPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz08.html"
+    ]
+  },
+  {
+    "id": "C18-08-02",
+    "question": "IGMPによって、受信ホストはルータに何を伝える？",
+    "answer": "どのマルチキャストグループを受信したいか。",
+    "section_title": "マルチキャスト - IGMPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz08.html"
+    ]
+  },
+  {
+    "id": "C18-09-01",
+    "question": "IGMPのIPプロトコル番号は？",
+    "answer": "2。",
+    "section_title": "マルチキャスト - IGMPv1",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz09.html"
+    ]
+  },
+  {
+    "id": "C18-09-02",
+    "question": "IGMPのメンバーシップクエリーとレポートは、役割がどう違う？",
+    "answer": "クエリーは受信メンバーの有無を問い、レポートは参加するグループなどを通知する。",
+    "section_title": "マルチキャスト - IGMPv1",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz09.html"
+    ]
+  },
+  {
+    "id": "C18-09-03",
+    "question": "IGMPv1では、ルータは受信者がいなくなったことをどう判断する？",
+    "answer": "クエリーに対するレポートが一定期間得られなくなることで判断する。",
+    "section_title": "マルチキャスト - IGMPv1",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz09.html"
+    ]
+  },
+  {
+    "id": "C18-09-04",
+    "question": "IGMPv1/v2で、同じグループの他端末が既にレポートを送った場合、自分のレポートを抑える目的は？",
+    "answer": "同じグループについて、重複する応答を減らすため。",
+    "section_title": "マルチキャスト - IGMPv1",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz09.html"
+    ]
+  },
+  {
+    "id": "C18-10-01",
+    "question": "IGMPv2が、IGMPv1より離脱を早く認識できるようにした主なメッセージは？",
+    "answer": "Leave Groupメッセージ。",
+    "section_title": "マルチキャスト - IGMPv2",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz10.html"
+    ]
+  },
+  {
+    "id": "C18-10-02",
+    "question": "IGMPv2でLeaveを受けても、すぐにそのグループの転送を止めない理由は？",
+    "answer": "同じリンクに、ほかの受信メンバーが残っている可能性があるため。",
+    "section_title": "マルチキャスト - IGMPv2",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz10.html"
+    ]
+  },
+  {
+    "id": "C18-10-03",
+    "question": "IGMPv2のGroup-Specific Queryは、何を対象に問い合わせる？",
+    "answer": "指定した1つのマルチキャストグループ。",
+    "section_title": "マルチキャスト - IGMPv2",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz10.html"
+    ]
+  },
+  {
+    "id": "C18-10-04",
+    "question": "IGMPのクエリアとは、何を行う機器か。",
+    "answer": "メンバーシップクエリーを送るルータなどの機器。",
+    "section_title": "マルチキャスト - IGMPv2",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz10.html"
+    ]
+  },
+  {
+    "id": "C18-10-05",
+    "question": "同一リンクのIGMPv2ルータ間で、クエリアにはどのようなIPアドレスを持つものを選ぶ？",
+    "answer": "最も小さいIPアドレスのルータ。",
+    "section_title": "マルチキャスト - IGMPv2",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz10.html"
+    ]
+  },
+  {
+    "id": "C18-10-06",
+    "question": "IGMPの最大応答時間は、何までの時間の上限か。",
+    "answer": "クエリーを受けてから、レポートを応答するまでの時間。",
+    "section_title": "マルチキャスト - IGMPv2",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz10.html"
+    ]
+  },
+  {
+    "id": "C18-11-01",
+    "question": "IGMPv3で、参加グループに加えて指定できる重要な情報は？",
+    "answer": "受信する、または除外する送信元。",
+    "section_title": "マルチキャスト - IGMPv3",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz11.html"
+    ]
+  },
+  {
+    "id": "C18-11-02",
+    "question": "IGMPv3のINCLUDEとEXCLUDEは、送信元をどう指定する？",
+    "answer": "INCLUDEは受け取る送信元を列挙し、EXCLUDEは受け取らない送信元を列挙する。",
+    "section_title": "マルチキャスト - IGMPv3",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz11.html"
+    ]
+  },
+  {
+    "id": "C18-12-01",
+    "question": "IGMPスヌーピングは、何を見て受信者のいるポートを学ぶ？",
+    "answer": "ホストとルータの間のIGMPメッセージ。",
+    "section_title": "マルチキャスト - IGMPスヌーピング",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz12.html"
+    ]
+  },
+  {
+    "id": "C18-12-02",
+    "question": "IGMPスヌーピングで、L2スイッチが管理する主な対応情報は？",
+    "answer": "マルチキャストグループと、その受信者につながるポートの対応。",
+    "section_title": "マルチキャスト - IGMPスヌーピング",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz12.html"
+    ]
+  },
+  {
+    "id": "C18-12-03",
+    "question": "IGMPスヌーピングとマルチキャストルーティングは、役割がどう違う？",
+    "answer": "前者は同一L2内の不要な転送を減らし、後者はL3のネットワーク間でパケットを転送する。",
+    "section_title": "マルチキャスト - IGMPスヌーピング",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz12.html"
+    ]
+  },
+  {
+    "id": "C18-13-01",
+    "question": "マルチキャストの送信元ツリーと共有ツリーの違いは？",
+    "answer": "送信元ツリーは送信元ごと、共有ツリーはRPを中心に複数送信元で共通するツリーを作る。",
+    "section_title": "マルチキャスト - ディストリビューションツリー",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz13.html"
+    ]
+  },
+  {
+    "id": "C18-13-02",
+    "question": "マルチキャスト転送情報の（S,G）と（*,G）は、それぞれ何を指定する？",
+    "answer": "（S,G）は特定の送信元とグループ、（*,G）は送信元を限定しないグループ。",
+    "section_title": "マルチキャスト - ディストリビューションツリー",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz13.html"
+    ]
+  },
+  {
+    "id": "C18-13-03",
+    "question": "SPTとは、どのようなマルチキャストツリーか。",
+    "answer": "送信元から受信者側への最短経路を使う送信元ツリー。",
+    "section_title": "マルチキャスト - ディストリビューションツリー",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz13.html"
+    ]
+  },
+  {
+    "id": "C18-13-04",
+    "question": "送信元ツリーが、送信元の多い環境でルータの負担を増やす理由は？",
+    "answer": "送信元とグループの組ごとに、転送状態を保持する必要があるため。",
+    "section_title": "マルチキャスト - ディストリビューションツリー",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz13.html"
+    ]
+  },
+  {
+    "id": "C18-13-05",
+    "question": "共有ツリーのRPは、何の略で、どのような役割か。",
+    "answer": "Rendezvous Point。共有ツリーの中心となるルータ。",
+    "section_title": "マルチキャスト - ディストリビューションツリー",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz13.html"
+    ]
+  },
+  {
+    "id": "C18-13-06",
+    "question": "共有ツリーは、送信元から受信者への最短経路とは限らない理由は？",
+    "answer": "RPを経由する経路になるため。",
+    "section_title": "マルチキャスト - ディストリビューションツリー",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz13.html"
+    ]
+  },
+  {
+    "id": "C18-14-01",
+    "question": "PIM-DMのFlood and Pruneは、どのような転送の仕方か。",
+    "answer": "まず広く配信し、受信者がいない方向を後から枝刈りする。",
+    "section_title": "マルチキャスト - ルーティングプロトコル",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz14.html"
+    ]
+  },
+  {
+    "id": "C18-14-02",
+    "question": "PIM-SMのExplicit Joinは、どのような配布モデルか。",
+    "answer": "受信要求のある方向へ、明示的に参加して配布ツリーを伸ばすモデル。",
+    "section_title": "マルチキャスト - ルーティングプロトコル",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz14.html"
+    ]
+  },
+  {
+    "id": "C18-14-03",
+    "question": "DenseモードとSparseモードは、受信者の分布をどう想定する？",
+    "answer": "Denseは密に存在し、Sparseは広い範囲に散在することを想定する。",
+    "section_title": "マルチキャスト - ルーティングプロトコル",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz14.html"
+    ]
+  },
+  {
+    "id": "C18-14-04",
+    "question": "通常のPIM-SMでは、最初の共有ツリーから何へ切り替えて経路を最適化できる？",
+    "answer": "送信元への最短経路を使うSPT。",
+    "section_title": "マルチキャスト - ルーティングプロトコル",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz14.html"
+    ]
+  },
+  {
+    "id": "C18-15-01",
+    "question": "マルチキャストのRPFチェックは、何を防ぐための処理か。",
+    "answer": "パケットのループや、重複した配信。",
+    "section_title": "マルチキャスト - RPFチェックとは",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz15.html"
+    ]
+  },
+  {
+    "id": "C18-15-02",
+    "question": "送信元ツリーのRPFチェックでは、受信インターフェースを何と照合する？",
+    "answer": "送信元へ戻る経路の出力インターフェース。",
+    "section_title": "マルチキャスト - RPFチェックとは",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz15.html"
+    ]
+  },
+  {
+    "id": "C18-15-03",
+    "question": "RPFチェックの経路情報に、通常利用するものは？",
+    "answer": "送信元などへのユニキャスト経路情報。",
+    "section_title": "マルチキャスト - RPFチェックとは",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz15.html"
+    ]
+  },
+  {
+    "id": "C18-15-04",
+    "question": "RPFチェックに失敗したマルチキャストパケットは、通常どうする？",
+    "answer": "破棄する。",
+    "section_title": "マルチキャスト - RPFチェックとは",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz15.html"
+    ]
+  },
+  {
+    "id": "C18-16-01",
+    "question": "SSMは、グループだけでなく何を指定して受信する方式か。",
+    "answer": "送信元とグループの組（S,G）。",
+    "section_title": "マルチキャスト - SSM（Source Specific Multicast）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz40.html"
+    ]
+  },
+  {
+    "id": "C18-16-02",
+    "question": "SSMがRPや共有ツリーを必要としない理由は？",
+    "answer": "受信者が送信元をあらかじめ指定し、その送信元へのツリーを直接作れるため。",
+    "section_title": "マルチキャスト - SSM（Source Specific Multicast）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz40.html"
+    ]
+  },
+  {
+    "id": "C18-16-03",
+    "question": "IPv4のSSMで、送信元を指定して受信を要求する代表的なIGMPの版とモードは？",
+    "answer": "IGMPv3のINCLUDEモード。",
+    "section_title": "マルチキャスト - SSM（Source Specific Multicast）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz40.html"
+    ]
+  },
+  {
+    "id": "C18-16-04",
+    "question": "IPv4のSSM用に割り当てられた標準のアドレス範囲は？",
+    "answer": "232.0.0.0/8。",
+    "section_title": "マルチキャスト - SSM（Source Specific Multicast）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/multicastz40.html"
+    ]
+  }
+]

@@ -1,0 +1,551 @@
+[
+  {
+    "id": "C17-01-01",
+    "question": "IP電話のシグナリングと音声データは、代表的にどのプロトコルで運ぶ？",
+    "answer": "シグナリングはSIPなど、音声データはRTP。",
+    "section_title": "IP電話",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony1.html"
+    ]
+  },
+  {
+    "id": "C17-01-02",
+    "question": "PBXとIP-PBXは、主に何を行う装置か。",
+    "answer": "内線や外線の呼制御を行う構内交換機。IP-PBXはIP電話の呼制御を行う。",
+    "section_title": "IP電話",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony1.html"
+    ]
+  },
+  {
+    "id": "C17-01-03",
+    "question": "IP電話用のVoIPゲートウェイは、主に何を接続する？",
+    "answer": "IPの音声ネットワークと、公衆電話網などの従来の電話ネットワーク。",
+    "section_title": "IP電話",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony1.html"
+    ]
+  },
+  {
+    "id": "C17-01-04",
+    "question": "IP電話機と、その配下に接続するPCを別VLANへ分ける目的は？",
+    "answer": "音声とデータの通信を論理的に分け、品質や管理の方針を分けやすくするため。",
+    "section_title": "IP電話",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony1.html"
+    ]
+  },
+  {
+    "id": "C17-02-01",
+    "question": "アナログ音声をデジタル化する、基本的な3段階は？",
+    "answer": "標本化 → 量子化 → 符号化。",
+    "section_title": "IP電話 - 音声の符号化",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony2.html"
+    ]
+  },
+  {
+    "id": "C17-02-02",
+    "question": "音声の標本化は、アナログ信号に対して何を行う？",
+    "answer": "一定の時間間隔で、信号の値を取り出す。",
+    "section_title": "IP電話 - 音声の符号化",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony2.html"
+    ]
+  },
+  {
+    "id": "C17-02-03",
+    "question": "音声の量子化は、標本化した値をどう扱う？",
+    "answer": "定めた有限の段階の値へ近似する。",
+    "section_title": "IP電話 - 音声の符号化",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony2.html"
+    ]
+  },
+  {
+    "id": "C17-02-04",
+    "question": "音声の符号化では、量子化した値を何で表す？",
+    "answer": "ビット列。",
+    "section_title": "IP電話 - 音声の符号化",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony2.html"
+    ]
+  },
+  {
+    "id": "C17-02-05",
+    "question": "帯域制限された信号を再現する標本化定理では、標本化周波数に何を求める？",
+    "answer": "信号に含まれる最大周波数の2倍を超える周波数で標本化する。",
+    "section_title": "IP電話 - 音声の符号化",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony2.html"
+    ]
+  },
+  {
+    "id": "C17-02-06",
+    "question": "G.711のPCMで、毎秒8000標本を各8ビットに符号化する音声のビットレートは？",
+    "answer": "64kbps。",
+    "section_title": "IP電話 - 音声の符号化",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony2.html"
+    ]
+  },
+  {
+    "id": "C17-02-07",
+    "question": "G.711とG.729の、音声そのものの代表的な符号化ビットレートは？",
+    "answer": "G.711は64kbps、G.729は8kbps。",
+    "section_title": "IP電話 - 音声の符号化",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony2.html"
+    ]
+  },
+  {
+    "id": "C17-02-08",
+    "question": "ADPCMがPCMより情報量を減らす基本的な方法は？",
+    "answer": "過去の信号から値を予測し、予測との差を符号化する。",
+    "section_title": "IP電話 - 音声の符号化",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony2.html"
+    ]
+  },
+  {
+    "id": "C17-02-09",
+    "question": "オンフックとオフフックは、受話器の状態がどう違う？",
+    "answer": "オンフックは置いた状態、オフフックは上げた状態。",
+    "section_title": "IP電話 - 音声の符号化",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony2.html"
+    ]
+  },
+  {
+    "id": "C17-02-10",
+    "question": "DTMFは、電話番号などを何によって伝える信号か。",
+    "answer": "異なる2つの周波数の音を組み合わせて伝える信号。",
+    "section_title": "IP電話 - 音声の符号化",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony2.html"
+    ]
+  },
+  {
+    "id": "C17-03-01",
+    "question": "RTPのシーケンス番号とタイムスタンプは、受信側で何に使う？",
+    "answer": "シーケンス番号は順序や欠落の確認、タイムスタンプは再生タイミングの調整。",
+    "section_title": "IP電話 - RTPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony3.html"
+    ]
+  },
+  {
+    "id": "C17-03-02",
+    "question": "RTPで一般に利用するトランスポート層プロトコルは？",
+    "answer": "UDP。",
+    "section_title": "IP電話 - RTPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony3.html"
+    ]
+  },
+  {
+    "id": "C17-03-03",
+    "question": "RTCPは、RTP通信について何を通知する？",
+    "answer": "パケット損失や遅延・ジッタなどの品質・受信状態。",
+    "section_title": "IP電話 - RTPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony3.html"
+    ]
+  },
+  {
+    "id": "C17-03-04",
+    "question": "音声のパケット化周期を長くすると、効率と遅延はどう変わる？",
+    "answer": "ヘッダの負担は減るが、パケットを作るための待ち時間が増える。",
+    "section_title": "IP電話 - RTPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony3.html"
+    ]
+  },
+  {
+    "id": "C17-03-05",
+    "question": "コーデックのビットレートだけで、音声通信に必要な回線帯域を求められない理由は？",
+    "answer": "RTP・UDP・IPやデータリンク層のヘッダなども付くため。",
+    "section_title": "IP電話 - RTPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony3.html"
+    ]
+  },
+  {
+    "id": "C17-03-06",
+    "question": "音声通信の必要ビットレートは、1パケットの大きさと毎秒パケット数からどう求める？",
+    "answer": "対象とするヘッダを含む1パケットのバイト数 × 8 × 毎秒パケット数。",
+    "section_title": "IP電話 - RTPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony3.html"
+    ]
+  },
+  {
+    "id": "C17-03-07",
+    "question": "CSRCや拡張を含まない、RTPの基本ヘッダは何バイトか。",
+    "answer": "12バイト。",
+    "section_title": "IP電話 - RTPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony3.html"
+    ]
+  },
+  {
+    "id": "C17-04-01",
+    "question": "SIPは、テキスト形式とバイナリ形式のどちらのメッセージを使う？",
+    "answer": "テキスト形式。",
+    "section_title": "IP電話 - SIPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony4.html"
+    ]
+  },
+  {
+    "id": "C17-04-02",
+    "question": "SIPは、TCPとUDPのどちらを利用できる？",
+    "answer": "両方を利用できる。",
+    "section_title": "IP電話 - SIPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony4.html"
+    ]
+  },
+  {
+    "id": "C17-04-03",
+    "question": "SIPのUACとUASは、役割がどう違う？",
+    "answer": "UACは要求を送り、UASは要求を受けて応答する。",
+    "section_title": "IP電話 - SIPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony4.html"
+    ]
+  },
+  {
+    "id": "C17-04-04",
+    "question": "SIPのプロキシサーバとリダイレクトサーバの違いは？",
+    "answer": "プロキシは要求を中継し、リダイレクトは要求元へ別の送信先を知らせる。",
+    "section_title": "IP電話 - SIPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony4.html"
+    ]
+  },
+  {
+    "id": "C17-04-05",
+    "question": "SIPのレジストラは、どのような情報を受け付ける？",
+    "answer": "SIPの名前・アドレスに対する、現在の連絡先の登録。",
+    "section_title": "IP電話 - SIPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony4.html"
+    ]
+  },
+  {
+    "id": "C17-04-06",
+    "question": "SIPのREGISTERとINVITEは、それぞれ何の要求か。",
+    "answer": "REGISTERは連絡先の登録、INVITEはセッション開始などの要求。",
+    "section_title": "IP電話 - SIPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony4.html"
+    ]
+  },
+  {
+    "id": "C17-04-07",
+    "question": "SIPのACKは、成功したINVITEのやり取りで何を確認する？",
+    "answer": "最終応答を受信したこと。",
+    "section_title": "IP電話 - SIPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony4.html"
+    ]
+  },
+  {
+    "id": "C17-04-08",
+    "question": "SIPのBYEとCANCELは、終了させる対象がどう違う？",
+    "answer": "BYEは確立したセッション、CANCELは処理中のINVITEなどの要求。",
+    "section_title": "IP電話 - SIPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony4.html"
+    ]
+  },
+  {
+    "id": "C17-04-09",
+    "question": "SIPの180 Ringingと200 OKは、基本的に何を表す？",
+    "answer": "180は相手を呼出し中、200は要求の成功。",
+    "section_title": "IP電話 - SIPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony4.html"
+    ]
+  },
+  {
+    "id": "C17-04-10",
+    "question": "SIPと組み合わせるSDPは、何を記述する？",
+    "answer": "メディアの種類、送受信先、コーデックなどのセッション情報。",
+    "section_title": "IP電話 - SIPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony4.html"
+    ]
+  },
+  {
+    "id": "C17-04-11",
+    "question": "SIPメッセージのCall-IDは、主に何の識別に使う？",
+    "answer": "一連の通話・セッションの識別。",
+    "section_title": "IP電話 - SIPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony4.html"
+    ]
+  },
+  {
+    "id": "C17-04-12",
+    "question": "SIPのViaヘッダは、主にどの経路の情報を表す？",
+    "answer": "応答メッセージを返す経路。",
+    "section_title": "IP電話 - SIPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony4.html"
+    ]
+  },
+  {
+    "id": "C17-04-13",
+    "question": "SDPのc行とm行には、主にどのような情報を記述する？",
+    "answer": "c行は接続先アドレス、m行はメディア種別・ポート番号・伝送方式など。",
+    "section_title": "IP電話 - SIPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony4.html"
+    ]
+  },
+  {
+    "id": "C17-05-01",
+    "question": "呼量の単位であるアーランは、何を表す？",
+    "answer": "総回線占有時間 ÷ 観測時間で表す、平均的な回線の利用量。",
+    "section_title": "IP電話 - 呼量、呼損率、呼損率表、アーランの計算方法",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony5.html"
+    ]
+  },
+  {
+    "id": "C17-05-02",
+    "question": "呼量は、呼の発生率と平均回線保留時間からどう求める？",
+    "answer": "単位時間当たりの呼数 × 平均回線保留時間。同じ時間単位で計算する。",
+    "section_title": "IP電話 - 呼量、呼損率、呼損率表、アーランの計算方法",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony5.html"
+    ]
+  },
+  {
+    "id": "C17-05-03",
+    "question": "呼損率とは、どのような確率か。",
+    "answer": "回線不足などで、発生した呼を接続できない確率。",
+    "section_title": "IP電話 - 呼量、呼損率、呼損率表、アーランの計算方法",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony5.html"
+    ]
+  },
+  {
+    "id": "C17-05-04",
+    "question": "呼損率表から必要回線数を求めるため、基本的にどの2つの値を使う？",
+    "answer": "呼量と、許容する呼損率。",
+    "section_title": "IP電話 - 呼量、呼損率、呼損率表、アーランの計算方法",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony5.html"
+    ]
+  },
+  {
+    "id": "C17-05-05",
+    "question": "同じ呼量で許容呼損率を低くすると、必要回線数はどうなる？",
+    "answer": "多くなる。",
+    "section_title": "IP電話 - 呼量、呼損率、呼損率表、アーランの計算方法",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony5.html"
+    ]
+  },
+  {
+    "id": "C17-05-06",
+    "question": "音声品質のMOSは、どのように評価する方法か。",
+    "answer": "人が音声を聞き、通常1〜5の段階で品質を評価する方法。",
+    "section_title": "IP電話 - 呼量、呼損率、呼損率表、アーランの計算方法",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony5.html"
+    ]
+  },
+  {
+    "id": "C17-05-07",
+    "question": "音声品質のR値は、大きい方と小さい方のどちらが高品質か。",
+    "answer": "大きい方。",
+    "section_title": "IP電話 - 呼量、呼損率、呼損率表、アーランの計算方法",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony5.html"
+    ]
+  },
+  {
+    "id": "C17-06-01",
+    "question": "IP電話の音声が、通常のファイル転送より遅延の影響を受けやすい理由は？",
+    "answer": "対話中の音声を、その場で連続的に再生する必要があるため。",
+    "section_title": "IP電話 - QoS による音声品質の確保",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony6.html"
+    ]
+  },
+  {
+    "id": "C17-06-02",
+    "question": "音声通信でいうジッタとは何か。",
+    "answer": "パケットの到着間隔や遅延のばらつき。",
+    "section_title": "IP電話 - QoS による音声品質の確保",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony6.html"
+    ]
+  },
+  {
+    "id": "C17-06-03",
+    "question": "IntServとDiffServは、QoSの管理単位がどう違う？",
+    "answer": "IntServは通信フローごとに資源を予約し、DiffServは通信をクラスへ分類して処理する。",
+    "section_title": "IP電話 - QoS による音声品質の確保",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony6.html"
+    ]
+  },
+  {
+    "id": "C17-06-04",
+    "question": "IntServで資源予約に使う代表的なプロトコルは？",
+    "answer": "RSVP。",
+    "section_title": "IP電話 - QoS による音声品質の確保",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony6.html"
+    ]
+  },
+  {
+    "id": "C17-06-05",
+    "question": "IntServが大規模なネットワークで負担になりやすい理由は？",
+    "answer": "多数のフローごとの予約状態を、経路上の機器が管理するため。",
+    "section_title": "IP電話 - QoS による音声品質の確保",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony6.html"
+    ]
+  },
+  {
+    "id": "C17-07-01",
+    "question": "DiffServの基本的な処理の流れは？",
+    "answer": "分類 → マーキング → キューイング → スケジューリング。",
+    "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony7.html"
+    ]
+  },
+  {
+    "id": "C17-07-02",
+    "question": "QoSの分類とマーキングは、処理がどう違う？",
+    "answer": "分類は通信の種類やクラスを判断し、マーキングはその扱いを示す値をパケットなどに付ける。",
+    "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony7.html"
+    ]
+  },
+  {
+    "id": "C17-07-03",
+    "question": "IEEE 802.1QタグのPCPによる優先度は、何ビットか。",
+    "answer": "3ビット。",
+    "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony7.html"
+    ]
+  },
+  {
+    "id": "C17-07-04",
+    "question": "IPヘッダのDSCPフィールドは何ビットか。",
+    "answer": "6ビット。",
+    "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony7.html"
+    ]
+  },
+  {
+    "id": "C17-07-05",
+    "question": "L2の優先度だけでなく、DSCPでマーキングする利点は？",
+    "answer": "IPパケットに情報を持たせ、ルータを越える経路でも扱いを引き継ぎやすい。",
+    "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony7.html"
+    ]
+  },
+  {
+    "id": "C17-07-06",
+    "question": "DiffServのPHBは、何を意味する？",
+    "answer": "各ホップの機器で適用する、転送処理の振る舞い。",
+    "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony7.html"
+    ]
+  },
+  {
+    "id": "C17-07-07",
+    "question": "DiffServのEFで使う代表的なDSCP値は？",
+    "answer": "46。",
+    "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony7.html"
+    ]
+  },
+  {
+    "id": "C17-07-08",
+    "question": "DSCPのDefaultで使う値は？",
+    "answer": "0。",
+    "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony7.html"
+    ]
+  },
+  {
+    "id": "C17-07-09",
+    "question": "AFの同じクラス内では、ドロップ優先度の数値が大きいほどどう扱う？",
+    "answer": "輻輳時に破棄されやすくなる。",
+    "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony7.html"
+    ]
+  },
+  {
+    "id": "C17-07-10",
+    "question": "キューイングとスケジューリングの違いは？",
+    "answer": "キューイングはパケットを待ち行列へ格納し、スケジューリングはどのキューから送るかを決める。",
+    "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony7.html"
+    ]
+  },
+  {
+    "id": "C17-07-11",
+    "question": "FIFOと優先キュー方式は、送出順の決め方がどう違う？",
+    "answer": "FIFOは到着順、優先キュー方式は優先度の高いキューを先に処理する。",
+    "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony7.html"
+    ]
+  },
+  {
+    "id": "C17-07-12",
+    "question": "ポリシングとシェーピングは、速度を超えた通信の扱いがどう違う？",
+    "answer": "ポリシングは破棄や再マーキングを行い、シェーピングはバッファで送信を遅らせる。",
+    "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony7.html"
+    ]
+  },
+  {
+    "id": "C17-08-01",
+    "question": "SIPサーバを1拠点へ集約すると、拠点側のWAN障害で何が問題になる？",
+    "answer": "呼制御サーバへ到達できず、新しい通話の発着信などができなくなる。",
+    "section_title": "IPテレフォニーシステムの構成、全体の理解",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony10.html"
+    ]
+  },
+  {
+    "id": "C17-08-02",
+    "question": "SIPで呼制御する構成でも、RTPの音声データは必ずSIPサーバを通るか。",
+    "answer": "必ずではない。IP電話機同士などで直接やり取りする構成もある。",
+    "section_title": "IPテレフォニーシステムの構成、全体の理解",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony10.html"
+    ]
+  },
+  {
+    "id": "C17-08-03",
+    "question": "公衆電話網への外線発信で、VoIPゲートウェイが行う主な変換は？",
+    "answer": "IP側と公衆電話網側との、呼制御や音声形式の変換。",
+    "section_title": "IPテレフォニーシステムの構成、全体の理解",
+    "sources": [
+      "https://www.infraexpert.com/study/telephony10.html"
+    ]
+  }
+]

@@ -265,5 +265,11 @@
       ],
       "reason": "直後の比較問題でも同じ内容を問えるため削除。"
     }
+  ],
+  "vendor_neutral_references": [
+    {
+      "purpose": "非Cisco製品でのRIPホールドダウンの実装例",
+      "url": "https://www.juniper.net/documentation/us/en/software/junos/rip/topics/topic-map/rip-timers.html"
+    }
   ]
 }

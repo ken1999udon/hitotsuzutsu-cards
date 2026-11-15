@@ -1,0 +1,127 @@
+[
+  {
+    "section": 1,
+    "title": "IP電話",
+    "url": "https://www.infraexpert.com/study/telephony1.html",
+    "sha256": "bd71da93b9d7347ccf1e1064f2eb98cbd33d7c58360d3914ccf6b565bf679eb7",
+    "card_ids": [
+      "C17-01-01",
+      "C17-01-02",
+      "C17-01-03",
+      "C17-01-04"
+    ]
+  },
+  {
+    "section": 2,
+    "title": "IP電話 - 音声の符号化",
+    "url": "https://www.infraexpert.com/study/telephony2.html",
+    "sha256": "26903c5d74e07ccf9fff691f618d72522ada112075d457852f32d299ae26e9f1",
+    "card_ids": [
+      "C17-02-01",
+      "C17-02-02",
+      "C17-02-03",
+      "C17-02-04",
+      "C17-02-05",
+      "C17-02-06",
+      "C17-02-07",
+      "C17-02-08",
+      "C17-02-09",
+      "C17-02-10"
+    ]
+  },
+  {
+    "section": 3,
+    "title": "IP電話 - RTPとは",
+    "url": "https://www.infraexpert.com/study/telephony3.html",
+    "sha256": "393543faa5e05ac84cb567f287d40e2ff40542d0eba2169330d075e64604f6f6",
+    "card_ids": [
+      "C17-03-01",
+      "C17-03-02",
+      "C17-03-03",
+      "C17-03-04",
+      "C17-03-05",
+      "C17-03-06",
+      "C17-03-07"
+    ]
+  },
+  {
+    "section": 4,
+    "title": "IP電話 - SIPとは",
+    "url": "https://www.infraexpert.com/study/telephony4.html",
+    "sha256": "b8345de9d57616837e8d8a1aba9f65cb89b37ab1bb15e4dd9a6edd1c7bd21d02",
+    "card_ids": [
+      "C17-04-01",
+      "C17-04-02",
+      "C17-04-03",
+      "C17-04-04",
+      "C17-04-05",
+      "C17-04-06",
+      "C17-04-07",
+      "C17-04-08",
+      "C17-04-09",
+      "C17-04-10",
+      "C17-04-11",
+      "C17-04-12",
+      "C17-04-13"
+    ]
+  },
+  {
+    "section": 5,
+    "title": "IP電話 - 呼量、呼損率、呼損率表、アーランの計算方法",
+    "url": "https://www.infraexpert.com/study/telephony5.html",
+    "sha256": "96be559560cb33a6ec617931d7aab8990397d7aeb8d31becf98f5d44d3c17d54",
+    "card_ids": [
+      "C17-05-01",
+      "C17-05-02",
+      "C17-05-03",
+      "C17-05-04",
+      "C17-05-05",
+      "C17-05-06",
+      "C17-05-07"
+    ]
+  },
+  {
+    "section": 6,
+    "title": "IP電話 - QoS による音声品質の確保",
+    "url": "https://www.infraexpert.com/study/telephony6.html",
+    "sha256": "1b2287b892eaa48acbd49a07fe119aac6bdbc50c4fee03ec8b7f29d961b96c75",
+    "card_ids": [
+      "C17-06-01",
+      "C17-06-02",
+      "C17-06-03",
+      "C17-06-04",
+      "C17-06-05"
+    ]
+  },
+  {
+    "section": 7,
+    "title": "IP電話 - QoS DiffServモデルの処理フロー",
+    "url": "https://www.infraexpert.com/study/telephony7.html",
+    "sha256": "681b04c647b70a954ebe91b0c6b235a2ca78ac6f88afca7418b06604568ac554",
+    "card_ids": [
+      "C17-07-01",
+      "C17-07-02",
+      "C17-07-03",
+      "C17-07-04",
+      "C17-07-05",
+      "C17-07-06",
+      "C17-07-07",
+      "C17-07-08",
+      "C17-07-09",
+      "C17-07-10",
+      "C17-07-11",
+      "C17-07-12"
+    ]
+  },
+  {
+    "section": 8,
+    "title": "IPテレフォニーシステムの構成、全体の理解",
+    "url": "https://www.infraexpert.com/study/telephony10.html",
+    "sha256": "6d582982c16b977853bb6faf7dbbf8976d21244f55d1f03e3027be1cecd3ff7a",
+    "card_ids": [
+      "C17-08-01",
+      "C17-08-02",
+      "C17-08-03"
+    ]
+  }
+]

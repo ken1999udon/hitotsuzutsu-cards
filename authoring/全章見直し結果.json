@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-15",
+  "source_index": "https://www.infraexpert.com/info/netspecial1.html",
+  "chapters": 19,
+  "cards": 1383,
+  "reviewed_cards": 1383,
+  "source_urls_read": 260,
+  "cards_with_sources": 1383,
+  "authoring_policy": [
+    "infraexpertの定義・仕組み・違い・理由・主要数値を簡潔な一問一答にする。",
+    "独自の構成や数値条件を足す具体問題を作らない。",
+    "Cisco固有のプロトコル・機能・製品名・コマンド・機種依存の初期値を出題しない。",
+    "一般技術は記事中の製品例とは区別し、ベンダに依存しない内容を採用する。",
+    "学習用の表示は問題と解答のみ。ID・出典・見直し記録は管理用に保持。"
+  ],
+  "review_process": [
+    "各章の本文を読み、草案を作成した。",
+    "草案の問題と解答を全件出力して一問ずつ読み直し、原文との対応、問いへの答え、日本語、不要な条件、重複を見直した。",
+    "変更した問いと解答、削除理由、原文の注意点を各章のreview.jsonに記録した。",
+    "全章の照合でCatalyst初期値の問いなどを除外し、標準的なCSTの定義を追加して再確認した。"
+  ],
+  "global_checks": {
+    "chapter_ids_unique": true,
+    "card_ids_unique_within_chapter": true,
+    "exact_duplicate_question_count": 0,
+    "review_record_matches_current_cards": true,
+    "all_cards_have_source_urls": true,
+    "source_inventory_matches_cards": true,
+    "displayed_answer_is_answer_only": true,
+    "vendor_specific_terms_in_current_questions_and_answers": 0,
+    "existing_exporter_tests": "5 tests passed",
+    "anki_database_notes": 1383,
+    "anki_decks": 19,
+    "anki_templates": "表は問題、裏は問題と解答のみ",
+    "tsv_rows": 1383,
+    "zip_integrity": "passed"
+  },
+  "catalog_revision": "942e3cb95e8ebd275d022bd3c20b42e00c3c93be4051ce44dab4913498854b00",
+  "chapter_summary": [
+    {
+      "chapter": 1,
+      "title": "ネットワーク基礎とOSI参照モデル",
+      "cards": 63,
+      "reviewed_cards": 63,
+      "source_pages": 10,
+      "review_revisions": 2,
+      "review_path": "chapters/chapter01/review.json"
+    },
+    {
+      "chapter": 2,
+      "title": "TCP/IPプロトコル",
+      "cards": 210,
+      "reviewed_cards": 210,
+      "source_pages": 35,
+      "review_revisions": 3,
+      "review_path": "chapters/chapter02/review.json"
+    },
+    {
+      "chapter": 3,
+      "title": "Ethernet LAN 改訂版",
+      "cards": 85,
+      "reviewed_cards": 85,
+      "source_pages": 14,
+      "review_revisions": 0,
+      "review_path": "revision/review.json"
+    },
+    {
+      "chapter": 4,
+      "title": "VLANとスパニングツリー",
+      "cards": 77,
+      "reviewed_cards": 77,
+      "source_pages": 12,
+      "review_revisions": 3,
+      "review_path": "chapters/chapter04/review.json"
+    },
+    {
+      "chapter": 5,
+      "title": "IPアドレスとサブネット",
+      "cards": 57,
+      "reviewed_cards": 57,
+      "source_pages": 10,
+      "review_revisions": 2,
+      "review_path": "chapters/chapter05/review.json"
+    },
+    {
+      "chapter": 6,
+      "title": "WANとインターネット",
+      "cards": 63,
+      "reviewed_cards": 63,
+      "source_pages": 10,
+      "review_revisions": 1,
+      "review_path": "chapters/chapter06/review.json"
+    },
+    {
+      "chapter": 7,
+      "title": "ルーティング",
+      "cards": 77,
+      "reviewed_cards": 77,
+      "source_pages": 22,
+      "review_revisions": 2,
+      "review_path": "chapters/chapter07/review.json"
+    },
+    {
+      "chapter": 8,
+      "title": "ディスタンスベクタルーティング",
+      "cards": 19,
+      "reviewed_cards": 19,
+      "source_pages": 5,
+      "review_revisions": 1,
+      "review_path": "chapters/chapter08/review.json"
+    },
+    {
+      "chapter": 9,
+      "title": "リンクステートルーティング",
+      "cards": 53,
+      "reviewed_cards": 53,
+      "source_pages": 10,
+      "review_revisions": 3,
+      "review_path": "chapters/chapter09/review.json"
+    },
+    {
+      "chapter": 10,
+      "title": "ネットワークセキュリティ",
+      "cards": 122,
+      "reviewed_cards": 122,
+      "source_pages": 21,
+      "review_revisions": 2,
+      "review_path": "chapters/chapter10/review.json"
+    },
+    {
+      "chapter": 11,
+      "title": "VPN",
+      "cards": 52,
+      "reviewed_cards": 52,
+      "source_pages": 12,
+      "review_revisions": 1,
+      "review_path": "chapters/chapter11/review.json"
+    },
+    {
+      "chapter": 12,
+      "title": "SSL/TLS",
+      "cards": 36,
+      "reviewed_cards": 36,
+      "source_pages": 6,
+      "review_revisions": 1,
+      "review_path": "chapters/chapter12/review.json"
+    },
+    {
+      "chapter": 13,
+      "title": "無線LAN",
+      "cards": 116,
+      "reviewed_cards": 116,
+      "source_pages": 25,
+      "review_revisions": 3,
+      "review_path": "chapters/chapter13/review.json"
+    },
+    {
+      "chapter": 14,
+      "title": "負荷分散技術",
+      "cards": 40,
+      "reviewed_cards": 40,
+      "source_pages": 12,
+      "review_revisions": 1,
+      "review_path": "chapters/chapter14/review.json"
+    },
+    {
+      "chapter": 15,
+      "title": "IPv6",
+      "cards": 57,
+      "reviewed_cards": 57,
+      "source_pages": 12,
+      "review_revisions": 1,
+      "review_path": "chapters/chapter15/review.json"
+    },
+    {
+      "chapter": 16,
+      "title": "ストレージネットワーク",
+      "cards": 43,
+      "reviewed_cards": 43,
+      "source_pages": 8,
+      "review_revisions": 2,
+      "review_path": "chapters/chapter16/review.json"
+    },
+    {
+      "chapter": 17,
+      "title": "IPテレフォニー",
+      "cards": 61,
+      "reviewed_cards": 61,
+      "source_pages": 8,
+      "review_revisions": 1,
+      "review_path": "chapters/chapter17/review.json"
+    },
+    {
+      "chapter": 18,
+      "title": "マルチキャスト",
+      "cards": 54,
+      "reviewed_cards": 54,
+      "source_pages": 16,
+      "review_revisions": 2,
+      "review_path": "chapters/chapter18/review.json"
+    },
+    {
+      "chapter": 19,
+      "title": "仮想化技術",
+      "cards": 98,
+      "reviewed_cards": 98,
+      "source_pages": 14,
+      "review_revisions": 4,
+      "review_path": "chapters/chapter19/review.json"
+    }
+  ]
+}

@@ -135,7 +135,8 @@
     "url": "https://www.infraexpert.com/study/fhrpz00.html",
     "sha256": "594f8084091d24cbe74963a259c1e3359ed0bbfd28d605d335426b9a89cb63ae",
     "card_ids": [],
-    "note": "Cisco独自方式との比較表は出題しない。標準VRRPの内容は第11節で扱う。"
+    "note": "Cisco独自方式との比較表は出題しない。標準VRRPの内容は第11節で扱う。",
+    "decision": "HSRP/GLBPはCisco独自なので除外。VRRPの標準的な内容は第10・11節で出題しており、比較の重複を避けた。"
   },
   {
     "section": 13,

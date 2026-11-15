@@ -1,0 +1,389 @@
+[
+  {
+    "id": "C16-01-01",
+    "question": "DASで、あるサーバの余ったディスク領域を別サーバへ融通しにくい理由は？",
+    "answer": "ストレージが、そのサーバへ直接接続されているため。",
+    "section_title": "DAS、NAS、SAN の違い",
+    "sources": [
+      "https://www.infraexpert.com/study/networking0.html"
+    ]
+  },
+  {
+    "id": "C16-01-02",
+    "question": "DASのディスク接続に使う代表的な方式は？",
+    "answer": "SATA、SAS、SCSIなど。",
+    "section_title": "DAS、NAS、SAN の違い",
+    "sources": [
+      "https://www.infraexpert.com/study/networking0.html"
+    ]
+  },
+  {
+    "id": "C16-02-01",
+    "question": "NASでファイル共有に使う代表的なプロトコルは？",
+    "answer": "SMB/CIFSやNFSなど。",
+    "section_title": "NAS - NAS と SAN の比較",
+    "sources": [
+      "https://www.infraexpert.com/study/networking5.html"
+    ]
+  },
+  {
+    "id": "C16-02-02",
+    "question": "NASとSANは、ファイルシステムを管理する側がどう違う？",
+    "answer": "NASはストレージ側がファイルを管理し、SANでは通常サーバ側がブロックデバイス上のファイルシステムを管理する。",
+    "section_title": "NAS - NAS と SAN の比較",
+    "sources": [
+      "https://www.infraexpert.com/study/networking5.html"
+    ]
+  },
+  {
+    "id": "C16-02-03",
+    "question": "NASにある同じファイルへの同時更新では、何を制御する必要がある？",
+    "answer": "ロックなどによる、競合する書き込みの調整。",
+    "section_title": "NAS - NAS と SAN の比較",
+    "sources": [
+      "https://www.infraexpert.com/study/networking5.html"
+    ]
+  },
+  {
+    "id": "C16-03-01",
+    "question": "FC-SANとIP-SANでは、サーバの接続に使う代表的なアダプタがどう違う？",
+    "answer": "FC-SANはHBA、IP-SANはEthernetのNICなどを使う。",
+    "section_title": "SAN - FC-SAN、IP-SANの違い",
+    "sources": [
+      "https://www.infraexpert.com/study/networking6.html"
+    ]
+  },
+  {
+    "id": "C16-03-02",
+    "question": "iSCSIは、何をTCP/IPネットワークで運ぶプロトコルか。",
+    "answer": "SCSIのコマンドやデータ。",
+    "section_title": "SAN - FC-SAN、IP-SANの違い",
+    "sources": [
+      "https://www.infraexpert.com/study/networking6.html"
+    ]
+  },
+  {
+    "id": "C16-03-03",
+    "question": "FCIPは、何をIPネットワークで運ぶための技術か。",
+    "answer": "ファイバチャネルのフレーム。",
+    "section_title": "SAN - FC-SAN、IP-SANの違い",
+    "sources": [
+      "https://www.infraexpert.com/study/networking6.html"
+    ]
+  },
+  {
+    "id": "C16-03-04",
+    "question": "SANのゾーニングは、主に何を制御する？",
+    "answer": "どのサーバとストレージが通信できるか。",
+    "section_title": "SAN - FC-SAN、IP-SANの違い",
+    "sources": [
+      "https://www.infraexpert.com/study/networking6.html"
+    ]
+  },
+  {
+    "id": "C16-03-05",
+    "question": "WWNに基づくゾーニングとポートに基づくゾーニングの違いは？",
+    "answer": "前者は機器のWWN、後者はFCスイッチの接続ポートを基準に組合せを決める。",
+    "section_title": "SAN - FC-SAN、IP-SANの違い",
+    "sources": [
+      "https://www.infraexpert.com/study/networking6.html"
+    ]
+  },
+  {
+    "id": "C16-04-01",
+    "question": "FCoEは、FCフレームを何にカプセル化して運ぶ？",
+    "answer": "Ethernetフレーム。",
+    "section_title": "FCoE - FC-SANとEthernet LANの統合",
+    "sources": [
+      "https://www.infraexpert.com/study/networking7.html"
+    ]
+  },
+  {
+    "id": "C16-04-02",
+    "question": "iSCSIとFCoEは、TCP/IPを使うかどうかで何が違う？",
+    "answer": "iSCSIはTCP/IPを使い、FCoEはFCフレームをEthernet上で直接運ぶ。",
+    "section_title": "FCoE - FC-SANとEthernet LANの統合",
+    "sources": [
+      "https://www.infraexpert.com/study/networking7.html"
+    ]
+  },
+  {
+    "id": "C16-04-03",
+    "question": "FCoEで使うCNAは、何を統合するアダプタか。",
+    "answer": "EthernetのNICと、FCのHBAに相当する機能。",
+    "section_title": "FCoE - FC-SANとEthernet LANの統合",
+    "sources": [
+      "https://www.infraexpert.com/study/networking7.html"
+    ]
+  },
+  {
+    "id": "C16-04-04",
+    "question": "FCoEでLANとSANの接続を統合する、物理構成上の利点は？",
+    "answer": "アダプタやケーブルを減らし、配線・消費電力・管理の負担を抑えられる。",
+    "section_title": "FCoE - FC-SANとEthernet LANの統合",
+    "sources": [
+      "https://www.infraexpert.com/study/networking7.html"
+    ]
+  },
+  {
+    "id": "C16-04-05",
+    "question": "DCBのPFCは、フロー制御をどのような単位で行う？",
+    "answer": "Ethernetの優先度ごと。",
+    "section_title": "FCoE - FC-SANとEthernet LANの統合",
+    "sources": [
+      "https://www.infraexpert.com/study/networking7.html"
+    ]
+  },
+  {
+    "id": "C16-04-06",
+    "question": "DCBのETSは、通信クラス間で主に何を割り当てる？",
+    "answer": "利用する帯域幅。",
+    "section_title": "FCoE - FC-SANとEthernet LANの統合",
+    "sources": [
+      "https://www.infraexpert.com/study/networking7.html"
+    ]
+  },
+  {
+    "id": "C16-04-07",
+    "question": "FCoEで、通常より大きなEthernetフレームへ対応させる理由は？",
+    "answer": "大きなFCフレームとFCoEの付加情報を収容するため。",
+    "section_title": "FCoE - FC-SANとEthernet LANの統合",
+    "sources": [
+      "https://www.infraexpert.com/study/networking7.html"
+    ]
+  },
+  {
+    "id": "C16-05-01",
+    "question": "HAクラスタのフェールオーバーは、障害発生時に何を行う？",
+    "answer": "稼働系の処理を、別のサーバへ引き継ぐ。",
+    "section_title": "クラスタシステムとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking11.html"
+    ]
+  },
+  {
+    "id": "C16-05-02",
+    "question": "HAクラスタで、物理サーバ固有のIPとは別に仮想IPを使う目的は？",
+    "answer": "稼働サーバが切り替わっても、利用者の接続先アドレスを維持するため。",
+    "section_title": "クラスタシステムとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking11.html"
+    ]
+  },
+  {
+    "id": "C16-05-03",
+    "question": "HAクラスタの共有ディスク型とミラーディスク型の違いは？",
+    "answer": "共有型は同じディスクを複数サーバで利用し、ミラー型は各サーバのディスク内容を複製する。",
+    "section_title": "クラスタシステムとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking11.html"
+    ]
+  },
+  {
+    "id": "C16-05-04",
+    "question": "ミラーディスク型のクラスタが、共有ディスク型より構成費を抑えやすい理由は？",
+    "answer": "専用の共有ストレージを別に用意せずに構成できるため。",
+    "section_title": "クラスタシステムとは",
+    "sources": [
+      "https://www.infraexpert.com/study/networking11.html"
+    ]
+  },
+  {
+    "id": "C16-06-01",
+    "question": "RAID 0のストライピングは、何を目的にデータを分散する？",
+    "answer": "複数ディスクへ並行して読み書きし、高速化するため。",
+    "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+    "sources": [
+      "https://www.infraexpert.com/study/networking9.html"
+    ]
+  },
+  {
+    "id": "C16-06-02",
+    "question": "RAID 0で、構成ディスク1台の故障が重大な問題になる理由は？",
+    "answer": "冗長データがなく、欠けた部分を復元できないため。",
+    "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+    "sources": [
+      "https://www.infraexpert.com/study/networking9.html"
+    ]
+  },
+  {
+    "id": "C16-06-03",
+    "question": "RAID 1のミラーリングとは、どのような保存方法か。",
+    "answer": "同じデータを複数のディスクへ複製して保存する方法。",
+    "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+    "sources": [
+      "https://www.infraexpert.com/study/networking9.html"
+    ]
+  },
+  {
+    "id": "C16-06-04",
+    "question": "同容量ディスク2台のRAID 1では、使えるデータ容量は何台分か。",
+    "answer": "1台分。",
+    "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+    "sources": [
+      "https://www.infraexpert.com/study/networking9.html"
+    ]
+  },
+  {
+    "id": "C16-06-05",
+    "question": "RAID 5とRAID 6は、任意のディスクの同時故障をそれぞれ何台まで許容する？",
+    "answer": "RAID 5は1台、RAID 6は2台。",
+    "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+    "sources": [
+      "https://www.infraexpert.com/study/networking9.html"
+    ]
+  },
+  {
+    "id": "C16-06-06",
+    "question": "RAID 5とRAID 6の、基本的な最小ディスク台数は？",
+    "answer": "RAID 5は3台、RAID 6は4台。",
+    "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+    "sources": [
+      "https://www.infraexpert.com/study/networking9.html"
+    ]
+  },
+  {
+    "id": "C16-06-07",
+    "question": "同容量のn台で構成するRAID 5とRAID 6では、データ領域はおよそ何台分か。",
+    "answer": "RAID 5はn−1台分、RAID 6はn−2台分。",
+    "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+    "sources": [
+      "https://www.infraexpert.com/study/networking9.html"
+    ]
+  },
+  {
+    "id": "C16-06-08",
+    "question": "RAID 6がRAID 5よりデータに使える容量を減らす理由は？",
+    "answer": "2台の故障に対応する二重パリティを保存するため。",
+    "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+    "sources": [
+      "https://www.infraexpert.com/study/networking9.html"
+    ]
+  },
+  {
+    "id": "C16-06-09",
+    "question": "RAID 10は、ミラーリングとストライピングをどう組み合わせる？",
+    "answer": "ミラーリングしたディスクの組を、ストライピングで束ねる。",
+    "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+    "sources": [
+      "https://www.infraexpert.com/study/networking9.html"
+    ]
+  },
+  {
+    "id": "C16-06-10",
+    "question": "RAIDによる冗長化が、バックアップの代わりにならない理由は？",
+    "answer": "誤削除やデータの破壊などが、冗長化された側にも反映されるため。",
+    "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+    "sources": [
+      "https://www.infraexpert.com/study/networking9.html"
+    ]
+  },
+  {
+    "id": "C16-07-01",
+    "question": "フルバックアップと差分バックアップは、保存する対象がどう違う？",
+    "answer": "フルは対象全体、差分は直近のフルバックアップからの変更分。",
+    "section_title": "フルバックアップ、差分・増分バックアップ",
+    "sources": [
+      "https://www.infraexpert.com/study/networking10.html"
+    ]
+  },
+  {
+    "id": "C16-07-02",
+    "question": "差分バックアップと増分バックアップは、変更を比較する基準がどう違う？",
+    "answer": "差分は直近のフル、増分は直前のバックアップ。",
+    "section_title": "フルバックアップ、差分・増分バックアップ",
+    "sources": [
+      "https://www.infraexpert.com/study/networking10.html"
+    ]
+  },
+  {
+    "id": "C16-07-03",
+    "question": "差分バックアップから復元するために必要な、基本的な組合せは？",
+    "answer": "基になるフルバックアップと、復元時点の差分バックアップ。",
+    "section_title": "フルバックアップ、差分・増分バックアップ",
+    "sources": [
+      "https://www.infraexpert.com/study/networking10.html"
+    ]
+  },
+  {
+    "id": "C16-07-04",
+    "question": "増分バックアップから復元するために必要な、基本的な組合せは？",
+    "answer": "基になるフルバックアップと、復元時点までの各増分バックアップ。",
+    "section_title": "フルバックアップ、差分・増分バックアップ",
+    "sources": [
+      "https://www.infraexpert.com/study/networking10.html"
+    ]
+  },
+  {
+    "id": "C16-07-05",
+    "question": "増分バックアップで、保存量を減らせる一方で復元の手間が増える理由は？",
+    "answer": "前回以降の変更だけを保存するので、復元には途中の増分も順につなぐ必要があるため。",
+    "section_title": "フルバックアップ、差分・増分バックアップ",
+    "sources": [
+      "https://www.infraexpert.com/study/networking10.html"
+    ]
+  },
+  {
+    "id": "C16-08-01",
+    "question": "フォールトアボイダンスとフォールトトレランスの違いは？",
+    "answer": "前者は故障の発生を抑え、後者は故障しても機能を継続できるようにする考え方。",
+    "section_title": "フォールトトレランス、RASIS、MTBF/MTTR",
+    "sources": [
+      "https://www.infraexpert.com/study/networking12.html"
+    ]
+  },
+  {
+    "id": "C16-08-02",
+    "question": "フェールセーフとフェールソフトの違いは？",
+    "answer": "フェールセーフは安全側へ移行し、フェールソフトは機能を一部縮退して運転を続ける。",
+    "section_title": "フォールトトレランス、RASIS、MTBF/MTTR",
+    "sources": [
+      "https://www.infraexpert.com/study/networking12.html"
+    ]
+  },
+  {
+    "id": "C16-08-03",
+    "question": "フールプルーフとは、どのような設計上の考え方か。",
+    "answer": "利用者の誤操作があっても、危険や誤動作につながりにくくする考え方。",
+    "section_title": "フォールトトレランス、RASIS、MTBF/MTTR",
+    "sources": [
+      "https://www.infraexpert.com/study/networking12.html"
+    ]
+  },
+  {
+    "id": "C16-08-04",
+    "question": "RASISの5つの評価観点は？",
+    "answer": "信頼性、可用性、保守性、完全性、機密性・安全性。",
+    "section_title": "フォールトトレランス、RASIS、MTBF/MTTR",
+    "sources": [
+      "https://www.infraexpert.com/study/networking12.html"
+    ]
+  },
+  {
+    "id": "C16-08-05",
+    "question": "MTBFとMTTRは、それぞれ何の平均時間か。",
+    "answer": "MTBFは故障せず稼働する時間、MTTRは修理・復旧にかかる時間。",
+    "section_title": "フォールトトレランス、RASIS、MTBF/MTTR",
+    "sources": [
+      "https://www.infraexpert.com/study/networking12.html"
+    ]
+  },
+  {
+    "id": "C16-08-06",
+    "question": "MTBFとMTTRから、基本的な稼働率を求める式は？",
+    "answer": "MTBF ÷（MTBF＋MTTR）。",
+    "section_title": "フォールトトレランス、RASIS、MTBF/MTTR",
+    "sources": [
+      "https://www.infraexpert.com/study/networking12.html"
+    ]
+  },
+  {
+    "id": "C16-08-07",
+    "question": "稼働率を上げるには、MTBFとMTTRをそれぞれどうする？",
+    "answer": "MTBFを長くし、MTTRを短くする。",
+    "section_title": "フォールトトレランス、RASIS、MTBF/MTTR",
+    "sources": [
+      "https://www.infraexpert.com/study/networking12.html"
+    ]
+  }
+]
