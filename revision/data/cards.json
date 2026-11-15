@@ -585,15 +585,6 @@
     ]
   },
   {
-    "id": "K03-110-B",
-    "question": "LLDPとCDPは、標準化の点でどう違う？",
-    "answer": "LLDPはIEEE標準、CDPはCisco独自。",
-    "section_title": "LLDP",
-    "sources": [
-      "https://www.infraexpert.com/study/catalyst25.html"
-    ]
-  },
-  {
     "id": "K03-057-B",
     "question": "LLDPで、隣接機器へ伝える情報を表現する形式は？",
     "answer": "TLV（Type・Length・Value）形式。",

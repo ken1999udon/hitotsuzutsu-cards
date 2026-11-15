@@ -180,15 +180,6 @@
     ]
   },
   {
-    "id": "C04-02-14",
-    "question": "802.1QとCisco独自のISLは、フレームへのVLAN情報の付け方がどう違う？",
-    "answer": "802.1Qはタグを挿入し、ISLは元のフレーム全体をカプセル化する。",
-    "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
-    "sources": [
-      "https://www.infraexpert.com/study/vlanz2.html"
-    ]
-  },
-  {
     "id": "C04-03-01",
     "question": "Q-in-Qは、顧客のタグ付きフレームをどのように運ぶ？",
     "answer": "顧客のVLANタグを残したまま、事業者側のVLANタグを追加して運ぶ。",
@@ -486,42 +477,6 @@
     ]
   },
   {
-    "id": "C04-07-01",
-    "question": "CSTとPVST+は、スパニングツリーの作成単位がどう違う？",
-    "answer": "CSTは全体で1つ、PVST+はVLANごとに1つのツリーを作る。",
-    "section_title": "STP - CSTとは、PVSTとは",
-    "sources": [
-      "https://www.infraexpert.com/study/stpz4.html"
-    ]
-  },
-  {
-    "id": "C04-07-02",
-    "question": "PVST+で、VLANごとに異なるルートブリッジを設定する利点は？",
-    "answer": "VLANごとに転送経路を変え、複数のリンクへ負荷分散できる。",
-    "section_title": "STP - CSTとは、PVSTとは",
-    "sources": [
-      "https://www.infraexpert.com/study/stpz4.html"
-    ]
-  },
-  {
-    "id": "C04-07-03",
-    "question": "PVST+の拡張システムIDには、何を格納する？",
-    "answer": "VLAN ID。",
-    "section_title": "STP - CSTとは、PVSTとは",
-    "sources": [
-      "https://www.infraexpert.com/study/stpz4.html"
-    ]
-  },
-  {
-    "id": "C04-07-04",
-    "question": "拡張システムIDを使う場合、ブリッジプライオリティは何刻みで設定する？",
-    "answer": "4096刻み。",
-    "section_title": "STP - CSTとは、PVSTとは",
-    "sources": [
-      "https://www.infraexpert.com/study/stpz4.html"
-    ]
-  },
-  {
     "id": "C04-08-01",
     "question": "RSTPは、従来STPのどの点を主に改善したプロトコルか。",
     "answer": "トポロジー変更時の収束速度。",
@@ -595,8 +550,8 @@
   },
   {
     "id": "C04-09-02",
-    "question": "MSTPがPVST+より計算負荷を抑えられる理由は？",
-    "answer": "VLANごとではなく、複数VLANをまとめたインスタンスごとに経路計算するため。",
+    "question": "MSTPで複数のVLANを同じインスタンスへまとめる利点は？",
+    "answer": "スパニングツリーの計算や管理に必要な負荷を抑えられる。",
     "section_title": "MSTP（ IEEE802.1S ）とは",
     "sources": [
       "https://www.infraexpert.com/study/stpz16.html"
@@ -633,15 +588,6 @@
     "id": "C04-10-02",
     "question": "リンクアグリゲーションで、構成する1本のリンクが故障すると通信はどうなる？",
     "answer": "残りのリンクで通信を継続できるが、利用可能な合計帯域は減る。",
-    "section_title": "リンクアグリゲーションとは",
-    "sources": [
-      "https://www.infraexpert.com/study/etherchannel.html"
-    ]
-  },
-  {
-    "id": "C04-10-03",
-    "question": "Ciscoがリンクアグリゲーションに使う呼び名は？",
-    "answer": "EtherChannel。",
     "section_title": "リンクアグリゲーションとは",
     "sources": [
       "https://www.infraexpert.com/study/etherchannel.html"
@@ -723,15 +669,6 @@
     "id": "C04-11-05",
     "question": "サーバのNICを冗長化しても、接続先スイッチが1台だけなら何が残る？",
     "answer": "そのスイッチが単一障害点となる。",
-    "section_title": "チーミングとは",
-    "sources": [
-      "https://www.infraexpert.com/study/etherchannel1.html"
-    ]
-  },
-  {
-    "id": "C04-11-06",
-    "question": "リンクステートトラッキングは、上位リンク障害を下位のサーバへどう伝える？",
-    "answer": "関連付けたサーバ向けリンクをダウンさせ、NIC側が障害を検知できるようにする。",
     "section_title": "チーミングとは",
     "sources": [
       "https://www.infraexpert.com/study/etherchannel1.html"

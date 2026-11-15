@@ -1,0 +1,1210 @@
+{
+  "chapter": 3,
+  "cards": 85,
+  "reviewed_cards": 85,
+  "method": "承認済みの全問を読み直し、問い・解答の対応、本文にない条件、重複、Cisco依存を再確認。",
+  "cards_review": [
+    {
+      "id": "K03-001-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-002-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-003-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-004-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-005-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-006-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet1.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-007-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet1.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-008-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet1.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-009-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet1.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-010-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet1.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-011a-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet14.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-129-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet14.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-012-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet14.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-013-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet14.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-014-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet14.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-015-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet14.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-016-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet2.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-017-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet2.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-019-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet2.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-020-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet2.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-021-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet3.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-022-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet3.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-023-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet3.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-131-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet3.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-024-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet3.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-026-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-027-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-028-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-090-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-091-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-029-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-030a-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-031-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-032-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-092-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-096-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-097-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-098-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet4.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-033-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet5.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-034-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet5.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-035-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet5.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-036-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet5.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-037-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet5.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-038-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet6.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-039-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet6.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-040-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet6.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-041-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet6.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-042-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet6.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-103-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet6.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-104-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet6.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-043-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet7.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-044-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet7.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-105-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet7.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-045-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet7.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-046-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet7.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-047-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet7.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-048-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet7.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-049-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet8.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-050-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet8.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-051-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet8.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-052-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet8.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-053-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet8.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-054-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/catalyst25.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-055-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/catalyst25.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-056-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/catalyst25.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-057-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/catalyst25.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-111-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/catalyst25.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-058-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/catalyst25.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-059-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet10.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-060-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet10.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-061-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet10.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-118-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet10.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-062-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet10.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-063-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet10.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-064-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet12.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-065-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet12.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-066-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet12.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-068-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/ethernet12.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-069-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/catalyst24.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-070-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/catalyst24.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-071-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/catalyst24.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-072-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/catalyst24.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-073-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/catalyst24.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-074-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/catalyst24.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    },
+    {
+      "id": "K03-075-B",
+      "result": "確認済み",
+      "source": [
+        "https://www.infraexpert.com/study/catalyst24.html"
+      ],
+      "checks": [
+        "問いに答えている",
+        "短く自然な表現",
+        "本文に根拠がある",
+        "Cisco専用事項なし"
+      ],
+      "note": "全問を再読。標準Ethernet、LLDP、PoEの知識を確認。"
+    }
+  ],
+  "excluded_cards": [
+    {
+      "id": "K03-110-B",
+      "question": "LLDPとCDPは、標準化の点でどう違う？",
+      "answer": "LLDPはIEEE標準、CDPはCisco独自。",
+      "section_title": "LLDP",
+      "sources": [
+        "https://www.infraexpert.com/study/catalyst25.html"
+      ],
+      "reason": "追加指示によりCisco独自事項を出題対象から除外。"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+[
+  {
+    "section": 1,
+    "title": "Ethernetとは",
+    "url": "https://www.infraexpert.com/study/ethernet.html",
+    "sha256": "9ad0145efe893583324720131ace9369f070e1bb30b2e73af4be7249d0ff1832",
+    "card_ids": [
+      "K03-001-B",
+      "K03-002-B",
+      "K03-003-B",
+      "K03-004-B",
+      "K03-005-B"
+    ],
+    "note": "Cisco独自事項は除外。共通技術のみ採用。"
+  },
+  {
+    "section": 2,
+    "title": "FastEthernet、GigabitEthernet、10GigabitEthernet",
+    "url": "https://www.infraexpert.com/study/ethernet1.html",
+    "sha256": "96827e2d18870df437f62bb2449711509a195121a4fe2d2bed1b7394b6d380eb",
+    "card_ids": [
+      "K03-006-B",
+      "K03-007-B",
+      "K03-008-B",
+      "K03-009-B",
+      "K03-010-B"
+    ],
+    "note": "Cisco独自事項は除外。共通技術のみ採用。"
+  },
+  {
+    "section": 3,
+    "title": "マルチギガビットイーサネットとは",
+    "url": "https://www.infraexpert.com/study/ethernet14.html",
+    "sha256": "344348b93e41a0cf31f9e2c38db1da95ac4a00d373dbecd180373764bc5e55d4",
+    "card_ids": [
+      "K03-011a-B",
+      "K03-129-B",
+      "K03-012-B",
+      "K03-013-B",
+      "K03-014-B",
+      "K03-015-B"
+    ],
+    "note": "Cisco独自事項は除外。共通技術のみ採用。"
+  },
+  {
+    "section": 4,
+    "title": "伝送メディア（ 同軸ケーブル、UTPケーブル、光 ）",
+    "url": "https://www.infraexpert.com/study/ethernet2.html",
+    "sha256": "c44879843f5dee29eb7e28a5566624dd2532c92102a591082533eda59be927de",
+    "card_ids": [
+      "K03-016-B",
+      "K03-017-B",
+      "K03-019-B",
+      "K03-020-B"
+    ],
+    "note": "Cisco独自事項は除外。共通技術のみ採用。"
+  },
+  {
+    "section": 5,
+    "title": "LANケーブル（ストレートケーブル、クロスケーブル）",
+    "url": "https://www.infraexpert.com/study/ethernet3.html",
+    "sha256": "4dec71df6b0fcae318ef278c0ecdb6f9ef515764688dec97878b77acda965c02",
+    "card_ids": [
+      "K03-021-B",
+      "K03-022-B",
+      "K03-023-B",
+      "K03-131-B",
+      "K03-024-B"
+    ],
+    "note": "Cisco独自事項は除外。共通技術のみ採用。"
+  },
+  {
+    "section": 6,
+    "title": "イーサネットフレーム & MACアドレスとは",
+    "url": "https://www.infraexpert.com/study/ethernet4.html",
+    "sha256": "f9ddf28a2c4c14ed04461ce9abd1c4de0e9b9c8b8811cd65cf3b5459e2862539",
+    "card_ids": [
+      "K03-026-B",
+      "K03-027-B",
+      "K03-028-B",
+      "K03-090-B",
+      "K03-091-B",
+      "K03-029-B",
+      "K03-030a-B",
+      "K03-031-B",
+      "K03-032-B",
+      "K03-092-B",
+      "K03-096-B",
+      "K03-097-B",
+      "K03-098-B"
+    ],
+    "note": "Cisco独自事項は除外。共通技術のみ採用。"
+  },
+  {
+    "section": 7,
+    "title": "CSMA/CDとは",
+    "url": "https://www.infraexpert.com/study/ethernet5.html",
+    "sha256": "a4b1c33def34bfc302ada2f09343d40bf2eb6a1fd2738debd2a76cd4739a1e9b",
+    "card_ids": [
+      "K03-033-B",
+      "K03-034-B",
+      "K03-035-B",
+      "K03-036-B",
+      "K03-037-B"
+    ],
+    "note": "Cisco独自事項は除外。共通技術のみ採用。"
+  },
+  {
+    "section": 8,
+    "title": "リピータ、ブリッジ、スイッチ、ルータ",
+    "url": "https://www.infraexpert.com/study/ethernet6.html",
+    "sha256": "94450afe0aa5ff701880db998e25226e743d43130eec8b91d8a7324075f0f9a5",
+    "card_ids": [
+      "K03-038-B",
+      "K03-039-B",
+      "K03-040-B",
+      "K03-041-B",
+      "K03-042-B",
+      "K03-103-B",
+      "K03-104-B"
+    ],
+    "note": "Cisco独自事項は除外。共通技術のみ採用。"
+  },
+  {
+    "section": 9,
+    "title": "L2スイッチング（フィルタリング、フレーム転送方式）",
+    "url": "https://www.infraexpert.com/study/ethernet7.html",
+    "sha256": "91dd63673b18e94e499132669cda04f8a5cf08483ce9d63e591999753dac2ef3",
+    "card_ids": [
+      "K03-043-B",
+      "K03-044-B",
+      "K03-105-B",
+      "K03-045-B",
+      "K03-046-B",
+      "K03-047-B",
+      "K03-048-B"
+    ],
+    "note": "Cisco独自事項は除外。共通技術のみ採用。"
+  },
+  {
+    "section": 10,
+    "title": "半二重通信/全二重通信",
+    "url": "https://www.infraexpert.com/study/ethernet8.html",
+    "sha256": "50c5a62ef865cb599b22c68355c0d50dcb56920210b0367aa4953c9b6d553ef5",
+    "card_ids": [
+      "K03-049-B",
+      "K03-050-B",
+      "K03-051-B",
+      "K03-052-B",
+      "K03-053-B"
+    ],
+    "note": "Cisco独自事項は除外。共通技術のみ採用。"
+  },
+  {
+    "section": 11,
+    "title": "LLDP（Link Layer Discovery Protocol）とは",
+    "url": "https://www.infraexpert.com/study/catalyst25.html",
+    "sha256": "c420b535282565703c8954637ef91253aac8f84d04effefc578b6ea22b2a8867",
+    "card_ids": [
+      "K03-054-B",
+      "K03-055-B",
+      "K03-056-B",
+      "K03-057-B",
+      "K03-111-B",
+      "K03-058-B"
+    ],
+    "note": "Cisco独自事項は除外。共通技術のみ採用。"
+  },
+  {
+    "section": 12,
+    "title": "ルータの動作の仕組み",
+    "url": "https://www.infraexpert.com/study/ethernet10.html",
+    "sha256": "bfaa2ab32eede6a52e0a9d362d97fb96f2130c9471abcb09a4488e664fb98091",
+    "card_ids": [
+      "K03-059-B",
+      "K03-060-B",
+      "K03-061-B",
+      "K03-118-B",
+      "K03-062-B",
+      "K03-063-B"
+    ],
+    "note": "Cisco独自事項は除外。共通技術のみ採用。"
+  },
+  {
+    "section": 13,
+    "title": "PLC（電力線通信）とは",
+    "url": "https://www.infraexpert.com/study/ethernet12.html",
+    "sha256": "797707931a6683d9cf5888b0134634d40309c7b0e74c522e0ee33590a521baed",
+    "card_ids": [
+      "K03-064-B",
+      "K03-065-B",
+      "K03-066-B",
+      "K03-068-B"
+    ],
+    "note": "Cisco独自事項は除外。共通技術のみ採用。"
+  },
+  {
+    "section": 14,
+    "title": "PoE、PoE+、PoE++とは",
+    "url": "https://www.infraexpert.com/study/catalyst24.html",
+    "sha256": "7f2ad4d65ed9c762ace5c683c3328735ad6c827d8844b6b9929c7ce7aac98ee7",
+    "card_ids": [
+      "K03-069-B",
+      "K03-070-B",
+      "K03-071-B",
+      "K03-072-B",
+      "K03-073-B",
+      "K03-074-B",
+      "K03-075-B"
+    ],
+    "note": "Cisco独自事項は除外。共通技術のみ採用。"
+  }
+]

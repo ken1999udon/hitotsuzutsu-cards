@@ -1,0 +1,2801 @@
+{
+  "chapter": 2,
+  "cards": 210,
+  "reviewed_cards": 210,
+  "method": "草案の全問を読み直し、原文と問い・解答を照合してから確定。自動生成した合格印ではなく、見直し完了後に記録。",
+  "cards_review": [
+    {
+      "id": "C02-01-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-01-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-01-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-01-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-01-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-02-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip1.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-02-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip1.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-02-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip1.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-02-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip1.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-02-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip1.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-02-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip1.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-02-07",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip1.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-02-08",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip1.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-02-09",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip1.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-02-10",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip1.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-02-11",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip1.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-02-12",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip1.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-02-13",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip1.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-02-14",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip1.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-03-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip2.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-03-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip2.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-03-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip2.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-03-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip2.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-03-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip2.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-04-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip3.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-04-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip3.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-04-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip3.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-05-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip3.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-05-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip3.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-05-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip3.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-05-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip3.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-05-05",
+      "result": "修正後確認",
+      "source": "https://www.infraexpert.com/study/tcpip3.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "IPv4ヘッダ内という曖昧な表現を、カプセル化の有無を問う表現へ修正。",
+      "draft_question": "ARPパケットは、IPv4ヘッダの中へ格納されるか。",
+      "draft_answer": "IPv4パケットには格納せず、Ethernetフレームへ直接格納する。"
+    },
+    {
+      "id": "C02-06-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip4.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-06-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip4.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-06-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip4.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-06-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip4.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-06-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip4.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-06-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip4.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-06-07",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip4.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-06-08",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip4.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-07-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-07-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-07-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-07-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-07-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-07-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-08-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip7.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-08-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip7.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-08-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip7.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-08-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip7.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-08-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip7.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-08-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip7.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-08-07",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip7.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-09-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip8.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-09-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip8.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-09-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip8.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-09-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip8.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-09-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip8.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-09-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip8.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-09-07",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip8.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-10-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip9.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-10-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip9.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-10-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip9.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-10-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip9.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-10-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip9.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-10-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip9.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-11-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip31.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-11-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip31.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-11-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip31.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-11-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip31.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-11-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip31.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-11-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip31.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-11-07",
+      "result": "修正後確認",
+      "source": "https://www.infraexpert.com/study/tcpip31.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "単純な二択をやめ、状態名を思い出す問いへ変更。",
+      "draft_question": "TCPのTIME_WAITは、接続確立前と終了時のどちらに現れる状態か。",
+      "draft_answer": "接続の終了時。"
+    },
+    {
+      "id": "C02-11-08",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip31.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-12-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip10.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-12-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip10.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-12-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip10.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-13-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip11.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-13-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip11.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-13-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip11.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-13-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip11.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-14-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip12.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-14-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip12.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-14-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip12.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-14-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip12.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-14-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip12.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-14-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip12.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-14-07",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip12.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-15-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-15-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-15-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-15-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-15-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-15-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-16-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip14.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-16-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip14.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-16-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip14.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-17-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip15.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-17-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip15.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-17-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip15.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-17-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip15.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-17-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip15.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-17-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip15.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-17-07",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip15.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-18-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip15.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-18-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip15.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-18-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip15.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-18-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip15.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-19-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip23.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-19-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip23.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-19-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip23.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-19-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip23.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-19-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip23.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-19-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip23.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-19-07",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip23.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-19-08",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip23.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-19-09",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip23.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-19-10",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip23.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-19-11",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip23.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-19-12",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip23.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-19-13",
+      "result": "修正後確認",
+      "source": "https://www.infraexpert.com/study/tcpip23.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "解答をより自然な日本語へ修正。",
+      "draft_question": "DNSゾーンファイルで、ドメイン名の末尾に「.」を付ける意味は？",
+      "draft_answer": "絶対的なドメイン名とし、末尾へのORIGINの補完を行わないこと。"
+    },
+    {
+      "id": "C02-19-14",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip23.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-20-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip24.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-20-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip24.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-20-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip24.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-20-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip24.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-21-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip26.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-21-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip26.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-22-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-22-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-22-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-22-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-22-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-22-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-22-07",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-22-08",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-22-09",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-22-10",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-23-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.7.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-23-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.7.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-23-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.7.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-23-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.7.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-23-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.7.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-23-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.7.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-23-07",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.7.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-23-08",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.7.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-24-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.8.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-24-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.8.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-24-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.8.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-24-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.8.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-24-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.8.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-24-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.8.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-24-07",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.8.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-24-08",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.8.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-24-09",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.8.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-25-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-26-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.6.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-26-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.6.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-26-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.6.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-26-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.6.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-26-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.6.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-26-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.6.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-26-07",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.6.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-26-08",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip16.6.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-27-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip17.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-27-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip17.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-27-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip17.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-27-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip17.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-28-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip18.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-28-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip18.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-28-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip18.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-28-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip18.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-29-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip19.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-29-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip19.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-30-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip20.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-30-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip20.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-30-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip20.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-30-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip20.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-30-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip20.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-30-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip20.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-30-07",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip20.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-31-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip20.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-31-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip20.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-31-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip20.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-31-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip20.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-31-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip20.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-31-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip20.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-32-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip21.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-32-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip21.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-32-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip21.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-32-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip21.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-32-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip21.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-32-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip21.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-32-07",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip21.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-33-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip21.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-33-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip21.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-33-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip21.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-33-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip21.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-33-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip21.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-33-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip21.5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-34-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip25.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-34-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip25.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-34-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip25.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-34-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip25.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-34-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip25.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-34-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/tcpip25.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-35-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/syslog1.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-35-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/syslog1.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-35-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/syslog1.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    },
+    {
+      "id": "C02-35-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/syslog1.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "草案を二分して全問を再読。標準TCP/IPの知識として成立するか、問いと答えの対応、重複、Cisco依存を確認。"
+    }
+  ],
+  "removed_drafts": [
+    {
+      "id": "C02-01-01",
+      "question": "本文のTCP/IP階層モデルは、何層で構成される？",
+      "answer": "4層。",
+      "section_title": "TCP/IPの階層モデル",
+      "sources": [
+        "https://www.infraexpert.com/study/tcpip.html"
+      ],
+      "reason": "別の問いと同じ知識を重複して問うため削除。"
+    },
+    {
+      "id": "C02-25-02",
+      "question": "CGIのプログラムを実行するのは、サーバ側とブラウザ側のどちらか。",
+      "answer": "サーバ側。",
+      "section_title": "CGIとは",
+      "sources": [
+        "https://www.infraexpert.com/study/tcpip16.5.html"
+      ],
+      "reason": "別の問いと同じ知識を重複して問うため削除。"
+    },
+    {
+      "id": "C02-35-05",
+      "question": "syslogの重要度で、emergencyとdebugはそれぞれ何番か。",
+      "answer": "emergencyは0、debugは7。",
+      "section_title": "syslogとは",
+      "sources": [
+        "https://www.infraexpert.com/study/syslog1.html"
+      ],
+      "reason": "別の問いと同じ知識を重複して問うため削除。"
+    }
+  ],
+  "source_cautions": [
+    {
+      "topic": "MSS",
+      "decision": "双方で小さいMSSへ一律に統一するとは問わず、各受信側が受信できる上限の通知として問う。",
+      "reference": "https://www.rfc-editor.org/rfc/rfc9293.html#section-3.7.1"
+    },
+    {
+      "topic": "HTTP/1.1",
+      "decision": "要求ごとに必ずTCP接続を切るという説明は採用しない。",
+      "reference": "https://www.rfc-editor.org/rfc/rfc9112.html#section-9.3"
+    },
+    {
+      "topic": "HTTP/3",
+      "decision": "TCPハンドシェイクを3往復とは問わない。HOLは送信停止ではなく順序付き配送の待ちとして表す。",
+      "reference": "https://www.rfc-editor.org/rfc/rfc9000.html#section-2"
+    },
+    {
+      "topic": "SNMP",
+      "decision": "Trapがv2cなら確認応答付きになるとは問わず、TrapとInformを区別。"
+    },
+    {
+      "topic": "Cisco独自設定",
+      "decision": "DNSプロキシなどの一般的機能だけを問う。Ciscoの設定コマンドは不採用。"
+    }
+  ]
+}

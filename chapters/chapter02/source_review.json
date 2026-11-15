@@ -1,0 +1,492 @@
+[
+  {
+    "section": 1,
+    "title": "TCP/IPの階層モデル",
+    "url": "https://www.infraexpert.com/study/tcpip.html",
+    "sha256": "23321d478686efc4f33f9577fda55c82dfd32766a064eb28c943624768877eef",
+    "card_ids": [
+      "C02-01-02",
+      "C02-01-03",
+      "C02-01-04",
+      "C02-01-05",
+      "C02-01-06"
+    ]
+  },
+  {
+    "section": 2,
+    "title": "IPとは",
+    "url": "https://www.infraexpert.com/study/tcpip1.html",
+    "sha256": "5d0684443c95a59ed5b507963b98db69f9dc8b7f3235d701a5d7c7b22f871e78",
+    "card_ids": [
+      "C02-02-01",
+      "C02-02-02",
+      "C02-02-03",
+      "C02-02-04",
+      "C02-02-05",
+      "C02-02-06",
+      "C02-02-07",
+      "C02-02-08",
+      "C02-02-09",
+      "C02-02-10",
+      "C02-02-11",
+      "C02-02-12",
+      "C02-02-13",
+      "C02-02-14"
+    ]
+  },
+  {
+    "section": 3,
+    "title": "ARPとは、RARPとは",
+    "url": "https://www.infraexpert.com/study/tcpip2.html",
+    "sha256": "3f053d34e1ee53018e270d582aa55fda2d9f01fab7ba65091bb942d44d89b493",
+    "card_ids": [
+      "C02-03-01",
+      "C02-03-02",
+      "C02-03-03",
+      "C02-03-04",
+      "C02-03-05"
+    ]
+  },
+  {
+    "section": 4,
+    "title": "GARP（Gratuitous ARP）とは",
+    "url": "https://www.infraexpert.com/study/tcpip3.5.html",
+    "sha256": "6c60034752942cfdb26e7e73af01c312557b5bcca469f4f1e519162d86f18095",
+    "card_ids": [
+      "C02-04-01",
+      "C02-04-02",
+      "C02-04-03"
+    ]
+  },
+  {
+    "section": 5,
+    "title": "ARPキャッシュとARPテーブル",
+    "url": "https://www.infraexpert.com/study/tcpip3.html",
+    "sha256": "31ea8d9321756ff2af4ea5f087d8b4fd21ea595dd88fed466f2327ab97780d3e",
+    "card_ids": [
+      "C02-05-01",
+      "C02-05-02",
+      "C02-05-03",
+      "C02-05-04",
+      "C02-05-05"
+    ]
+  },
+  {
+    "section": 6,
+    "title": "ICMPとは",
+    "url": "https://www.infraexpert.com/study/tcpip4.html",
+    "sha256": "79ecd037a0535b7a4a6eb0593525b6fe4514b9109d012cbb5e1773c2420b40b3",
+    "card_ids": [
+      "C02-06-01",
+      "C02-06-02",
+      "C02-06-03",
+      "C02-06-04",
+      "C02-06-05",
+      "C02-06-06",
+      "C02-06-07",
+      "C02-06-08"
+    ]
+  },
+  {
+    "section": 7,
+    "title": "pingコマンド",
+    "url": "https://www.infraexpert.com/study/tcpip5.html",
+    "sha256": "88585759bb5891340d9de7cb5db0457bdb832328df90fb650c8f57d0b0fc4ab8",
+    "card_ids": [
+      "C02-07-01",
+      "C02-07-02",
+      "C02-07-03",
+      "C02-07-04",
+      "C02-07-05",
+      "C02-07-06"
+    ]
+  },
+  {
+    "section": 8,
+    "title": "TCPとは",
+    "url": "https://www.infraexpert.com/study/tcpip7.html",
+    "sha256": "1ed41e489cc043b3eff0537856b26317f1c1c9b8a991a7d5f77c15b28feed579",
+    "card_ids": [
+      "C02-08-01",
+      "C02-08-02",
+      "C02-08-03",
+      "C02-08-04",
+      "C02-08-05",
+      "C02-08-06",
+      "C02-08-07"
+    ]
+  },
+  {
+    "section": 9,
+    "title": "TCPとは：TCPヘッダ",
+    "url": "https://www.infraexpert.com/study/tcpip8.html",
+    "sha256": "4597195a7fec9f5488d3c7c6cfcb3aa42d1609f10bad9f87479590a267fd3923",
+    "card_ids": [
+      "C02-09-01",
+      "C02-09-02",
+      "C02-09-03",
+      "C02-09-04",
+      "C02-09-05",
+      "C02-09-06",
+      "C02-09-07"
+    ]
+  },
+  {
+    "section": 10,
+    "title": "TCPとは：3ウェイハンドシェイク",
+    "url": "https://www.infraexpert.com/study/tcpip9.html",
+    "sha256": "a2ab9cf4d8a370b8efb7ebbebb5d48a518ff2b9a5f302b45dfeda234281ff39b",
+    "card_ids": [
+      "C02-10-01",
+      "C02-10-02",
+      "C02-10-03",
+      "C02-10-04",
+      "C02-10-05",
+      "C02-10-06"
+    ]
+  },
+  {
+    "section": 11,
+    "title": "TCPとは：状態遷移 - CLOSED、LISTEN、ESTABLISHED",
+    "url": "https://www.infraexpert.com/study/tcpip31.html",
+    "sha256": "0f9a77392ea95e0673900858ee12eb8d5548491a4e6388cebea7351521593b9b",
+    "card_ids": [
+      "C02-11-01",
+      "C02-11-02",
+      "C02-11-03",
+      "C02-11-04",
+      "C02-11-05",
+      "C02-11-06",
+      "C02-11-07",
+      "C02-11-08"
+    ]
+  },
+  {
+    "section": 12,
+    "title": "TCPとは：順序制御、再送制御",
+    "url": "https://www.infraexpert.com/study/tcpip10.html",
+    "sha256": "51d3bcada05ba81263c3dd9ea72183a4ee97af6a563e9992706bdc765976c1f0",
+    "card_ids": [
+      "C02-12-01",
+      "C02-12-02",
+      "C02-12-03"
+    ]
+  },
+  {
+    "section": 13,
+    "title": "TCPとは：ウィンドウ制御、フロー制御制御",
+    "url": "https://www.infraexpert.com/study/tcpip11.html",
+    "sha256": "50a29ffa2bfa1358472d1bf52c7065eb198c50e94f67d6dee9873082e9798977",
+    "card_ids": [
+      "C02-13-01",
+      "C02-13-02",
+      "C02-13-03",
+      "C02-13-04"
+    ]
+  },
+  {
+    "section": 14,
+    "title": "UDPとは",
+    "url": "https://www.infraexpert.com/study/tcpip12.html",
+    "sha256": "a96f393ad682ac942090e599020323fa33fd52c5bcdfc92c989586cdefd54de5",
+    "card_ids": [
+      "C02-14-01",
+      "C02-14-02",
+      "C02-14-03",
+      "C02-14-04",
+      "C02-14-05",
+      "C02-14-06",
+      "C02-14-07"
+    ]
+  },
+  {
+    "section": 15,
+    "title": "DHCPとは",
+    "url": "https://www.infraexpert.com/study/tcpip13.html",
+    "sha256": "965269649872b7e47bd909e326f5ab90731fe1900c863f9afc2042ea13f04747",
+    "card_ids": [
+      "C02-15-01",
+      "C02-15-02",
+      "C02-15-03",
+      "C02-15-04",
+      "C02-15-05",
+      "C02-15-06"
+    ]
+  },
+  {
+    "section": 16,
+    "title": "DHCPリレーエージェントとは",
+    "url": "https://www.infraexpert.com/study/tcpip14.html",
+    "sha256": "930f6f7243df4e3b759be610a357fa9c8c679bd8aa797436759eb3c8a8c12378",
+    "card_ids": [
+      "C02-16-01",
+      "C02-16-02",
+      "C02-16-03"
+    ]
+  },
+  {
+    "section": 17,
+    "title": "DNSとは",
+    "url": "https://www.infraexpert.com/study/tcpip15.html",
+    "sha256": "ba06b8e6e52ec73f0bab90908c183432cc08dadc5d63808cc0210346bcd362c6",
+    "card_ids": [
+      "C02-17-01",
+      "C02-17-02",
+      "C02-17-03",
+      "C02-17-04",
+      "C02-17-05",
+      "C02-17-06",
+      "C02-17-07"
+    ]
+  },
+  {
+    "section": 18,
+    "title": "権威DNSサーバとキャッシュDNSサーバの違い",
+    "url": "https://www.infraexpert.com/study/tcpip15.5.html",
+    "sha256": "1d783ff1b4485b4c23bee142d0d3edeb5b40fd26211e945970727d1156d4331d",
+    "card_ids": [
+      "C02-18-01",
+      "C02-18-02",
+      "C02-18-03",
+      "C02-18-04"
+    ]
+  },
+  {
+    "section": 19,
+    "title": "DNSゾーンファイルとリソースレコード",
+    "url": "https://www.infraexpert.com/study/tcpip23.html",
+    "sha256": "3edf898631a9a3874f72a1111fb800cba0368c84f826ecaf2d7f37013737ecd5",
+    "card_ids": [
+      "C02-19-01",
+      "C02-19-02",
+      "C02-19-03",
+      "C02-19-04",
+      "C02-19-05",
+      "C02-19-06",
+      "C02-19-07",
+      "C02-19-08",
+      "C02-19-09",
+      "C02-19-10",
+      "C02-19-11",
+      "C02-19-12",
+      "C02-19-13",
+      "C02-19-14"
+    ]
+  },
+  {
+    "section": 20,
+    "title": "DNSリゾルバ、フォワーダー",
+    "url": "https://www.infraexpert.com/study/tcpip24.html",
+    "sha256": "6393a28ecd4a3f89b54d50926bab4c32c3498ad531bbeb4f36a01def271ef171",
+    "card_ids": [
+      "C02-20-01",
+      "C02-20-02",
+      "C02-20-03",
+      "C02-20-04"
+    ]
+  },
+  {
+    "section": 21,
+    "title": "DNSプロキシ",
+    "url": "https://www.infraexpert.com/study/tcpip26.html",
+    "sha256": "be36a573b72993168bd4ff473511ed0811661024a1be16df46322b2fb5eb26a2",
+    "card_ids": [
+      "C02-21-01",
+      "C02-21-02"
+    ]
+  },
+  {
+    "section": 22,
+    "title": "HTTPとは",
+    "url": "https://www.infraexpert.com/study/tcpip16.html",
+    "sha256": "8d906e6515a52096763acc523126b884e3b3bd1f4975f32ee576ecfb6edeaf36",
+    "card_ids": [
+      "C02-22-01",
+      "C02-22-02",
+      "C02-22-03",
+      "C02-22-04",
+      "C02-22-05",
+      "C02-22-06",
+      "C02-22-07",
+      "C02-22-08",
+      "C02-22-09",
+      "C02-22-10"
+    ]
+  },
+  {
+    "section": 23,
+    "title": "HTTP/2とは",
+    "url": "https://www.infraexpert.com/study/tcpip16.7.html",
+    "sha256": "d1576f8834a97134d58c2745770b2bad9f432835e0a9b8bdc208496ac3db9ac0",
+    "card_ids": [
+      "C02-23-01",
+      "C02-23-02",
+      "C02-23-03",
+      "C02-23-04",
+      "C02-23-05",
+      "C02-23-06",
+      "C02-23-07",
+      "C02-23-08"
+    ]
+  },
+  {
+    "section": 24,
+    "title": "HTTP/3とは",
+    "url": "https://www.infraexpert.com/study/tcpip16.8.html",
+    "sha256": "c807225c7bcbee8e1623ebe7610a25f4f759a31fb0ec189253f057ec69d80443",
+    "card_ids": [
+      "C02-24-01",
+      "C02-24-02",
+      "C02-24-03",
+      "C02-24-04",
+      "C02-24-05",
+      "C02-24-06",
+      "C02-24-07",
+      "C02-24-08",
+      "C02-24-09"
+    ]
+  },
+  {
+    "section": 25,
+    "title": "CGIとは",
+    "url": "https://www.infraexpert.com/study/tcpip16.5.html",
+    "sha256": "ffc3bcbd5f6c5c6b0566f8676cbf88f27c37d6ce8b3023364220944579e0376a",
+    "card_ids": [
+      "C02-25-01"
+    ]
+  },
+  {
+    "section": 26,
+    "title": "Cookieとは",
+    "url": "https://www.infraexpert.com/study/tcpip16.6.html",
+    "sha256": "fe6761e924707a1e41061fe5b05c4837f6911880f3df39e241962eca3faf3748",
+    "card_ids": [
+      "C02-26-01",
+      "C02-26-02",
+      "C02-26-03",
+      "C02-26-04",
+      "C02-26-05",
+      "C02-26-06",
+      "C02-26-07",
+      "C02-26-08"
+    ]
+  },
+  {
+    "section": 27,
+    "title": "SMTP/POPとは",
+    "url": "https://www.infraexpert.com/study/tcpip17.html",
+    "sha256": "a1d3ae647cd554a109ec24b58dde3ecb316821aa40d6ac6040b6f3c51fa587d5",
+    "card_ids": [
+      "C02-27-01",
+      "C02-27-02",
+      "C02-27-03",
+      "C02-27-04"
+    ]
+  },
+  {
+    "section": 28,
+    "title": "SMTP - OP25B、サブミッションポートとSMTP認証",
+    "url": "https://www.infraexpert.com/study/tcpip18.html",
+    "sha256": "017643a328c3d4e3ff8bc313694f1642cff4800e8bce6d2a63cc70e499a694bd",
+    "card_ids": [
+      "C02-28-01",
+      "C02-28-02",
+      "C02-28-03",
+      "C02-28-04"
+    ]
+  },
+  {
+    "section": 29,
+    "title": "Telnet/SSHとは",
+    "url": "https://www.infraexpert.com/study/tcpip19.html",
+    "sha256": "6ebb78da5027496e667bca60a20e0a956856308ec4f60c0b160f911d18be144d",
+    "card_ids": [
+      "C02-29-01",
+      "C02-29-02"
+    ]
+  },
+  {
+    "section": 30,
+    "title": "FTPとは - アクティブ/パッシブモード - PORT/PASV",
+    "url": "https://www.infraexpert.com/study/tcpip20.html",
+    "sha256": "8630da3d5becb03203443a71d9c3030363abc1cbe4b31260e16ed57afa7470c8",
+    "card_ids": [
+      "C02-30-01",
+      "C02-30-02",
+      "C02-30-03",
+      "C02-30-04",
+      "C02-30-05",
+      "C02-30-06",
+      "C02-30-07"
+    ]
+  },
+  {
+    "section": 31,
+    "title": "TFTPとは",
+    "url": "https://www.infraexpert.com/study/tcpip20.5.html",
+    "sha256": "e82811dbac19bb5818378265cb55b0bdcc19bcde2573eab62ae6e7f12ac98a21",
+    "card_ids": [
+      "C02-31-01",
+      "C02-31-02",
+      "C02-31-03",
+      "C02-31-04",
+      "C02-31-05",
+      "C02-31-06"
+    ]
+  },
+  {
+    "section": 32,
+    "title": "SNMPとは",
+    "url": "https://www.infraexpert.com/study/tcpip21.html",
+    "sha256": "c6e82017972d896e324e369d92f09d08964008065254aebedebbed6ace3c38cd",
+    "card_ids": [
+      "C02-32-01",
+      "C02-32-02",
+      "C02-32-03",
+      "C02-32-04",
+      "C02-32-05",
+      "C02-32-06",
+      "C02-32-07"
+    ]
+  },
+  {
+    "section": 33,
+    "title": "SNMPコミュニティ、バージョン",
+    "url": "https://www.infraexpert.com/study/tcpip21.5.html",
+    "sha256": "a72f35b5b5696ddb3d03e0902a4a91ecaca5a581776a61320fc4484e8f84bbb0",
+    "card_ids": [
+      "C02-33-01",
+      "C02-33-02",
+      "C02-33-03",
+      "C02-33-04",
+      "C02-33-05",
+      "C02-33-06"
+    ]
+  },
+  {
+    "section": 34,
+    "title": "NTPとは",
+    "url": "https://www.infraexpert.com/study/tcpip25.html",
+    "sha256": "80fdb76cc2694ce04e87dc95125cec7f83c307b8ea66319f4f90dc53bff7d8fe",
+    "card_ids": [
+      "C02-34-01",
+      "C02-34-02",
+      "C02-34-03",
+      "C02-34-04",
+      "C02-34-05",
+      "C02-34-06"
+    ]
+  },
+  {
+    "section": 35,
+    "title": "syslogとは",
+    "url": "https://www.infraexpert.com/study/syslog1.html",
+    "sha256": "c62c4474948c7dfa27ba47dd292426b502c340d4372693c9d7d6f9ac06aa1b49",
+    "card_ids": [
+      "C02-35-01",
+      "C02-35-02",
+      "C02-35-03",
+      "C02-35-04"
+    ]
+  }
+]

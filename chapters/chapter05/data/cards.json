@@ -423,33 +423,6 @@
     ]
   },
   {
-    "id": "C05-07-05",
-    "question": "CiscoのNAT用語で、内部ローカルアドレスとは何か。",
-    "answer": "内部ホストに実際に割り当てた、内部側で使うアドレス。",
-    "section_title": "NATとは",
-    "sources": [
-      "https://www.infraexpert.com/study/ip10.html"
-    ]
-  },
-  {
-    "id": "C05-07-06",
-    "question": "CiscoのNAT用語で、内部グローバルアドレスとは何か。",
-    "answer": "外部から見える、内部ホストの変換後アドレス。",
-    "section_title": "NATとは",
-    "sources": [
-      "https://www.infraexpert.com/study/ip10.html"
-    ]
-  },
-  {
-    "id": "C05-07-07",
-    "question": "CiscoのNAT用語で、外部ローカルと外部グローバルは何の見え方の違いか。",
-    "answer": "外部ホストのアドレスを、内部側から見るか、外部側で見るかの違い。",
-    "section_title": "NATとは",
-    "sources": [
-      "https://www.infraexpert.com/study/ip10.html"
-    ]
-  },
-  {
     "id": "C05-08-01",
     "question": "スタティックNATでは、アドレスの対応をいつ決める？",
     "answer": "管理者があらかじめ1対1の対応を設定する。",
@@ -498,15 +471,6 @@
     "id": "C05-09-03",
     "question": "NAPTで同じ外部向けIPアドレスを使う通信を、戻りパケットで区別できる理由は？",
     "answer": "ポート番号を含む変換情報で、対応する内部の通信を識別するため。",
-    "section_title": "NAPT（IPマスカレード）の仕組み",
-    "sources": [
-      "https://www.infraexpert.com/study/ip11.5.html"
-    ]
-  },
-  {
-    "id": "C05-09-04",
-    "question": "CiscoでNAPTを指す呼び名は？",
-    "answer": "PAT（Port Address Translation）。",
     "section_title": "NAPT（IPマスカレード）の仕組み",
     "sources": [
       "https://www.infraexpert.com/study/ip11.5.html"
