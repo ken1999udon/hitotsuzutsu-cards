@@ -1,0 +1,138 @@
+[
+  {
+    "section": 1,
+    "title": "ロードバランサとは、DNSラウンドロビンとは",
+    "url": "https://www.infraexpert.com/study/loadbalancer1.html",
+    "sha256": "5e15d71b78342aaee6d81403b9780b7755046042318b2ed39698f0f0c5a3dc2b",
+    "card_ids": [
+      "C14-01-01",
+      "C14-01-02",
+      "C14-01-03",
+      "C14-01-04"
+    ]
+  },
+  {
+    "section": 2,
+    "title": "ロードバランサ＋DNSラウンドロビンの組合せ",
+    "url": "https://www.infraexpert.com/study/loadbalancer2.html",
+    "sha256": "20e38381736d309ccc2ca84cc6583a89c3040ee5419a5c8a8a732e67e7bd34bc",
+    "card_ids": [
+      "C14-02-01",
+      "C14-02-02"
+    ]
+  },
+  {
+    "section": 3,
+    "title": "ロードバランサ＋DNSラウンドロビン＋回線負荷分散",
+    "url": "https://www.infraexpert.com/study/loadbalancer3.html",
+    "sha256": "fd2c7d1222e4a2c1003cfc9c5e4c13c6bc77196b4331c9ba9ab34200a02b6cba",
+    "card_ids": [
+      "C14-03-01",
+      "C14-03-02"
+    ]
+  },
+  {
+    "section": 4,
+    "title": "ロードバランシングの種類",
+    "url": "https://www.infraexpert.com/study/loadbalancer4.html",
+    "sha256": "84d174a66baabac85c3905faec49c78ae59397efc1b9c9725d7409e13f1110ea",
+    "card_ids": [
+      "C14-04-01",
+      "C14-04-02",
+      "C14-04-03",
+      "C14-04-04"
+    ]
+  },
+  {
+    "section": 5,
+    "title": "パーシステンスの種類",
+    "url": "https://www.infraexpert.com/study/loadbalancer5.html",
+    "sha256": "7285cf98ad424cf10a7af731ab35d1074298d47924b856c4f574ee860331ba34",
+    "card_ids": [
+      "C14-05-01",
+      "C14-05-02",
+      "C14-05-03",
+      "C14-05-04",
+      "C14-05-05"
+    ]
+  },
+  {
+    "section": 6,
+    "title": "モニターの種類",
+    "url": "https://www.infraexpert.com/study/loadbalancer6.html",
+    "sha256": "149b1097f4a7b5837da8422a611d53dd7e3c3cd08550c1e6e5e20a58e498d6b6",
+    "card_ids": [
+      "C14-06-01",
+      "C14-06-02",
+      "C14-06-03",
+      "C14-06-04"
+    ]
+  },
+  {
+    "section": 7,
+    "title": "基本構成、IPアドレス割当、アドレス変換内容",
+    "url": "https://www.infraexpert.com/study/loadbalancer7.html",
+    "sha256": "845bb2fd8feb3afc127cbc66d41be58c9fbae37f8408a570ef03e6428bb0b5ea",
+    "card_ids": [
+      "C14-07-01",
+      "C14-07-02",
+      "C14-07-03"
+    ]
+  },
+  {
+    "section": 8,
+    "title": "ロードバランサ - ワンアーム構成とは",
+    "url": "https://www.infraexpert.com/study/loadbalancer10.html",
+    "sha256": "a704f43339e9524cd08f96daa3aa34642cec43a6226d9d2d30ad14798a291ec3",
+    "card_ids": [
+      "C14-08-01",
+      "C14-08-02",
+      "C14-08-03"
+    ]
+  },
+  {
+    "section": 9,
+    "title": "ロードバランサ - XFF（X-Forwared-For）とは",
+    "url": "https://www.infraexpert.com/study/loadbalancer11.html",
+    "sha256": "085790240fc34e0cb74abe38a3a1c23088edd178aba54e9fc997848f14e55898",
+    "card_ids": [
+      "C14-09-01",
+      "C14-09-02",
+      "C14-09-03"
+    ]
+  },
+  {
+    "section": 10,
+    "title": "ロードバランサ - DSR（Direct Server Return）",
+    "url": "https://www.infraexpert.com/study/loadbalancer12.html",
+    "sha256": "f0597e8226acab08d8063492f90db02d9a29ff98efe6866c964de386cef96678",
+    "card_ids": [
+      "C14-10-01",
+      "C14-10-02",
+      "C14-10-03",
+      "C14-10-04"
+    ]
+  },
+  {
+    "section": 11,
+    "title": "広域負荷分散 - GSLBとは",
+    "url": "https://www.infraexpert.com/study/loadbalancer8.html",
+    "sha256": "28e8fcd0efc5997349463a8452ee23e4c936b2dd450aa8c1dea511942df2fa1a",
+    "card_ids": [
+      "C14-11-01",
+      "C14-11-02",
+      "C14-11-03"
+    ]
+  },
+  {
+    "section": 12,
+    "title": "CDN（Contents Delivery Network）とは",
+    "url": "https://www.infraexpert.com/study/loadbalancer13.html",
+    "sha256": "33f6181f18b2f3cd3e0087186719feed952df53994d2d07c5802eb216ff899a7",
+    "card_ids": [
+      "C14-12-01",
+      "C14-12-02",
+      "C14-12-03"
+    ]
+  }
+]

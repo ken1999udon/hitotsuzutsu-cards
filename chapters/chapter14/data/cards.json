@@ -1,0 +1,362 @@
+[
+  {
+    "id": "C14-01-01",
+    "question": "ロードバランサを導入する主な目的は？",
+    "answer": "複数のサーバへ処理を分散し、性能や可用性を高めるため。",
+    "section_title": "ロードバランサとは、DNSラウンドロビンとは",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer1.html"
+    ]
+  },
+  {
+    "id": "C14-01-02",
+    "question": "DNSラウンドロビンは、1つのホスト名へ何を登録して負荷分散する？",
+    "answer": "複数のIPアドレス。",
+    "section_title": "ロードバランサとは、DNSラウンドロビンとは",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer1.html"
+    ]
+  },
+  {
+    "id": "C14-01-03",
+    "question": "単純なDNSラウンドロビンだけでは、障害サーバを自動で除外できない理由は？",
+    "answer": "DNSの応答順を変えるだけでは、サーバの稼働状態を監視しないため。",
+    "section_title": "ロードバランサとは、DNSラウンドロビンとは",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer1.html"
+    ]
+  },
+  {
+    "id": "C14-01-04",
+    "question": "DNSラウンドロビンで、負荷が必ず均等になるとは限らない理由は？",
+    "answer": "DNSキャッシュや接続の継続時間などによって、実際のアクセス数が偏るため。",
+    "section_title": "ロードバランサとは、DNSラウンドロビンとは",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer1.html"
+    ]
+  },
+  {
+    "id": "C14-02-01",
+    "question": "ロードバランサへの接続で、クライアントが宛先にする仮想的なIPアドレスは？",
+    "answer": "VIP（仮想IPアドレス）。",
+    "section_title": "ロードバランサ＋DNSラウンドロビンの組合せ",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer2.html"
+    ]
+  },
+  {
+    "id": "C14-02-02",
+    "question": "サーバを複数台にしても、ロードバランサが1台なら残る可用性上の問題は？",
+    "answer": "ロードバランサ自体が単一障害点となる。",
+    "section_title": "ロードバランサ＋DNSラウンドロビンの組合せ",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer2.html"
+    ]
+  },
+  {
+    "id": "C14-03-01",
+    "question": "回線障害に応じてDNS回答を変える負荷分散では、障害側のアドレスをどう扱う？",
+    "answer": "新しい回答の候補から外す。",
+    "section_title": "ロードバランサ＋DNSラウンドロビン＋回線負荷分散",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer3.html"
+    ]
+  },
+  {
+    "id": "C14-03-02",
+    "question": "DNSの回答を正常側へ変えても、全端末の接続先がすぐには変わらない理由は？",
+    "answer": "以前のDNS回答が、クライアントやリゾルバにキャッシュされている場合があるため。",
+    "section_title": "ロードバランサ＋DNSラウンドロビン＋回線負荷分散",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer3.html"
+    ]
+  },
+  {
+    "id": "C14-04-01",
+    "question": "負荷分散のラウンドロビン方式は、どのようにサーバを選ぶ？",
+    "answer": "利用可能なサーバへ順番に振り分ける。",
+    "section_title": "ロードバランシングの種類",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer4.html"
+    ]
+  },
+  {
+    "id": "C14-04-02",
+    "question": "重み付きラウンドロビンは、何に応じて振分けの割合を変えられる？",
+    "answer": "サーバごとに設定した重み。処理能力の差などを反映できる。",
+    "section_title": "ロードバランシングの種類",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer4.html"
+    ]
+  },
+  {
+    "id": "C14-04-03",
+    "question": "最小接続数方式は、どのサーバを選ぶ？",
+    "answer": "現在の接続数が最も少ないサーバ。",
+    "section_title": "ロードバランシングの種類",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer4.html"
+    ]
+  },
+  {
+    "id": "C14-04-04",
+    "question": "静的な負荷分散と動的な負荷分散の違いは？",
+    "answer": "静的方式は決めた順序や比率を使い、動的方式は接続数などの状態を反映する。",
+    "section_title": "ロードバランシングの種類",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer4.html"
+    ]
+  },
+  {
+    "id": "C14-05-01",
+    "question": "ロードバランサのパーシステンスとは、どのような機能か。",
+    "answer": "同じ利用者などからの一連の要求を、同じサーバへ転送する機能。",
+    "section_title": "パーシステンスの種類",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer5.html"
+    ]
+  },
+  {
+    "id": "C14-05-02",
+    "question": "セッション情報を各サーバが個別に持つWebアプリで、パーシステンスを使う理由は？",
+    "answer": "途中で別サーバへ振り分けられ、ログインや買物かごなどの状態が失われるのを防ぐため。",
+    "section_title": "パーシステンスの種類",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer5.html"
+    ]
+  },
+  {
+    "id": "C14-05-03",
+    "question": "送信元IP方式とCookie方式のパーシステンスは、何で振分け先を固定する？",
+    "answer": "前者はクライアントの送信元IP、後者はHTTP Cookieの情報。",
+    "section_title": "パーシステンスの種類",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer5.html"
+    ]
+  },
+  {
+    "id": "C14-05-04",
+    "question": "ロードバランサがCookieを挿入する方式では、最初の応答で何を行う？",
+    "answer": "選んだサーバを識別できるCookieを、クライアントへ返す応答に付ける。",
+    "section_title": "パーシステンスの種類",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer5.html"
+    ]
+  },
+  {
+    "id": "C14-05-05",
+    "question": "Cookie方式のパーシステンスで、2回目以降の振分け先を判断できる理由は？",
+    "answer": "クライアントが前の応答で受け取ったCookieを、次の要求で送り返すため。",
+    "section_title": "パーシステンスの種類",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer5.html"
+    ]
+  },
+  {
+    "id": "C14-06-01",
+    "question": "ロードバランサのヘルスチェックは、何を判断するために行う？",
+    "answer": "分散先サーバが、利用できる状態にあるかどうか。",
+    "section_title": "モニターの種類",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer6.html"
+    ]
+  },
+  {
+    "id": "C14-06-02",
+    "question": "TCP接続による監視は、ICMP監視より何を追加で確認できる？",
+    "answer": "対象のTCPサービスが接続を受け付けること。",
+    "section_title": "モニターの種類",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer6.html"
+    ]
+  },
+  {
+    "id": "C14-06-03",
+    "question": "HTTPの応答内容を確認する監視は、TCP接続の成功だけでは分からない何を確認する？",
+    "answer": "アプリケーションが、期待する内容を正常に返せること。",
+    "section_title": "モニターの種類",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer6.html"
+    ]
+  },
+  {
+    "id": "C14-06-04",
+    "question": "ヘルスチェックで異常を検出したサーバは、新規要求の振分けでどう扱う？",
+    "answer": "正常に戻るまで、振分け対象から外す。",
+    "section_title": "モニターの種類",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer6.html"
+    ]
+  },
+  {
+    "id": "C14-07-01",
+    "question": "ロードバランサの仮想サービスは、通常どの2つの宛先情報で定義する？",
+    "answer": "仮想IPアドレスとポート番号。",
+    "section_title": "基本構成、IPアドレス割当、アドレス変換内容",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer7.html"
+    ]
+  },
+  {
+    "id": "C14-07-02",
+    "question": "アドレス変換型ロードバランサは、要求の宛先をVIPから何へ変換する？",
+    "answer": "選択した実サーバのアドレス。",
+    "section_title": "基本構成、IPアドレス割当、アドレス変換内容",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer7.html"
+    ]
+  },
+  {
+    "id": "C14-07-03",
+    "question": "ロードバランサの公開ポートと、実サーバの待受けポートは同じでなければならないか。",
+    "answer": "異なっていてもよい。ポート番号も変換できる。",
+    "section_title": "基本構成、IPアドレス割当、アドレス変換内容",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer7.html"
+    ]
+  },
+  {
+    "id": "C14-08-01",
+    "question": "ロードバランサのインライン構成とワンアーム構成の違いは？",
+    "answer": "インラインは通信経路上に直列に置き、ワンアームは経路上のスイッチなどへ横付けする。",
+    "section_title": "ロードバランサ - ワンアーム構成とは",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer10.html"
+    ]
+  },
+  {
+    "id": "C14-08-02",
+    "question": "NAT型ロードバランサを使う構成で、応答もロードバランサへ戻す理由は？",
+    "answer": "要求に対応するアドレス変換や、セッション処理を行う必要があるため。",
+    "section_title": "ロードバランサ - ワンアーム構成とは",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer10.html"
+    ]
+  },
+  {
+    "id": "C14-08-03",
+    "question": "ワンアーム構成で、実サーバへの送信元をロードバランサのIPへ変換する主な目的は？",
+    "answer": "実サーバの応答をロードバランサへ確実に戻すため。",
+    "section_title": "ロードバランサ - ワンアーム構成とは",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer10.html"
+    ]
+  },
+  {
+    "id": "C14-09-01",
+    "question": "X-Forwarded-Forは、プロキシやロードバランサから実サーバへ何を伝えるHTTPヘッダか。",
+    "answer": "元のクライアントなどのIPアドレス。",
+    "section_title": "ロードバランサ - XFF（X-Forwared-For）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer11.html"
+    ]
+  },
+  {
+    "id": "C14-09-02",
+    "question": "ロードバランサでSNATを行うと、実サーバの接続元IPは通常どう見える？",
+    "answer": "ロードバランサが変換に使うIPアドレスに見える。",
+    "section_title": "ロードバランサ - XFF（X-Forwared-For）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer11.html"
+    ]
+  },
+  {
+    "id": "C14-09-03",
+    "question": "X-Forwarded-Forを、任意のTCP通信へそのまま追加できない理由は？",
+    "answer": "HTTPヘッダの仕組みであり、HTTPを使わない通信には適用できないため。",
+    "section_title": "ロードバランサ - XFF（X-Forwared-For）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer11.html"
+    ]
+  },
+  {
+    "id": "C14-10-01",
+    "question": "DSRは、サーバからの応答をどの経路で返す方式か。",
+    "answer": "ロードバランサを経由せず、実サーバからクライアント側へ返す方式。",
+    "section_title": "ロードバランサ - DSR（Direct Server Return）",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer12.html"
+    ]
+  },
+  {
+    "id": "C14-10-02",
+    "question": "DSRがロードバランサの負担を軽くできる理由は？",
+    "answer": "応答データがロードバランサを通らず、要求側の分散処理を中心にできるため。",
+    "section_title": "ロードバランサ - DSR（Direct Server Return）",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer12.html"
+    ]
+  },
+  {
+    "id": "C14-10-03",
+    "question": "L2 DSRで、実サーバの応答元として使うIPアドレスは？",
+    "answer": "クライアントが接続したサービスのVIP。",
+    "section_title": "ロードバランサ - DSR（Direct Server Return）",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer12.html"
+    ]
+  },
+  {
+    "id": "C14-10-04",
+    "question": "通常のDSR構成で、ロードバランサによるTLS終端を組み合わせにくい理由は？",
+    "answer": "応答がロードバランサを通らず、TLSを含む双方向の中継処理ができないため。",
+    "section_title": "ロードバランサ - DSR（Direct Server Return）",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer12.html"
+    ]
+  },
+  {
+    "id": "C14-11-01",
+    "question": "GSLBは、通常の同一拠点内の負荷分散と比べて何を分散先にする？",
+    "answer": "地理的に離れた複数のサイト・データセンター。",
+    "section_title": "広域負荷分散 - GSLBとは",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer8.html"
+    ]
+  },
+  {
+    "id": "C14-11-02",
+    "question": "DNSを利用するGSLBは、利用者の接続先をどう選ばせる？",
+    "answer": "監視状態や方針に応じた、適切なサイトのIPアドレスをDNSで回答する。",
+    "section_title": "広域負荷分散 - GSLBとは",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer8.html"
+    ]
+  },
+  {
+    "id": "C14-11-03",
+    "question": "GSLBがディザスタリカバリ対策となる理由は？",
+    "answer": "拠点全体の障害時に、別の地域のサイトへ接続先を切り替えられるため。",
+    "section_title": "広域負荷分散 - GSLBとは",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer8.html"
+    ]
+  },
+  {
+    "id": "C14-12-01",
+    "question": "CDNのオリジンサーバとエッジのキャッシュサーバは、役割がどう違う？",
+    "answer": "オリジンは元のコンテンツを提供し、エッジは取得した内容を保存して利用者へ配信する。",
+    "section_title": "CDN（Contents Delivery Network）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer13.html"
+    ]
+  },
+  {
+    "id": "C14-12-02",
+    "question": "CDNがオリジンサーバの負荷を減らせる理由は？",
+    "answer": "キャッシュで応答できる要求を、分散したエッジサーバが処理するため。",
+    "section_title": "CDN（Contents Delivery Network）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer13.html"
+    ]
+  },
+  {
+    "id": "C14-12-03",
+    "question": "CDNで利用者に近いエッジから配信する主な利点は？",
+    "answer": "通信距離や遅延を抑え、コンテンツの取得を速められる。",
+    "section_title": "CDN（Contents Delivery Network）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/loadbalancer13.html"
+    ]
+  }
+]

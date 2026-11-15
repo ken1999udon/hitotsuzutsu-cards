@@ -1,0 +1,318 @@
+[
+  {
+    "section": 1,
+    "title": "無線LAN とは",
+    "url": "https://www.infraexpert.com/study/wireless.html",
+    "sha256": "1c5aec282f97360bc0cfd78589aa82c15bacd3e0dffc1097c8ce5925d48de105",
+    "card_ids": [
+      "C13-01-01",
+      "C13-01-02",
+      "C13-01-03",
+      "C13-01-04"
+    ]
+  },
+  {
+    "section": 2,
+    "title": "無線LAN - IEEE802.11b / 11a / 11g / 11n / 11ac / 11ax",
+    "url": "https://www.infraexpert.com/study/wireless2.html",
+    "sha256": "2ad15c9b161db9384578b8de7327d6a583ab36fef711a2c7b7ae88a837a4cca1",
+    "card_ids": [
+      "C13-02-01",
+      "C13-02-02",
+      "C13-02-03",
+      "C13-02-04",
+      "C13-02-05"
+    ]
+  },
+  {
+    "section": 3,
+    "title": "無線LAN - チャネルとは",
+    "url": "https://www.infraexpert.com/study/wireless3.html",
+    "sha256": "ab48d34abb602df15ff7b39ee0236c0648531ff226bb7a58564c38652a357037",
+    "card_ids": [
+      "C13-03-01",
+      "C13-03-02",
+      "C13-03-03",
+      "C13-03-04"
+    ]
+  },
+  {
+    "section": 4,
+    "title": "無線LAN - セル範囲と伝送速度",
+    "url": "https://www.infraexpert.com/study/wireless4.html",
+    "sha256": "53deffbea20174ab5ad4fe79a36be7de198002fc8bb99ca7713c6d3459af7f3f",
+    "card_ids": [
+      "C13-04-01",
+      "C13-04-02",
+      "C13-04-03",
+      "C13-04-04",
+      "C13-04-05"
+    ]
+  },
+  {
+    "section": 5,
+    "title": "無線LAN - BSS, ESS, BSSID, ESSID",
+    "url": "https://www.infraexpert.com/study/wireless5.html",
+    "sha256": "5b86e0ee34fbdb6d2cd6b31ed7640c214724879f098835352f0b67f5e4367e92",
+    "card_ids": [
+      "C13-05-01",
+      "C13-05-02",
+      "C13-05-03",
+      "C13-05-04",
+      "C13-05-05",
+      "C13-05-06"
+    ]
+  },
+  {
+    "section": 6,
+    "title": "無線LAN - CSMA/CA",
+    "url": "https://www.infraexpert.com/study/wireless6.html",
+    "sha256": "e02769a95ab63f1337a48db4f596d49c47c06f435d7ac128dbcc7f9287324631",
+    "card_ids": [
+      "C13-06-01",
+      "C13-06-02",
+      "C13-06-03",
+      "C13-06-04",
+      "C13-06-05",
+      "C13-06-06",
+      "C13-06-07",
+      "C13-06-08",
+      "C13-06-09"
+    ]
+  },
+  {
+    "section": 7,
+    "title": "無線LAN - IEEE802.11フレームフォーマット",
+    "url": "https://www.infraexpert.com/study/wireless7.html",
+    "sha256": "64488d4955d3e958d9f8ef5a1293cd72e315485b2fa5e734991e79001cb5c7f1",
+    "card_ids": [
+      "C13-07-01",
+      "C13-07-02",
+      "C13-07-03",
+      "C13-07-04"
+    ]
+  },
+  {
+    "section": 8,
+    "title": "無線LAN - 初心者でもわかる無線LAN通信の流れ",
+    "url": "https://www.infraexpert.com/study/wireless8.html",
+    "sha256": "34d80f616254a8400ad3dfb40671b0ec1e905e44b4ded1060f3865e990546a53",
+    "card_ids": [
+      "C13-08-01",
+      "C13-08-02",
+      "C13-08-03",
+      "C13-08-04"
+    ]
+  },
+  {
+    "section": 9,
+    "title": "セキュリティ - WEP",
+    "url": "https://www.infraexpert.com/study/wireless9.html",
+    "sha256": "f0cc3bb6fdb18d99ead2d839970860b7c6b0d5895842725edd8924fc14cfd6d6",
+    "card_ids": [
+      "C13-09-01",
+      "C13-09-02",
+      "C13-09-03",
+      "C13-09-04"
+    ]
+  },
+  {
+    "section": 10,
+    "title": "セキュリティ - ESSID隠蔽、WEP脆弱性",
+    "url": "https://www.infraexpert.com/study/wireless10.html",
+    "sha256": "72b786110d6c8972190a28e3af548833d7addb1d6a4755b51f6d4646c8066c8d",
+    "card_ids": [
+      "C13-10-01",
+      "C13-10-02",
+      "C13-10-03"
+    ]
+  },
+  {
+    "section": 11,
+    "title": "セキュリティ - 高度セキュリティ / Wi-Fiアライアンス",
+    "url": "https://www.infraexpert.com/study/wireless11.html",
+    "sha256": "662785c22a517522c6407683642380f7ee92f2e27b9e9a5cd148c8778a31ce69",
+    "card_ids": [
+      "C13-11-01",
+      "C13-11-02"
+    ]
+  },
+  {
+    "section": 12,
+    "title": "セキュリティ - WPA",
+    "url": "https://www.infraexpert.com/study/wireless12.html",
+    "sha256": "70193c130db773d469ae58c265126f12d3ae4eb9ac4fea837559faae6561c4c1",
+    "card_ids": [
+      "C13-12-01",
+      "C13-12-02",
+      "C13-12-03",
+      "C13-12-04",
+      "C13-12-05",
+      "C13-12-06",
+      "C13-12-07",
+      "C13-12-08"
+    ]
+  },
+  {
+    "section": 13,
+    "title": "セキュリティ - WPA2",
+    "url": "https://www.infraexpert.com/study/wireless13.html",
+    "sha256": "e0e03fb6873d4202d7c6b9ecc06db71a1a9a18202c8bedb8e54c16e84135f2f9",
+    "card_ids": [
+      "C13-13-01",
+      "C13-13-02",
+      "C13-13-03",
+      "C13-13-04"
+    ]
+  },
+  {
+    "section": 14,
+    "title": "セキュリティ - WPA3",
+    "url": "https://www.infraexpert.com/study/wireless56.html",
+    "sha256": "111f6e4af791f1609ac60d72db7396516532e9ba24a6e23e625db2affea5641a",
+    "card_ids": [
+      "C13-14-01",
+      "C13-14-02",
+      "C13-14-03",
+      "C13-14-04"
+    ]
+  },
+  {
+    "section": 15,
+    "title": "セキュリティ - IEEE802.1X認証",
+    "url": "https://www.infraexpert.com/study/wireless14.html",
+    "sha256": "ab82dddda1d980fbfaaf8f0bf5932e29806968c5c16640b4acd8e1ba7c9ad104",
+    "card_ids": [
+      "C13-15-01",
+      "C13-15-02",
+      "C13-15-03",
+      "C13-15-04",
+      "C13-15-05",
+      "C13-15-06",
+      "C13-15-07"
+    ]
+  },
+  {
+    "section": 16,
+    "title": "セキュリティ - IEEE802.1X認証 その2",
+    "url": "https://www.infraexpert.com/study/wireless51.html",
+    "sha256": "3c0c8869ac177ed419ccc78ae26553bdb20c763eeae752bd629cc69e449ba1e9",
+    "card_ids": [
+      "C13-16-01",
+      "C13-16-02",
+      "C13-16-03",
+      "C13-16-04"
+    ]
+  },
+  {
+    "section": 17,
+    "title": "IEEE802.11n（Wi-Fi 4）とは",
+    "url": "https://www.infraexpert.com/study/wireless15.html",
+    "sha256": "3586e9f0706fc470de1e960c30d1d3236f4fdde2c2c7acd00dd1833cbbcf2ddd",
+    "card_ids": [
+      "C13-17-01",
+      "C13-17-02",
+      "C13-17-03",
+      "C13-17-04",
+      "C13-17-05",
+      "C13-17-06"
+    ]
+  },
+  {
+    "section": 18,
+    "title": "IEEE802.11e",
+    "url": "https://www.infraexpert.com/study/wireless16.html",
+    "sha256": "676ffd340f992f401d9e00910a2615dffa184cc58b7ba2d3bff0e6e4f7c92951",
+    "card_ids": [
+      "C13-18-01",
+      "C13-18-02",
+      "C13-18-03",
+      "C13-18-04",
+      "C13-18-05"
+    ]
+  },
+  {
+    "section": 19,
+    "title": "無線LANスイッチ（WLC）とは",
+    "url": "https://www.infraexpert.com/study/wireless17.html",
+    "sha256": "d88a905ceca3384288454a6be5fa611c6da07639166b7768dd497dfb1e7aeace",
+    "card_ids": [
+      "C13-19-01"
+    ]
+  },
+  {
+    "section": 20,
+    "title": "無線技術 - WiMAXとは",
+    "url": "https://www.infraexpert.com/study/wireless27.html",
+    "sha256": "4f588efeecd28b8b7a01a3d4593aab8af54093f7432bc170eafbc0d0e20631c9",
+    "card_ids": [
+      "C13-20-01",
+      "C13-20-02"
+    ]
+  },
+  {
+    "section": 21,
+    "title": "無線技術 - LTEとは",
+    "url": "https://www.infraexpert.com/study/wireless46.html",
+    "sha256": "6ca49da435c9582f695fed5b2271ce0fb5237b745364334aa63ee9abc48d63de",
+    "card_ids": [
+      "C13-21-01",
+      "C13-21-02",
+      "C13-21-03",
+      "C13-21-04",
+      "C13-21-05",
+      "C13-21-06"
+    ]
+  },
+  {
+    "section": 22,
+    "title": "無線技術 - NFCとは",
+    "url": "https://www.infraexpert.com/study/wireless47.html",
+    "sha256": "d0779ebdddf8cc8a4c4c857e742188d29b4d11b527687f18d38efb5ff0192680",
+    "card_ids": [
+      "C13-22-01",
+      "C13-22-02",
+      "C13-22-03",
+      "C13-22-04"
+    ]
+  },
+  {
+    "section": 23,
+    "title": "IEEE802.11ac（Wi-Fi 5）とは",
+    "url": "https://www.infraexpert.com/study/wireless49.html",
+    "sha256": "264f2f85d09996008f9a6a9bc8ebe9bfda03713df9b4580333119cd2e89b5f8b",
+    "card_ids": [
+      "C13-23-01",
+      "C13-23-02",
+      "C13-23-03",
+      "C13-23-04"
+    ]
+  },
+  {
+    "section": 24,
+    "title": "IEEE802.11ax（Wi-Fi 6 / Wi-Fi 6E）とは",
+    "url": "https://www.infraexpert.com/study/wireless57.html",
+    "sha256": "a0ce9ba3d8a22699336612047ef1cd6cb230872866b6eee6d4fe845161847911",
+    "card_ids": [
+      "C13-24-01",
+      "C13-24-02",
+      "C13-24-03",
+      "C13-24-05",
+      "C13-24-06",
+      "C13-24-07",
+      "C13-24-08"
+    ]
+  },
+  {
+    "section": 25,
+    "title": "デュアルバンド、トライバンド、クアッドバンドとは",
+    "url": "https://www.infraexpert.com/study/wireless60.html",
+    "sha256": "d90be1046e39fdff8f67142469052da3b5a8ab6bfda136cb22e269ddd9ac77ad",
+    "card_ids": [
+      "C13-25-01",
+      "C13-25-02",
+      "C13-25-03",
+      "C13-25-04"
+    ]
+  }
+]

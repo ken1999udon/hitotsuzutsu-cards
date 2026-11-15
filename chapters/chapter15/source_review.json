@@ -1,0 +1,155 @@
+[
+  {
+    "section": 1,
+    "title": "IPv6とは",
+    "url": "https://www.infraexpert.com/study/ipv6z1.html",
+    "sha256": "f66e1739e60e2ee6575b161b9b9caadaae149d1594a1da6d9ffa11268436e65c",
+    "card_ids": [
+      "C15-01-01",
+      "C15-01-02",
+      "C15-01-03",
+      "C15-01-04",
+      "C15-01-05",
+      "C15-01-06",
+      "C15-01-07",
+      "C15-01-08"
+    ]
+  },
+  {
+    "section": 2,
+    "title": "IPv6アドレス - 表記方法と省略表記",
+    "url": "https://www.infraexpert.com/study/ipv6z2.html",
+    "sha256": "09b757ccaec60c5e98518c10cc7cd1c5ac6b466d1202992a52eac1c19eb97994",
+    "card_ids": [
+      "C15-02-01",
+      "C15-02-02",
+      "C15-02-03",
+      "C15-02-04",
+      "C15-02-05"
+    ]
+  },
+  {
+    "section": 3,
+    "title": "IPv6アドレス - ユニキャストアドレス",
+    "url": "https://www.infraexpert.com/study/ipv6z3.html",
+    "sha256": "34faf33a6cd2419b840b74606e91ae029438bad46e36e4787af7192fdfc34768",
+    "card_ids": [
+      "C15-03-01",
+      "C15-03-02",
+      "C15-03-03",
+      "C15-03-04",
+      "C15-03-05",
+      "C15-03-06"
+    ]
+  },
+  {
+    "section": 4,
+    "title": "IPv6アドレス - マルチキャストアドレス",
+    "url": "https://www.infraexpert.com/study/ipv6z10.html",
+    "sha256": "7c2df3d94dbfba6bffe1acbbf5f6a767e4ef84434193bd9810a39194cf7eb33a",
+    "card_ids": [
+      "C15-04-01",
+      "C15-04-02",
+      "C15-04-03",
+      "C15-04-04",
+      "C15-04-05",
+      "C15-04-06",
+      "C15-04-07"
+    ]
+  },
+  {
+    "section": 5,
+    "title": "IPv6アドレス - エニーキャストアドレス",
+    "url": "https://www.infraexpert.com/study/ipv6z11.html",
+    "sha256": "3b7a61f7a7a659f98b098c40eba64a408e0f91b038fb45a474e030e84ed474fb",
+    "card_ids": [
+      "C15-05-01",
+      "C15-05-02",
+      "C15-05-03"
+    ]
+  },
+  {
+    "section": 6,
+    "title": "IPv6アドレス - EUI-64 / 特殊なIPv6アドレス",
+    "url": "https://www.infraexpert.com/study/ipv6z4.html",
+    "sha256": "a6f2285dafd781f6a8f08ccd0eac68570629b9da6f2b7968e1b77c82835af9db",
+    "card_ids": [
+      "C15-06-01",
+      "C15-06-02",
+      "C15-06-03",
+      "C15-06-04",
+      "C15-06-05"
+    ]
+  },
+  {
+    "section": 7,
+    "title": "IPv6 - ICMPv6",
+    "url": "https://www.infraexpert.com/study/ipv6z12.html",
+    "sha256": "d18a51e4b2ab71907e3abbeb0604e8391b35d4b67035f8dfdf8b70f27061da98",
+    "card_ids": [
+      "C15-07-01",
+      "C15-07-02",
+      "C15-07-03",
+      "C15-07-04",
+      "C15-07-05"
+    ]
+  },
+  {
+    "section": 8,
+    "title": "IPv6アドレス - Neighbor Discovery （IPv4のARPに相当）",
+    "url": "https://www.infraexpert.com/study/ipv6z13.html",
+    "sha256": "310d3030087d9c10ab80a8bf1dbc705af0e57b640182ba5b5eff8c635ea5b808",
+    "card_ids": [
+      "C15-08-01",
+      "C15-08-02",
+      "C15-08-03"
+    ]
+  },
+  {
+    "section": 9,
+    "title": "IPv6アドレス - ルータのIPv6アドレス設定",
+    "url": "https://www.infraexpert.com/study/ipv6z5.1.html",
+    "sha256": "b55d6a5ba83189f7ac591b2fcfc8ca60aece8e315b35f72c866678d7671ebae1",
+    "card_ids": [],
+    "note": "Ciscoの設定コマンド・既定動作は除外。手動設定の一般的内容は第2・6節と重複するため独立出題しない。"
+  },
+  {
+    "section": 10,
+    "title": "IPv6アドレス - ホストのIPv6アドレス設定、DHCPv6",
+    "url": "https://www.infraexpert.com/study/ipv6z5.html",
+    "sha256": "f197cfbf7fcf1473fa7f7cf34ed667be211076223c32116de4da8688065f3c2a",
+    "card_ids": [
+      "C15-10-01",
+      "C15-10-02",
+      "C15-10-03",
+      "C15-10-04",
+      "C15-10-05",
+      "C15-10-06",
+      "C15-10-07",
+      "C15-10-08"
+    ]
+  },
+  {
+    "section": 11,
+    "title": "IPv6移行技術 - デュアルスタック、トランスレータ",
+    "url": "https://www.infraexpert.com/study/ipv6z8.html",
+    "sha256": "dbec4ee9ab0934cdd3480a3df4c9e5bfc9cc7fde6545937f634641da4a32cec7",
+    "card_ids": [
+      "C15-11-01",
+      "C15-11-02",
+      "C15-11-03"
+    ]
+  },
+  {
+    "section": 12,
+    "title": "IPv6移行技術 - トンネリング",
+    "url": "https://www.infraexpert.com/study/ipv6z8.1.html",
+    "sha256": "1644dc083c1aea32dd8a2c15f3a7a2fe89e91065654eeffa71679ecb7345e469",
+    "card_ids": [
+      "C15-12-01",
+      "C15-12-02",
+      "C15-12-03",
+      "C15-12-04"
+    ]
+  }
+]

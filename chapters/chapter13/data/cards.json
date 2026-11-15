@@ -1,0 +1,1046 @@
+[
+  {
+    "id": "C13-01-01",
+    "question": "無線LANの基本規格を定めるIEEE 802系列の規格は？",
+    "answer": "IEEE 802.11。",
+    "section_title": "無線LAN とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless.html"
+    ]
+  },
+  {
+    "id": "C13-01-02",
+    "question": "無線LANのインフラストラクチャモードとアドホックモードの違いは？",
+    "answer": "インフラストラクチャはAPを介して通信し、アドホックはAPを介さず端末同士で通信する。",
+    "section_title": "無線LAN とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless.html"
+    ]
+  },
+  {
+    "id": "C13-01-03",
+    "question": "無線LANの移動・配置上の利点は？",
+    "answer": "電波の届く範囲で、ケーブルを差し替えずに移動や配置変更ができる。",
+    "section_title": "無線LAN とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless.html"
+    ]
+  },
+  {
+    "id": "C13-01-04",
+    "question": "無線LANで、有線LAN以上に盗聴対策を意識する理由は？",
+    "answer": "電波が空間へ広がり、意図しない相手にも受信され得るため。",
+    "section_title": "無線LAN とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless.html"
+    ]
+  },
+  {
+    "id": "C13-02-01",
+    "question": "IEEE 802.11bが使う周波数帯と最大物理伝送速度は？",
+    "answer": "2.4GHz帯、11Mbps。",
+    "section_title": "無線LAN - IEEE802.11b / 11a / 11g / 11n / 11ac / 11ax",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless2.html"
+    ]
+  },
+  {
+    "id": "C13-02-02",
+    "question": "IEEE 802.11aと802.11gは、周波数帯がどう違う？",
+    "answer": "11aは5GHz帯、11gは2.4GHz帯。",
+    "section_title": "無線LAN - IEEE802.11b / 11a / 11g / 11n / 11ac / 11ax",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless2.html"
+    ]
+  },
+  {
+    "id": "C13-02-03",
+    "question": "IEEE 802.11aと802.11gの最大物理伝送速度は？",
+    "answer": "どちらも54Mbps。",
+    "section_title": "無線LAN - IEEE802.11b / 11a / 11g / 11n / 11ac / 11ax",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless2.html"
+    ]
+  },
+  {
+    "id": "C13-02-04",
+    "question": "IEEE 802.11iと802.11eは、それぞれ何を強化した仕様か。",
+    "answer": "11iはセキュリティ、11eはQoS。",
+    "section_title": "無線LAN - IEEE802.11b / 11a / 11g / 11n / 11ac / 11ax",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless2.html"
+    ]
+  },
+  {
+    "id": "C13-02-05",
+    "question": "2.4GHz帯で、無線LAN以外に干渉源となる機器の例は？",
+    "answer": "電子レンジ、Bluetooth機器など。",
+    "section_title": "無線LAN - IEEE802.11b / 11a / 11g / 11n / 11ac / 11ax",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless2.html"
+    ]
+  },
+  {
+    "id": "C13-03-01",
+    "question": "無線LANのチャネルとは何か。",
+    "answer": "無線通信に使う、一定の幅を持つ周波数の区分。",
+    "section_title": "無線LAN - チャネルとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless3.html"
+    ]
+  },
+  {
+    "id": "C13-03-02",
+    "question": "APと端末が1つの無線リンクで通信するため、チャネルをどう合わせる？",
+    "answer": "同じチャネルを使う。",
+    "section_title": "無線LAN - チャネルとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless3.html"
+    ]
+  },
+  {
+    "id": "C13-03-03",
+    "question": "近接するAPのチャネル設計で、番号だけでなく周波数の重なりを確認する理由は？",
+    "answer": "異なるチャネル番号でも、使用する周波数帯が重なる場合があるため。",
+    "section_title": "無線LAN - チャネルとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless3.html"
+    ]
+  },
+  {
+    "id": "C13-03-04",
+    "question": "無線LANを設置する前にサイトサーベイを行う目的は？",
+    "answer": "電波の到達範囲、強度、干渉などを調べ、適切なAP配置やチャネルを決めるため。",
+    "section_title": "無線LAN - チャネルとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless3.html"
+    ]
+  },
+  {
+    "id": "C13-04-01",
+    "question": "無線LANのセル、またはカバレッジとは何か。",
+    "answer": "APの電波で通信できる範囲。",
+    "section_title": "無線LAN - セル範囲と伝送速度",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless4.html"
+    ]
+  },
+  {
+    "id": "C13-04-02",
+    "question": "APから離れたり遮蔽物が増えたりすると、伝送速度が下がりやすい理由は？",
+    "answer": "受信信号が弱くなり、より低速で耐性のある伝送方式を選ぶため。",
+    "section_title": "無線LAN - セル範囲と伝送速度",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless4.html"
+    ]
+  },
+  {
+    "id": "C13-04-03",
+    "question": "無線LANのリンク速度を、アプリケーションの実効速度と同じと考えられない理由は？",
+    "answer": "制御フレームや送信待ち、再送などの時間も必要なため。",
+    "section_title": "無線LAN - セル範囲と伝送速度",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless4.html"
+    ]
+  },
+  {
+    "id": "C13-04-04",
+    "question": "同じチャネルに多数の端末がいると、1台当たりの利用可能な通信量が減りやすい理由は？",
+    "answer": "端末同士が、電波を使う時間を共有するため。",
+    "section_title": "無線LAN - セル範囲と伝送速度",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless4.html"
+    ]
+  },
+  {
+    "id": "C13-04-05",
+    "question": "無線LANの実効速度は、接続端末数で単純に等分した値になるか。",
+    "answer": "ならない。通信量や伝送速度、送信待ちなどが端末ごとに異なる。",
+    "section_title": "無線LAN - セル範囲と伝送速度",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless4.html"
+    ]
+  },
+  {
+    "id": "C13-05-01",
+    "question": "インフラストラクチャ型無線LANのBSSとESSの違いは？",
+    "answer": "BSSは1つのAPと配下端末の基本単位、ESSは複数のBSSを接続した範囲。",
+    "section_title": "無線LAN - BSS, ESS, BSSID, ESSID",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless5.html"
+    ]
+  },
+  {
+    "id": "C13-05-02",
+    "question": "BSSIDとSSIDは、主に何を識別する？",
+    "answer": "BSSIDは個々のBSS、SSIDは接続する無線ネットワークの名前。",
+    "section_title": "無線LAN - BSS, ESS, BSSID, ESSID",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless5.html"
+    ]
+  },
+  {
+    "id": "C13-05-03",
+    "question": "BSSIDは、一般にどの形式の識別子か。",
+    "answer": "MACアドレスと同じ48ビットの識別子。",
+    "section_title": "無線LAN - BSS, ESS, BSSID, ESSID",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless5.html"
+    ]
+  },
+  {
+    "id": "C13-05-04",
+    "question": "無線LANのローミングとは何か。",
+    "answer": "端末の移動などに応じて、接続するAPを切り替えること。",
+    "section_title": "無線LAN - BSS, ESS, BSSID, ESSID",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless5.html"
+    ]
+  },
+  {
+    "id": "C13-05-05",
+    "question": "同じESSでAP間のローミングを行う場合、AP間で合わせるネットワーク名は？",
+    "answer": "SSID（ESSID）。",
+    "section_title": "無線LAN - BSS, ESS, BSSID, ESSID",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless5.html"
+    ]
+  },
+  {
+    "id": "C13-05-06",
+    "question": "ローミング用にAPを配置するとき、セルを適度に重ねる理由は？",
+    "answer": "移動中に、どのAPとも通信できない場所が生じるのを避けるため。",
+    "section_title": "無線LAN - BSS, ESS, BSSID, ESSID",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless5.html"
+    ]
+  },
+  {
+    "id": "C13-06-01",
+    "question": "CSMA/CAのCAは、衝突に対して何を行うことを意味する？",
+    "answer": "Collision Avoidance。衝突を回避すること。",
+    "section_title": "無線LAN - CSMA/CA",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless6.html"
+    ]
+  },
+  {
+    "id": "C13-06-02",
+    "question": "無線LANで、送信前にランダムなバックオフ時間を設ける理由は？",
+    "answer": "複数端末が同時に送信を始める可能性を下げるため。",
+    "section_title": "無線LAN - CSMA/CA",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless6.html"
+    ]
+  },
+  {
+    "id": "C13-06-03",
+    "question": "通常の無線LANユニキャストで、受信確認に使う制御フレームは？",
+    "answer": "ACK。",
+    "section_title": "無線LAN - CSMA/CA",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless6.html"
+    ]
+  },
+  {
+    "id": "C13-06-04",
+    "question": "SIFSとDIFSは、どちらの待ち時間が短い？",
+    "answer": "SIFS。",
+    "section_title": "無線LAN - CSMA/CA",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless6.html"
+    ]
+  },
+  {
+    "id": "C13-06-05",
+    "question": "ACKなどがSIFS後に送れることには、どのような利点がある？",
+    "answer": "新しいデータ送信が始まる前に、応答を優先して返せる。",
+    "section_title": "無線LAN - CSMA/CA",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless6.html"
+    ]
+  },
+  {
+    "id": "C13-06-06",
+    "question": "無線LANの隠れ端末問題とは、どのような問題か。",
+    "answer": "互いの電波を検知できない端末が同時送信し、APなどで衝突する問題。",
+    "section_title": "無線LAN - CSMA/CA",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless6.html"
+    ]
+  },
+  {
+    "id": "C13-06-07",
+    "question": "RTSとCTSは、送信前に何をやり取りする？",
+    "answer": "送信の要求と、それに対する送信許可。",
+    "section_title": "無線LAN - CSMA/CA",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless6.html"
+    ]
+  },
+  {
+    "id": "C13-06-08",
+    "question": "RTS/CTSは、隠れ端末による衝突をどう抑える？",
+    "answer": "APのCTSなどで周囲に媒体の予約を知らせ、他端末の送信を待たせる。",
+    "section_title": "無線LAN - CSMA/CA",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless6.html"
+    ]
+  },
+  {
+    "id": "C13-06-09",
+    "question": "RTS/CTSを使うと、衝突回避以外にどのような負担が増える？",
+    "answer": "制御フレームを交換する通信時間と処理。",
+    "section_title": "無線LAN - CSMA/CA",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless6.html"
+    ]
+  },
+  {
+    "id": "C13-07-01",
+    "question": "IEEE 802.11の管理・制御・データフレームは、それぞれ何を運ぶ？",
+    "answer": "管理は接続管理の情報、制御はRTS/CTSやACKなど、データは利用者のデータ。",
+    "section_title": "無線LAN - IEEE802.11フレームフォーマット",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless7.html"
+    ]
+  },
+  {
+    "id": "C13-07-02",
+    "question": "無線LANのMACヘッダに、送信元・宛先以外のアドレスが必要になる理由は？",
+    "answer": "元の送信元・最終宛先と、無線区間の送信・受信機器が異なる場合があるため。",
+    "section_title": "無線LAN - IEEE802.11フレームフォーマット",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless7.html"
+    ]
+  },
+  {
+    "id": "C13-07-03",
+    "question": "無線LANのDurationフィールドは、主に何を知らせる？",
+    "answer": "媒体を使用する予定時間。",
+    "section_title": "無線LAN - IEEE802.11フレームフォーマット",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless7.html"
+    ]
+  },
+  {
+    "id": "C13-07-04",
+    "question": "無線LANのSequence Controlは、どのような識別に使う？",
+    "answer": "フレームの順序や重複、フラグメントの識別。",
+    "section_title": "無線LAN - IEEE802.11フレームフォーマット",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless7.html"
+    ]
+  },
+  {
+    "id": "C13-08-01",
+    "question": "無線LANのパッシブスキャンとアクティブスキャンの違いは？",
+    "answer": "パッシブはビーコンを受信し、アクティブはプローブ要求を送り応答を得る。",
+    "section_title": "無線LAN - 初心者でもわかる無線LAN通信の流れ",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless8.html"
+    ]
+  },
+  {
+    "id": "C13-08-02",
+    "question": "無線LANのビーコンが端末へ知らせる情報の例は？",
+    "answer": "SSID、使用チャネル、対応する機能など。",
+    "section_title": "無線LAN - 初心者でもわかる無線LAN通信の流れ",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless8.html"
+    ]
+  },
+  {
+    "id": "C13-08-03",
+    "question": "無線LANのアソシエーションとは何か。",
+    "answer": "端末がAPへ接続を要求し、無線LAN上の接続関係を登録する手続き。",
+    "section_title": "無線LAN - 初心者でもわかる無線LAN通信の流れ",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless8.html"
+    ]
+  },
+  {
+    "id": "C13-08-04",
+    "question": "APが無線端末の通信を有線LANへ中継するとき、L2フレームはどう扱う？",
+    "answer": "IEEE 802.11のフレームから、Ethernetのフレームへ変換する。",
+    "section_title": "無線LAN - 初心者でもわかる無線LAN通信の流れ",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless8.html"
+    ]
+  },
+  {
+    "id": "C13-09-01",
+    "question": "旧来のWEPが使う暗号アルゴリズムは？",
+    "answer": "RC4。",
+    "section_title": "セキュリティ - WEP",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless9.html"
+    ]
+  },
+  {
+    "id": "C13-09-02",
+    "question": "WEPのIVは何ビットか。",
+    "answer": "24ビット。",
+    "section_title": "セキュリティ - WEP",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless9.html"
+    ]
+  },
+  {
+    "id": "C13-09-03",
+    "question": "WEPのICVは、どの計算方式を使う？",
+    "answer": "CRC-32。",
+    "section_title": "セキュリティ - WEP",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless9.html"
+    ]
+  },
+  {
+    "id": "C13-09-04",
+    "question": "WEPは、鍵長を長くするだけで根本的な脆弱性を解消できるか。",
+    "answer": "できない。暗号方式やIVの扱いなどに構造的な弱点がある。",
+    "section_title": "セキュリティ - WEP",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless9.html"
+    ]
+  },
+  {
+    "id": "C13-10-01",
+    "question": "SSIDを隠しても、それだけで無線LANを安全にできない理由は？",
+    "answer": "他の管理フレームなどからSSIDが分かり、接続の認証や通信の暗号化の代わりにならないため。",
+    "section_title": "セキュリティ - ESSID隠蔽、WEP脆弱性",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless10.html"
+    ]
+  },
+  {
+    "id": "C13-10-02",
+    "question": "MACアドレスフィルタだけでは、強い端末認証にならない理由は？",
+    "answer": "許可されたMACアドレスを調べ、偽装される可能性があるため。",
+    "section_title": "セキュリティ - ESSID隠蔽、WEP脆弱性",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless10.html"
+    ]
+  },
+  {
+    "id": "C13-10-03",
+    "question": "正規APを装う不正APは、利用者に対して何を狙う？",
+    "answer": "誤って接続させ、認証情報や通信内容を盗むこと。",
+    "section_title": "セキュリティ - ESSID隠蔽、WEP脆弱性",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless10.html"
+    ]
+  },
+  {
+    "id": "C13-11-01",
+    "question": "Wi-Fi CERTIFIEDの認証は、製品の何を確認するためのものか。",
+    "answer": "異なるメーカーの機器との相互接続性など。",
+    "section_title": "セキュリティ - 高度セキュリティ / Wi-Fiアライアンス",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless11.html"
+    ]
+  },
+  {
+    "id": "C13-11-02",
+    "question": "WPAが、IEEE 802.11i完成前に策定された理由は？",
+    "answer": "WEPの弱点に早く対処するため、11iの一部を先行して実装するため。",
+    "section_title": "セキュリティ - 高度セキュリティ / Wi-Fiアライアンス",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless11.html"
+    ]
+  },
+  {
+    "id": "C13-12-01",
+    "question": "WPA-PersonalとWPA-Enterpriseは、認証方法がどう違う？",
+    "answer": "PersonalはPSK、EnterpriseはIEEE 802.1Xによる認証を使う。",
+    "section_title": "セキュリティ - WPA",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless12.html"
+    ]
+  },
+  {
+    "id": "C13-12-02",
+    "question": "WPAのTKIPがデータ暗号化に使うアルゴリズムは？",
+    "answer": "RC4。",
+    "section_title": "セキュリティ - WPA",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless12.html"
+    ]
+  },
+  {
+    "id": "C13-12-03",
+    "question": "TKIPがWEPから改善した、鍵の扱いの特徴は？",
+    "answer": "暗号鍵を動的に生成・更新し、パケットごとに異なる鍵情報を使う。",
+    "section_title": "セキュリティ - WPA",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless12.html"
+    ]
+  },
+  {
+    "id": "C13-12-04",
+    "question": "TKIPで、CRCだけに頼らず改ざんを検出するために追加したものは？",
+    "answer": "MIC（メッセージ完全性コード）。",
+    "section_title": "セキュリティ - WPA",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless12.html"
+    ]
+  },
+  {
+    "id": "C13-12-05",
+    "question": "WPA/WPA2のPMKとPTKは、鍵の役割がどう違う？",
+    "answer": "PMKは鍵生成のもととなるマスター鍵、PTKは端末とAPのユニキャスト通信に使う鍵情報。",
+    "section_title": "セキュリティ - WPA",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless12.html"
+    ]
+  },
+  {
+    "id": "C13-12-06",
+    "question": "WPA/WPA2のGTKは、どの通信の保護に使う？",
+    "answer": "ブロードキャストやマルチキャストのグループ通信。",
+    "section_title": "セキュリティ - WPA",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless12.html"
+    ]
+  },
+  {
+    "id": "C13-12-07",
+    "question": "WPA/WPA2-Personalで、あらかじめ端末とAPへ設定する認証情報は？",
+    "answer": "共通のPSK、またはPSKを生成するためのパスフレーズ。",
+    "section_title": "セキュリティ - WPA",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless12.html"
+    ]
+  },
+  {
+    "id": "C13-12-08",
+    "question": "WPA/WPA2で、PMKを基にPTKを導出し、相手との鍵の確認を行うやり取りは？",
+    "answer": "4ウェイハンドシェイク。",
+    "section_title": "セキュリティ - WPA",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless12.html"
+    ]
+  },
+  {
+    "id": "C13-13-01",
+    "question": "WPA2で必須となった、AESを基にする暗号化・完全性保護の方式は？",
+    "answer": "CCMP。",
+    "section_title": "セキュリティ - WPA2",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless13.html"
+    ]
+  },
+  {
+    "id": "C13-13-02",
+    "question": "CCMPのCTRモードとCBC-MACは、主に何を担う？",
+    "answer": "CTRモードは暗号化、CBC-MACは完全性の保護。",
+    "section_title": "セキュリティ - WPA2",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless13.html"
+    ]
+  },
+  {
+    "id": "C13-13-03",
+    "question": "CCMPのカウンターモードで、平文とXORするものは？",
+    "answer": "カウンタ値をAESで暗号化して得た値。",
+    "section_title": "セキュリティ - WPA2",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless13.html"
+    ]
+  },
+  {
+    "id": "C13-13-04",
+    "question": "WPA2-PersonalとWPA2-Enterpriseは、利用者ごとの認証でどう違う？",
+    "answer": "Personalは共有PSKを使い、Enterpriseは認証サーバで利用者や端末ごとに認証できる。",
+    "section_title": "セキュリティ - WPA2",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless13.html"
+    ]
+  },
+  {
+    "id": "C13-14-01",
+    "question": "WPA3-Personalが、PSK方式に代わって使う認証・鍵確立方式は？",
+    "answer": "SAE。",
+    "section_title": "セキュリティ - WPA3",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless56.html"
+    ]
+  },
+  {
+    "id": "C13-14-02",
+    "question": "WPA3で使用が必須となった、管理フレームの保護機能は？",
+    "answer": "PMF（Protected Management Frames）。",
+    "section_title": "セキュリティ - WPA3",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless56.html"
+    ]
+  },
+  {
+    "id": "C13-14-03",
+    "question": "無線LANのPMFは、主に何を保護する機能か。",
+    "answer": "切断通知など、一部の重要な管理フレームを偽装・改ざんから保護する。",
+    "section_title": "セキュリティ - WPA3",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless56.html"
+    ]
+  },
+  {
+    "id": "C13-14-04",
+    "question": "WPA3-Enterpriseは、利用者の認証にどの標準を使う？",
+    "answer": "IEEE 802.1X。",
+    "section_title": "セキュリティ - WPA3",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless56.html"
+    ]
+  },
+  {
+    "id": "C13-15-01",
+    "question": "IEEE 802.1Xは、無線LANだけで使う認証の規格か。",
+    "answer": "有線LANでも使う。",
+    "section_title": "セキュリティ - IEEE802.1X認証",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless14.html"
+    ]
+  },
+  {
+    "id": "C13-15-02",
+    "question": "IEEE 802.1Xの3つの構成要素は？",
+    "answer": "サプリカント、オーセンティケータ、認証サーバ。",
+    "section_title": "セキュリティ - IEEE802.1X認証",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless14.html"
+    ]
+  },
+  {
+    "id": "C13-15-03",
+    "question": "IEEE 802.1Xのサプリカントとオーセンティケータの役割は？",
+    "answer": "サプリカントは認証を受ける端末側、オーセンティケータは認証を仲介してアクセスを制御する機器。",
+    "section_title": "セキュリティ - IEEE802.1X認証",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless14.html"
+    ]
+  },
+  {
+    "id": "C13-15-04",
+    "question": "IEEE 802.1Xの認証サーバには、一般に何のプロトコルに対応したサーバを使う？",
+    "answer": "RADIUS。",
+    "section_title": "セキュリティ - IEEE802.1X認証",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless14.html"
+    ]
+  },
+  {
+    "id": "C13-15-05",
+    "question": "EAPは、認証方式の中でどのような役割を持つ？",
+    "answer": "複数の認証方式を運ぶ、共通の枠組み。",
+    "section_title": "セキュリティ - IEEE802.1X認証",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless14.html"
+    ]
+  },
+  {
+    "id": "C13-15-06",
+    "question": "サプリカントと認証装置の間で、LAN上にEAPを運ぶ方式は？",
+    "answer": "EAPOL。",
+    "section_title": "セキュリティ - IEEE802.1X認証",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless14.html"
+    ]
+  },
+  {
+    "id": "C13-15-07",
+    "question": "IEEE 802.1Xで、認証前の端末にIPアドレスがなくても認証処理を始められる理由は？",
+    "answer": "端末と認証装置の間は、IPを使わないEAPOLで通信できるため。",
+    "section_title": "セキュリティ - IEEE802.1X認証",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless14.html"
+    ]
+  },
+  {
+    "id": "C13-16-01",
+    "question": "IEEE 802.1Xで、通常のネットワーク利用を許可するタイミングは？",
+    "answer": "認証サーバの成功結果を受け、認証装置がアクセスを許可した後。",
+    "section_title": "セキュリティ - IEEE802.1X認証 その2",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless51.html"
+    ]
+  },
+  {
+    "id": "C13-16-02",
+    "question": "EAP-TLSとPEAPのパスワード方式は、クライアントの認証情報がどう違う？",
+    "answer": "EAP-TLSはクライアント証明書、PEAPのパスワード方式はTLSトンネル内でパスワードによる認証を行う。",
+    "section_title": "セキュリティ - IEEE802.1X認証 その2",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless51.html"
+    ]
+  },
+  {
+    "id": "C13-16-03",
+    "question": "EAP-TLSやPEAPで、クライアントが認証サーバの証明書を検証する目的は？",
+    "answer": "偽の認証サーバへ接続し、認証情報などを渡すのを防ぐため。",
+    "section_title": "セキュリティ - IEEE802.1X認証 その2",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless51.html"
+    ]
+  },
+  {
+    "id": "C13-16-04",
+    "question": "EAP-TTLSは、クライアント認証の情報をどのように保護して運ぶ？",
+    "answer": "サーバ証明書で認証したTLSトンネルの中で運ぶ。",
+    "section_title": "セキュリティ - IEEE802.1X認証 その2",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless51.html"
+    ]
+  },
+  {
+    "id": "C13-17-01",
+    "question": "Wi-Fi 4に対応するIEEE規格と、使える周波数帯は？",
+    "answer": "IEEE 802.11n。2.4GHz帯と5GHz帯。",
+    "section_title": "IEEE802.11n（Wi-Fi 4）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless15.html"
+    ]
+  },
+  {
+    "id": "C13-17-02",
+    "question": "IEEE 802.11nのチャネルボンディングは、何を束ねて高速化する？",
+    "answer": "隣接する20MHz幅のチャネルを束ね、40MHz幅で通信する。",
+    "section_title": "IEEE802.11n（Wi-Fi 4）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless15.html"
+    ]
+  },
+  {
+    "id": "C13-17-03",
+    "question": "MIMOの空間多重化は、何を利用して伝送量を増やす？",
+    "answer": "複数のアンテナによる、複数の空間ストリーム。",
+    "section_title": "IEEE802.11n（Wi-Fi 4）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless15.html"
+    ]
+  },
+  {
+    "id": "C13-17-04",
+    "question": "同じ802.11n対応でも、機器によって最大リンク速度が違う主な理由は？",
+    "answer": "対応するチャネル幅や空間ストリーム数などが異なるため。",
+    "section_title": "IEEE802.11n（Wi-Fi 4）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless15.html"
+    ]
+  },
+  {
+    "id": "C13-17-05",
+    "question": "IEEE 802.11nの規格上の最大物理伝送速度は？",
+    "answer": "600Mbps。40MHz幅・4ストリームなどの条件での値。",
+    "section_title": "IEEE802.11n（Wi-Fi 4）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless15.html"
+    ]
+  },
+  {
+    "id": "C13-17-06",
+    "question": "チャネル幅を広げることが、APの多い場所では不利にもなる理由は？",
+    "answer": "重ならずに使えるチャネルが減り、干渉や競合が増えやすいため。",
+    "section_title": "IEEE802.11n（Wi-Fi 4）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless15.html"
+    ]
+  },
+  {
+    "id": "C13-18-01",
+    "question": "無線LANのEDCAは、通信をどの4カテゴリに分類する？",
+    "answer": "音声、映像、ベストエフォート、バックグラウンド。",
+    "section_title": "IEEE802.11e",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless16.html"
+    ]
+  },
+  {
+    "id": "C13-18-02",
+    "question": "EDCAで音声などを優先するため、送信待ちを決める値をどう調整する？",
+    "answer": "AIFSや競合ウィンドウを小さくし、送信権を得やすくする。",
+    "section_title": "IEEE802.11e",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless16.html"
+    ]
+  },
+  {
+    "id": "C13-18-03",
+    "question": "EDCAのTXOP Limitは、何の上限を定める？",
+    "answer": "送信権を得た後、連続して媒体を使用できる時間。",
+    "section_title": "IEEE802.11e",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless16.html"
+    ]
+  },
+  {
+    "id": "C13-18-04",
+    "question": "EDCAとHCCAは、送信機会を得る仕組みがどう違う？",
+    "answer": "EDCAは優先度を付けた競合、HCCAはAPのポーリングによる割当て。",
+    "section_title": "IEEE802.11e",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless16.html"
+    ]
+  },
+  {
+    "id": "C13-18-05",
+    "question": "Wi-Fi Allianceが、EDCAを基に相互接続性を認証するQoSの呼び名は？",
+    "answer": "WMM。",
+    "section_title": "IEEE802.11e",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless16.html"
+    ]
+  },
+  {
+    "id": "C13-19-01",
+    "question": "無線LANコントローラ（WLC）を導入する主な管理上の目的は？",
+    "answer": "複数APの設定、認証、電波出力などを集中管理するため。",
+    "section_title": "無線LANスイッチ（WLC）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless17.html"
+    ]
+  },
+  {
+    "id": "C13-20-01",
+    "question": "WiMAXの基礎となるIEEE規格は？",
+    "answer": "IEEE 802.16系列。",
+    "section_title": "無線技術 - WiMAXとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless27.html"
+    ]
+  },
+  {
+    "id": "C13-20-02",
+    "question": "固定WiMAXに対し、モバイルWiMAXが追加した重要な機能は？",
+    "answer": "移動中に接続先基地局を切り替えるハンドオーバー。",
+    "section_title": "無線技術 - WiMAXとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless27.html"
+    ]
+  },
+  {
+    "id": "C13-21-01",
+    "question": "FDDとTDDは、上り・下りの通信をどう分ける？",
+    "answer": "FDDは周波数、TDDは時間で分ける。",
+    "section_title": "無線技術 - LTEとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless46.html"
+    ]
+  },
+  {
+    "id": "C13-21-02",
+    "question": "LTEの基本的な無線アクセス方式は、下りと上りでそれぞれ何か。",
+    "answer": "下りはOFDMA、上りはSC-FDMA。",
+    "section_title": "無線技術 - LTEとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless46.html"
+    ]
+  },
+  {
+    "id": "C13-21-03",
+    "question": "LTEのVoLTEは、音声をどのように運ぶ？",
+    "answer": "音声をIPパケットにしてLTE網で運ぶ。",
+    "section_title": "無線技術 - LTEとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless46.html"
+    ]
+  },
+  {
+    "id": "C13-21-04",
+    "question": "LTEのCSフォールバックは、音声通話時に何を利用する仕組みか。",
+    "answer": "3Gなどの回線交換網へ切り替えて通話する仕組み。",
+    "section_title": "無線技術 - LTEとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless46.html"
+    ]
+  },
+  {
+    "id": "C13-21-05",
+    "question": "LTE-Advancedのキャリアアグリゲーションは、何を束ねる？",
+    "answer": "複数の周波数帯域のキャリア。",
+    "section_title": "無線技術 - LTEとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless46.html"
+    ]
+  },
+  {
+    "id": "C13-21-06",
+    "question": "LTEの通信速度が、基地局の性能だけで決まらない理由は？",
+    "answer": "端末の対応カテゴリ、帯域幅、MIMOなどの対応能力にも制限されるため。",
+    "section_title": "無線技術 - LTEとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless46.html"
+    ]
+  },
+  {
+    "id": "C13-22-01",
+    "question": "NFCは、主にどの程度の距離で使う無線通信技術か。",
+    "answer": "数cm〜10cm程度の近距離。",
+    "section_title": "無線技術 - NFCとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless47.html"
+    ]
+  },
+  {
+    "id": "C13-22-02",
+    "question": "NFCで使う代表的な周波数は？",
+    "answer": "13.56MHz。",
+    "section_title": "無線技術 - NFCとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless47.html"
+    ]
+  },
+  {
+    "id": "C13-22-03",
+    "question": "受動型の非接触ICカードが、電池なしで通信できる理由は？",
+    "answer": "リーダーの電波から電力を得るため。",
+    "section_title": "無線技術 - NFCとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless47.html"
+    ]
+  },
+  {
+    "id": "C13-22-04",
+    "question": "NFCからWi-FiやBluetoothへ、大容量データの通信を引き継ぐ理由は？",
+    "answer": "近接による接続設定の簡便さと、他方式の高速なデータ転送を組み合わせるため。",
+    "section_title": "無線技術 - NFCとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless47.html"
+    ]
+  },
+  {
+    "id": "C13-23-01",
+    "question": "Wi-Fi 5に対応するIEEE規格と、使う周波数帯は？",
+    "answer": "IEEE 802.11ac。5GHz帯。",
+    "section_title": "IEEE802.11ac（Wi-Fi 5）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless49.html"
+    ]
+  },
+  {
+    "id": "C13-23-02",
+    "question": "IEEE 802.11acは、チャネル幅を最大何MHzまで広げられる？",
+    "answer": "160MHz。",
+    "section_title": "IEEE802.11ac（Wi-Fi 5）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless49.html"
+    ]
+  },
+  {
+    "id": "C13-23-03",
+    "question": "IEEE 802.11acのMU-MIMOは、SU-MIMOと何が違う？",
+    "answer": "SU-MIMOは1端末との空間多重、MU-MIMOは複数端末との同時通信に空間ストリームを使う。",
+    "section_title": "IEEE802.11ac（Wi-Fi 5）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless49.html"
+    ]
+  },
+  {
+    "id": "C13-23-04",
+    "question": "IEEE 802.11acのMU-MIMOが対応する通信方向は？",
+    "answer": "APから端末への下り。",
+    "section_title": "IEEE802.11ac（Wi-Fi 5）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless49.html"
+    ]
+  },
+  {
+    "id": "C13-24-01",
+    "question": "Wi-Fi 6とWi-Fi 6Eは、どちらもどのIEEE規格を基にする？",
+    "answer": "IEEE 802.11ax。",
+    "section_title": "IEEE802.11ax（Wi-Fi 6 / Wi-Fi 6E）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless57.html"
+    ]
+  },
+  {
+    "id": "C13-24-02",
+    "question": "Wi-Fi 6Eは、Wi-Fi 6に対してどの周波数帯の利用を加える？",
+    "answer": "6GHz帯。",
+    "section_title": "IEEE802.11ax（Wi-Fi 6 / Wi-Fi 6E）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless57.html"
+    ]
+  },
+  {
+    "id": "C13-24-03",
+    "question": "IEEE 802.11axのOFDMAは、複数端末の通信をどのように多重化する？",
+    "answer": "チャネルのサブキャリア群を分け、複数端末へ割り当てる。",
+    "section_title": "IEEE802.11ax（Wi-Fi 6 / Wi-Fi 6E）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless57.html"
+    ]
+  },
+  {
+    "id": "C13-24-05",
+    "question": "IEEE 802.11axでは、MU-MIMOの通信方向をどのように拡張した？",
+    "answer": "下りに加え、端末からAPへの上りにも対応した。",
+    "section_title": "IEEE802.11ax（Wi-Fi 6 / Wi-Fi 6E）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless57.html"
+    ]
+  },
+  {
+    "id": "C13-24-06",
+    "question": "256QAMと1024QAMは、1シンボルでそれぞれ何ビットを表せる？",
+    "answer": "256QAMは8ビット、1024QAMは10ビット。",
+    "section_title": "IEEE802.11ax（Wi-Fi 6 / Wi-Fi 6E）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless57.html"
+    ]
+  },
+  {
+    "id": "C13-24-07",
+    "question": "IEEE 802.11axのTWTは、どのように端末を省電力化する？",
+    "answer": "APと起床・通信の時刻を調整し、それ以外の時間をスリープできるようにする。",
+    "section_title": "IEEE802.11ax（Wi-Fi 6 / Wi-Fi 6E）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless57.html"
+    ]
+  },
+  {
+    "id": "C13-24-08",
+    "question": "BSS Coloringは、何を識別して無線の空間再利用に役立てる？",
+    "answer": "自分のBSSと、周囲の別のBSSからの通信。",
+    "section_title": "IEEE802.11ax（Wi-Fi 6 / Wi-Fi 6E）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless57.html"
+    ]
+  },
+  {
+    "id": "C13-25-01",
+    "question": "APのデュアルバンドは、代表的にはどの2つの周波数帯を同時利用する？",
+    "answer": "2.4GHz帯と5GHz帯。",
+    "section_title": "デュアルバンド、トライバンド、クアッドバンドとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless60.html"
+    ]
+  },
+  {
+    "id": "C13-25-02",
+    "question": "トライバンド機で5GHz帯を2系統に分けて使う利点は？",
+    "answer": "別々のチャネルを同時利用し、接続端末や通信を分散できる。",
+    "section_title": "デュアルバンド、トライバンド、クアッドバンドとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless60.html"
+    ]
+  },
+  {
+    "id": "C13-25-03",
+    "question": "無線LANのDFSは、主に何との干渉を避ける機能か。",
+    "answer": "気象レーダーや航空レーダーなど。",
+    "section_title": "デュアルバンド、トライバンド、クアッドバンドとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless60.html"
+    ]
+  },
+  {
+    "id": "C13-25-04",
+    "question": "DFSで使用中のチャネルにレーダーを検知すると、APはどうする？",
+    "answer": "そのチャネルでの送信をやめ、別のチャネルへ移るなどの制御を行う。",
+    "section_title": "デュアルバンド、トライバンド、クアッドバンドとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wireless60.html"
+    ]
+  }
+]
