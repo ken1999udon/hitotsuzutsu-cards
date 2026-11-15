@@ -1,0 +1,260 @@
+[
+  {
+    "section": 1,
+    "title": "ルーティングとは",
+    "url": "https://www.infraexpert.com/study/routing.html",
+    "sha256": "272e6a46aced6759a2f377ad138e808026169a679083b91c343efcec2eb558bf",
+    "card_ids": [
+      "C07-01-01",
+      "C07-01-02",
+      "C07-01-03",
+      "C07-01-04"
+    ]
+  },
+  {
+    "section": 2,
+    "title": "ルーティングテーブルの見方",
+    "url": "https://www.infraexpert.com/study/routing2.html",
+    "sha256": "3e94e0eb669df7195e5ae7aa4d85aedfe65f5907d93e6501b806042eaccc98f9",
+    "card_ids": [
+      "C07-02-01",
+      "C07-02-02"
+    ]
+  },
+  {
+    "section": 3,
+    "title": "スタティックルーティング",
+    "url": "https://www.infraexpert.com/study/routing3.html",
+    "sha256": "2f676ebe5ec0a25e018c196f55f7843932e0c77754c70ce05a09593aa35f171c",
+    "card_ids": [
+      "C07-03-01",
+      "C07-03-02",
+      "C07-03-03",
+      "C07-03-04"
+    ]
+  },
+  {
+    "section": 4,
+    "title": "ダイナミックルーティング ( 概要 )",
+    "url": "https://www.infraexpert.com/study/routing5.html",
+    "sha256": "4ce3b4c5e3a156ad7ab8e11dbaa621af776ba9255d3bede1c07c578ea9517018",
+    "card_ids": [
+      "C07-04-01",
+      "C07-04-02",
+      "C07-04-03"
+    ]
+  },
+  {
+    "section": 5,
+    "title": "ダイナミックルーティング ( 詳細 )",
+    "url": "https://www.infraexpert.com/study/routing6.html",
+    "sha256": "8e803a17ada28f5936852e9ee6b73fd59cff3f6e2c75e3a2f0882ee7a431d876",
+    "card_ids": [
+      "C07-05-01",
+      "C07-05-02",
+      "C07-05-03",
+      "C07-05-04",
+      "C07-05-05",
+      "C07-05-06",
+      "C07-05-07",
+      "C07-05-08",
+      "C07-05-09",
+      "C07-05-10"
+    ]
+  },
+  {
+    "section": 6,
+    "title": "ルーティング - ADとは",
+    "url": "https://www.infraexpert.com/study/routing7.html",
+    "sha256": "677ce86bf5c9d01612324a7d67fde001bf722ecbc4845c846643a765b8f25e69",
+    "card_ids": [
+      "C07-06-01"
+    ]
+  },
+  {
+    "section": 7,
+    "title": "ルーティング - メトリックとは",
+    "url": "https://www.infraexpert.com/study/routing9.html",
+    "sha256": "bff3494ab57f492f9fa6eae97f1eb3fd24b6d36b4c15a571018bf710caab4b57",
+    "card_ids": [
+      "C07-07-01",
+      "C07-07-02",
+      "C07-07-03"
+    ]
+  },
+  {
+    "section": 8,
+    "title": "フローティングスタティックルートとは",
+    "url": "https://www.infraexpert.com/study/routing12.html",
+    "sha256": "be8bd06e4a928e474c0d4222e1a6206d04ebe1f13106262631021a03837be10b",
+    "card_ids": [
+      "C07-08-01"
+    ]
+  },
+  {
+    "section": 9,
+    "title": "ECMPとは",
+    "url": "https://www.infraexpert.com/study/routing13.html",
+    "sha256": "e1c4e78cfd91f8d4cb37216c28b50e110fcc3844b7c46bc93ca9abfa3af5e6a0",
+    "card_ids": [
+      "C07-09-01",
+      "C07-09-02",
+      "C07-09-03",
+      "C07-09-04"
+    ]
+  },
+  {
+    "section": 10,
+    "title": "デフォルトゲートウェイの冗長化",
+    "url": "https://www.infraexpert.com/study/routing8.html",
+    "sha256": "bc33f7d0adbf79dcffa14930965294a7913df52385975b9dbaaed47add6b6cd3",
+    "card_ids": [
+      "C07-10-01",
+      "C07-10-02"
+    ]
+  },
+  {
+    "section": 11,
+    "title": "VRRPとは",
+    "url": "https://www.infraexpert.com/study/fhrpz06.html",
+    "sha256": "8c4071becb1698224609255b7c903f9f341481d97a0b36ac8026a1cfe018bf0a",
+    "card_ids": [
+      "C07-11-01",
+      "C07-11-02",
+      "C07-11-03",
+      "C07-11-04",
+      "C07-11-05",
+      "C07-11-06",
+      "C07-11-07",
+      "C07-11-08"
+    ]
+  },
+  {
+    "section": 12,
+    "title": "HSRP/VRRP/GLBP比較",
+    "url": "https://www.infraexpert.com/study/fhrpz00.html",
+    "sha256": "594f8084091d24cbe74963a259c1e3359ed0bbfd28d605d335426b9a89cb63ae",
+    "card_ids": [],
+    "note": "Cisco独自方式との比較表は出題しない。標準VRRPの内容は第11節で扱う。"
+  },
+  {
+    "section": 13,
+    "title": "ICMPリダイレクトとは",
+    "url": "https://www.infraexpert.com/study/fhrpz12.html",
+    "sha256": "51887fa0e8379fa712dda445ab989913197e9b58eea99103aa47eb7e07a49b13",
+    "card_ids": [
+      "C07-13-01",
+      "C07-13-02"
+    ]
+  },
+  {
+    "section": 14,
+    "title": "Proxy ARP（プロキシARP）とは",
+    "url": "https://www.infraexpert.com/study/gateway.htm",
+    "sha256": "8e8d061e4a1921e282afda4d484fdd96a42217b520084036b70ecdcee4afca09",
+    "card_ids": [
+      "C07-14-01",
+      "C07-14-02"
+    ]
+  },
+  {
+    "section": 15,
+    "title": "BGPとは",
+    "url": "https://www.infraexpert.com/study/bgpz01.html",
+    "sha256": "ce80609bae28b77581df4504330ce770adbc8facd16307d79d6cfb28461e9817",
+    "card_ids": [
+      "C07-15-01",
+      "C07-15-02",
+      "C07-15-03",
+      "C07-15-04",
+      "C07-15-05",
+      "C07-15-06"
+    ]
+  },
+  {
+    "section": 16,
+    "title": "BGP - スタブAS、トランジットAS、ノントランジットAS",
+    "url": "https://www.infraexpert.com/study/bgpz04.html",
+    "sha256": "e9a966b56cc6813167cd1cfc0e6fb883589e862339a266ad9f578076fd5ee913",
+    "card_ids": [
+      "C07-16-01",
+      "C07-16-02",
+      "C07-16-03"
+    ]
+  },
+  {
+    "section": 17,
+    "title": "BGP - パス属性（パスアトリビュート）の一覧",
+    "url": "https://www.infraexpert.com/study/bgpz05.html",
+    "sha256": "5c6c68aba888fe4e1cb2bcf67f18eb1ef57e21d9c3fca7c24f378ef79f175995",
+    "card_ids": [
+      "C07-17-01",
+      "C07-17-02",
+      "C07-17-03",
+      "C07-17-04",
+      "C07-17-05",
+      "C07-17-06",
+      "C07-17-07",
+      "C07-17-08"
+    ]
+  },
+  {
+    "section": 18,
+    "title": "BGP - 完全解説",
+    "url": "https://www.infraexpert.com/study/study60.html",
+    "sha256": "726d17a064885b57a4df0a12f148ba1e204796fa5d098dd648785da31179142f",
+    "card_ids": [
+      "C07-18-01",
+      "C07-18-02",
+      "C07-18-03",
+      "C07-18-04",
+      "C07-18-05"
+    ]
+  },
+  {
+    "section": 19,
+    "title": "NW仮想化技術 - VRFとは",
+    "url": "https://www.infraexpert.com/study/mpls5.html",
+    "sha256": "60f7af69d5d1d375399a4e520385ebd984ec9e63d1211b020211c8b6f73a4b0b",
+    "card_ids": [
+      "C07-19-01",
+      "C07-19-02",
+      "C07-19-03"
+    ]
+  },
+  {
+    "section": 20,
+    "title": "NW仮想化技術 - VPLSとは",
+    "url": "https://www.infraexpert.com/study/mpls13.html",
+    "sha256": "8c8a13ad6460a8535125038193cdac9397a107c39bfeba0f15c13cffcb960869",
+    "card_ids": [
+      "C07-20-01",
+      "C07-20-02",
+      "C07-20-03",
+      "C07-20-04",
+      "C07-20-05",
+      "C07-20-06"
+    ]
+  },
+  {
+    "title": "BGP - Idle、Connect、Active、Open Sent、Open Confirm、Established",
+    "url": "https://www.infraexpert.com/study/bgpz02.html",
+    "sha256": "c7a80f1aa61591a2b22bee7f06b69f9df3c781104e6f9dc9d1792a153498617e",
+    "card_ids": [
+      "C07-18-01",
+      "C07-18-02"
+    ],
+    "note": "第18節のBGP解説目次から参照。標準的な動作だけを採用。"
+  },
+  {
+    "title": "BGP - IBGPピアとEBGPピアの違い",
+    "url": "https://www.infraexpert.com/study/bgpz03.html",
+    "sha256": "9a7b1564195e8377a7a3e7d4b2284c04da917c241308d63dfa9e857210f975eb",
+    "card_ids": [
+      "C07-18-03",
+      "C07-18-04",
+      "C07-18-05"
+    ],
+    "note": "第18節のBGP解説目次から参照。標準的な動作だけを採用。"
+  }
+]

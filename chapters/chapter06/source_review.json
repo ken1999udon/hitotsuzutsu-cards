@@ -1,0 +1,145 @@
+[
+  {
+    "section": 1,
+    "title": "WAN ( Wide Area Network ) とは",
+    "url": "https://www.infraexpert.com/study/wan.html",
+    "sha256": "b4ce979f2825a1753e83d0781cb0970415dff725c71a85395848bc42c183f080",
+    "card_ids": [
+      "C06-01-01",
+      "C06-01-02"
+    ]
+  },
+  {
+    "section": 2,
+    "title": "基本構成とデバイス",
+    "url": "https://www.infraexpert.com/study/wan2.html",
+    "sha256": "87f5fe3f406432626d476721043ac4b950815e099447547d6329eaad90e27c5e",
+    "card_ids": [
+      "C06-02-01",
+      "C06-02-02",
+      "C06-02-03",
+      "C06-02-04",
+      "C06-02-05"
+    ]
+  },
+  {
+    "section": 3,
+    "title": "WAN 回線の種類 ( 専用線、PSTN、ISDN )",
+    "url": "https://www.infraexpert.com/study/wan3.html",
+    "sha256": "3e515da53c8af65dadc79d7d648946a2fbf626983ee7347ba4d257d272c2ac3d",
+    "card_ids": [
+      "C06-03-01",
+      "C06-03-02",
+      "C06-03-03",
+      "C06-03-04"
+    ]
+  },
+  {
+    "section": 4,
+    "title": "WAN 回線の種類 ( フレームリレー、ATM )",
+    "url": "https://www.infraexpert.com/study/wan4.html",
+    "sha256": "b7bb0ff1aa99ab7e883b33f436f7d52423df991c0d9dbc3b8b51d18a2ad901bf",
+    "card_ids": [
+      "C06-04-01",
+      "C06-04-02",
+      "C06-04-03",
+      "C06-04-04",
+      "C06-04-05",
+      "C06-04-06",
+      "C06-04-07",
+      "C06-04-08",
+      "C06-04-09",
+      "C06-04-10"
+    ]
+  },
+  {
+    "section": 5,
+    "title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+    "url": "https://www.infraexpert.com/study/wan5.html",
+    "sha256": "0552c61ee960775fa4b1e51cf98ccd014a40bb4280987febc7249070b4d3dd40",
+    "card_ids": [
+      "C06-05-01",
+      "C06-05-02",
+      "C06-05-03",
+      "C06-05-04",
+      "C06-05-05",
+      "C06-05-06",
+      "C06-05-07",
+      "C06-05-08",
+      "C06-05-09",
+      "C06-05-10",
+      "C06-05-11",
+      "C06-05-12",
+      "C06-05-13"
+    ]
+  },
+  {
+    "section": 6,
+    "title": "HDLC と PPP",
+    "url": "https://www.infraexpert.com/study/wan6.html",
+    "sha256": "0505f8e316ee7effc43255b44671c22e8939f71e7f157e12f994c3b562460987",
+    "card_ids": [
+      "C06-06-01",
+      "C06-06-02",
+      "C06-06-03",
+      "C06-06-04",
+      "C06-06-05",
+      "C06-06-06",
+      "C06-06-07",
+      "C06-06-08"
+    ]
+  },
+  {
+    "section": 7,
+    "title": "ADSLインターネット / CATVインターネット",
+    "url": "https://www.infraexpert.com/study/wan7.html",
+    "sha256": "dfd06ba21fa0b9246d3aeafd5fd7331982fc38c33fef82ae55e4dedcf23e3c04",
+    "card_ids": [
+      "C06-07-01",
+      "C06-07-02",
+      "C06-07-03",
+      "C06-07-04",
+      "C06-07-05"
+    ]
+  },
+  {
+    "section": 8,
+    "title": "FTTHインターネット",
+    "url": "https://www.infraexpert.com/study/wan8.html",
+    "sha256": "f3b6927b9c578f8fcbf5d11cd62c8e960563ccb5adead1e3366d8fa173804d75",
+    "card_ids": [
+      "C06-08-01",
+      "C06-08-02",
+      "C06-08-03",
+      "C06-08-04",
+      "C06-08-05",
+      "C06-08-06",
+      "C06-08-07",
+      "C06-08-08"
+    ]
+  },
+  {
+    "section": 9,
+    "title": "PPPoEとは",
+    "url": "https://www.infraexpert.com/study/wan9.html",
+    "sha256": "c7911f3e8d768dfc9b3d6043ad442056c0e48c6e509c5b49a6ae704d5394c4c7",
+    "card_ids": [
+      "C06-09-01",
+      "C06-09-02",
+      "C06-09-03",
+      "C06-09-04",
+      "C06-09-05"
+    ]
+  },
+  {
+    "section": 10,
+    "title": "IX（Internet Exchange）とは",
+    "url": "https://www.infraexpert.com/study/wan19.html",
+    "sha256": "8ac30894a68ee1565c58ea27951d7e74d530291929018f64d919635346e57ce8",
+    "card_ids": [
+      "C06-10-01",
+      "C06-10-02",
+      "C06-10-03"
+    ]
+  }
+]

@@ -1,0 +1,479 @@
+[
+  {
+    "id": "C09-01-01",
+    "question": "リンクステート型のルータが、リンク状態の情報を格納するデータベースは？",
+    "answer": "LSDB（リンクステートデータベース）。",
+    "section_title": "リンクステートルーティングプロトコルとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz1.html"
+    ]
+  },
+  {
+    "id": "C09-01-02",
+    "question": "OSPFのLSAには、主にどのような情報が含まれる？",
+    "answer": "ルータのリンクやネットワークの状態を表す情報。",
+    "section_title": "リンクステートルーティングプロトコルとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz1.html"
+    ]
+  },
+  {
+    "id": "C09-01-03",
+    "question": "OSPFで作るSPFツリーは、どのルータを根として計算する？",
+    "answer": "計算するルータ自身。",
+    "section_title": "リンクステートルーティングプロトコルとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz1.html"
+    ]
+  },
+  {
+    "id": "C09-02-01",
+    "question": "OSPFv2が主に扱うIPのバージョンと、IPv6へ対応したOSPFのバージョンは？",
+    "answer": "OSPFv2はIPv4、IPv6へ対応したものはOSPFv3。",
+    "section_title": "OSPF - 基本動作",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz2.html"
+    ]
+  },
+  {
+    "id": "C09-02-02",
+    "question": "OSPFのHelloパケットの主な役割は？",
+    "answer": "隣接ルータの発見と、生存確認による関係の維持。",
+    "section_title": "OSPF - 基本動作",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz2.html"
+    ]
+  },
+  {
+    "id": "C09-02-03",
+    "question": "IPv4のEthernet上で、全OSPFルータを表すマルチキャストアドレスは？",
+    "answer": "224.0.0.5。",
+    "section_title": "OSPF - 基本動作",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz2.html"
+    ]
+  },
+  {
+    "id": "C09-02-04",
+    "question": "OSPFが、同じエリア内のトポロジ情報を共有するために交換するものは？",
+    "answer": "LSA。",
+    "section_title": "OSPF - 基本動作",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz2.html"
+    ]
+  },
+  {
+    "id": "C09-02-05",
+    "question": "OSPFでは、宛先への経路のコストをどう求める？",
+    "answer": "経路上で送出する各リンクのコストを加算する。",
+    "section_title": "OSPF - 基本動作",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz2.html"
+    ]
+  },
+  {
+    "id": "C09-02-06",
+    "question": "OSPFで、合計コストの小さい経路と大きい経路のどちらを優先する？",
+    "answer": "小さい経路。",
+    "section_title": "OSPF - 基本動作",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz2.html"
+    ]
+  },
+  {
+    "id": "C09-02-07",
+    "question": "OSPFのリンクコストは、帯域幅だけで自動決定しなければならないか。",
+    "answer": "手動で設定することもできる。",
+    "section_title": "OSPF - 基本動作",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz2.html"
+    ]
+  },
+  {
+    "id": "C09-03-01",
+    "question": "OSPFルータがリンク状態の変化を検出すると、他のルータへ何を伝える？",
+    "answer": "変更を反映した新しいLSA。",
+    "section_title": "OSPF - トポロジ変更時の動作",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz3.html"
+    ]
+  },
+  {
+    "id": "C09-03-02",
+    "question": "OSPFで新しいLSAを受けたルータは、経路情報をどう更新する？",
+    "answer": "LSDBを更新し、必要なSPF計算を行って経路へ反映する。",
+    "section_title": "OSPF - トポロジ変更時の動作",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz3.html"
+    ]
+  },
+  {
+    "id": "C09-04-01",
+    "question": "OSPFでエリアを分ける主な目的は？",
+    "answer": "詳細なリンク状態情報や計算の影響範囲を絞り、ルータの負荷を抑えるため。",
+    "section_title": "OSPF - エリアとは、ABR/ASBRとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz4.html"
+    ]
+  },
+  {
+    "id": "C09-04-02",
+    "question": "OSPFのバックボーンエリアのエリアIDは？",
+    "answer": "0。",
+    "section_title": "OSPF - エリアとは、ABR/ASBRとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz4.html"
+    ]
+  },
+  {
+    "id": "C09-04-04",
+    "question": "OSPFのABRとは、どのようなルータか。",
+    "answer": "複数のOSPFエリアを接続するエリア境界ルータ。",
+    "section_title": "OSPF - エリアとは、ABR/ASBRとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz4.html"
+    ]
+  },
+  {
+    "id": "C09-04-05",
+    "question": "OSPFのASBRは、主に何を行うルータか。",
+    "answer": "OSPF外部の経路を、OSPFへ取り込んで広告するルータ。",
+    "section_title": "OSPF - エリアとは、ABR/ASBRとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz4.html"
+    ]
+  },
+  {
+    "id": "C09-04-06",
+    "question": "OSPFのABRは、複数エリアのLSDBをどう保持する？",
+    "answer": "エリアごとに分けて保持する。",
+    "section_title": "OSPF - エリアとは、ABR/ASBRとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz4.html"
+    ]
+  },
+  {
+    "id": "C09-04-07",
+    "question": "OSPFの内部ルータとバックボーンルータは、所属するエリアでどう定義する？",
+    "answer": "内部ルータは全OSPFインターフェースが同じエリアに属し、バックボーンルータはエリア0に接続する。",
+    "section_title": "OSPF - エリアとは、ABR/ASBRとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz4.html"
+    ]
+  },
+  {
+    "id": "C09-04-08",
+    "question": "OSPFでエリア間へ経路を集約する設定は、主にどのルータで行う？",
+    "answer": "ABR。",
+    "section_title": "OSPF - エリアとは、ABR/ASBRとは",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz4.html"
+    ]
+  },
+  {
+    "id": "C09-05-01",
+    "question": "OSPFが直接使うIPプロトコル番号は？",
+    "answer": "89。",
+    "section_title": "OSPF - パケットフォーマット、5種類のパケット",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz5.html"
+    ]
+  },
+  {
+    "id": "C09-05-02",
+    "question": "OSPFは、TCP/UDPのどちらでパケットを運ぶ？",
+    "answer": "どちらも使わず、IPで直接運ぶ。",
+    "section_title": "OSPF - パケットフォーマット、5種類のパケット",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz5.html"
+    ]
+  },
+  {
+    "id": "C09-05-03",
+    "question": "OSPFのルータIDは、何ビットの識別子か。",
+    "answer": "32ビット。",
+    "section_title": "OSPF - パケットフォーマット、5種類のパケット",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz5.html"
+    ]
+  },
+  {
+    "id": "C09-05-04",
+    "question": "OSPFのDBDパケットは、LSDBについて何を伝える？",
+    "answer": "保持しているLSAの概要の一覧。",
+    "section_title": "OSPF - パケットフォーマット、5種類のパケット",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz5.html"
+    ]
+  },
+  {
+    "id": "C09-05-05",
+    "question": "OSPFのLSRとLSUは、役割がどう違う？",
+    "answer": "LSRは必要なLSAの要求、LSUはLSAの送信。",
+    "section_title": "OSPF - パケットフォーマット、5種類のパケット",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz5.html"
+    ]
+  },
+  {
+    "id": "C09-05-06",
+    "question": "OSPFのLSAckは、何のためのパケットか。",
+    "answer": "LSAの受信を確認するための応答。",
+    "section_title": "OSPF - パケットフォーマット、5種類のパケット",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz5.html"
+    ]
+  },
+  {
+    "id": "C09-05-07",
+    "question": "OSPFのHello間隔とDead間隔は、隣接ルータ間でどう合わせる必要がある？",
+    "answer": "それぞれ一致させる必要がある。",
+    "section_title": "OSPF - パケットフォーマット、5種類のパケット",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz5.html"
+    ]
+  },
+  {
+    "id": "C09-05-08",
+    "question": "OSPFのDead間隔とは、何の時間か。",
+    "answer": "Helloを受信できなくなってから、ネイバーが停止したと判断するまでの時間。",
+    "section_title": "OSPF - パケットフォーマット、5種類のパケット",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz5.html"
+    ]
+  },
+  {
+    "id": "C09-05-09",
+    "question": "Ethernet上のOSPFネイバー関係が成立しないとき、タイマー以外に確認する代表的な設定は？",
+    "answer": "エリアID、認証、エリア種別、ネットワークマスクなど。",
+    "section_title": "OSPF - パケットフォーマット、5種類のパケット",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz5.html"
+    ]
+  },
+  {
+    "id": "C09-06-01",
+    "question": "OSPFの2-Way状態は、何が確認できた状態か。",
+    "answer": "双方が、相手からのHelloを受信していること。",
+    "section_title": "OSPF - ネイバー関係、アジャセンシ―関係",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz6.html"
+    ]
+  },
+  {
+    "id": "C09-06-02",
+    "question": "OSPFのFull状態は、何が完了した状態か。",
+    "answer": "隣接ルータ間のLSDBの同期。",
+    "section_title": "OSPF - ネイバー関係、アジャセンシ―関係",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz6.html"
+    ]
+  },
+  {
+    "id": "C09-06-03",
+    "question": "OSPFのExchange状態では、主にどのパケットを交換する？",
+    "answer": "DBDパケット。",
+    "section_title": "OSPF - ネイバー関係、アジャセンシ―関係",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz6.html"
+    ]
+  },
+  {
+    "id": "C09-06-04",
+    "question": "OSPFのLoading状態では、主に何を行う？",
+    "answer": "不足しているLSAを要求し、受信する。",
+    "section_title": "OSPF - ネイバー関係、アジャセンシ―関係",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz6.html"
+    ]
+  },
+  {
+    "id": "C09-06-05",
+    "question": "OSPFでMTUの不一致があると、どの処理で問題になり得る？",
+    "answer": "DBDの交換など、隣接関係を完成させる同期処理。",
+    "section_title": "OSPF - ネイバー関係、アジャセンシ―関係",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz6.html"
+    ]
+  },
+  {
+    "id": "C09-07-01",
+    "question": "Ethernetなどのマルチアクセス網で、OSPFがDR/BDRを選ぶ目的は？",
+    "answer": "LSDBを同期する隣接関係や、LSA交換の負荷を減らすため。",
+    "section_title": "OSPF - DR/BDR",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz7.html"
+    ]
+  },
+  {
+    "id": "C09-07-02",
+    "question": "OSPFのDRとBDRの役割は？",
+    "answer": "DRは代表ルータ、BDRはDR障害時に引き継ぐ予備の代表ルータ。",
+    "section_title": "OSPF - DR/BDR",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz7.html"
+    ]
+  },
+  {
+    "id": "C09-07-03",
+    "question": "OSPFのDR/BDRに選ばれなかったルータを何という？",
+    "answer": "DROTHER。",
+    "section_title": "OSPF - DR/BDR",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz7.html"
+    ]
+  },
+  {
+    "id": "C09-07-04",
+    "question": "OSPFのDR/BDRは、エリア全体とセグメントごとのどちらで選ぶ？",
+    "answer": "セグメントごと。",
+    "section_title": "OSPF - DR/BDR",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz7.html"
+    ]
+  },
+  {
+    "id": "C09-07-05",
+    "question": "OSPFのDR/BDRを新たに選ぶとき、プライオリティとルータIDをどう比較する？",
+    "answer": "まずプライオリティが大きい候補を優先し、同じならルータIDが大きい候補を優先する。",
+    "section_title": "OSPF - DR/BDR",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz7.html"
+    ]
+  },
+  {
+    "id": "C09-07-06",
+    "question": "OSPFのプライオリティを0にしたインターフェースは、DR/BDRになれるか。",
+    "answer": "なれない。",
+    "section_title": "OSPF - DR/BDR",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz7.html"
+    ]
+  },
+  {
+    "id": "C09-07-07",
+    "question": "OSPFのブロードキャスト網で、DROTHER同士の関係は通常どの状態で止まる？",
+    "answer": "2-Way。",
+    "section_title": "OSPF - DR/BDR",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz7.html"
+    ]
+  },
+  {
+    "id": "C09-07-08",
+    "question": "IPv4で、OSPFのDR/BDR宛てに使うマルチキャストアドレスは？",
+    "answer": "224.0.0.6。",
+    "section_title": "OSPF - DR/BDR",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz7.html"
+    ]
+  },
+  {
+    "id": "C09-08-01",
+    "question": "OSPFv2のLSAタイプ1は、誰が生成し、何を広告する？",
+    "answer": "各ルータが生成し、自身のリンク状態を広告する。",
+    "section_title": "OSPF - LSA Type 1、2、3",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz15.html"
+    ]
+  },
+  {
+    "id": "C09-08-02",
+    "question": "OSPFv2のLSAタイプ2は、誰が生成し、何を広告する？",
+    "answer": "DRが生成し、そのマルチアクセスネットワークと接続ルータを広告する。",
+    "section_title": "OSPF - LSA Type 1、2、3",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz15.html"
+    ]
+  },
+  {
+    "id": "C09-08-03",
+    "question": "OSPFv2のLSAタイプ1・2を配布する範囲は？",
+    "answer": "生成されたエリア内。",
+    "section_title": "OSPF - LSA Type 1、2、3",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz15.html"
+    ]
+  },
+  {
+    "id": "C09-08-04",
+    "question": "OSPFv2のLSAタイプ3は、誰が生成し、何を広告する？",
+    "answer": "ABRが生成し、他エリアのネットワークへの経路を広告する。",
+    "section_title": "OSPF - LSA Type 1、2、3",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz15.html"
+    ]
+  },
+  {
+    "id": "C09-09-01",
+    "question": "OSPFv2のLSAタイプ4は、何への到達性を広告する？",
+    "answer": "別エリアにいるASBRへの到達性。",
+    "section_title": "OSPF - LSA Type 4、5、7",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz16.html"
+    ]
+  },
+  {
+    "id": "C09-09-02",
+    "question": "OSPFv2のLSAタイプ5は、誰が生成し、何を広告する？",
+    "answer": "ASBRが生成し、OSPF外部の経路を広告する。",
+    "section_title": "OSPF - LSA Type 4、5、7",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz16.html"
+    ]
+  },
+  {
+    "id": "C09-09-03",
+    "question": "OSPFの外部経路タイプE1とE2は、コスト計算がどう違う？",
+    "answer": "E1は外部コストにOSPF内部の到達コストを加え、E2は外部コストを主な比較値とする。",
+    "section_title": "OSPF - LSA Type 4、5、7",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz16.html"
+    ]
+  },
+  {
+    "id": "C09-09-04",
+    "question": "OSPFのNSSAでは、外部経路の広告にどのLSAタイプを使う？",
+    "answer": "タイプ7。",
+    "section_title": "OSPF - LSA Type 4、5、7",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz16.html"
+    ]
+  },
+  {
+    "id": "C09-09-05",
+    "question": "OSPFのNSSAに置いたASBRは、何のために使う？",
+    "answer": "NSSA内から、OSPF外部の経路を取り込むため。",
+    "section_title": "OSPF - LSA Type 4、5、7",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz16.html"
+    ]
+  },
+  {
+    "id": "C09-10-01",
+    "question": "OSPFの仮想リンクは、何への論理的な接続を作る？",
+    "answer": "バックボーンエリア（エリア0）への接続。",
+    "section_title": "OSPF - 仮想リンク（バーチャルリンク）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz25.html"
+    ]
+  },
+  {
+    "id": "C09-10-02",
+    "question": "OSPFの仮想リンクを作る両端のルータは、物理的に直接接続している必要があるか。",
+    "answer": "ない。共通するトランジットエリアを介して論理接続する。",
+    "section_title": "OSPF - 仮想リンク（バーチャルリンク）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz25.html"
+    ]
+  },
+  {
+    "id": "C09-10-03",
+    "question": "OSPFの仮想リンクを定義する際に指定する、基本的な2つの情報は？",
+    "answer": "トランジットエリアと、対向ルータのルータID。",
+    "section_title": "OSPF - 仮想リンク（バーチャルリンク）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/ospfz25.html"
+    ]
+  }
+]

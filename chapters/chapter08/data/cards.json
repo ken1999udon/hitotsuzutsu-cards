@@ -1,0 +1,173 @@
+[
+  {
+    "id": "C08-01-01",
+    "question": "RIPでいうディスタンスとベクタは、何を表す？",
+    "answer": "ディスタンスは宛先までの距離、ベクタは次ホップとなる方向。",
+    "section_title": "ディスタンスベクタルーティングプロトコル - 動作",
+    "sources": [
+      "https://www.infraexpert.com/study/distancevector.html"
+    ]
+  },
+  {
+    "id": "C08-01-02",
+    "question": "RIPでは、経路情報がルータを1台経由すると、ホップ数をどうする？",
+    "answer": "1増やす。",
+    "section_title": "ディスタンスベクタルーティングプロトコル - 動作",
+    "sources": [
+      "https://www.infraexpert.com/study/distancevector.html"
+    ]
+  },
+  {
+    "id": "C08-01-03",
+    "question": "RIPは、ネットワークに変化がなくても経路情報を送るか。",
+    "answer": "定期的に送る。",
+    "section_title": "ディスタンスベクタルーティングプロトコル - 動作",
+    "sources": [
+      "https://www.infraexpert.com/study/distancevector.html"
+    ]
+  },
+  {
+    "id": "C08-01-04",
+    "question": "RIPは、現在の次ホップから経路メトリックの悪化を通知されるとどうする？",
+    "answer": "その経路のメトリックを更新する。",
+    "section_title": "ディスタンスベクタルーティングプロトコル - 動作",
+    "sources": [
+      "https://www.infraexpert.com/study/distancevector.html"
+    ]
+  },
+  {
+    "id": "C08-02-01",
+    "question": "ディスタンスベクタ型の無限カウントは、どのように発生する？",
+    "answer": "到達不能になった経路を互いに到達可能と誤認し、広告のたびにメトリックが増えていく。",
+    "section_title": "ディスタンスベクタルーティングプロトコル - 問題点",
+    "sources": [
+      "https://www.infraexpert.com/study/distancevector2.html"
+    ]
+  },
+  {
+    "id": "C08-02-02",
+    "question": "RIPで到達可能な最大ホップ数と、到達不能を示す値は？",
+    "answer": "最大15ホップ、到達不能は16。",
+    "section_title": "ディスタンスベクタルーティングプロトコル - 問題点",
+    "sources": [
+      "https://www.infraexpert.com/study/distancevector2.html"
+    ]
+  },
+  {
+    "id": "C08-02-03",
+    "question": "RIPの最大ホップ数が小さいことは、ネットワーク規模にどう影響する？",
+    "answer": "多段のルータを経由する、大規模なネットワークには適しにくい。",
+    "section_title": "ディスタンスベクタルーティングプロトコル - 問題点",
+    "sources": [
+      "https://www.infraexpert.com/study/distancevector2.html"
+    ]
+  },
+  {
+    "id": "C08-02-04",
+    "question": "ルーティングループでは、パケットにどのようなことが起こる？",
+    "answer": "同じルータ間や経路を繰り返し巡回する。",
+    "section_title": "ディスタンスベクタルーティングプロトコル - 問題点",
+    "sources": [
+      "https://www.infraexpert.com/study/distancevector2.html"
+    ]
+  },
+  {
+    "id": "C08-03-01",
+    "question": "RIPのスプリットホライズンは、どのような経路広告を抑える？",
+    "answer": "あるインターフェースで学んだ経路を、同じインターフェースへ広告し返すこと。",
+    "section_title": "ディスタンスベクタルーティングプロトコル - 機能",
+    "sources": [
+      "https://www.infraexpert.com/study/distancevector3.html"
+    ]
+  },
+  {
+    "id": "C08-03-02",
+    "question": "スプリットホライズンが、経路のループを抑える理由は？",
+    "answer": "経路を教えた相手が、その情報を迂回経路と誤認して再学習するのを防ぐため。",
+    "section_title": "ディスタンスベクタルーティングプロトコル - 機能",
+    "sources": [
+      "https://www.infraexpert.com/study/distancevector3.html"
+    ]
+  },
+  {
+    "id": "C08-03-03",
+    "question": "RIPのルートポイズニングは、利用不能の経路をどう通知する？",
+    "answer": "メトリックを16にして、到達不能として通知する。",
+    "section_title": "ディスタンスベクタルーティングプロトコル - 機能",
+    "sources": [
+      "https://www.infraexpert.com/study/distancevector3.html"
+    ]
+  },
+  {
+    "id": "C08-03-05",
+    "question": "単純なスプリットホライズンとポイズンリバースは、学習元への広告がどう違う？",
+    "answer": "前者はその経路を広告せず、後者は到達不能として広告する。",
+    "section_title": "ディスタンスベクタルーティングプロトコル - 機能",
+    "sources": [
+      "https://www.infraexpert.com/study/distancevector3.html"
+    ]
+  },
+  {
+    "id": "C08-04-01",
+    "question": "ホールドダウン機能を使う目的は？",
+    "answer": "障害直後の古い情報で、無効な経路を誤って復活させるのを抑えるため。",
+    "section_title": "ディスタンスベクタルーティングプロトコル - 機能 2",
+    "sources": [
+      "https://www.infraexpert.com/study/distancevector4.html"
+    ]
+  },
+  {
+    "id": "C08-04-02",
+    "question": "RIPのトリガードアップデートとは何か。",
+    "answer": "定期更新を待たず、経路の変更をきっかけに送る更新通知。",
+    "section_title": "ディスタンスベクタルーティングプロトコル - 機能 2",
+    "sources": [
+      "https://www.infraexpert.com/study/distancevector4.html"
+    ]
+  },
+  {
+    "id": "C08-04-03",
+    "question": "トリガードアップデートが、障害後の収束を早められる理由は？",
+    "answer": "次の定期更新を待たずに、変更を隣接ルータへ伝えられるため。",
+    "section_title": "ディスタンスベクタルーティングプロトコル - 機能 2",
+    "sources": [
+      "https://www.infraexpert.com/study/distancevector4.html"
+    ]
+  },
+  {
+    "id": "C08-04-04",
+    "question": "ルートポイズニングとトリガードアップデートは、働きがどう違う？",
+    "answer": "前者は到達不能を表す方法、後者は変更を通知するタイミングの仕組み。",
+    "section_title": "ディスタンスベクタルーティングプロトコル - 機能 2",
+    "sources": [
+      "https://www.infraexpert.com/study/distancevector4.html"
+    ]
+  },
+  {
+    "id": "C08-05-01",
+    "question": "RIPの定期アップデートの基本的な間隔は？",
+    "answer": "約30秒。",
+    "section_title": "ディスタンスベクタルーティングプロトコル - タイマー",
+    "sources": [
+      "https://www.infraexpert.com/study/distancevector5.html"
+    ]
+  },
+  {
+    "id": "C08-05-02",
+    "question": "RIPの経路タイムアウトは、何を基準に測る？",
+    "answer": "その経路の有効な更新を最後に受信した時点。",
+    "section_title": "ディスタンスベクタルーティングプロトコル - タイマー",
+    "sources": [
+      "https://www.infraexpert.com/study/distancevector5.html"
+    ]
+  },
+  {
+    "id": "C08-05-03",
+    "question": "RIPで、一定期間更新されない経路を無効にする理由は？",
+    "answer": "到達性が失われた可能性のある古い経路を、使い続けないため。",
+    "section_title": "ディスタンスベクタルーティングプロトコル - タイマー",
+    "sources": [
+      "https://www.infraexpert.com/study/distancevector5.html"
+    ]
+  }
+]

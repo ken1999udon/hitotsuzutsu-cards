@@ -1,0 +1,1013 @@
+{
+  "chapter": 7,
+  "cards": 77,
+  "reviewed_cards": 77,
+  "method": "草案の全問を読み直し、原文と問い・解答を照合してから確定。自動生成した合格印ではなく、見直し完了後に記録。",
+  "cards_review": [
+    {
+      "id": "C07-01-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-01-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-01-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-01-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-02-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing2.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-02-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing2.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-03-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing3.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-03-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing3.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-03-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing3.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-03-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing3.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-04-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-04-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-04-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-05-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing6.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-05-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing6.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-05-03",
+      "result": "修正後確認",
+      "source": "https://www.infraexpert.com/study/routing6.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "2例を求める問いに対し、余分な3例目の補足を削除。",
+      "draft_question": "AS内で使う標準的なIGPを2つ挙げると？",
+      "draft_answer": "OSPF、IS-ISなど。RIPもIGP。"
+    },
+    {
+      "id": "C07-05-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing6.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-05-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing6.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-05-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing6.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-05-07",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing6.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-05-08",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing6.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-05-09",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing6.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-05-10",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing6.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-06-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing7.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-07-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing9.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-07-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing9.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-07-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing9.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-08-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing12.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-09-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-09-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-09-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-09-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-10-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing8.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-10-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/routing8.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-11-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/fhrpz06.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-11-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/fhrpz06.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-11-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/fhrpz06.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-11-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/fhrpz06.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-11-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/fhrpz06.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-11-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/fhrpz06.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-11-07",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/fhrpz06.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-11-08",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/fhrpz06.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-13-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/fhrpz12.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-13-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/fhrpz12.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-14-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/gateway.htm",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-14-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/gateway.htm",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-15-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/bgpz01.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-15-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/bgpz01.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-15-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/bgpz01.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-15-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/bgpz01.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-15-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/bgpz01.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-15-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/bgpz01.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-16-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/bgpz04.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-16-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/bgpz04.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-16-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/bgpz04.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-17-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/bgpz05.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-17-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/bgpz05.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-17-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/bgpz05.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-17-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/bgpz05.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-17-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/bgpz05.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-17-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/bgpz05.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-17-07",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/bgpz05.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-17-08",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/bgpz05.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-18-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/study60.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-18-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/study60.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-18-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/study60.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-18-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/study60.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-18-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/study60.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-19-01",
+      "result": "修正後確認",
+      "source": "https://www.infraexpert.com/study/mpls5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "分離する対象を明確にした。",
+      "draft_question": "VRFは、1台のルータで何を分離する技術か。",
+      "draft_answer": "複数の独立したルーティング・転送の情報。"
+    },
+    {
+      "id": "C07-19-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/mpls5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-19-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/mpls5.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-20-01",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/mpls13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-20-02",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/mpls13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-20-03",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/mpls13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-20-04",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/mpls13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-20-05",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/mpls13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    },
+    {
+      "id": "C07-20-06",
+      "result": "確認済み",
+      "source": "https://www.infraexpert.com/study/mpls13.html",
+      "checks": [
+        "本文に根拠がある",
+        "問いに答えている",
+        "短く自然な表現",
+        "不要な設定・補足なし",
+        "重複を確認"
+      ],
+      "note": "全77問を再読。Cisco固有AD値、WEIGHT、HSRP・GLBP、機器コマンドを除外。BGPのAS_PATHのみで常に選択されるとはしない。"
+    }
+  ]
+}

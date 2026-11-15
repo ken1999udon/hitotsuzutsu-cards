@@ -1,0 +1,569 @@
+[
+  {
+    "id": "C06-01-01",
+    "question": "WANサービスのSLAとは何か。",
+    "answer": "事業者と利用者が合意する、サービス品質の保証内容。",
+    "section_title": "WAN ( Wide Area Network ) とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wan.html"
+    ]
+  },
+  {
+    "id": "C06-01-02",
+    "question": "広域イーサネットとIP-VPNは、それぞれ主にどの層の接続サービスか。",
+    "answer": "広域イーサネットはL2、IP-VPNはL3。",
+    "section_title": "WAN ( Wide Area Network ) とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wan.html"
+    ]
+  },
+  {
+    "id": "C06-02-01",
+    "question": "WANでいうDTEとDCEの役割の違いは？",
+    "answer": "DTEはデータを送受信する端末側の機器、DCEは回線を終端し網との信号を変換する機器。",
+    "section_title": "基本構成とデバイス",
+    "sources": [
+      "https://www.infraexpert.com/study/wan2.html"
+    ]
+  },
+  {
+    "id": "C06-02-02",
+    "question": "同期式のシリアル回線で、DTEにクロックを供給する側は？",
+    "answer": "DCE。",
+    "section_title": "基本構成とデバイス",
+    "sources": [
+      "https://www.infraexpert.com/study/wan2.html"
+    ]
+  },
+  {
+    "id": "C06-02-03",
+    "question": "CPEとは、どこに設置する通信機器の総称か。",
+    "answer": "サービス加入者の宅内に設置する通信機器。",
+    "section_title": "基本構成とデバイス",
+    "sources": [
+      "https://www.infraexpert.com/study/wan2.html"
+    ]
+  },
+  {
+    "id": "C06-02-04",
+    "question": "ONUは、主にどのような信号を相互変換する？",
+    "answer": "光回線の光信号と、宅内機器側の電気信号。",
+    "section_title": "基本構成とデバイス",
+    "sources": [
+      "https://www.infraexpert.com/study/wan2.html"
+    ]
+  },
+  {
+    "id": "C06-02-05",
+    "question": "WANの責任分界点は、何の境界を示す？",
+    "answer": "通信事業者と利用者の、設備の管理・保守責任の境界。",
+    "section_title": "基本構成とデバイス",
+    "sources": [
+      "https://www.infraexpert.com/study/wan2.html"
+    ]
+  },
+  {
+    "id": "C06-03-01",
+    "question": "専用型の回線と交換型の回線は、利用者間の回線利用がどう違う？",
+    "answer": "専用型は利用者が占有し、交換型は複数の利用者が共用する。",
+    "section_title": "WAN 回線の種類 ( 専用線、PSTN、ISDN )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan3.html"
+    ]
+  },
+  {
+    "id": "C06-03-02",
+    "question": "回線交換とパケット交換の基本的な違いは？",
+    "answer": "回線交換は通信中の回線を確保し、パケット交換はデータを分割して共用網で転送する。",
+    "section_title": "WAN 回線の種類 ( 専用線、PSTN、ISDN )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan3.html"
+    ]
+  },
+  {
+    "id": "C06-03-03",
+    "question": "ISDNのBチャネルとDチャネルの役割は？",
+    "answer": "Bは音声やデータの伝送、Dは接続制御などのシグナリング。",
+    "section_title": "WAN 回線の種類 ( 専用線、PSTN、ISDN )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan3.html"
+    ]
+  },
+  {
+    "id": "C06-03-04",
+    "question": "ISDNの基本インターフェースの「2B＋D」は、何を意味する？",
+    "answer": "64kbpsのBチャネル2本と、16kbpsのDチャネル1本。",
+    "section_title": "WAN 回線の種類 ( 専用線、PSTN、ISDN )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan3.html"
+    ]
+  },
+  {
+    "id": "C06-04-01",
+    "question": "ネットワークの輻輳とは、どのような状態か。",
+    "answer": "トラフィックが集中し、回線や機器の処理が混雑している状態。",
+    "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan4.html"
+    ]
+  },
+  {
+    "id": "C06-04-02",
+    "question": "仮想回線のPVCとSVCは、接続の作り方がどう違う？",
+    "answer": "PVCはあらかじめ固定し、SVCは必要時に動的に確立する。",
+    "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan4.html"
+    ]
+  },
+  {
+    "id": "C06-04-03",
+    "question": "フレームリレーのDLCIは、何を識別する？",
+    "answer": "仮想回線。",
+    "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan4.html"
+    ]
+  },
+  {
+    "id": "C06-04-04",
+    "question": "フレームリレーのDLCI番号は、網全体で一意である必要があるか。",
+    "answer": "ない。ローカルな接続区間で意味を持つ識別子。",
+    "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan4.html"
+    ]
+  },
+  {
+    "id": "C06-04-05",
+    "question": "フレームリレーのCIRとは何か。",
+    "answer": "契約で定めた、仮想回線ごとの保証情報速度。",
+    "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan4.html"
+    ]
+  },
+  {
+    "id": "C06-04-06",
+    "question": "フレームリレーのFECNとBECNは、輻輳をどちらへ通知する？",
+    "answer": "FECNは宛先方向、BECNは送信元方向。",
+    "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan4.html"
+    ]
+  },
+  {
+    "id": "C06-04-07",
+    "question": "ATMで転送の基本単位となる固定長データを何という？",
+    "answer": "セル。",
+    "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan4.html"
+    ]
+  },
+  {
+    "id": "C06-04-08",
+    "question": "ATMセルの全長と、ヘッダ・データ部の長さは？",
+    "answer": "全長53バイト、ヘッダ5バイト、データ48バイト。",
+    "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan4.html"
+    ]
+  },
+  {
+    "id": "C06-04-09",
+    "question": "ATMで仮想的な接続を識別する主な2つの情報は？",
+    "answer": "VPI（仮想パス識別子）とVCI（仮想チャネル識別子）。",
+    "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan4.html"
+    ]
+  },
+  {
+    "id": "C06-04-10",
+    "question": "ATMのAALが、上位層データに対して行う主な処理は？",
+    "answer": "セルのデータ部に収まるよう分割し、受信側で組み立て直す。",
+    "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan4.html"
+    ]
+  },
+  {
+    "id": "C06-05-01",
+    "question": "MPLSは、主に何の情報に基づいてパケットを転送する？",
+    "answer": "パケットに付けたラベル。",
+    "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan5.html"
+    ]
+  },
+  {
+    "id": "C06-05-02",
+    "question": "Ethernetで運ぶMPLSパケットのラベルは、どこに付ける？",
+    "answer": "L2ヘッダとIPヘッダの間。",
+    "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan5.html"
+    ]
+  },
+  {
+    "id": "C06-05-03",
+    "question": "MPLSのラベルスタックの1エントリは何バイトか。",
+    "answer": "4バイト。",
+    "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan5.html"
+    ]
+  },
+  {
+    "id": "C06-05-04",
+    "question": "MPLSのLERとLSRは、主な役割がどう違う？",
+    "answer": "LERは網の入口・出口でラベルを付け外しし、LSRはラベルを付け替えて網内を転送する。",
+    "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan5.html"
+    ]
+  },
+  {
+    "id": "C06-05-05",
+    "question": "MPLSのLSPとは何か。",
+    "answer": "ラベルに基づいて転送される、片方向のパス。",
+    "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan5.html"
+    ]
+  },
+  {
+    "id": "C06-05-06",
+    "question": "MPLSのFECとは、どのようなパケットの集まりか。",
+    "answer": "同じ転送処理を受けるパケットの集まり。",
+    "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan5.html"
+    ]
+  },
+  {
+    "id": "C06-05-07",
+    "question": "MPLSで、ラベルと転送先の対応情報を配る標準プロトコルの一つは？",
+    "answer": "LDP。",
+    "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan5.html"
+    ]
+  },
+  {
+    "id": "C06-05-08",
+    "question": "IP-VPNのCEルータとPEルータは、どちら側に位置する？",
+    "answer": "CEは利用者側、PEは通信事業者の網の端。",
+    "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan5.html"
+    ]
+  },
+  {
+    "id": "C06-05-09",
+    "question": "MPLS-VPNのVPNラベルは、何を識別するために付ける？",
+    "answer": "利用者ごとに分離されたVPNの転送先。",
+    "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan5.html"
+    ]
+  },
+  {
+    "id": "C06-05-10",
+    "question": "MPLS-VPNで、PE間のVPN経路やラベルの通知に使うプロトコルは？",
+    "answer": "MP-BGP。",
+    "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan5.html"
+    ]
+  },
+  {
+    "id": "C06-05-11",
+    "question": "広域イーサネットでは、離れた拠点を同じIPサブネットとして接続できるか。",
+    "answer": "できる。拠点間をL2で接続できるため。",
+    "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan5.html"
+    ]
+  },
+  {
+    "id": "C06-05-12",
+    "question": "IP-VPNと広域イーサネットは、利用者が使えるL3プロトコルでどう違う？",
+    "answer": "IP-VPNはIPに限定され、広域イーサネットはEthernetで運べるL3プロトコルを扱える。",
+    "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan5.html"
+    ]
+  },
+  {
+    "id": "C06-05-13",
+    "question": "Q-in-Qで、複数企業が同じ顧客VLAN IDを使っても識別できる理由は？",
+    "answer": "事業者側の外側のVLANタグで、利用者を分離するため。",
+    "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+    "sources": [
+      "https://www.infraexpert.com/study/wan5.html"
+    ]
+  },
+  {
+    "id": "C06-06-01",
+    "question": "PPPが主に使われる、2点間を直接結ぶ接続形態は？",
+    "answer": "ポイントツーポイント接続。",
+    "section_title": "HDLC と PPP",
+    "sources": [
+      "https://www.infraexpert.com/study/wan6.html"
+    ]
+  },
+  {
+    "id": "C06-06-02",
+    "question": "PPPのLCPとNCPの役割の違いは？",
+    "answer": "LCPはリンクの確立・維持・切断、NCPはネットワーク層プロトコルの設定・制御。",
+    "section_title": "HDLC と PPP",
+    "sources": [
+      "https://www.infraexpert.com/study/wan6.html"
+    ]
+  },
+  {
+    "id": "C06-06-03",
+    "question": "PPPでIPv4の設定を交渉するNCPは？",
+    "answer": "IPCP。",
+    "section_title": "HDLC と PPP",
+    "sources": [
+      "https://www.infraexpert.com/study/wan6.html"
+    ]
+  },
+  {
+    "id": "C06-06-04",
+    "question": "認証を行うPPP接続の、確立手順の順番は？",
+    "answer": "LCPによるリンク確立 → 認証 → NCPによるネットワーク層の設定。",
+    "section_title": "HDLC と PPP",
+    "sources": [
+      "https://www.infraexpert.com/study/wan6.html"
+    ]
+  },
+  {
+    "id": "C06-06-05",
+    "question": "PPPのマルチリンク機能は、複数の回線をどう扱う？",
+    "answer": "複数のPPPリンクを、1本の論理リンクとして扱う。",
+    "section_title": "HDLC と PPP",
+    "sources": [
+      "https://www.infraexpert.com/study/wan6.html"
+    ]
+  },
+  {
+    "id": "C06-06-06",
+    "question": "PAP認証で、パスワード送信上の問題は？",
+    "answer": "パスワードを平文で送ること。",
+    "section_title": "HDLC と PPP",
+    "sources": [
+      "https://www.infraexpert.com/study/wan6.html"
+    ]
+  },
+  {
+    "id": "C06-06-07",
+    "question": "CHAPは、パスワードをそのまま送らずに何を返す？",
+    "answer": "チャレンジと共有秘密から計算したハッシュ値。",
+    "section_title": "HDLC と PPP",
+    "sources": [
+      "https://www.infraexpert.com/study/wan6.html"
+    ]
+  },
+  {
+    "id": "C06-06-08",
+    "question": "CHAP認証の3段階のやり取りは？",
+    "answer": "チャレンジ → レスポンス → 成功・失敗の通知。",
+    "section_title": "HDLC と PPP",
+    "sources": [
+      "https://www.infraexpert.com/study/wan6.html"
+    ]
+  },
+  {
+    "id": "C06-07-01",
+    "question": "ADSLの「非対称」は、何が異なることを意味する？",
+    "answer": "上りと下りの通信速度。",
+    "section_title": "ADSLインターネット / CATVインターネット",
+    "sources": [
+      "https://www.infraexpert.com/study/wan7.html"
+    ]
+  },
+  {
+    "id": "C06-07-02",
+    "question": "ADSLで、電話の音声とデータ通信を分離する装置は？",
+    "answer": "スプリッタ。",
+    "section_title": "ADSLインターネット / CATVインターネット",
+    "sources": [
+      "https://www.infraexpert.com/study/wan7.html"
+    ]
+  },
+  {
+    "id": "C06-07-03",
+    "question": "メタル線を使うDSLで、伝送距離が長いと速度が下がりやすい理由は？",
+    "answer": "信号の減衰やノイズの影響が大きくなるため。",
+    "section_title": "ADSLインターネット / CATVインターネット",
+    "sources": [
+      "https://www.infraexpert.com/study/wan7.html"
+    ]
+  },
+  {
+    "id": "C06-07-04",
+    "question": "CATVのHFCは、どの2種類の伝送媒体を組み合わせる構成か。",
+    "answer": "光ファイバと同軸ケーブル。",
+    "section_title": "ADSLインターネット / CATVインターネット",
+    "sources": [
+      "https://www.infraexpert.com/study/wan7.html"
+    ]
+  },
+  {
+    "id": "C06-07-05",
+    "question": "CATV網側で、ケーブルモデムと通信する終端装置は？",
+    "answer": "CMTS。",
+    "section_title": "ADSLインターネット / CATVインターネット",
+    "sources": [
+      "https://www.infraexpert.com/study/wan7.html"
+    ]
+  },
+  {
+    "id": "C06-08-01",
+    "question": "FTTHは、収容局から加入者宅までの区間に何を使う？",
+    "answer": "光ファイバ。",
+    "section_title": "FTTHインターネット",
+    "sources": [
+      "https://www.infraexpert.com/study/wan8.html"
+    ]
+  },
+  {
+    "id": "C06-08-02",
+    "question": "FTTHのSS方式とPON方式は、光回線の使い方がどう違う？",
+    "answer": "SSは加入者ごとに1対1で接続し、PONは途中で分岐して複数加入者で共有する。",
+    "section_title": "FTTHインターネット",
+    "sources": [
+      "https://www.infraexpert.com/study/wan8.html"
+    ]
+  },
+  {
+    "id": "C06-08-03",
+    "question": "PONのOLTとONUは、それぞれどこに設置する？",
+    "answer": "OLTは事業者の収容局、ONUは加入者側。",
+    "section_title": "FTTHインターネット",
+    "sources": [
+      "https://www.infraexpert.com/study/wan8.html"
+    ]
+  },
+  {
+    "id": "C06-08-04",
+    "question": "PONで、光信号を分岐する光スプリッタには給電が必要か。",
+    "answer": "不要。受動的な光部品で分岐する。",
+    "section_title": "FTTHインターネット",
+    "sources": [
+      "https://www.infraexpert.com/study/wan8.html"
+    ]
+  },
+  {
+    "id": "C06-08-05",
+    "question": "PONの上り通信でTDMAを使う目的は？",
+    "answer": "ONUごとの送信時刻をずらし、共有回線での信号の衝突を防ぐため。",
+    "section_title": "FTTHインターネット",
+    "sources": [
+      "https://www.infraexpert.com/study/wan8.html"
+    ]
+  },
+  {
+    "id": "C06-08-06",
+    "question": "PONの下り通信で、ONUは受信した信号をどう扱う？",
+    "answer": "共有された下り信号から、自分宛てのデータを取り出す。",
+    "section_title": "FTTHインターネット",
+    "sources": [
+      "https://www.infraexpert.com/study/wan8.html"
+    ]
+  },
+  {
+    "id": "C06-08-07",
+    "question": "WDMは、1本の光ファイバで信号を何によって分ける？",
+    "answer": "光の波長。",
+    "section_title": "FTTHインターネット",
+    "sources": [
+      "https://www.infraexpert.com/study/wan8.html"
+    ]
+  },
+  {
+    "id": "C06-08-08",
+    "question": "PONで、上りと下りを異なる波長にする利点は？",
+    "answer": "1本の光ファイバで、両方向の信号を同時に運べる。",
+    "section_title": "FTTHインターネット",
+    "sources": [
+      "https://www.infraexpert.com/study/wan8.html"
+    ]
+  },
+  {
+    "id": "C06-09-01",
+    "question": "PPPoEは、何の上でPPPを利用するプロトコルか。",
+    "answer": "Ethernet。",
+    "section_title": "PPPoEとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wan9.html"
+    ]
+  },
+  {
+    "id": "C06-09-02",
+    "question": "PPPoEのDiscoveryステージで決める主な情報は？",
+    "answer": "接続相手のMACアドレスと、PPPoEセッションID。",
+    "section_title": "PPPoEとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wan9.html"
+    ]
+  },
+  {
+    "id": "C06-09-03",
+    "question": "PPPoEのDiscovery後のPPPセッションステージでは、主に何を行う？",
+    "answer": "PPPのリンク確立、認証、IPアドレスなどの設定交渉。",
+    "section_title": "PPPoEとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wan9.html"
+    ]
+  },
+  {
+    "id": "C06-09-04",
+    "question": "PPPoEを使うと、通常のEthernetよりIPのMTUが小さくなり得る理由は？",
+    "answer": "PPPoEやPPPのヘッダ分の領域が必要になるため。",
+    "section_title": "PPPoEとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wan9.html"
+    ]
+  },
+  {
+    "id": "C06-09-05",
+    "question": "PPPoEのMTUを、すべての回線で同じ値と決めてよいか。",
+    "answer": "決められない。サービス側の仕様や経路の制約も確認する必要がある。",
+    "section_title": "PPPoEとは",
+    "sources": [
+      "https://www.infraexpert.com/study/wan9.html"
+    ]
+  },
+  {
+    "id": "C06-10-01",
+    "question": "IXは、何を相互接続するための場所・仕組みか。",
+    "answer": "ISPなどの異なるネットワーク。",
+    "section_title": "IX（Internet Exchange）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wan19.html"
+    ]
+  },
+  {
+    "id": "C06-10-02",
+    "question": "ピアリングとトランジットの違いは？",
+    "answer": "ピアリングは相互のネットワーク間で通信を交換し、トランジットは他のネットワークからインターネット全体への接続性を提供してもらう。",
+    "section_title": "IX（Internet Exchange）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wan19.html"
+    ]
+  },
+  {
+    "id": "C06-10-03",
+    "question": "IXを利用してピアリングすると、トランジットの費用を抑えられる理由は？",
+    "answer": "一部の通信を、上位事業者経由ではなく相手ネットワークと直接交換できるため。",
+    "section_title": "IX（Internet Exchange）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/wan19.html"
+    ]
+  }
+]

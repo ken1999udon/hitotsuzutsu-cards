@@ -1,0 +1,700 @@
+[
+  {
+    "id": "C07-01-01",
+    "question": "通常のIPルーティングは、パケットのどのアドレスに基づいて転送先を選ぶ？",
+    "answer": "宛先IPアドレス。",
+    "section_title": "ルーティングとは",
+    "sources": [
+      "https://www.infraexpert.com/study/routing.html"
+    ]
+  },
+  {
+    "id": "C07-01-02",
+    "question": "ロンゲストマッチとは、複数の経路からどれを選ぶ規則か。",
+    "answer": "宛先に一致する経路のうち、プレフィックス長が最も長い経路。",
+    "section_title": "ルーティングとは",
+    "sources": [
+      "https://www.infraexpert.com/study/routing.html"
+    ]
+  },
+  {
+    "id": "C07-01-03",
+    "question": "ルーティングのネクストホップとは何か。",
+    "answer": "宛先へ向けて、次にパケットを渡す隣接ルータ。",
+    "section_title": "ルーティングとは",
+    "sources": [
+      "https://www.infraexpert.com/study/routing.html"
+    ]
+  },
+  {
+    "id": "C07-01-04",
+    "question": "宛先に一致する経路もデフォルトルートもない場合、通常パケットをどうする？",
+    "answer": "破棄する。",
+    "section_title": "ルーティングとは",
+    "sources": [
+      "https://www.infraexpert.com/study/routing.html"
+    ]
+  },
+  {
+    "id": "C07-02-01",
+    "question": "直接接続ルートとは何か。",
+    "answer": "ルータ自身のインターフェースが直接つながるネットワークへの経路。",
+    "section_title": "ルーティングテーブルの見方",
+    "sources": [
+      "https://www.infraexpert.com/study/routing2.html"
+    ]
+  },
+  {
+    "id": "C07-02-02",
+    "question": "ルーティングテーブルで、宛先ネットワーク以外に確認する主な転送情報は？",
+    "answer": "次ホップと出力インターフェース。",
+    "section_title": "ルーティングテーブルの見方",
+    "sources": [
+      "https://www.infraexpert.com/study/routing2.html"
+    ]
+  },
+  {
+    "id": "C07-03-01",
+    "question": "スタティックルーティングは、経路をどのように設定する？",
+    "answer": "管理者が手動で設定する。",
+    "section_title": "スタティックルーティング",
+    "sources": [
+      "https://www.infraexpert.com/study/routing3.html"
+    ]
+  },
+  {
+    "id": "C07-03-02",
+    "question": "スタティックルートを使う通信で、往路だけでなく復路の経路確認も必要な理由は？",
+    "answer": "応答パケットも送信元へ戻れる必要があるため。",
+    "section_title": "スタティックルーティング",
+    "sources": [
+      "https://www.infraexpert.com/study/routing3.html"
+    ]
+  },
+  {
+    "id": "C07-03-03",
+    "question": "IPv4のデフォルトルートを、プレフィックスで表すと？",
+    "answer": "0.0.0.0/0。",
+    "section_title": "スタティックルーティング",
+    "sources": [
+      "https://www.infraexpert.com/study/routing3.html"
+    ]
+  },
+  {
+    "id": "C07-03-04",
+    "question": "デフォルトルートは、どのような場合に選ばれる？",
+    "answer": "宛先に一致する、より具体的な経路がない場合。",
+    "section_title": "スタティックルーティング",
+    "sources": [
+      "https://www.infraexpert.com/study/routing3.html"
+    ]
+  },
+  {
+    "id": "C07-04-01",
+    "question": "ダイナミックルーティングは、経路情報をどう更新する？",
+    "answer": "ルーティングプロトコルで情報を交換し、自動的に更新する。",
+    "section_title": "ダイナミックルーティング ( 概要 )",
+    "sources": [
+      "https://www.infraexpert.com/study/routing5.html"
+    ]
+  },
+  {
+    "id": "C07-04-02",
+    "question": "経路変更への追従で、ダイナミックルーティングを使う利点は？",
+    "answer": "障害や構成変更を学習し、利用できる別経路へ切り替えられる。",
+    "section_title": "ダイナミックルーティング ( 概要 )",
+    "sources": [
+      "https://www.infraexpert.com/study/routing5.html"
+    ]
+  },
+  {
+    "id": "C07-04-03",
+    "question": "スタティックルーティングに比べ、ダイナミックルーティングで増える機器側の負担は？",
+    "answer": "経路情報の交換や計算に使うCPU・メモリ・通信量。",
+    "section_title": "ダイナミックルーティング ( 概要 )",
+    "sources": [
+      "https://www.infraexpert.com/study/routing5.html"
+    ]
+  },
+  {
+    "id": "C07-05-01",
+    "question": "ルーティングでいうASとは何か。",
+    "answer": "共通の管理・経路制御ポリシーで運用するネットワークの集合。",
+    "section_title": "ダイナミックルーティング ( 詳細 )",
+    "sources": [
+      "https://www.infraexpert.com/study/routing6.html"
+    ]
+  },
+  {
+    "id": "C07-05-02",
+    "question": "IGPとEGPは、経路情報を交換する範囲がどう違う？",
+    "answer": "IGPはAS内、EGPはAS間。",
+    "section_title": "ダイナミックルーティング ( 詳細 )",
+    "sources": [
+      "https://www.infraexpert.com/study/routing6.html"
+    ]
+  },
+  {
+    "id": "C07-05-03",
+    "question": "AS内で使う標準的なIGPを2つ挙げると？",
+    "answer": "OSPF、IS-IS。",
+    "section_title": "ダイナミックルーティング ( 詳細 )",
+    "sources": [
+      "https://www.infraexpert.com/study/routing6.html"
+    ]
+  },
+  {
+    "id": "C07-05-04",
+    "question": "経路制御のコンバージェンスとは何か。",
+    "answer": "経路変更が伝わり、ルータの経路情報が安定した状態へ収束すること。",
+    "section_title": "ダイナミックルーティング ( 詳細 )",
+    "sources": [
+      "https://www.infraexpert.com/study/routing6.html"
+    ]
+  },
+  {
+    "id": "C07-05-05",
+    "question": "ディスタンスベクタ型とリンクステート型は、経路計算に使う情報がどう違う？",
+    "answer": "前者は隣接ルータから得た距離と方向、後者はリンク状態から作るネットワークの構造。",
+    "section_title": "ダイナミックルーティング ( 詳細 )",
+    "sources": [
+      "https://www.infraexpert.com/study/routing6.html"
+    ]
+  },
+  {
+    "id": "C07-05-06",
+    "question": "リンクステート型が、最短経路の計算に使う代表的なアルゴリズムは？",
+    "answer": "SPF（ダイクストラ法）。",
+    "section_title": "ダイナミックルーティング ( 詳細 )",
+    "sources": [
+      "https://www.infraexpert.com/study/routing6.html"
+    ]
+  },
+  {
+    "id": "C07-05-07",
+    "question": "クラスフルとクラスレスのルーティングプロトコルは、通知情報がどう違う？",
+    "answer": "クラスフルはサブネットマスクを通知せず、クラスレスは通知する。",
+    "section_title": "ダイナミックルーティング ( 詳細 )",
+    "sources": [
+      "https://www.infraexpert.com/study/routing6.html"
+    ]
+  },
+  {
+    "id": "C07-05-08",
+    "question": "クラスレスな経路通知が、VLSMを利用できる理由は？",
+    "answer": "経路ごとのプレフィックス長を相手に伝えられるため。",
+    "section_title": "ダイナミックルーティング ( 詳細 )",
+    "sources": [
+      "https://www.infraexpert.com/study/routing6.html"
+    ]
+  },
+  {
+    "id": "C07-05-09",
+    "question": "経路集約とは、どのような処理か。",
+    "answer": "複数のネットワークへの経路を、共通する短いプレフィックスの経路にまとめる処理。",
+    "section_title": "ダイナミックルーティング ( 詳細 )",
+    "sources": [
+      "https://www.infraexpert.com/study/routing6.html"
+    ]
+  },
+  {
+    "id": "C07-05-10",
+    "question": "クラスフルな自動集約が、不連続サブネットで問題になる理由は？",
+    "answer": "異なる場所のサブネットが同じ集約経路として通知され、正しい行き先を区別できなくなるため。",
+    "section_title": "ダイナミックルーティング ( 詳細 )",
+    "sources": [
+      "https://www.infraexpert.com/study/routing6.html"
+    ]
+  },
+  {
+    "id": "C07-06-01",
+    "question": "同じプレフィックスを複数のルーティングプロトコルから学習した場合、メトリックをそのまま数値比較してよいか。",
+    "answer": "比較できない。メトリックの意味が異なるため、経路情報源の優先度も考慮する。",
+    "section_title": "ルーティング - ADとは",
+    "sources": [
+      "https://www.infraexpert.com/study/routing7.html"
+    ]
+  },
+  {
+    "id": "C07-07-01",
+    "question": "ルーティングのメトリックとは何か。",
+    "answer": "あるルーティング方式の中で、経路の良さを比較するための指標。",
+    "section_title": "ルーティング - メトリックとは",
+    "sources": [
+      "https://www.infraexpert.com/study/routing9.html"
+    ]
+  },
+  {
+    "id": "C07-07-02",
+    "question": "RIPとOSPFが使う代表的なメトリックは？",
+    "answer": "RIPはホップ数、OSPFはリンクごとのコストの合計。",
+    "section_title": "ルーティング - メトリックとは",
+    "sources": [
+      "https://www.infraexpert.com/study/routing9.html"
+    ]
+  },
+  {
+    "id": "C07-07-03",
+    "question": "RIPで最少ホップの経路が、最大帯域の経路とは限らない理由は？",
+    "answer": "ホップ数だけでは、回線ごとの帯域幅を評価しないため。",
+    "section_title": "ルーティング - メトリックとは",
+    "sources": [
+      "https://www.infraexpert.com/study/routing9.html"
+    ]
+  },
+  {
+    "id": "C07-08-01",
+    "question": "フローティングスタティックルートとは何か。",
+    "answer": "通常使う経路より優先度を下げ、主経路が失われたときに使う予備の静的経路。",
+    "section_title": "フローティングスタティックルートとは",
+    "sources": [
+      "https://www.infraexpert.com/study/routing12.html"
+    ]
+  },
+  {
+    "id": "C07-09-01",
+    "question": "ECMPは、どのような複数経路へ通信を分散する？",
+    "answer": "同じ宛先に到達する、等しいコストの複数経路。",
+    "section_title": "ECMPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/routing13.html"
+    ]
+  },
+  {
+    "id": "C07-09-02",
+    "question": "ECMPのパケット単位とフロー単位の負荷分散の違いは？",
+    "answer": "パケット単位は個々のパケットで経路を選び、フロー単位は同じ通信を同じ経路へ割り当てる。",
+    "section_title": "ECMPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/routing13.html"
+    ]
+  },
+  {
+    "id": "C07-09-03",
+    "question": "ECMPのパケット単位の分散で、注意が必要な受信上の問題は？",
+    "answer": "経路間の遅延差などにより、パケットの到着順が入れ替わること。",
+    "section_title": "ECMPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/routing13.html"
+    ]
+  },
+  {
+    "id": "C07-09-04",
+    "question": "ECMPをフロー単位で分散しても、各経路の通信量が均等とは限らない理由は？",
+    "answer": "フローごとのデータ量や、経路に割り当てられるフロー数が異なるため。",
+    "section_title": "ECMPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/routing13.html"
+    ]
+  },
+  {
+    "id": "C07-10-01",
+    "question": "VRRPを使うホストは、デフォルトゲートウェイに何を指定する？",
+    "answer": "仮想ルータの仮想IPアドレス。",
+    "section_title": "デフォルトゲートウェイの冗長化",
+    "sources": [
+      "https://www.infraexpert.com/study/routing8.html"
+    ]
+  },
+  {
+    "id": "C07-10-02",
+    "question": "ゲートウェイを仮想IPで冗長化する利点は？",
+    "answer": "稼働ルータが切り替わっても、ホストのゲートウェイ設定を変えずに済む。",
+    "section_title": "デフォルトゲートウェイの冗長化",
+    "sources": [
+      "https://www.infraexpert.com/study/routing8.html"
+    ]
+  },
+  {
+    "id": "C07-11-01",
+    "question": "VRRPは、どのような役割の機器を冗長化する標準プロトコルか。",
+    "answer": "デフォルトゲートウェイなどのL3機器。",
+    "section_title": "VRRPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/fhrpz06.html"
+    ]
+  },
+  {
+    "id": "C07-11-02",
+    "question": "従来のVRRP用語で、マスタールータとバックアップルータの役割は？",
+    "answer": "マスターが仮想ルータ宛てのパケットを転送し、バックアップは障害時に引き継ぐ。",
+    "section_title": "VRRPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/fhrpz06.html"
+    ]
+  },
+  {
+    "id": "C07-11-03",
+    "question": "VRRPのバックアップルータは、主に何の途絶でマスターの障害を検知する？",
+    "answer": "マスターからのアドバタイズメント。",
+    "section_title": "VRRPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/fhrpz06.html"
+    ]
+  },
+  {
+    "id": "C07-11-04",
+    "question": "VRRPのプライオリティは、大きい方と小さい方のどちらを優先する？",
+    "answer": "大きい方。",
+    "section_title": "VRRPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/fhrpz06.html"
+    ]
+  },
+  {
+    "id": "C07-11-05",
+    "question": "VRRPの仮想IPアドレスオーナーとは何か。",
+    "answer": "仮想IPアドレスと同じアドレスを、自身の実インターフェースに持つルータ。",
+    "section_title": "VRRPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/fhrpz06.html"
+    ]
+  },
+  {
+    "id": "C07-11-06",
+    "question": "IPv4のVRRPアドバタイズメントの宛先マルチキャストアドレスは？",
+    "answer": "224.0.0.18。",
+    "section_title": "VRRPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/fhrpz06.html"
+    ]
+  },
+  {
+    "id": "C07-11-07",
+    "question": "VRRPのIPプロトコル番号は？",
+    "answer": "112。",
+    "section_title": "VRRPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/fhrpz06.html"
+    ]
+  },
+  {
+    "id": "C07-11-08",
+    "question": "IPv4のVRRPで使う仮想MACアドレスは、何の値によって区別する？",
+    "answer": "VRID（仮想ルータID）。",
+    "section_title": "VRRPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/fhrpz06.html"
+    ]
+  },
+  {
+    "id": "C07-13-01",
+    "question": "ICMPリダイレクトは、送信元ホストへ何を通知する？",
+    "answer": "特定の宛先への、より適切なゲートウェイ。",
+    "section_title": "ICMPリダイレクトとは",
+    "sources": [
+      "https://www.infraexpert.com/study/fhrpz12.html"
+    ]
+  },
+  {
+    "id": "C07-13-02",
+    "question": "ICMPリダイレクトで、より適切なゲートウェイを通知する典型的な場面は？",
+    "answer": "ルータが、受信したパケットを同じLAN上の別ルータへ転送する場面。",
+    "section_title": "ICMPリダイレクトとは",
+    "sources": [
+      "https://www.infraexpert.com/study/fhrpz12.html"
+    ]
+  },
+  {
+    "id": "C07-14-01",
+    "question": "Proxy ARPは、誰に代わってARP応答する機能か。",
+    "answer": "問い合わせ対象のホストに代わり、ルータなどが代理応答する機能。",
+    "section_title": "Proxy ARP（プロキシARP）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/gateway.htm"
+    ]
+  },
+  {
+    "id": "C07-14-02",
+    "question": "ルータがProxy ARPで代理応答するとき、通常どの機器のMACアドレスを返す？",
+    "answer": "代理応答するルータ自身のMACアドレス。",
+    "section_title": "Proxy ARP（プロキシARP）とは",
+    "sources": [
+      "https://www.infraexpert.com/study/gateway.htm"
+    ]
+  },
+  {
+    "id": "C07-15-01",
+    "question": "BGPは、経路制御アルゴリズムの分類では何型か。",
+    "answer": "パスベクタ型。",
+    "section_title": "BGPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz01.html"
+    ]
+  },
+  {
+    "id": "C07-15-02",
+    "question": "BGPが、インターネットで主に交換するのはAS内とAS間のどちらの経路情報か。",
+    "answer": "AS間の経路情報。",
+    "section_title": "BGPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz01.html"
+    ]
+  },
+  {
+    "id": "C07-15-03",
+    "question": "BGPが利用するトランスポート層プロトコルとサーバポート番号は？",
+    "answer": "TCP、179番。",
+    "section_title": "BGPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz01.html"
+    ]
+  },
+  {
+    "id": "C07-15-04",
+    "question": "BGPでは、変更のない経路も定期的にすべて送り直すか。",
+    "answer": "送り直さない。初期交換後は、主に変更分を通知する。",
+    "section_title": "BGPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz01.html"
+    ]
+  },
+  {
+    "id": "C07-15-05",
+    "question": "AS_PATHを使って、BGPが経路のループを防ぐ基本的な方法は？",
+    "answer": "経路に自分のAS番号が含まれていれば、その経路を受け入れない。",
+    "section_title": "BGPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz01.html"
+    ]
+  },
+  {
+    "id": "C07-15-06",
+    "question": "4バイトAS番号は、従来のAS番号の何を拡張したものか。",
+    "answer": "識別子の長さを2バイトから4バイトへ拡張したもの。",
+    "section_title": "BGPとは",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz01.html"
+    ]
+  },
+  {
+    "id": "C07-16-01",
+    "question": "スタブASとは、外部ASとの接続がどのようなASか。",
+    "answer": "外部の1つのASとだけ接続するAS。",
+    "section_title": "BGP - スタブAS、トランジットAS、ノントランジットAS",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz04.html"
+    ]
+  },
+  {
+    "id": "C07-16-02",
+    "question": "トランジットASと非トランジットASの違いは？",
+    "answer": "トランジットASは外部AS間の通信を中継し、非トランジットASは中継しない。",
+    "section_title": "BGP - スタブAS、トランジットAS、ノントランジットAS",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz04.html"
+    ]
+  },
+  {
+    "id": "C07-16-03",
+    "question": "複数ISPに接続した企業が非トランジットASにする際、外部へ広告する経路をどうする？",
+    "answer": "他の外部ASから受けた経路を中継せず、自ASの経路を広告する。",
+    "section_title": "BGP - スタブAS、トランジットAS、ノントランジットAS",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz04.html"
+    ]
+  },
+  {
+    "id": "C07-17-01",
+    "question": "BGPのパス属性は、何のために経路へ付ける？",
+    "answer": "経路の特徴を表し、ポリシーに沿って経路を選ぶため。",
+    "section_title": "BGP - パス属性（パスアトリビュート）の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz05.html"
+    ]
+  },
+  {
+    "id": "C07-17-02",
+    "question": "BGPのAS_PATH属性は、何を記録する？",
+    "answer": "経路が通過してきたASの並び。",
+    "section_title": "BGP - パス属性（パスアトリビュート）の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz05.html"
+    ]
+  },
+  {
+    "id": "C07-17-03",
+    "question": "BGPのNEXT_HOP属性は、何を示す？",
+    "answer": "その経路の次ホップとなるIPアドレス。",
+    "section_title": "BGP - パス属性（パスアトリビュート）の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz05.html"
+    ]
+  },
+  {
+    "id": "C07-17-04",
+    "question": "BGP経路を転送に使うため、NEXT_HOPについて必要な条件は？",
+    "answer": "その次ホップへIPで到達できること。",
+    "section_title": "BGP - パス属性（パスアトリビュート）の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz05.html"
+    ]
+  },
+  {
+    "id": "C07-17-05",
+    "question": "BGPのLOCAL_PREFは、値が大きい方と小さい方のどちらを優先する？",
+    "answer": "大きい方。",
+    "section_title": "BGP - パス属性（パスアトリビュート）の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz05.html"
+    ]
+  },
+  {
+    "id": "C07-17-06",
+    "question": "BGPのMEDは、比較対象となる経路間で値が大きい方と小さい方のどちらを優先する？",
+    "answer": "小さい方。",
+    "section_title": "BGP - パス属性（パスアトリビュート）の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz05.html"
+    ]
+  },
+  {
+    "id": "C07-17-07",
+    "question": "BGPのOptional transitive属性を理解しないルータは、その属性をどう扱う？",
+    "answer": "認識できなくても、他のBGPルータへ引き継ぐ。",
+    "section_title": "BGP - パス属性（パスアトリビュート）の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz05.html"
+    ]
+  },
+  {
+    "id": "C07-17-08",
+    "question": "BGPが、常にAS_PATHの短さだけで経路を選ぶとはいえない理由は？",
+    "answer": "LOCAL_PREFなど、他の属性やポリシーも経路選択に使うため。",
+    "section_title": "BGP - パス属性（パスアトリビュート）の一覧",
+    "sources": [
+      "https://www.infraexpert.com/study/bgpz05.html"
+    ]
+  },
+  {
+    "id": "C07-18-01",
+    "question": "BGPのOPEN・UPDATE・KEEPALIVE・NOTIFICATIONの役割は？",
+    "answer": "接続の開始、経路情報の通知、生存確認、エラー通知。",
+    "section_title": "BGP - 完全解説",
+    "sources": [
+      "https://www.infraexpert.com/study/study60.html",
+      "https://www.infraexpert.com/study/bgpz02.html"
+    ]
+  },
+  {
+    "id": "C07-18-02",
+    "question": "BGPで、ピア関係が確立して経路を交換できる状態は？",
+    "answer": "Established。",
+    "section_title": "BGP - 完全解説",
+    "sources": [
+      "https://www.infraexpert.com/study/study60.html",
+      "https://www.infraexpert.com/study/bgpz02.html"
+    ]
+  },
+  {
+    "id": "C07-18-03",
+    "question": "IBGPとEBGPは、ピア関係を結ぶ相手がどう違う？",
+    "answer": "IBGPは同じAS内、EBGPは異なるAS間。",
+    "section_title": "BGP - 完全解説",
+    "sources": [
+      "https://www.infraexpert.com/study/study60.html",
+      "https://www.infraexpert.com/study/bgpz03.html"
+    ]
+  },
+  {
+    "id": "C07-18-04",
+    "question": "通常のIBGPで、IBGPピアから学んだ経路を別のIBGPピアへそのまま再広告しないことへの対処は？",
+    "answer": "フルメッシュでピアを結ぶか、ルートリフレクタなどを使う。",
+    "section_title": "BGP - 完全解説",
+    "sources": [
+      "https://www.infraexpert.com/study/study60.html",
+      "https://www.infraexpert.com/study/bgpz03.html"
+    ]
+  },
+  {
+    "id": "C07-18-05",
+    "question": "BGPテーブルとルーティングテーブルは、保持する経路がどう違う？",
+    "answer": "BGPテーブルは候補経路や属性を持ち、ルーティングテーブルには選択された経路が登録される。",
+    "section_title": "BGP - 完全解説",
+    "sources": [
+      "https://www.infraexpert.com/study/study60.html",
+      "https://www.infraexpert.com/study/bgpz03.html"
+    ]
+  },
+  {
+    "id": "C07-19-01",
+    "question": "VRFは、1台のルータで何を分離する技術か。",
+    "answer": "ルーティングテーブルと転送情報を、複数の独立した領域に分ける。",
+    "section_title": "NW仮想化技術 - VRFとは",
+    "sources": [
+      "https://www.infraexpert.com/study/mpls5.html"
+    ]
+  },
+  {
+    "id": "C07-19-02",
+    "question": "別々のVRFで、重複するIPアドレスの経路を持てる理由は？",
+    "answer": "VRFごとに独立したルーティングテーブルを使うため。",
+    "section_title": "NW仮想化技術 - VRFとは",
+    "sources": [
+      "https://www.infraexpert.com/study/mpls5.html"
+    ]
+  },
+  {
+    "id": "C07-19-03",
+    "question": "MPLS-VPNのPEルータで、顧客側インターフェースとVRFを関連付ける目的は？",
+    "answer": "受信パケットを、対応する顧客の経路情報で処理するため。",
+    "section_title": "NW仮想化技術 - VRFとは",
+    "sources": [
+      "https://www.infraexpert.com/study/mpls5.html"
+    ]
+  },
+  {
+    "id": "C07-20-01",
+    "question": "VPLSは、MPLS網上で何層のVPNを実現する技術か。",
+    "answer": "L2 VPN。",
+    "section_title": "NW仮想化技術 - VPLSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/mpls13.html"
+    ]
+  },
+  {
+    "id": "C07-20-02",
+    "question": "VPLSのPEルータは、利用者のどのアドレスを学習してフレームを転送する？",
+    "answer": "MACアドレス。",
+    "section_title": "NW仮想化技術 - VPLSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/mpls13.html"
+    ]
+  },
+  {
+    "id": "C07-20-03",
+    "question": "VPLSのコアにあるPルータは、利用者のMACアドレスをすべて学習する必要があるか。",
+    "answer": "ない。MPLSラベルに基づいて転送する。",
+    "section_title": "NW仮想化技術 - VPLSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/mpls13.html"
+    ]
+  },
+  {
+    "id": "C07-20-04",
+    "question": "VPLSのTunnelラベルとVCラベルの役割は？",
+    "answer": "外側のTunnelラベルはPE間の転送、内側のVCラベルはVPN内の接続の識別。",
+    "section_title": "NW仮想化技術 - VPLSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/mpls13.html"
+    ]
+  },
+  {
+    "id": "C07-20-05",
+    "question": "VPLSのスプリットホライズンは、どのような折り返し転送を防ぐ？",
+    "answer": "MPLS網側から受けたフレームを、別のMPLS網側の接続へ再転送すること。",
+    "section_title": "NW仮想化技術 - VPLSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/mpls13.html"
+    ]
+  },
+  {
+    "id": "C07-20-06",
+    "question": "MAC-in-MACは、利用者のEthernetフレームをどう運ぶ？",
+    "answer": "事業者網用のMACヘッダを付け、Ethernetフレーム全体をさらにカプセル化して運ぶ。",
+    "section_title": "NW仮想化技術 - VPLSとは",
+    "sources": [
+      "https://www.infraexpert.com/study/mpls13.html"
+    ]
+  }
+]

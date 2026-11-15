@@ -1,0 +1,61 @@
+[
+  {
+    "section": 1,
+    "title": "ディスタンスベクタルーティングプロトコル - 動作",
+    "url": "https://www.infraexpert.com/study/distancevector.html",
+    "sha256": "b1b3aac33bb4eae84e640fbcea4e5a9e2fad95eadfbaa7cc18d2f9b6122b4872",
+    "card_ids": [
+      "C08-01-01",
+      "C08-01-02",
+      "C08-01-03",
+      "C08-01-04"
+    ]
+  },
+  {
+    "section": 2,
+    "title": "ディスタンスベクタルーティングプロトコル - 問題点",
+    "url": "https://www.infraexpert.com/study/distancevector2.html",
+    "sha256": "ad51a5d4948af1eec469165234d33904c451537937934096699cf4d5d0097ebb",
+    "card_ids": [
+      "C08-02-01",
+      "C08-02-02",
+      "C08-02-03",
+      "C08-02-04"
+    ]
+  },
+  {
+    "section": 3,
+    "title": "ディスタンスベクタルーティングプロトコル - 機能",
+    "url": "https://www.infraexpert.com/study/distancevector3.html",
+    "sha256": "7d4f6d9480814d202a675e812179e8ec33b34056dcecdd4bcd8ea29b2f8df646",
+    "card_ids": [
+      "C08-03-01",
+      "C08-03-02",
+      "C08-03-03",
+      "C08-03-05"
+    ]
+  },
+  {
+    "section": 4,
+    "title": "ディスタンスベクタルーティングプロトコル - 機能 2",
+    "url": "https://www.infraexpert.com/study/distancevector4.html",
+    "sha256": "2e6973532b56f51d1508e0d3f70ef1f8598b9355fa7ba114fae16ec3f42b2c5e",
+    "card_ids": [
+      "C08-04-01",
+      "C08-04-02",
+      "C08-04-03",
+      "C08-04-04"
+    ]
+  },
+  {
+    "section": 5,
+    "title": "ディスタンスベクタルーティングプロトコル - タイマー",
+    "url": "https://www.infraexpert.com/study/distancevector5.html",
+    "sha256": "ab192f767f0d3ee12765ed885ff4d762944b73855c4bd20df6e1be1493517218",
+    "card_ids": [
+      "C08-05-01",
+      "C08-05-02",
+      "C08-05-03"
+    ]
+  }
+]
