@@ -1,6 +1,836 @@
 {
-  "revision": "75e49c209f080bd8aa26e0eef58609adfdf1a7baa1943de87da99848709b0fa8",
+  "revision": "3da923755f274b3f8143bcb690f6d9dbfcfa8a53baaf31505ebe4a966f51a677",
   "decks": [
+    {
+      "deck_id": "chapter-01",
+      "revision": "02532f7809e8c74131f8e5b8c0c93ff28895f536fb198844d1a9dc3ddaa2e399",
+      "title": "ネットワーク基礎とOSI参照モデル",
+      "subtitle": "ネスペイージス 第1章",
+      "knowledge_count": 0,
+      "question_count": 63,
+      "sections": 10,
+      "cards": [
+        {
+          "id": "C01-01-01",
+          "question": "ほかのコンピュータと接続せず、単体で利用する形態を何という？",
+          "answer": "<div class=\"answer-text\">スタンドアロン。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-01-02",
+          "question": "コンピュータネットワークとは、どのような仕組みか。",
+          "answer": "<div class=\"answer-text\">複数のコンピュータを接続し、相互に情報をやり取りする仕組み。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-01-03",
+          "question": "ネットワークを利用すると、プリンターなどの機器を複数のPCでどう利用できる？",
+          "answer": "<div class=\"answer-text\">共有して利用できる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-01-04",
+          "question": "LANとWANは、接続する範囲でどう違う？",
+          "answer": "<div class=\"answer-text\">LANは建物や構内などの範囲を結び、WANは地理的に離れた拠点などを結ぶ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-01-05",
+          "question": "イントラネットとは何か。",
+          "answer": "<div class=\"answer-text\">TCP/IPなどのインターネット標準技術を使って構築する組織内ネットワーク。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-01-06",
+          "question": "インターネットは、一つのコンピュータが全体を統括する仕組みか。",
+          "answer": "<div class=\"answer-text\">そうではなく、多数のネットワークやコンピュータが分散して成り立つ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-02-01",
+          "question": "DASは、ストレージをどこへ接続する形態か。",
+          "answer": "<div class=\"answer-text\">サーバなどのコンピュータへ直接接続する形態。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークストレージとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking0.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-02-02",
+          "question": "ネットワーク上で、ファイルサーバ専用機として使うストレージは？",
+          "answer": "<div class=\"answer-text\">NAS。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークストレージとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking0.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-02-03",
+          "question": "SANとは、何を接続するためのネットワークか。",
+          "answer": "<div class=\"answer-text\">サーバとストレージを接続するための専用ネットワーク。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークストレージとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking0.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-02-04",
+          "question": "NASとSANは、ストレージへのアクセスの単位でどう違う？",
+          "answer": "<div class=\"answer-text\">NASはファイル単位、SANはブロック単位でアクセスする。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークストレージとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking0.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-02-05",
+          "question": "FC-SANとIP-SANでは、使用するネットワーク技術がどう違う？",
+          "answer": "<div class=\"answer-text\">FC-SANはファイバチャネル、IP-SANはiSCSIなどのIPネットワークを使う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークストレージとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking0.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-03-01",
+          "question": "ネットワークトポロジーとは何か。",
+          "answer": "<div class=\"answer-text\">ネットワークを構成する機器の接続形態。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークトポロジーとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-03-02",
+          "question": "物理トポロジーと論理トポロジーは、何を表すか。",
+          "answer": "<div class=\"answer-text\">物理トポロジーは実際の配線や接続、論理トポロジーはデータの流れ方を表す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークトポロジーとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-03-03",
+          "question": "1本の共通ケーブルへ複数のノードを接続するトポロジーは？",
+          "answer": "<div class=\"answer-text\">バス型。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークトポロジーとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-03-04",
+          "question": "バス型のケーブル端に付けるターミネータの役割は？",
+          "answer": "<div class=\"answer-text\">終端での信号の反射を防ぐ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークトポロジーとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-03-05",
+          "question": "スター型トポロジーでは、各ノードをどこへ接続する？",
+          "answer": "<div class=\"answer-text\">ハブやスイッチなどの集線装置へ接続する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークトポロジーとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-03-06",
+          "question": "スター型で、1本の端末用ケーブルの故障と集線装置の故障は、影響範囲がどう違う？",
+          "answer": "<div class=\"answer-text\">端末用ケーブルの故障は主にその端末、集線装置の故障は接続された全端末へ影響する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークトポロジーとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-03-07",
+          "question": "トークンリングでは、どのノードが送信できる？",
+          "answer": "<div class=\"answer-text\">巡回するトークンを取得したノード。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークトポロジーとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-03-08",
+          "question": "デュアルリング型が、シングルリング型より耐障害性を高める仕組みは？",
+          "answer": "<div class=\"answer-text\">予備のリングを設け、一方の障害時にも通信を継続する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークトポロジーとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-03-09",
+          "question": "フルメッシュ型とパーシャルメッシュ型の違いは？",
+          "answer": "<div class=\"answer-text\">フルメッシュは全機器を相互接続し、パーシャルメッシュは一部だけを相互接続する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークトポロジーとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-03-10",
+          "question": "物理的なフルメッシュ構成が高コストになりやすいのはなぜ？",
+          "answer": "<div class=\"answer-text\">全機器間の接続に、多くの回線やポートが必要になるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークトポロジーとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-04-01",
+          "question": "通信におけるプロトコルとは何か。",
+          "answer": "<div class=\"answer-text\">機器同士が通信するために取り決めた手順や規則。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "プロトコルとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-04-02",
+          "question": "プロトコルスタックとは何か。",
+          "answer": "<div class=\"answer-text\">通信に必要な複数のプロトコルを階層的に組み合わせたもの。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "プロトコルとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-04-03",
+          "question": "TCP/IPという呼び名は、TCPとIPの2種類だけを指すか。",
+          "answer": "<div class=\"answer-text\">TCPとIPだけでなく、UDPやHTTPなどを含むプロトコル群を指す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "プロトコルとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-04-04",
+          "question": "プロトコルを標準化すると、機器の接続にどのような利点がある？",
+          "answer": "<div class=\"answer-text\">異なるメーカーの機器同士でも相互接続しやすくなる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "プロトコルとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-04-05",
+          "question": "インターネット技術の標準化を進め、RFCを発行する組織は？",
+          "answer": "<div class=\"answer-text\">IETF。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "プロトコルとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-04-06",
+          "question": "Ethernetなどの電気・電子分野の標準化に関わる学会は？",
+          "answer": "<div class=\"answer-text\">IEEE。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "プロトコルとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-05-01",
+          "question": "OSI参照モデルを策定した組織は？",
+          "answer": "<div class=\"answer-text\">ISO（国際標準化機構）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSI 参照モデルとは　その1",
+          "sources": [
+            "https://www.infraexpert.com/study/networking3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-05-02",
+          "question": "OSI参照モデルでは、通信機能を何層に分ける？",
+          "answer": "<div class=\"answer-text\">7層。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSI 参照モデルとは　その1",
+          "sources": [
+            "https://www.infraexpert.com/study/networking3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-05-03",
+          "question": "送信側は、OSI参照モデルの上位層と下位層のどちらから処理する？",
+          "answer": "<div class=\"answer-text\">上位層から下位層へ処理する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSI 参照モデルとは　その1",
+          "sources": [
+            "https://www.infraexpert.com/study/networking3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-05-04",
+          "question": "カプセル化とは、どのような処理か。",
+          "answer": "<div class=\"answer-text\">上位層から受け取ったデータに、各層のヘッダなどを付けて包む処理。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSI 参照モデルとは　その1",
+          "sources": [
+            "https://www.infraexpert.com/study/networking3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-05-05",
+          "question": "受信側で、各層のヘッダを取り外しながら上位層へ渡す処理は？",
+          "answer": "<div class=\"answer-text\">非カプセル化。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSI 参照モデルとは　その1",
+          "sources": [
+            "https://www.infraexpert.com/study/networking3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-05-06",
+          "question": "PDUとは何か。",
+          "answer": "<div class=\"answer-text\">各プロトコルが扱うデータの単位。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSI 参照モデルとは　その1",
+          "sources": [
+            "https://www.infraexpert.com/study/networking3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-05-07",
+          "question": "データリンク層とネットワーク層のPDUは、それぞれ何と呼ぶ？",
+          "answer": "<div class=\"answer-text\">データリンク層はフレーム、ネットワーク層はパケット。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSI 参照モデルとは　その1",
+          "sources": [
+            "https://www.infraexpert.com/study/networking3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-05-08",
+          "question": "TCPとUDPのPDUは、それぞれ何と呼ぶ？",
+          "answer": "<div class=\"answer-text\">TCPはセグメント、UDPはデータグラム。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSI 参照モデルとは　その1",
+          "sources": [
+            "https://www.infraexpert.com/study/networking3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-05-09",
+          "question": "パケットなどからヘッダを除いた、実際に運ぶデータ部分を何という？",
+          "answer": "<div class=\"answer-text\">ペイロード。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSI 参照モデルとは　その1",
+          "sources": [
+            "https://www.infraexpert.com/study/networking3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-06-01",
+          "question": "OSI参照モデルで、HTTPなどのアプリケーション固有の通信機能を扱う層は？",
+          "answer": "<div class=\"answer-text\">アプリケーション層（第7層）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSI 参照モデルとは　その2",
+          "sources": [
+            "https://www.infraexpert.com/study/networking4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-06-02",
+          "question": "文字コード・圧縮・暗号化など、データの表現形式を扱うOSIの層は？",
+          "answer": "<div class=\"answer-text\">プレゼンテーション層（第6層）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSI 参照モデルとは　その2",
+          "sources": [
+            "https://www.infraexpert.com/study/networking4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-06-03",
+          "question": "アプリケーション間のセッションの確立・維持・終了を扱うOSIの層は？",
+          "answer": "<div class=\"answer-text\">セッション層（第5層）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSI 参照モデルとは　その2",
+          "sources": [
+            "https://www.infraexpert.com/study/networking4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-06-04",
+          "question": "エンド間のデータ転送やポート番号を扱うOSIの層は？",
+          "answer": "<div class=\"answer-text\">トランスポート層（第4層）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSI 参照モデルとは　その2",
+          "sources": [
+            "https://www.infraexpert.com/study/networking4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-06-05",
+          "question": "IPアドレスに基づく経路選択を扱うOSIの層は？",
+          "answer": "<div class=\"answer-text\">ネットワーク層（第3層）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSI 参照モデルとは　その2",
+          "sources": [
+            "https://www.infraexpert.com/study/networking4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-06-06",
+          "question": "同じリンク上で直接接続されたノード間の通信を扱うOSIの層は？",
+          "answer": "<div class=\"answer-text\">データリンク層（第2層）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSI 参照モデルとは　その2",
+          "sources": [
+            "https://www.infraexpert.com/study/networking4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-06-07",
+          "question": "ビット列と電気信号などの変換や物理的な伝送を扱うOSIの層は？",
+          "answer": "<div class=\"answer-text\">物理層（第1層）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSI 参照モデルとは　その2",
+          "sources": [
+            "https://www.infraexpert.com/study/networking4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-06-08",
+          "question": "トランスポート層で、通信するアプリケーションを識別するために使う番号は？",
+          "answer": "<div class=\"answer-text\">ポート番号。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSI 参照モデルとは　その2",
+          "sources": [
+            "https://www.infraexpert.com/study/networking4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-06-09",
+          "question": "OSI参照モデルでいうセッションと、TCPコネクションの役割の違いは？",
+          "answer": "<div class=\"answer-text\">セッションは通信の開始から終了までの管理単位、TCPコネクションはデータを転送する論理的な経路。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSI 参照モデルとは　その2",
+          "sources": [
+            "https://www.infraexpert.com/study/networking4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-07-01",
+          "question": "2進数では、どの2種類の数字を使う？",
+          "answer": "<div class=\"answer-text\">0と1。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "2進数と10進数との変換",
+          "sources": [
+            "https://www.infraexpert.com/study/ip1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-07-02",
+          "question": "2進数で左へ1桁進むと、桁の重みは何倍になる？",
+          "answer": "<div class=\"answer-text\">2倍。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "2進数と10進数との変換",
+          "sources": [
+            "https://www.infraexpert.com/study/ip1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-07-03",
+          "question": "2進数を10進数へ変換する基本的な方法は？",
+          "answer": "<div class=\"answer-text\">1の立っている桁の重みを足し合わせる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "2進数と10進数との変換",
+          "sources": [
+            "https://www.infraexpert.com/study/ip1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-07-04",
+          "question": "10進数を2で繰り返し割って2進数へ直すとき、余りはどの順で読む？",
+          "answer": "<div class=\"answer-text\">最後に求めた余りから逆順に読む。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "2進数と10進数との変換",
+          "sources": [
+            "https://www.infraexpert.com/study/ip1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-07-05",
+          "question": "2進数の先頭に0を付けると、その数の値は変わるか。",
+          "answer": "<div class=\"answer-text\">変わらない。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "2進数と10進数との変換",
+          "sources": [
+            "https://www.infraexpert.com/study/ip1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-08-01",
+          "question": "16進数のAからFは、10進数ではいくつからいくつに対応する？",
+          "answer": "<div class=\"answer-text\">10から15。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "2進数と16進数との変換",
+          "sources": [
+            "https://www.infraexpert.com/study/ip2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-08-02",
+          "question": "数値が16進数であることを示す、先頭の表記は？",
+          "answer": "<div class=\"answer-text\">0x。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "2進数と16進数との変換",
+          "sources": [
+            "https://www.infraexpert.com/study/ip2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-08-03",
+          "question": "16進数の1桁は、2進数の何ビットに対応する？",
+          "answer": "<div class=\"answer-text\">4ビット。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "2進数と16進数との変換",
+          "sources": [
+            "https://www.infraexpert.com/study/ip2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-08-05",
+          "question": "16進数を2進数へ変換する基本的な方法は？",
+          "answer": "<div class=\"answer-text\">各桁を4ビットの2進数に置き換えて並べる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "2進数と16進数との変換",
+          "sources": [
+            "https://www.infraexpert.com/study/ip2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-09-01",
+          "question": "単一の宛先を指定する1対1の通信を何という？",
+          "answer": "<div class=\"answer-text\">ユニキャスト。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ユニキャスト、マルチキャスト、ブロードキャスト",
+          "sources": [
+            "https://www.infraexpert.com/study/networking8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-09-02",
+          "question": "特定のグループへ1対複数で送る通信を何という？",
+          "answer": "<div class=\"answer-text\">マルチキャスト。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ユニキャスト、マルチキャスト、ブロードキャスト",
+          "sources": [
+            "https://www.infraexpert.com/study/networking8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-09-03",
+          "question": "同じデータリンク内の全宛先へ送る通信を何という？",
+          "answer": "<div class=\"answer-text\">ブロードキャスト。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ユニキャスト、マルチキャスト、ブロードキャスト",
+          "sources": [
+            "https://www.infraexpert.com/study/networking8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-09-04",
+          "question": "通常のL2ブロードキャストは、ルータを越えてそのまま転送されるか。",
+          "answer": "<div class=\"answer-text\">転送されない。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ユニキャスト、マルチキャスト、ブロードキャスト",
+          "sources": [
+            "https://www.infraexpert.com/study/networking8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-09-05",
+          "question": "IPv4でリミテッドブロードキャストを示すアドレスは？",
+          "answer": "<div class=\"answer-text\">255.255.255.255。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ユニキャスト、マルチキャスト、ブロードキャスト",
+          "sources": [
+            "https://www.infraexpert.com/study/networking8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-10-01",
+          "question": "同じ動画を多数の相手へユニキャストで配信すると、送信側の負荷が増えるのはなぜ？",
+          "answer": "<div class=\"answer-text\">受信者ごとに同じデータを個別に送る必要があるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャストとは",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz01.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-10-02",
+          "question": "同じデータをグループへ配信するとき、マルチキャストが送信帯域を抑えられる理由は？",
+          "answer": "<div class=\"answer-text\">送信元が送ったデータを、必要な分岐点でネットワーク側が複製するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャストとは",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz01.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-10-03",
+          "question": "ブロードキャストによる動画配信で、受信不要な端末にも負荷がかかる理由は？",
+          "answer": "<div class=\"answer-text\">配信を必要としない端末にもトラフィックが届くため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャストとは",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz01.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C01-10-04",
+          "question": "L2スイッチで、マルチキャストを受信不要なポートへ転送するのを抑える機能は？",
+          "answer": "<div class=\"answer-text\">IGMPスヌーピング。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャストとは",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz01.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        }
+      ]
+    },
     {
       "deck_id": "chapter-03-v2",
       "revision": "fe079137619948f38f85cb5e5bdea8c808cfb8284741cd3160eac548ab7b5f50",
@@ -1124,6 +1954,1926 @@
           "section_title": "PoE・PoE+・PoE++",
           "sources": [
             "https://www.infraexpert.com/study/catalyst24.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        }
+      ]
+    },
+    {
+      "deck_id": "chapter-04",
+      "revision": "7da6d31d10a950ff459df1ca18e90fe085735b32fd7e1f33c12dc904fd1b1c0f",
+      "title": "VLANとスパニングツリー",
+      "subtitle": "ネスペイージス 第4章",
+      "knowledge_count": 0,
+      "question_count": 85,
+      "sections": 12,
+      "cards": [
+        {
+          "id": "C04-01-01",
+          "question": "VLANとは、何を論理的に分ける技術か。",
+          "answer": "<div class=\"answer-text\">物理的な接続にとらわれず、LANセグメントを論理的に分ける技術。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLANの概要",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-01-02",
+          "question": "VLANによって分割できる、ブロードキャストの届く範囲を何という？",
+          "answer": "<div class=\"answer-text\">ブロードキャストドメイン。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLANの概要",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-01-03",
+          "question": "同じVLANは、複数のスイッチにまたがって構成できるか。",
+          "answer": "<div class=\"answer-text\">構成できる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLANの概要",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-01-04",
+          "question": "異なるVLAN間で通信するには、通常どの機能が必要か。",
+          "answer": "<div class=\"answer-text\">ルータやL3スイッチによるルーティング。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLANの概要",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-01-05",
+          "question": "VLANによる分離が、不要な通信負荷を減らす理由は？",
+          "answer": "<div class=\"answer-text\">ブロードキャストの届く範囲をVLAN内に限定できるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLANの概要",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-01-06",
+          "question": "管理VLANとは、何のためのVLANか。",
+          "answer": "<div class=\"answer-text\">スイッチへの設定・監視など、管理用の通信を流すVLAN。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLANの概要",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-01-07",
+          "question": "Catalystの標準的な初期設定で、デフォルトVLANとして使われるVLAN IDは？",
+          "answer": "<div class=\"answer-text\">VLAN 1。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLANの概要",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-02-01",
+          "question": "通常のアクセスポートとトランクポートは、扱うVLANの数でどう違う？",
+          "answer": "<div class=\"answer-text\">アクセスポートは1つ、トランクポートは複数のVLANを扱う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-02-02",
+          "question": "スタティックVLANとダイナミックVLANの割当て方法の違いは？",
+          "answer": "<div class=\"answer-text\">スタティックは管理者がポートへ固定で割り当て、ダイナミックは接続端末などの情報で動的に決める。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-02-03",
+          "question": "ダイナミックVLANで、所属VLANの判断に使う情報の例は？",
+          "answer": "<div class=\"answer-text\">端末のMACアドレス、IPアドレス、認証ユーザーなど。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-02-04",
+          "question": "MACベースのダイナミックVLANで、VMPSが保持する情報は？",
+          "answer": "<div class=\"answer-text\">端末のMACアドレスと所属VLANの対応情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-02-05",
+          "question": "スイッチ間の1本のリンクで、複数のVLANを運ぶ接続方式は？",
+          "answer": "<div class=\"answer-text\">トランク接続。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-02-06",
+          "question": "802.1Qのタグは、トランクリンク上で何を識別するために付ける？",
+          "answer": "<div class=\"answer-text\">フレームが所属するVLAN。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-02-07",
+          "question": "802.1Qタグは、Ethernetフレームのどの位置へ挿入する？",
+          "answer": "<div class=\"answer-text\">送信元MACアドレスとTypeフィールドの間。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-02-08",
+          "question": "802.1Qタグの長さは？",
+          "answer": "<div class=\"answer-text\">4バイト。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-02-09",
+          "question": "802.1QタグのTPIDに入る代表的な値は？",
+          "answer": "<div class=\"answer-text\">0x8100。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-02-10",
+          "question": "802.1Qタグで、VLAN IDを格納するVIDは何ビットか。",
+          "answer": "<div class=\"answer-text\">12ビット。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-02-11",
+          "question": "802.1QのPCPは、何を示すフィールドか。",
+          "answer": "<div class=\"answer-text\">フレームの優先度。3ビットで0〜7を表す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-02-12",
+          "question": "通常の802.1Qトランクで、タグを付けずに転送するVLANを何という？",
+          "answer": "<div class=\"answer-text\">ネイティブVLAN。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-02-13",
+          "question": "トランク両端のネイティブVLANを一致させる理由は？",
+          "answer": "<div class=\"answer-text\">タグなしフレームを、両端で同じVLANの通信として扱うため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-02-14",
+          "question": "802.1QとCisco独自のISLは、フレームへのVLAN情報の付け方がどう違う？",
+          "answer": "<div class=\"answer-text\">802.1Qはタグを挿入し、ISLは元のフレーム全体をカプセル化する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLAN - アクセスポート、トランクポート（IEEE802.1Q）",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-03-01",
+          "question": "Q-in-Qは、顧客のタグ付きフレームをどのように運ぶ？",
+          "answer": "<div class=\"answer-text\">顧客のVLANタグを残したまま、事業者側のVLANタグを追加して運ぶ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.1q トンネリング（Q-in-Q）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz17.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-03-02",
+          "question": "Q-in-Qで、顧客間のVLAN IDが重複しても分離できるのはなぜ？",
+          "answer": "<div class=\"answer-text\">事業者側の外側タグで、顧客の通信を区別するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.1q トンネリング（Q-in-Q）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz17.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-03-03",
+          "question": "Q-in-Qで、事業者網へ付加した外側のタグは顧客側へ出るときどうする？",
+          "answer": "<div class=\"answer-text\">事業者網の出口で外す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.1q トンネリング（Q-in-Q）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz17.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-03-04",
+          "question": "Q-in-Qのサービスエッジで、顧客のVLANを収容するポートを何という？",
+          "answer": "<div class=\"answer-text\">トンネルポート。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IEEE802.1q トンネリング（Q-in-Q）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/vlanz17.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-04-01",
+          "question": "STPの主な目的は？",
+          "answer": "<div class=\"answer-text\">冗長なL2構成で転送経路のループを防ぐ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの概要",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-04-02",
+          "question": "L2ループでブロードキャストが繰り返し複製・転送される状態は？",
+          "answer": "<div class=\"answer-text\">ブロードキャストストーム。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの概要",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-04-03",
+          "question": "STPは、物理的な冗長リンクを残したまま、どのようにループを防ぐ？",
+          "answer": "<div class=\"answer-text\">一部のポートでユーザーデータの転送を止め、論理的なツリーを作る。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの概要",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-04-04",
+          "question": "STPの制御情報を交換するフレームは？",
+          "answer": "<div class=\"answer-text\">BPDU（Bridge Protocol Data Unit）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの概要",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-04-05",
+          "question": "従来のSTPを標準化したIEEE規格は？",
+          "answer": "<div class=\"answer-text\">IEEE 802.1D。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの概要",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-04-06",
+          "question": "STPのブリッジIDを構成する主な情報は？",
+          "answer": "<div class=\"answer-text\">ブリッジプライオリティとMACアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの概要",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-04-07",
+          "question": "STPでいうルートパスコストは、何を表す？",
+          "answer": "<div class=\"answer-text\">ルートブリッジまでの経路の累積コスト。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの概要",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-04-08",
+          "question": "STPの経路選択では、パスコストは大きい方と小さい方のどちらが優先される？",
+          "answer": "<div class=\"answer-text\">小さい方。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの概要",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-05-01",
+          "question": "STPのルートブリッジには、何が最小のスイッチを選ぶ？",
+          "answer": "<div class=\"answer-text\">ブリッジID。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの動作",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-05-02",
+          "question": "ブリッジIDを比較するとき、プライオリティが同じなら何で決める？",
+          "answer": "<div class=\"answer-text\">MACアドレスの小さい方で決める。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの動作",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-05-03",
+          "question": "STPのルートポートは、各非ルートブリッジにいくつ選ばれる？",
+          "answer": "<div class=\"answer-text\">1つ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの動作",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-05-04",
+          "question": "ルートポートの選出で、最初に比較する値は？",
+          "answer": "<div class=\"answer-text\">ルートブリッジまでのルートパスコスト。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの動作",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-05-05",
+          "question": "ルートポート候補のパスコストが同じ場合、次に比較する情報は？",
+          "answer": "<div class=\"answer-text\">受信したBPDUの送信元ブリッジID。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの動作",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-05-06",
+          "question": "ルートポート候補のパスコストと送信元ブリッジIDも同じなら、次に何を比較する？",
+          "answer": "<div class=\"answer-text\">送信元ポートID。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの動作",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-05-07",
+          "question": "STPの指定ポートは、どの単位で選ばれる？",
+          "answer": "<div class=\"answer-text\">各リンク（セグメント）ごとに1つ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの動作",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-05-08",
+          "question": "STPの指定ポート選出では、最初にスイッチ間のどの値を比較する？",
+          "answer": "<div class=\"answer-text\">ルートブリッジまでのルートパスコスト。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの動作",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-05-09",
+          "question": "通常のSTPツリーで、ルートブリッジのポートはどの役割になる？",
+          "answer": "<div class=\"answer-text\">指定ポート。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの動作",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-05-10",
+          "question": "従来STPで、ルートポートにも指定ポートにもならなかったポートの役割は？",
+          "answer": "<div class=\"answer-text\">非指定ポート。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの動作",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-05-11",
+          "question": "STPのブロッキングポートは、BPDUも受信しないのか。",
+          "answer": "<div class=\"answer-text\">ユーザーデータは転送しないが、BPDUは受信する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの動作",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-05-12",
+          "question": "STPのポートIDは、主に何を組み合わせたものか。",
+          "answer": "<div class=\"answer-text\">ポートプライオリティとポート番号。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルの動作",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-06-01",
+          "question": "従来STPのリスニング状態は、MAC学習とユーザーデータの転送を行うか。",
+          "answer": "<div class=\"answer-text\">どちらも行わない。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルのポート状態",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-06-02",
+          "question": "従来STPのラーニング状態は、MAC学習とユーザーデータの転送を行うか。",
+          "answer": "<div class=\"answer-text\">MAC学習は行うが、ユーザーデータは転送しない。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルのポート状態",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-06-03",
+          "question": "従来STPで、MAC学習とユーザーデータの転送を両方行う状態は？",
+          "answer": "<div class=\"answer-text\">フォワーディング。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルのポート状態",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-06-04",
+          "question": "従来STPで、ポートがデータ転送できるまでにリスニングとラーニングを経る理由は？",
+          "answer": "<div class=\"answer-text\">BPDUでループのない構成を決め、MAC情報を学習してから転送を始めるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルのポート状態",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-06-05",
+          "question": "従来STPの標準的なHello Timeは？",
+          "answer": "<div class=\"answer-text\">2秒。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルのポート状態",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-06-06",
+          "question": "従来STPの標準的なMax Ageは？",
+          "answer": "<div class=\"answer-text\">20秒。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルのポート状態",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-06-07",
+          "question": "従来STPの標準的なForward Delayは、リスニング・ラーニングの各状態で何秒か。",
+          "answer": "<div class=\"answer-text\">それぞれ15秒。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルのポート状態",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-06-08",
+          "question": "従来STPでMax Ageの満了を待つ障害時は、標準タイマーで収束まで最大何秒かかる？",
+          "answer": "<div class=\"answer-text\">50秒。Max Age 20秒と、リスニング・ラーニング各15秒。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルのポート状態",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-06-09",
+          "question": "STPの収束とは、どのような状態になることか。",
+          "answer": "<div class=\"answer-text\">ポートの役割と転送・遮断状態が決まり、構成が安定すること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - スパニングツリープロトコルのポート状態",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-07-01",
+          "question": "CSTとPVST+は、スパニングツリーの作成単位がどう違う？",
+          "answer": "<div class=\"answer-text\">CSTは全体で1つ、PVST+はVLANごとに1つのツリーを作る。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - CSTとは、PVSTとは",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-07-02",
+          "question": "PVST+で、VLANごとに異なるルートブリッジを設定する利点は？",
+          "answer": "<div class=\"answer-text\">VLANごとに転送経路を変え、複数のリンクへ負荷分散できる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - CSTとは、PVSTとは",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-07-03",
+          "question": "PVST+の拡張システムIDには、何を格納する？",
+          "answer": "<div class=\"answer-text\">VLAN ID。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - CSTとは、PVSTとは",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-07-04",
+          "question": "拡張システムIDを使う場合、ブリッジプライオリティは何刻みで設定する？",
+          "answer": "<div class=\"answer-text\">4096刻み。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - CSTとは、PVSTとは",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-08-01",
+          "question": "RSTPは、従来STPのどの点を主に改善したプロトコルか。",
+          "answer": "<div class=\"answer-text\">トポロジー変更時の収束速度。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "RSTP（ IEEE802.1W ）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-08-02",
+          "question": "RSTPを追加したIEEE規格は？",
+          "answer": "<div class=\"answer-text\">IEEE 802.1w。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "RSTP（ IEEE802.1W ）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-08-03",
+          "question": "RSTPの3つのポート状態は？",
+          "answer": "<div class=\"answer-text\">ディスカーディング、ラーニング、フォワーディング。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "RSTP（ IEEE802.1W ）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-08-04",
+          "question": "RSTPの代替ポートは、どのポートの予備となる？",
+          "answer": "<div class=\"answer-text\">ルートポート。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "RSTP（ IEEE802.1W ）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-08-05",
+          "question": "RSTPのバックアップポートは、どのポートの予備となる？",
+          "answer": "<div class=\"answer-text\">同じ共有セグメント上の指定ポート。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "RSTP（ IEEE802.1W ）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-08-06",
+          "question": "RSTPで高速な切替えを合意するため、BPDUで交換するメッセージは？",
+          "answer": "<div class=\"answer-text\">プロポーザル（提案）とアグリーメント（合意）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "RSTP（ IEEE802.1W ）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-08-07",
+          "question": "RSTPは、従来のSTPと接続できるか。",
+          "answer": "<div class=\"answer-text\">互換性があり接続できるが、従来STPと接続する部分では高速収束が制限される。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "RSTP（ IEEE802.1W ）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-09-01",
+          "question": "MSTPでは、複数のVLANを何という単位へまとめる？",
+          "answer": "<div class=\"answer-text\">スパニングツリーのインスタンス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "MSTP（ IEEE802.1S ）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-09-02",
+          "question": "MSTPがPVST+より計算負荷を抑えられる理由は？",
+          "answer": "<div class=\"answer-text\">VLANごとではなく、複数VLANをまとめたインスタンスごとに経路計算するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "MSTP（ IEEE802.1S ）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-09-03",
+          "question": "MSTPの高速収束の基礎となるプロトコルは？",
+          "answer": "<div class=\"answer-text\">RSTP。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "MSTP（ IEEE802.1S ）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-09-04",
+          "question": "MSTPを追加したIEEE規格は？",
+          "answer": "<div class=\"answer-text\">IEEE 802.1s。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "MSTP（ IEEE802.1S ）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-10-01",
+          "question": "リンクアグリゲーションとは、複数の物理リンクをどう扱う技術か。",
+          "answer": "<div class=\"answer-text\">束ねて1本の論理リンクとして扱う技術。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "リンクアグリゲーションとは",
+          "sources": [
+            "https://www.infraexpert.com/study/etherchannel.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-10-02",
+          "question": "リンクアグリゲーションで、構成する1本のリンクが故障すると通信はどうなる？",
+          "answer": "<div class=\"answer-text\">残りのリンクで通信を継続できるが、利用可能な合計帯域は減る。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "リンクアグリゲーションとは",
+          "sources": [
+            "https://www.infraexpert.com/study/etherchannel.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-10-03",
+          "question": "Ciscoがリンクアグリゲーションに使う呼び名は？",
+          "answer": "<div class=\"answer-text\">EtherChannel。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "リンクアグリゲーションとは",
+          "sources": [
+            "https://www.infraexpert.com/study/etherchannel.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-10-04",
+          "question": "リンクアグリゲーションを動的に交渉する標準プロトコルは？",
+          "answer": "<div class=\"answer-text\">LACP。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "リンクアグリゲーションとは",
+          "sources": [
+            "https://www.infraexpert.com/study/etherchannel.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-10-05",
+          "question": "静的なリンクアグリゲーションとLACPを使う方式の違いは？",
+          "answer": "<div class=\"answer-text\">静的方式は交渉せず手動で構成し、LACP方式は相手と交渉して構成する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "リンクアグリゲーションとは",
+          "sources": [
+            "https://www.infraexpert.com/study/etherchannel.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-10-06",
+          "question": "リンクアグリゲーションで、負荷分散先を選ぶために使う情報の例は？",
+          "answer": "<div class=\"answer-text\">送信元・宛先のMACアドレスやIPアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "リンクアグリゲーションとは",
+          "sources": [
+            "https://www.infraexpert.com/study/etherchannel.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-10-07",
+          "question": "リンク集約した複数のケーブルが、STPで個別に遮断されない理由は？",
+          "answer": "<div class=\"answer-text\">束ねた1本の論理リンクとして扱われる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "リンクアグリゲーションとは",
+          "sources": [
+            "https://www.infraexpert.com/study/etherchannel.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-11-01",
+          "question": "NICチーミングとは何か。",
+          "answer": "<div class=\"answer-text\">複数の物理NICを、1つの仮想的なNICとして扱う技術。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "チーミングとは",
+          "sources": [
+            "https://www.infraexpert.com/study/etherchannel1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-11-02",
+          "question": "NICチーミングのフォールトトレランス方式は、NICをどう使う？",
+          "answer": "<div class=\"answer-text\">稼働系と待機系に分け、障害時に待機系へ切り替える。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "チーミングとは",
+          "sources": [
+            "https://www.infraexpert.com/study/etherchannel1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-11-03",
+          "question": "NICチーミングのロードバランシング方式は、通信をどう分散する？",
+          "answer": "<div class=\"answer-text\">複数のNICへ通信を分散し、各通信は基本的に1枚のNICで処理する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "チーミングとは",
+          "sources": [
+            "https://www.infraexpert.com/study/etherchannel1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-11-04",
+          "question": "サーバ側でリンクアグリゲーションを構成するとき、接続先スイッチにも必要な設定は？",
+          "answer": "<div class=\"answer-text\">対応するリンクアグリゲーションの設定。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "チーミングとは",
+          "sources": [
+            "https://www.infraexpert.com/study/etherchannel1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-11-05",
+          "question": "サーバのNICを冗長化しても、接続先スイッチが1台だけなら何が残る？",
+          "answer": "<div class=\"answer-text\">そのスイッチが単一障害点となる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "チーミングとは",
+          "sources": [
+            "https://www.infraexpert.com/study/etherchannel1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-11-06",
+          "question": "リンクステートトラッキングは、上位リンク障害を下位のサーバへどう伝える？",
+          "answer": "<div class=\"answer-text\">関連付けたサーバ向けリンクをダウンさせ、NIC側が障害を検知できるようにする。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "チーミングとは",
+          "sources": [
+            "https://www.infraexpert.com/study/etherchannel1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-12-01",
+          "question": "スイッチのスタックとは、複数の物理スイッチをどう動作させる技術か。",
+          "answer": "<div class=\"answer-text\">1台の論理スイッチとして動作させる技術。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "スタックとは",
+          "sources": [
+            "https://www.infraexpert.com/study/etherchannel2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-12-02",
+          "question": "スイッチをスタックして管理する利点は？",
+          "answer": "<div class=\"answer-text\">設定や監視を、1台の論理スイッチとしてまとめて扱える。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "スタックとは",
+          "sources": [
+            "https://www.infraexpert.com/study/etherchannel2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-12-03",
+          "question": "スタックが、サーバや下位スイッチのリンク集約に役立つ理由は？",
+          "answer": "<div class=\"answer-text\">複数の物理スイッチにまたがるポートを、1つのリンク集約として構成できるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "スタックとは",
+          "sources": [
+            "https://www.infraexpert.com/study/etherchannel2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        }
+      ]
+    },
+    {
+      "deck_id": "chapter-05",
+      "revision": "dae0c41add1a2486cc7ea790d5ec2977ec4a296409d7d01d360f9544620ed196",
+      "title": "IPアドレスとサブネット",
+      "subtitle": "ネスペイージス 第5章",
+      "knowledge_count": 0,
+      "question_count": 61,
+      "sections": 10,
+      "cards": [
+        {
+          "id": "C05-01-01",
+          "question": "IPv4アドレスの長さは何ビットか。",
+          "answer": "<div class=\"answer-text\">32ビット。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPアドレスとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-01-02",
+          "question": "IPv4アドレスの通常の10進表記は、何ビットずつ何組に分ける？",
+          "answer": "<div class=\"answer-text\">8ビットずつ4組に分ける。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPアドレスとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-01-03",
+          "question": "IPv4アドレスのネットワーク部とホスト部は、それぞれ何を識別する？",
+          "answer": "<div class=\"answer-text\">ネットワーク部は所属ネットワーク、ホスト部はその中のホストを識別する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPアドレスとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-01-04",
+          "question": "IPv4アドレスに付ける「/24」は、何が24ビットであることを示す？",
+          "answer": "<div class=\"answer-text\">ネットワーク部の長さ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPアドレスとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-01-05",
+          "question": "クラスフルなIPv4で、クラスA・B・Cの標準ネットワーク部はそれぞれ何ビットか。",
+          "answer": "<div class=\"answer-text\">Aは8ビット、Bは16ビット、Cは24ビット。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPアドレスとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-01-06",
+          "question": "従来のIPv4のクラスDは、何の用途か。",
+          "answer": "<div class=\"answer-text\">マルチキャスト。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPアドレスとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-01-07",
+          "question": "IPv4のアドレス空間の不足に対応して開発された、後継のIPは？",
+          "answer": "<div class=\"answer-text\">IPv6。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPアドレスとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-02-01",
+          "question": "通常のIPv4サブネットで、ネットワークアドレスのホスト部のビットはどうなる？",
+          "answer": "<div class=\"answer-text\">すべて0。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークアドレス と ブロードキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ip4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-02-02",
+          "question": "通常のIPv4サブネットで、ブロードキャストアドレスのホスト部のビットはどうなる？",
+          "answer": "<div class=\"answer-text\">すべて1。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークアドレス と ブロードキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ip4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-02-03",
+          "question": "ネットワークアドレスは、何を表すためのアドレスか。",
+          "answer": "<div class=\"answer-text\">ホスト単体ではなく、ネットワーク自体を表す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークアドレス と ブロードキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ip4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-02-04",
+          "question": "IPv4の代表的なループバックアドレスは？",
+          "answer": "<div class=\"answer-text\">127.0.0.1。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークアドレス と ブロードキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ip4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-02-05",
+          "question": "ループバックアドレスへのpingが応答しても、何の疎通までは確認できない？",
+          "answer": "<div class=\"answer-text\">外部のネットワークへの疎通。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークアドレス と ブロードキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ip4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-02-06",
+          "question": "ダイレクトブロードキャストとは、どこを宛先にするブロードキャストか。",
+          "answer": "<div class=\"answer-text\">特定の別ネットワークに属する全ホストを宛先にするもの。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークアドレス と ブロードキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ip4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-02-07",
+          "question": "ダイレクトブロードキャストの転送が、ルータで通常無効なのはなぜ？",
+          "answer": "<div class=\"answer-text\">攻撃への悪用などのセキュリティ上の問題があるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワークアドレス と ブロードキャストアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ip4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-03-01",
+          "question": "プライベートIPv4アドレスは、どの範囲で一意になるよう管理する？",
+          "answer": "<div class=\"answer-text\">同じ組織内など、相互に通信する内部ネットワークの範囲。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "グローバルIPアドレス と プライベートIPアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ip5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-03-02",
+          "question": "10で始まるプライベートIPv4アドレスの範囲を、プレフィックスで表すと？",
+          "answer": "<div class=\"answer-text\">10.0.0.0/8。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "グローバルIPアドレス と プライベートIPアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ip5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-03-03",
+          "question": "172で始まるプライベートIPv4アドレスの範囲は？",
+          "answer": "<div class=\"answer-text\">172.16.0.0〜172.31.255.255（172.16.0.0/12）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "グローバルIPアドレス と プライベートIPアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ip5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-03-04",
+          "question": "192で始まるプライベートIPv4アドレスの範囲を、プレフィックスで表すと？",
+          "answer": "<div class=\"answer-text\">192.168.0.0/16。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "グローバルIPアドレス と プライベートIPアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ip5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-03-05",
+          "question": "プライベートIPv4アドレスを、そのままインターネット上の宛先として経路制御できるか。",
+          "answer": "<div class=\"answer-text\">できない。NATやプロキシなどを介して外部と通信する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "グローバルIPアドレス と プライベートIPアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ip5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-03-06",
+          "question": "日本でIPアドレス資源の管理・調整を担う組織は？",
+          "answer": "<div class=\"answer-text\">JPNIC。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "グローバルIPアドレス と プライベートIPアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/ip5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-04-01",
+          "question": "サブネットマスクの役割は？",
+          "answer": "<div class=\"answer-text\">IPアドレスのネットワーク部とホスト部の境界を示す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サブネットマスク と サブネット",
+          "sources": [
+            "https://www.infraexpert.com/study/ip6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-04-02",
+          "question": "通常のサブネットマスクで、1のビットと0のビットはそれぞれどの部分を示す？",
+          "answer": "<div class=\"answer-text\">1はネットワーク部、0はホスト部。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サブネットマスク と サブネット",
+          "sources": [
+            "https://www.infraexpert.com/study/ip6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-04-03",
+          "question": "サブネット化では、もとのアドレスのどの部分をネットワークの識別に使う？",
+          "answer": "<div class=\"answer-text\">ホスト部の一部をサブネット部として使う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サブネットマスク と サブネット",
+          "sources": [
+            "https://www.infraexpert.com/study/ip6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-04-04",
+          "question": "ネットワークを必要な大きさのサブネットへ分ける利点は？",
+          "answer": "<div class=\"answer-text\">ホスト数に合わせてアドレス空間を効率よく割り当てられる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サブネットマスク と サブネット",
+          "sources": [
+            "https://www.infraexpert.com/study/ip6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-04-05",
+          "question": "IPv4の「/24」のサブネットマスクを、ドット付き10進数で表すと？",
+          "answer": "<div class=\"answer-text\">255.255.255.0。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サブネットマスク と サブネット",
+          "sources": [
+            "https://www.infraexpert.com/study/ip6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-05-01",
+          "question": "サブネット用にnビットを使うと、サブネットは最大いくつ作れる？",
+          "answer": "<div class=\"answer-text\">2のn乗個。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サブネット数/アドレス数の算出方法",
+          "sources": [
+            "https://www.infraexpert.com/study/ip7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-05-02",
+          "question": "通常のIPv4 LANで、2ビット以上のホスト部をhビットとすると、利用可能なホスト数は？",
+          "answer": "<div class=\"answer-text\">2のh乗−2。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サブネット数/アドレス数の算出方法",
+          "sources": [
+            "https://www.infraexpert.com/study/ip7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-05-03",
+          "question": "通常のIPv4 LANで、ホスト数の計算から2を引く理由は？",
+          "answer": "<div class=\"answer-text\">ネットワークアドレスとブロードキャストアドレスを除くため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サブネット数/アドレス数の算出方法",
+          "sources": [
+            "https://www.infraexpert.com/study/ip7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-05-04",
+          "question": "「/25」のサブネットマスクは？",
+          "answer": "<div class=\"answer-text\">255.255.255.128。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サブネット数/アドレス数の算出方法",
+          "sources": [
+            "https://www.infraexpert.com/study/ip7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-05-05",
+          "question": "「/26」のサブネットマスクは？",
+          "answer": "<div class=\"answer-text\">255.255.255.192。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サブネット数/アドレス数の算出方法",
+          "sources": [
+            "https://www.infraexpert.com/study/ip7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-05-06",
+          "question": "「/27」のサブネットマスクは？",
+          "answer": "<div class=\"answer-text\">255.255.255.224。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サブネット数/アドレス数の算出方法",
+          "sources": [
+            "https://www.infraexpert.com/study/ip7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-05-07",
+          "question": "「/28」のサブネットマスクは？",
+          "answer": "<div class=\"answer-text\">255.255.255.240。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サブネット数/アドレス数の算出方法",
+          "sources": [
+            "https://www.infraexpert.com/study/ip7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-05-08",
+          "question": "「/29」のサブネットマスクは？",
+          "answer": "<div class=\"answer-text\">255.255.255.248。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サブネット数/アドレス数の算出方法",
+          "sources": [
+            "https://www.infraexpert.com/study/ip7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-05-09",
+          "question": "「/30」のサブネットマスクは？",
+          "answer": "<div class=\"answer-text\">255.255.255.252。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サブネット数/アドレス数の算出方法",
+          "sources": [
+            "https://www.infraexpert.com/study/ip7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-05-11",
+          "question": "同じサブネットのブロードキャストアドレスは、次のネットワークアドレスとの関係でどう求める？",
+          "answer": "<div class=\"answer-text\">次のネットワークアドレスの直前のアドレスにする。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サブネット数/アドレス数の算出方法",
+          "sources": [
+            "https://www.infraexpert.com/study/ip7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-05-12",
+          "question": "サブネットの境界を含むオクテットで、アドレス範囲の刻み幅はどう求める？",
+          "answer": "<div class=\"answer-text\">256から、そのオクテットのサブネットマスク値を引く。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サブネット数/アドレス数の算出方法",
+          "sources": [
+            "https://www.infraexpert.com/study/ip7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-06-01",
+          "question": "VLSMとは、サブネットマスクをどのように使う技術か。",
+          "answer": "<div class=\"answer-text\">同じ元ネットワークの中で、長さの異なるサブネットマスクを使う技術。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLSMとは、CIDRとは、サブネットゼロとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-06-02",
+          "question": "VLSMでアドレス空間の無駄を減らせる理由は？",
+          "answer": "<div class=\"answer-text\">サブネットごとの必要なホスト数に合わせて、異なる大きさを割り当てられるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLSMとは、CIDRとは、サブネットゼロとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-06-03",
+          "question": "RIPv1などのクラスフルなルーティングプロトコルで、VLSMが使えない理由は？",
+          "answer": "<div class=\"answer-text\">経路情報にサブネットマスクを含めて通知しないため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLSMとは、CIDRとは、サブネットゼロとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-06-04",
+          "question": "CIDRは、IPアドレスのクラスとの関係でどのような考え方か。",
+          "answer": "<div class=\"answer-text\">クラスの境界にとらわれず、プレフィックス長でアドレスや経路を扱う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLSMとは、CIDRとは、サブネットゼロとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-06-05",
+          "question": "連続するネットワークを1つの短いプレフィックスへ集約すると、ルータにどのような利点がある？",
+          "answer": "<div class=\"answer-text\">保持・処理する経路情報を減らせる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLSMとは、CIDRとは、サブネットゼロとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-06-06",
+          "question": "ゼロサブネットとは、どの部分のビットがすべて0のサブネットか。",
+          "answer": "<div class=\"answer-text\">サブネット化のために借りたサブネット部。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLSMとは、CIDRとは、サブネットゼロとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-06-07",
+          "question": "ゼロサブネットを使える場合でも、各サブネットのネットワークアドレスを通常のホストへ割り当ててよいか。",
+          "answer": "<div class=\"answer-text\">よくない。ゼロサブネットの使用と、ホスト部がすべて0のアドレスの使用は別。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VLSMとは、CIDRとは、サブネットゼロとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-07-01",
+          "question": "NATは、パケットの何を変換する技術か。",
+          "answer": "<div class=\"answer-text\">IPアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NATとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-07-02",
+          "question": "内部端末が外部へ出る通常の送信元NATでは、どのIPアドレスを変換する？",
+          "answer": "<div class=\"answer-text\">送信元IPアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NATとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-07-03",
+          "question": "送信元NATを通った通信の戻りパケットでは、内部へ戻すために何を変換する？",
+          "answer": "<div class=\"answer-text\">宛先IPアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NATとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-07-04",
+          "question": "NATで、IPヘッダだけを変換しても動作しないアプリケーションがある理由は？",
+          "answer": "<div class=\"answer-text\">アプリケーションのデータ中にもIPアドレスを含む場合があるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NATとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-07-05",
+          "question": "CiscoのNAT用語で、内部ローカルアドレスとは何か。",
+          "answer": "<div class=\"answer-text\">内部ホストに実際に割り当てた、内部側で使うアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NATとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-07-06",
+          "question": "CiscoのNAT用語で、内部グローバルアドレスとは何か。",
+          "answer": "<div class=\"answer-text\">外部から見える、内部ホストの変換後アドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NATとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-07-07",
+          "question": "CiscoのNAT用語で、外部ローカルと外部グローバルは何の見え方の違いか。",
+          "answer": "<div class=\"answer-text\">外部ホストのアドレスを、内部側から見るか、外部側で見るかの違い。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NATとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-08-01",
+          "question": "スタティックNATでは、アドレスの対応をいつ決める？",
+          "answer": "<div class=\"answer-text\">管理者があらかじめ1対1の対応を設定する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NATの仕組み",
+          "sources": [
+            "https://www.infraexpert.com/study/ip11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-08-02",
+          "question": "ダイナミックNATは、外部向け通信が発生すると何からアドレスを割り当てる？",
+          "answer": "<div class=\"answer-text\">事前に用意した変換用アドレスプール。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NATの仕組み",
+          "sources": [
+            "https://www.infraexpert.com/study/ip11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-08-03",
+          "question": "アドレスだけを1対1変換するNATでは、同時に変換できる内部端末数を何が制限する？",
+          "answer": "<div class=\"answer-text\">利用できる外部向けアドレスの数。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NATの仕組み",
+          "sources": [
+            "https://www.infraexpert.com/study/ip11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-09-01",
+          "question": "TCP/UDPのNAPTは、IPアドレスのほかに何を変換する？",
+          "answer": "<div class=\"answer-text\">ポート番号。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NAPT（IPマスカレード）の仕組み",
+          "sources": [
+            "https://www.infraexpert.com/study/ip11.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-09-02",
+          "question": "NAPTによって、複数の内部端末が何を共有できる？",
+          "answer": "<div class=\"answer-text\">外部向けの1つのIPアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NAPT（IPマスカレード）の仕組み",
+          "sources": [
+            "https://www.infraexpert.com/study/ip11.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-09-03",
+          "question": "NAPTで同じ外部向けIPアドレスを使う通信を、戻りパケットで区別できる理由は？",
+          "answer": "<div class=\"answer-text\">ポート番号を含む変換情報で、対応する内部の通信を識別するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NAPT（IPマスカレード）の仕組み",
+          "sources": [
+            "https://www.infraexpert.com/study/ip11.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-09-04",
+          "question": "CiscoでNAPTを指す呼び名は？",
+          "answer": "<div class=\"answer-text\">PAT（Port Address Translation）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NAPT（IPマスカレード）の仕組み",
+          "sources": [
+            "https://www.infraexpert.com/study/ip11.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-09-05",
+          "question": "LinuxでNAPTを指す代表的な呼び名は？",
+          "answer": "<div class=\"answer-text\">IPマスカレード。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NAPT（IPマスカレード）の仕組み",
+          "sources": [
+            "https://www.infraexpert.com/study/ip11.5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-10-01",
+          "question": "IP Unnumberedは、インターフェースのIPアドレスをどう扱う仕組みか。",
+          "answer": "<div class=\"answer-text\">個別のIPアドレスを割り当てず、別のインターフェースのアドレスを借りる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP Unnumbered（IPアンナンバード）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-10-02",
+          "question": "IP Unnumberedによって節約できるものは？",
+          "answer": "<div class=\"answer-text\">ポイントツーポイント接続などに個別に割り当てるIPアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP Unnumbered（IPアンナンバード）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C05-10-03",
+          "question": "PPPoEの端末型払い出しとLAN型払い出しは、割り当てるものがどう違う？",
+          "answer": "<div class=\"answer-text\">端末型は1つのIPアドレス、LAN型は1つのIPネットワークのアドレス範囲を割り当てる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP Unnumbered（IPアンナンバード）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/ip13.html"
           ],
           "kind": "",
           "knowledge_ids": []
