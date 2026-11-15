@@ -1,5 +1,5 @@
 {
-  "revision": "8e0df242a87c3e2106aac56dcd55036dc4012380eaf2cf5a14b2c6502ec2b450",
+  "revision": "942e3cb95e8ebd275d022bd3c20b42e00c3c93be4051ce44dab4913498854b00",
   "decks": [
     {
       "deck_id": "chapter-01",
@@ -4690,12 +4690,12 @@
     },
     {
       "deck_id": "chapter-04",
-      "revision": "a4e6a9dd4d3ea1f997f7d37413dbb25fd27bbf934d39f048810a7fcab769aae8",
+      "revision": "a686ed8f46c3d5011409d597d10500ea12d26c366558d1a4344f6deff24622c6",
       "title": "VLANとスパニングツリー",
       "subtitle": "ネスペイージス 第4章",
       "knowledge_count": 0,
-      "question_count": 78,
-      "sections": 11,
+      "question_count": 77,
+      "sections": 12,
       "cards": [
         {
           "id": "C04-01-01",
@@ -4766,19 +4766,6 @@
           "id": "C04-01-06",
           "question": "管理VLANとは、何のためのVLANか。",
           "answer": "<div class=\"answer-text\">スイッチへの設定・監視など、管理用の通信を流すVLAN。</div>",
-          "html": true,
-          "section": "",
-          "section_title": "VLANの概要",
-          "sources": [
-            "https://www.infraexpert.com/study/vlanz1.html"
-          ],
-          "kind": "",
-          "knowledge_ids": []
-        },
-        {
-          "id": "C04-01-07",
-          "question": "Catalystの標準的な初期設定で、デフォルトVLANとして使われるVLAN IDは？",
-          "answer": "<div class=\"answer-text\">VLAN 1。</div>",
           "html": true,
           "section": "",
           "section_title": "VLANの概要",
@@ -4987,19 +4974,6 @@
           "id": "C04-03-03",
           "question": "Q-in-Qで、事業者網へ付加した外側のタグは顧客側へ出るときどうする？",
           "answer": "<div class=\"answer-text\">事業者網の出口で外す。</div>",
-          "html": true,
-          "section": "",
-          "section_title": "IEEE802.1q トンネリング（Q-in-Q）とは",
-          "sources": [
-            "https://www.infraexpert.com/study/vlanz17.html"
-          ],
-          "kind": "",
-          "knowledge_ids": []
-        },
-        {
-          "id": "C04-03-04",
-          "question": "Q-in-Qのサービスエッジで、顧客のVLANを収容するポートを何という？",
-          "answer": "<div class=\"answer-text\">トンネルポート。</div>",
           "html": true,
           "section": "",
           "section_title": "IEEE802.1q トンネリング（Q-in-Q）とは",
@@ -5382,6 +5356,19 @@
           "section_title": "STP - スパニングツリープロトコルのポート状態",
           "sources": [
             "https://www.infraexpert.com/study/stpz3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C04-07-05",
+          "question": "CSTでは、複数のVLANに対してスパニングツリーをどう構成するか。",
+          "answer": "<div class=\"answer-text\">全VLANで1つのスパニングツリーを共有する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "STP - CSTとは",
+          "sources": [
+            "https://www.infraexpert.com/study/stpz4.html"
           ],
           "kind": "",
           "knowledge_ids": []
@@ -10869,7 +10856,7 @@
     },
     {
       "deck_id": "chapter-11",
-      "revision": "5a531c13b06bdee5cd7d9d59397ad93ba867920e11648f0413967cb26df646da",
+      "revision": "9de1794344cdff137aff9e05aaa4133dea4199eacc8a5217aaf7dc23b4325301",
       "title": "VPN",
       "subtitle": "ネスペイージス 第11章",
       "knowledge_count": 0,
@@ -11415,7 +11402,7 @@
           "answer": "<div class=\"answer-text\">ハブへの負荷集中や、迂回による遅延が増えること。</div>",
           "html": true,
           "section": "",
-          "section_title": "DMVPNとは",
+          "section_title": "ハブ＆スポークとフルメッシュ",
           "sources": [
             "https://www.infraexpert.com/study/ipsec1.html"
           ],
@@ -11428,7 +11415,7 @@
           "answer": "<div class=\"answer-text\">拠点間の接続の組合せが増え、設定や管理が複雑になること。</div>",
           "html": true,
           "section": "",
-          "section_title": "DMVPNとは",
+          "section_title": "ハブ＆スポークとフルメッシュ",
           "sources": [
             "https://www.infraexpert.com/study/ipsec1.html"
           ],
@@ -14829,6 +14816,3378 @@
           "section_title": "IPv6移行技術 - トンネリング",
           "sources": [
             "https://www.infraexpert.com/study/ipv6z8.1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        }
+      ]
+    },
+    {
+      "deck_id": "chapter-16",
+      "revision": "0500739b52b513612ba609f0d1aa6d8f4a820916d300336ca9ec5feff48df338",
+      "title": "ストレージネットワーク",
+      "subtitle": "ネスペイージス 第16章",
+      "knowledge_count": 0,
+      "question_count": 43,
+      "sections": 8,
+      "cards": [
+        {
+          "id": "C16-01-01",
+          "question": "DASで、あるサーバの余ったディスク領域を別サーバへ融通しにくい理由は？",
+          "answer": "<div class=\"answer-text\">ストレージが、そのサーバへ直接接続されているため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DAS、NAS、SAN の違い",
+          "sources": [
+            "https://www.infraexpert.com/study/networking0.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-01-02",
+          "question": "DASのディスク接続に使う代表的な方式は？",
+          "answer": "<div class=\"answer-text\">SATA、SAS、SCSIなど。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "DAS、NAS、SAN の違い",
+          "sources": [
+            "https://www.infraexpert.com/study/networking0.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-02-01",
+          "question": "NASでファイル共有に使う代表的なプロトコルは？",
+          "answer": "<div class=\"answer-text\">SMB/CIFSやNFSなど。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NAS - NAS と SAN の比較",
+          "sources": [
+            "https://www.infraexpert.com/study/networking5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-02-02",
+          "question": "NASとSANは、ファイルシステムを管理する側がどう違う？",
+          "answer": "<div class=\"answer-text\">NASはストレージ側がファイルを管理し、SANでは通常サーバ側がブロックデバイス上のファイルシステムを管理する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NAS - NAS と SAN の比較",
+          "sources": [
+            "https://www.infraexpert.com/study/networking5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-02-03",
+          "question": "NASにある同じファイルへの同時更新では、何を制御する必要がある？",
+          "answer": "<div class=\"answer-text\">ロックなどによる、競合する書き込みの調整。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NAS - NAS と SAN の比較",
+          "sources": [
+            "https://www.infraexpert.com/study/networking5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-03-01",
+          "question": "FC-SANとIP-SANでは、サーバの接続に使う代表的なアダプタがどう違う？",
+          "answer": "<div class=\"answer-text\">FC-SANはHBA、IP-SANはEthernetのNICなどを使う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SAN - FC-SAN、IP-SANの違い",
+          "sources": [
+            "https://www.infraexpert.com/study/networking6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-03-02",
+          "question": "iSCSIは、何をTCP/IPネットワークで運ぶプロトコルか。",
+          "answer": "<div class=\"answer-text\">SCSIのコマンドやデータ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SAN - FC-SAN、IP-SANの違い",
+          "sources": [
+            "https://www.infraexpert.com/study/networking6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-03-03",
+          "question": "FCIPは、何をIPネットワークで運ぶための技術か。",
+          "answer": "<div class=\"answer-text\">ファイバチャネルのフレーム。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SAN - FC-SAN、IP-SANの違い",
+          "sources": [
+            "https://www.infraexpert.com/study/networking6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-03-04",
+          "question": "SANのゾーニングは、主に何を制御する？",
+          "answer": "<div class=\"answer-text\">どのサーバとストレージが通信できるか。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SAN - FC-SAN、IP-SANの違い",
+          "sources": [
+            "https://www.infraexpert.com/study/networking6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-03-05",
+          "question": "WWNに基づくゾーニングとポートに基づくゾーニングの違いは？",
+          "answer": "<div class=\"answer-text\">前者は機器のWWN、後者はFCスイッチの接続ポートを基準に組合せを決める。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SAN - FC-SAN、IP-SANの違い",
+          "sources": [
+            "https://www.infraexpert.com/study/networking6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-04-01",
+          "question": "FCoEは、FCフレームを何にカプセル化して運ぶ？",
+          "answer": "<div class=\"answer-text\">Ethernetフレーム。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FCoE - FC-SANとEthernet LANの統合",
+          "sources": [
+            "https://www.infraexpert.com/study/networking7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-04-02",
+          "question": "iSCSIとFCoEは、TCP/IPを使うかどうかで何が違う？",
+          "answer": "<div class=\"answer-text\">iSCSIはTCP/IPを使い、FCoEはFCフレームをEthernet上で直接運ぶ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FCoE - FC-SANとEthernet LANの統合",
+          "sources": [
+            "https://www.infraexpert.com/study/networking7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-04-03",
+          "question": "FCoEで使うCNAは、何を統合するアダプタか。",
+          "answer": "<div class=\"answer-text\">EthernetのNICと、FCのHBAに相当する機能。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FCoE - FC-SANとEthernet LANの統合",
+          "sources": [
+            "https://www.infraexpert.com/study/networking7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-04-04",
+          "question": "FCoEでLANとSANの接続を統合する、物理構成上の利点は？",
+          "answer": "<div class=\"answer-text\">アダプタやケーブルを減らし、配線・消費電力・管理の負担を抑えられる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FCoE - FC-SANとEthernet LANの統合",
+          "sources": [
+            "https://www.infraexpert.com/study/networking7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-04-05",
+          "question": "DCBのPFCは、フロー制御をどのような単位で行う？",
+          "answer": "<div class=\"answer-text\">Ethernetの優先度ごと。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FCoE - FC-SANとEthernet LANの統合",
+          "sources": [
+            "https://www.infraexpert.com/study/networking7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-04-06",
+          "question": "DCBのETSは、通信クラス間で主に何を割り当てる？",
+          "answer": "<div class=\"answer-text\">利用する帯域幅。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FCoE - FC-SANとEthernet LANの統合",
+          "sources": [
+            "https://www.infraexpert.com/study/networking7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-04-07",
+          "question": "FCoEで、通常より大きなEthernetフレームへ対応させる理由は？",
+          "answer": "<div class=\"answer-text\">大きなFCフレームとFCoEの付加情報を収容するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FCoE - FC-SANとEthernet LANの統合",
+          "sources": [
+            "https://www.infraexpert.com/study/networking7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-05-01",
+          "question": "HAクラスタのフェールオーバーは、障害発生時に何を行う？",
+          "answer": "<div class=\"answer-text\">稼働系の処理を、別のサーバへ引き継ぐ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "クラスタシステムとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-05-02",
+          "question": "HAクラスタで、物理サーバ固有のIPとは別に仮想IPを使う目的は？",
+          "answer": "<div class=\"answer-text\">稼働サーバが切り替わっても、利用者の接続先アドレスを維持するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "クラスタシステムとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-05-03",
+          "question": "HAクラスタの共有ディスク型とミラーディスク型の違いは？",
+          "answer": "<div class=\"answer-text\">共有型は同じディスクを複数サーバで利用し、ミラー型は各サーバのディスク内容を複製する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "クラスタシステムとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-05-04",
+          "question": "ミラーディスク型のクラスタが、共有ディスク型より構成費を抑えやすい理由は？",
+          "answer": "<div class=\"answer-text\">専用の共有ストレージを別に用意せずに構成できるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "クラスタシステムとは",
+          "sources": [
+            "https://www.infraexpert.com/study/networking11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-06-01",
+          "question": "RAID 0のストライピングは、何を目的にデータを分散する？",
+          "answer": "<div class=\"answer-text\">複数ディスクへ並行して読み書きし、高速化するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+          "sources": [
+            "https://www.infraexpert.com/study/networking9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-06-02",
+          "question": "RAID 0で、構成ディスク1台の故障が重大な問題になる理由は？",
+          "answer": "<div class=\"answer-text\">冗長データがなく、欠けた部分を復元できないため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+          "sources": [
+            "https://www.infraexpert.com/study/networking9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-06-03",
+          "question": "RAID 1のミラーリングとは、どのような保存方法か。",
+          "answer": "<div class=\"answer-text\">同じデータを複数のディスクへ複製して保存する方法。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+          "sources": [
+            "https://www.infraexpert.com/study/networking9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-06-04",
+          "question": "同容量ディスク2台のRAID 1では、使えるデータ容量は何台分か。",
+          "answer": "<div class=\"answer-text\">1台分。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+          "sources": [
+            "https://www.infraexpert.com/study/networking9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-06-05",
+          "question": "RAID 5とRAID 6は、任意のディスクの同時故障をそれぞれ何台まで許容する？",
+          "answer": "<div class=\"answer-text\">RAID 5は1台、RAID 6は2台。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+          "sources": [
+            "https://www.infraexpert.com/study/networking9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-06-06",
+          "question": "RAID 5とRAID 6の、基本的な最小ディスク台数は？",
+          "answer": "<div class=\"answer-text\">RAID 5は3台、RAID 6は4台。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+          "sources": [
+            "https://www.infraexpert.com/study/networking9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-06-07",
+          "question": "同容量のn台で構成するRAID 5とRAID 6では、データ領域はおよそ何台分か。",
+          "answer": "<div class=\"answer-text\">RAID 5はn−1台分、RAID 6はn−2台分。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+          "sources": [
+            "https://www.infraexpert.com/study/networking9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-06-08",
+          "question": "RAID 6がRAID 5よりデータに使える容量を減らす理由は？",
+          "answer": "<div class=\"answer-text\">2台の故障に対応する二重パリティを保存するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+          "sources": [
+            "https://www.infraexpert.com/study/networking9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-06-09",
+          "question": "RAID 10は、ミラーリングとストライピングをどう組み合わせる？",
+          "answer": "<div class=\"answer-text\">ミラーリングしたディスクの組を、ストライピングで束ねる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+          "sources": [
+            "https://www.infraexpert.com/study/networking9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-06-10",
+          "question": "RAIDによる冗長化が、バックアップの代わりにならない理由は？",
+          "answer": "<div class=\"answer-text\">誤削除やデータの破壊などが、冗長化された側にも反映されるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "RAID0、RAID1、RAID5、RAID6、RAID10",
+          "sources": [
+            "https://www.infraexpert.com/study/networking9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-07-01",
+          "question": "フルバックアップと差分バックアップは、保存する対象がどう違う？",
+          "answer": "<div class=\"answer-text\">フルは対象全体、差分は直近のフルバックアップからの変更分。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "フルバックアップ、差分・増分バックアップ",
+          "sources": [
+            "https://www.infraexpert.com/study/networking10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-07-02",
+          "question": "差分バックアップと増分バックアップは、変更を比較する基準がどう違う？",
+          "answer": "<div class=\"answer-text\">差分は直近のフル、増分は直前のバックアップ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "フルバックアップ、差分・増分バックアップ",
+          "sources": [
+            "https://www.infraexpert.com/study/networking10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-07-03",
+          "question": "差分バックアップから復元するために必要な、基本的な組合せは？",
+          "answer": "<div class=\"answer-text\">基になるフルバックアップと、復元時点の差分バックアップ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "フルバックアップ、差分・増分バックアップ",
+          "sources": [
+            "https://www.infraexpert.com/study/networking10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-07-04",
+          "question": "増分バックアップから復元するために必要な、基本的な組合せは？",
+          "answer": "<div class=\"answer-text\">基になるフルバックアップと、復元時点までの各増分バックアップ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "フルバックアップ、差分・増分バックアップ",
+          "sources": [
+            "https://www.infraexpert.com/study/networking10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-07-05",
+          "question": "増分バックアップで、保存量を減らせる一方で復元の手間が増える理由は？",
+          "answer": "<div class=\"answer-text\">前回以降の変更だけを保存するので、復元には途中の増分も順につなぐ必要があるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "フルバックアップ、差分・増分バックアップ",
+          "sources": [
+            "https://www.infraexpert.com/study/networking10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-08-01",
+          "question": "フォールトアボイダンスとフォールトトレランスの違いは？",
+          "answer": "<div class=\"answer-text\">前者は故障の発生を抑え、後者は故障しても機能を継続できるようにする考え方。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "フォールトトレランス、RASIS、MTBF/MTTR",
+          "sources": [
+            "https://www.infraexpert.com/study/networking12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-08-02",
+          "question": "フェールセーフとフェールソフトの違いは？",
+          "answer": "<div class=\"answer-text\">フェールセーフは安全側へ移行し、フェールソフトは機能を一部縮退して運転を続ける。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "フォールトトレランス、RASIS、MTBF/MTTR",
+          "sources": [
+            "https://www.infraexpert.com/study/networking12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-08-03",
+          "question": "フールプルーフとは、どのような設計上の考え方か。",
+          "answer": "<div class=\"answer-text\">利用者の誤操作があっても、危険や誤動作につながりにくくする考え方。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "フォールトトレランス、RASIS、MTBF/MTTR",
+          "sources": [
+            "https://www.infraexpert.com/study/networking12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-08-04",
+          "question": "RASISの5つの評価観点は？",
+          "answer": "<div class=\"answer-text\">信頼性、可用性、保守性、完全性、機密性・安全性。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "フォールトトレランス、RASIS、MTBF/MTTR",
+          "sources": [
+            "https://www.infraexpert.com/study/networking12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-08-05",
+          "question": "MTBFとMTTRは、それぞれ何の平均時間か。",
+          "answer": "<div class=\"answer-text\">MTBFは故障せず稼働する時間、MTTRは修理・復旧にかかる時間。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "フォールトトレランス、RASIS、MTBF/MTTR",
+          "sources": [
+            "https://www.infraexpert.com/study/networking12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-08-06",
+          "question": "MTBFとMTTRから、基本的な稼働率を求める式は？",
+          "answer": "<div class=\"answer-text\">MTBF ÷（MTBF＋MTTR）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "フォールトトレランス、RASIS、MTBF/MTTR",
+          "sources": [
+            "https://www.infraexpert.com/study/networking12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C16-08-07",
+          "question": "稼働率を上げるには、MTBFとMTTRをそれぞれどうする？",
+          "answer": "<div class=\"answer-text\">MTBFを長くし、MTTRを短くする。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "フォールトトレランス、RASIS、MTBF/MTTR",
+          "sources": [
+            "https://www.infraexpert.com/study/networking12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        }
+      ]
+    },
+    {
+      "deck_id": "chapter-17",
+      "revision": "80885c293606360820616016134e007c08ed81633ae790f147cd813b97dab4ba",
+      "title": "IPテレフォニー",
+      "subtitle": "ネスペイージス 第17章",
+      "knowledge_count": 0,
+      "question_count": 61,
+      "sections": 8,
+      "cards": [
+        {
+          "id": "C17-01-01",
+          "question": "IP電話のシグナリングと音声データは、代表的にどのプロトコルで運ぶ？",
+          "answer": "<div class=\"answer-text\">シグナリングはSIPなど、音声データはRTP。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-01-02",
+          "question": "PBXとIP-PBXは、主に何を行う装置か。",
+          "answer": "<div class=\"answer-text\">内線や外線の呼制御を行う構内交換機。IP-PBXはIP電話の呼制御を行う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-01-03",
+          "question": "IP電話用のVoIPゲートウェイは、主に何を接続する？",
+          "answer": "<div class=\"answer-text\">IPの音声ネットワークと、公衆電話網などの従来の電話ネットワーク。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-01-04",
+          "question": "IP電話機と、その配下に接続するPCを別VLANへ分ける目的は？",
+          "answer": "<div class=\"answer-text\">音声とデータの通信を論理的に分け、品質や管理の方針を分けやすくするため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-02-01",
+          "question": "アナログ音声をデジタル化する、基本的な3段階は？",
+          "answer": "<div class=\"answer-text\">標本化 → 量子化 → 符号化。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - 音声の符号化",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-02-02",
+          "question": "音声の標本化は、アナログ信号に対して何を行う？",
+          "answer": "<div class=\"answer-text\">一定の時間間隔で、信号の値を取り出す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - 音声の符号化",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-02-03",
+          "question": "音声の量子化は、標本化した値をどう扱う？",
+          "answer": "<div class=\"answer-text\">定めた有限の段階の値へ近似する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - 音声の符号化",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-02-04",
+          "question": "音声の符号化では、量子化した値を何で表す？",
+          "answer": "<div class=\"answer-text\">ビット列。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - 音声の符号化",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-02-05",
+          "question": "帯域制限された信号を再現する標本化定理では、標本化周波数に何を求める？",
+          "answer": "<div class=\"answer-text\">信号に含まれる最大周波数の2倍を超える周波数で標本化する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - 音声の符号化",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-02-06",
+          "question": "G.711のPCMで、毎秒8000標本を各8ビットに符号化する音声のビットレートは？",
+          "answer": "<div class=\"answer-text\">64kbps。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - 音声の符号化",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-02-07",
+          "question": "G.711とG.729の、音声そのものの代表的な符号化ビットレートは？",
+          "answer": "<div class=\"answer-text\">G.711は64kbps、G.729は8kbps。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - 音声の符号化",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-02-08",
+          "question": "ADPCMがPCMより情報量を減らす基本的な方法は？",
+          "answer": "<div class=\"answer-text\">過去の信号から値を予測し、予測との差を符号化する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - 音声の符号化",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-02-09",
+          "question": "オンフックとオフフックは、受話器の状態がどう違う？",
+          "answer": "<div class=\"answer-text\">オンフックは置いた状態、オフフックは上げた状態。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - 音声の符号化",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-02-10",
+          "question": "DTMFは、電話番号などを何によって伝える信号か。",
+          "answer": "<div class=\"answer-text\">異なる2つの周波数の音を組み合わせて伝える信号。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - 音声の符号化",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-03-01",
+          "question": "RTPのシーケンス番号とタイムスタンプは、受信側で何に使う？",
+          "answer": "<div class=\"answer-text\">シーケンス番号は順序や欠落の確認、タイムスタンプは再生タイミングの調整。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - RTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-03-02",
+          "question": "RTPで一般に利用するトランスポート層プロトコルは？",
+          "answer": "<div class=\"answer-text\">UDP。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - RTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-03-03",
+          "question": "RTCPは、RTP通信について何を通知する？",
+          "answer": "<div class=\"answer-text\">パケット損失や遅延・ジッタなどの品質・受信状態。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - RTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-03-04",
+          "question": "音声のパケット化周期を長くすると、効率と遅延はどう変わる？",
+          "answer": "<div class=\"answer-text\">ヘッダの負担は減るが、パケットを作るための待ち時間が増える。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - RTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-03-05",
+          "question": "コーデックのビットレートだけで、音声通信に必要な回線帯域を求められない理由は？",
+          "answer": "<div class=\"answer-text\">RTP・UDP・IPやデータリンク層のヘッダなども付くため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - RTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-03-06",
+          "question": "音声通信の必要ビットレートは、1パケットの大きさと毎秒パケット数からどう求める？",
+          "answer": "<div class=\"answer-text\">対象とするヘッダを含む1パケットのバイト数 × 8 × 毎秒パケット数。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - RTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-03-07",
+          "question": "CSRCや拡張を含まない、RTPの基本ヘッダは何バイトか。",
+          "answer": "<div class=\"answer-text\">12バイト。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - RTPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-04-01",
+          "question": "SIPは、テキスト形式とバイナリ形式のどちらのメッセージを使う？",
+          "answer": "<div class=\"answer-text\">テキスト形式。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - SIPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-04-02",
+          "question": "SIPは、TCPとUDPのどちらを利用できる？",
+          "answer": "<div class=\"answer-text\">両方を利用できる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - SIPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-04-03",
+          "question": "SIPのUACとUASは、役割がどう違う？",
+          "answer": "<div class=\"answer-text\">UACは要求を送り、UASは要求を受けて応答する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - SIPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-04-04",
+          "question": "SIPのプロキシサーバとリダイレクトサーバの違いは？",
+          "answer": "<div class=\"answer-text\">プロキシは要求を中継し、リダイレクトは要求元へ別の送信先を知らせる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - SIPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-04-05",
+          "question": "SIPのレジストラは、どのような情報を受け付ける？",
+          "answer": "<div class=\"answer-text\">SIPの名前・アドレスに対する、現在の連絡先の登録。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - SIPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-04-06",
+          "question": "SIPのREGISTERとINVITEは、それぞれ何の要求か。",
+          "answer": "<div class=\"answer-text\">REGISTERは連絡先の登録、INVITEはセッション開始などの要求。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - SIPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-04-07",
+          "question": "SIPのACKは、成功したINVITEのやり取りで何を確認する？",
+          "answer": "<div class=\"answer-text\">最終応答を受信したこと。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - SIPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-04-08",
+          "question": "SIPのBYEとCANCELは、終了させる対象がどう違う？",
+          "answer": "<div class=\"answer-text\">BYEは確立したセッション、CANCELは処理中のINVITEなどの要求。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - SIPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-04-09",
+          "question": "SIPの180 Ringingと200 OKは、基本的に何を表す？",
+          "answer": "<div class=\"answer-text\">180は相手を呼出し中、200は要求の成功。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - SIPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-04-10",
+          "question": "SIPと組み合わせるSDPは、何を記述する？",
+          "answer": "<div class=\"answer-text\">メディアの種類、送受信先、コーデックなどのセッション情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - SIPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-04-11",
+          "question": "SIPメッセージのCall-IDは、主に何の識別に使う？",
+          "answer": "<div class=\"answer-text\">一連の通話・セッションの識別。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - SIPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-04-12",
+          "question": "SIPのViaヘッダは、主にどの経路の情報を表す？",
+          "answer": "<div class=\"answer-text\">応答メッセージを返す経路。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - SIPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-04-13",
+          "question": "SDPのc行とm行には、主にどのような情報を記述する？",
+          "answer": "<div class=\"answer-text\">c行は接続先アドレス、m行はメディア種別・ポート番号・伝送方式など。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - SIPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-05-01",
+          "question": "呼量の単位であるアーランは、何を表す？",
+          "answer": "<div class=\"answer-text\">総回線占有時間 ÷ 観測時間で表す、平均的な回線の利用量。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - 呼量、呼損率、呼損率表、アーランの計算方法",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-05-02",
+          "question": "呼量は、呼の発生率と平均回線保留時間からどう求める？",
+          "answer": "<div class=\"answer-text\">単位時間当たりの呼数 × 平均回線保留時間。同じ時間単位で計算する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - 呼量、呼損率、呼損率表、アーランの計算方法",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-05-03",
+          "question": "呼損率とは、どのような確率か。",
+          "answer": "<div class=\"answer-text\">回線不足などで、発生した呼を接続できない確率。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - 呼量、呼損率、呼損率表、アーランの計算方法",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-05-04",
+          "question": "呼損率表から必要回線数を求めるため、基本的にどの2つの値を使う？",
+          "answer": "<div class=\"answer-text\">呼量と、許容する呼損率。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - 呼量、呼損率、呼損率表、アーランの計算方法",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-05-05",
+          "question": "同じ呼量で許容呼損率を低くすると、必要回線数はどうなる？",
+          "answer": "<div class=\"answer-text\">多くなる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - 呼量、呼損率、呼損率表、アーランの計算方法",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-05-06",
+          "question": "音声品質のMOSは、どのように評価する方法か。",
+          "answer": "<div class=\"answer-text\">人が音声を聞き、通常1〜5の段階で品質を評価する方法。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - 呼量、呼損率、呼損率表、アーランの計算方法",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-05-07",
+          "question": "音声品質のR値は、大きい方と小さい方のどちらが高品質か。",
+          "answer": "<div class=\"answer-text\">大きい方。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - 呼量、呼損率、呼損率表、アーランの計算方法",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-06-01",
+          "question": "IP電話の音声が、通常のファイル転送より遅延の影響を受けやすい理由は？",
+          "answer": "<div class=\"answer-text\">対話中の音声を、その場で連続的に再生する必要があるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - QoS による音声品質の確保",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-06-02",
+          "question": "音声通信でいうジッタとは何か。",
+          "answer": "<div class=\"answer-text\">パケットの到着間隔や遅延のばらつき。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - QoS による音声品質の確保",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-06-03",
+          "question": "IntServとDiffServは、QoSの管理単位がどう違う？",
+          "answer": "<div class=\"answer-text\">IntServは通信フローごとに資源を予約し、DiffServは通信をクラスへ分類して処理する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - QoS による音声品質の確保",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-06-04",
+          "question": "IntServで資源予約に使う代表的なプロトコルは？",
+          "answer": "<div class=\"answer-text\">RSVP。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - QoS による音声品質の確保",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-06-05",
+          "question": "IntServが大規模なネットワークで負担になりやすい理由は？",
+          "answer": "<div class=\"answer-text\">多数のフローごとの予約状態を、経路上の機器が管理するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - QoS による音声品質の確保",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-07-01",
+          "question": "DiffServの基本的な処理の流れは？",
+          "answer": "<div class=\"answer-text\">分類 → マーキング → キューイング → スケジューリング。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-07-02",
+          "question": "QoSの分類とマーキングは、処理がどう違う？",
+          "answer": "<div class=\"answer-text\">分類は通信の種類やクラスを判断し、マーキングはその扱いを示す値をパケットなどに付ける。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-07-03",
+          "question": "IEEE 802.1QタグのPCPによる優先度は、何ビットか。",
+          "answer": "<div class=\"answer-text\">3ビット。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-07-04",
+          "question": "IPヘッダのDSCPフィールドは何ビットか。",
+          "answer": "<div class=\"answer-text\">6ビット。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-07-05",
+          "question": "L2の優先度だけでなく、DSCPでマーキングする利点は？",
+          "answer": "<div class=\"answer-text\">IPパケットに情報を持たせ、ルータを越える経路でも扱いを引き継ぎやすい。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-07-06",
+          "question": "DiffServのPHBは、何を意味する？",
+          "answer": "<div class=\"answer-text\">各ホップの機器で適用する、転送処理の振る舞い。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-07-07",
+          "question": "DiffServのEFで使う代表的なDSCP値は？",
+          "answer": "<div class=\"answer-text\">46。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-07-08",
+          "question": "DSCPのDefaultで使う値は？",
+          "answer": "<div class=\"answer-text\">0。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-07-09",
+          "question": "AFの同じクラス内では、ドロップ優先度の数値が大きいほどどう扱う？",
+          "answer": "<div class=\"answer-text\">輻輳時に破棄されやすくなる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-07-10",
+          "question": "キューイングとスケジューリングの違いは？",
+          "answer": "<div class=\"answer-text\">キューイングはパケットを待ち行列へ格納し、スケジューリングはどのキューから送るかを決める。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-07-11",
+          "question": "FIFOと優先キュー方式は、送出順の決め方がどう違う？",
+          "answer": "<div class=\"answer-text\">FIFOは到着順、優先キュー方式は優先度の高いキューを先に処理する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-07-12",
+          "question": "ポリシングとシェーピングは、速度を超えた通信の扱いがどう違う？",
+          "answer": "<div class=\"answer-text\">ポリシングは破棄や再マーキングを行い、シェーピングはバッファで送信を遅らせる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IP電話 - QoS DiffServモデルの処理フロー",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-08-01",
+          "question": "SIPサーバを1拠点へ集約すると、拠点側のWAN障害で何が問題になる？",
+          "answer": "<div class=\"answer-text\">呼制御サーバへ到達できず、新しい通話の発着信などができなくなる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPテレフォニーシステムの構成、全体の理解",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-08-02",
+          "question": "SIPで呼制御する構成でも、RTPの音声データは必ずSIPサーバを通るか。",
+          "answer": "<div class=\"answer-text\">必ずではない。IP電話機同士などで直接やり取りする構成もある。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPテレフォニーシステムの構成、全体の理解",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C17-08-03",
+          "question": "公衆電話網への外線発信で、VoIPゲートウェイが行う主な変換は？",
+          "answer": "<div class=\"answer-text\">IP側と公衆電話網側との、呼制御や音声形式の変換。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IPテレフォニーシステムの構成、全体の理解",
+          "sources": [
+            "https://www.infraexpert.com/study/telephony10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        }
+      ]
+    },
+    {
+      "deck_id": "chapter-18",
+      "revision": "6dc3d61704e0e2d5dccf5c2cba5c4989b08bcd336e11c1b75e91be3023ea5b54",
+      "title": "マルチキャスト",
+      "subtitle": "ネスペイージス 第18章",
+      "knowledge_count": 0,
+      "question_count": 54,
+      "sections": 16,
+      "cards": [
+        {
+          "id": "C18-01-01",
+          "question": "マルチキャストの転送を最適化していないL2スイッチでは、受信者以外への転送も発生し得るか。",
+          "answer": "<div class=\"answer-text\">発生し得る。マルチキャストフレームが同じVLANへフラッディングされるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャストとは",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz01.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-02-01",
+          "question": "マルチキャストグループに参加した端末のNICは、どのMAC宛てフレームを受信対象へ加える？",
+          "answer": "<div class=\"answer-text\">参加したグループに対応するマルチキャストMACアドレス宛て。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - クライアント側の受信処理",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz02.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-02-02",
+          "question": "1台の端末は、複数のマルチキャストグループに参加できるか。",
+          "answer": "<div class=\"answer-text\">できる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - クライアント側の受信処理",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz02.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-03-01",
+          "question": "IPv4のマルチキャストアドレスの範囲を、プレフィックスで表すと？",
+          "answer": "<div class=\"answer-text\">224.0.0.0/4。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - マルチキャストIPアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz03.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-03-02",
+          "question": "IPv4のマルチキャストパケットは、送信元IPにどの種類のアドレスを使う？",
+          "answer": "<div class=\"answer-text\">送信元自身のユニキャストアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - マルチキャストIPアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz03.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-03-03",
+          "question": "224.0.0.0/24のマルチキャストは、主にどの範囲の制御通信へ使う？",
+          "answer": "<div class=\"answer-text\">同一リンク内。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - マルチキャストIPアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz03.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-03-04",
+          "question": "組織内で管理するIPv4マルチキャストの代表的なアドレス範囲は？",
+          "answer": "<div class=\"answer-text\">239.0.0.0/8。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - マルチキャストIPアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz03.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-03-05",
+          "question": "224.0.0.1と224.0.0.2は、それぞれどのグループを表す？",
+          "answer": "<div class=\"answer-text\">同一リンク上の全マルチキャストホストと、全マルチキャストルータ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - マルチキャストIPアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz03.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-04-01",
+          "question": "IPv4マルチキャストに対応するEthernetのMACアドレスは、先頭が何で始まる？",
+          "answer": "<div class=\"answer-text\">01:00:5E。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - マルチキャストMACアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz04.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-04-02",
+          "question": "IPv4のマルチキャストIPからMACを作るとき、IPアドレスの何ビットを写す？",
+          "answer": "<div class=\"answer-text\">下位23ビット。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - マルチキャストMACアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz04.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-04-03",
+          "question": "IPv4マルチキャストのIPアドレスとMACアドレスが、1対1でない理由は？",
+          "answer": "<div class=\"answer-text\">グループ識別の28ビットのうち、下位23ビットしかMACへ写さないため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - マルチキャストMACアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz04.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-04-04",
+          "question": "1つのIPv4マルチキャストMACに対応し得る、マルチキャストIPの数は？",
+          "answer": "<div class=\"answer-text\">32個。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - マルチキャストMACアドレス",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz04.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-05-01",
+          "question": "IPv4マルチキャストをサブネット間で転送するため、途中のルータに必要な機能は？",
+          "answer": "<div class=\"answer-text\">マルチキャストルーティング。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - トラフィックの転送処理（ルータとスイッチ）",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz05.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-05-02",
+          "question": "送信元につながるルータだけでマルチキャスト転送を有効にしても、不十分な理由は？",
+          "answer": "<div class=\"answer-text\">受信側までの経路上のルータも、マルチキャストを転送できる必要があるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - トラフィックの転送処理（ルータとスイッチ）",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz05.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-06-01",
+          "question": "マルチキャストのファーストホップルータとラストホップルータは、どちら側に位置する？",
+          "answer": "<div class=\"answer-text\">ファーストホップは送信元側、ラストホップは受信者側。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - マルチキャスト用語、マルチキャストの概念図",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz06.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-06-02",
+          "question": "マルチキャストでいうUpstreamとDownstreamの方向は？",
+          "answer": "<div class=\"answer-text\">Upstreamは送信元側、Downstreamは受信者側。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - マルチキャスト用語、マルチキャストの概念図",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz06.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-06-03",
+          "question": "マルチキャストのディストリビューションツリーとは何か。",
+          "answer": "<div class=\"answer-text\">送信元から複数の受信者へ、パケットを配布するための経路の木構造。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - マルチキャスト用語、マルチキャストの概念図",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz06.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-07-01",
+          "question": "ルータは、マルチキャストの転送先インターフェースが複数あると何を行う？",
+          "answer": "<div class=\"answer-text\">必要な数だけパケットを複製して転送する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - ディストリビューションツリーの特徴、作成",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz07.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-07-02",
+          "question": "マルチキャストの配布ツリーが、固定ではなく動的に変わる理由は？",
+          "answer": "<div class=\"answer-text\">送信元や、受信グループへの参加・離脱の状況が変化するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - ディストリビューションツリーの特徴、作成",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz07.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-08-01",
+          "question": "IGMPとPIMは、情報を交換する相手がどう違う？",
+          "answer": "<div class=\"answer-text\">IGMPは受信ホストとルータの間、PIMはルータ間。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - IGMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz08.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-08-02",
+          "question": "IGMPによって、受信ホストはルータに何を伝える？",
+          "answer": "<div class=\"answer-text\">どのマルチキャストグループを受信したいか。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - IGMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz08.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-09-01",
+          "question": "IGMPのIPプロトコル番号は？",
+          "answer": "<div class=\"answer-text\">2。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - IGMPv1",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz09.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-09-02",
+          "question": "IGMPのメンバーシップクエリーとレポートは、役割がどう違う？",
+          "answer": "<div class=\"answer-text\">クエリーは受信メンバーの有無を問い、レポートは参加するグループなどを通知する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - IGMPv1",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz09.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-09-03",
+          "question": "IGMPv1では、ルータは受信者がいなくなったことをどう判断する？",
+          "answer": "<div class=\"answer-text\">クエリーに対するレポートが一定期間得られなくなることで判断する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - IGMPv1",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz09.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-09-04",
+          "question": "IGMPv1/v2で、同じグループの他端末が既にレポートを送った場合、自分のレポートを抑える目的は？",
+          "answer": "<div class=\"answer-text\">同じグループについて、重複する応答を減らすため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - IGMPv1",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz09.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-10-01",
+          "question": "IGMPv2が、IGMPv1より離脱を早く認識できるようにした主なメッセージは？",
+          "answer": "<div class=\"answer-text\">Leave Groupメッセージ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - IGMPv2",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-10-02",
+          "question": "IGMPv2でLeaveを受けても、すぐにそのグループの転送を止めない理由は？",
+          "answer": "<div class=\"answer-text\">同じリンクに、ほかの受信メンバーが残っている可能性があるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - IGMPv2",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-10-03",
+          "question": "IGMPv2のGroup-Specific Queryは、何を対象に問い合わせる？",
+          "answer": "<div class=\"answer-text\">指定した1つのマルチキャストグループ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - IGMPv2",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-10-04",
+          "question": "IGMPのクエリアとは、何を行う機器か。",
+          "answer": "<div class=\"answer-text\">メンバーシップクエリーを送るルータなどの機器。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - IGMPv2",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-10-05",
+          "question": "同一リンクのIGMPv2ルータ間で、クエリアにはどのようなIPアドレスを持つものを選ぶ？",
+          "answer": "<div class=\"answer-text\">最も小さいIPアドレスのルータ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - IGMPv2",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-10-06",
+          "question": "IGMPの最大応答時間は、何までの時間の上限か。",
+          "answer": "<div class=\"answer-text\">クエリーを受けてから、レポートを応答するまでの時間。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - IGMPv2",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-11-01",
+          "question": "IGMPv3で、参加グループに加えて指定できる重要な情報は？",
+          "answer": "<div class=\"answer-text\">受信する、または除外する送信元。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - IGMPv3",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-11-02",
+          "question": "IGMPv3のINCLUDEとEXCLUDEは、送信元をどう指定する？",
+          "answer": "<div class=\"answer-text\">INCLUDEは受け取る送信元を列挙し、EXCLUDEは受け取らない送信元を列挙する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - IGMPv3",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-12-01",
+          "question": "IGMPスヌーピングは、何を見て受信者のいるポートを学ぶ？",
+          "answer": "<div class=\"answer-text\">ホストとルータの間のIGMPメッセージ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - IGMPスヌーピング",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-12-02",
+          "question": "IGMPスヌーピングで、L2スイッチが管理する主な対応情報は？",
+          "answer": "<div class=\"answer-text\">マルチキャストグループと、その受信者につながるポートの対応。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - IGMPスヌーピング",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-12-03",
+          "question": "IGMPスヌーピングとマルチキャストルーティングは、役割がどう違う？",
+          "answer": "<div class=\"answer-text\">前者は同一L2内の不要な転送を減らし、後者はL3のネットワーク間でパケットを転送する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - IGMPスヌーピング",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-13-01",
+          "question": "マルチキャストの送信元ツリーと共有ツリーの違いは？",
+          "answer": "<div class=\"answer-text\">送信元ツリーは送信元ごと、共有ツリーはRPを中心に複数送信元で共通するツリーを作る。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - ディストリビューションツリー",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-13-02",
+          "question": "マルチキャスト転送情報の（S,G）と（*,G）は、それぞれ何を指定する？",
+          "answer": "<div class=\"answer-text\">（S,G）は特定の送信元とグループ、（*,G）は送信元を限定しないグループ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - ディストリビューションツリー",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-13-03",
+          "question": "SPTとは、どのようなマルチキャストツリーか。",
+          "answer": "<div class=\"answer-text\">送信元から受信者側への最短経路を使う送信元ツリー。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - ディストリビューションツリー",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-13-04",
+          "question": "送信元ツリーが、送信元の多い環境でルータの負担を増やす理由は？",
+          "answer": "<div class=\"answer-text\">送信元とグループの組ごとに、転送状態を保持する必要があるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - ディストリビューションツリー",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-13-05",
+          "question": "共有ツリーのRPは、何の略で、どのような役割か。",
+          "answer": "<div class=\"answer-text\">Rendezvous Point。共有ツリーの中心となるルータ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - ディストリビューションツリー",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-13-06",
+          "question": "共有ツリーは、送信元から受信者への最短経路とは限らない理由は？",
+          "answer": "<div class=\"answer-text\">RPを経由する経路になるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - ディストリビューションツリー",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-14-01",
+          "question": "PIM-DMのFlood and Pruneは、どのような転送の仕方か。",
+          "answer": "<div class=\"answer-text\">まず広く配信し、受信者がいない方向を後から枝刈りする。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - ルーティングプロトコル",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz14.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-14-02",
+          "question": "PIM-SMのExplicit Joinは、どのような配布モデルか。",
+          "answer": "<div class=\"answer-text\">受信要求のある方向へ、明示的に参加して配布ツリーを伸ばすモデル。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - ルーティングプロトコル",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz14.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-14-03",
+          "question": "DenseモードとSparseモードは、受信者の分布をどう想定する？",
+          "answer": "<div class=\"answer-text\">Denseは密に存在し、Sparseは広い範囲に散在することを想定する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - ルーティングプロトコル",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz14.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-14-04",
+          "question": "通常のPIM-SMでは、最初の共有ツリーから何へ切り替えて経路を最適化できる？",
+          "answer": "<div class=\"answer-text\">送信元への最短経路を使うSPT。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - ルーティングプロトコル",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz14.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-15-01",
+          "question": "マルチキャストのRPFチェックは、何を防ぐための処理か。",
+          "answer": "<div class=\"answer-text\">パケットのループや、重複した配信。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - RPFチェックとは",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-15-02",
+          "question": "送信元ツリーのRPFチェックでは、受信インターフェースを何と照合する？",
+          "answer": "<div class=\"answer-text\">送信元へ戻る経路の出力インターフェース。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - RPFチェックとは",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-15-03",
+          "question": "RPFチェックの経路情報に、通常利用するものは？",
+          "answer": "<div class=\"answer-text\">送信元などへのユニキャスト経路情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - RPFチェックとは",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-15-04",
+          "question": "RPFチェックに失敗したマルチキャストパケットは、通常どうする？",
+          "answer": "<div class=\"answer-text\">破棄する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - RPFチェックとは",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-16-01",
+          "question": "SSMは、グループだけでなく何を指定して受信する方式か。",
+          "answer": "<div class=\"answer-text\">送信元とグループの組（S,G）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - SSM（Source Specific Multicast）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz40.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-16-02",
+          "question": "SSMがRPや共有ツリーを必要としない理由は？",
+          "answer": "<div class=\"answer-text\">受信者が送信元をあらかじめ指定し、その送信元へのツリーを直接作れるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - SSM（Source Specific Multicast）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz40.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-16-03",
+          "question": "IPv4のSSMで、送信元を指定して受信を要求する代表的なIGMPの版とモードは？",
+          "answer": "<div class=\"answer-text\">IGMPv3のINCLUDEモード。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - SSM（Source Specific Multicast）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz40.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C18-16-04",
+          "question": "IPv4のSSM用に割り当てられた標準のアドレス範囲は？",
+          "answer": "<div class=\"answer-text\">232.0.0.0/8。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "マルチキャスト - SSM（Source Specific Multicast）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/multicastz40.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        }
+      ]
+    },
+    {
+      "deck_id": "chapter-19",
+      "revision": "d62a0696d7ababce346f91067a8f7cbea1c218f595652fe11720fd6729b6a2ef",
+      "title": "仮想化技術",
+      "subtitle": "ネスペイージス 第19章",
+      "knowledge_count": 0,
+      "question_count": 98,
+      "sections": 14,
+      "cards": [
+        {
+          "id": "C19-01-01",
+          "question": "サーバ仮想化とは何か。",
+          "answer": "<div class=\"answer-text\">1台の物理サーバ上で、複数の仮想サーバを独立して動作させる技術。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サーバ仮想化 - 仮想化とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-01-02",
+          "question": "サーバ仮想化で、各仮想マシンに割り当てる主なハードウェア資源は何か。",
+          "answer": "<div class=\"answer-text\">CPU、メモリ、ディスク、ネットワークインタフェース。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サーバ仮想化 - 仮想化とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-01-03",
+          "question": "仮想マシンごとに動作するOSを何というか。",
+          "answer": "<div class=\"answer-text\">ゲストOS。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サーバ仮想化 - 仮想化とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-01-04",
+          "question": "利用率の低い物理サーバを仮想化して集約する利点は何か。",
+          "answer": "<div class=\"answer-text\">資源の利用効率を高め、設置スペースや消費電力、保守費用を減らせる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サーバ仮想化 - 仮想化とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-01-05",
+          "question": "負荷のピーク時間が異なるサーバを同じ物理サーバに集約する利点は何か。",
+          "answer": "<div class=\"answer-text\">ピークが重なりにくく、物理サーバの資源を有効に使える。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サーバ仮想化 - 仮想化とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-01-06",
+          "question": "ホストOS型とハイパーバイザー型のサーバ仮想化は何が違うか。",
+          "answer": "<div class=\"answer-text\">ホストOS型はOS上の仮想化ソフトで動かし、ハイパーバイザー型はハードウェア上のハイパーバイザーが仮想マシンを管理する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サーバ仮想化 - 仮想化とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-01-07",
+          "question": "サーバ仮想化で物理ハードウェアを抽象化する利点は何か。",
+          "answer": "<div class=\"answer-text\">ゲストOSが仮想ハードウェアを利用するので、物理サーバの機種変更の影響を受けにくい。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サーバ仮想化 - 仮想化とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-01-08",
+          "question": "複数の仮想マシンを1台に集約した場合、物理サーバの故障はどこに影響するか。",
+          "answer": "<div class=\"answer-text\">その物理サーバで稼働するすべての仮想マシンに影響する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サーバ仮想化 - 仮想化とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-02-01",
+          "question": "仮想サーバが物理ネットワークに接続するとき、仮想NICと物理NICの間でフレームを中継するものは何か。",
+          "answer": "<div class=\"answer-text\">仮想スイッチ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サーバ仮想化 - 仮想サーバのネットワーク接続",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-02-02",
+          "question": "同じ仮想スイッチの同じVLANに接続した仮想マシン同士は、物理スイッチを経由せず通信できるか。",
+          "answer": "<div class=\"answer-text\">できる。仮想スイッチ内でフレームを転送できる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サーバ仮想化 - 仮想サーバのネットワーク接続",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-02-03",
+          "question": "仮想マシンの通信、管理、ストレージなどのトラフィックを分ける目的は何か。",
+          "answer": "<div class=\"answer-text\">トラフィック同士の干渉や帯域の競合を減らすため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サーバ仮想化 - 仮想サーバのネットワーク接続",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-02-04",
+          "question": "仮想サーバの物理NICを冗長化する目的は何か。",
+          "answer": "<div class=\"answer-text\">物理NICや接続先の障害時にも、別の経路で通信を継続するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サーバ仮想化 - 仮想サーバのネットワーク接続",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-02-05",
+          "question": "仮想スイッチと物理スイッチの間で複数のVLANを運ぶには、接続ポートをどのようにするか。",
+          "answer": "<div class=\"answer-text\">IEEE 802.1Qのタグを使うトランク接続にする。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サーバ仮想化 - 仮想サーバのネットワーク接続",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-03-01",
+          "question": "コンテナ型とハイパーバイザー型では、OSのカーネルの扱いがどう違うか。",
+          "answer": "<div class=\"answer-text\">コンテナ型はホストOSのカーネルを共有し、ハイパーバイザー型は仮想マシンごとにゲストOSのカーネルを持つ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サーバ仮想化 - ハイパーバイザー型とコンテナ型の違い",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-03-02",
+          "question": "コンテナが仮想マシンより軽量で、起動も速い主な理由は何か。",
+          "answer": "<div class=\"answer-text\">コンテナごとにゲストOSを起動せず、ホストOSのカーネルを共有するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サーバ仮想化 - ハイパーバイザー型とコンテナ型の違い",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-03-03",
+          "question": "ホストOSのカーネルに障害が起きた場合、コンテナにはどのような影響があるか。",
+          "answer": "<div class=\"answer-text\">そのカーネルを共有するコンテナ全体に影響する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サーバ仮想化 - ハイパーバイザー型とコンテナ型の違い",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-03-04",
+          "question": "異なる種類のOSカーネルを同じ物理サーバ上で動かすには、コンテナ型とハイパーバイザー型のどちらが適しているか。",
+          "answer": "<div class=\"answer-text\">ゲストOSごとにカーネルを持てるハイパーバイザー型。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サーバ仮想化 - ハイパーバイザー型とコンテナ型の違い",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-03-05",
+          "question": "コンテナにアプリケーションと必要なライブラリをまとめる利点は何か。",
+          "answer": "<div class=\"answer-text\">アプリケーションの実行環境をまとめて配布・再現しやすい。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "サーバ仮想化 - ハイパーバイザー型とコンテナ型の違い",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-04-01",
+          "question": "VDIでは、利用者のデスクトップ環境をどこで動作させるか。",
+          "answer": "<div class=\"answer-text\">サーバ上の仮想マシンで動作させる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VDI（デスクトップ仮想化）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-04-02",
+          "question": "VDIで端末とサーバの間を主にやり取りする情報は何か。",
+          "answer": "<div class=\"answer-text\">端末からのキーボード・マウス入力と、サーバからの画面情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VDI（デスクトップ仮想化）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-04-03",
+          "question": "VDIでOSやアプリケーションの管理を集約しやすいのはなぜか。",
+          "answer": "<div class=\"answer-text\">利用者のデスクトップ環境がサーバ側に集まっているため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VDI（デスクトップ仮想化）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-04-04",
+          "question": "VDIが端末の紛失による情報漏えいのリスクを減らせるのはなぜか。",
+          "answer": "<div class=\"answer-text\">業務データをサーバ側で扱い、端末内へのデータ保存を減らせるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VDI（デスクトップ仮想化）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-04-05",
+          "question": "シンクライアントとは、どのような端末か。",
+          "answer": "<div class=\"answer-text\">処理やデータ管理を主にサーバに任せ、必要最小限の機能を持つ端末。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VDI（デスクトップ仮想化）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-04-06",
+          "question": "VDIとネットワークブート型では、OSやアプリケーションの実行場所がどう違うか。",
+          "answer": "<div class=\"answer-text\">VDIはサーバ側で実行し、ネットワークブート型はサーバからOSを読み込んで端末側で実行する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VDI（デスクトップ仮想化）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-04-07",
+          "question": "SBC方式とVDI方式では、利用者ごとのOSの扱いがどう違うか。",
+          "answer": "<div class=\"answer-text\">SBCは1つのサーバOSを複数の利用者で共有し、VDIは利用者ごとに仮想マシンのOSを使う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VDI（デスクトップ仮想化）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-04-08",
+          "question": "ブレードPC方式とVDI方式では、利用者に割り当てるPC環境がどう違うか。",
+          "answer": "<div class=\"answer-text\">ブレードPC方式は物理PCを割り当て、VDI方式は仮想マシンを割り当てる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VDI（デスクトップ仮想化）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-04-09",
+          "question": "VDIでネットワークの遅延や通信断が業務に影響するのはなぜか。",
+          "answer": "<div class=\"answer-text\">画面転送と操作入力の通信が必要で、デスクトップの利用がネットワークに依存するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VDI（デスクトップ仮想化）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-05-01",
+          "question": "VXLANは、L3ネットワーク上に何を構築する技術か。",
+          "answer": "<div class=\"answer-text\">論理的なL2ネットワーク。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VXLANとは、EVPN/VXLANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-05-02",
+          "question": "VXLANは、イーサネットフレームをどのプロトコルでカプセル化するか。",
+          "answer": "<div class=\"answer-text\">UDP/IP。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VXLANとは、EVPN/VXLANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-05-03",
+          "question": "VXLANで論理ネットワークを識別する値を何というか。",
+          "answer": "<div class=\"answer-text\">VNI（VXLAN Network Identifier）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VXLANとは、EVPN/VXLANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-05-04",
+          "question": "VXLANのVNIは何ビットか。また、およそいくつのネットワークを識別できるか。",
+          "answer": "<div class=\"answer-text\">24ビットで、約1,600万。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VXLANとは、EVPN/VXLANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-05-05",
+          "question": "VXLANがVLANより大規模なネットワーク分離に向くのはなぜか。",
+          "answer": "<div class=\"answer-text\">識別子が24ビットあり、12ビットのVLAN IDより多くのネットワークを識別できるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VXLANとは、EVPN/VXLANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-05-06",
+          "question": "VXLANのVTEPは、どのような役割を持つか。",
+          "answer": "<div class=\"answer-text\">VXLANトンネルの端点として、フレームのカプセル化とカプセル化解除を行う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VXLANとは、EVPN/VXLANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-05-07",
+          "question": "VXLANを使うと、仮想マシンの移動に伴うIPアドレスの変更を避けられるのはなぜか。",
+          "answer": "<div class=\"answer-text\">物理的なL3ネットワークにまたがる論理的なL2ネットワークを構成できるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VXLANとは、EVPN/VXLANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-05-08",
+          "question": "IPv4を使うVXLANで、外側のEthernetヘッダを含めた通常のカプセル化のオーバーヘッドは何バイトか。",
+          "answer": "<div class=\"answer-text\">50バイト。Ethernetが14、IPv4が20、UDPが8、VXLANが8バイト。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VXLANとは、EVPN/VXLANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-05-09",
+          "question": "EVPN/VXLANでは、コントロールプレーンとデータプレーンをそれぞれ何が担うか。",
+          "answer": "<div class=\"answer-text\">コントロールプレーンはEVPN、データプレーンはVXLAN。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VXLANとは、EVPN/VXLANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-05-10",
+          "question": "EVPNでは、MACアドレスやIPアドレスなどの到達情報をどのプロトコルで交換するか。",
+          "answer": "<div class=\"answer-text\">MP-BGP。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VXLANとは、EVPN/VXLANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-05-11",
+          "question": "EVPNでMAC・IPの到達情報を事前に交換すると、ARPリクエストのフラッディングを減らせるのはなぜか。",
+          "answer": "<div class=\"answer-text\">学習した対応情報を使って、問い合わせを広く転送せずに応答できるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VXLANとは、EVPN/VXLANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-05-12",
+          "question": "VXLANのBUMトラフィックとは、どの3種類の通信か。",
+          "answer": "<div class=\"answer-text\">ブロードキャスト、宛先不明のユニキャスト、マルチキャスト。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VXLANとは、EVPN/VXLANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-05-13",
+          "question": "EVPNのオールアクティブ・マルチホーミングでは、複数の接続リンクをどのように使えるか。",
+          "answer": "<div class=\"answer-text\">冗長化した複数のリンクを同時に使用できる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VXLANとは、EVPN/VXLANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-05-14",
+          "question": "EVPNでイーサネットセグメントを一意に識別する値を何というか。",
+          "answer": "<div class=\"answer-text\">ESI（Ethernet Segment Identifier）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VXLANとは、EVPN/VXLANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-05-15",
+          "question": "EVPNのEVIは何を表すか。",
+          "answer": "<div class=\"answer-text\">EVPNインスタンス。EVPNにおけるVPNを表す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VXLANとは、EVPN/VXLANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-06-01",
+          "question": "SaaS、PaaS、IaaSは、それぞれ何をサービスとして提供するか。",
+          "answer": "<div class=\"answer-text\">SaaSはアプリケーション、PaaSはアプリケーションの実行基盤、IaaSはサーバ・ストレージ・ネットワークなどの基盤。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "クラウドとは、SaaS、PaaS、IaaSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-06-02",
+          "question": "クラウドのIaaSで、利用者側が管理する主なソフトウェアは何か。",
+          "answer": "<div class=\"answer-text\">OS、ミドルウェア、アプリケーション。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "クラウドとは、SaaS、PaaS、IaaSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-06-03",
+          "question": "PaaSを使うと、アプリケーション開発者のどのような作業を減らせるか。",
+          "answer": "<div class=\"answer-text\">OSやミドルウェアなど、実行基盤を構築・管理する作業。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "クラウドとは、SaaS、PaaS、IaaSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-06-04",
+          "question": "オンプレミスとは、どのようなシステムの運用形態か。",
+          "answer": "<div class=\"answer-text\">自社で機器などを用意し、自社側の設備でシステムを構築・運用する形態。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "クラウドとは、SaaS、PaaS、IaaSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-06-05",
+          "question": "クラウドでは、物理サーバを自社調達する場合に比べて、なぜ利用開始を早められるか。",
+          "answer": "<div class=\"answer-text\">提供済みの基盤から必要な資源を割り当てて利用できるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "クラウドとは、SaaS、PaaS、IaaSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-07-01",
+          "question": "IoTとは何か。",
+          "answer": "<div class=\"answer-text\">様々なモノをネットワークに接続し、データの収集や状態の把握、制御などを行う仕組み。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-07-02",
+          "question": "LPWAには、通信速度や消費電力にどのような特徴があるか。",
+          "answer": "<div class=\"answer-text\">低速だが低消費電力で、広い範囲を通信できる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-07-03",
+          "question": "LPWAは、どのようなデータの送信に向いているか。",
+          "answer": "<div class=\"answer-text\">センサ値など、少量のデータを低頻度で送る用途。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-07-04",
+          "question": "MQTTのパブリッシュ／サブスクライブ型通信では、送信者と受信者の間で何がメッセージを仲介するか。",
+          "answer": "<div class=\"answer-text\">ブローカー。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-07-05",
+          "question": "MQTTで受信者が購読する、メッセージの分類・配信先を表すものは何か。",
+          "answer": "<div class=\"answer-text\">トピック。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-07-06",
+          "question": "MQTTのパブリッシュ／サブスクライブ型通信では、送信者は個々の受信者を知る必要があるか。",
+          "answer": "<div class=\"answer-text\">ない。送信者はブローカーに発行し、ブローカーが購読者へ配信する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-07-07",
+          "question": "MQTTは、トランスポート層で主に何を使うか。",
+          "answer": "<div class=\"answer-text\">TCP。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-07-08",
+          "question": "MQTTの通信をTLSで保護する方式を何というか。",
+          "answer": "<div class=\"answer-text\">MQTTS。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-07-09",
+          "question": "CoAPは、どのような機器向けのプロトコルか。",
+          "answer": "<div class=\"answer-text\">処理能力や通信資源に制約がある機器向けの、軽量なリソース操作用プロトコル。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-07-10",
+          "question": "基本的なCoAP通信は、トランスポート層で何を使うか。",
+          "answer": "<div class=\"answer-text\">UDP。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-07-11",
+          "question": "UDPを使うCoAP通信を暗号化するために利用する仕組みは何か。",
+          "answer": "<div class=\"answer-text\">DTLS。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IoT（Internet of Things：モノのインターネット）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/virtual5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-08-01",
+          "question": "SDNとは、ネットワークをどのように制御する考え方か。",
+          "answer": "<div class=\"answer-text\">ネットワーク機器の制御をソフトウェアにより集中的・柔軟に行う考え方。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - SDN",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn01.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-08-02",
+          "question": "SDNで分離するコントロールプレーンとデータプレーンは、それぞれ何を行うか。",
+          "answer": "<div class=\"answer-text\">コントロールプレーンは転送方法を決め、データプレーンはその指示に従ってパケットを転送する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - SDN",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn01.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-08-03",
+          "question": "SDNの3つの層は何か。",
+          "answer": "<div class=\"answer-text\">アプリケーション層、コントロール層、インフラストラクチャ層。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - SDN",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn01.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-08-04",
+          "question": "SDNのサウスバウンドAPIは、何と何を接続するインタフェースか。",
+          "answer": "<div class=\"answer-text\">コントローラとネットワーク機器。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - SDN",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn01.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-08-05",
+          "question": "SDNのノースバウンドAPIは、何と何を接続するインタフェースか。",
+          "answer": "<div class=\"answer-text\">アプリケーションとコントローラ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - SDN",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn01.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-08-06",
+          "question": "OpenFlowとSDNは、どのような関係にあるか。",
+          "answer": "<div class=\"answer-text\">OpenFlowは、SDNを実現するための技術の一つ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - SDN",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn01.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-09-01",
+          "question": "SDNのホップバイホップ方式では、コントローラは各スイッチに何を設定するか。",
+          "answer": "<div class=\"answer-text\">パケットの転送ルール。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - SDN - ホップバイホップ、オーバーレイ",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn06.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-09-02",
+          "question": "SDNのオーバーレイ方式では、物理ネットワークの上に論理ネットワークをどのように構成するか。",
+          "answer": "<div class=\"answer-text\">端点間をトンネルで結び、パケットをカプセル化して運ぶ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - SDN - ホップバイホップ、オーバーレイ",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn06.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-09-03",
+          "question": "オーバーレイを運ぶアンダーレイの中継機器には、基本的にどのような転送機能があればよいか。",
+          "answer": "<div class=\"answer-text\">トンネルの外側のIPパケットを転送できること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - SDN - ホップバイホップ、オーバーレイ",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn06.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-10-01",
+          "question": "OpenFlowのフローテーブルには、主にどのような情報を設定するか。",
+          "answer": "<div class=\"answer-text\">パケットの照合条件と、条件に一致したときの処理。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - SDN - OpenFlowとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn02.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-10-02",
+          "question": "OpenFlowのフローの照合条件にできる情報には、どのようなものがあるか。",
+          "answer": "<div class=\"answer-text\">入力ポート、MACアドレス、VLAN ID、IPアドレス、TCP・UDPのポート番号など。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - SDN - OpenFlowとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn02.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-10-03",
+          "question": "OpenFlowのフローで指定するアクションには、どのようなものがあるか。",
+          "answer": "<div class=\"answer-text\">指定ポートへの転送、破棄、ヘッダの書換えなど。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - SDN - OpenFlowとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn02.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-10-04",
+          "question": "OpenFlowのPacket-Inは、どこからどこへ何を通知するメッセージか。",
+          "answer": "<div class=\"answer-text\">スイッチからコントローラへ、パケットや関連情報を通知する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - SDN - OpenFlowとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn02.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-10-05",
+          "question": "OpenFlowのPacket-Outは、どこからどこへ何を指示するメッセージか。",
+          "answer": "<div class=\"answer-text\">コントローラからスイッチへ、パケットの送出を指示する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - SDN - OpenFlowとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn02.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-10-06",
+          "question": "OpenFlowのFlow-Modは何を行うメッセージか。",
+          "answer": "<div class=\"answer-text\">コントローラがスイッチのフローエントリを追加・変更・削除する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - SDN - OpenFlowとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn02.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-10-07",
+          "question": "OpenFlowでは、すべてのパケットをコントローラへ送ってから転送する必要があるか。",
+          "answer": "<div class=\"answer-text\">ない。スイッチが設定済みのフローに従って処理できる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - SDN - OpenFlowとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn02.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-11-01",
+          "question": "NFVは、専用機器で提供していたネットワーク機能をどのように実現するか。",
+          "answer": "<div class=\"answer-text\">汎用サーバ上などで動作するソフトウェアとして実現する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - NFV ( Network Functions Virtualization )",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn07.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-11-02",
+          "question": "NFVで、仮想化したファイアウォールやルータなどのネットワーク機能を何というか。",
+          "answer": "<div class=\"answer-text\">VNF（Virtual Network Function）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - NFV ( Network Functions Virtualization )",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn07.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-11-03",
+          "question": "SDNとNFVは、それぞれ何に着目した技術か。",
+          "answer": "<div class=\"answer-text\">SDNはネットワーク制御と転送の分離・制御の自動化、NFVはネットワーク機能のソフトウェア化。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - NFV ( Network Functions Virtualization )",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn07.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-11-04",
+          "question": "サービスファンクションチェイニングとは何か。",
+          "answer": "<div class=\"answer-text\">通信を複数のネットワーク機能に、決めた順番で通す仕組み。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク仮想化 - NFV ( Network Functions Virtualization )",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn02.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-12-01",
+          "question": "APIとは、ソフトウェア同士にとってどのようなものか。",
+          "answer": "<div class=\"answer-text\">ソフトウェアの機能やデータを別のソフトウェアから利用するためのインタフェース。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク自動化とプログラマビリティ - REST APIとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn09.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-12-02",
+          "question": "REST APIでは、操作対象のリソースを何で識別するか。",
+          "answer": "<div class=\"answer-text\">URI。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク自動化とプログラマビリティ - REST APIとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn09.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-12-03",
+          "question": "REST APIでは、リソースへの操作の種類を主に何で表すか。",
+          "answer": "<div class=\"answer-text\">GET、POST、PUT、DELETEなどのHTTPメソッド。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク自動化とプログラマビリティ - REST APIとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn09.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-12-04",
+          "question": "REST APIの処理結果を、HTTPレスポンスのどの情報で表すか。",
+          "answer": "<div class=\"answer-text\">ステータスコード。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク自動化とプログラマビリティ - REST APIとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn09.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-12-05",
+          "question": "REST APIのステートレスとは、リクエストを処理するための情報をどのように扱うことか。",
+          "answer": "<div class=\"answer-text\">各リクエスト自体に、処理に必要な情報を含めること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク自動化とプログラマビリティ - REST APIとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn09.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-12-06",
+          "question": "REST APIでデータを表現する形式には、どのようなものがあるか。",
+          "answer": "<div class=\"answer-text\">JSONやXMLなど。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク自動化とプログラマビリティ - REST APIとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn09.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-12-07",
+          "question": "YAMLでは、データの階層構造を主に何で表すか。",
+          "answer": "<div class=\"answer-text\">インデント。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク自動化とプログラマビリティ - REST APIとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn09.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-13-01",
+          "question": "構成管理ツールで複数のサーバや機器の設定を自動化する利点は何か。",
+          "answer": "<div class=\"answer-text\">同じ手順を繰り返し適用でき、設定作業の負担や機器間の設定差異を減らせる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク自動化とプログラマビリティ - Ansible/Puppet/Chef",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-13-02",
+          "question": "Ansibleがエージェントレスと呼ばれるのはなぜか。",
+          "answer": "<div class=\"answer-text\">管理対象に専用の常駐エージェントを導入せず、SSHやAPIなどで操作できるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク自動化とプログラマビリティ - Ansible/Puppet/Chef",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-13-03",
+          "question": "Ansibleで、実行する設定や作業の手順を記述するファイルを何というか。",
+          "answer": "<div class=\"answer-text\">Playbook。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク自動化とプログラマビリティ - Ansible/Puppet/Chef",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-13-04",
+          "question": "AnsibleのPlaybookは、主にどの形式で記述するか。",
+          "answer": "<div class=\"answer-text\">YAML。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク自動化とプログラマビリティ - Ansible/Puppet/Chef",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-13-05",
+          "question": "AnsibleのInventoryには何を記述するか。",
+          "answer": "<div class=\"answer-text\">管理対象のホストやグループ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ネットワーク自動化とプログラマビリティ - Ansible/Puppet/Chef",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn10.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-14-01",
+          "question": "SD-WANでは、WANのどのような制御や運用をソフトウェアで行うか。",
+          "answer": "<div class=\"answer-text\">拠点間の接続、経路選択、通信ポリシーや設定などを集中的に管理する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SD-WANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-14-02",
+          "question": "SD-WANのオーバーレイを構成する下位回線には、どのようなものを利用できるか。",
+          "answer": "<div class=\"answer-text\">インターネット回線やMPLS網など、異なる種類・事業者の回線。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SD-WANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-14-03",
+          "question": "SD-WANで通信経路を選択するときに用いる、回線品質の主な指標は何か。",
+          "answer": "<div class=\"answer-text\">遅延、ジッタ、パケット損失率など。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SD-WANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-14-04",
+          "question": "SD-WANでアプリケーションごとに経路を選ぶ目的は何か。",
+          "answer": "<div class=\"answer-text\">各アプリケーションの通信品質の要件に合う経路を使うため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SD-WANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-14-05",
+          "question": "SD-WANなどで使うZTPとは、どのような仕組みか。",
+          "answer": "<div class=\"answer-text\">機器の起動後に必要な設定を自動取得し、現地での手動設定を減らす仕組み。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SD-WANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-14-06",
+          "question": "ローカルブレイクアウトとは、インターネット向け通信をどこから出すことか。",
+          "answer": "<div class=\"answer-text\">各拠点から直接インターネットへ出すこと。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SD-WANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-14-07",
+          "question": "ローカルブレイクアウトは、データセンターに通信を集約する構成のどのような問題を改善するか。",
+          "answer": "<div class=\"answer-text\">データセンター経由による迂回や、集約回線の帯域不足を減らせる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SD-WANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn11.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C19-14-08",
+          "question": "ハイブリッドWANとは、どのような回線構成か。",
+          "answer": "<div class=\"answer-text\">閉域網とインターネットなど、性質の異なるWAN回線を組み合わせる構成。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "SD-WANとは",
+          "sources": [
+            "https://www.infraexpert.com/study/sdn11.html"
           ],
           "kind": "",
           "knowledge_ids": []
