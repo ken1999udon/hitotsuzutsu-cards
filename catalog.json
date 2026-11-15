@@ -1,5 +1,5 @@
 {
-  "revision": "324711a3084a165bd6115516513c4cfbf95202f0a93bd8538a015c3909e17c4c",
+  "revision": "83e152ff9ffae1efe7acb93ca065539e21e7fb482a99ccbf3f9fbe49e431d76a",
   "decks": [
     {
       "deck_id": "chapter-01",
@@ -6459,6 +6459,2811 @@
           "section_title": "IP Unnumbered（IPアンナンバード）とは",
           "sources": [
             "https://www.infraexpert.com/study/ip13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        }
+      ]
+    },
+    {
+      "deck_id": "chapter-06",
+      "revision": "f6d17d9568ce20efb76cd1be6f1610cbce1054c5b9be45dbbf8361dec3d4c86d",
+      "title": "WANとインターネット",
+      "subtitle": "ネスペイージス 第6章",
+      "knowledge_count": 0,
+      "question_count": 63,
+      "sections": 10,
+      "cards": [
+        {
+          "id": "C06-01-01",
+          "question": "WANサービスのSLAとは何か。",
+          "answer": "<div class=\"answer-text\">事業者と利用者が合意する、サービス品質の保証内容。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN ( Wide Area Network ) とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wan.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-01-02",
+          "question": "広域イーサネットとIP-VPNは、それぞれ主にどの層の接続サービスか。",
+          "answer": "<div class=\"answer-text\">広域イーサネットはL2、IP-VPNはL3。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN ( Wide Area Network ) とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wan.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-02-01",
+          "question": "WANでいうDTEとDCEの役割の違いは？",
+          "answer": "<div class=\"answer-text\">DTEはデータを送受信する端末側の機器、DCEは回線を終端し網との信号を変換する機器。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "基本構成とデバイス",
+          "sources": [
+            "https://www.infraexpert.com/study/wan2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-02-02",
+          "question": "同期式のシリアル回線で、DTEにクロックを供給する側は？",
+          "answer": "<div class=\"answer-text\">DCE。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "基本構成とデバイス",
+          "sources": [
+            "https://www.infraexpert.com/study/wan2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-02-03",
+          "question": "CPEとは、どこに設置する通信機器の総称か。",
+          "answer": "<div class=\"answer-text\">サービス加入者の宅内に設置する通信機器。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "基本構成とデバイス",
+          "sources": [
+            "https://www.infraexpert.com/study/wan2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-02-04",
+          "question": "ONUは、主にどのような信号を相互変換する？",
+          "answer": "<div class=\"answer-text\">光回線の光信号と、宅内機器側の電気信号。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "基本構成とデバイス",
+          "sources": [
+            "https://www.infraexpert.com/study/wan2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-02-05",
+          "question": "WANの責任分界点は、何の境界を示す？",
+          "answer": "<div class=\"answer-text\">通信事業者と利用者の、設備の管理・保守責任の境界。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "基本構成とデバイス",
+          "sources": [
+            "https://www.infraexpert.com/study/wan2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-03-01",
+          "question": "専用型の回線と交換型の回線は、利用者間の回線利用がどう違う？",
+          "answer": "<div class=\"answer-text\">専用型は利用者が占有し、交換型は複数の利用者が共用する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( 専用線、PSTN、ISDN )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-03-02",
+          "question": "回線交換とパケット交換の基本的な違いは？",
+          "answer": "<div class=\"answer-text\">回線交換は通信中の回線を確保し、パケット交換はデータを分割して共用網で転送する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( 専用線、PSTN、ISDN )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-03-03",
+          "question": "ISDNのBチャネルとDチャネルの役割は？",
+          "answer": "<div class=\"answer-text\">Bは音声やデータの伝送、Dは接続制御などのシグナリング。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( 専用線、PSTN、ISDN )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-03-04",
+          "question": "ISDNの基本インターフェースの「2B＋D」は、何を意味する？",
+          "answer": "<div class=\"answer-text\">64kbpsのBチャネル2本と、16kbpsのDチャネル1本。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( 専用線、PSTN、ISDN )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-04-01",
+          "question": "ネットワークの輻輳とは、どのような状態か。",
+          "answer": "<div class=\"answer-text\">トラフィックが集中し、回線や機器の処理が混雑している状態。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-04-02",
+          "question": "仮想回線のPVCとSVCは、接続の作り方がどう違う？",
+          "answer": "<div class=\"answer-text\">PVCはあらかじめ固定し、SVCは必要時に動的に確立する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-04-03",
+          "question": "フレームリレーのDLCIは、何を識別する？",
+          "answer": "<div class=\"answer-text\">仮想回線。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-04-04",
+          "question": "フレームリレーのDLCI番号は、網全体で一意である必要があるか。",
+          "answer": "<div class=\"answer-text\">ない。ローカルな接続区間で意味を持つ識別子。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-04-05",
+          "question": "フレームリレーのCIRとは何か。",
+          "answer": "<div class=\"answer-text\">契約で定めた、仮想回線ごとの保証情報速度。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-04-06",
+          "question": "フレームリレーのFECNとBECNは、輻輳をどちらへ通知する？",
+          "answer": "<div class=\"answer-text\">FECNは宛先方向、BECNは送信元方向。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-04-07",
+          "question": "ATMで転送の基本単位となる固定長データを何という？",
+          "answer": "<div class=\"answer-text\">セル。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-04-08",
+          "question": "ATMセルの全長と、ヘッダ・データ部の長さは？",
+          "answer": "<div class=\"answer-text\">全長53バイト、ヘッダ5バイト、データ48バイト。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-04-09",
+          "question": "ATMで仮想的な接続を識別する主な2つの情報は？",
+          "answer": "<div class=\"answer-text\">VPI（仮想パス識別子）とVCI（仮想チャネル識別子）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-04-10",
+          "question": "ATMのAALが、上位層データに対して行う主な処理は？",
+          "answer": "<div class=\"answer-text\">セルのデータ部に収まるよう分割し、受信側で組み立て直す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( フレームリレー、ATM )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-05-01",
+          "question": "MPLSは、主に何の情報に基づいてパケットを転送する？",
+          "answer": "<div class=\"answer-text\">パケットに付けたラベル。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-05-02",
+          "question": "Ethernetで運ぶMPLSパケットのラベルは、どこに付ける？",
+          "answer": "<div class=\"answer-text\">L2ヘッダとIPヘッダの間。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-05-03",
+          "question": "MPLSのラベルスタックの1エントリは何バイトか。",
+          "answer": "<div class=\"answer-text\">4バイト。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-05-04",
+          "question": "MPLSのLERとLSRは、主な役割がどう違う？",
+          "answer": "<div class=\"answer-text\">LERは網の入口・出口でラベルを付け外しし、LSRはラベルを付け替えて網内を転送する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-05-05",
+          "question": "MPLSのLSPとは何か。",
+          "answer": "<div class=\"answer-text\">ラベルに基づいて転送される、片方向のパス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-05-06",
+          "question": "MPLSのFECとは、どのようなパケットの集まりか。",
+          "answer": "<div class=\"answer-text\">同じ転送処理を受けるパケットの集まり。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-05-07",
+          "question": "MPLSで、ラベルと転送先の対応情報を配る標準プロトコルの一つは？",
+          "answer": "<div class=\"answer-text\">LDP。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-05-08",
+          "question": "IP-VPNのCEルータとPEルータは、どちら側に位置する？",
+          "answer": "<div class=\"answer-text\">CEは利用者側、PEは通信事業者の網の端。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-05-09",
+          "question": "MPLS-VPNのVPNラベルは、何を識別するために付ける？",
+          "answer": "<div class=\"answer-text\">利用者ごとに分離されたVPNの転送先。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-05-10",
+          "question": "MPLS-VPNで、PE間のVPN経路やラベルの通知に使うプロトコルは？",
+          "answer": "<div class=\"answer-text\">MP-BGP。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-05-11",
+          "question": "広域イーサネットでは、離れた拠点を同じIPサブネットとして接続できるか。",
+          "answer": "<div class=\"answer-text\">できる。拠点間をL2で接続できるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-05-12",
+          "question": "IP-VPNと広域イーサネットは、利用者が使えるL3プロトコルでどう違う？",
+          "answer": "<div class=\"answer-text\">IP-VPNはIPに限定され、広域イーサネットはEthernetで運べるL3プロトコルを扱える。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-05-13",
+          "question": "Q-in-Qで、複数企業が同じ顧客VLAN IDを使っても識別できる理由は？",
+          "answer": "<div class=\"answer-text\">事業者側の外側のVLANタグで、利用者を分離するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "WAN 回線の種類 ( IP-VPN、広域イーサネット )",
+          "sources": [
+            "https://www.infraexpert.com/study/wan5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-06-01",
+          "question": "PPPが主に使われる、2点間を直接結ぶ接続形態は？",
+          "answer": "<div class=\"answer-text\">ポイントツーポイント接続。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HDLC と PPP",
+          "sources": [
+            "https://www.infraexpert.com/study/wan6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-06-02",
+          "question": "PPPのLCPとNCPの役割の違いは？",
+          "answer": "<div class=\"answer-text\">LCPはリンクの確立・維持・切断、NCPはネットワーク層プロトコルの設定・制御。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HDLC と PPP",
+          "sources": [
+            "https://www.infraexpert.com/study/wan6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-06-03",
+          "question": "PPPでIPv4の設定を交渉するNCPは？",
+          "answer": "<div class=\"answer-text\">IPCP。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HDLC と PPP",
+          "sources": [
+            "https://www.infraexpert.com/study/wan6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-06-04",
+          "question": "認証を行うPPP接続の、確立手順の順番は？",
+          "answer": "<div class=\"answer-text\">LCPによるリンク確立 → 認証 → NCPによるネットワーク層の設定。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HDLC と PPP",
+          "sources": [
+            "https://www.infraexpert.com/study/wan6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-06-05",
+          "question": "PPPのマルチリンク機能は、複数の回線をどう扱う？",
+          "answer": "<div class=\"answer-text\">複数のPPPリンクを、1本の論理リンクとして扱う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HDLC と PPP",
+          "sources": [
+            "https://www.infraexpert.com/study/wan6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-06-06",
+          "question": "PAP認証で、パスワード送信上の問題は？",
+          "answer": "<div class=\"answer-text\">パスワードを平文で送ること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HDLC と PPP",
+          "sources": [
+            "https://www.infraexpert.com/study/wan6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-06-07",
+          "question": "CHAPは、パスワードをそのまま送らずに何を返す？",
+          "answer": "<div class=\"answer-text\">チャレンジと共有秘密から計算したハッシュ値。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HDLC と PPP",
+          "sources": [
+            "https://www.infraexpert.com/study/wan6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-06-08",
+          "question": "CHAP認証の3段階のやり取りは？",
+          "answer": "<div class=\"answer-text\">チャレンジ → レスポンス → 成功・失敗の通知。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "HDLC と PPP",
+          "sources": [
+            "https://www.infraexpert.com/study/wan6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-07-01",
+          "question": "ADSLの「非対称」は、何が異なることを意味する？",
+          "answer": "<div class=\"answer-text\">上りと下りの通信速度。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ADSLインターネット / CATVインターネット",
+          "sources": [
+            "https://www.infraexpert.com/study/wan7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-07-02",
+          "question": "ADSLで、電話の音声とデータ通信を分離する装置は？",
+          "answer": "<div class=\"answer-text\">スプリッタ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ADSLインターネット / CATVインターネット",
+          "sources": [
+            "https://www.infraexpert.com/study/wan7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-07-03",
+          "question": "メタル線を使うDSLで、伝送距離が長いと速度が下がりやすい理由は？",
+          "answer": "<div class=\"answer-text\">信号の減衰やノイズの影響が大きくなるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ADSLインターネット / CATVインターネット",
+          "sources": [
+            "https://www.infraexpert.com/study/wan7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-07-04",
+          "question": "CATVのHFCは、どの2種類の伝送媒体を組み合わせる構成か。",
+          "answer": "<div class=\"answer-text\">光ファイバと同軸ケーブル。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ADSLインターネット / CATVインターネット",
+          "sources": [
+            "https://www.infraexpert.com/study/wan7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-07-05",
+          "question": "CATV網側で、ケーブルモデムと通信する終端装置は？",
+          "answer": "<div class=\"answer-text\">CMTS。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ADSLインターネット / CATVインターネット",
+          "sources": [
+            "https://www.infraexpert.com/study/wan7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-08-01",
+          "question": "FTTHは、収容局から加入者宅までの区間に何を使う？",
+          "answer": "<div class=\"answer-text\">光ファイバ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FTTHインターネット",
+          "sources": [
+            "https://www.infraexpert.com/study/wan8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-08-02",
+          "question": "FTTHのSS方式とPON方式は、光回線の使い方がどう違う？",
+          "answer": "<div class=\"answer-text\">SSは加入者ごとに1対1で接続し、PONは途中で分岐して複数加入者で共有する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FTTHインターネット",
+          "sources": [
+            "https://www.infraexpert.com/study/wan8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-08-03",
+          "question": "PONのOLTとONUは、それぞれどこに設置する？",
+          "answer": "<div class=\"answer-text\">OLTは事業者の収容局、ONUは加入者側。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FTTHインターネット",
+          "sources": [
+            "https://www.infraexpert.com/study/wan8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-08-04",
+          "question": "PONで、光信号を分岐する光スプリッタには給電が必要か。",
+          "answer": "<div class=\"answer-text\">不要。受動的な光部品で分岐する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FTTHインターネット",
+          "sources": [
+            "https://www.infraexpert.com/study/wan8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-08-05",
+          "question": "PONの上り通信でTDMAを使う目的は？",
+          "answer": "<div class=\"answer-text\">ONUごとの送信時刻をずらし、共有回線での信号の衝突を防ぐため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FTTHインターネット",
+          "sources": [
+            "https://www.infraexpert.com/study/wan8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-08-06",
+          "question": "PONの下り通信で、ONUは受信した信号をどう扱う？",
+          "answer": "<div class=\"answer-text\">共有された下り信号から、自分宛てのデータを取り出す。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FTTHインターネット",
+          "sources": [
+            "https://www.infraexpert.com/study/wan8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-08-07",
+          "question": "WDMは、1本の光ファイバで信号を何によって分ける？",
+          "answer": "<div class=\"answer-text\">光の波長。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FTTHインターネット",
+          "sources": [
+            "https://www.infraexpert.com/study/wan8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-08-08",
+          "question": "PONで、上りと下りを異なる波長にする利点は？",
+          "answer": "<div class=\"answer-text\">1本の光ファイバで、両方向の信号を同時に運べる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "FTTHインターネット",
+          "sources": [
+            "https://www.infraexpert.com/study/wan8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-09-01",
+          "question": "PPPoEは、何の上でPPPを利用するプロトコルか。",
+          "answer": "<div class=\"answer-text\">Ethernet。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "PPPoEとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wan9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-09-02",
+          "question": "PPPoEのDiscoveryステージで決める主な情報は？",
+          "answer": "<div class=\"answer-text\">接続相手のMACアドレスと、PPPoEセッションID。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "PPPoEとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wan9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-09-03",
+          "question": "PPPoEのDiscovery後のPPPセッションステージでは、主に何を行う？",
+          "answer": "<div class=\"answer-text\">PPPのリンク確立、認証、IPアドレスなどの設定交渉。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "PPPoEとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wan9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-09-04",
+          "question": "PPPoEを使うと、通常のEthernetよりIPのMTUが小さくなり得る理由は？",
+          "answer": "<div class=\"answer-text\">PPPoEやPPPのヘッダ分の領域が必要になるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "PPPoEとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wan9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-09-05",
+          "question": "PPPoEのMTUを、すべての回線で同じ値と決めてよいか。",
+          "answer": "<div class=\"answer-text\">決められない。サービス側の仕様や経路の制約も確認する必要がある。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "PPPoEとは",
+          "sources": [
+            "https://www.infraexpert.com/study/wan9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-10-01",
+          "question": "IXは、何を相互接続するための場所・仕組みか。",
+          "answer": "<div class=\"answer-text\">ISPなどの異なるネットワーク。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IX（Internet Exchange）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wan19.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-10-02",
+          "question": "ピアリングとトランジットの違いは？",
+          "answer": "<div class=\"answer-text\">ピアリングは相互のネットワーク間で通信を交換し、トランジットは他のネットワークからインターネット全体への接続性を提供してもらう。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IX（Internet Exchange）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wan19.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C06-10-03",
+          "question": "IXを利用してピアリングすると、トランジットの費用を抑えられる理由は？",
+          "answer": "<div class=\"answer-text\">一部の通信を、上位事業者経由ではなく相手ネットワークと直接交換できるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "IX（Internet Exchange）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/wan19.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        }
+      ]
+    },
+    {
+      "deck_id": "chapter-07",
+      "revision": "5980986cfaa843cc53aebe8559c50a09f2aac39b35347861ce97179737e58a7b",
+      "title": "ルーティング",
+      "subtitle": "ネスペイージス 第7章",
+      "knowledge_count": 0,
+      "question_count": 77,
+      "sections": 19,
+      "cards": [
+        {
+          "id": "C07-01-01",
+          "question": "通常のIPルーティングは、パケットのどのアドレスに基づいて転送先を選ぶ？",
+          "answer": "<div class=\"answer-text\">宛先IPアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ルーティングとは",
+          "sources": [
+            "https://www.infraexpert.com/study/routing.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-01-02",
+          "question": "ロンゲストマッチとは、複数の経路からどれを選ぶ規則か。",
+          "answer": "<div class=\"answer-text\">宛先に一致する経路のうち、プレフィックス長が最も長い経路。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ルーティングとは",
+          "sources": [
+            "https://www.infraexpert.com/study/routing.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-01-03",
+          "question": "ルーティングのネクストホップとは何か。",
+          "answer": "<div class=\"answer-text\">宛先へ向けて、次にパケットを渡す隣接ルータ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ルーティングとは",
+          "sources": [
+            "https://www.infraexpert.com/study/routing.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-01-04",
+          "question": "宛先に一致する経路もデフォルトルートもない場合、通常パケットをどうする？",
+          "answer": "<div class=\"answer-text\">破棄する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ルーティングとは",
+          "sources": [
+            "https://www.infraexpert.com/study/routing.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-02-01",
+          "question": "直接接続ルートとは何か。",
+          "answer": "<div class=\"answer-text\">ルータ自身のインターフェースが直接つながるネットワークへの経路。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ルーティングテーブルの見方",
+          "sources": [
+            "https://www.infraexpert.com/study/routing2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-02-02",
+          "question": "ルーティングテーブルで、宛先ネットワーク以外に確認する主な転送情報は？",
+          "answer": "<div class=\"answer-text\">次ホップと出力インターフェース。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ルーティングテーブルの見方",
+          "sources": [
+            "https://www.infraexpert.com/study/routing2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-03-01",
+          "question": "スタティックルーティングは、経路をどのように設定する？",
+          "answer": "<div class=\"answer-text\">管理者が手動で設定する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "スタティックルーティング",
+          "sources": [
+            "https://www.infraexpert.com/study/routing3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-03-02",
+          "question": "スタティックルートを使う通信で、往路だけでなく復路の経路確認も必要な理由は？",
+          "answer": "<div class=\"answer-text\">応答パケットも送信元へ戻れる必要があるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "スタティックルーティング",
+          "sources": [
+            "https://www.infraexpert.com/study/routing3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-03-03",
+          "question": "IPv4のデフォルトルートを、プレフィックスで表すと？",
+          "answer": "<div class=\"answer-text\">0.0.0.0/0。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "スタティックルーティング",
+          "sources": [
+            "https://www.infraexpert.com/study/routing3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-03-04",
+          "question": "デフォルトルートは、どのような場合に選ばれる？",
+          "answer": "<div class=\"answer-text\">宛先に一致する、より具体的な経路がない場合。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "スタティックルーティング",
+          "sources": [
+            "https://www.infraexpert.com/study/routing3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-04-01",
+          "question": "ダイナミックルーティングは、経路情報をどう更新する？",
+          "answer": "<div class=\"answer-text\">ルーティングプロトコルで情報を交換し、自動的に更新する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ダイナミックルーティング ( 概要 )",
+          "sources": [
+            "https://www.infraexpert.com/study/routing5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-04-02",
+          "question": "経路変更への追従で、ダイナミックルーティングを使う利点は？",
+          "answer": "<div class=\"answer-text\">障害や構成変更を学習し、利用できる別経路へ切り替えられる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ダイナミックルーティング ( 概要 )",
+          "sources": [
+            "https://www.infraexpert.com/study/routing5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-04-03",
+          "question": "スタティックルーティングに比べ、ダイナミックルーティングで増える機器側の負担は？",
+          "answer": "<div class=\"answer-text\">経路情報の交換や計算に使うCPU・メモリ・通信量。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ダイナミックルーティング ( 概要 )",
+          "sources": [
+            "https://www.infraexpert.com/study/routing5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-05-01",
+          "question": "ルーティングでいうASとは何か。",
+          "answer": "<div class=\"answer-text\">共通の管理・経路制御ポリシーで運用するネットワークの集合。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ダイナミックルーティング ( 詳細 )",
+          "sources": [
+            "https://www.infraexpert.com/study/routing6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-05-02",
+          "question": "IGPとEGPは、経路情報を交換する範囲がどう違う？",
+          "answer": "<div class=\"answer-text\">IGPはAS内、EGPはAS間。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ダイナミックルーティング ( 詳細 )",
+          "sources": [
+            "https://www.infraexpert.com/study/routing6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-05-03",
+          "question": "AS内で使う標準的なIGPを2つ挙げると？",
+          "answer": "<div class=\"answer-text\">OSPF、IS-IS。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ダイナミックルーティング ( 詳細 )",
+          "sources": [
+            "https://www.infraexpert.com/study/routing6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-05-04",
+          "question": "経路制御のコンバージェンスとは何か。",
+          "answer": "<div class=\"answer-text\">経路変更が伝わり、ルータの経路情報が安定した状態へ収束すること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ダイナミックルーティング ( 詳細 )",
+          "sources": [
+            "https://www.infraexpert.com/study/routing6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-05-05",
+          "question": "ディスタンスベクタ型とリンクステート型は、経路計算に使う情報がどう違う？",
+          "answer": "<div class=\"answer-text\">前者は隣接ルータから得た距離と方向、後者はリンク状態から作るネットワークの構造。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ダイナミックルーティング ( 詳細 )",
+          "sources": [
+            "https://www.infraexpert.com/study/routing6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-05-06",
+          "question": "リンクステート型が、最短経路の計算に使う代表的なアルゴリズムは？",
+          "answer": "<div class=\"answer-text\">SPF（ダイクストラ法）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ダイナミックルーティング ( 詳細 )",
+          "sources": [
+            "https://www.infraexpert.com/study/routing6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-05-07",
+          "question": "クラスフルとクラスレスのルーティングプロトコルは、通知情報がどう違う？",
+          "answer": "<div class=\"answer-text\">クラスフルはサブネットマスクを通知せず、クラスレスは通知する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ダイナミックルーティング ( 詳細 )",
+          "sources": [
+            "https://www.infraexpert.com/study/routing6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-05-08",
+          "question": "クラスレスな経路通知が、VLSMを利用できる理由は？",
+          "answer": "<div class=\"answer-text\">経路ごとのプレフィックス長を相手に伝えられるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ダイナミックルーティング ( 詳細 )",
+          "sources": [
+            "https://www.infraexpert.com/study/routing6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-05-09",
+          "question": "経路集約とは、どのような処理か。",
+          "answer": "<div class=\"answer-text\">複数のネットワークへの経路を、共通する短いプレフィックスの経路にまとめる処理。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ダイナミックルーティング ( 詳細 )",
+          "sources": [
+            "https://www.infraexpert.com/study/routing6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-05-10",
+          "question": "クラスフルな自動集約が、不連続サブネットで問題になる理由は？",
+          "answer": "<div class=\"answer-text\">異なる場所のサブネットが同じ集約経路として通知され、正しい行き先を区別できなくなるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ダイナミックルーティング ( 詳細 )",
+          "sources": [
+            "https://www.infraexpert.com/study/routing6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-06-01",
+          "question": "同じプレフィックスを複数のルーティングプロトコルから学習した場合、メトリックをそのまま数値比較してよいか。",
+          "answer": "<div class=\"answer-text\">比較できない。メトリックの意味が異なるため、経路情報源の優先度も考慮する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ルーティング - ADとは",
+          "sources": [
+            "https://www.infraexpert.com/study/routing7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-07-01",
+          "question": "ルーティングのメトリックとは何か。",
+          "answer": "<div class=\"answer-text\">あるルーティング方式の中で、経路の良さを比較するための指標。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ルーティング - メトリックとは",
+          "sources": [
+            "https://www.infraexpert.com/study/routing9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-07-02",
+          "question": "RIPとOSPFが使う代表的なメトリックは？",
+          "answer": "<div class=\"answer-text\">RIPはホップ数、OSPFはリンクごとのコストの合計。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ルーティング - メトリックとは",
+          "sources": [
+            "https://www.infraexpert.com/study/routing9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-07-03",
+          "question": "RIPで最少ホップの経路が、最大帯域の経路とは限らない理由は？",
+          "answer": "<div class=\"answer-text\">ホップ数だけでは、回線ごとの帯域幅を評価しないため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ルーティング - メトリックとは",
+          "sources": [
+            "https://www.infraexpert.com/study/routing9.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-08-01",
+          "question": "フローティングスタティックルートとは何か。",
+          "answer": "<div class=\"answer-text\">通常使う経路より優先度を下げ、主経路が失われたときに使う予備の静的経路。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "フローティングスタティックルートとは",
+          "sources": [
+            "https://www.infraexpert.com/study/routing12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-09-01",
+          "question": "ECMPは、どのような複数経路へ通信を分散する？",
+          "answer": "<div class=\"answer-text\">同じ宛先に到達する、等しいコストの複数経路。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ECMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/routing13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-09-02",
+          "question": "ECMPのパケット単位とフロー単位の負荷分散の違いは？",
+          "answer": "<div class=\"answer-text\">パケット単位は個々のパケットで経路を選び、フロー単位は同じ通信を同じ経路へ割り当てる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ECMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/routing13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-09-03",
+          "question": "ECMPのパケット単位の分散で、注意が必要な受信上の問題は？",
+          "answer": "<div class=\"answer-text\">経路間の遅延差などにより、パケットの到着順が入れ替わること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ECMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/routing13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-09-04",
+          "question": "ECMPをフロー単位で分散しても、各経路の通信量が均等とは限らない理由は？",
+          "answer": "<div class=\"answer-text\">フローごとのデータ量や、経路に割り当てられるフロー数が異なるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ECMPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/routing13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-10-01",
+          "question": "VRRPを使うホストは、デフォルトゲートウェイに何を指定する？",
+          "answer": "<div class=\"answer-text\">仮想ルータの仮想IPアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "デフォルトゲートウェイの冗長化",
+          "sources": [
+            "https://www.infraexpert.com/study/routing8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-10-02",
+          "question": "ゲートウェイを仮想IPで冗長化する利点は？",
+          "answer": "<div class=\"answer-text\">稼働ルータが切り替わっても、ホストのゲートウェイ設定を変えずに済む。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "デフォルトゲートウェイの冗長化",
+          "sources": [
+            "https://www.infraexpert.com/study/routing8.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-11-01",
+          "question": "VRRPは、どのような役割の機器を冗長化する標準プロトコルか。",
+          "answer": "<div class=\"answer-text\">デフォルトゲートウェイなどのL3機器。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VRRPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/fhrpz06.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-11-02",
+          "question": "従来のVRRP用語で、マスタールータとバックアップルータの役割は？",
+          "answer": "<div class=\"answer-text\">マスターが仮想ルータ宛てのパケットを転送し、バックアップは障害時に引き継ぐ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VRRPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/fhrpz06.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-11-03",
+          "question": "VRRPのバックアップルータは、主に何の途絶でマスターの障害を検知する？",
+          "answer": "<div class=\"answer-text\">マスターからのアドバタイズメント。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VRRPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/fhrpz06.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-11-04",
+          "question": "VRRPのプライオリティは、大きい方と小さい方のどちらを優先する？",
+          "answer": "<div class=\"answer-text\">大きい方。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VRRPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/fhrpz06.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-11-05",
+          "question": "VRRPの仮想IPアドレスオーナーとは何か。",
+          "answer": "<div class=\"answer-text\">仮想IPアドレスと同じアドレスを、自身の実インターフェースに持つルータ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VRRPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/fhrpz06.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-11-06",
+          "question": "IPv4のVRRPアドバタイズメントの宛先マルチキャストアドレスは？",
+          "answer": "<div class=\"answer-text\">224.0.0.18。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VRRPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/fhrpz06.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-11-07",
+          "question": "VRRPのIPプロトコル番号は？",
+          "answer": "<div class=\"answer-text\">112。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VRRPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/fhrpz06.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-11-08",
+          "question": "IPv4のVRRPで使う仮想MACアドレスは、何の値によって区別する？",
+          "answer": "<div class=\"answer-text\">VRID（仮想ルータID）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "VRRPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/fhrpz06.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-13-01",
+          "question": "ICMPリダイレクトは、送信元ホストへ何を通知する？",
+          "answer": "<div class=\"answer-text\">特定の宛先への、より適切なゲートウェイ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ICMPリダイレクトとは",
+          "sources": [
+            "https://www.infraexpert.com/study/fhrpz12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-13-02",
+          "question": "ICMPリダイレクトで、より適切なゲートウェイを通知する典型的な場面は？",
+          "answer": "<div class=\"answer-text\">ルータが、受信したパケットを同じLAN上の別ルータへ転送する場面。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ICMPリダイレクトとは",
+          "sources": [
+            "https://www.infraexpert.com/study/fhrpz12.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-14-01",
+          "question": "Proxy ARPは、誰に代わってARP応答する機能か。",
+          "answer": "<div class=\"answer-text\">問い合わせ対象のホストに代わり、ルータなどが代理応答する機能。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Proxy ARP（プロキシARP）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/gateway.htm"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-14-02",
+          "question": "ルータがProxy ARPで代理応答するとき、通常どの機器のMACアドレスを返す？",
+          "answer": "<div class=\"answer-text\">代理応答するルータ自身のMACアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "Proxy ARP（プロキシARP）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/gateway.htm"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-15-01",
+          "question": "BGPは、経路制御アルゴリズムの分類では何型か。",
+          "answer": "<div class=\"answer-text\">パスベクタ型。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz01.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-15-02",
+          "question": "BGPが、インターネットで主に交換するのはAS内とAS間のどちらの経路情報か。",
+          "answer": "<div class=\"answer-text\">AS間の経路情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz01.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-15-03",
+          "question": "BGPが利用するトランスポート層プロトコルとサーバポート番号は？",
+          "answer": "<div class=\"answer-text\">TCP、179番。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz01.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-15-04",
+          "question": "BGPでは、変更のない経路も定期的にすべて送り直すか。",
+          "answer": "<div class=\"answer-text\">送り直さない。初期交換後は、主に変更分を通知する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz01.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-15-05",
+          "question": "AS_PATHを使って、BGPが経路のループを防ぐ基本的な方法は？",
+          "answer": "<div class=\"answer-text\">経路に自分のAS番号が含まれていれば、その経路を受け入れない。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz01.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-15-06",
+          "question": "4バイトAS番号は、従来のAS番号の何を拡張したものか。",
+          "answer": "<div class=\"answer-text\">識別子の長さを2バイトから4バイトへ拡張したもの。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGPとは",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz01.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-16-01",
+          "question": "スタブASとは、外部ASとの接続がどのようなASか。",
+          "answer": "<div class=\"answer-text\">外部の1つのASとだけ接続するAS。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGP - スタブAS、トランジットAS、ノントランジットAS",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz04.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-16-02",
+          "question": "トランジットASと非トランジットASの違いは？",
+          "answer": "<div class=\"answer-text\">トランジットASは外部AS間の通信を中継し、非トランジットASは中継しない。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGP - スタブAS、トランジットAS、ノントランジットAS",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz04.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-16-03",
+          "question": "複数ISPに接続した企業が非トランジットASにする際、外部へ広告する経路をどうする？",
+          "answer": "<div class=\"answer-text\">他の外部ASから受けた経路を中継せず、自ASの経路を広告する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGP - スタブAS、トランジットAS、ノントランジットAS",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz04.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-17-01",
+          "question": "BGPのパス属性は、何のために経路へ付ける？",
+          "answer": "<div class=\"answer-text\">経路の特徴を表し、ポリシーに沿って経路を選ぶため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGP - パス属性（パスアトリビュート）の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz05.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-17-02",
+          "question": "BGPのAS_PATH属性は、何を記録する？",
+          "answer": "<div class=\"answer-text\">経路が通過してきたASの並び。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGP - パス属性（パスアトリビュート）の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz05.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-17-03",
+          "question": "BGPのNEXT_HOP属性は、何を示す？",
+          "answer": "<div class=\"answer-text\">その経路の次ホップとなるIPアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGP - パス属性（パスアトリビュート）の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz05.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-17-04",
+          "question": "BGP経路を転送に使うため、NEXT_HOPについて必要な条件は？",
+          "answer": "<div class=\"answer-text\">その次ホップへIPで到達できること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGP - パス属性（パスアトリビュート）の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz05.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-17-05",
+          "question": "BGPのLOCAL_PREFは、値が大きい方と小さい方のどちらを優先する？",
+          "answer": "<div class=\"answer-text\">大きい方。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGP - パス属性（パスアトリビュート）の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz05.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-17-06",
+          "question": "BGPのMEDは、比較対象となる経路間で値が大きい方と小さい方のどちらを優先する？",
+          "answer": "<div class=\"answer-text\">小さい方。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGP - パス属性（パスアトリビュート）の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz05.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-17-07",
+          "question": "BGPのOptional transitive属性を理解しないルータは、その属性をどう扱う？",
+          "answer": "<div class=\"answer-text\">認識できなくても、他のBGPルータへ引き継ぐ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGP - パス属性（パスアトリビュート）の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz05.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-17-08",
+          "question": "BGPが、常にAS_PATHの短さだけで経路を選ぶとはいえない理由は？",
+          "answer": "<div class=\"answer-text\">LOCAL_PREFなど、他の属性やポリシーも経路選択に使うため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGP - パス属性（パスアトリビュート）の一覧",
+          "sources": [
+            "https://www.infraexpert.com/study/bgpz05.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-18-01",
+          "question": "BGPのOPEN・UPDATE・KEEPALIVE・NOTIFICATIONの役割は？",
+          "answer": "<div class=\"answer-text\">接続の開始、経路情報の通知、生存確認、エラー通知。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGP - 完全解説",
+          "sources": [
+            "https://www.infraexpert.com/study/study60.html",
+            "https://www.infraexpert.com/study/bgpz02.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-18-02",
+          "question": "BGPで、ピア関係が確立して経路を交換できる状態は？",
+          "answer": "<div class=\"answer-text\">Established。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGP - 完全解説",
+          "sources": [
+            "https://www.infraexpert.com/study/study60.html",
+            "https://www.infraexpert.com/study/bgpz02.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-18-03",
+          "question": "IBGPとEBGPは、ピア関係を結ぶ相手がどう違う？",
+          "answer": "<div class=\"answer-text\">IBGPは同じAS内、EBGPは異なるAS間。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGP - 完全解説",
+          "sources": [
+            "https://www.infraexpert.com/study/study60.html",
+            "https://www.infraexpert.com/study/bgpz03.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-18-04",
+          "question": "通常のIBGPで、IBGPピアから学んだ経路を別のIBGPピアへそのまま再広告しないことへの対処は？",
+          "answer": "<div class=\"answer-text\">フルメッシュでピアを結ぶか、ルートリフレクタなどを使う。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGP - 完全解説",
+          "sources": [
+            "https://www.infraexpert.com/study/study60.html",
+            "https://www.infraexpert.com/study/bgpz03.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-18-05",
+          "question": "BGPテーブルとルーティングテーブルは、保持する経路がどう違う？",
+          "answer": "<div class=\"answer-text\">BGPテーブルは候補経路や属性を持ち、ルーティングテーブルには選択された経路が登録される。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "BGP - 完全解説",
+          "sources": [
+            "https://www.infraexpert.com/study/study60.html",
+            "https://www.infraexpert.com/study/bgpz03.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-19-01",
+          "question": "VRFは、1台のルータで何を分離する技術か。",
+          "answer": "<div class=\"answer-text\">ルーティングテーブルと転送情報を、複数の独立した領域に分ける。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NW仮想化技術 - VRFとは",
+          "sources": [
+            "https://www.infraexpert.com/study/mpls5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-19-02",
+          "question": "別々のVRFで、重複するIPアドレスの経路を持てる理由は？",
+          "answer": "<div class=\"answer-text\">VRFごとに独立したルーティングテーブルを使うため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NW仮想化技術 - VRFとは",
+          "sources": [
+            "https://www.infraexpert.com/study/mpls5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-19-03",
+          "question": "MPLS-VPNのPEルータで、顧客側インターフェースとVRFを関連付ける目的は？",
+          "answer": "<div class=\"answer-text\">受信パケットを、対応する顧客の経路情報で処理するため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NW仮想化技術 - VRFとは",
+          "sources": [
+            "https://www.infraexpert.com/study/mpls5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-20-01",
+          "question": "VPLSは、MPLS網上で何層のVPNを実現する技術か。",
+          "answer": "<div class=\"answer-text\">L2 VPN。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NW仮想化技術 - VPLSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/mpls13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-20-02",
+          "question": "VPLSのPEルータは、利用者のどのアドレスを学習してフレームを転送する？",
+          "answer": "<div class=\"answer-text\">MACアドレス。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NW仮想化技術 - VPLSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/mpls13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-20-03",
+          "question": "VPLSのコアにあるPルータは、利用者のMACアドレスをすべて学習する必要があるか。",
+          "answer": "<div class=\"answer-text\">ない。MPLSラベルに基づいて転送する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NW仮想化技術 - VPLSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/mpls13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-20-04",
+          "question": "VPLSのTunnelラベルとVCラベルの役割は？",
+          "answer": "<div class=\"answer-text\">外側のTunnelラベルはPE間の転送、内側のVCラベルはVPN内の接続の識別。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NW仮想化技術 - VPLSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/mpls13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-20-05",
+          "question": "VPLSのスプリットホライズンは、どのような折り返し転送を防ぐ？",
+          "answer": "<div class=\"answer-text\">MPLS網側から受けたフレームを、別のMPLS網側の接続へ再転送すること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NW仮想化技術 - VPLSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/mpls13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C07-20-06",
+          "question": "MAC-in-MACは、利用者のEthernetフレームをどう運ぶ？",
+          "answer": "<div class=\"answer-text\">事業者網用のMACヘッダを付け、Ethernetフレーム全体をさらにカプセル化して運ぶ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "NW仮想化技術 - VPLSとは",
+          "sources": [
+            "https://www.infraexpert.com/study/mpls13.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        }
+      ]
+    },
+    {
+      "deck_id": "chapter-08",
+      "revision": "d187ad14ab8e5cf480776dd53f852251cc6257fa07a984eacf69eac8813a8622",
+      "title": "ディスタンスベクタルーティング",
+      "subtitle": "ネスペイージス 第8章",
+      "knowledge_count": 0,
+      "question_count": 19,
+      "sections": 5,
+      "cards": [
+        {
+          "id": "C08-01-01",
+          "question": "RIPでいうディスタンスとベクタは、何を表す？",
+          "answer": "<div class=\"answer-text\">ディスタンスは宛先までの距離、ベクタは次ホップとなる方向。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ディスタンスベクタルーティングプロトコル - 動作",
+          "sources": [
+            "https://www.infraexpert.com/study/distancevector.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C08-01-02",
+          "question": "RIPでは、経路情報がルータを1台経由すると、ホップ数をどうする？",
+          "answer": "<div class=\"answer-text\">1増やす。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ディスタンスベクタルーティングプロトコル - 動作",
+          "sources": [
+            "https://www.infraexpert.com/study/distancevector.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C08-01-03",
+          "question": "RIPは、ネットワークに変化がなくても経路情報を送るか。",
+          "answer": "<div class=\"answer-text\">定期的に送る。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ディスタンスベクタルーティングプロトコル - 動作",
+          "sources": [
+            "https://www.infraexpert.com/study/distancevector.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C08-01-04",
+          "question": "RIPは、現在の次ホップから経路メトリックの悪化を通知されるとどうする？",
+          "answer": "<div class=\"answer-text\">その経路のメトリックを更新する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ディスタンスベクタルーティングプロトコル - 動作",
+          "sources": [
+            "https://www.infraexpert.com/study/distancevector.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C08-02-01",
+          "question": "ディスタンスベクタ型の無限カウントは、どのように発生する？",
+          "answer": "<div class=\"answer-text\">到達不能になった経路を互いに到達可能と誤認し、広告のたびにメトリックが増えていく。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ディスタンスベクタルーティングプロトコル - 問題点",
+          "sources": [
+            "https://www.infraexpert.com/study/distancevector2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C08-02-02",
+          "question": "RIPで到達可能な最大ホップ数と、到達不能を示す値は？",
+          "answer": "<div class=\"answer-text\">最大15ホップ、到達不能は16。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ディスタンスベクタルーティングプロトコル - 問題点",
+          "sources": [
+            "https://www.infraexpert.com/study/distancevector2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C08-02-03",
+          "question": "RIPの最大ホップ数が小さいことは、ネットワーク規模にどう影響する？",
+          "answer": "<div class=\"answer-text\">多段のルータを経由する、大規模なネットワークには適しにくい。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ディスタンスベクタルーティングプロトコル - 問題点",
+          "sources": [
+            "https://www.infraexpert.com/study/distancevector2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C08-02-04",
+          "question": "ルーティングループでは、パケットにどのようなことが起こる？",
+          "answer": "<div class=\"answer-text\">同じルータ間や経路を繰り返し巡回する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ディスタンスベクタルーティングプロトコル - 問題点",
+          "sources": [
+            "https://www.infraexpert.com/study/distancevector2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C08-03-01",
+          "question": "RIPのスプリットホライズンは、どのような経路広告を抑える？",
+          "answer": "<div class=\"answer-text\">あるインターフェースで学んだ経路を、同じインターフェースへ広告し返すこと。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ディスタンスベクタルーティングプロトコル - 機能",
+          "sources": [
+            "https://www.infraexpert.com/study/distancevector3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C08-03-02",
+          "question": "スプリットホライズンが、経路のループを抑える理由は？",
+          "answer": "<div class=\"answer-text\">経路を教えた相手が、その情報を迂回経路と誤認して再学習するのを防ぐため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ディスタンスベクタルーティングプロトコル - 機能",
+          "sources": [
+            "https://www.infraexpert.com/study/distancevector3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C08-03-03",
+          "question": "RIPのルートポイズニングは、利用不能の経路をどう通知する？",
+          "answer": "<div class=\"answer-text\">メトリックを16にして、到達不能として通知する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ディスタンスベクタルーティングプロトコル - 機能",
+          "sources": [
+            "https://www.infraexpert.com/study/distancevector3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C08-03-05",
+          "question": "単純なスプリットホライズンとポイズンリバースは、学習元への広告がどう違う？",
+          "answer": "<div class=\"answer-text\">前者はその経路を広告せず、後者は到達不能として広告する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ディスタンスベクタルーティングプロトコル - 機能",
+          "sources": [
+            "https://www.infraexpert.com/study/distancevector3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C08-04-01",
+          "question": "ホールドダウン機能を使う目的は？",
+          "answer": "<div class=\"answer-text\">障害直後の古い情報で、無効な経路を誤って復活させるのを抑えるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ディスタンスベクタルーティングプロトコル - 機能 2",
+          "sources": [
+            "https://www.infraexpert.com/study/distancevector4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C08-04-02",
+          "question": "RIPのトリガードアップデートとは何か。",
+          "answer": "<div class=\"answer-text\">定期更新を待たず、経路の変更をきっかけに送る更新通知。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ディスタンスベクタルーティングプロトコル - 機能 2",
+          "sources": [
+            "https://www.infraexpert.com/study/distancevector4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C08-04-03",
+          "question": "トリガードアップデートが、障害後の収束を早められる理由は？",
+          "answer": "<div class=\"answer-text\">次の定期更新を待たずに、変更を隣接ルータへ伝えられるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ディスタンスベクタルーティングプロトコル - 機能 2",
+          "sources": [
+            "https://www.infraexpert.com/study/distancevector4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C08-04-04",
+          "question": "ルートポイズニングとトリガードアップデートは、働きがどう違う？",
+          "answer": "<div class=\"answer-text\">前者は到達不能を表す方法、後者は変更を通知するタイミングの仕組み。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ディスタンスベクタルーティングプロトコル - 機能 2",
+          "sources": [
+            "https://www.infraexpert.com/study/distancevector4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C08-05-01",
+          "question": "RIPの定期アップデートの基本的な間隔は？",
+          "answer": "<div class=\"answer-text\">約30秒。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ディスタンスベクタルーティングプロトコル - タイマー",
+          "sources": [
+            "https://www.infraexpert.com/study/distancevector5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C08-05-02",
+          "question": "RIPの経路タイムアウトは、何を基準に測る？",
+          "answer": "<div class=\"answer-text\">その経路の有効な更新を最後に受信した時点。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ディスタンスベクタルーティングプロトコル - タイマー",
+          "sources": [
+            "https://www.infraexpert.com/study/distancevector5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C08-05-03",
+          "question": "RIPで、一定期間更新されない経路を無効にする理由は？",
+          "answer": "<div class=\"answer-text\">到達性が失われた可能性のある古い経路を、使い続けないため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "ディスタンスベクタルーティングプロトコル - タイマー",
+          "sources": [
+            "https://www.infraexpert.com/study/distancevector5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        }
+      ]
+    },
+    {
+      "deck_id": "chapter-09",
+      "revision": "c9f2359f1a764952ec051e47974372abc1d60c068aefdb0ba73164fb84c03fa8",
+      "title": "リンクステートルーティング",
+      "subtitle": "ネスペイージス 第9章",
+      "knowledge_count": 0,
+      "question_count": 53,
+      "sections": 10,
+      "cards": [
+        {
+          "id": "C09-01-01",
+          "question": "リンクステート型のルータが、リンク状態の情報を格納するデータベースは？",
+          "answer": "<div class=\"answer-text\">LSDB（リンクステートデータベース）。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "リンクステートルーティングプロトコルとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-01-02",
+          "question": "OSPFのLSAには、主にどのような情報が含まれる？",
+          "answer": "<div class=\"answer-text\">ルータのリンクやネットワークの状態を表す情報。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "リンクステートルーティングプロトコルとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-01-03",
+          "question": "OSPFで作るSPFツリーは、どのルータを根として計算する？",
+          "answer": "<div class=\"answer-text\">計算するルータ自身。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "リンクステートルーティングプロトコルとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz1.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-02-01",
+          "question": "OSPFv2が主に扱うIPのバージョンと、IPv6へ対応したOSPFのバージョンは？",
+          "answer": "<div class=\"answer-text\">OSPFv2はIPv4、IPv6へ対応したものはOSPFv3。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - 基本動作",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-02-02",
+          "question": "OSPFのHelloパケットの主な役割は？",
+          "answer": "<div class=\"answer-text\">隣接ルータの発見と、生存確認による関係の維持。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - 基本動作",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-02-03",
+          "question": "IPv4のEthernet上で、全OSPFルータを表すマルチキャストアドレスは？",
+          "answer": "<div class=\"answer-text\">224.0.0.5。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - 基本動作",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-02-04",
+          "question": "OSPFが、同じエリア内のトポロジ情報を共有するために交換するものは？",
+          "answer": "<div class=\"answer-text\">LSA。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - 基本動作",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-02-05",
+          "question": "OSPFでは、宛先への経路のコストをどう求める？",
+          "answer": "<div class=\"answer-text\">経路上で送出する各リンクのコストを加算する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - 基本動作",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-02-06",
+          "question": "OSPFで、合計コストの小さい経路と大きい経路のどちらを優先する？",
+          "answer": "<div class=\"answer-text\">小さい経路。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - 基本動作",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-02-07",
+          "question": "OSPFのリンクコストは、帯域幅だけで自動決定しなければならないか。",
+          "answer": "<div class=\"answer-text\">手動で設定することもできる。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - 基本動作",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz2.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-03-01",
+          "question": "OSPFルータがリンク状態の変化を検出すると、他のルータへ何を伝える？",
+          "answer": "<div class=\"answer-text\">変更を反映した新しいLSA。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - トポロジ変更時の動作",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-03-02",
+          "question": "OSPFで新しいLSAを受けたルータは、経路情報をどう更新する？",
+          "answer": "<div class=\"answer-text\">LSDBを更新し、必要なSPF計算を行って経路へ反映する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - トポロジ変更時の動作",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz3.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-04-01",
+          "question": "OSPFでエリアを分ける主な目的は？",
+          "answer": "<div class=\"answer-text\">詳細なリンク状態情報や計算の影響範囲を絞り、ルータの負荷を抑えるため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - エリアとは、ABR/ASBRとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-04-02",
+          "question": "OSPFのバックボーンエリアのエリアIDは？",
+          "answer": "<div class=\"answer-text\">0。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - エリアとは、ABR/ASBRとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-04-04",
+          "question": "OSPFのABRとは、どのようなルータか。",
+          "answer": "<div class=\"answer-text\">複数のOSPFエリアを接続するエリア境界ルータ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - エリアとは、ABR/ASBRとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-04-05",
+          "question": "OSPFのASBRは、主に何を行うルータか。",
+          "answer": "<div class=\"answer-text\">OSPF外部の経路を、OSPFへ取り込んで広告するルータ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - エリアとは、ABR/ASBRとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-04-06",
+          "question": "OSPFのABRは、複数エリアのLSDBをどう保持する？",
+          "answer": "<div class=\"answer-text\">エリアごとに分けて保持する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - エリアとは、ABR/ASBRとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-04-07",
+          "question": "OSPFの内部ルータとバックボーンルータは、所属するエリアでどう定義する？",
+          "answer": "<div class=\"answer-text\">内部ルータは全OSPFインターフェースが同じエリアに属し、バックボーンルータはエリア0に接続する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - エリアとは、ABR/ASBRとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-04-08",
+          "question": "OSPFでエリア間へ経路を集約する設定は、主にどのルータで行う？",
+          "answer": "<div class=\"answer-text\">ABR。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - エリアとは、ABR/ASBRとは",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz4.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-05-01",
+          "question": "OSPFが直接使うIPプロトコル番号は？",
+          "answer": "<div class=\"answer-text\">89。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - パケットフォーマット、5種類のパケット",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-05-02",
+          "question": "OSPFは、TCP/UDPのどちらでパケットを運ぶ？",
+          "answer": "<div class=\"answer-text\">どちらも使わず、IPで直接運ぶ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - パケットフォーマット、5種類のパケット",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-05-03",
+          "question": "OSPFのルータIDは、何ビットの識別子か。",
+          "answer": "<div class=\"answer-text\">32ビット。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - パケットフォーマット、5種類のパケット",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-05-04",
+          "question": "OSPFのDBDパケットは、LSDBについて何を伝える？",
+          "answer": "<div class=\"answer-text\">保持しているLSAの概要の一覧。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - パケットフォーマット、5種類のパケット",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-05-05",
+          "question": "OSPFのLSRとLSUは、役割がどう違う？",
+          "answer": "<div class=\"answer-text\">LSRは必要なLSAの要求、LSUはLSAの送信。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - パケットフォーマット、5種類のパケット",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-05-06",
+          "question": "OSPFのLSAckは、何のためのパケットか。",
+          "answer": "<div class=\"answer-text\">LSAの受信を確認するための応答。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - パケットフォーマット、5種類のパケット",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-05-07",
+          "question": "OSPFのHello間隔とDead間隔は、隣接ルータ間でどう合わせる必要がある？",
+          "answer": "<div class=\"answer-text\">それぞれ一致させる必要がある。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - パケットフォーマット、5種類のパケット",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-05-08",
+          "question": "OSPFのDead間隔とは、何の時間か。",
+          "answer": "<div class=\"answer-text\">Helloを受信できなくなってから、ネイバーが停止したと判断するまでの時間。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - パケットフォーマット、5種類のパケット",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-05-09",
+          "question": "Ethernet上のOSPFネイバー関係が成立しないとき、タイマー以外に確認する代表的な設定は？",
+          "answer": "<div class=\"answer-text\">エリアID、認証、エリア種別、ネットワークマスクなど。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - パケットフォーマット、5種類のパケット",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz5.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-06-01",
+          "question": "OSPFの2-Way状態は、何が確認できた状態か。",
+          "answer": "<div class=\"answer-text\">双方が、相手からのHelloを受信していること。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - ネイバー関係、アジャセンシ―関係",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-06-02",
+          "question": "OSPFのFull状態は、何が完了した状態か。",
+          "answer": "<div class=\"answer-text\">隣接ルータ間のLSDBの同期。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - ネイバー関係、アジャセンシ―関係",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-06-03",
+          "question": "OSPFのExchange状態では、主にどのパケットを交換する？",
+          "answer": "<div class=\"answer-text\">DBDパケット。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - ネイバー関係、アジャセンシ―関係",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-06-04",
+          "question": "OSPFのLoading状態では、主に何を行う？",
+          "answer": "<div class=\"answer-text\">不足しているLSAを要求し、受信する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - ネイバー関係、アジャセンシ―関係",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-06-05",
+          "question": "OSPFでMTUの不一致があると、どの処理で問題になり得る？",
+          "answer": "<div class=\"answer-text\">DBDの交換など、隣接関係を完成させる同期処理。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - ネイバー関係、アジャセンシ―関係",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz6.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-07-01",
+          "question": "Ethernetなどのマルチアクセス網で、OSPFがDR/BDRを選ぶ目的は？",
+          "answer": "<div class=\"answer-text\">LSDBを同期する隣接関係や、LSA交換の負荷を減らすため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - DR/BDR",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-07-02",
+          "question": "OSPFのDRとBDRの役割は？",
+          "answer": "<div class=\"answer-text\">DRは代表ルータ、BDRはDR障害時に引き継ぐ予備の代表ルータ。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - DR/BDR",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-07-03",
+          "question": "OSPFのDR/BDRに選ばれなかったルータを何という？",
+          "answer": "<div class=\"answer-text\">DROTHER。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - DR/BDR",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-07-04",
+          "question": "OSPFのDR/BDRは、エリア全体とセグメントごとのどちらで選ぶ？",
+          "answer": "<div class=\"answer-text\">セグメントごと。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - DR/BDR",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-07-05",
+          "question": "OSPFのDR/BDRを新たに選ぶとき、プライオリティとルータIDをどう比較する？",
+          "answer": "<div class=\"answer-text\">まずプライオリティが大きい候補を優先し、同じならルータIDが大きい候補を優先する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - DR/BDR",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-07-06",
+          "question": "OSPFのプライオリティを0にしたインターフェースは、DR/BDRになれるか。",
+          "answer": "<div class=\"answer-text\">なれない。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - DR/BDR",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-07-07",
+          "question": "OSPFのブロードキャスト網で、DROTHER同士の関係は通常どの状態で止まる？",
+          "answer": "<div class=\"answer-text\">2-Way。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - DR/BDR",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-07-08",
+          "question": "IPv4で、OSPFのDR/BDR宛てに使うマルチキャストアドレスは？",
+          "answer": "<div class=\"answer-text\">224.0.0.6。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - DR/BDR",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz7.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-08-01",
+          "question": "OSPFv2のLSAタイプ1は、誰が生成し、何を広告する？",
+          "answer": "<div class=\"answer-text\">各ルータが生成し、自身のリンク状態を広告する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - LSA Type 1、2、3",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-08-02",
+          "question": "OSPFv2のLSAタイプ2は、誰が生成し、何を広告する？",
+          "answer": "<div class=\"answer-text\">DRが生成し、そのマルチアクセスネットワークと接続ルータを広告する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - LSA Type 1、2、3",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-08-03",
+          "question": "OSPFv2のLSAタイプ1・2を配布する範囲は？",
+          "answer": "<div class=\"answer-text\">生成されたエリア内。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - LSA Type 1、2、3",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-08-04",
+          "question": "OSPFv2のLSAタイプ3は、誰が生成し、何を広告する？",
+          "answer": "<div class=\"answer-text\">ABRが生成し、他エリアのネットワークへの経路を広告する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - LSA Type 1、2、3",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz15.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-09-01",
+          "question": "OSPFv2のLSAタイプ4は、何への到達性を広告する？",
+          "answer": "<div class=\"answer-text\">別エリアにいるASBRへの到達性。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - LSA Type 4、5、7",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-09-02",
+          "question": "OSPFv2のLSAタイプ5は、誰が生成し、何を広告する？",
+          "answer": "<div class=\"answer-text\">ASBRが生成し、OSPF外部の経路を広告する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - LSA Type 4、5、7",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-09-03",
+          "question": "OSPFの外部経路タイプE1とE2は、コスト計算がどう違う？",
+          "answer": "<div class=\"answer-text\">E1は外部コストにOSPF内部の到達コストを加え、E2は外部コストを主な比較値とする。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - LSA Type 4、5、7",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-09-04",
+          "question": "OSPFのNSSAでは、外部経路の広告にどのLSAタイプを使う？",
+          "answer": "<div class=\"answer-text\">タイプ7。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - LSA Type 4、5、7",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-09-05",
+          "question": "OSPFのNSSAに置いたASBRは、何のために使う？",
+          "answer": "<div class=\"answer-text\">NSSA内から、OSPF外部の経路を取り込むため。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - LSA Type 4、5、7",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz16.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-10-01",
+          "question": "OSPFの仮想リンクは、何への論理的な接続を作る？",
+          "answer": "<div class=\"answer-text\">バックボーンエリア（エリア0）への接続。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - 仮想リンク（バーチャルリンク）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz25.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-10-02",
+          "question": "OSPFの仮想リンクを作る両端のルータは、物理的に直接接続している必要があるか。",
+          "answer": "<div class=\"answer-text\">ない。共通するトランジットエリアを介して論理接続する。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - 仮想リンク（バーチャルリンク）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz25.html"
+          ],
+          "kind": "",
+          "knowledge_ids": []
+        },
+        {
+          "id": "C09-10-03",
+          "question": "OSPFの仮想リンクを定義する際に指定する、基本的な2つの情報は？",
+          "answer": "<div class=\"answer-text\">トランジットエリアと、対向ルータのルータID。</div>",
+          "html": true,
+          "section": "",
+          "section_title": "OSPF - 仮想リンク（バーチャルリンク）とは",
+          "sources": [
+            "https://www.infraexpert.com/study/ospfz25.html"
           ],
           "kind": "",
           "knowledge_ids": []
